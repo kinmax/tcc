@@ -1,7 +1,7 @@
 require 'json'
 
-problem_path = File.join(File.dirname(__FILE__), ARGV[0])
-goal_path = File.join(File.dirname(__FILE__), ARGV[1])
+problem_path = ARGV[0]
+goal_path = ARGV[1]
 problem_file = File.open(problem_path, 'r')
 goal_file = File.open(goal_path, 'r')
 problem = problem_file.read

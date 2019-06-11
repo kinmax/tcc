@@ -2,9 +2,10 @@
 
 require 'byebug'
 
-dataset_path = "/home/kin/dataset-copy"
+dataset_path = "/home/kingusmao/dataset-copy"
 untarcmd = "tar -xjf "
 tarcmd = "tar cvfj "
+percentages = %w(10 30 50 70 100).freeze
 
 
 Dir.foreach(dataset_path) do |domain|
@@ -13,7 +14,7 @@ Dir.foreach(dataset_path) do |domain|
     end
 
     Dir.foreach("#{dataset_path}/#{domain}") do |percent|
-        if percent == "." || percent == ".." || percent == "README.md" || percent == ".zenodo.json" || percent == ".git" || percent == ".gitignore"
+        unless percentages.include?(percent)
             next
         end
 
@@ -23,6 +24,13 @@ Dir.foreach(dataset_path) do |domain|
             end
             puts tar
             system(untarcmd + "#{dataset_path}/#{domain}/#{percent}/#{tar} > /dev/null" )
+            if(domain == "blocks-world")
+                domain_file = File.open("domain.pddl", "r")
+                dom = domain_file.read
+                domain_file.close
+                dom.gsub!("-block", "- block")
+                File.write("domain.pddl", dom)
+            end
             system("ruby problem_formatter.rb template.pddl real_hyp.dat template.pddl > /dev/null")
             system(tarcmd + "#{dataset_path}/#{domain}/#{percent}/#{tar} *.dat *.pddl > /dev/null")
         end

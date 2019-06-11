@@ -31,7 +31,7 @@ Dir.foreach(dataset_path) do |domain|
                 dom.gsub!("-block", "- block")
                 File.write("domain.pddl", dom)
             end
-            system("ruby problem_formatter.rb template.pddl real_hyp.dat template.pddl > /dev/null")
+            #system("ruby problem_formatter.rb template.pddl real_hyp.dat template.pddl > /dev/null")
             system(tarcmd + "#{dataset_path}/#{domain}/#{percent}/#{tar} *.dat *.pddl > /dev/null")
         end
     end

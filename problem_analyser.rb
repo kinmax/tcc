@@ -109,7 +109,7 @@ candidates.each do |candidate|
     landmarks = landmarks.split("\n")
     landmarks.each do |lm|
         lm.strip!
-        if lm.include?("conj") || lm.include?("->_nat") || lm.empty?
+        if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>")
             next
         end
         negated = lm.include?("Negated")

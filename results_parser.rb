@@ -80,10 +80,14 @@ def all_results
             counter[p]["all"] = 0
             thresholds.each do |t|
                 counter[p][t] = 0
-                seconds[p][:goalcompletion][t] = 0
-                accuracy[p][:goalcompletion][t] = 0
-                seconds[p][:uniqueness][t] = 0
-                accuracy[p][:uniqueness][t] = 0
+                seconds[p][:exhaust][t] = 0
+                accuracy[p][:exhaust][t] = 0
+                seconds[p][:hm][t] = 0
+                accuracy[p][:hm][t] = 0
+                seconds[p][:rhw][t] = 0
+                accuracy[p][:rhw][t] = 0
+                seconds[p][:zg][t] = 0
+                accuracy[p][:zg][t] = 0
             end
         end
         Dir.foreach("#{dataset_path}/#{domain}") do |percent|
@@ -105,7 +109,7 @@ def all_results
     
                     #EXTRACT STATS COMMON TO ALL PERCENTAGES AND THRESHOLDS
                     run_type = "--exhaust"
-                    cmd = "ruby #{run_path} #{tar_path} 10 --exhaust"
+                    cmd = "ruby #{run_path} #{tar_path} 10 --exhaust > res.txt"
                     system(cmd)
                     single_result_f = get_method_stats
                     goals += single_result_f[:goals]
@@ -116,7 +120,7 @@ def all_results
                     thresholds.each do |tr|
                         counter[percentual_observed.to_s][tr] += 1
                         run_types.each do |run_type|
-                            cmd = "ruby #{run_path} #{jar_path} #{tr} #{run_type} > #{res_path}"
+                            cmd = "ruby #{run_path} #{tar_path} #{tr} #{run_type} > #{res_path}"
                             system(cmd)
                             single_result_ex = get_method_stats
                             seconds[percentual_observed.to_s][:exhaust][tr] += single_result_ex[:time]
@@ -154,10 +158,14 @@ def all_results
             percentages.each do |p|
                 result[symbol_domain][:observations][p][:observations_avg] = (observations[p].to_f/counter[p]["all"])
                 thresholds.each do |t|
-                    result[symbol_domain][:observations][p][:uniqueness][:time][t] = ((((seconds[p][:uniqueness][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                    result[symbol_domain][:observations][p][:uniqueness][:accuracy][t] = ((accuracy[p][:uniqueness][t].to_f/counter[p][t]) * 100.0)
-                    result[symbol_domain][:observations][p][:goalcompletion][:time][t] = ((((seconds[p][:goalcompletion][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                    result[symbol_domain][:observations][p][:goalcompletion][:accuracy][t] = ((accuracy[p][:goalcompletion][t].to_f/counter[p][t]) * 100.0)
+                    result[symbol_domain][:observations][p][:exhaust][:time][t] = ((((seconds[p][:exhaust][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                    result[symbol_domain][:observations][p][:exhaust][:accuracy][t] = ((accuracy[p][:exhaust][t].to_f/counter[p][t]) * 100.0)
+                    result[symbol_domain][:observations][p][:hm][:time][t] = ((((seconds[p][:hm][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                    result[symbol_domain][:observations][p][:hm][:accuracy][t] = ((accuracy[p][:hm][t].to_f/counter[p][t]) * 100.0)
+                    result[symbol_domain][:observations][p][:rhw][:time][t] = ((((seconds[p][:rhw][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                    result[symbol_domain][:observations][p][:rhw][:accuracy][t] = ((accuracy[p][:rhw][t].to_f/counter[p][t]) * 100.0)
+                    result[symbol_domain][:observations][p][:zg][:time][t] = ((((seconds[p][:zg][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                    result[symbol_domain][:observations][p][:zg][:accuracy][t] = ((accuracy[p][:zg][t].to_f/counter[p][t]) * 100.0)
                 end
             end
         rescue StandardError => e

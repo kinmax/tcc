@@ -133,6 +133,9 @@ def all_results
             end
         end
         begin
+            if problem_counter == 0
+                problem_counter = 1
+            end
             result[symbol_domain][:problems] = problem_counter
             result[symbol_domain][:goals_avg] = goals.to_f/problem_counter
             result[symbol_domain][:landmarks_avg] = landmarks.to_f/problem_counter
@@ -158,6 +161,9 @@ def all_results
             percentages.each do |p|
                 result[symbol_domain][:observations][p][:observations_avg] = (observations[p].to_f/counter[p]["all"])
                 thresholds.each do |t|
+                    if counter[p][t] == 0
+                        counter[p][t] = 1
+                    end
                     result[symbol_domain][:observations][p][:exhaust][:time][t] = ((((seconds[p][:exhaust][t].to_f/counter[p][t])*1000).floor)/1000.0)
                     result[symbol_domain][:observations][p][:exhaust][:accuracy][t] = ((accuracy[p][:exhaust][t].to_f/counter[p][t]) * 100.0)
                     result[symbol_domain][:observations][p][:hm][:time][t] = ((((seconds[p][:hm][t].to_f/counter[p][t])*1000).floor)/1000.0)

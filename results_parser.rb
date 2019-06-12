@@ -66,7 +66,7 @@ def all_results
     end
     
     Dir.foreach(dataset_path) do |domain|
-        if domain == "." || domain == ".." || domain == "README.md" || domain == ".zenodo.json" || domain == ".git" || domain.include?("noisy") || domain == ".gitignore"
+        if domain == "." || domain == ".." || domain == "README.md" || domain == ".zenodo.json" || domain == ".git" || domain.include?("noisy") || domain == ".gitignore" || domain == "kitchen"
             next
         end
         puts domain

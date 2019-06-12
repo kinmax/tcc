@@ -1,4 +1,5 @@
 require 'json'
+require 'byebug'
 
 problem_path = ARGV[0]
 goal_path = ARGV[1]
@@ -14,4 +15,3 @@ problem.gsub!("<HYPOTHESIS>", goal)
 
 output_path = ARGV[2]
 File.write(output_path, problem)
-

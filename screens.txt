@@ -1,0 +1,15 @@
+blocks-world:
+campus:
+depots:
+driverlog:
+dwr:
+easy-ipc-grid:
+ferry:
+intrusion-detection:
+kitchen:
+logistics:
+miconic:
+rovers:
+satellite:
+sokoban:
+zeno-travel:

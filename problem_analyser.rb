@@ -3,33 +3,35 @@ require 'byebug'
 
 start = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
-tar_path = ARGV[0]
-system("tar -xjf #{tar_path}")
+domain = ARGV[0]
 
-threshold = ARGV[1].to_f
+tar_path = ARGV[1]
+system("tar -xjf #{tar_path} && mv *.pddl /home/kin/t2-integradora/#{domain}/ && mv *.dat /home/kin/t2-integradora/#{domain}/")
+
+threshold = ARGV[2].to_f
 recognized = []
 
-method = ARGV[2]
+method = ARGV[3]
 case(method)
 when "--exhaust"
-    cmd = "python3 /home/kin/fd/fast-downward.py domain.pddl problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > output.txt"
+    cmd = "python3 /home/kin/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 when "--hm"
-    cmd = "python3 /home/kin/fd/fast-downward.py domain.pddl problem.pddl --landmarks \"lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > output.txt"
+    cmd = "python3 /home/kin/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 when "--rhw"
-    cmd = "python3 /home/kin/fd/fast-downward.py domain.pddl problem.pddl --landmarks \"lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > output.txt"
+    cmd = "python3 /home/kin/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 when "--zg"
-    cmd = "python3 /home/kin/fd/fast-downward.py domain.pddl problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > output.txt"
+    cmd = "python3 /home/kin/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 else
-    cmd = "python3 /home/kin/fd/fast-downward.py domain.pddl problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > output.txt"
+    cmd = "python3 /home/kin/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 end
 
-real_goal_file = File.open("real_hyp.dat", 'r')
+real_goal_file = File.open("/home/kin/t2-integradora/#{domain}/real_hyp.dat", 'r')
 real_goal = real_goal_file.read
 real_goal_file.close
 real_goal = real_goal.downcase
 real_goal.strip!
 
-hyps_file = File.open("hyps.dat", "r")
+hyps_file = File.open("/home/kin/t2-integradora/#{domain}/hyps.dat", "r")
 hyps = hyps_file.read
 hyps_file.close
 hyps = hyps.downcase
@@ -43,9 +45,9 @@ split_hyps.each do |hyp|
     candidates.push(hyp)
 end
 
-system("ruby problem_formatter.rb template.pddl real_hyp.dat problem.pddl")
+system("ruby problem_formatter.rb /home/kin/t2-integradora/#{domain}/template.pddl /home/kin/t2-integradora/#{domain}/real_hyp.dat /home/kin/t2-integradora/#{domain}/problem.pddl")
 
-obs_file = File.open("obs.dat", "r")
+obs_file = File.open("/home/kin/t2-integradora/#{domain}/obs.dat", "r")
 observs = obs_file.read
 obs_file.close
 observs = observs.downcase
@@ -57,32 +59,43 @@ obs.each do |ob|
     ob.strip!
 end
 
-problem_file = File.open("problem.pddl", "r")
+problem_file = File.open("/home/kin/t2-integradora/#{domain}/problem.pddl", "r")
 problem = problem_file.read
 problem_file.close
 problem = problem.downcase
 
-domain_file = File.open("domain.pddl", "r")
-domain = domain_file.read
+domain_file = File.open("/home/kin/t2-integradora/#{domain}/domain.pddl", "r")
+dom = domain_file.read
 domain_file.close
-domain = domain.downcase
+dom = dom.downcase
 
-system("java -jar planning-utils-json_actions1.0.jar domain.pddl problem.pddl landmarks.json > /dev/null")
-system("ruby json_formatter.rb landmarks.json")
-actions_file = File.open("landmarks.json", "r")
+system("java -jar planning-utils-json_actions1.0.jar /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl /home/kin/t2-integradora/#{domain}/landmarks.json > /dev/null")
+system("ruby /home/kin/t2-integradora/json_formatter.rb /home/kin/t2-integradora/#{domain}/landmarks.json")
+actions_file = File.open("/home/kin/t2-integradora/#{domain}/landmarks.json", "r")
 actions = actions_file.read
 actions_file.close
 actions = actions.downcase
 acts = JSON.parse(actions)
 achieved_lmarks = []
-acts.keys.each do |key|
-    if obs.include?(key)
-        achieved_lmarks.push(acts[key]["preconditions"])
-        achieved_lmarks.push(acts[key]["delete-effects"])
-        achieved_lmarks.push(acts[key]["add-effects"])
-        achieved_lmarks = achieved_lmarks.flatten
+keys = acts.keys
+obs.each do |ob|
+    h = acts[ob]
+    if h.nil?
+        next
     end
+    achieved_lmarks.push(h["preconditions"])
+    achieved_lmarks.push(h["delete-effects"])
+    achieved_lmarks.push(h["add-effects"])
+    achieved_lmarks = achieved_lmarks.flatten
 end
+# acts.keys.each do |key|
+#     if obs.include?(key)
+#         achieved_lmarks.push(acts[key]["preconditions"])
+#         achieved_lmarks.push(acts[key]["delete-effects"])
+#         achieved_lmarks.push(acts[key]["add-effects"])
+#         achieved_lmarks = achieved_lmarks.flatten
+#     end
+# end
 
 goals_percents = {}
 
@@ -90,15 +103,15 @@ landmark_avg = 0
 
 candidates.each do |candidate|
 
-    File.write("candidate.dat", candidate)
+    File.write("/home/kin/t2-integradora/#{domain}/candidate.dat", candidate)
     
-    system("ruby problem_formatter.rb template.pddl candidate.dat problem.pddl")
+    system("ruby problem_formatter.rb /home/kin/t2-integradora/#{domain}/template.pddl /home/kin/t2-integradora/#{domain}/candidate.dat /home/kin/t2-integradora/#{domain}/problem.pddl")
 
     pgrm = system(cmd)
     if !pgrm
         puts "[ERROR] Error running: #{cmd}"
     end
-    lm_output_file = File.open("output.txt")
+    lm_output_file = File.open("/home/kin/t2-integradora/#{domain}/output.txt")
     landmarks = lm_output_file.read
     lm_output_file.close
 

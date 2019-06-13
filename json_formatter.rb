@@ -1,6 +1,7 @@
 require 'json'
+require 'byebug'
 
-file_path = File.join(File.dirname(__FILE__), ARGV[0])
+file_path = ARGV[0]
 file = File.open(file_path, 'r')
 raw = file.read
 file.close

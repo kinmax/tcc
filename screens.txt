@@ -1,5 +1,5 @@
-blocks-world:
-campus:
+blocks-world: 28458.pts-0.lsa
+campus: 40113.pts-0.lsa
 depots:
 driverlog:
 dwr:

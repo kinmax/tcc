@@ -6,7 +6,7 @@ start = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 domain = ARGV[0]
 
 tar_path = ARGV[1]
-system("tar -xjf #{tar_path} && mv *.pddl /home/kin/t2-integradora/#{domain}/ && mv *.dat /home/kin/t2-integradora/#{domain}/")
+system("tar -xjf #{tar_path}")
 
 threshold = ARGV[2].to_f
 recognized = []

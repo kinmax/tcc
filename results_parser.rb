@@ -144,6 +144,7 @@ def all_results(domain)
         result[symbol_domain][:problems] = problem_counter
         result[symbol_domain][:goals_avg] = goals.to_f/problem_counter
         result[symbol_domain][:observations] = {}
+        result[symbol_domain][:landmarks_avg] = {}
         algorithms.each do |alg|
             result[symbol_domain][:landmarks_avg][alg] = landmarks[alg].to_f/alg_counter[alg].to_f
         end

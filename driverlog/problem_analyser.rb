@@ -122,12 +122,15 @@ candidates.each do |candidate|
     landmarks = landmarks.split("\n")
     landmarks.each do |lm|
         lm.strip!
-        if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>")
+        if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
             next
         end
         negated = lm.include?("Negated")
         lm = lm.split("Atom")[1].split("(var")[0].strip
         lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
+        if negated
+            lm = "not (#{lm})"
+        end
         lms.push(lm)
     end
     
@@ -138,7 +141,7 @@ candidates.each do |candidate|
         end
     end
 
-    goals_percents[candidate] = number_of_achieved_landmarks.to_f/lms.length.to_f
+    goals_percents[candidate] = lms.length > 0 ? number_of_achieved_landmarks.to_f/lms.length.to_f : 0.to_f
 
     landmark_avg = landmark_avg + lms.length
 end

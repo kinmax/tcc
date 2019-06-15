@@ -7,12 +7,11 @@ def get_method_stats(domain)
     raw = file.read
     file.close
 
-    byebug
     raw = raw.split("\n")
     goals = raw[0].split("-")[1].to_f
     landmarks = raw[1].split("-")[1].to_f
     obs = raw[2].split("-")[1].to_f
-    correct = raw[3].split("-")[1].to_f == "TRUE" ? 1 : 0
+    correct = raw[3].split("-")[1] == "TRUE" ? 1 : 0
     time = raw[4].split("-")[1].to_f
 
     results = {}
@@ -32,9 +31,15 @@ def all_results(domain)
     thresholds = %w(0 10 20 30).freeze
     percentages = %w(10 30 50 70 100).freeze
     run_types = %w(--exhaust --hm --rhw --zg).freeze
+    algorithms = %w(exhaust hm rhw zg).freeze
     result = {}
     goals = 0
-    landmarks = 0
+    landmarks = {}
+    alg_counter = {}
+    algorithms.each do |alg|
+        landmarks[alg] = 0
+        alg_counter[alg] = 0
+    end
     observations = {}
     seconds = {}   
     accuracy = {}
@@ -110,7 +115,6 @@ def all_results(domain)
                 system(cmd)
                 single_result_f = get_method_stats(domain)
                 goals += single_result_f[:goals]
-                landmarks += single_result_f[:landmarks]
                 observations[percentual_observed.to_s] += single_result_f[:observations]
                 counter[percentual_observed.to_s]["all"] += 1
                 
@@ -121,6 +125,8 @@ def all_results(domain)
                         cmd = "ruby #{run_path} #{domain} #{tar_path} #{tr} #{run_type} > #{res_path}"
                         system(cmd)
                         single_result_ex = get_method_stats(domain)
+                        alg_counter[extraction_method] += 1
+                        landmarks[extraction_method] += single_result_ex[:landmarks]
                         seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
                         accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
                     end
@@ -136,8 +142,11 @@ def all_results(domain)
         end
         result[symbol_domain][:problems] = problem_counter
         result[symbol_domain][:goals_avg] = goals.to_f/problem_counter
-        result[symbol_domain][:landmarks_avg] = landmarks.to_f/problem_counter
         result[symbol_domain][:observations] = {}
+        result[symbol_domain][:landmarks_avg] = {}
+        algorithms.each do |alg|
+            result[symbol_domain][:landmarks_avg][alg] = landmarks[alg].to_f/alg_counter[alg].to_f
+        end
         percentages.each do |p|
             result[symbol_domain][:observations][p] = {}
             result[symbol_domain][:observations][p][:exhaust] = {}

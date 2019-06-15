@@ -7,7 +7,6 @@ def get_method_stats(domain)
     raw = file.read
     file.close
 
-    byebug
     raw = raw.split("\n")
     goals = raw[0].split("-")[1].to_f
     landmarks = raw[1].split("-")[1].to_f

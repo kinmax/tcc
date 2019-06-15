@@ -2,7 +2,7 @@
 
 require 'byebug'
 
-dataset_path = "/home/kingusmao/dataset-copy"
+dataset_path = "/home/kin/dataset-copy"
 untarcmd = "tar -xjf "
 tarcmd = "tar cvfj "
 percentages = %w(10 30 50 70 100).freeze

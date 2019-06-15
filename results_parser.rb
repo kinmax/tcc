@@ -116,11 +116,12 @@ def all_results(domain)
                 thresholds.each do |tr|
                     counter[percentual_observed.to_s][tr] += 1
                     run_types.each do |run_type|
+                        extraction_method = run_type.split("--")[1]
                         cmd = "ruby #{run_path} #{domain} #{tar_path} #{tr} #{run_type} > #{res_path}"
                         system(cmd)
                         single_result_ex = get_method_stats(domain)
-                        seconds[percentual_observed.to_s][:exhaust][tr] += single_result_ex[:time]
-                        accuracy[percentual_observed.to_s][:exhaust][tr] += single_result_ex[:correct]
+                        seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
+                        accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
                     end
                 end
             rescue StandardError => e

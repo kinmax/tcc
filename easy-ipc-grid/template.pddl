@@ -123,10 +123,6 @@ key_16
 key_17
 key_18
 key_19
-key_20
-key_21
-key_22
-key_23
 - key
 shape_0
 shape_1
@@ -148,10 +144,6 @@ shape_16
 shape_17
 shape_18
 shape_19
-shape_20
-shape_21
-shape_22
-shape_23
 - shape
 )
 (:init
@@ -267,7 +259,7 @@ shape_23
 (open place_0_8)
 (open place_0_9)
 (open place_1_0)
-(locked place_1_1) (lock-shape place_1_1 shape_11)
+(open place_1_1)
 (open place_1_2)
 (open place_1_3)
 (open place_1_4)
@@ -276,7 +268,7 @@ shape_23
 (open place_1_7)
 (open place_1_8)
 (open place_1_9)
-(locked place_2_0) (lock-shape place_2_0 shape_10)
+(open place_2_0)
 (open place_2_1)
 (locked place_2_2) (lock-shape place_2_2 shape_9)
 (open place_2_3)
@@ -285,12 +277,12 @@ shape_23
 (locked place_2_6) (lock-shape place_2_6 shape_3)
 (locked place_2_7) (lock-shape place_2_7 shape_5)
 (open place_2_8)
-(locked place_2_9) (lock-shape place_2_9 shape_12)
+(open place_2_9)
 (open place_3_0)
 (open place_3_1)
-(open place_3_2)
+(locked place_3_2) (lock-shape place_3_2 shape_15)
 (open place_3_3)
-(locked place_3_4) (lock-shape place_3_4 shape_13)
+(open place_3_4)
 (open place_3_5)
 (open place_3_6)
 (locked place_3_7) (lock-shape place_3_7 shape_4)
@@ -299,9 +291,9 @@ shape_23
 (open place_4_0)
 (open place_4_1)
 (open place_4_2)
-(locked place_4_3) (lock-shape place_4_3 shape_14)
+(open place_4_3)
 (open place_4_4)
-(open place_4_5)
+(locked place_4_5) (lock-shape place_4_5 shape_14)
 (open place_4_6)
 (open place_4_7)
 (open place_4_8)
@@ -311,23 +303,25 @@ shape_23
 (locked place_5_2) (lock-shape place_5_2 shape_8)
 (open place_5_3)
 (open place_5_4)
-(locked place_5_5) (lock-shape place_5_5 shape_15)
+(open place_5_5)
 (open place_5_6)
-(open place_5_7)
+;(open place_5_7)
+(locked place_5_7) (lock-shape place_5_7 shape_12)
 (open place_5_8)
 (open place_5_9)
-(open place_6_0)
+(locked place_6_0) (lock-shape place_6_0 shape_10)
 (open place_6_1)
 (open place_6_2)
 (open place_6_3)
-(locked place_6_4) (lock-shape place_6_4 shape_16)
+(open place_6_4)
 (open place_6_5)
 (open place_6_6)
-(open place_6_7)
+;(open place_6_7)
+(locked place_6_7) (lock-shape place_6_7 shape_19)
 (open place_6_8)
 (open place_6_9)
 (open place_7_0)
-(locked place_7_1) (lock-shape place_7_1 shape_17)
+(locked place_7_1) (lock-shape place_7_1 shape_13)
 (open place_7_2)
 (open place_7_3)
 (open place_7_4)
@@ -341,20 +335,21 @@ shape_23
 (open place_8_2)
 (locked place_8_3) (lock-shape place_8_3 shape_6)
 (open place_8_4)
-(locked place_8_5) (lock-shape place_8_5 shape_18)
+(open place_8_5)
 (open place_8_6)
-(open place_8_7)
+;(open place_8_7)
+(locked place_8_7) (lock-shape place_8_7 shape_16)
 (open place_8_8)
 (open place_8_9)
-(locked place_9_0) (lock-shape place_9_0 shape_19)
+(open place_9_0)
 (open place_9_1)
 (open place_9_2)
 (locked place_9_3) (lock-shape place_9_3 shape_1)
 (open place_9_4)
 (open place_9_5)
-(locked place_9_6) (lock-shape place_9_6 shape_21)
+(locked place_9_6) (lock-shape place_9_6 shape_11)
 (open place_9_7)
-(locked place_9_8) (lock-shape place_9_8 shape_20)
+(open place_9_8)
 (open place_9_9)
 (at key_0 place_0_0)
 (key-shape key_0 shape_0)
@@ -377,47 +372,35 @@ shape_23
 (at key_9 place_7_0)
 (key-shape key_9 shape_9)
 
-(at key_10 place_0_8)
 (key-shape key_10 shape_10)
+(at key_10 place_1_5)
 
-(at key_11 place_1_3)
 (key-shape key_11 shape_11)
+(at key_11 place_2_8)
 
-(at key_12 place_2_4)
 (key-shape key_12 shape_12)
+(at key_12 place_3_5)
 
-(at key_13 place_3_6)
 (key-shape key_13 shape_13)
+(at key_13 place_4_1)
 
-(at key_14 place_4_1)
 (key-shape key_14 shape_14)
+(at key_14 place_5_2)
 
-(at key_15 place_5_2)
 (key-shape key_15 shape_15)
+(at key_15 place_6_8)
 
-(at key_16 place_6_3)
 (key-shape key_16 shape_16)
+(at key_16 place_7_3)
 
-(at key_17 place_7_7)
 (key-shape key_17 shape_17)
+(at key_17 place_8_1)
 
-(at key_18 place_8_0)
 (key-shape key_18 shape_18)
+(at key_18 place_8_7)
 
-(at key_19 place_9_1)
 (key-shape key_19 shape_19)
-
-(at key_20 place_0_0)
-(key-shape key_20 shape_20)
-
-(at key_21 place_0_0)
-(key-shape key_21 shape_21)
-
-(at key_22 place_0_2)
-(key-shape key_22 shape_22)
-
-(at key_23 place_0_1)
-(key-shape key_23 shape_23)
+(at key_19 place_6_3)
 )
 (:goal
 (and 

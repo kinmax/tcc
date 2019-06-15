@@ -35,30 +35,6 @@
       "carrying key_2"
     ]
   },
-  "pickup place_4_5 key_20": {
-    "preconditions": [
-      "at key_20 place_4_5",
-      "at-robot place_4_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_4_5 key_21": {
-    "preconditions": [
-      "at-robot place_4_5",
-      "at key_21 place_4_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_7_1 key_1": {
     "preconditions": [
       "at-robot place_7_1",
@@ -83,18 +59,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_4_5 key_22": {
-    "preconditions": [
-      "at-robot place_4_5",
-      "at key_22 place_4_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_5_4 place_4_4": {
     "preconditions": [
       "at-robot place_5_4",
@@ -105,18 +69,6 @@
     ],
     "add-effects": [
       "at-robot place_4_4"
-    ]
-  },
-  "pickup place_4_5 key_23": {
-    "preconditions": [
-      "at key_23 place_4_5",
-      "at-robot place_4_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_4_1 key_7": {
@@ -647,19 +599,6 @@
       "carrying key_12"
     ]
   },
-  "unlock place_9_7 place_9_6 key_21 shape_21": {
-    "preconditions": [
-      "carrying key_21",
-      "locked place_9_6",
-      "at-robot place_9_7"
-    ],
-    "delete-effects": [
-      "not (locked place_9_6)"
-    ],
-    "add-effects": [
-      "open place_9_6"
-    ]
-  },
   "pickup place_2_7 key_17": {
     "preconditions": [
       "at-robot place_2_7",
@@ -852,42 +791,6 @@
       "carrying key_4"
     ]
   },
-  "pickup place_2_7 key_20": {
-    "preconditions": [
-      "at-robot place_2_7",
-      "at key_20 place_2_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_2_7 key_21": {
-    "preconditions": [
-      "at-robot place_2_7",
-      "at key_21 place_2_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_7 key_22": {
-    "preconditions": [
-      "at-robot place_2_7",
-      "at key_22 place_2_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_4_1 key_1": {
     "preconditions": [
       "at-robot place_4_1",
@@ -910,18 +813,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_2_7 key_23": {
-    "preconditions": [
-      "at-robot place_2_7",
-      "at key_23 place_2_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_7_1 key_6": {
@@ -1177,16 +1068,17 @@
       "carrying key_18"
     ]
   },
-  "pickup place_7_7 key_20": {
+  "unlock place_6_6 place_6_7 key_19 shape_19": {
     "preconditions": [
-      "at key_20 place_7_7",
-      "at-robot place_7_7"
+      "at-robot place_6_6",
+      "locked place_6_7",
+      "carrying key_19"
     ],
     "delete-effects": [
-      "not (at key_20 place_7_7)"
+      "not (locked place_6_7)"
     ],
     "add-effects": [
-      "carrying key_20"
+      "open place_6_7"
     ]
   },
   "move place_4_8 place_4_7": {
@@ -1237,18 +1129,6 @@
       "carrying key_7"
     ]
   },
-  "pickup place_7_7 key_23": {
-    "preconditions": [
-      "at key_23 place_7_7",
-      "at-robot place_7_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_1_6 key_6": {
     "preconditions": [
       "at key_6 place_1_6",
@@ -1273,18 +1153,6 @@
       "carrying key_5"
     ]
   },
-  "pickup place_7_7 key_22": {
-    "preconditions": [
-      "at-robot place_7_7",
-      "at key_22 place_7_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_4_8 place_4_9": {
     "preconditions": [
       "open place_4_9",
@@ -1297,18 +1165,6 @@
       "at-robot place_4_9"
     ]
   },
-  "pickup place_7_7 key_21": {
-    "preconditions": [
-      "at key_21 place_7_7",
-      "at-robot place_7_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_1_6 key_4": {
     "preconditions": [
       "at-robot place_1_6",
@@ -1319,30 +1175,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "pickup place_1_3 key_21": {
-    "preconditions": [
-      "at-robot place_1_3",
-      "at key_21 place_1_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_1_3 key_22": {
-    "preconditions": [
-      "at key_22 place_1_3",
-      "at-robot place_1_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "move place_1_6 place_1_5": {
@@ -1369,18 +1201,6 @@
       "at-robot place_1_7"
     ]
   },
-  "pickup place_1_3 key_20": {
-    "preconditions": [
-      "at-robot place_1_3",
-      "at key_20 place_1_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "move place_7_2 place_7_1": {
     "preconditions": [
       "open place_7_1",
@@ -1403,66 +1223,6 @@
     ],
     "add-effects": [
       "at-robot place_7_3"
-    ]
-  },
-  "pickup place_1_0 key_22": {
-    "preconditions": [
-      "at-robot place_1_0",
-      "at key_22 place_1_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_1_0 key_23": {
-    "preconditions": [
-      "at key_23 place_1_0",
-      "at-robot place_1_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_1_0 key_20": {
-    "preconditions": [
-      "at-robot place_1_0",
-      "at key_20 place_1_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_1_0 key_21": {
-    "preconditions": [
-      "at-robot place_1_0",
-      "at key_21 place_1_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_1_3 key_23": {
-    "preconditions": [
-      "at key_23 place_1_3",
-      "at-robot place_1_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "move place_2_4 place_2_5": {
@@ -1741,19 +1501,6 @@
       "carrying key_18"
     ]
   },
-  "unlock place_1_0 place_1_1 key_11 shape_11": {
-    "preconditions": [
-      "at-robot place_1_0",
-      "locked place_1_1",
-      "carrying key_11"
-    ],
-    "delete-effects": [
-      "not (locked place_1_1)"
-    ],
-    "add-effects": [
-      "open place_1_1"
-    ]
-  },
   "pickup place_5_9 key_13": {
     "preconditions": [
       "at key_13 place_5_9",
@@ -1802,6 +1549,19 @@
       "carrying key_10"
     ]
   },
+  "unlock place_6_8 place_6_7 key_19 shape_19": {
+    "preconditions": [
+      "at-robot place_6_8",
+      "locked place_6_7",
+      "carrying key_19"
+    ],
+    "delete-effects": [
+      "not (locked place_6_7)"
+    ],
+    "add-effects": [
+      "open place_6_7"
+    ]
+  },
   "move place_7_9 place_7_8": {
     "preconditions": [
       "at-robot place_7_9",
@@ -1812,19 +1572,6 @@
     ],
     "add-effects": [
       "at-robot place_7_8"
-    ]
-  },
-  "unlock place_1_2 place_1_1 key_11 shape_11": {
-    "preconditions": [
-      "at-robot place_1_2",
-      "locked place_1_1",
-      "carrying key_11"
-    ],
-    "delete-effects": [
-      "not (locked place_1_1)"
-    ],
-    "add-effects": [
-      "open place_1_1"
     ]
   },
   "pickup place_1_3 key_10": {
@@ -2067,42 +1814,6 @@
       "at-robot place_2_1"
     ]
   },
-  "pickup place_4_8 key_20": {
-    "preconditions": [
-      "at-robot place_4_8",
-      "at key_20 place_4_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_4_8 key_21": {
-    "preconditions": [
-      "at-robot place_4_8",
-      "at key_21 place_4_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_4_8 key_22": {
-    "preconditions": [
-      "at-robot place_4_8",
-      "at key_22 place_4_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_6_6 place_7_6": {
     "preconditions": [
       "open place_7_6",
@@ -2185,18 +1896,6 @@
     ],
     "add-effects": [
       "carrying key_9"
-    ]
-  },
-  "pickup place_4_8 key_23": {
-    "preconditions": [
-      "at key_23 place_4_8",
-      "at-robot place_4_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_8_7 key_8": {
@@ -2305,19 +2004,6 @@
     ],
     "add-effects": [
       "at-robot place_2_0"
-    ]
-  },
-  "unlock place_9_5 place_9_6 key_21 shape_21": {
-    "preconditions": [
-      "carrying key_21",
-      "at-robot place_9_5",
-      "locked place_9_6"
-    ],
-    "delete-effects": [
-      "not (locked place_9_6)"
-    ],
-    "add-effects": [
-      "open place_9_6"
     ]
   },
   "pickup place_3_1 key_18": {
@@ -2572,66 +2258,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_3_1 key_21": {
-    "preconditions": [
-      "at key_21 place_3_1",
-      "at-robot place_3_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_1 key_22": {
-    "preconditions": [
-      "at-robot place_3_1",
-      "at key_22 place_3_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_1 key_20": {
-    "preconditions": [
-      "at key_20 place_3_1",
-      "at-robot place_3_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_6_6 key_23": {
-    "preconditions": [
-      "at key_23 place_6_6",
-      "at-robot place_6_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_3_1 key_23": {
-    "preconditions": [
-      "at-robot place_3_1",
-      "at key_23 place_3_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_8_1 key_15": {
     "preconditions": [
       "at key_15 place_8_1",
@@ -2692,18 +2318,6 @@
       "carrying key_11"
     ]
   },
-  "pickup place_6_6 key_20": {
-    "preconditions": [
-      "at key_20 place_6_6",
-      "at-robot place_6_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_8_1 key_12": {
     "preconditions": [
       "at key_12 place_8_1",
@@ -2716,18 +2330,6 @@
       "carrying key_12"
     ]
   },
-  "pickup place_6_6 key_22": {
-    "preconditions": [
-      "at key_22 place_6_6",
-      "at-robot place_6_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_8_1 key_10": {
     "preconditions": [
       "at key_10 place_8_1",
@@ -2738,31 +2340,6 @@
     ],
     "add-effects": [
       "carrying key_10"
-    ]
-  },
-  "pickup place_6_6 key_21": {
-    "preconditions": [
-      "at key_21 place_6_6",
-      "at-robot place_6_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "unlock place_4_2 place_4_3 key_14 shape_14": {
-    "preconditions": [
-      "at-robot place_4_2",
-      "locked place_4_3",
-      "carrying key_14"
-    ],
-    "delete-effects": [
-      "not (locked place_4_3)"
-    ],
-    "add-effects": [
-      "open place_4_3"
     ]
   },
   "pickup place_8_1 key_19": {
@@ -2849,54 +2426,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_8_1 key_22": {
-    "preconditions": [
-      "at key_22 place_8_1",
-      "at-robot place_8_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_1 key_23": {
-    "preconditions": [
-      "at key_23 place_8_1",
-      "at-robot place_8_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_8_1 key_20": {
-    "preconditions": [
-      "at key_20 place_8_1",
-      "at-robot place_8_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_8_1 key_21": {
-    "preconditions": [
-      "at key_21 place_8_1",
-      "at-robot place_8_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "move place_9_6 place_9_5": {
     "preconditions": [
       "at-robot place_9_6",
@@ -2957,30 +2486,6 @@
       "at-robot place_3_4"
     ]
   },
-  "pickup place_7_4 key_20": {
-    "preconditions": [
-      "at key_20 place_7_4",
-      "at-robot place_7_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_7_4 key_21": {
-    "preconditions": [
-      "at key_21 place_7_4",
-      "at-robot place_7_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_0_0 key_0": {
     "preconditions": [
       "at key_0 place_0_0",
@@ -2991,30 +2496,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_7_4 key_22": {
-    "preconditions": [
-      "at key_22 place_7_4",
-      "at-robot place_7_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_7_4 key_23": {
-    "preconditions": [
-      "at key_23 place_7_4",
-      "at-robot place_7_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_0_0 key_2": {
@@ -3809,54 +3290,6 @@
       "at-robot place_3_3"
     ]
   },
-  "pickup place_6_0 key_20": {
-    "preconditions": [
-      "at-robot place_6_0",
-      "at key_20 place_6_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_6_0 key_22": {
-    "preconditions": [
-      "at key_22 place_6_0",
-      "at-robot place_6_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_6_0 key_21": {
-    "preconditions": [
-      "at-robot place_6_0",
-      "at key_21 place_6_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_6_0 key_23": {
-    "preconditions": [
-      "at-robot place_6_0",
-      "at key_23 place_6_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_1_1 key_9": {
     "preconditions": [
       "at key_9 place_1_1",
@@ -3892,102 +3325,6 @@
     ],
     "add-effects": [
       "open place_9_3"
-    ]
-  },
-  "pickup place_9_5 key_21": {
-    "preconditions": [
-      "at-robot place_9_5",
-      "at key_21 place_9_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_9_5 key_22": {
-    "preconditions": [
-      "at key_22 place_9_5",
-      "at-robot place_9_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_5 key_23": {
-    "preconditions": [
-      "at key_23 place_9_5",
-      "at-robot place_9_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_9_5 key_20": {
-    "preconditions": [
-      "at-robot place_9_5",
-      "at key_20 place_9_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_0_6 key_20": {
-    "preconditions": [
-      "at-robot place_0_6",
-      "at key_20 place_0_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_0_6 key_21": {
-    "preconditions": [
-      "at-robot place_0_6",
-      "at key_21 place_0_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_0_6 key_22": {
-    "preconditions": [
-      "at key_22 place_0_6",
-      "at-robot place_0_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_6 key_23": {
-    "preconditions": [
-      "at-robot place_0_6",
-      "at key_23 place_0_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_2_7 key_4": {
@@ -4434,54 +3771,6 @@
       "carrying key_9"
     ]
   },
-  "pickup place_3_8 key_23": {
-    "preconditions": [
-      "at key_23 place_3_8",
-      "at-robot place_3_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_3_8 key_22": {
-    "preconditions": [
-      "at-robot place_3_8",
-      "at key_22 place_3_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_8 key_21": {
-    "preconditions": [
-      "at-robot place_3_8",
-      "at key_21 place_3_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_8 key_20": {
-    "preconditions": [
-      "at key_20 place_3_8",
-      "at-robot place_3_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_8_4 key_13": {
     "preconditions": [
       "at key_13 place_8_4",
@@ -4794,19 +4083,6 @@
       "carrying key_6"
     ]
   },
-  "unlock place_4_4 place_4_3 key_14 shape_14": {
-    "preconditions": [
-      "at-robot place_4_4",
-      "locked place_4_3",
-      "carrying key_14"
-    ],
-    "delete-effects": [
-      "not (locked place_4_3)"
-    ],
-    "add-effects": [
-      "open place_4_3"
-    ]
-  },
   "pickup place_7_0 key_18": {
     "preconditions": [
       "at key_18 place_7_0",
@@ -5048,42 +4324,6 @@
       "open place_2_6"
     ]
   },
-  "pickup place_2_4 key_20": {
-    "preconditions": [
-      "at-robot place_2_4",
-      "at key_20 place_2_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_2_4 key_21": {
-    "preconditions": [
-      "at key_21 place_2_4",
-      "at-robot place_2_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_4 key_22": {
-    "preconditions": [
-      "at key_22 place_2_4",
-      "at-robot place_2_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_0_0 place_0_1": {
     "preconditions": [
       "open place_0_1",
@@ -5094,66 +4334,6 @@
     ],
     "add-effects": [
       "at-robot place_0_1"
-    ]
-  },
-  "pickup place_2_4 key_23": {
-    "preconditions": [
-      "at key_23 place_2_4",
-      "at-robot place_2_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_7_0 key_21": {
-    "preconditions": [
-      "at key_21 place_7_0",
-      "at-robot place_7_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_7_0 key_20": {
-    "preconditions": [
-      "at key_20 place_7_0",
-      "at-robot place_7_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_7_0 key_23": {
-    "preconditions": [
-      "at-robot place_7_0",
-      "at key_23 place_7_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_7_0 key_22": {
-    "preconditions": [
-      "at key_22 place_7_0",
-      "at-robot place_7_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "move place_4_7 place_4_8": {
@@ -5685,30 +4865,6 @@
       "carrying key_11"
     ]
   },
-  "pickup place_5_6 key_21": {
-    "preconditions": [
-      "at key_21 place_5_6",
-      "at-robot place_5_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_6 key_20": {
-    "preconditions": [
-      "at-robot place_5_6",
-      "at key_20 place_5_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_2_1 key_19": {
     "preconditions": [
       "at key_19 place_2_1",
@@ -5793,18 +4949,6 @@
       "carrying key_5"
     ]
   },
-  "pickup place_2_1 key_23": {
-    "preconditions": [
-      "at key_23 place_2_1",
-      "at-robot place_2_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_9_8 key_4": {
     "preconditions": [
       "at-robot place_9_8",
@@ -5815,18 +4959,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "pickup place_2_1 key_22": {
-    "preconditions": [
-      "at key_22 place_2_1",
-      "at-robot place_2_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_9_8 key_3": {
@@ -5889,30 +5021,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_2_1 key_21": {
-    "preconditions": [
-      "at-robot place_2_1",
-      "at key_21 place_2_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_1 key_20": {
-    "preconditions": [
-      "at key_20 place_2_1",
-      "at-robot place_2_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_1_9 key_0": {
     "preconditions": [
       "at key_0 place_1_9",
@@ -5923,30 +5031,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_5_6 key_23": {
-    "preconditions": [
-      "at key_23 place_5_6",
-      "at-robot place_5_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_5_6 key_22": {
-    "preconditions": [
-      "at key_22 place_5_6",
-      "at-robot place_5_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_9_5 key_9": {
@@ -6007,19 +5091,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "unlock place_3_0 place_2_0 key_10 shape_10": {
-    "preconditions": [
-      "carrying key_10",
-      "locked place_2_0",
-      "at-robot place_3_0"
-    ],
-    "delete-effects": [
-      "not (locked place_2_0)"
-    ],
-    "add-effects": [
-      "open place_2_0"
     ]
   },
   "pickup place_9_5 key_2": {
@@ -6106,18 +5177,6 @@
       "carrying key_4"
     ]
   },
-  "pickup place_4_2 key_20": {
-    "preconditions": [
-      "at key_20 place_4_2",
-      "at-robot place_4_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_4_4 key_5": {
     "preconditions": [
       "at-robot place_4_4",
@@ -6142,18 +5201,6 @@
       "carrying key_6"
     ]
   },
-  "pickup place_4_2 key_22": {
-    "preconditions": [
-      "at-robot place_4_2",
-      "at key_22 place_4_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_4_4 key_7": {
     "preconditions": [
       "at-robot place_4_4",
@@ -6164,18 +5211,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_4_2 key_21": {
-    "preconditions": [
-      "at key_21 place_4_2",
-      "at-robot place_4_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_4_4 key_8": {
@@ -6200,18 +5235,6 @@
     ],
     "add-effects": [
       "carrying key_9"
-    ]
-  },
-  "pickup place_4_2 key_23": {
-    "preconditions": [
-      "at-robot place_4_2",
-      "at key_23 place_4_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "move place_3_0 place_2_0": {
@@ -6272,102 +5295,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_5_9 key_20": {
-    "preconditions": [
-      "at key_20 place_5_9",
-      "at-robot place_5_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_5_9 key_23": {
-    "preconditions": [
-      "at key_23 place_5_9",
-      "at-robot place_5_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_5_9 key_22": {
-    "preconditions": [
-      "at key_22 place_5_9",
-      "at-robot place_5_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_5_9 key_21": {
-    "preconditions": [
-      "at key_21 place_5_9",
-      "at-robot place_5_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_0_3 key_22": {
-    "preconditions": [
-      "at-robot place_0_3",
-      "at key_22 place_0_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_3 key_23": {
-    "preconditions": [
-      "at-robot place_0_3",
-      "at key_23 place_0_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_0_3 key_20": {
-    "preconditions": [
-      "at-robot place_0_3",
-      "at key_20 place_0_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_0_3 key_21": {
-    "preconditions": [
-      "at-robot place_0_3",
-      "at key_21 place_0_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "move place_1_5 place_1_6": {
@@ -6742,54 +5669,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_1_7 key_21": {
-    "preconditions": [
-      "at-robot place_1_7",
-      "at key_21 place_1_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_1_7 key_22": {
-    "preconditions": [
-      "at key_22 place_1_7",
-      "at-robot place_1_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_1_7 key_20": {
-    "preconditions": [
-      "at-robot place_1_7",
-      "at key_20 place_1_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_1_7 key_23": {
-    "preconditions": [
-      "at key_23 place_1_7",
-      "at-robot place_1_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_4_6 key_0": {
     "preconditions": [
       "at key_0 place_4_6",
@@ -6800,42 +5679,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_8_4 key_20": {
-    "preconditions": [
-      "at key_20 place_8_4",
-      "at-robot place_8_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_8_4 key_22": {
-    "preconditions": [
-      "at-robot place_8_4",
-      "at key_22 place_8_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_4 key_21": {
-    "preconditions": [
-      "at key_21 place_8_4",
-      "at-robot place_8_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "move place_3_9 place_3_8": {
@@ -6850,18 +5693,6 @@
       "at-robot place_3_8"
     ]
   },
-  "pickup place_8_4 key_23": {
-    "preconditions": [
-      "at key_23 place_8_4",
-      "at-robot place_8_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "move place_8_8 place_9_8": {
     "preconditions": [
       "open place_9_8",
@@ -6872,54 +5703,6 @@
     ],
     "add-effects": [
       "at-robot place_9_8"
-    ]
-  },
-  "pickup place_6_3 key_21": {
-    "preconditions": [
-      "at key_21 place_6_3",
-      "at-robot place_6_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_6_3 key_20": {
-    "preconditions": [
-      "at-robot place_6_3",
-      "at key_20 place_6_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_6_3 key_23": {
-    "preconditions": [
-      "at key_23 place_6_3",
-      "at-robot place_6_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_6_3 key_22": {
-    "preconditions": [
-      "at key_22 place_6_3",
-      "at-robot place_6_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "move place_3_8 place_3_7": {
@@ -7076,54 +5859,6 @@
     ],
     "add-effects": [
       "at-robot place_2_5"
-    ]
-  },
-  "pickup place_9_8 key_23": {
-    "preconditions": [
-      "at-robot place_9_8",
-      "at key_23 place_9_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_9_8 key_22": {
-    "preconditions": [
-      "at key_22 place_9_8",
-      "at-robot place_9_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_8 key_21": {
-    "preconditions": [
-      "at key_21 place_9_8",
-      "at-robot place_9_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_9_8 key_20": {
-    "preconditions": [
-      "at-robot place_9_8",
-      "at key_20 place_9_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_6_3 key_14": {
@@ -7643,18 +6378,6 @@
       "carrying key_13"
     ]
   },
-  "pickup place_4_9 key_21": {
-    "preconditions": [
-      "at-robot place_4_9",
-      "at key_21 place_4_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_5_5 key_0": {
     "preconditions": [
       "at key_0 place_5_5",
@@ -7665,42 +6388,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_4_9 key_20": {
-    "preconditions": [
-      "at key_20 place_4_9",
-      "at-robot place_4_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_4_9 key_23": {
-    "preconditions": [
-      "at key_23 place_4_9",
-      "at-robot place_4_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_4_9 key_22": {
-    "preconditions": [
-      "at-robot place_4_9",
-      "at key_22 place_4_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_9_2 key_8": {
@@ -8100,18 +6787,6 @@
       "carrying key_10"
     ]
   },
-  "pickup place_0_0 key_20": {
-    "preconditions": [
-      "at key_20 place_0_0",
-      "at-robot place_0_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_5_0 key_2": {
     "preconditions": [
       "at-robot place_5_0",
@@ -8184,30 +6859,6 @@
       "carrying key_16"
     ]
   },
-  "pickup place_0_0 key_22": {
-    "preconditions": [
-      "at key_22 place_0_0",
-      "at-robot place_0_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_0 key_21": {
-    "preconditions": [
-      "at key_21 place_0_0",
-      "at-robot place_0_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_5_8 key_15": {
     "preconditions": [
       "at-robot place_5_8",
@@ -8242,18 +6893,6 @@
     ],
     "add-effects": [
       "carrying key_18"
-    ]
-  },
-  "pickup place_0_0 key_23": {
-    "preconditions": [
-      "at key_23 place_0_0",
-      "at-robot place_0_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_8 key_17": {
@@ -8580,42 +7219,6 @@
       "at-robot place_6_1"
     ]
   },
-  "pickup place_0_8 key_21": {
-    "preconditions": [
-      "at key_21 place_0_8",
-      "at-robot place_0_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_0_8 key_22": {
-    "preconditions": [
-      "at key_22 place_0_8",
-      "at-robot place_0_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_8 key_20": {
-    "preconditions": [
-      "at key_20 place_0_8",
-      "at-robot place_0_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_5_5 key_9": {
     "preconditions": [
       "at key_9 place_5_5",
@@ -8628,18 +7231,6 @@
       "carrying key_9"
     ]
   },
-  "pickup place_0_8 key_23": {
-    "preconditions": [
-      "at-robot place_0_8",
-      "at key_23 place_0_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_5_5 key_4": {
     "preconditions": [
       "at key_4 place_5_5",
@@ -8650,19 +7241,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "unlock place_9_1 place_9_0 key_19 shape_19": {
-    "preconditions": [
-      "at-robot place_9_1",
-      "carrying key_19",
-      "locked place_9_0"
-    ],
-    "delete-effects": [
-      "not (locked place_9_0)"
-    ],
-    "add-effects": [
-      "open place_9_0"
     ]
   },
   "pickup place_5_5 key_3": {
@@ -8713,18 +7291,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_5_8 key_21": {
-    "preconditions": [
-      "at-robot place_5_8",
-      "at key_21 place_5_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_5_5 key_8": {
     "preconditions": [
       "at key_8 place_5_5",
@@ -8737,18 +7303,6 @@
       "carrying key_8"
     ]
   },
-  "pickup place_5_8 key_20": {
-    "preconditions": [
-      "at-robot place_5_8",
-      "at key_20 place_5_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_5_5 key_7": {
     "preconditions": [
       "at key_7 place_5_5",
@@ -8759,18 +7313,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_5_8 key_23": {
-    "preconditions": [
-      "at key_23 place_5_8",
-      "at-robot place_5_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_5 key_6": {
@@ -8795,18 +7337,6 @@
     ],
     "add-effects": [
       "carrying key_5"
-    ]
-  },
-  "pickup place_5_8 key_22": {
-    "preconditions": [
-      "at-robot place_5_8",
-      "at key_22 place_5_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_6_7 key_6": {
@@ -9625,18 +8155,6 @@
       "carrying key_9"
     ]
   },
-  "pickup place_9_1 key_20": {
-    "preconditions": [
-      "at-robot place_9_1",
-      "at key_20 place_9_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "move place_1_1 place_1_2": {
     "preconditions": [
       "open place_1_2",
@@ -9647,42 +8165,6 @@
     ],
     "add-effects": [
       "at-robot place_1_2"
-    ]
-  },
-  "pickup place_6_4 key_23": {
-    "preconditions": [
-      "at-robot place_6_4",
-      "at key_23 place_6_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_6_4 key_21": {
-    "preconditions": [
-      "at-robot place_6_4",
-      "at key_21 place_6_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_6_4 key_22": {
-    "preconditions": [
-      "at key_22 place_6_4",
-      "at-robot place_6_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "move place_6_6 place_6_5": {
@@ -9793,18 +8275,6 @@
       "carrying key_8"
     ]
   },
-  "pickup place_6_7 key_22": {
-    "preconditions": [
-      "at key_22 place_6_7",
-      "at-robot place_6_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_2_8 place_3_8": {
     "preconditions": [
       "open place_3_8",
@@ -9817,18 +8287,6 @@
       "at-robot place_3_8"
     ]
   },
-  "pickup place_6_7 key_23": {
-    "preconditions": [
-      "at key_23 place_6_7",
-      "at-robot place_6_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_9_7 key_7": {
     "preconditions": [
       "at key_7 place_9_7",
@@ -9839,30 +8297,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_6_7 key_20": {
-    "preconditions": [
-      "at-robot place_6_7",
-      "at key_20 place_6_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_6_7 key_21": {
-    "preconditions": [
-      "at key_21 place_6_7",
-      "at-robot place_6_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_9_7 key_9": {
@@ -9901,18 +8335,6 @@
       "carrying key_7"
     ]
   },
-  "pickup place_6_4 key_20": {
-    "preconditions": [
-      "at-robot place_6_4",
-      "at key_20 place_6_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_1_8 key_8": {
     "preconditions": [
       "at-robot place_1_8",
@@ -9949,18 +8371,6 @@
       "carrying key_2"
     ]
   },
-  "pickup place_9_4 key_23": {
-    "preconditions": [
-      "at key_23 place_9_4",
-      "at-robot place_9_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_9_7 key_0": {
     "preconditions": [
       "at key_0 place_9_7",
@@ -9973,30 +8383,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_9_4 key_22": {
-    "preconditions": [
-      "at key_22 place_9_4",
-      "at-robot place_9_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_1 key_23": {
-    "preconditions": [
-      "at-robot place_9_1",
-      "at key_23 place_9_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_1_8 key_3": {
     "preconditions": [
       "at-robot place_1_8",
@@ -10007,18 +8393,6 @@
     ],
     "add-effects": [
       "carrying key_3"
-    ]
-  },
-  "pickup place_9_4 key_21": {
-    "preconditions": [
-      "at key_21 place_9_4",
-      "at-robot place_9_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_9_7 key_2": {
@@ -10043,42 +8417,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "pickup place_9_1 key_22": {
-    "preconditions": [
-      "at key_22 place_9_1",
-      "at-robot place_9_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_1 key_21": {
-    "preconditions": [
-      "at-robot place_9_1",
-      "at key_21 place_9_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_9_4 key_20": {
-    "preconditions": [
-      "at-robot place_9_4",
-      "at key_20 place_9_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_1_8 key_5": {
@@ -10319,6 +8657,19 @@
     ],
     "add-effects": [
       "carrying key_12"
+    ]
+  },
+  "unlock place_9_7 place_8_7 key_16 shape_16": {
+    "preconditions": [
+      "locked place_8_7",
+      "carrying key_16",
+      "at-robot place_9_7"
+    ],
+    "delete-effects": [
+      "not (locked place_8_7)"
+    ],
+    "add-effects": [
+      "open place_8_7"
     ]
   },
   "pickup place_6_7 key_10": {
@@ -10681,53 +9032,17 @@
       "carrying key_6"
     ]
   },
-  "unlock place_5_6 place_5_5 key_15 shape_15": {
+  "unlock place_9_5 place_9_6 key_11 shape_11": {
     "preconditions": [
-      "carrying key_15",
-      "at-robot place_5_6",
-      "locked place_5_5"
+      "at-robot place_9_5",
+      "locked place_9_6",
+      "carrying key_11"
     ],
     "delete-effects": [
-      "not (locked place_5_5)"
+      "not (locked place_9_6)"
     ],
     "add-effects": [
-      "open place_5_5"
-    ]
-  },
-  "pickup place_7_3 key_23": {
-    "preconditions": [
-      "at-robot place_7_3",
-      "at key_23 place_7_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_7_3 key_21": {
-    "preconditions": [
-      "at key_21 place_7_3",
-      "at-robot place_7_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_7_3 key_22": {
-    "preconditions": [
-      "at-robot place_7_3",
-      "at key_22 place_7_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
+      "open place_9_6"
     ]
   },
   "pickup place_0_1 key_6": {
@@ -10777,18 +9092,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_7_3 key_20": {
-    "preconditions": [
-      "at key_20 place_7_3",
-      "at-robot place_7_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_0_1 key_8": {
@@ -11043,66 +9346,6 @@
       "carrying key_12"
     ]
   },
-  "pickup place_1_9 key_20": {
-    "preconditions": [
-      "at key_20 place_1_9",
-      "at-robot place_1_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_7_9 key_23": {
-    "preconditions": [
-      "at key_23 place_7_9",
-      "at-robot place_7_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_7_9 key_21": {
-    "preconditions": [
-      "at-robot place_7_9",
-      "at key_21 place_7_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_7_9 key_22": {
-    "preconditions": [
-      "at-robot place_7_9",
-      "at key_22 place_7_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_7_9 key_20": {
-    "preconditions": [
-      "at-robot place_7_9",
-      "at key_20 place_7_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_1_3 key_8": {
     "preconditions": [
       "at-robot place_1_3",
@@ -11115,30 +9358,6 @@
       "carrying key_8"
     ]
   },
-  "pickup place_1_9 key_22": {
-    "preconditions": [
-      "at key_22 place_1_9",
-      "at-robot place_1_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_1_9 key_21": {
-    "preconditions": [
-      "at key_21 place_1_9",
-      "at-robot place_1_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_1_3 key_7": {
     "preconditions": [
       "at-robot place_1_3",
@@ -11149,18 +9368,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_1_9 key_23": {
-    "preconditions": [
-      "at key_23 place_1_9",
-      "at-robot place_1_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_1_3 key_9": {
@@ -11199,18 +9406,6 @@
       "carrying key_9"
     ]
   },
-  "pickup place_2_8 key_22": {
-    "preconditions": [
-      "at key_22 place_2_8",
-      "at-robot place_2_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_6_1 key_6": {
     "preconditions": [
       "at-robot place_6_1",
@@ -11235,18 +9430,6 @@
       "carrying key_7"
     ]
   },
-  "pickup place_2_8 key_21": {
-    "preconditions": [
-      "at key_21 place_2_8",
-      "at-robot place_2_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_6_1 key_4": {
     "preconditions": [
       "at-robot place_6_1",
@@ -11259,18 +9442,6 @@
       "carrying key_4"
     ]
   },
-  "pickup place_2_8 key_23": {
-    "preconditions": [
-      "at key_23 place_2_8",
-      "at-robot place_2_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_6_1 key_5": {
     "preconditions": [
       "at-robot place_6_1",
@@ -11281,18 +9452,6 @@
     ],
     "add-effects": [
       "carrying key_5"
-    ]
-  },
-  "pickup place_8_2 key_20": {
-    "preconditions": [
-      "at-robot place_8_2",
-      "at key_20 place_8_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "move place_0_7 place_0_8": {
@@ -11355,18 +9514,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_8_2 key_23": {
-    "preconditions": [
-      "at-robot place_8_2",
-      "at key_23 place_8_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "unlock place_8_2 place_8_1 key_2 shape_2": {
     "preconditions": [
       "at-robot place_8_2",
@@ -11378,30 +9525,6 @@
     ],
     "add-effects": [
       "open place_8_1"
-    ]
-  },
-  "pickup place_8_2 key_22": {
-    "preconditions": [
-      "at-robot place_8_2",
-      "at key_22 place_8_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_2 key_21": {
-    "preconditions": [
-      "at-robot place_8_2",
-      "at key_21 place_8_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_1_4 key_1": {
@@ -11426,18 +9549,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_2_8 key_20": {
-    "preconditions": [
-      "at key_20 place_2_8",
-      "at-robot place_2_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_1_4 key_5": {
@@ -12172,54 +10283,6 @@
       "carrying key_17"
     ]
   },
-  "pickup place_5_2 key_20": {
-    "preconditions": [
-      "at-robot place_5_2",
-      "at key_20 place_5_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_5_2 key_21": {
-    "preconditions": [
-      "at key_21 place_5_2",
-      "at-robot place_5_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_2 key_22": {
-    "preconditions": [
-      "at key_22 place_5_2",
-      "at-robot place_5_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_5_2 key_23": {
-    "preconditions": [
-      "at-robot place_5_2",
-      "at key_23 place_5_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_1_2 key_6": {
     "preconditions": [
       "at key_6 place_1_2",
@@ -12338,54 +10401,6 @@
     ],
     "add-effects": [
       "carrying key_1"
-    ]
-  },
-  "pickup place_4_3 key_20": {
-    "preconditions": [
-      "at-robot place_4_3",
-      "at key_20 place_4_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_4_3 key_21": {
-    "preconditions": [
-      "at key_21 place_4_3",
-      "at-robot place_4_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_4_3 key_22": {
-    "preconditions": [
-      "at key_22 place_4_3",
-      "at-robot place_4_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_4_3 key_23": {
-    "preconditions": [
-      "at-robot place_4_3",
-      "at key_23 place_4_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_9_7 key_18": {
@@ -12700,18 +10715,6 @@
       "carrying key_11"
     ]
   },
-  "pickup place_3_4 key_20": {
-    "preconditions": [
-      "at key_20 place_3_4",
-      "at-robot place_3_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "move place_7_1 place_7_0": {
     "preconditions": [
       "at-robot place_7_1",
@@ -12724,30 +10727,6 @@
       "at-robot place_7_0"
     ]
   },
-  "pickup place_3_4 key_21": {
-    "preconditions": [
-      "at-robot place_3_4",
-      "at key_21 place_3_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_4 key_22": {
-    "preconditions": [
-      "at-robot place_3_4",
-      "at key_22 place_3_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_7_1 place_7_2": {
     "preconditions": [
       "at-robot place_7_1",
@@ -12758,18 +10737,6 @@
     ],
     "add-effects": [
       "at-robot place_7_2"
-    ]
-  },
-  "pickup place_3_4 key_23": {
-    "preconditions": [
-      "at-robot place_3_4",
-      "at key_23 place_3_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_4 key_7": {
@@ -12868,31 +10835,6 @@
       "carrying key_4"
     ]
   },
-  "unlock place_3_5 place_3_4 key_13 shape_13": {
-    "preconditions": [
-      "at-robot place_3_5",
-      "locked place_3_4",
-      "carrying key_13"
-    ],
-    "delete-effects": [
-      "not (locked place_3_4)"
-    ],
-    "add-effects": [
-      "open place_3_4"
-    ]
-  },
-  "pickup place_9_7 key_23": {
-    "preconditions": [
-      "at key_23 place_9_7",
-      "at-robot place_9_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_8_8 key_18": {
     "preconditions": [
       "at key_18 place_8_8",
@@ -12903,30 +10845,6 @@
     ],
     "add-effects": [
       "carrying key_18"
-    ]
-  },
-  "pickup place_9_7 key_21": {
-    "preconditions": [
-      "at key_21 place_9_7",
-      "at-robot place_9_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_9_7 key_22": {
-    "preconditions": [
-      "at key_22 place_9_7",
-      "at-robot place_9_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_8_8 key_19": {
@@ -12951,18 +10869,6 @@
     ],
     "add-effects": [
       "carrying key_16"
-    ]
-  },
-  "pickup place_9_7 key_20": {
-    "preconditions": [
-      "at key_20 place_9_7",
-      "at-robot place_9_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_8_8 key_17": {
@@ -13230,30 +11136,6 @@
       "carrying key_18"
     ]
   },
-  "pickup place_1_6 key_21": {
-    "preconditions": [
-      "at key_21 place_1_6",
-      "at-robot place_1_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_1_6 key_20": {
-    "preconditions": [
-      "at-robot place_1_6",
-      "at key_20 place_1_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_0_7 key_17": {
     "preconditions": [
       "at-robot place_0_7",
@@ -13264,18 +11146,6 @@
     ],
     "add-effects": [
       "carrying key_17"
-    ]
-  },
-  "pickup place_1_6 key_23": {
-    "preconditions": [
-      "at key_23 place_1_6",
-      "at-robot place_1_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_1 key_3": {
@@ -13312,18 +11182,6 @@
     ],
     "add-effects": [
       "carrying key_19"
-    ]
-  },
-  "pickup place_1_6 key_22": {
-    "preconditions": [
-      "at key_22 place_1_6",
-      "at-robot place_1_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_5_1 key_1": {
@@ -13386,18 +11244,6 @@
       "carrying key_2"
     ]
   },
-  "pickup place_8_8 key_23": {
-    "preconditions": [
-      "at key_23 place_8_8",
-      "at-robot place_8_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_0_3 key_3": {
     "preconditions": [
       "at key_3 place_0_3",
@@ -13408,18 +11254,6 @@
     ],
     "add-effects": [
       "carrying key_3"
-    ]
-  },
-  "pickup place_8_8 key_21": {
-    "preconditions": [
-      "at key_21 place_8_8",
-      "at-robot place_8_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_0_5 key_7": {
@@ -13470,18 +11304,6 @@
       "carrying key_6"
     ]
   },
-  "pickup place_8_8 key_22": {
-    "preconditions": [
-      "at-robot place_8_8",
-      "at key_22 place_8_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_0_5 key_9": {
     "preconditions": [
       "at key_9 place_0_5",
@@ -13516,18 +11338,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_8_8 key_20": {
-    "preconditions": [
-      "at key_20 place_8_8",
-      "at-robot place_8_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_0_5 key_8": {
@@ -13602,18 +11412,6 @@
       "carrying key_15"
     ]
   },
-  "pickup place_0_7 key_21": {
-    "preconditions": [
-      "at-robot place_0_7",
-      "at key_21 place_0_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_1_6 key_18": {
     "preconditions": [
       "at key_18 place_1_6",
@@ -13638,30 +11436,6 @@
       "carrying key_17"
     ]
   },
-  "pickup place_0_7 key_20": {
-    "preconditions": [
-      "at-robot place_0_7",
-      "at key_20 place_0_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_0_7 key_23": {
-    "preconditions": [
-      "at-robot place_0_7",
-      "at key_23 place_0_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_1_6 key_19": {
     "preconditions": [
       "at key_19 place_1_6",
@@ -13672,18 +11446,6 @@
     ],
     "add-effects": [
       "carrying key_19"
-    ]
-  },
-  "pickup place_0_7 key_22": {
-    "preconditions": [
-      "at-robot place_0_7",
-      "at key_22 place_0_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_1_6 key_10": {
@@ -13756,54 +11518,6 @@
     ],
     "add-effects": [
       "carrying key_13"
-    ]
-  },
-  "pickup place_3_7 key_22": {
-    "preconditions": [
-      "at-robot place_3_7",
-      "at key_22 place_3_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_7 key_21": {
-    "preconditions": [
-      "at-robot place_3_7",
-      "at key_21 place_3_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_7 key_23": {
-    "preconditions": [
-      "at-robot place_3_7",
-      "at key_23 place_3_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_3_7 key_20": {
-    "preconditions": [
-      "at-robot place_3_7",
-      "at key_20 place_3_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_0_5 key_3": {
@@ -14022,18 +11736,6 @@
       "carrying key_5"
     ]
   },
-  "pickup place_4_6 key_20": {
-    "preconditions": [
-      "at key_20 place_4_6",
-      "at-robot place_4_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "unlock place_0_4 place_0_5 key_7 shape_7": {
     "preconditions": [
       "carrying key_7",
@@ -14143,42 +11845,6 @@
       "carrying key_2"
     ]
   },
-  "pickup place_4_6 key_23": {
-    "preconditions": [
-      "at-robot place_4_6",
-      "at key_23 place_4_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_4_6 key_21": {
-    "preconditions": [
-      "at key_21 place_4_6",
-      "at-robot place_4_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_4_6 key_22": {
-    "preconditions": [
-      "at-robot place_4_6",
-      "at key_22 place_4_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_7_7 place_7_8": {
     "preconditions": [
       "at-robot place_7_7",
@@ -14189,18 +11855,6 @@
     ],
     "add-effects": [
       "at-robot place_7_8"
-    ]
-  },
-  "pickup place_5_5 key_20": {
-    "preconditions": [
-      "at key_20 place_5_5",
-      "at-robot place_5_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "move place_0_2 place_1_2": {
@@ -14249,42 +11903,6 @@
     ],
     "add-effects": [
       "at-robot place_8_7"
-    ]
-  },
-  "pickup place_5_5 key_23": {
-    "preconditions": [
-      "at-robot place_5_5",
-      "at key_23 place_5_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_5_5 key_21": {
-    "preconditions": [
-      "at key_21 place_5_5",
-      "at-robot place_5_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_5 key_22": {
-    "preconditions": [
-      "at key_22 place_5_5",
-      "at-robot place_5_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_8_5 key_11": {
@@ -14504,30 +12122,6 @@
       "carrying key_18"
     ]
   },
-  "pickup place_8_5 key_22": {
-    "preconditions": [
-      "at key_22 place_8_5",
-      "at-robot place_8_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_5 key_23": {
-    "preconditions": [
-      "at key_23 place_8_5",
-      "at-robot place_8_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "move place_0_0 place_1_0": {
     "preconditions": [
       "at-robot place_0_0",
@@ -14550,30 +12144,6 @@
     ],
     "add-effects": [
       "at-robot place_7_6"
-    ]
-  },
-  "pickup place_8_5 key_20": {
-    "preconditions": [
-      "at key_20 place_8_5",
-      "at-robot place_8_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_8_5 key_21": {
-    "preconditions": [
-      "at key_21 place_8_5",
-      "at-robot place_8_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_0_8 key_2": {
@@ -14815,54 +12385,6 @@
     ],
     "add-effects": [
       "carrying key_19"
-    ]
-  },
-  "pickup place_7_6 key_22": {
-    "preconditions": [
-      "at-robot place_7_6",
-      "at key_22 place_7_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_7_6 key_23": {
-    "preconditions": [
-      "at key_23 place_7_6",
-      "at-robot place_7_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_7_6 key_20": {
-    "preconditions": [
-      "at key_20 place_7_6",
-      "at-robot place_7_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_7_6 key_21": {
-    "preconditions": [
-      "at-robot place_7_6",
-      "at key_21 place_7_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "move place_6_4 place_6_3": {
@@ -15669,19 +13191,6 @@
       "carrying key_16"
     ]
   },
-  "unlock place_2_1 place_2_0 key_10 shape_10": {
-    "preconditions": [
-      "carrying key_10",
-      "at-robot place_2_1",
-      "locked place_2_0"
-    ],
-    "delete-effects": [
-      "not (locked place_2_0)"
-    ],
-    "add-effects": [
-      "open place_2_0"
-    ]
-  },
   "pickup place_5_7 key_9": {
     "preconditions": [
       "at-robot place_5_7",
@@ -15851,6 +13360,19 @@
       "carrying key_13"
     ]
   },
+  "unlock place_5_8 place_5_7 key_12 shape_12": {
+    "preconditions": [
+      "carrying key_12",
+      "at-robot place_5_8",
+      "locked place_5_7"
+    ],
+    "delete-effects": [
+      "not (locked place_5_7)"
+    ],
+    "add-effects": [
+      "open place_5_7"
+    ]
+  },
   "pickup place_5_5 key_10": {
     "preconditions": [
       "at key_10 place_5_5",
@@ -15873,30 +13395,6 @@
     ],
     "add-effects": [
       "carrying key_11"
-    ]
-  },
-  "pickup place_2_5 key_20": {
-    "preconditions": [
-      "at key_20 place_2_5",
-      "at-robot place_2_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_2_5 key_21": {
-    "preconditions": [
-      "at-robot place_2_5",
-      "at key_21 place_2_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_5_8 key_7": {
@@ -15923,18 +13421,6 @@
       "carrying key_6"
     ]
   },
-  "pickup place_2_5 key_22": {
-    "preconditions": [
-      "at key_22 place_2_5",
-      "at-robot place_2_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_5_8 key_9": {
     "preconditions": [
       "at-robot place_5_8",
@@ -15957,18 +13443,6 @@
     ],
     "add-effects": [
       "carrying key_8"
-    ]
-  },
-  "pickup place_2_5 key_23": {
-    "preconditions": [
-      "at key_23 place_2_5",
-      "at-robot place_2_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_8 key_3": {
@@ -16547,54 +14021,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_0_4 key_23": {
-    "preconditions": [
-      "at-robot place_0_4",
-      "at key_23 place_0_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_0_4 key_21": {
-    "preconditions": [
-      "at key_21 place_0_4",
-      "at-robot place_0_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_0_4 key_22": {
-    "preconditions": [
-      "at key_22 place_0_4",
-      "at-robot place_0_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_4 key_20": {
-    "preconditions": [
-      "at key_20 place_0_4",
-      "at-robot place_0_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_6_9 key_4": {
     "preconditions": [
       "at-robot place_6_9",
@@ -16859,54 +14285,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_5_4 key_21": {
-    "preconditions": [
-      "at-robot place_5_4",
-      "at key_21 place_5_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_4 key_20": {
-    "preconditions": [
-      "at-robot place_5_4",
-      "at key_20 place_5_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_5_4 key_23": {
-    "preconditions": [
-      "at key_23 place_5_4",
-      "at-robot place_5_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_5_4 key_22": {
-    "preconditions": [
-      "at-robot place_5_4",
-      "at key_22 place_5_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_7_2 key_18": {
     "preconditions": [
       "at-robot place_7_2",
@@ -17003,19 +14381,6 @@
       "carrying key_10"
     ]
   },
-  "unlock place_8_6 place_8_5 key_18 shape_18": {
-    "preconditions": [
-      "carrying key_18",
-      "at-robot place_8_6",
-      "locked place_8_5"
-    ],
-    "delete-effects": [
-      "not (locked place_8_5)"
-    ],
-    "add-effects": [
-      "open place_8_5"
-    ]
-  },
   "pickup place_7_2 key_12": {
     "preconditions": [
       "at key_12 place_7_2",
@@ -17074,6 +14439,19 @@
     ],
     "add-effects": [
       "at-robot place_5_6"
+    ]
+  },
+  "unlock place_8_6 place_8_7 key_16 shape_16": {
+    "preconditions": [
+      "at-robot place_8_6",
+      "locked place_8_7",
+      "carrying key_16"
+    ],
+    "delete-effects": [
+      "not (locked place_8_7)"
+    ],
+    "add-effects": [
+      "open place_8_7"
     ]
   },
   "pickup place_6_4 key_2": {
@@ -17136,30 +14514,6 @@
       "carrying key_6"
     ]
   },
-  "pickup place_1_8 key_20": {
-    "preconditions": [
-      "at-robot place_1_8",
-      "at key_20 place_1_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_1_8 key_21": {
-    "preconditions": [
-      "at-robot place_1_8",
-      "at key_21 place_1_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_6_4 key_5": {
     "preconditions": [
       "at-robot place_6_4",
@@ -17196,30 +14550,6 @@
       "at-robot place_0_8"
     ]
   },
-  "pickup place_1_8 key_22": {
-    "preconditions": [
-      "at-robot place_1_8",
-      "at key_22 place_1_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_1_8 key_23": {
-    "preconditions": [
-      "at-robot place_1_8",
-      "at key_23 place_1_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_6_4 key_7": {
     "preconditions": [
       "at-robot place_6_4",
@@ -17230,18 +14560,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_8_6 key_20": {
-    "preconditions": [
-      "at-robot place_8_6",
-      "at key_20 place_8_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "move place_3_0 place_4_0": {
@@ -17266,42 +14584,6 @@
     ],
     "add-effects": [
       "carrying key_0"
-    ]
-  },
-  "pickup place_8_6 key_23": {
-    "preconditions": [
-      "at key_23 place_8_6",
-      "at-robot place_8_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_8_6 key_22": {
-    "preconditions": [
-      "at-robot place_8_6",
-      "at key_22 place_8_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_6 key_21": {
-    "preconditions": [
-      "at-robot place_8_6",
-      "at key_21 place_8_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_9_9 key_6": {
@@ -17400,18 +14682,6 @@
       "carrying key_5"
     ]
   },
-  "pickup place_7_2 key_21": {
-    "preconditions": [
-      "at-robot place_7_2",
-      "at key_21 place_7_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_9_9 key_2": {
     "preconditions": [
       "at key_2 place_9_9",
@@ -17434,18 +14704,6 @@
     ],
     "add-effects": [
       "carrying key_6"
-    ]
-  },
-  "pickup place_7_2 key_20": {
-    "preconditions": [
-      "at key_20 place_7_2",
-      "at-robot place_7_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_9_9 key_1": {
@@ -17484,18 +14742,6 @@
       "carrying key_4"
     ]
   },
-  "pickup place_7_2 key_23": {
-    "preconditions": [
-      "at key_23 place_7_2",
-      "at-robot place_7_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_9_9 key_3": {
     "preconditions": [
       "at key_3 place_9_9",
@@ -17518,18 +14764,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "pickup place_7_2 key_22": {
-    "preconditions": [
-      "at-robot place_7_2",
-      "at key_22 place_7_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "unlock place_2_1 place_2_2 key_9 shape_9": {
@@ -17579,6 +14813,19 @@
     ],
     "add-effects": [
       "carrying key_18"
+    ]
+  },
+  "unlock place_8_8 place_8_7 key_16 shape_16": {
+    "preconditions": [
+      "at-robot place_8_8",
+      "locked place_8_7",
+      "carrying key_16"
+    ],
+    "delete-effects": [
+      "not (locked place_8_7)"
+    ],
+    "add-effects": [
+      "open place_8_7"
     ]
   },
   "pickup place_1_8 key_19": {
@@ -17711,6 +14958,19 @@
     ],
     "add-effects": [
       "carrying key_12"
+    ]
+  },
+  "unlock place_5_0 place_6_0 key_10 shape_10": {
+    "preconditions": [
+      "locked place_6_0",
+      "carrying key_10",
+      "at-robot place_5_0"
+    ],
+    "delete-effects": [
+      "not (locked place_6_0)"
+    ],
+    "add-effects": [
+      "open place_6_0"
     ]
   },
   "pickup place_8_6 key_11": {
@@ -18037,54 +15297,6 @@
       "carrying key_12"
     ]
   },
-  "pickup place_4_0 key_23": {
-    "preconditions": [
-      "at-robot place_4_0",
-      "at key_23 place_4_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_4_0 key_22": {
-    "preconditions": [
-      "at-robot place_4_0",
-      "at key_22 place_4_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_4_0 key_21": {
-    "preconditions": [
-      "at-robot place_4_0",
-      "at key_21 place_4_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_4_0 key_20": {
-    "preconditions": [
-      "at-robot place_4_0",
-      "at key_20 place_4_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_8_3 key_8": {
     "preconditions": [
       "at key_8 place_8_3",
@@ -18107,19 +15319,6 @@
     ],
     "add-effects": [
       "carrying key_9"
-    ]
-  },
-  "unlock place_7_2 place_7_1 key_17 shape_17": {
-    "preconditions": [
-      "at-robot place_7_2",
-      "locked place_7_1",
-      "carrying key_17"
-    ],
-    "delete-effects": [
-      "not (locked place_7_1)"
-    ],
-    "add-effects": [
-      "open place_7_1"
     ]
   },
   "pickup place_8_3 key_4": {
@@ -18626,18 +15825,6 @@
       "at-robot place_2_1"
     ]
   },
-  "pickup place_5_7 key_23": {
-    "preconditions": [
-      "at key_23 place_5_7",
-      "at-robot place_5_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_2_8 key_1": {
     "preconditions": [
       "at key_1 place_2_8",
@@ -18804,90 +15991,6 @@
     ],
     "add-effects": [
       "at-robot place_8_4"
-    ]
-  },
-  "pickup place_5_1 key_20": {
-    "preconditions": [
-      "at key_20 place_5_1",
-      "at-robot place_5_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_5_1 key_22": {
-    "preconditions": [
-      "at key_22 place_5_1",
-      "at-robot place_5_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_5_7 key_20": {
-    "preconditions": [
-      "at-robot place_5_7",
-      "at key_20 place_5_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_5_1 key_21": {
-    "preconditions": [
-      "at key_21 place_5_1",
-      "at-robot place_5_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_7 key_21": {
-    "preconditions": [
-      "at-robot place_5_7",
-      "at key_21 place_5_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_7 key_22": {
-    "preconditions": [
-      "at key_22 place_5_7",
-      "at-robot place_5_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_5_1 key_23": {
-    "preconditions": [
-      "at-robot place_5_1",
-      "at key_23 place_5_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_7 key_12": {
@@ -19202,19 +16305,6 @@
       "carrying key_11"
     ]
   },
-  "unlock place_8_0 place_9_0 key_19 shape_19": {
-    "preconditions": [
-      "carrying key_19",
-      "at-robot place_8_0",
-      "locked place_9_0"
-    ],
-    "delete-effects": [
-      "not (locked place_9_0)"
-    ],
-    "add-effects": [
-      "open place_9_0"
-    ]
-  },
   "move place_9_7 place_8_7": {
     "preconditions": [
       "open place_8_7",
@@ -19381,19 +16471,6 @@
     ],
     "add-effects": [
       "carrying key_9"
-    ]
-  },
-  "unlock place_8_4 place_8_5 key_18 shape_18": {
-    "preconditions": [
-      "carrying key_18",
-      "locked place_8_5",
-      "at-robot place_8_4"
-    ],
-    "delete-effects": [
-      "not (locked place_8_5)"
-    ],
-    "add-effects": [
-      "open place_8_5"
     ]
   },
   "pickup place_1_5 key_14": {
@@ -19817,6 +16894,19 @@
       "carrying key_5"
     ]
   },
+  "unlock place_3_1 place_3_2 key_15 shape_15": {
+    "preconditions": [
+      "carrying key_15",
+      "locked place_3_2",
+      "at-robot place_3_1"
+    ],
+    "delete-effects": [
+      "not (locked place_3_2)"
+    ],
+    "add-effects": [
+      "open place_3_2"
+    ]
+  },
   "pickup place_8_8 key_4": {
     "preconditions": [
       "at key_4 place_8_8",
@@ -19865,18 +16955,6 @@
       "carrying key_8"
     ]
   },
-  "pickup place_2_2 key_23": {
-    "preconditions": [
-      "at key_23 place_2_2",
-      "at-robot place_2_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_8_8 key_7": {
     "preconditions": [
       "at key_7 place_8_8",
@@ -19887,42 +16965,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_2_2 key_21": {
-    "preconditions": [
-      "at key_21 place_2_2",
-      "at-robot place_2_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_2 key_22": {
-    "preconditions": [
-      "at key_22 place_2_2",
-      "at-robot place_2_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_2_2 key_20": {
-    "preconditions": [
-      "at-robot place_2_2",
-      "at key_20 place_2_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_8_8 key_2": {
@@ -19961,100 +17003,17 @@
       "carrying key_0"
     ]
   },
-  "pickup place_0_1 key_22": {
+  "unlock place_3_3 place_3_2 key_15 shape_15": {
     "preconditions": [
-      "at key_22 place_0_1",
-      "at-robot place_0_1"
+      "carrying key_15",
+      "at-robot place_3_3",
+      "locked place_3_2"
     ],
     "delete-effects": [
-      "not (at key_22 place_0_1)"
+      "not (locked place_3_2)"
     ],
     "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_1 key_23": {
-    "preconditions": [
-      "at-robot place_0_1",
-      "at key_23 place_0_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_0_1 key_20": {
-    "preconditions": [
-      "at-robot place_0_1",
-      "at key_20 place_0_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_0_1 key_21": {
-    "preconditions": [
-      "at key_21 place_0_1",
-      "at-robot place_0_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_6 key_20": {
-    "preconditions": [
-      "at key_20 place_3_6",
-      "at-robot place_3_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_3_6 key_21": {
-    "preconditions": [
-      "at key_21 place_3_6",
-      "at-robot place_3_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_6 key_22": {
-    "preconditions": [
-      "at key_22 place_3_6",
-      "at-robot place_3_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_6 key_23": {
-    "preconditions": [
-      "at key_23 place_3_6",
-      "at-robot place_3_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
+      "open place_3_2"
     ]
   },
   "pickup place_0_1 key_19": {
@@ -20091,54 +17050,6 @@
     ],
     "add-effects": [
       "carrying key_18"
-    ]
-  },
-  "pickup place_9_0 key_22": {
-    "preconditions": [
-      "at key_22 place_9_0",
-      "at-robot place_9_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_0 key_23": {
-    "preconditions": [
-      "at key_23 place_9_0",
-      "at-robot place_9_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_9_0 key_20": {
-    "preconditions": [
-      "at-robot place_9_0",
-      "at key_20 place_9_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_9_0 key_21": {
-    "preconditions": [
-      "at key_21 place_9_0",
-      "at-robot place_9_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_2_8 key_0": {
@@ -20597,30 +17508,6 @@
       "carrying key_4"
     ]
   },
-  "pickup place_4_7 key_21": {
-    "preconditions": [
-      "at key_21 place_4_7",
-      "at-robot place_4_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_4_7 key_20": {
-    "preconditions": [
-      "at key_20 place_4_7",
-      "at-robot place_4_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_4_7 key_9": {
     "preconditions": [
       "at key_9 place_4_7",
@@ -20643,30 +17530,6 @@
     ],
     "add-effects": [
       "carrying key_8"
-    ]
-  },
-  "pickup place_4_7 key_23": {
-    "preconditions": [
-      "at key_23 place_4_7",
-      "at-robot place_4_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_4_7 key_22": {
-    "preconditions": [
-      "at key_22 place_4_7",
-      "at-robot place_4_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_9_3 key_13": {
@@ -21149,18 +18012,6 @@
       "carrying key_10"
     ]
   },
-  "pickup place_6_1 key_21": {
-    "preconditions": [
-      "at-robot place_6_1",
-      "at key_21 place_6_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_7_0 key_9": {
     "preconditions": [
       "at key_9 place_7_0",
@@ -21173,18 +18024,6 @@
       "carrying key_9"
     ]
   },
-  "pickup place_9_3 key_23": {
-    "preconditions": [
-      "at key_23 place_9_3",
-      "at-robot place_9_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_7_0 key_8": {
     "preconditions": [
       "at key_8 place_7_0",
@@ -21195,42 +18034,6 @@
     ],
     "add-effects": [
       "carrying key_8"
-    ]
-  },
-  "pickup place_6_1 key_20": {
-    "preconditions": [
-      "at-robot place_6_1",
-      "at key_20 place_6_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_3_0 key_21": {
-    "preconditions": [
-      "at-robot place_3_0",
-      "at key_21 place_3_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_0 key_20": {
-    "preconditions": [
-      "at key_20 place_3_0",
-      "at-robot place_3_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_7_0 key_5": {
@@ -21269,30 +18072,6 @@
       "carrying key_7"
     ]
   },
-  "pickup place_6_5 key_23": {
-    "preconditions": [
-      "at key_23 place_6_5",
-      "at-robot place_6_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_6_1 key_23": {
-    "preconditions": [
-      "at-robot place_6_1",
-      "at key_23 place_6_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_7_0 key_6": {
     "preconditions": [
       "at key_6 place_7_0",
@@ -21303,30 +18082,6 @@
     ],
     "add-effects": [
       "carrying key_6"
-    ]
-  },
-  "pickup place_6_1 key_22": {
-    "preconditions": [
-      "at-robot place_6_1",
-      "at key_22 place_6_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_6_5 key_22": {
-    "preconditions": [
-      "at-robot place_6_5",
-      "at key_22 place_6_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_1_7 key_1": {
@@ -21365,43 +18120,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_3_0 key_23": {
-    "preconditions": [
-      "at-robot place_3_0",
-      "at key_23 place_3_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_3_0 key_22": {
-    "preconditions": [
-      "at-robot place_3_0",
-      "at key_22 place_3_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "unlock place_8_8 place_9_8 key_20 shape_20": {
-    "preconditions": [
-      "carrying key_20",
-      "at-robot place_8_8",
-      "locked place_9_8"
-    ],
-    "delete-effects": [
-      "not (locked place_9_8)"
-    ],
-    "add-effects": [
-      "open place_9_8"
-    ]
-  },
   "pickup place_3_0 key_19": {
     "preconditions": [
       "at-robot place_3_0",
@@ -21412,66 +18130,6 @@
     ],
     "add-effects": [
       "carrying key_19"
-    ]
-  },
-  "pickup place_6_5 key_21": {
-    "preconditions": [
-      "at-robot place_6_5",
-      "at key_21 place_6_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_6_5 key_20": {
-    "preconditions": [
-      "at-robot place_6_5",
-      "at key_20 place_6_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_9_3 key_20": {
-    "preconditions": [
-      "at key_20 place_9_3",
-      "at-robot place_9_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_9_3 key_22": {
-    "preconditions": [
-      "at key_22 place_9_3",
-      "at-robot place_9_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_3 key_21": {
-    "preconditions": [
-      "at key_21 place_9_3",
-      "at-robot place_9_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_6_5 key_18": {
@@ -21966,18 +18624,6 @@
       "carrying key_3"
     ]
   },
-  "pickup place_7_5 key_20": {
-    "preconditions": [
-      "at-robot place_7_5",
-      "at key_20 place_7_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_4_0 key_2": {
     "preconditions": [
       "at-robot place_4_0",
@@ -22014,55 +18660,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_7_5 key_22": {
-    "preconditions": [
-      "at-robot place_7_5",
-      "at key_22 place_7_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_7_5 key_21": {
-    "preconditions": [
-      "at-robot place_7_5",
-      "at key_21 place_7_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_7_5 key_23": {
-    "preconditions": [
-      "at key_23 place_7_5",
-      "at-robot place_7_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "unlock place_7_0 place_7_1 key_17 shape_17": {
-    "preconditions": [
-      "locked place_7_1",
-      "carrying key_17",
-      "at-robot place_7_0"
-    ],
-    "delete-effects": [
-      "not (locked place_7_1)"
-    ],
-    "add-effects": [
-      "open place_7_1"
-    ]
-  },
   "pickup place_2_1 key_9": {
     "preconditions": [
       "at key_9 place_2_1",
@@ -22087,52 +18684,17 @@
       "carrying key_8"
     ]
   },
-  "pickup place_1_5 key_20": {
+  "unlock place_6_1 place_6_0 key_10 shape_10": {
     "preconditions": [
-      "at key_20 place_1_5",
-      "at-robot place_1_5"
+      "locked place_6_0",
+      "carrying key_10",
+      "at-robot place_6_1"
     ],
     "delete-effects": [
-      "not (at key_20 place_1_5)"
+      "not (locked place_6_0)"
     ],
     "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_1_5 key_21": {
-    "preconditions": [
-      "at key_21 place_1_5",
-      "at-robot place_1_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_1_5 key_22": {
-    "preconditions": [
-      "at key_22 place_1_5",
-      "at-robot place_1_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_1_5 key_23": {
-    "preconditions": [
-      "at key_23 place_1_5",
-      "at-robot place_1_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
+      "open place_6_0"
     ]
   },
   "move place_7_3 place_6_3": {
@@ -22507,18 +19069,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_2_9 key_22": {
-    "preconditions": [
-      "at key_22 place_2_9",
-      "at-robot place_2_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_6_6 key_2": {
     "preconditions": [
       "at key_2 place_6_6",
@@ -22529,18 +19079,6 @@
     ],
     "add-effects": [
       "carrying key_2"
-    ]
-  },
-  "pickup place_2_9 key_23": {
-    "preconditions": [
-      "at-robot place_2_9",
-      "at key_23 place_2_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_6_6 key_1": {
@@ -22819,28 +19357,17 @@
       "carrying key_18"
     ]
   },
-  "pickup place_2_9 key_20": {
+  "unlock place_7_2 place_7_1 key_13 shape_13": {
     "preconditions": [
-      "at key_20 place_2_9",
-      "at-robot place_2_9"
+      "at-robot place_7_2",
+      "locked place_7_1",
+      "carrying key_13"
     ],
     "delete-effects": [
-      "not (at key_20 place_2_9)"
+      "not (locked place_7_1)"
     ],
     "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_2_9 key_21": {
-    "preconditions": [
-      "at-robot place_2_9",
-      "at key_21 place_2_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
+      "open place_7_1"
     ]
   },
   "move place_1_3 place_1_2": {
@@ -23383,18 +19910,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_8_9 key_23": {
-    "preconditions": [
-      "at-robot place_8_9",
-      "at key_23 place_8_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_9_4 key_1": {
     "preconditions": [
       "at key_1 place_9_4",
@@ -23405,42 +19920,6 @@
     ],
     "add-effects": [
       "carrying key_1"
-    ]
-  },
-  "pickup place_8_9 key_22": {
-    "preconditions": [
-      "at key_22 place_8_9",
-      "at-robot place_8_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_9 key_21": {
-    "preconditions": [
-      "at key_21 place_8_9",
-      "at-robot place_8_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_8_9 key_20": {
-    "preconditions": [
-      "at key_20 place_8_9",
-      "at-robot place_8_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "move place_9_0 place_9_1": {
@@ -23503,19 +19982,6 @@
       "carrying key_7"
     ]
   },
-  "unlock place_3_3 place_3_4 key_13 shape_13": {
-    "preconditions": [
-      "locked place_3_4",
-      "at-robot place_3_3",
-      "carrying key_13"
-    ],
-    "delete-effects": [
-      "not (locked place_3_4)"
-    ],
-    "add-effects": [
-      "open place_3_4"
-    ]
-  },
   "move place_7_5 place_6_5": {
     "preconditions": [
       "at-robot place_7_5",
@@ -23565,30 +20031,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_1_2 key_21": {
-    "preconditions": [
-      "at key_21 place_1_2",
-      "at-robot place_1_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_1_2 key_20": {
-    "preconditions": [
-      "at-robot place_1_2",
-      "at key_20 place_1_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "move place_8_7 place_9_7": {
     "preconditions": [
       "open place_9_7",
@@ -23601,28 +20043,17 @@
       "at-robot place_9_7"
     ]
   },
-  "pickup place_1_2 key_23": {
+  "unlock place_5_6 place_5_7 key_12 shape_12": {
     "preconditions": [
-      "at key_23 place_1_2",
-      "at-robot place_1_2"
+      "at-robot place_5_6",
+      "carrying key_12",
+      "locked place_5_7"
     ],
     "delete-effects": [
-      "not (at key_23 place_1_2)"
+      "not (locked place_5_7)"
     ],
     "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_1_2 key_22": {
-    "preconditions": [
-      "at key_22 place_1_2",
-      "at-robot place_1_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
+      "open place_5_7"
     ]
   },
   "pickup place_6_8 key_17": {
@@ -24045,102 +20476,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_3_3 key_20": {
-    "preconditions": [
-      "at-robot place_3_3",
-      "at key_20 place_3_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_3_3 key_22": {
-    "preconditions": [
-      "at-robot place_3_3",
-      "at key_22 place_3_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_3 key_21": {
-    "preconditions": [
-      "at-robot place_3_3",
-      "at key_21 place_3_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_3 key_23": {
-    "preconditions": [
-      "at-robot place_3_3",
-      "at key_23 place_3_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_6_8 key_20": {
-    "preconditions": [
-      "at-robot place_6_8",
-      "at key_20 place_6_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_6_8 key_23": {
-    "preconditions": [
-      "at key_23 place_6_8",
-      "at-robot place_6_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_6_8 key_22": {
-    "preconditions": [
-      "at key_22 place_6_8",
-      "at-robot place_6_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_6_8 key_21": {
-    "preconditions": [
-      "at-robot place_6_8",
-      "at key_21 place_6_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "move place_5_2 place_4_2": {
     "preconditions": [
       "at-robot place_5_2",
@@ -24223,6 +20558,19 @@
     ],
     "add-effects": [
       "carrying key_1"
+    ]
+  },
+  "unlock place_4_6 place_4_5 key_14 shape_14": {
+    "preconditions": [
+      "carrying key_14",
+      "at-robot place_4_6",
+      "locked place_4_5"
+    ],
+    "delete-effects": [
+      "not (locked place_4_5)"
+    ],
+    "add-effects": [
+      "open place_4_5"
     ]
   },
   "pickup place_9_1 key_2": {
@@ -24357,30 +20705,6 @@
       "carrying key_3"
     ]
   },
-  "pickup place_4_1 key_20": {
-    "preconditions": [
-      "at-robot place_4_1",
-      "at key_20 place_4_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_4_1 key_21": {
-    "preconditions": [
-      "at-robot place_4_1",
-      "at key_21 place_4_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_2_0 key_4": {
     "preconditions": [
       "at key_4 place_2_0",
@@ -24391,18 +20715,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "pickup place_4_1 key_22": {
-    "preconditions": [
-      "at-robot place_4_1",
-      "at key_22 place_4_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_2_0 key_1": {
@@ -24427,18 +20739,6 @@
     ],
     "add-effects": [
       "carrying key_2"
-    ]
-  },
-  "pickup place_4_1 key_23": {
-    "preconditions": [
-      "at-robot place_4_1",
-      "at key_23 place_4_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_2_0 key_0": {
@@ -25149,19 +21449,6 @@
       "carrying key_10"
     ]
   },
-  "unlock place_6_3 place_6_4 key_16 shape_16": {
-    "preconditions": [
-      "at-robot place_6_3",
-      "locked place_6_4",
-      "carrying key_16"
-    ],
-    "delete-effects": [
-      "not (locked place_6_4)"
-    ],
-    "add-effects": [
-      "open place_6_4"
-    ]
-  },
   "pickup place_5_0 key_10": {
     "preconditions": [
       "at-robot place_5_0",
@@ -25222,32 +21509,6 @@
       "at-robot place_3_5"
     ]
   },
-  "unlock place_9_9 place_9_8 key_20 shape_20": {
-    "preconditions": [
-      "carrying key_20",
-      "at-robot place_9_9",
-      "locked place_9_8"
-    ],
-    "delete-effects": [
-      "not (locked place_9_8)"
-    ],
-    "add-effects": [
-      "open place_9_8"
-    ]
-  },
-  "unlock place_5_4 place_5_5 key_15 shape_15": {
-    "preconditions": [
-      "at-robot place_5_4",
-      "carrying key_15",
-      "locked place_5_5"
-    ],
-    "delete-effects": [
-      "not (locked place_5_5)"
-    ],
-    "add-effects": [
-      "open place_5_5"
-    ]
-  },
   "pickup place_8_0 key_0": {
     "preconditions": [
       "at key_0 place_8_0",
@@ -25284,54 +21545,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_2_3 key_23": {
-    "preconditions": [
-      "at key_23 place_2_3",
-      "at-robot place_2_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_2_3 key_22": {
-    "preconditions": [
-      "at-robot place_2_3",
-      "at key_22 place_2_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_2_3 key_21": {
-    "preconditions": [
-      "at-robot place_2_3",
-      "at key_21 place_2_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_3 key_20": {
-    "preconditions": [
-      "at-robot place_2_3",
-      "at key_20 place_2_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_3_2 key_9": {
     "preconditions": [
       "at key_9 place_3_2",
@@ -25344,18 +21557,6 @@
       "carrying key_9"
     ]
   },
-  "pickup place_5_0 key_20": {
-    "preconditions": [
-      "at-robot place_5_0",
-      "at key_20 place_5_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_3_2 key_8": {
     "preconditions": [
       "at key_8 place_3_2",
@@ -25366,30 +21567,6 @@
     ],
     "add-effects": [
       "carrying key_8"
-    ]
-  },
-  "pickup place_5_0 key_21": {
-    "preconditions": [
-      "at-robot place_5_0",
-      "at key_21 place_5_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_0 key_22": {
-    "preconditions": [
-      "at-robot place_5_0",
-      "at key_22 place_5_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_3_2 key_7": {
@@ -25414,18 +21591,6 @@
     ],
     "add-effects": [
       "at-robot place_5_1"
-    ]
-  },
-  "pickup place_5_0 key_23": {
-    "preconditions": [
-      "at-robot place_5_0",
-      "at key_23 place_5_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_3_2 key_6": {
@@ -25535,54 +21700,6 @@
     ],
     "add-effects": [
       "open place_2_7"
-    ]
-  },
-  "pickup place_2_6 key_22": {
-    "preconditions": [
-      "at key_22 place_2_6",
-      "at-robot place_2_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_2_6 key_21": {
-    "preconditions": [
-      "at key_21 place_2_6",
-      "at-robot place_2_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_6 key_20": {
-    "preconditions": [
-      "at key_20 place_2_6",
-      "at-robot place_2_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_2_6 key_23": {
-    "preconditions": [
-      "at key_23 place_2_6",
-      "at-robot place_2_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "unlock place_1_6 place_0_6 key_0 shape_0": {
@@ -25718,138 +21835,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_0_5 key_23": {
-    "preconditions": [
-      "at-robot place_0_5",
-      "at key_23 place_0_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_0_5 key_22": {
-    "preconditions": [
-      "at key_22 place_0_5",
-      "at-robot place_0_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_5 key_21": {
-    "preconditions": [
-      "at key_21 place_0_5",
-      "at-robot place_0_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_0_5 key_20": {
-    "preconditions": [
-      "at-robot place_0_5",
-      "at key_20 place_0_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_3_2 key_20": {
-    "preconditions": [
-      "at key_20 place_3_2",
-      "at-robot place_3_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_3_2 key_21": {
-    "preconditions": [
-      "at key_21 place_3_2",
-      "at-robot place_3_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_2 key_22": {
-    "preconditions": [
-      "at key_22 place_3_2",
-      "at-robot place_3_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_2 key_23": {
-    "preconditions": [
-      "at-robot place_3_2",
-      "at key_23 place_3_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_9_9 key_21": {
-    "preconditions": [
-      "at-robot place_9_9",
-      "at key_21 place_9_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_9_9 key_22": {
-    "preconditions": [
-      "at key_22 place_9_9",
-      "at-robot place_9_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_9 key_23": {
-    "preconditions": [
-      "at key_23 place_9_9",
-      "at-robot place_9_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "move place_5_4 place_5_5": {
     "preconditions": [
       "at-robot place_5_4",
@@ -25884,18 +21869,6 @@
     ],
     "add-effects": [
       "at-robot place_8_2"
-    ]
-  },
-  "pickup place_9_9 key_20": {
-    "preconditions": [
-      "at-robot place_9_9",
-      "at key_20 place_9_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_3_2 key_13": {
@@ -26222,19 +22195,6 @@
       "carrying key_12"
     ]
   },
-  "unlock place_0_1 place_1_1 key_11 shape_11": {
-    "preconditions": [
-      "locked place_1_1",
-      "carrying key_11",
-      "at-robot place_0_1"
-    ],
-    "delete-effects": [
-      "not (locked place_1_1)"
-    ],
-    "add-effects": [
-      "open place_1_1"
-    ]
-  },
   "pickup place_7_9 key_8": {
     "preconditions": [
       "at-robot place_7_9",
@@ -26247,18 +22207,6 @@
       "carrying key_8"
     ]
   },
-  "pickup place_4_4 key_22": {
-    "preconditions": [
-      "at-robot place_4_4",
-      "at key_22 place_4_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_4_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_7_9 key_7": {
     "preconditions": [
       "at-robot place_7_9",
@@ -26269,30 +22217,6 @@
     ],
     "add-effects": [
       "carrying key_7"
-    ]
-  },
-  "pickup place_4_4 key_21": {
-    "preconditions": [
-      "at-robot place_4_4",
-      "at key_21 place_4_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_4_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_4_4 key_20": {
-    "preconditions": [
-      "at-robot place_4_4",
-      "at key_20 place_4_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_4_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_7_9 key_9": {
@@ -26341,18 +22265,6 @@
     ],
     "add-effects": [
       "carrying key_6"
-    ]
-  },
-  "pickup place_4_4 key_23": {
-    "preconditions": [
-      "at-robot place_4_4",
-      "at key_23 place_4_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_4_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_7_9 key_5": {
@@ -26559,6 +22471,19 @@
       "carrying key_16"
     ]
   },
+  "unlock place_7_7 place_6_7 key_19 shape_19": {
+    "preconditions": [
+      "at-robot place_7_7",
+      "locked place_6_7",
+      "carrying key_19"
+    ],
+    "delete-effects": [
+      "not (locked place_6_7)"
+    ],
+    "add-effects": [
+      "open place_6_7"
+    ]
+  },
   "pickup place_3_5 key_11": {
     "preconditions": [
       "at-robot place_3_5",
@@ -26727,54 +22652,6 @@
       "carrying key_1"
     ]
   },
-  "pickup place_5_3 key_23": {
-    "preconditions": [
-      "at-robot place_5_3",
-      "at key_23 place_5_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_5_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_5_3 key_20": {
-    "preconditions": [
-      "at-robot place_5_3",
-      "at key_20 place_5_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_5_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_5_3 key_21": {
-    "preconditions": [
-      "at-robot place_5_3",
-      "at key_21 place_5_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_5_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_5_3 key_22": {
-    "preconditions": [
-      "at key_22 place_5_3",
-      "at-robot place_5_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_5_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_7_3 key_9": {
     "preconditions": [
       "at key_9 place_7_3",
@@ -26919,30 +22796,6 @@
       "carrying key_0"
     ]
   },
-  "pickup place_3_5 key_22": {
-    "preconditions": [
-      "at-robot place_3_5",
-      "at key_22 place_3_5"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_5)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_5 key_21": {
-    "preconditions": [
-      "at key_21 place_3_5",
-      "at-robot place_3_5"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_5)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "move place_5_8 place_5_7": {
     "preconditions": [
       "at-robot place_5_8",
@@ -26953,18 +22806,6 @@
     ],
     "add-effects": [
       "at-robot place_5_7"
-    ]
-  },
-  "pickup place_3_5 key_20": {
-    "preconditions": [
-      "at key_20 place_3_5",
-      "at-robot place_3_5"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_5)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_2_9 key_8": {
@@ -26989,18 +22830,6 @@
     ],
     "add-effects": [
       "carrying key_9"
-    ]
-  },
-  "pickup place_3_5 key_23": {
-    "preconditions": [
-      "at-robot place_3_5",
-      "at key_23 place_3_5"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_5)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_5_3 key_16": {
@@ -27088,18 +22917,6 @@
       "carrying key_12"
     ]
   },
-  "pickup place_9_6 key_23": {
-    "preconditions": [
-      "at key_23 place_9_6",
-      "at-robot place_9_6"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_6)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_5_3 key_13": {
     "preconditions": [
       "at-robot place_5_3",
@@ -27110,18 +22927,6 @@
     ],
     "add-effects": [
       "carrying key_13"
-    ]
-  },
-  "pickup place_9_6 key_22": {
-    "preconditions": [
-      "at-robot place_9_6",
-      "at key_22 place_9_6"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_6)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_5_3 key_14": {
@@ -27158,30 +22963,6 @@
     ],
     "add-effects": [
       "carrying key_10"
-    ]
-  },
-  "pickup place_9_6 key_21": {
-    "preconditions": [
-      "at-robot place_9_6",
-      "at key_21 place_9_6"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_6)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_9_6 key_20": {
-    "preconditions": [
-      "at-robot place_9_6",
-      "at key_20 place_9_6"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_6)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_5_3 key_11": {
@@ -27640,19 +23421,6 @@
       "carrying key_0"
     ]
   },
-  "unlock place_2_8 place_2_9 key_12 shape_12": {
-    "preconditions": [
-      "carrying key_12",
-      "at-robot place_2_8",
-      "locked place_2_9"
-    ],
-    "delete-effects": [
-      "not (locked place_2_9)"
-    ],
-    "add-effects": [
-      "open place_2_9"
-    ]
-  },
   "pickup place_7_8 key_7": {
     "preconditions": [
       "at key_7 place_7_8",
@@ -27785,55 +23553,6 @@
       "at-robot place_8_0"
     ]
   },
-  "pickup place_1_4 key_23": {
-    "preconditions": [
-      "at key_23 place_1_4",
-      "at-robot place_1_4"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_4)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_1_4 key_22": {
-    "preconditions": [
-      "at-robot place_1_4",
-      "at key_22 place_1_4"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_4)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "unlock place_9_7 place_9_8 key_20 shape_20": {
-    "preconditions": [
-      "carrying key_20",
-      "at-robot place_9_7",
-      "locked place_9_8"
-    ],
-    "delete-effects": [
-      "not (locked place_9_8)"
-    ],
-    "add-effects": [
-      "open place_9_8"
-    ]
-  },
-  "pickup place_1_4 key_21": {
-    "preconditions": [
-      "at-robot place_1_4",
-      "at key_21 place_1_4"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_4)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "unlock place_3_6 place_3_7 key_4 shape_4": {
     "preconditions": [
       "carrying key_4",
@@ -27845,18 +23564,6 @@
     ],
     "add-effects": [
       "open place_3_7"
-    ]
-  },
-  "pickup place_1_4 key_20": {
-    "preconditions": [
-      "at-robot place_1_4",
-      "at key_20 place_1_4"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_4)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_1_4 key_12": {
@@ -28339,30 +24046,6 @@
       "carrying key_17"
     ]
   },
-  "pickup place_8_7 key_23": {
-    "preconditions": [
-      "at key_23 place_8_7",
-      "at-robot place_8_7"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_7)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_8_7 key_22": {
-    "preconditions": [
-      "at-robot place_8_7",
-      "at key_22 place_8_7"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_7)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_7_0 place_7_1": {
     "preconditions": [
       "open place_7_1",
@@ -28375,18 +24058,6 @@
       "at-robot place_7_1"
     ]
   },
-  "pickup place_8_7 key_21": {
-    "preconditions": [
-      "at-robot place_8_7",
-      "at key_21 place_8_7"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_7)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_8_9 key_1": {
     "preconditions": [
       "at key_1 place_8_9",
@@ -28397,18 +24068,6 @@
     ],
     "add-effects": [
       "carrying key_1"
-    ]
-  },
-  "pickup place_8_7 key_20": {
-    "preconditions": [
-      "at key_20 place_8_7",
-      "at-robot place_8_7"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_7)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_8_9 key_0": {
@@ -28869,6 +24528,19 @@
       "carrying key_9"
     ]
   },
+  "unlock place_7_0 place_7_1 key_13 shape_13": {
+    "preconditions": [
+      "locked place_7_1",
+      "at-robot place_7_0",
+      "carrying key_13"
+    ],
+    "delete-effects": [
+      "not (locked place_7_1)"
+    ],
+    "add-effects": [
+      "open place_7_1"
+    ]
+  },
   "pickup place_8_4 key_7": {
     "preconditions": [
       "at-robot place_8_4",
@@ -28891,6 +24563,19 @@
     ],
     "add-effects": [
       "carrying key_8"
+    ]
+  },
+  "unlock place_9_7 place_9_6 key_11 shape_11": {
+    "preconditions": [
+      "locked place_9_6",
+      "carrying key_11",
+      "at-robot place_9_7"
+    ],
+    "delete-effects": [
+      "not (locked place_9_6)"
+    ],
+    "add-effects": [
+      "open place_9_6"
     ]
   },
   "move place_4_3 place_4_2": {
@@ -28917,18 +24602,6 @@
       "at-robot place_4_4"
     ]
   },
-  "pickup place_6_9 key_22": {
-    "preconditions": [
-      "at-robot place_6_9",
-      "at key_22 place_6_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "pickup place_8_0 key_12": {
     "preconditions": [
       "at-robot place_8_0",
@@ -28939,18 +24612,6 @@
     ],
     "add-effects": [
       "carrying key_12"
-    ]
-  },
-  "pickup place_6_9 key_23": {
-    "preconditions": [
-      "at key_23 place_6_9",
-      "at-robot place_6_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_8_0 key_13": {
@@ -29049,18 +24710,6 @@
       "carrying key_10"
     ]
   },
-  "pickup place_6_9 key_20": {
-    "preconditions": [
-      "at-robot place_6_9",
-      "at key_20 place_6_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_7_7 key_4": {
     "preconditions": [
       "at-robot place_7_7",
@@ -29071,18 +24720,6 @@
     ],
     "add-effects": [
       "carrying key_4"
-    ]
-  },
-  "pickup place_6_9 key_21": {
-    "preconditions": [
-      "at-robot place_6_9",
-      "at key_21 place_6_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_8_0 key_11": {
@@ -29505,30 +25142,6 @@
       "carrying key_10"
     ]
   },
-  "pickup place_7_8 key_22": {
-    "preconditions": [
-      "at key_22 place_7_8",
-      "at-robot place_7_8"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_8)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_7_8 key_23": {
-    "preconditions": [
-      "at key_23 place_7_8",
-      "at-robot place_7_8"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_8)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_3_5 key_1": {
     "preconditions": [
       "at-robot place_3_5",
@@ -29551,30 +25164,6 @@
     ],
     "add-effects": [
       "carrying key_2"
-    ]
-  },
-  "pickup place_7_8 key_20": {
-    "preconditions": [
-      "at key_20 place_7_8",
-      "at-robot place_7_8"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_8)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_7_8 key_21": {
-    "preconditions": [
-      "at key_21 place_7_8",
-      "at-robot place_7_8"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_8)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_3_5 key_0": {
@@ -29901,18 +25490,6 @@
       "carrying key_10"
     ]
   },
-  "pickup place_8_0 key_23": {
-    "preconditions": [
-      "at-robot place_8_0",
-      "at key_23 place_8_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_7_8 key_19": {
     "preconditions": [
       "at key_19 place_7_8",
@@ -29937,18 +25514,6 @@
       "carrying key_15"
     ]
   },
-  "pickup place_8_0 key_20": {
-    "preconditions": [
-      "at key_20 place_8_0",
-      "at-robot place_8_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_7_8 key_16": {
     "preconditions": [
       "at key_16 place_7_8",
@@ -29959,18 +25524,6 @@
     ],
     "add-effects": [
       "carrying key_16"
-    ]
-  },
-  "pickup place_8_0 key_21": {
-    "preconditions": [
-      "at key_21 place_8_0",
-      "at-robot place_8_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_7_8 key_17": {
@@ -29995,54 +25548,6 @@
     ],
     "add-effects": [
       "carrying key_18"
-    ]
-  },
-  "pickup place_8_0 key_22": {
-    "preconditions": [
-      "at-robot place_8_0",
-      "at key_22 place_8_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_2 key_23": {
-    "preconditions": [
-      "at key_23 place_0_2",
-      "at-robot place_0_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_0_2 key_22": {
-    "preconditions": [
-      "at key_22 place_0_2",
-      "at-robot place_0_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_2 key_21": {
-    "preconditions": [
-      "at-robot place_0_2",
-      "at key_21 place_0_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "move place_9_8 place_9_9": {
@@ -30079,18 +25584,6 @@
     ],
     "add-effects": [
       "carrying key_10"
-    ]
-  },
-  "pickup place_0_2 key_20": {
-    "preconditions": [
-      "at-robot place_0_2",
-      "at key_20 place_0_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "pickup place_8_3 key_19": {
@@ -30249,6 +25742,19 @@
       "carrying key_13"
     ]
   },
+  "unlock place_7_0 place_6_0 key_10 shape_10": {
+    "preconditions": [
+      "locked place_6_0",
+      "carrying key_10",
+      "at-robot place_7_0"
+    ],
+    "delete-effects": [
+      "not (locked place_6_0)"
+    ],
+    "add-effects": [
+      "open place_6_0"
+    ]
+  },
   "pickup place_8_3 key_14": {
     "preconditions": [
       "at-robot place_8_3",
@@ -30333,18 +25839,6 @@
       "carrying key_18"
     ]
   },
-  "pickup place_8_3 key_20": {
-    "preconditions": [
-      "at key_20 place_8_3",
-      "at-robot place_8_3"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_8_3)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_4_8 key_10": {
     "preconditions": [
       "at-robot place_4_8",
@@ -30355,18 +25849,6 @@
     ],
     "add-effects": [
       "carrying key_10"
-    ]
-  },
-  "pickup place_8_3 key_21": {
-    "preconditions": [
-      "at-robot place_8_3",
-      "at key_21 place_8_3"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_8_3)"
-    ],
-    "add-effects": [
-      "carrying key_21"
     ]
   },
   "pickup place_4_8 key_11": {
@@ -30475,30 +25957,6 @@
     ],
     "add-effects": [
       "carrying key_12"
-    ]
-  },
-  "pickup place_8_3 key_22": {
-    "preconditions": [
-      "at-robot place_8_3",
-      "at key_22 place_8_3"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_8_3)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_8_3 key_23": {
-    "preconditions": [
-      "at key_23 place_8_3",
-      "at-robot place_8_3"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_8_3)"
-    ],
-    "add-effects": [
-      "carrying key_23"
     ]
   },
   "pickup place_4_8 key_13": {
@@ -31019,78 +26477,6 @@
       "at-robot place_7_9"
     ]
   },
-  "pickup place_6_2 key_23": {
-    "preconditions": [
-      "at-robot place_6_2",
-      "at key_23 place_6_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_6_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_9_2 key_22": {
-    "preconditions": [
-      "at-robot place_9_2",
-      "at key_22 place_9_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_9_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_9_2 key_23": {
-    "preconditions": [
-      "at key_23 place_9_2",
-      "at-robot place_9_2"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_9_2)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_6_2 key_20": {
-    "preconditions": [
-      "at key_20 place_6_2",
-      "at-robot place_6_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_6_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_6_2 key_21": {
-    "preconditions": [
-      "at key_21 place_6_2",
-      "at-robot place_6_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_6_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_6_2 key_22": {
-    "preconditions": [
-      "at key_22 place_6_2",
-      "at-robot place_6_2"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_6_2)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_7_4 place_7_5": {
     "preconditions": [
       "open place_7_5",
@@ -31211,30 +26597,6 @@
       "at-robot place_8_6"
     ]
   },
-  "pickup place_9_2 key_20": {
-    "preconditions": [
-      "at-robot place_9_2",
-      "at key_20 place_9_2"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_9_2)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_9_2 key_21": {
-    "preconditions": [
-      "at-robot place_9_2",
-      "at key_21 place_9_2"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_9_2)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "pickup place_9_2 key_11": {
     "preconditions": [
       "at-robot place_9_2",
@@ -31343,54 +26705,6 @@
       "carrying key_19"
     ]
   },
-  "pickup place_3_9 key_20": {
-    "preconditions": [
-      "at key_20 place_3_9",
-      "at-robot place_3_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_3_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_3_9 key_21": {
-    "preconditions": [
-      "at key_21 place_3_9",
-      "at-robot place_3_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_3_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_3_9 key_22": {
-    "preconditions": [
-      "at-robot place_3_9",
-      "at key_22 place_3_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_3_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_3_9 key_23": {
-    "preconditions": [
-      "at key_23 place_3_9",
-      "at-robot place_3_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_3_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "move place_6_5 place_6_6": {
     "preconditions": [
       "at-robot place_6_5",
@@ -31413,19 +26727,6 @@
     ],
     "add-effects": [
       "at-robot place_6_4"
-    ]
-  },
-  "unlock place_6_5 place_6_4 key_16 shape_16": {
-    "preconditions": [
-      "at-robot place_6_5",
-      "locked place_6_4",
-      "carrying key_16"
-    ],
-    "delete-effects": [
-      "not (locked place_6_4)"
-    ],
-    "add-effects": [
-      "open place_6_4"
     ]
   },
   "pickup place_1_1 key_13": {
@@ -31788,18 +27089,6 @@
       "carrying key_10"
     ]
   },
-  "pickup place_1_1 key_20": {
-    "preconditions": [
-      "at key_20 place_1_1",
-      "at-robot place_1_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_1_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "pickup place_0_9 key_16": {
     "preconditions": [
       "at key_16 place_0_9",
@@ -31860,18 +27149,6 @@
       "carrying key_19"
     ]
   },
-  "pickup place_1_1 key_23": {
-    "preconditions": [
-      "at-robot place_1_1",
-      "at key_23 place_1_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_1_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
   "pickup place_0_9 key_18": {
     "preconditions": [
       "at key_18 place_0_9",
@@ -31882,18 +27159,6 @@
     ],
     "add-effects": [
       "carrying key_18"
-    ]
-  },
-  "pickup place_1_1 key_22": {
-    "preconditions": [
-      "at key_22 place_1_1",
-      "at-robot place_1_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_1_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   },
   "pickup place_0_9 key_17": {
@@ -31908,18 +27173,6 @@
       "carrying key_17"
     ]
   },
-  "pickup place_1_1 key_21": {
-    "preconditions": [
-      "at key_21 place_1_1",
-      "at-robot place_1_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_1_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
   "move place_8_9 place_8_8": {
     "preconditions": [
       "at-robot place_8_9",
@@ -31930,19 +27183,6 @@
     ],
     "add-effects": [
       "at-robot place_8_8"
-    ]
-  },
-  "unlock place_1_0 place_2_0 key_10 shape_10": {
-    "preconditions": [
-      "at-robot place_1_0",
-      "carrying key_10",
-      "locked place_2_0"
-    ],
-    "delete-effects": [
-      "not (locked place_2_0)"
-    ],
-    "add-effects": [
-      "open place_2_0"
     ]
   },
   "move place_9_0 place_8_0": {
@@ -31981,54 +27221,6 @@
       "carrying key_19"
     ]
   },
-  "pickup place_0_9 key_23": {
-    "preconditions": [
-      "at key_23 place_0_9",
-      "at-robot place_0_9"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_0_9)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_0_9 key_22": {
-    "preconditions": [
-      "at key_22 place_0_9",
-      "at-robot place_0_9"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_0_9)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
-  "pickup place_0_9 key_21": {
-    "preconditions": [
-      "at key_21 place_0_9",
-      "at-robot place_0_9"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_0_9)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_0_9 key_20": {
-    "preconditions": [
-      "at-robot place_0_9",
-      "at key_20 place_0_9"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_0_9)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
   "move place_6_3 place_6_4": {
     "preconditions": [
       "at-robot place_6_3",
@@ -32041,30 +27233,6 @@
       "at-robot place_6_4"
     ]
   },
-  "pickup place_2_0 key_21": {
-    "preconditions": [
-      "at key_21 place_2_0",
-      "at-robot place_2_0"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_2_0)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_2_0 key_22": {
-    "preconditions": [
-      "at key_22 place_2_0",
-      "at-robot place_2_0"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_2_0)"
-    ],
-    "add-effects": [
-      "carrying key_22"
-    ]
-  },
   "move place_6_3 place_6_2": {
     "preconditions": [
       "open place_6_2",
@@ -32075,30 +27243,6 @@
     ],
     "add-effects": [
       "at-robot place_6_2"
-    ]
-  },
-  "pickup place_2_0 key_23": {
-    "preconditions": [
-      "at-robot place_2_0",
-      "at key_23 place_2_0"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_2_0)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_2_0 key_20": {
-    "preconditions": [
-      "at-robot place_2_0",
-      "at key_20 place_2_0"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_2_0)"
-    ],
-    "add-effects": [
-      "carrying key_20"
     ]
   },
   "move place_0_1 place_1_1": {
@@ -32257,6 +27401,19 @@
       "carrying key_17"
     ]
   },
+  "unlock place_4_4 place_4_5 key_14 shape_14": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "carrying key_14",
+      "locked place_4_5"
+    ],
+    "delete-effects": [
+      "not (locked place_4_5)"
+    ],
+    "add-effects": [
+      "open place_4_5"
+    ]
+  },
   "pickup place_2_0 key_10": {
     "preconditions": [
       "at key_10 place_2_0",
@@ -32303,54 +27460,6 @@
     ],
     "add-effects": [
       "carrying key_13"
-    ]
-  },
-  "pickup place_7_1 key_23": {
-    "preconditions": [
-      "at-robot place_7_1",
-      "at key_23 place_7_1"
-    ],
-    "delete-effects": [
-      "not (at key_23 place_7_1)"
-    ],
-    "add-effects": [
-      "carrying key_23"
-    ]
-  },
-  "pickup place_7_1 key_20": {
-    "preconditions": [
-      "at-robot place_7_1",
-      "at key_20 place_7_1"
-    ],
-    "delete-effects": [
-      "not (at key_20 place_7_1)"
-    ],
-    "add-effects": [
-      "carrying key_20"
-    ]
-  },
-  "pickup place_7_1 key_21": {
-    "preconditions": [
-      "at-robot place_7_1",
-      "at key_21 place_7_1"
-    ],
-    "delete-effects": [
-      "not (at key_21 place_7_1)"
-    ],
-    "add-effects": [
-      "carrying key_21"
-    ]
-  },
-  "pickup place_7_1 key_22": {
-    "preconditions": [
-      "at-robot place_7_1",
-      "at key_22 place_7_1"
-    ],
-    "delete-effects": [
-      "not (at key_22 place_7_1)"
-    ],
-    "add-effects": [
-      "carrying key_22"
     ]
   }
 }

@@ -21,6 +21,6 @@
 
 (:goal 
 (and 
-	(at obj12 pos22)  (at obj22 pos12)  (at obj44 pos21)
+	(at obj13 pos21)  (at obj23 pos13)  (at obj55 pos11)
 )
 ))

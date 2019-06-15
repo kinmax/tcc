@@ -4,31 +4,31 @@ INFO     translator time limit: None
 INFO     translator memory limit: None
 INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/logistics/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/logistics/domain.pddl /home/kin/t2-integradora/logistics/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.010s CPU, 0.003s wall-clock]
+Parsing: [0.000s CPU, 0.003s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.002s wall-clock]
 Normalizing Datalog program...
 Normalizing Datalog program: [0.000s CPU, 0.003s wall-clock]
-Preparing model... [0.000s CPU, 0.003s wall-clock]
+Preparing model... [0.010s CPU, 0.003s wall-clock]
 Generated 33 rules.
-Computing model... [0.040s CPU, 0.033s wall-clock]
+Computing model... [0.030s CPU, 0.033s wall-clock]
 1183 relevant atoms
 690 auxiliary atoms
 1873 final queue length
 2468 total queue pushes
-Completing instantiation... [0.030s CPU, 0.037s wall-clock]
-Instantiating: [0.070s CPU, 0.079s wall-clock]
+Completing instantiation... [0.040s CPU, 0.038s wall-clock]
+Instantiating: [0.080s CPU, 0.079s wall-clock]
 Computing fact groups...
 Finding invariants...
 6 initial candidates
 Finding invariants: [0.000s CPU, 0.003s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.010s CPU, 0.003s wall-clock]
+Instantiating groups... [0.000s CPU, 0.003s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 0 uncovered facts
-Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Choosing groups: [0.010s CPU, 0.001s wall-clock]
 Building translation key... [0.000s CPU, 0.001s wall-clock]
 Computing fact groups: [0.010s CPU, 0.010s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
@@ -39,7 +39,7 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.002s wall-clock]
-Translating task: [0.040s CPU, 0.044s wall-clock]
+Translating task: [0.040s CPU, 0.045s wall-clock]
 0 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -72,36 +72,36 @@ INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
 INFO     search command line string: /home/kin/t2-integradora/logistics/fd/builds/release/bin/downward --landmarks 'lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=5.0327e-05s]
-done reading input! [t=0.00211713s]
+reading input... [t=5.2043e-05s]
+done reading input! [t=0.00213616s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
 Generating landmarks by testing all facts with RPG method
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00262996s
+Landmarks generation time: 0.00260918s
 Discovered 21 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################
 Landmark graph: 
-LM 20 Atom in(obj23, tru2) (var9(9)->16) Achievers (4, 1)
+LM 20 Atom in(obj13, tru2) (var9(9)->16) Achievers (4, 1)
 
-LM 19 Atom at(obj23, pos22) (var9(9)->10) Achievers (1, 1)
+LM 2 Atom at(obj13, pos21) (var9(9)->9)(goal) Achievers (1, 1)
 
-LM 2 Atom at(obj23, pos13) (var9(9)->8)(goal) Achievers (3, 3)
+LM 19 Atom at(obj13, pos11) (var9(9)->6) Achievers (3, 3)
 
-LM 18 Atom at(obj23, apt2) (var9(9)->1) Achievers (4, 1)
+LM 18 Atom at(obj13, apt2) (var9(9)->1) Achievers (4, 3)
 
-LM 17 Atom at(obj23, apt1) (var9(9)->0) Achievers (6, 3)
+LM 17 Atom at(obj13, apt1) (var9(9)->0) Achievers (6, 3)
 
-LM 16 Atom in(obj44, tru2) (var8(8)->16) Achievers (4, 1)
+LM 16 Atom in(obj23, tru2) (var8(8)->16) Achievers (4, 1)
 
-LM 1 Atom at(obj44, pos21) (var8(8)->9)(goal) Achievers (1, 1)
+LM 15 Atom at(obj23, pos22) (var8(8)->10) Achievers (1, 1)
 
-LM 15 Atom at(obj44, pos12) (var8(8)->7) Achievers (3, 3)
+LM 1 Atom at(obj23, pos13) (var8(8)->8)(goal) Achievers (3, 3)
 
-LM 14 Atom at(obj44, apt2) (var8(8)->1) Achievers (4, 3)
+LM 14 Atom at(obj23, apt2) (var8(8)->1) Achievers (4, 1)
 
-LM 13 Atom at(obj44, apt1) (var8(8)->0) Achievers (6, 3)
+LM 13 Atom at(obj23, apt1) (var8(8)->0) Achievers (6, 3)
 
 LM 12 Atom at(obj55, pos13) (var7(7)->8) Achievers (3, 3)
 

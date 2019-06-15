@@ -65,7 +65,7 @@
    )
    (:goal
      (and   
-        (in ca p4)  (in cb p2)  (in cc p1)  (in cd p1)  (on cb cf)  (on ce cc)
+        (in ca p3)  (in cb p4)  (in cc p2)  (in cd p4)  (on cb cf)  (on ce cd)
      )
    )
 )

@@ -404,7 +404,7 @@
 )
 (:goal
 (and
-    (at box0 f6-3f)  (at box1 f5-7f)        
+    (at box0 f5-6f)  (at box1 f7-8f)        
 )
 )
 )

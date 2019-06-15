@@ -8,8 +8,7 @@
 	)
 	(:goal
 		(and
-(data-stolen-from perseus)  (data-stolen-from taurus)  (data-stolen-from aries)
-
+(vandalized libra)  (vandalized virgo)  (vandalized scorpio)
 		)
 	)
 )

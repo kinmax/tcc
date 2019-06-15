@@ -10,13 +10,11 @@
     person4
     person5
     person6
-    person7
     city0
     city1
     city2
     city3
     city4
-    city5
     fl0
     fl1
     fl2
@@ -26,35 +24,32 @@
     fl6
     )
 (:init
-    (at plane1 city4)
+    (at plane1 city0)
     (aircraft plane1)
-    (fuellevel plane1 fl4)
-    (at plane2 city4)
+    (fuellevel plane1 fl6)
+    (at plane2 city3)
     (aircraft plane2)
-    (fuellevel plane2 fl3)
-    (at plane3 city1)
+    (fuellevel plane2 fl0)
+    (at plane3 city0)
     (aircraft plane3)
-    (fuellevel plane3 fl5)
-    (at person1 city4)
+    (fuellevel plane3 fl3)
+    (at person1 city1)
     (person person1)
-    (at person2 city2)
+    (at person2 city0)
     (person person2)
     (at person3 city2)
     (person person3)
     (at person4 city0)
     (person person4)
-    (at person5 city2)
+    (at person5 city3)
     (person person5)
-    (at person6 city2)
+    (at person6 city4)
     (person person6)
-    (at person7 city5)
-    (person person7)
     (city city0)
     (city city1)
     (city city2)
     (city city3)
     (city city4)
-    (city city5)
     (next fl0 fl1)
     (next fl1 fl2)
     (next fl2 fl3)

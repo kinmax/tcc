@@ -958,8 +958,8 @@ begin_goal
 4
 37 13
 38 12
-39 11
-40 14
+39 10
+40 15
 end_goal
 912
 begin_operator

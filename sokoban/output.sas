@@ -1304,7 +1304,7 @@ end_state
 begin_goal
 2
 76 54
-77 38
+77 49
 end_goal
 650
 begin_operator

@@ -76,7 +76,6 @@ def all_results(domain)
     result[symbol_domain] = {}
     problem_counter = 0
     goals = 0
-    landmarks = 0
     percentages.each do |p|
         observations[p] = 0
         counter[p]["all"] = 0

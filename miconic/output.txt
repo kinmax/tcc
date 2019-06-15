@@ -1,0 +1,168 @@
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/miconic/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/miconic/domain.pddl /home/kin/t2-integradora/miconic/problem.pddl --sas-file output.sas
+Parsing...
+Parsing: [0.030s CPU, 0.025s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.004s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.010s CPU, 0.003s wall-clock]
+Preparing model... [0.020s CPU, 0.021s wall-clock]
+Generated 26 rules.
+Computing model... [0.120s CPU, 0.117s wall-clock]
+4421 relevant atoms
+3302 auxiliary atoms
+7723 final queue length
+10324 total queue pushes
+Completing instantiation... [0.160s CPU, 0.164s wall-clock]
+Instantiating: [0.310s CPU, 0.313s wall-clock]
+Computing fact groups...
+Finding invariants...
+6 initial candidates
+Finding invariants: [0.000s CPU, 0.002s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+52 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.001s wall-clock]
+Computing fact groups: [0.010s CPU, 0.006s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.005s wall-clock]
+Translating task: [0.150s CPU, 0.151s wall-clock]
+26 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+0 axioms removed
+1 propositions removed
+Detecting unreachable propositions: [0.080s CPU, 0.082s wall-clock]
+Reordering and filtering variables...
+21 of 53 variables necessary.
+0 of 1 mutex groups necessary.
+2672 of 2704 operators necessary.
+0 of 0 axiom rules necessary.
+Reordering and filtering variables: [0.010s CPU, 0.013s wall-clock]
+Translator variables: 21
+Translator derived variables: 0
+Translator facts: 92
+Translator goal facts: 10
+Translator mutex groups: 0
+Translator total mutex groups size: 0
+Translator operators: 2672
+Translator axioms: 0
+Translator task size: 8159
+Translator peak memory: 52056 KB
+Writing output... [0.040s CPU, 0.044s wall-clock]
+Done! [0.640s CPU, 0.641s wall-clock]
+translate exit code: 0
+
+INFO     Running search (release).
+INFO     search stdin: output.sas
+INFO     search time limit: None
+INFO     search memory limit: None
+INFO     search command line string: /home/kin/t2-integradora/miconic/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=6.067e-05s]
+done reading input! [t=0.0222122s]
+Initializing landmarks count heuristic...
+Initializing Exploration...
+Generating landmarks using Zhu/Givan label propagation
+Removing all orderings.
+Removed 0 reasonable or obedient reasonable orders
+Landmarks generation time: 0.0206254s
+Discovered 38 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+0 edges
+############################################################################
+Landmark graph: 
+LM 34 Atom served(p0) (var20(20)->0)(goal) Achievers (1, 1)
+
+LM 35 Atom boarded(p0) (var19(19)->0) Achievers (1, 1)
+
+LM 31 Atom served(p1) (var18(18)->0)(goal) Achievers (1, 1)
+
+LM 33 Atom boarded(p1) (var17(17)->0) Achievers (1, 1)
+
+LM 28 Atom served(p11) (var16(16)->0)(goal) Achievers (1, 1)
+
+LM 29 Atom boarded(p11) (var15(15)->0) Achievers (1, 1)
+
+LM 25 Atom served(p17) (var14(14)->0)(goal) Achievers (1, 1)
+
+LM 27 Atom boarded(p17) (var13(13)->0) Achievers (1, 1)
+
+LM 21 Atom served(p2) (var12(12)->0)(goal) Achievers (1, 1)
+
+LM 22 Atom boarded(p2) (var11(11)->0) Achievers (1, 1)
+
+LM 17 Atom served(p5) (var10(10)->0)(goal) Achievers (1, 1)
+
+LM 19 Atom boarded(p5) (var9(9)->0) Achievers (1, 1)
+
+LM 13 Atom served(p6) (var8(8)->0)(goal) Achievers (1, 1)
+
+LM 15 Atom boarded(p6) (var7(7)->0) Achievers (1, 1)
+
+LM 9 Atom served(p7) (var6(6)->0)(goal) Achievers (1, 1)
+
+LM 11 Atom boarded(p7) (var5(5)->0) Achievers (1, 1)
+
+LM 5 Atom served(p8) (var4(4)->0)(goal) Achievers (1, 1)
+
+LM 8 Atom boarded(p8) (var3(3)->0) Achievers (1, 1)
+
+LM 0 Atom served(p9) (var2(2)->0)(goal) Achievers (1, 1)
+
+LM 2 Atom boarded(p9) (var1(1)->0) Achievers (1, 1)
+
+LM 10 Atom lift-at(f51) (var0(0)->47) Achievers (51, 51)
+
+LM 26 Atom lift-at(f5) (var0(0)->45) Achievers (51, 51)
+
+LM 6 Atom lift-at(f48) (var0(0)->43) Achievers (51, 51)
+
+LM 16 Atom lift-at(f43) (var0(0)->38) Achievers (51, 51)
+
+LM 36 Atom lift-at(f39) (var0(0)->33) Achievers (51, 51)
+
+LM 32 Atom lift-at(f37) (var0(0)->31) Achievers (51, 51)
+
+LM 3 Atom lift-at(f36) (var0(0)->30) Achievers (51, 51)
+
+LM 20 Atom lift-at(f3) (var0(0)->23) Achievers (51, 51)
+
+LM 30 Atom lift-at(f29) (var0(0)->22) Achievers (51, 51)
+
+LM 24 Atom lift-at(f27) (var0(0)->20) Achievers (51, 51)
+
+LM 14 Atom lift-at(f26) (var0(0)->19) Achievers (51, 51)
+
+LM 4 Atom lift-at(f24) (var0(0)->17) Achievers (51, 51)
+
+LM 37 Atom lift-at(f22) (var0(0)->15) Achievers (51, 51)
+
+LM 18 Atom lift-at(f2) (var0(0)->12) Achievers (51, 51)
+
+LM 12 Atom lift-at(f14) (var0(0)->6) Achievers (51, 51)
+
+LM 7 Atom lift-at(f10) (var0(0)->2) Achievers (51, 51)
+
+LM 23 Atom lift-at(f1) (var0(0)->1) Achievers (51, 51)
+
+LM 1 Atom lift-at(f0) (var0(0)->0) Achievers (51, 51)
+
+Landmark graph end.
+############################################################################
+Peak memory: 22212 KB
+Remove intermediate file output.sas
+search exit code: 0
+

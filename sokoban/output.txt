@@ -2,35 +2,35 @@ INFO     Running translator.
 INFO     translator stdin: None
 INFO     translator time limit: None
 INFO     translator memory limit: None
-INFO     translator command line string: /usr/bin/python3 /home/kingusmao/fd/builds/release/bin/translate/translate.py /home/kingusmao/t2-integradora/sokoban/domain.pddl /home/kingusmao/t2-integradora/sokoban/problem.pddl --sas-file output.sas
+INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/sokoban/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/sokoban/domain.pddl /home/kin/t2-integradora/sokoban/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.010s CPU, 0.006s wall-clock]
+Parsing: [0.000s CPU, 0.006s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
-Generating Datalog program... [0.000s CPU, 0.003s wall-clock]
+Generating Datalog program... [0.010s CPU, 0.003s wall-clock]
 Normalizing Datalog program...
 Normalizing Datalog program: [0.000s CPU, 0.002s wall-clock]
-Preparing model... [0.010s CPU, 0.007s wall-clock]
+Preparing model... [0.010s CPU, 0.006s wall-clock]
 Generated 19 rules.
-Computing model... [0.070s CPU, 0.069s wall-clock]
-1855 relevant atoms
-2692 auxiliary atoms
-4547 final queue length
-6103 total queue pushes
-Completing instantiation... [0.050s CPU, 0.057s wall-clock]
-Instantiating: [0.130s CPU, 0.139s wall-clock]
+Computing model... [0.060s CPU, 0.065s wall-clock]
+1500 relevant atoms
+2194 auxiliary atoms
+3694 final queue length
+4928 total queue pushes
+Completing instantiation... [0.070s CPU, 0.061s wall-clock]
+Instantiating: [0.150s CPU, 0.138s wall-clock]
 Computing fact groups...
 Finding invariants...
 7 initial candidates
-Finding invariants: [0.010s CPU, 0.005s wall-clock]
+Finding invariants: [0.000s CPU, 0.005s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
-Instantiating groups... [0.020s CPU, 0.021s wall-clock]
+Instantiating groups... [0.020s CPU, 0.016s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.001s wall-clock]
 Choosing groups...
-91 uncovered facts
-Choosing groups: [0.010s CPU, 0.002s wall-clock]
+75 uncovered facts
+Choosing groups: [0.000s CPU, 0.002s wall-clock]
 Building translation key... [0.000s CPU, 0.001s wall-clock]
-Computing fact groups: [0.040s CPU, 0.035s wall-clock]
+Computing fact groups: [0.030s CPU, 0.030s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
 Building mutex information...
@@ -38,68 +38,61 @@ Building mutex information: [0.000s CPU, 0.001s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.000s CPU, 0.003s wall-clock]
-Translating task: [0.060s CPU, 0.054s wall-clock]
-508 effect conditions simplified
+Processing axioms: [0.000s CPU, 0.002s wall-clock]
+Translating task: [0.060s CPU, 0.064s wall-clock]
+404 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
 3 propositions removed
-Detecting unreachable propositions: [0.030s CPU, 0.031s wall-clock]
+Detecting unreachable propositions: [0.040s CPU, 0.034s wall-clock]
 Reordering and filtering variables...
-94 of 94 variables necessary.
-91 of 94 mutex groups necessary.
-812 of 812 operators necessary.
+78 of 78 variables necessary.
+75 of 78 mutex groups necessary.
+650 of 650 operators necessary.
 0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.010s CPU, 0.017s wall-clock]
-Translator variables: 94
+Reordering and filtering variables: [0.010s CPU, 0.013s wall-clock]
+Translator variables: 78
 Translator derived variables: 0
-Translator facts: 455
+Translator facts: 375
 Translator goal facts: 2
-Translator mutex groups: 91
-Translator total mutex groups size: 273
-Translator operators: 812
+Translator mutex groups: 75
+Translator total mutex groups size: 225
+Translator operators: 650
 Translator axioms: 0
-Translator task size: 6104
-Translator peak memory: 53604 KB
-Writing output... [0.010s CPU, 0.017s wall-clock]
-Done! [0.300s CPU, 0.305s wall-clock]
-
+Translator task size: 4896
+Translator peak memory: 47276 KB
+Writing output... [0.020s CPU, 0.020s wall-clock]
+Done! [0.310s CPU, 0.309s wall-clock]
 translate exit code: 0
+
 INFO     Running search (release).
 INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
-INFO     search command line string: /home/kingusmao/fd/builds/release/bin/downward --landmarks 'lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=1.992e-05s]
-done reading input! [t=0.0104162s]
+INFO     search command line string: /home/kin/t2-integradora/sokoban/fd/builds/release/bin/downward --landmarks 'lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=4.8259e-05s]
+done reading input! [t=0.00986979s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
-Generating landmarks using the RPG/SAS+ approach
-Discarding 6 disjunctive landmarks
-Removing all orderings.
-Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00624305s
-Discovered 6 landmarks, of which 0 are disjunctive and 0 are conjunctive 
-0 edges
-############################################################################
-Landmark graph: 
-LM 1 Atom at(box1, f6-1f) (var93(93)->56)(goal) Achievers (3, 3)
-
-LM 5 Atom at(box1, f3-4f) (var93(93)->32) Achievers (4, 4)
-
-LM 3 Atom at(box0, f7-3f) (var92(92)->68) Achievers (4, 4)
-
-LM 0 Atom at(box0, f1-4f) (var92(92)->14)(goal) Achievers (2, 2)
-
-LM 4 Atom clear(f6-1f) (var72(72)->0) Achievers (8, 8)
-
-LM 2 Atom clear(f1-4f) (var17(17)->0) Achievers (4, 4)
-
-Landmark graph end.
-############################################################################
-Peak memory: 22992 KB
-Remove intermediate file output.sas
-
-search exit code: 0
+h^m landmarks m=2
+Using 61875 P^m fluents.
+Level 1 completed.
+Level 2 completed.
+Level 3 completed.
+Level 4 completed.
+Level 5 completed.
+Level 6 completed.
+Level 7 completed.
+Level 8 completed.
+Level 9 completed.
+Level 10 completed.
+Level 11 completed.
+Level 12 completed.
+Level 13 completed.
+Level 14 completed.
+Level 15 completed.
+Level 16 completed.
+Level 17 completed.
+Level 18 completed.

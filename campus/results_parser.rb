@@ -50,24 +50,24 @@ def all_results(domain)
         accuracy[p] = {}
         counter[p] = {}
         counter[p]["all"] = 0
-        seconds[p][:exhaust] = {}
-        accuracy[p][:exhaust] = {}
-        seconds[p][:hm] = {}
-        accuracy[p][:hm] = {}
-        seconds[p][:rhw] = {}
-        accuracy[p][:rhw] = {}
-        seconds[p][:zg] = {}
-        accuracy[p][:zg] = {}
+        seconds[p]["exhaust"] = {}
+        accuracy[p]["exhaust"] = {}
+        seconds[p]["hm"] = {}
+        accuracy[p]["hm"] = {}
+        seconds[p]["rhw"] = {}
+        accuracy[p]["rhw"] = {}
+        seconds[p]["zg"] = {}
+        accuracy[p]["zg"] = {}
         thresholds.each do |t|
             counter[p][t] = 0
-            seconds[p][:exhaust][t] = 0
-            accuracy[p][:exhaust][t] = 0
-            seconds[p][:hm][t] = 0
-            accuracy[p][:hm][t] = 0
-            seconds[p][:rhw][t] = 0
-            accuracy[p][:rhw][t] = 0
-            seconds[p][:zg][t] = 0
-            accuracy[p][:zg][t] = 0
+            seconds[p]["exhaust"][t] = 0
+            accuracy[p]["exhaust"][t] = 0
+            seconds[p]["hm"][t] = 0
+            accuracy[p]["hm"][t] = 0
+            seconds[p]["rhw"][t] = 0
+            accuracy[p]["rhw"][t] = 0
+            seconds[p]["zg"][t] = 0
+            accuracy[p]["zg"][t] = 0
         end
     end
     
@@ -81,14 +81,14 @@ def all_results(domain)
         counter[p]["all"] = 0
         thresholds.each do |t|
             counter[p][t] = 0
-            seconds[p][:exhaust][t] = 0
-            accuracy[p][:exhaust][t] = 0
-            seconds[p][:hm][t] = 0
-            accuracy[p][:hm][t] = 0
-            seconds[p][:rhw][t] = 0
-            accuracy[p][:rhw][t] = 0
-            seconds[p][:zg][t] = 0
-            accuracy[p][:zg][t] = 0
+            seconds[p]["exhaust"][t] = 0
+            accuracy[p]["exhaust"][t] = 0
+            seconds[p]["hm"][t] = 0
+            accuracy[p]["hm"][t] = 0
+            seconds[p]["rhw"][t] = 0
+            accuracy[p]["rhw"][t] = 0
+            seconds[p]["zg"][t] = 0
+            accuracy[p]["zg"][t] = 0
         end
     end
     Dir.foreach("#{dataset_path}/#{domain}") do |percent|
@@ -148,19 +148,19 @@ def all_results(domain)
         end
         percentages.each do |p|
             result[symbol_domain][:observations][p] = {}
-            result[symbol_domain][:observations][p][:exhaust] = {}
-            result[symbol_domain][:observations][p][:hm] = {}
-            result[symbol_domain][:observations][p][:rhw] = {}
-            result[symbol_domain][:observations][p][:zg] = {}
+            result[symbol_domain][:observations][p]["exhaust"] = {}
+            result[symbol_domain][:observations][p]["hm"] = {}
+            result[symbol_domain][:observations][p]["rhw"] = {}
+            result[symbol_domain][:observations][p]["zg"] = {}
             thresholds.each do |t|
-                result[symbol_domain][:observations][p][:exhaust][:time] = {}
-                result[symbol_domain][:observations][p][:exhaust][:accuracy] = {}
-                result[symbol_domain][:observations][p][:hm][:time] = {}
-                result[symbol_domain][:observations][p][:hm][:accuracy] = {}
-                result[symbol_domain][:observations][p][:rhw][:time] = {}
-                result[symbol_domain][:observations][p][:rhw][:accuracy] = {}
-                result[symbol_domain][:observations][p][:zg][:time] = {}
-                result[symbol_domain][:observations][p][:zg][:accuracy] = {}
+                result[symbol_domain][:observations][p]["exhaust"][:time] = {}
+                result[symbol_domain][:observations][p]["exhaust"][:accuracy] = {}
+                result[symbol_domain][:observations][p]["hm"][:time] = {}
+                result[symbol_domain][:observations][p]["hm"][:accuracy] = {}
+                result[symbol_domain][:observations][p]["rhw"][:time] = {}
+                result[symbol_domain][:observations][p]["rhw"][:accuracy] = {}
+                result[symbol_domain][:observations][p]["zg"][:time] = {}
+                result[symbol_domain][:observations][p]["zg"][:accuracy] = {}
             end
         end
 
@@ -170,14 +170,14 @@ def all_results(domain)
                 if counter[p][t] == 0
                     counter[p][t] = 1
                 end
-                result[symbol_domain][:observations][p][:exhaust][:time][t] = ((((seconds[p][:exhaust][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p][:exhaust][:accuracy][t] = ((accuracy[p][:exhaust][t].to_f/counter[p][t]) * 100.0)
-                result[symbol_domain][:observations][p][:hm][:time][t] = ((((seconds[p][:hm][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p][:hm][:accuracy][t] = ((accuracy[p][:hm][t].to_f/counter[p][t]) * 100.0)
-                result[symbol_domain][:observations][p][:rhw][:time][t] = ((((seconds[p][:rhw][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p][:rhw][:accuracy][t] = ((accuracy[p][:rhw][t].to_f/counter[p][t]) * 100.0)
-                result[symbol_domain][:observations][p][:zg][:time][t] = ((((seconds[p][:zg][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p][:zg][:accuracy][t] = ((accuracy[p][:zg][t].to_f/counter[p][t]) * 100.0)
+                result[symbol_domain][:observations][p]["exhaust"][:time][t] = ((((seconds[p]["exhaust"][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                result[symbol_domain][:observations][p]["exhaust"][:accuracy][t] = ((accuracy[p]["exhaust"][t].to_f/counter[p][t]) * 100.0)
+                result[symbol_domain][:observations][p]["hm"][:time][t] = ((((seconds[p]["hm"][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                result[symbol_domain][:observations][p]["hm"][:accuracy][t] = ((accuracy[p]["hm"][t].to_f/counter[p][t]) * 100.0)
+                result[symbol_domain][:observations][p]["rhw"][:time][t] = ((((seconds[p]["rhw"][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                result[symbol_domain][:observations][p]["rhw"][:accuracy][t] = ((accuracy[p]["rhw"][t].to_f/counter[p][t]) * 100.0)
+                result[symbol_domain][:observations][p]["zg"][:time][t] = ((((seconds[p]["zg"][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                result[symbol_domain][:observations][p]["zg"][:accuracy][t] = ((accuracy[p]["zg"][t].to_f/counter[p][t]) * 100.0)
             end
         end
     rescue StandardError => e

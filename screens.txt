@@ -1,15 +1,15 @@
-blocks-world: 28458.pts-0.lsa
-campus: 40113.pts-0.lsa
-depots:
-driverlog:
-dwr:
-easy-ipc-grid:
-ferry:
-intrusion-detection:
-kitchen:
-logistics:
-miconic:
-rovers:
-satellite:
-sokoban:
-zeno-travel:
+blocks-world: 11370.pts-12.lsa
+campus: 12894.pts-12.lsa
+depots: 3785.pts-12.lsa
+driverlog: 12291.pts-12.lsa
+dwr: 19607.pts-12.lsa
+easy-ipc-grid: 36157.pts-12.lsa
+ferry: 44527.pts-12.lsa
+intrusion-detection: 7861.pts-12.lsa
+kitchen: 14276.pts-12.lsa
+logistics: 24386.pts-12.lsa
+miconic: 31324.pts-12.lsa
+rovers: 41573.pts-12.lsa
+satellite: 1658.pts-12.lsa
+sokoban: 11019.pts-12.lsa
+zeno-travel: 19112.pts-12.lsa

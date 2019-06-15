@@ -1,0 +1,5 @@
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/intrusion-detection/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/intrusion-detection/domain.pddl /home/kin/t2-integradora/intrusion-detection/problem.pddl --sas-file output.sas

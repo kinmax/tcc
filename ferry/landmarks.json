@@ -1,0 +1,1214 @@
+{
+  "debark c1 l1": {
+    "preconditions": [
+      "on c1",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c1)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c1 l1"
+    ]
+  },
+  "debark c1 l2": {
+    "preconditions": [
+      "on c1",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c1)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c1 l2"
+    ]
+  },
+  "debark c1 l3": {
+    "preconditions": [
+      "on c1",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (on c1)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c1 l3"
+    ]
+  },
+  "board c9 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at-ferry l0",
+      "at c9 l0"
+    ],
+    "delete-effects": [
+      "not (at c9 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c9"
+    ]
+  },
+  "board c9 l1": {
+    "preconditions": [
+      "at c9 l1",
+      "empty-ferry",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (empty-ferry)",
+      "not (at c9 l1)"
+    ],
+    "add-effects": [
+      "on c9"
+    ]
+  },
+  "board c9 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "empty-ferry",
+      "at c9 l2"
+    ],
+    "delete-effects": [
+      "not (at c9 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c9"
+    ]
+  },
+  "board c9 l3": {
+    "preconditions": [
+      "empty-ferry",
+      "at-ferry l3",
+      "at c9 l3"
+    ],
+    "delete-effects": [
+      "not (at c9 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c9"
+    ]
+  },
+  "board c1 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at c1 l0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c1 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c1"
+    ]
+  },
+  "board c1 l1": {
+    "preconditions": [
+      "at c1 l1",
+      "empty-ferry",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c1 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c1"
+    ]
+  },
+  "board c1 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "empty-ferry",
+      "at c1 l2"
+    ],
+    "delete-effects": [
+      "not (at c1 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c1"
+    ]
+  },
+  "board c1 l3": {
+    "preconditions": [
+      "empty-ferry",
+      "at c1 l3",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at c1 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c1"
+    ]
+  },
+  "debark c9 l0": {
+    "preconditions": [
+      "on c9",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (on c9)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c9 l0"
+    ]
+  },
+  "board c5 l2": {
+    "preconditions": [
+      "at c5 l2",
+      "at-ferry l2",
+      "empty-ferry"
+    ],
+    "delete-effects": [
+      "not (at c5 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c5"
+    ]
+  },
+  "board c5 l3": {
+    "preconditions": [
+      "empty-ferry",
+      "at c5 l3",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at c5 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c5"
+    ]
+  },
+  "board c5 l0": {
+    "preconditions": [
+      "at c5 l0",
+      "empty-ferry",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c5 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c5"
+    ]
+  },
+  "board c5 l1": {
+    "preconditions": [
+      "empty-ferry",
+      "at c5 l1",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c5 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c5"
+    ]
+  },
+  "debark c9 l3": {
+    "preconditions": [
+      "on c9",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (on c9)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c9 l3"
+    ]
+  },
+  "debark c5 l0": {
+    "preconditions": [
+      "on c5",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (on c5)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c5 l0"
+    ]
+  },
+  "debark c9 l2": {
+    "preconditions": [
+      "on c9",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c9)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c9 l2"
+    ]
+  },
+  "debark c9 l1": {
+    "preconditions": [
+      "on c9",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c9)"
+    ],
+    "add-effects": [
+      "at c9 l1",
+      "empty-ferry"
+    ]
+  },
+  "sail l1 l0": {
+    "preconditions": [
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at-ferry l1)"
+    ],
+    "add-effects": [
+      "at-ferry l0"
+    ]
+  },
+  "debark c5 l3": {
+    "preconditions": [
+      "on c5",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (on c5)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c5 l3"
+    ]
+  },
+  "sail l1 l2": {
+    "preconditions": [
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at-ferry l1)"
+    ],
+    "add-effects": [
+      "at-ferry l2"
+    ]
+  },
+  "debark c5 l1": {
+    "preconditions": [
+      "on c5",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c5)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c5 l1"
+    ]
+  },
+  "debark c5 l2": {
+    "preconditions": [
+      "on c5",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c5)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c5 l2"
+    ]
+  },
+  "sail l1 l3": {
+    "preconditions": [
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at-ferry l1)"
+    ],
+    "add-effects": [
+      "at-ferry l3"
+    ]
+  },
+  "debark c1 l0": {
+    "preconditions": [
+      "on c1",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (on c1)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c1 l0"
+    ]
+  },
+  "board c2 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "empty-ferry",
+      "at c2 l2"
+    ],
+    "delete-effects": [
+      "not (at c2 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c2"
+    ]
+  },
+  "board c2 l1": {
+    "preconditions": [
+      "empty-ferry",
+      "at c2 l1",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c2 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c2"
+    ]
+  },
+  "board c2 l3": {
+    "preconditions": [
+      "empty-ferry",
+      "at-ferry l3",
+      "at c2 l3"
+    ],
+    "delete-effects": [
+      "not (at c2 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c2"
+    ]
+  },
+  "board c6 l3": {
+    "preconditions": [
+      "at c6 l3",
+      "empty-ferry",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at c6 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c6"
+    ]
+  },
+  "board c2 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at c2 l0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c2 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c2"
+    ]
+  },
+  "board c6 l1": {
+    "preconditions": [
+      "at c6 l1",
+      "empty-ferry",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c6 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c6"
+    ]
+  },
+  "board c6 l2": {
+    "preconditions": [
+      "at c6 l2",
+      "at-ferry l2",
+      "empty-ferry"
+    ],
+    "delete-effects": [
+      "not (at c6 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c6"
+    ]
+  },
+  "sail l0 l2": {
+    "preconditions": [
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at-ferry l0)"
+    ],
+    "add-effects": [
+      "at-ferry l2"
+    ]
+  },
+  "debark c8 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c8"
+    ],
+    "delete-effects": [
+      "not (on c8)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c8 l3"
+    ]
+  },
+  "sail l0 l1": {
+    "preconditions": [
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at-ferry l0)"
+    ],
+    "add-effects": [
+      "at-ferry l1"
+    ]
+  },
+  "debark c8 l2": {
+    "preconditions": [
+      "on c8",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c8)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c8 l2"
+    ]
+  },
+  "board c6 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at c6 l0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c6 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c6"
+    ]
+  },
+  "debark c8 l1": {
+    "preconditions": [
+      "on c8",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c8)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c8 l1"
+    ]
+  },
+  "debark c8 l0": {
+    "preconditions": [
+      "on c8",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (on c8)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c8 l0"
+    ]
+  },
+  "debark c0 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c0"
+    ],
+    "delete-effects": [
+      "not (on c0)"
+    ],
+    "add-effects": [
+      "at c0 l3",
+      "empty-ferry"
+    ]
+  },
+  "debark c4 l1": {
+    "preconditions": [
+      "on c4",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c4)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c4 l1"
+    ]
+  },
+  "debark c0 l2": {
+    "preconditions": [
+      "on c0",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c0)"
+    ],
+    "add-effects": [
+      "at c0 l2",
+      "empty-ferry"
+    ]
+  },
+  "debark c4 l0": {
+    "preconditions": [
+      "on c4",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (on c4)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c4 l0"
+    ]
+  },
+  "debark c0 l1": {
+    "preconditions": [
+      "on c0",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c0)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c0 l1"
+    ]
+  },
+  "debark c4 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c4"
+    ],
+    "delete-effects": [
+      "not (on c4)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c4 l3"
+    ]
+  },
+  "debark c0 l0": {
+    "preconditions": [
+      "on c0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (on c0)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c0 l0"
+    ]
+  },
+  "debark c4 l2": {
+    "preconditions": [
+      "on c4",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c4)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c4 l2"
+    ]
+  },
+  "sail l0 l3": {
+    "preconditions": [
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at-ferry l0)"
+    ],
+    "add-effects": [
+      "at-ferry l3"
+    ]
+  },
+  "debark c3 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c3"
+    ],
+    "delete-effects": [
+      "not (on c3)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c3 l3"
+    ]
+  },
+  "sail l3 l0": {
+    "preconditions": [
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at-ferry l3)"
+    ],
+    "add-effects": [
+      "at-ferry l0"
+    ]
+  },
+  "sail l3 l1": {
+    "preconditions": [
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at-ferry l3)"
+    ],
+    "add-effects": [
+      "at-ferry l1"
+    ]
+  },
+  "board c0 l3": {
+    "preconditions": [
+      "at c0 l3",
+      "empty-ferry",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (empty-ferry)",
+      "not (at c0 l3)"
+    ],
+    "add-effects": [
+      "on c0"
+    ]
+  },
+  "board c3 l3": {
+    "preconditions": [
+      "at c3 l3",
+      "empty-ferry",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at c3 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c3"
+    ]
+  },
+  "board c3 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "empty-ferry",
+      "at c3 l2"
+    ],
+    "delete-effects": [
+      "not (at c3 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c3"
+    ]
+  },
+  "board c7 l3": {
+    "preconditions": [
+      "empty-ferry",
+      "at-ferry l3",
+      "at c7 l3"
+    ],
+    "delete-effects": [
+      "not (at c7 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c7"
+    ]
+  },
+  "board c3 l1": {
+    "preconditions": [
+      "empty-ferry",
+      "at c3 l1",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c3 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c3"
+    ]
+  },
+  "board c7 l2": {
+    "preconditions": [
+      "at c7 l2",
+      "at-ferry l2",
+      "empty-ferry"
+    ],
+    "delete-effects": [
+      "not (at c7 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c7"
+    ]
+  },
+  "board c3 l0": {
+    "preconditions": [
+      "at c3 l0",
+      "empty-ferry",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c3 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c3"
+    ]
+  },
+  "debark c7 l1": {
+    "preconditions": [
+      "on c7",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c7)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c7 l1"
+    ]
+  },
+  "board c7 l1": {
+    "preconditions": [
+      "empty-ferry",
+      "at-ferry l1",
+      "at c7 l1"
+    ],
+    "delete-effects": [
+      "not (at c7 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c7"
+    ]
+  },
+  "board c7 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at c7 l0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c7 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c7"
+    ]
+  },
+  "debark c7 l2": {
+    "preconditions": [
+      "on c7",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c7)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c7 l2"
+    ]
+  },
+  "debark c7 l0": {
+    "preconditions": [
+      "at-ferry l0",
+      "on c7"
+    ],
+    "delete-effects": [
+      "not (on c7)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c7 l0"
+    ]
+  },
+  "sail l3 l2": {
+    "preconditions": [
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at-ferry l3)"
+    ],
+    "add-effects": [
+      "at-ferry l2"
+    ]
+  },
+  "debark c3 l0": {
+    "preconditions": [
+      "at-ferry l0",
+      "on c3"
+    ],
+    "delete-effects": [
+      "not (on c3)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c3 l0"
+    ]
+  },
+  "debark c7 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c7"
+    ],
+    "delete-effects": [
+      "not (on c7)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c7 l3"
+    ]
+  },
+  "debark c3 l2": {
+    "preconditions": [
+      "on c3",
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (on c3)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c3 l2"
+    ]
+  },
+  "debark c3 l1": {
+    "preconditions": [
+      "on c3",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (on c3)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c3 l1"
+    ]
+  },
+  "debark c2 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "on c2"
+    ],
+    "delete-effects": [
+      "not (on c2)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c2 l2"
+    ]
+  },
+  "debark c2 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c2"
+    ],
+    "delete-effects": [
+      "not (on c2)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c2 l3"
+    ]
+  },
+  "sail l2 l0": {
+    "preconditions": [
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (at-ferry l2)"
+    ],
+    "add-effects": [
+      "at-ferry l0"
+    ]
+  },
+  "board c4 l3": {
+    "preconditions": [
+      "empty-ferry",
+      "at-ferry l3",
+      "at c4 l3"
+    ],
+    "delete-effects": [
+      "not (at c4 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c4"
+    ]
+  },
+  "board c0 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at c0 l0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c0 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c0"
+    ]
+  },
+  "board c0 l1": {
+    "preconditions": [
+      "empty-ferry",
+      "at c0 l1",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c0 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c0"
+    ]
+  },
+  "board c0 l2": {
+    "preconditions": [
+      "at c0 l2",
+      "at-ferry l2",
+      "empty-ferry"
+    ],
+    "delete-effects": [
+      "not (at c0 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c0"
+    ]
+  },
+  "board c4 l0": {
+    "preconditions": [
+      "at c4 l0",
+      "empty-ferry",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c4 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c4"
+    ]
+  },
+  "board c4 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "empty-ferry",
+      "at c4 l2"
+    ],
+    "delete-effects": [
+      "not (at c4 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c4"
+    ]
+  },
+  "board c8 l3": {
+    "preconditions": [
+      "at c8 l3",
+      "empty-ferry",
+      "at-ferry l3"
+    ],
+    "delete-effects": [
+      "not (at c8 l3)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c8"
+    ]
+  },
+  "board c4 l1": {
+    "preconditions": [
+      "at c4 l1",
+      "empty-ferry",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c4 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c4"
+    ]
+  },
+  "debark c6 l0": {
+    "preconditions": [
+      "at-ferry l0",
+      "on c6"
+    ],
+    "delete-effects": [
+      "not (on c6)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c6 l0"
+    ]
+  },
+  "board c8 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "empty-ferry",
+      "at c8 l2"
+    ],
+    "delete-effects": [
+      "not (at c8 l2)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c8"
+    ]
+  },
+  "debark c6 l1": {
+    "preconditions": [
+      "at-ferry l1",
+      "on c6"
+    ],
+    "delete-effects": [
+      "not (on c6)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c6 l1"
+    ]
+  },
+  "board c8 l1": {
+    "preconditions": [
+      "empty-ferry",
+      "at c8 l1",
+      "at-ferry l1"
+    ],
+    "delete-effects": [
+      "not (at c8 l1)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c8"
+    ]
+  },
+  "board c8 l0": {
+    "preconditions": [
+      "empty-ferry",
+      "at c8 l0",
+      "at-ferry l0"
+    ],
+    "delete-effects": [
+      "not (at c8 l0)",
+      "not (empty-ferry)"
+    ],
+    "add-effects": [
+      "on c8"
+    ]
+  },
+  "sail l2 l1": {
+    "preconditions": [
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (at-ferry l2)"
+    ],
+    "add-effects": [
+      "at-ferry l1"
+    ]
+  },
+  "debark c6 l2": {
+    "preconditions": [
+      "at-ferry l2",
+      "on c6"
+    ],
+    "delete-effects": [
+      "not (on c6)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c6 l2"
+    ]
+  },
+  "sail l2 l3": {
+    "preconditions": [
+      "at-ferry l2"
+    ],
+    "delete-effects": [
+      "not (at-ferry l2)"
+    ],
+    "add-effects": [
+      "at-ferry l3"
+    ]
+  },
+  "debark c2 l0": {
+    "preconditions": [
+      "at-ferry l0",
+      "on c2"
+    ],
+    "delete-effects": [
+      "not (on c2)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c2 l0"
+    ]
+  },
+  "debark c2 l1": {
+    "preconditions": [
+      "at-ferry l1",
+      "on c2"
+    ],
+    "delete-effects": [
+      "not (on c2)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c2 l1"
+    ]
+  },
+  "debark c6 l3": {
+    "preconditions": [
+      "at-ferry l3",
+      "on c6"
+    ],
+    "delete-effects": [
+      "not (on c6)"
+    ],
+    "add-effects": [
+      "empty-ferry",
+      "at c6 l3"
+    ]
+  }
+}

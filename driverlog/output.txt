@@ -1,0 +1,134 @@
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/driverlog/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/driverlog/domain.pddl /home/kin/t2-integradora/driverlog/problem.pddl --sas-file output.sas
+Parsing...
+Parsing: [0.000s CPU, 0.004s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.010s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.006s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
+Generated 54 rules.
+Computing model... [0.020s CPU, 0.025s wall-clock]
+427 relevant atoms
+383 auxiliary atoms
+810 final queue length
+1042 total queue pushes
+Completing instantiation... [0.020s CPU, 0.019s wall-clock]
+Instantiating: [0.050s CPU, 0.055s wall-clock]
+Computing fact groups...
+Finding invariants...
+11 initial candidates
+Finding invariants: [0.010s CPU, 0.007s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.002s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+3 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.020s CPU, 0.011s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.001s wall-clock]
+Translating task: [0.020s CPU, 0.018s wall-clock]
+27 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+0 axioms removed
+13 propositions removed
+Detecting unreachable propositions: [0.000s CPU, 0.009s wall-clock]
+Reordering and filtering variables...
+16 of 16 variables necessary.
+3 of 16 mutex groups necessary.
+270 of 270 operators necessary.
+0 of 0 axiom rules necessary.
+Reordering and filtering variables: [0.010s CPU, 0.002s wall-clock]
+Translator variables: 16
+Translator derived variables: 0
+Translator facts: 84
+Translator goal facts: 11
+Translator mutex groups: 3
+Translator total mutex groups size: 12
+Translator operators: 270
+Translator axioms: 0
+Translator task size: 1248
+Translator peak memory: 44508 KB
+Writing output... [0.000s CPU, 0.006s wall-clock]
+Done! [0.100s CPU, 0.107s wall-clock]
+translate exit code: 0
+
+INFO     Running search (release).
+INFO     search stdin: output.sas
+INFO     search time limit: None
+INFO     search memory limit: None
+INFO     search command line string: /home/kin/t2-integradora/driverlog/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=5.0706e-05s]
+done reading input! [t=0.00187526s]
+Initializing landmarks count heuristic...
+Initializing Exploration...
+Generating landmarks using Zhu/Givan label propagation
+Removing all orderings.
+Removed 0 reasonable or obedient reasonable orders
+Landmarks generation time: 0.00254117s
+Discovered 21 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+0 edges
+############################################################################
+Landmark graph: 
+LM 20 Atom at(package1, s0) (var15(15)->0)(goal) Achievers (3, 3)
+
+LM 19 Atom at(package2, s1) (var14(14)->1) Achievers (3, 3)
+
+LM 18 Atom at(package2, s0) (var14(14)->0)(goal) Achievers (3, 3)
+
+LM 16 Atom at(package3, s2) (var13(13)->2)(goal) Achievers (3, 3)
+
+LM 17 Atom at(package3, s0) (var13(13)->0) Achievers (3, 3)
+
+LM 14 Atom at(package4, s2) (var12(12)->2)(goal) Achievers (3, 3)
+
+LM 15 Atom at(package4, s0) (var12(12)->0) Achievers (3, 3)
+
+LM 13 Atom at(package5, s1) (var11(11)->1)(goal) Achievers (3, 3)
+
+LM 12 Atom at(package6, s2) (var10(10)->2)(goal) Achievers (3, 3)
+
+LM 11 Atom at(package7, s2) (var9(9)->2) Achievers (3, 3)
+
+LM 10 Atom at(package7, s0) (var9(9)->0)(goal) Achievers (3, 3)
+
+LM 8 Atom at(driver2, s1) (var8(8)->4)(goal) Achievers (5, 5)
+
+LM 9 Atom at(driver2, s0) (var8(8)->3) Achievers (5, 5)
+
+LM 7 Atom at(driver1, s2) (var7(7)->5) Achievers (5, 5)
+
+LM 6 Atom at(driver1, s1) (var7(7)->4)(goal) Achievers (5, 5)
+
+LM 4 Atom at(truck3, s2) (var6(6)->2) Achievers (6, 6)
+
+LM 3 Atom at(truck3, s1) (var6(6)->1)(goal) Achievers (6, 6)
+
+LM 2 Atom at(truck2, s2) (var5(5)->2) Achievers (6, 6)
+
+LM 0 Atom at(truck2, s0) (var5(5)->0)(goal) Achievers (6, 6)
+
+LM 5 Atom empty(truck3) (var4(4)->0) Achievers (9, 9)
+
+LM 1 Atom empty(truck2) (var3(3)->0) Achievers (9, 9)
+
+Landmark graph end.
+############################################################################
+Peak memory: 21208 KB
+Remove intermediate file output.sas
+search exit code: 0
+

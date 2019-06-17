@@ -1,1 +1,5 @@
-[ERROR] Error running: python3 /home/kin/t2-integradora/sokoban/fd/fast-downward.py /home/kin/t2-integradora/sokoban/domain.pddl /home/kin/t2-integradora/sokoban/problem.pddl --landmarks "lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)" --heuristic "hlm=lmcount(lm)" --search "astar(lmcut())" > /home/kin/t2-integradora/sokoban/output.txt
+GOALS-10
+LANDMARKS_AVG-9.7
+OBS-8
+CORRECT-TRUE
+TIME-6.300235780887306

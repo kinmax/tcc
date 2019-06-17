@@ -12,25 +12,25 @@ Normalizing Datalog program...
 Normalizing Datalog program: [0.010s CPU, 0.006s wall-clock]
 Preparing model... [0.000s CPU, 0.003s wall-clock]
 Generated 59 rules.
-Computing model... [0.050s CPU, 0.052s wall-clock]
-1774 relevant atoms
-902 auxiliary atoms
-2676 final queue length
-5351 total queue pushes
-Completing instantiation... [0.160s CPU, 0.151s wall-clock]
-Instantiating: [0.220s CPU, 0.214s wall-clock]
+Computing model... [0.040s CPU, 0.038s wall-clock]
+1249 relevant atoms
+753 auxiliary atoms
+2002 final queue length
+3850 total queue pushes
+Completing instantiation... [0.110s CPU, 0.111s wall-clock]
+Instantiating: [0.160s CPU, 0.160s wall-clock]
 Computing fact groups...
 Finding invariants...
 9 initial candidates
-Finding invariants: [0.000s CPU, 0.006s wall-clock]
+Finding invariants: [0.000s CPU, 0.005s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.000s CPU, 0.002s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 0 uncovered facts
-Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.000s CPU, 0.010s wall-clock]
+Computing fact groups: [0.010s CPU, 0.008s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -38,45 +38,79 @@ Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.004s wall-clock]
-Translating task: [0.120s CPU, 0.113s wall-clock]
+Processing axioms: [0.000s CPU, 0.003s wall-clock]
+Translating task: [0.080s CPU, 0.079s wall-clock]
 0 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
-14 propositions removed
-Detecting unreachable propositions: [0.050s CPU, 0.056s wall-clock]
+12 propositions removed
+Detecting unreachable propositions: [0.030s CPU, 0.039s wall-clock]
 Reordering and filtering variables...
-14 of 14 variables necessary.
-0 of 14 mutex groups necessary.
-1584 of 1584 operators necessary.
+12 of 12 variables necessary.
+0 of 12 mutex groups necessary.
+1095 of 1095 operators necessary.
 0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.010s CPU, 0.012s wall-clock]
-Translator variables: 14
+Reordering and filtering variables: [0.010s CPU, 0.008s wall-clock]
+Translator variables: 12
 Translator derived variables: 0
-Translator facts: 111
-Translator goal facts: 8
+Translator facts: 84
+Translator goal facts: 6
 Translator mutex groups: 0
 Translator total mutex groups size: 0
-Translator operators: 1584
+Translator operators: 1095
 Translator axioms: 0
-Translator task size: 7459
-Translator peak memory: 49756 KB
-Writing output... [0.030s CPU, 0.031s wall-clock]
-Done! [0.440s CPU, 0.444s wall-clock]
+Translator task size: 5142
+Translator peak memory: 47788 KB
+Writing output... [0.020s CPU, 0.022s wall-clock]
+Done! [0.320s CPU, 0.323s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
 INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
-INFO     search command line string: /home/kin/t2-integradora/zeno-travel/fd/builds/release/bin/downward --landmarks 'lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=4.9889e-05s]
-done reading input! [t=0.00992879s]
+INFO     search command line string: /home/kin/t2-integradora/zeno-travel/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=4.7627e-05s]
+done reading input! [t=0.00660408s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
-h^m landmarks m=2
-Using 5820 P^m fluents.
-Level 1 completed.
-Level 2 completed.
+Generating landmarks using Zhu/Givan label propagation
+Removing all orderings.
+Removed 0 reasonable or obedient reasonable orders
+Landmarks generation time: 0.00680034s
+Discovered 12 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+0 edges
+############################################################################
+Landmark graph: 
+LM 10 Atom at(person1, city4) (var11(11)->4)(goal) Achievers (3, 3)
+
+LM 11 Atom at(person1, city1) (var11(11)->1) Achievers (3, 3)
+
+LM 8 Atom at(person2, city2) (var10(10)->2)(goal) Achievers (3, 3)
+
+LM 9 Atom at(person2, city0) (var10(10)->0) Achievers (3, 3)
+
+LM 7 Atom at(person3, city2) (var9(9)->2) Achievers (3, 3)
+
+LM 6 Atom at(person3, city1) (var9(9)->1)(goal) Achievers (3, 3)
+
+LM 4 Atom at(person4, city2) (var8(8)->2)(goal) Achievers (3, 3)
+
+LM 5 Atom at(person4, city0) (var8(8)->0) Achievers (3, 3)
+
+LM 2 Atom at(person5, city4) (var7(7)->4)(goal) Achievers (3, 3)
+
+LM 3 Atom at(person5, city3) (var7(7)->3) Achievers (3, 3)
+
+LM 1 Atom at(person6, city4) (var6(6)->4) Achievers (3, 3)
+
+LM 0 Atom at(person6, city0) (var6(6)->0)(goal) Achievers (3, 3)
+
+Landmark graph end.
+############################################################################
+Peak memory: 21692 KB
+Remove intermediate file output.sas
+search exit code: 0
+

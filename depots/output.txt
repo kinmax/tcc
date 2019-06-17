@@ -4,84 +4,179 @@ INFO     translator time limit: None
 INFO     translator memory limit: None
 INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/depots/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/depots/domain.pddl /home/kin/t2-integradora/depots/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.000s CPU, 0.003s wall-clock]
+Parsing: [0.010s CPU, 0.003s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.004s wall-clock]
-Preparing model... [0.000s CPU, 0.003s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.004s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 43 rules.
-Computing model... [0.050s CPU, 0.046s wall-clock]
-1365 relevant atoms
-1130 auxiliary atoms
-2495 final queue length
-4859 total queue pushes
-Completing instantiation... [0.100s CPU, 0.102s wall-clock]
-Instantiating: [0.160s CPU, 0.158s wall-clock]
+Computing model... [0.020s CPU, 0.020s wall-clock]
+599 relevant atoms
+516 auxiliary atoms
+1115 final queue length
+1993 total queue pushes
+Completing instantiation... [0.040s CPU, 0.037s wall-clock]
+Instantiating: [0.060s CPU, 0.065s wall-clock]
 Computing fact groups...
 Finding invariants...
 16 initial candidates
-Finding invariants: [0.010s CPU, 0.012s wall-clock]
+Finding invariants: [0.010s CPU, 0.013s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
-Instantiating groups... [0.010s CPU, 0.009s wall-clock]
-Collecting mutex groups... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.010s CPU, 0.004s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
-28 uncovered facts
-Choosing groups: [0.000s CPU, 0.002s wall-clock]
+16 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
 Building translation key... [0.000s CPU, 0.001s wall-clock]
-Computing fact groups: [0.030s CPU, 0.029s wall-clock]
+Computing fact groups: [0.020s CPU, 0.021s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
-Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
-Building mutex information: [0.000s CPU, 0.001s wall-clock]
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.005s wall-clock]
-Translating task: [0.140s CPU, 0.134s wall-clock]
-1290 effect conditions simplified
+Processing axioms: [0.000s CPU, 0.002s wall-clock]
+Translating task: [0.050s CPU, 0.045s wall-clock]
+448 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
-40 propositions removed
-Detecting unreachable propositions: [0.060s CPU, 0.060s wall-clock]
+26 propositions removed
+Detecting unreachable propositions: [0.020s CPU, 0.020s wall-clock]
 Reordering and filtering variables...
-41 of 41 variables necessary.
-29 of 41 mutex groups necessary.
-912 of 912 operators necessary.
+30 of 30 variables necessary.
+20 of 30 mutex groups necessary.
+340 of 340 operators necessary.
 0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.030s CPU, 0.031s wall-clock]
-Translator variables: 41
+Reordering and filtering variables: [0.010s CPU, 0.009s wall-clock]
+Translator variables: 30
 Translator derived variables: 0
-Translator facts: 284
-Translator goal facts: 4
-Translator mutex groups: 29
-Translator total mutex groups size: 329
-Translator operators: 912
+Translator facts: 156
+Translator goal facts: 8
+Translator mutex groups: 20
+Translator total mutex groups size: 180
+Translator operators: 340
 Translator axioms: 0
-Translator task size: 8764
-Translator peak memory: 49800 KB
-Writing output... [0.030s CPU, 0.035s wall-clock]
-Done! [0.460s CPU, 0.462s wall-clock]
+Translator task size: 3314
+Translator peak memory: 45812 KB
+Writing output... [0.010s CPU, 0.012s wall-clock]
+Done! [0.180s CPU, 0.179s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
 INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
-INFO     search command line string: /home/kin/t2-integradora/depots/fd/builds/release/bin/downward --landmarks 'lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=5.8811e-05s]
-done reading input! [t=0.0101084s]
+INFO     search command line string: /home/kin/t2-integradora/depots/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=4.4352e-05s]
+done reading input! [t=0.00362702s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
-h^m landmarks m=2
-Using 36890 P^m fluents.
-Level 1 completed.
-Level 2 completed.
-Level 3 completed.
-Level 4 completed.
-Level 5 completed.
-Level 6 completed.
-Level 7 completed.
+Generating landmarks using Zhu/Givan label propagation
+Removing all orderings.
+Removed 0 reasonable or obedient reasonable orders
+Landmarks generation time: 0.0121719s
+Discovered 45 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+0 edges
+############################################################################
+Landmark graph: 
+LM 3 Atom on(crate7, crate6) (var29(29)->10) Achievers (2, 2)
+
+LM 43 Atom on(crate7, crate3) (var29(29)->7)(goal) Achievers (2, 2)
+
+LM 44 Atom lifting(hoist1, crate7) (var29(29)->3) Achievers (11, 1)
+
+LM 41 Atom on(crate6, crate7) (var28(28)->10)(goal) Achievers (2, 2)
+
+LM 18 Atom on(crate6, crate3) (var28(28)->7) Achievers (2, 2)
+
+LM 42 Atom lifting(hoist1, crate6) (var28(28)->3) Achievers (11, 1)
+
+LM 38 Atom on(crate5, pallet0) (var27(27)->11)(goal) Achievers (1, 1)
+
+LM 8 Atom on(crate5, crate4) (var27(27)->8) Achievers (2, 2)
+
+LM 39 Atom lifting(hoist0, crate5) (var27(27)->2) Achievers (11, 1)
+
+LM 34 Atom on(crate4, pallet1) (var26(26)->12)(goal) Achievers (1, 1)
+
+LM 25 Atom on(crate4, crate2) (var26(26)->6) Achievers (2, 2)
+
+LM 37 Atom lifting(hoist1, crate4) (var26(26)->3) Achievers (11, 2)
+
+LM 35 Atom lifting(hoist0, crate4) (var26(26)->2) Achievers (11, 1)
+
+LM 32 Atom on(crate3, crate5) (var25(25)->8)(goal) Achievers (2, 2)
+
+LM 22 Atom on(crate3, crate1) (var25(25)->5) Achievers (2, 2)
+
+LM 33 Atom lifting(hoist1, crate3) (var25(25)->3) Achievers (11, 1)
+
+LM 31 Atom on(crate2, pallet0) (var24(24)->11) Achievers (1, 1)
+
+LM 29 Atom on(crate2, crate1) (var24(24)->5)(goal) Achievers (2, 2)
+
+LM 30 Atom lifting(hoist0, crate2) (var24(24)->2) Achievers (11, 1)
+
+LM 24 Atom on(crate1, crate2) (var23(23)->5)(goal) Achievers (2, 2)
+
+LM 10 Atom on(crate1, crate0) (var23(23)->4) Achievers (2, 2)
+
+LM 26 Atom lifting(hoist1, crate1) (var23(23)->3) Achievers (11, 1)
+
+LM 2 Atom on(crate0, pallet1) (var22(22)->12) Achievers (1, 1)
+
+LM 0 Atom on(crate0, crate4) (var22(22)->7)(goal) Achievers (2, 2)
+
+LM 11 Atom lifting(hoist1, crate0) (var22(22)->3) Achievers (11, 1)
+
+LM 7 Atom available(hoist1) (var21(21)->0) Achievers (80, 59)
+
+LM 9 Atom available(hoist0) (var20(20)->0) Achievers (80, 45)
+
+LM 16 Atom clear(crate7) (var19(19)->0) Achievers (30, 30)
+
+LM 20 Atom clear(crate6) (var18(18)->0) Achievers (30, 1)
+
+LM 1 Atom clear(crate5) (var17(17)->0) Achievers (30, 30)
+
+LM 6 Atom clear(crate4) (var16(16)->0) Achievers (30, 1)
+
+LM 19 Atom clear(crate3) (var15(15)->0) Achievers (30, 1)
+
+LM 27 Atom clear(crate2) (var14(14)->0) Achievers (30, 1)
+
+LM 15 Atom clear(crate1) (var13(13)->0) Achievers (30, 1)
+
+LM 13 Atom clear(crate0) (var12(12)->0) Achievers (30, 1)
+
+LM 14 Atom at(crate7, distributor0) (var11(11)->1) Achievers (8, 8)
+
+LM 17 Atom at(crate6, distributor0) (var10(10)->1) Achievers (8, 8)
+
+LM 23 Atom at(crate5, depot0) (var9(9)->0) Achievers (8, 8)
+
+LM 4 Atom at(crate4, depot0) (var8(8)->0) Achievers (8, 8)
+
+LM 21 Atom at(crate3, distributor0) (var7(7)->1) Achievers (8, 8)
+
+LM 28 Atom at(crate2, depot0) (var6(6)->0) Achievers (8, 8)
+
+LM 12 Atom at(crate1, distributor0) (var5(5)->1) Achievers (8, 8)
+
+LM 5 Atom at(crate0, distributor0) (var4(4)->1) Achievers (8, 8)
+
+LM 36 Atom clear(pallet1) (var3(3)->0) Achievers (16, 1)
+
+LM 40 Atom clear(pallet0) (var2(2)->0) Achievers (16, 1)
+
+Landmark graph end.
+############################################################################
+Peak memory: 21756 KB
+Remove intermediate file output.sas
+search exit code: 0
+

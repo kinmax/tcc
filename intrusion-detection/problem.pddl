@@ -8,7 +8,7 @@
 	)
 	(:goal
 		(and
-(data-stolen-from aries)  (data-stolen-from taurus)  (data-stolen-from andromeda)
+(vandalized taurus)  (data-stolen-from cassiopea)  (vandalized aries)
 		)
 	)
 )

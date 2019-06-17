@@ -1,6 +1,2 @@
-(MOVE bookmark_cafe library)
-(MOVE library bank)
-(MOVE bank davis_theater)
-(MOVE davis_theater jones_theater)
-(MOVE jones_theater bookmark_cafe)
-(MOVE bookmark_cafe psychology_bldg)
+(MOVE cbs watson_theater)
+(MOVE angazi_cafe cbs)

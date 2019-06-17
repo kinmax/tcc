@@ -1,9 +1,26 @@
-(define (problem pb7)
-(:domain blocks)
-(:objects D J H P B Q G E I M C F A O N L K - block)
-(:INIT (CLEAR K) (CLEAR L) (CLEAR N) (ONTABLE O) (ONTABLE A) (ONTABLE F)
- (ON K C) (ON C M) (ON M I) (ON I E) (ON E G) (ON G Q) (ON Q B) (ON B P)
- (ON P H) (ON H J) (ON J O) (ON L D) (ON D A) (ON N F) (HANDEMPTY))
+
+(define (problem blocks_words)
+	(:domain blocks)
+(:objects 
+
+M O T H E R W A - block
+)
+(:init
+(HANDEMPTY)
+(CLEAR M)
+(ON M O)
+(ONTABLE O)
+(CLEAR E)
+(ONTABLE E)
+(CLEAR T)
+(ON T W)
+(ONTABLE W)
+(CLEAR H)
+(ONTABLE H)
+(CLEAR R)
+(ON R A)
+(ONTABLE A)
+)
 (:goal (and
 <HYPOTHESIS>
 ))

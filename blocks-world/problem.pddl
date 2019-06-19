@@ -3,25 +3,25 @@
 	(:domain blocks)
 (:objects 
 
-M O T H E R W A - block
+D R A W O E P C - block
 )
 (:init
 (HANDEMPTY)
-(CLEAR M)
-(ON M O)
+(CLEAR O)
 (ONTABLE O)
+(CLEAR R)
+(ON R P)
+(ONTABLE P)
 (CLEAR E)
 (ONTABLE E)
-(CLEAR T)
-(ON T W)
+(CLEAR D)
+(ON D A)
+(ON A C)
+(ONTABLE C)
+(CLEAR W)
 (ONTABLE W)
-(CLEAR H)
-(ONTABLE H)
-(CLEAR R)
-(ON R A)
-(ONTABLE A)
 )
 (:goal (and
-(clear m) (ontable w) (on m o) (on o w)
+(clear r) (ontable e) (on r a) (on a p) (on p e)
 ))
 )

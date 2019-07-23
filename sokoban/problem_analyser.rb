@@ -159,6 +159,7 @@ end
 puts "GOALS-#{candidates.length}"
 puts "LANDMARKS_AVG-#{landmark_avg}"
 puts "OBS-#{obs.length}"
+puts "SPREAD-#{recognized.length}"
 
 if recognized.include?(real_goal)
     puts "CORRECT-TRUE"

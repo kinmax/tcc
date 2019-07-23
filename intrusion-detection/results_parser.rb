@@ -11,8 +11,9 @@ def get_method_stats(domain)
     goals = raw[0].split("-")[1].to_f
     landmarks = raw[1].split("-")[1].to_f
     obs = raw[2].split("-")[1].to_f
-    correct = raw[3].split("-")[1] == "TRUE" ? 1 : 0
-    time = raw[4].split("-")[1].to_f
+    spread = raw[3].split("-")[1].to_f
+    correct = raw[4].split("-")[1] == "TRUE" ? 1 : 0
+    time = raw[5].split("-")[1].to_f
 
     results = {}
     results[:observations] = obs
@@ -20,6 +21,7 @@ def get_method_stats(domain)
     results[:landmarks] = landmarks
     results[:correct] = correct
     results[:time] = time
+    results[:spread] = spread
 
     results
 end
@@ -41,6 +43,7 @@ def all_results(domain)
         alg_counter[alg] = 0
     end
     observations = {}
+    spread = {}
     seconds = {}   
     accuracy = {}
     counter = {}
@@ -51,6 +54,10 @@ def all_results(domain)
         counter[p] = {}
         counter[p]["all"] = 0
         seconds[p]["exhaust"] = {}
+        spread[p]["exhaust"] = {}
+        spread[p]["hm"] = {}
+        spread[p]["rhw"] = {}
+        spread[p]["zg"] = {}
         accuracy[p]["exhaust"] = {}
         seconds[p]["hm"] = {}
         accuracy[p]["hm"] = {}
@@ -60,6 +67,12 @@ def all_results(domain)
         accuracy[p]["zg"] = {}
         thresholds.each do |t|
             counter[p][t] = 0
+
+            spread[p]["exhaust"][t] = 0
+            spread[p]["hm"][t] = 0
+            spread[p]["rhw"][t] = 0
+            spread[p]["zg"][t] = 0
+
             seconds[p]["exhaust"][t] = 0
             accuracy[p]["exhaust"][t] = 0
             seconds[p]["hm"][t] = 0
@@ -81,6 +94,10 @@ def all_results(domain)
         counter[p]["all"] = 0
         thresholds.each do |t|
             counter[p][t] = 0
+            spread[p]["exhaust"][t] = 0
+            spread[p]["hm"][t] = 0
+            spread[p]["rhw"][t] = 0
+            spread[p]["zg"][t] = 0
             seconds[p]["exhaust"][t] = 0
             accuracy[p]["exhaust"][t] = 0
             seconds[p]["hm"][t] = 0
@@ -126,6 +143,7 @@ def all_results(domain)
                         single_result_ex = get_method_stats(domain)
                         alg_counter[extraction_method] += 1
                         landmarks[extraction_method] += single_result_ex[:landmarks]
+                        spread[p][extraction_method][t] += single_result_ex[:spread]
                         seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
                         accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
                     end
@@ -143,10 +161,15 @@ def all_results(domain)
         result[symbol_domain][:goals_avg] = goals.to_f/problem_counter
         result[symbol_domain][:observations] = {}
         result[symbol_domain][:landmarks_avg] = {}
+        result[symbol_domain][:spread] = {}
         algorithms.each do |alg|
             result[symbol_domain][:landmarks_avg][alg] = landmarks[alg].to_f/alg_counter[alg].to_f
         end
         percentages.each do |p|
+            result[symbol_domain][:spread][p]["exhaust"] = {}
+            result[symbol_domain][:spread][p]["hm"] = {}
+            result[symbol_domain][:spread][p]["rhw"] = {}
+            result[symbol_domain][:spread][p]["zg"] = {}
             result[symbol_domain][:observations][p] = {}
             result[symbol_domain][:observations][p]["exhaust"] = {}
             result[symbol_domain][:observations][p]["hm"] = {}
@@ -170,6 +193,11 @@ def all_results(domain)
                 if counter[p][t] == 0
                     counter[p][t] = 1
                 end
+                result[symbol_domain][:spread][p]["exhaust"][t] = (spread[p]["exhaust"][t].to_f)/(counter[p][t].to_f)
+                result[symbol_domain][:spread][p]["hm"][t] = (spread[p]["hm"][t].to_f)/(counter[p][t].to_f)
+                result[symbol_domain][:spread][p]["rhw"][t] = (spread[p]["rhw"][t].to_f)/(counter[p][t].to_f)
+                result[symbol_domain][:spread][p]["zg"][t] = (spread[p]["zg"][t].to_f)/(counter[p][t].to_f)
+
                 result[symbol_domain][:observations][p]["exhaust"][:time][t] = ((((seconds[p]["exhaust"][t].to_f/counter[p][t])*1000).floor)/1000.0)
                 result[symbol_domain][:observations][p]["exhaust"][:accuracy][t] = ((accuracy[p]["exhaust"][t].to_f/counter[p][t]) * 100.0)
                 result[symbol_domain][:observations][p]["hm"][:time][t] = ((((seconds[p]["hm"][t].to_f/counter[p][t])*1000).floor)/1000.0)

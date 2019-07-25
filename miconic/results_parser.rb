@@ -52,7 +52,7 @@ def all_results(domain)
         seconds[p] = {}
         accuracy[p] = {}
         counter[p] = {}
-	spread[p] = {}
+        spread[p] = {}
         counter[p]["all"] = 0
         seconds[p]["exhaust"] = {}
         spread[p]["exhaust"] = {}
@@ -144,7 +144,7 @@ def all_results(domain)
                         single_result_ex = get_method_stats(domain)
                         alg_counter[extraction_method] += 1
                         landmarks[extraction_method] += single_result_ex[:landmarks]
-                        spread[p][extraction_method][t] += single_result_ex[:spread]
+                        spread[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:spread]
                         seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
                         accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
                     end

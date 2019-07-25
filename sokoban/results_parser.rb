@@ -52,6 +52,7 @@ def all_results(domain)
         seconds[p] = {}
         accuracy[p] = {}
         counter[p] = {}
+	spread[p] = {}
         counter[p]["all"] = 0
         seconds[p]["exhaust"] = {}
         spread[p]["exhaust"] = {}
@@ -166,6 +167,7 @@ def all_results(domain)
             result[symbol_domain][:landmarks_avg][alg] = landmarks[alg].to_f/alg_counter[alg].to_f
         end
         percentages.each do |p|
+	    result[symbol_domain][:spread][p] = {}
             result[symbol_domain][:spread][p]["exhaust"] = {}
             result[symbol_domain][:spread][p]["hm"] = {}
             result[symbol_domain][:spread][p]["rhw"] = {}

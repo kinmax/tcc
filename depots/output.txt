@@ -22,14 +22,14 @@ Instantiating: [0.060s CPU, 0.065s wall-clock]
 Computing fact groups...
 Finding invariants...
 16 initial candidates
-Finding invariants: [0.010s CPU, 0.013s wall-clock]
+Finding invariants: [0.010s CPU, 0.012s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
 Instantiating groups... [0.010s CPU, 0.004s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 16 uncovered facts
 Choosing groups: [0.000s CPU, 0.001s wall-clock]
-Building translation key... [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
 Computing fact groups: [0.020s CPU, 0.021s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
@@ -39,14 +39,14 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.002s wall-clock]
-Translating task: [0.050s CPU, 0.045s wall-clock]
+Translating task: [0.050s CPU, 0.046s wall-clock]
 448 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
 26 propositions removed
-Detecting unreachable propositions: [0.020s CPU, 0.020s wall-clock]
+Detecting unreachable propositions: [0.020s CPU, 0.021s wall-clock]
 Reordering and filtering variables...
 30 of 30 variables necessary.
 20 of 30 mutex groups necessary.
@@ -62,9 +62,9 @@ Translator total mutex groups size: 180
 Translator operators: 340
 Translator axioms: 0
 Translator task size: 3314
-Translator peak memory: 45812 KB
-Writing output... [0.010s CPU, 0.012s wall-clock]
-Done! [0.180s CPU, 0.179s wall-clock]
+Translator peak memory: 45800 KB
+Writing output... [0.010s CPU, 0.013s wall-clock]
+Done! [0.180s CPU, 0.182s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
@@ -72,14 +72,14 @@ INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
 INFO     search command line string: /home/kin/t2-integradora/depots/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=4.4352e-05s]
-done reading input! [t=0.00362702s]
+reading input... [t=5.2689e-05s]
+done reading input! [t=0.00366353s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
 Generating landmarks using Zhu/Givan label propagation
 Removing all orderings.
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.0121719s
+Landmarks generation time: 0.0121925s
 Discovered 45 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################

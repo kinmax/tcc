@@ -4,55 +4,55 @@ INFO     translator time limit: None
 INFO     translator memory limit: None
 INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/satellite/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/satellite/domain.pddl /home/kin/t2-integradora/satellite/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.000s CPU, 0.006s wall-clock]
+Parsing: [0.010s CPU, 0.003s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
-Generating Datalog program... [0.010s CPU, 0.002s wall-clock]
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.010s CPU, 0.009s wall-clock]
-Preparing model... [0.000s CPU, 0.005s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
 Generated 44 rules.
-Computing model... [0.050s CPU, 0.049s wall-clock]
+Computing model... [0.030s CPU, 0.026s wall-clock]
 1038 relevant atoms
 493 auxiliary atoms
 1531 final queue length
 2227 total queue pushes
 Completing instantiation... [0.050s CPU, 0.051s wall-clock]
-Instantiating: [0.120s CPU, 0.117s wall-clock]
+Instantiating: [0.080s CPU, 0.085s wall-clock]
 Computing fact groups...
 Finding invariants...
 12 initial candidates
-Finding invariants: [0.010s CPU, 0.004s wall-clock]
+Finding invariants: [0.000s CPU, 0.003s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
 Instantiating groups... [0.000s CPU, 0.000s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 68 uncovered facts
-Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Choosing groups: [0.010s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.001s wall-clock]
-Computing fact groups: [0.010s CPU, 0.008s wall-clock]
+Computing fact groups: [0.010s CPU, 0.006s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
-Building mutex information: [0.000s CPU, 0.001s wall-clock]
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.004s wall-clock]
-Translating task: [0.050s CPU, 0.052s wall-clock]
+Processing axioms: [0.000s CPU, 0.002s wall-clock]
+Translating task: [0.040s CPU, 0.048s wall-clock]
 24 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
 4 propositions removed
-Detecting unreachable propositions: [0.030s CPU, 0.026s wall-clock]
+Detecting unreachable propositions: [0.040s CPU, 0.026s wall-clock]
 Reordering and filtering variables...
 27 of 72 variables necessary.
 0 of 4 mutex groups necessary.
 565 of 756 operators necessary.
 0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.010s CPU, 0.006s wall-clock]
+Reordering and filtering variables: [0.000s CPU, 0.005s wall-clock]
 Translator variables: 27
 Translator derived variables: 0
 Translator facts: 94
@@ -62,9 +62,9 @@ Translator total mutex groups size: 0
 Translator operators: 565
 Translator axioms: 0
 Translator task size: 1881
-Translator peak memory: 45996 KB
-Writing output... [0.010s CPU, 0.011s wall-clock]
-Done! [0.230s CPU, 0.230s wall-clock]
+Translator peak memory: 46004 KB
+Writing output... [0.010s CPU, 0.010s wall-clock]
+Done! [0.190s CPU, 0.188s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
@@ -72,14 +72,14 @@ INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
 INFO     search command line string: /home/kin/t2-integradora/satellite/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=7.5749e-05s]
-done reading input! [t=0.00570664s]
+reading input... [t=5.7872e-05s]
+done reading input! [t=0.00488127s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
 Generating landmarks using Zhu/Givan label propagation
 Removing all orderings.
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00257525s
+Landmarks generation time: 0.00276238s
 Discovered 9 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################

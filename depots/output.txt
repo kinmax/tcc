@@ -4,7 +4,7 @@ INFO     translator time limit: None
 INFO     translator memory limit: None
 INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/depots/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/depots/domain.pddl /home/kin/t2-integradora/depots/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.010s CPU, 0.003s wall-clock]
+Parsing: [0.010s CPU, 0.004s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
@@ -17,14 +17,14 @@ Computing model... [0.020s CPU, 0.020s wall-clock]
 516 auxiliary atoms
 1115 final queue length
 1993 total queue pushes
-Completing instantiation... [0.040s CPU, 0.037s wall-clock]
+Completing instantiation... [0.040s CPU, 0.038s wall-clock]
 Instantiating: [0.060s CPU, 0.065s wall-clock]
 Computing fact groups...
 Finding invariants...
 16 initial candidates
 Finding invariants: [0.010s CPU, 0.012s wall-clock]
-Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
-Instantiating groups... [0.010s CPU, 0.004s wall-clock]
+Checking invariant weight... [0.010s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.004s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 16 uncovered facts
@@ -39,7 +39,7 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.002s wall-clock]
-Translating task: [0.050s CPU, 0.046s wall-clock]
+Translating task: [0.050s CPU, 0.047s wall-clock]
 448 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
@@ -62,9 +62,9 @@ Translator total mutex groups size: 180
 Translator operators: 340
 Translator axioms: 0
 Translator task size: 3314
-Translator peak memory: 45800 KB
+Translator peak memory: 45812 KB
 Writing output... [0.010s CPU, 0.013s wall-clock]
-Done! [0.180s CPU, 0.182s wall-clock]
+Done! [0.180s CPU, 0.184s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
@@ -72,14 +72,14 @@ INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
 INFO     search command line string: /home/kin/t2-integradora/depots/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=5.2689e-05s]
-done reading input! [t=0.00366353s]
+reading input... [t=5.0226e-05s]
+done reading input! [t=0.00388145s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
 Generating landmarks using Zhu/Givan label propagation
 Removing all orderings.
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.0121925s
+Landmarks generation time: 0.0127525s
 Discovered 45 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################

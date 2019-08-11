@@ -4,21 +4,21 @@ INFO     translator time limit: None
 INFO     translator memory limit: None
 INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/campus/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/campus/domain.pddl /home/kin/t2-integradora/campus/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.010s CPU, 0.009s wall-clock]
-Normalizing task... [0.000s CPU, 0.001s wall-clock]
+Parsing: [0.000s CPU, 0.005s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.004s wall-clock]
-Preparing model... [0.010s CPU, 0.002s wall-clock]
+Normalizing Datalog program: [0.000s CPU, 0.002s wall-clock]
+Preparing model... [0.000s CPU, 0.001s wall-clock]
 Generated 47 rules.
-Computing model... [0.000s CPU, 0.006s wall-clock]
+Computing model... [0.010s CPU, 0.003s wall-clock]
 198 relevant atoms
 22 auxiliary atoms
 220 final queue length
 341 total queue pushes
-Completing instantiation... [0.010s CPU, 0.013s wall-clock]
-Instantiating: [0.030s CPU, 0.026s wall-clock]
+Completing instantiation... [0.010s CPU, 0.012s wall-clock]
+Instantiating: [0.020s CPU, 0.020s wall-clock]
 Computing fact groups...
 Finding invariants...
 13 initial candidates
@@ -30,7 +30,7 @@ Choosing groups...
 11 uncovered facts
 Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.000s CPU, 0.004s wall-clock]
+Computing fact groups: [0.000s CPU, 0.003s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -39,14 +39,14 @@ Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
 Processing axioms: [0.000s CPU, 0.001s wall-clock]
-Translating task: [0.010s CPU, 0.015s wall-clock]
+Translating task: [0.020s CPU, 0.012s wall-clock]
 0 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
 1 propositions removed
-Detecting unreachable propositions: [0.010s CPU, 0.005s wall-clock]
+Detecting unreachable propositions: [0.010s CPU, 0.006s wall-clock]
 Reordering and filtering variables...
 7 of 12 variables necessary.
 0 of 1 mutex groups necessary.
@@ -63,50 +63,59 @@ Translator operators: 120
 Translator axioms: 0
 Translator task size: 401
 Translator peak memory: 43864 KB
-Writing output... [0.010s CPU, 0.002s wall-clock]
-Done! [0.070s CPU, 0.065s wall-clock]
+Writing output... [0.000s CPU, 0.003s wall-clock]
+Done! [0.050s CPU, 0.053s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
 INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
-INFO     search command line string: /home/kin/t2-integradora/campus/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=5.0323e-05s]
-done reading input! [t=0.000826895s]
+INFO     search command line string: /home/kin/t2-integradora/campus/fd/builds/release/bin/downward --landmarks 'lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=7.9683e-05s]
+done reading input! [t=0.00148796s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
-Generating landmarks using Zhu/Givan label propagation
-Removing all orderings.
+Generating landmarks by testing all facts with RPG method
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00049584s
-Discovered 10 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+Landmarks generation time: 0.000638136s
+Discovered 15 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################
 Landmark graph: 
-LM 9 Atom group-meeting-3() (var6(6)->0)(goal) Achievers (2, 2)
+LM 14 NegatedAtom group-meeting-3() (var6(6)->1) Achievers (0, 0)
 
-LM 7 Atom lecture-4-taken() (var5(5)->0)(goal) Achievers (1, 1)
+LM 5 Atom group-meeting-3() (var6(6)->0)(goal) Achievers (2, 2)
 
-LM 5 Atom lecture-3-taken() (var4(4)->0)(goal) Achievers (1, 1)
+LM 13 NegatedAtom lecture-4-taken() (var5(5)->1) Achievers (0, 0)
 
-LM 3 Atom banking() (var3(3)->0)(goal) Achievers (1, 1)
+LM 4 Atom lecture-4-taken() (var5(5)->0)(goal) Achievers (1, 1)
 
-LM 2 Atom group-meeting-2() (var2(2)->0)(goal) Achievers (3, 3)
+LM 12 NegatedAtom lecture-3-taken() (var4(4)->1) Achievers (0, 0)
+
+LM 3 Atom lecture-3-taken() (var4(4)->0)(goal) Achievers (1, 1)
+
+LM 11 NegatedAtom banking() (var3(3)->1) Achievers (0, 0)
+
+LM 2 Atom banking() (var3(3)->0)(goal) Achievers (1, 1)
+
+LM 10 NegatedAtom group-meeting-2() (var2(2)->1) Achievers (0, 0)
+
+LM 1 Atom group-meeting-2() (var2(2)->0)(goal) Achievers (3, 3)
+
+LM 9 NegatedAtom lunch() (var1(1)->1) Achievers (0, 0)
 
 LM 0 Atom lunch() (var1(1)->0)(goal) Achievers (2, 2)
 
 LM 8 Atom at(jones_theater) (var0(0)->6) Achievers (10, 10)
 
-LM 6 Atom at(davis_theater) (var0(0)->4) Achievers (10, 10)
+LM 7 Atom at(davis_theater) (var0(0)->4) Achievers (10, 10)
 
-LM 1 Atom at(cbs) (var0(0)->3) Achievers (10, 10)
-
-LM 4 Atom at(bank) (var0(0)->1) Achievers (10, 10)
+LM 6 Atom at(bank) (var0(0)->1) Achievers (10, 10)
 
 Landmark graph end.
 ############################################################################
-Peak memory: 21076 KB
+Peak memory: 21072 KB
 Remove intermediate file output.sas
 search exit code: 0
 

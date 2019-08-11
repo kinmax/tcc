@@ -22,6 +22,6 @@ D R A W O E P C - block
 (ONTABLE W)
 )
 (:goal (and
-(clear r) (ontable e) (on r a) (on a p) (on p e)
+(clear d) (ontable w) (on d r) (on r a) (on a w)
 ))
 )

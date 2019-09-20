@@ -1,7 +1,9 @@
 require 'json'
 
+heuristic = ARGV[0]
+
 path = "/home/kingusmao/t2-integradora"
-output_path = "/home/kingusmao/t2-integradora/results.json"
+output_path = "/home/kingusmao/t2-integradora/results_#{heuristic}.json"
 
 domains = %w(blocks-world campus depots driverlog dwr easy-ipc-grid ferry intrusion-detection kitchen logistics miconic rovers satellite sokoban zeno-travel).freeze
 

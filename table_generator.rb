@@ -1,7 +1,7 @@
 require 'json'
 require 'byebug'
 
-file_path = File.join(File.dirname(__FILE__), 'results_goalcompletion.json')
+file_path = File.join(File.dirname(__FILE__), 'results_uniqueness.json')
 file = File.open(file_path, 'r')
 raw = file.read
 results = JSON.parse(raw)

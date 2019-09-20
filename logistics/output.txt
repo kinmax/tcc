@@ -9,8 +9,8 @@ Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.003s wall-clock]
-Preparing model... [0.010s CPU, 0.002s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.003s wall-clock]
+Preparing model... [0.000s CPU, 0.002s wall-clock]
 Generated 33 rules.
 Computing model... [0.010s CPU, 0.011s wall-clock]
 318 relevant atoms
@@ -62,8 +62,8 @@ Translator total mutex groups size: 0
 Translator operators: 66
 Translator axioms: 0
 Translator task size: 277
-Translator peak memory: 43860 KB
-Writing output... [0.000s CPU, 0.001s wall-clock]
+Translator peak memory: 43864 KB
+Writing output... [0.000s CPU, 0.002s wall-clock]
 Done! [0.050s CPU, 0.051s wall-clock]
 translate exit code: 0
 
@@ -72,14 +72,14 @@ INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
 INFO     search command line string: /home/kin/t2-integradora/logistics/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=4.4373e-05s]
-done reading input! [t=0.000546663s]
+reading input... [t=5.0829e-05s]
+done reading input! [t=0.000521618s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
 Generating landmarks using Zhu/Givan label propagation
 Removing all orderings.
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.000635852s
+Landmarks generation time: 0.000629749s
 Discovered 22 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################

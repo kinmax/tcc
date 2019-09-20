@@ -1,0 +1,286 @@
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/blocks-world/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/blocks-world/domain.pddl /home/kin/t2-integradora/blocks-world/problem.pddl --sas-file output.sas
+Parsing...
+Parsing: [0.010s CPU, 0.003s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.002s wall-clock]
+Preparing model... [0.000s CPU, 0.001s wall-clock]
+Generated 21 rules.
+Computing model... [0.010s CPU, 0.008s wall-clock]
+258 relevant atoms
+168 auxiliary atoms
+426 final queue length
+703 total queue pushes
+Completing instantiation... [0.010s CPU, 0.012s wall-clock]
+Instantiating: [0.020s CPU, 0.024s wall-clock]
+Computing fact groups...
+Finding invariants...
+10 initial candidates
+Finding invariants: [0.010s CPU, 0.008s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+9 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.010s CPU, 0.012s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.010s CPU, 0.000s wall-clock]
+Translating task: [0.020s CPU, 0.014s wall-clock]
+184 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+0 axioms removed
+16 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.007s wall-clock]
+Reordering and filtering variables...
+17 of 17 variables necessary.
+9 of 17 mutex groups necessary.
+128 of 128 operators necessary.
+0 of 0 axiom rules necessary.
+Reordering and filtering variables: [0.000s CPU, 0.003s wall-clock]
+Translator variables: 17
+Translator derived variables: 0
+Translator facts: 90
+Translator goal facts: 5
+Translator mutex groups: 9
+Translator total mutex groups size: 81
+Translator operators: 128
+Translator axioms: 0
+Translator task size: 1129
+Translator peak memory: 44120 KB
+Writing output... [0.010s CPU, 0.004s wall-clock]
+Done! [0.080s CPU, 0.070s wall-clock]
+translate exit code: 0
+
+INFO     Running search (release).
+INFO     search stdin: output.sas
+INFO     search time limit: None
+INFO     search memory limit: None
+INFO     search command line string: /home/kin/t2-integradora/blocks-world/fd/builds/release/bin/downward --landmarks 'lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=8.4242e-05s]
+done reading input! [t=0.00248935s]
+Initializing landmarks count heuristic...
+Initializing Exploration...
+h^m landmarks m=2
+Using 3474 P^m fluents.
+Level 1 completed.
+Level 2 completed.
+Level 3 completed.
+Level 4 completed.
+Level 5 completed.
+Level 6 completed.
+Level 7 completed.
+Level 8 completed.
+Level 9 completed.
+Level 10 completed.
+Level 11 completed.
+Level 12 completed.
+Level 13 completed.
+h^m landmarks computed.
+Removing all orderings.
+Removed 0 reasonable or obedient reasonable orders
+Calculating achievers.
+Landmarks generation time: 0.156805s
+Discovered 89 landmarks, of which 0 are disjunctive and 71 are conjunctive 
+0 edges
+############################################################################
+Landmark graph: 
+LM 12 conj {Atom on(d, o) (var15(15)->4), Atom clear(d) (var16(16)->0)}(goal) Achievers (7, 1)
+
+LM 87 conj {Atom on(d, a) (var15(15)->1), Atom clear(d) (var16(16)->0)} Achievers (7, 0)
+
+LM 84 conj {Atom ontable(p) (var14(14)->8), Atom clear(d) (var16(16)->0)} Achievers (15, 0)
+
+LM 10 conj {Atom on(p, e) (var14(14)->4), Atom clear(d) (var16(16)->0)}(goal) Achievers (13, 6)
+
+LM 83 conj {Atom ontable(p) (var14(14)->8), Atom on(d, a) (var15(15)->1)} Achievers (2, 0)
+
+LM 9 conj {Atom on(p, e) (var14(14)->4), Atom on(d, o) (var15(15)->4)}(goal) Achievers (2, 2)
+
+LM 80 conj {Atom ontable(o) (var13(13)->8), Atom clear(d) (var16(16)->0)} Achievers (15, 0)
+
+LM 7 conj {Atom on(o, p) (var13(13)->5), Atom clear(d) (var16(16)->0)}(goal) Achievers (13, 6)
+
+LM 79 conj {Atom ontable(o) (var13(13)->8), Atom on(d, a) (var15(15)->1)} Achievers (2, 0)
+
+LM 6 conj {Atom on(o, p) (var13(13)->5), Atom on(d, o) (var15(15)->4)}(goal) Achievers (1, 1)
+
+LM 77 conj {Atom on(o, p) (var13(13)->5), Atom holding(d) (var15(15)->0)} Achievers (7, 6)
+
+LM 78 conj {Atom ontable(o) (var13(13)->8), Atom ontable(p) (var14(14)->8)} Achievers (2, 0)
+
+LM 5 conj {Atom on(o, p) (var13(13)->5), Atom on(p, e) (var14(14)->4)}(goal) Achievers (1, 1)
+
+LM 75 conj {Atom holding(o) (var13(13)->0), Atom on(p, e) (var14(14)->4)} Achievers (7, 6)
+
+LM 3 conj {Atom ontable(e) (var12(12)->8), Atom clear(d) (var16(16)->0)}(goal) Achievers (15, 0)
+
+LM 2 conj {Atom ontable(e) (var12(12)->8), Atom on(d, o) (var15(15)->4)}(goal) Achievers (2, 2)
+
+LM 74 conj {Atom ontable(e) (var12(12)->8), Atom on(d, a) (var15(15)->1)} Achievers (2, 0)
+
+LM 73 conj {Atom ontable(e) (var12(12)->8), Atom ontable(p) (var14(14)->8)} Achievers (2, 0)
+
+LM 1 conj {Atom ontable(e) (var12(12)->8), Atom on(p, e) (var14(14)->4)}(goal) Achievers (1, 1)
+
+LM 72 conj {Atom ontable(e) (var12(12)->8), Atom holding(p) (var14(14)->0)} Achievers (8, 7)
+
+LM 71 conj {Atom ontable(e) (var12(12)->8), Atom ontable(o) (var13(13)->8)} Achievers (2, 0)
+
+LM 0 conj {Atom ontable(e) (var12(12)->8), Atom on(o, p) (var13(13)->5)}(goal) Achievers (2, 2)
+
+LM 69 conj {Atom handempty() (var11(11)->0), Atom clear(d) (var16(16)->0)} Achievers (57, 0)
+
+LM 68 conj {Atom handempty() (var11(11)->0), Atom on(d, a) (var15(15)->1)} Achievers (43, 0)
+
+LM 67 conj {Atom handempty() (var11(11)->0), Atom ontable(p) (var14(14)->8)} Achievers (57, 0)
+
+LM 66 conj {Atom handempty() (var11(11)->0), Atom on(p, e) (var14(14)->4)} Achievers (43, 1)
+
+LM 65 conj {Atom handempty() (var11(11)->0), Atom ontable(o) (var13(13)->8)} Achievers (57, 0)
+
+LM 64 conj {Atom handempty() (var11(11)->0), Atom on(o, p) (var13(13)->5)} Achievers (43, 1)
+
+LM 63 conj {Atom handempty() (var11(11)->0), Atom ontable(e) (var12(12)->8)} Achievers (57, 0)
+
+LM 61 conj {Atom clear(p) (var10(10)->0), Atom ontable(p) (var14(14)->8)} Achievers (8, 1)
+
+LM 60 conj {Atom clear(p) (var10(10)->0), Atom on(p, e) (var14(14)->4)} Achievers (7, 1)
+
+LM 59 conj {Atom clear(p) (var10(10)->0), Atom holding(o) (var13(13)->0)} Achievers (8, 7)
+
+LM 58 conj {Atom clear(p) (var10(10)->0), Atom ontable(e) (var12(12)->8)} Achievers (15, 7)
+
+LM 57 conj {Atom clear(p) (var10(10)->0), Atom handempty() (var11(11)->0)} Achievers (57, 7)
+
+LM 55 conj {Atom clear(o) (var9(9)->0), Atom clear(d) (var16(16)->0)} Achievers (26, 0)
+
+LM 54 conj {Atom clear(o) (var9(9)->0), Atom on(d, a) (var15(15)->1)} Achievers (13, 0)
+
+LM 53 conj {Atom clear(o) (var9(9)->0), Atom holding(d) (var15(15)->0)} Achievers (8, 7)
+
+LM 52 conj {Atom clear(o) (var9(9)->0), Atom ontable(p) (var14(14)->8)} Achievers (15, 0)
+
+LM 51 conj {Atom clear(o) (var9(9)->0), Atom on(p, e) (var14(14)->4)} Achievers (13, 6)
+
+LM 50 conj {Atom clear(o) (var9(9)->0), Atom ontable(o) (var13(13)->8)} Achievers (8, 0)
+
+LM 49 conj {Atom clear(o) (var9(9)->0), Atom on(o, p) (var13(13)->5)} Achievers (7, 1)
+
+LM 48 conj {Atom clear(o) (var9(9)->0), Atom ontable(e) (var12(12)->8)} Achievers (15, 0)
+
+LM 47 conj {Atom clear(o) (var9(9)->0), Atom handempty() (var11(11)->0)} Achievers (57, 0)
+
+LM 46 conj {Atom clear(o) (var9(9)->0), Atom clear(p) (var10(10)->0)} Achievers (26, 12)
+
+LM 44 conj {Atom clear(e) (var8(8)->0), Atom clear(d) (var16(16)->0)} Achievers (26, 0)
+
+LM 43 conj {Atom clear(e) (var8(8)->0), Atom on(d, a) (var15(15)->1)} Achievers (13, 0)
+
+LM 42 conj {Atom clear(e) (var8(8)->0), Atom ontable(p) (var14(14)->8)} Achievers (15, 0)
+
+LM 41 conj {Atom clear(e) (var8(8)->0), Atom holding(p) (var14(14)->0)} Achievers (8, 7)
+
+LM 40 conj {Atom clear(e) (var8(8)->0), Atom ontable(o) (var13(13)->8)} Achievers (15, 0)
+
+LM 39 conj {Atom clear(e) (var8(8)->0), Atom ontable(e) (var12(12)->8)} Achievers (8, 0)
+
+LM 38 conj {Atom clear(e) (var8(8)->0), Atom handempty() (var11(11)->0)} Achievers (57, 0)
+
+LM 37 conj {Atom clear(e) (var8(8)->0), Atom clear(p) (var10(10)->0)} Achievers (26, 12)
+
+LM 36 conj {Atom clear(e) (var8(8)->0), Atom clear(o) (var9(9)->0)} Achievers (26, 0)
+
+LM 34 conj {Atom clear(r) (var6(6)->0), Atom clear(d) (var16(16)->0)} Achievers (26, 0)
+
+LM 33 conj {Atom clear(r) (var6(6)->0), Atom on(d, a) (var15(15)->1)} Achievers (13, 0)
+
+LM 32 conj {Atom clear(r) (var6(6)->0), Atom ontable(p) (var14(14)->8)} Achievers (15, 0)
+
+LM 31 conj {Atom clear(r) (var6(6)->0), Atom ontable(o) (var13(13)->8)} Achievers (15, 0)
+
+LM 30 conj {Atom clear(r) (var6(6)->0), Atom ontable(e) (var12(12)->8)} Achievers (15, 0)
+
+LM 29 conj {Atom clear(r) (var6(6)->0), Atom handempty() (var11(11)->0)} Achievers (57, 0)
+
+LM 28 conj {Atom clear(r) (var6(6)->0), Atom clear(o) (var9(9)->0)} Achievers (26, 0)
+
+LM 27 conj {Atom clear(r) (var6(6)->0), Atom clear(e) (var8(8)->0)} Achievers (26, 0)
+
+LM 25 conj {Atom on(r, p) (var2(2)->6), Atom clear(d) (var16(16)->0)} Achievers (13, 0)
+
+LM 24 conj {Atom on(r, p) (var2(2)->6), Atom on(d, a) (var15(15)->1)} Achievers (2, 0)
+
+LM 23 conj {Atom on(r, p) (var2(2)->6), Atom ontable(p) (var14(14)->8)} Achievers (1, 0)
+
+LM 22 conj {Atom on(r, p) (var2(2)->6), Atom ontable(o) (var13(13)->8)} Achievers (2, 0)
+
+LM 21 conj {Atom on(r, p) (var2(2)->6), Atom ontable(e) (var12(12)->8)} Achievers (2, 0)
+
+LM 20 conj {Atom on(r, p) (var2(2)->6), Atom handempty() (var11(11)->0)} Achievers (43, 0)
+
+LM 15 conj {Atom holding(r) (var2(2)->0), Atom clear(p) (var10(10)->0)} Achievers (8, 1)
+
+LM 19 conj {Atom on(r, p) (var2(2)->6), Atom clear(o) (var9(9)->0)} Achievers (13, 0)
+
+LM 18 conj {Atom on(r, p) (var2(2)->6), Atom clear(e) (var8(8)->0)} Achievers (13, 0)
+
+LM 17 conj {Atom on(r, p) (var2(2)->6), Atom clear(r) (var6(6)->0)} Achievers (7, 0)
+
+LM 14 Atom clear(d) (var16(16)->0)(goal) Achievers (15, 0)
+
+LM 13 Atom on(d, o) (var15(15)->4)(goal) Achievers (1, 1)
+
+LM 88 Atom on(d, a) (var15(15)->1) Achievers (1, 0)
+
+LM 86 Atom holding(d) (var15(15)->0) Achievers (8, 1)
+
+LM 85 Atom ontable(p) (var14(14)->8) Achievers (1, 0)
+
+LM 11 Atom on(p, e) (var14(14)->4)(goal) Achievers (1, 1)
+
+LM 82 Atom holding(p) (var14(14)->0) Achievers (8, 1)
+
+LM 81 Atom ontable(o) (var13(13)->8) Achievers (1, 0)
+
+LM 8 Atom on(o, p) (var13(13)->5)(goal) Achievers (1, 1)
+
+LM 76 Atom holding(o) (var13(13)->0) Achievers (8, 1)
+
+LM 4 Atom ontable(e) (var12(12)->8)(goal) Achievers (1, 0)
+
+LM 70 Atom handempty() (var11(11)->0) Achievers (64, 0)
+
+LM 62 Atom clear(p) (var10(10)->0) Achievers (15, 1)
+
+LM 56 Atom clear(o) (var9(9)->0) Achievers (15, 0)
+
+LM 45 Atom clear(e) (var8(8)->0) Achievers (15, 0)
+
+LM 35 Atom clear(r) (var6(6)->0) Achievers (15, 0)
+
+LM 26 Atom on(r, p) (var2(2)->6) Achievers (1, 0)
+
+LM 16 Atom holding(r) (var2(2)->0) Achievers (8, 1)
+
+Landmark graph end.
+############################################################################
+Peak memory: 27172 KB
+Remove intermediate file output.sas
+search exit code: 0
+

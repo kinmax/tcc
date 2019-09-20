@@ -174,7 +174,7 @@ candidates.each do |candidate|
         weights_sum += landmarks_uniqueness[lm]
     end
 
-    goals_percents[candidate] = landmarks_per_goal[candidate].length > 0 ? number_of_achieved_landmarks.to_f/weights_sum.to_f : 0.to_f
+    goals_percents[candidate] = landmarks_per_goal[candidate].length > 0 && weights_sum > 0 ? number_of_achieved_landmarks.to_f/weights_sum.to_f : 0.to_f
 end
 
 landmark_avg = landmark_avg.to_f/candidates.length.to_f

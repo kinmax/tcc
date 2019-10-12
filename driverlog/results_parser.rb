@@ -31,7 +31,7 @@ def all_results(domain)
     res_path = "/home/kin/t2-integradora/#{domain}/res.txt"
     run_path = "/home/kin/t2-integradora/problem_analyser.rb"
     thresholds = %w(0 10 20 30).freeze
-    percentages = %w(10 30 50 70 100).freeze
+    percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
     run_types = %w(--exhaust --hm --rhw --zg).freeze
     algorithms = %w(exhaust hm rhw zg).freeze
     result = {}
@@ -224,4 +224,5 @@ def analyse(domain)
 end
 
 domain = ARGV[0]
+type = ARGV[1]
 analyse(domain)

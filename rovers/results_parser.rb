@@ -26,7 +26,7 @@ def get_method_stats(domain)
     results
 end
 
-def all_results(domain)
+def all_results(domain, type)
     dataset_path = "/home/kin/dataset-copy"
     res_path = "/home/kin/t2-integradora/#{domain}/res.txt"
     run_path = "/home/kin/t2-integradora/problem_analyser.rb"
@@ -217,12 +217,12 @@ def all_results(domain)
     result
 end
 
-def analyse(domain)
-    results = all_results(domain)
+def analyse(domain, type)
+    results = all_results(domain, type)
     output_path = "/home/kin/t2-integradora/#{domain}/results.json"
     File.write(output_path, JSON.pretty_generate(results))
 end
 
 domain = ARGV[0]
 type = ARGV[1]
-analyse(domain)
+analyse(domain, type)

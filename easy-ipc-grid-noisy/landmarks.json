@@ -1,0 +1,4476 @@
+{
+  "pickup place_4_7 key_3": {
+    "preconditions": [
+      "at key_3 place_4_7",
+      "at-robot place_4_7"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_7)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_7 key_2": {
+    "preconditions": [
+      "at key_2 place_4_7",
+      "at-robot place_4_7"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_7)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_7 key_1": {
+    "preconditions": [
+      "at key_1 place_4_7",
+      "at-robot place_4_7"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_7)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_4 key_3": {
+    "preconditions": [
+      "at-robot place_0_4",
+      "at key_3 place_0_4"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_4)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_4 key_4": {
+    "preconditions": [
+      "at key_4 place_0_4",
+      "at-robot place_0_4"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_4)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_7 key_0": {
+    "preconditions": [
+      "at key_0 place_4_7",
+      "at-robot place_4_7"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_7)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_0_4 key_1": {
+    "preconditions": [
+      "at key_1 place_0_4",
+      "at-robot place_0_4"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_4)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_4 key_2": {
+    "preconditions": [
+      "at key_2 place_0_4",
+      "at-robot place_0_4"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_4)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_7 key_4": {
+    "preconditions": [
+      "at key_4 place_4_7",
+      "at-robot place_4_7"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_7)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_0_4 key_0": {
+    "preconditions": [
+      "at key_0 place_0_4",
+      "at-robot place_0_4"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_4)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_9 key_2": {
+    "preconditions": [
+      "at key_2 place_3_9",
+      "at-robot place_3_9"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_9)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_9 key_1": {
+    "preconditions": [
+      "at-robot place_3_9",
+      "at key_1 place_3_9"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_9)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_2 key_4": {
+    "preconditions": [
+      "at-robot place_1_2",
+      "at key_4 place_1_2"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_2)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_3_9 key_0": {
+    "preconditions": [
+      "at key_0 place_3_9",
+      "at-robot place_3_9"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_9)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_2 key_2": {
+    "preconditions": [
+      "at key_2 place_1_2",
+      "at-robot place_1_2"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_2)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_2 key_3": {
+    "preconditions": [
+      "at key_3 place_1_2",
+      "at-robot place_1_2"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_2)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_2 key_0": {
+    "preconditions": [
+      "at-robot place_1_2",
+      "at key_0 place_1_2"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_2)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_9 key_4": {
+    "preconditions": [
+      "at key_4 place_3_9",
+      "at-robot place_3_9"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_9)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_3_9 key_3": {
+    "preconditions": [
+      "at key_3 place_3_9",
+      "at-robot place_3_9"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_9)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_2 key_1": {
+    "preconditions": [
+      "at key_1 place_1_2",
+      "at-robot place_1_2"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_2)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_3_6 place_3_7": {
+    "preconditions": [
+      "open place_3_7",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_6)"
+    ],
+    "add-effects": [
+      "at-robot place_3_7"
+    ]
+  },
+  "move place_4_4 place_4_3": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "open place_4_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_4)"
+    ],
+    "add-effects": [
+      "at-robot place_4_3"
+    ]
+  },
+  "move place_3_6 place_3_5": {
+    "preconditions": [
+      "open place_3_5",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_6)"
+    ],
+    "add-effects": [
+      "at-robot place_3_5"
+    ]
+  },
+  "pickup place_2_0 key_3": {
+    "preconditions": [
+      "at-robot place_2_0",
+      "at key_3 place_2_0"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_0)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_4_4 place_4_5": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "open place_4_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_4)"
+    ],
+    "add-effects": [
+      "at-robot place_4_5"
+    ]
+  },
+  "pickup place_2_0 key_4": {
+    "preconditions": [
+      "at key_4 place_2_0",
+      "at-robot place_2_0"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_0)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_2_8 place_2_9": {
+    "preconditions": [
+      "open place_2_9",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_8)"
+    ],
+    "add-effects": [
+      "at-robot place_2_9"
+    ]
+  },
+  "pickup place_2_0 key_1": {
+    "preconditions": [
+      "at key_1 place_2_0",
+      "at-robot place_2_0"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_0)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_2_0 key_2": {
+    "preconditions": [
+      "at key_2 place_2_0",
+      "at-robot place_2_0"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_0)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_0 key_0": {
+    "preconditions": [
+      "at key_0 place_2_0",
+      "at-robot place_2_0"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_0)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_8 place_2_7": {
+    "preconditions": [
+      "open place_2_7",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_8)"
+    ],
+    "add-effects": [
+      "at-robot place_2_7"
+    ]
+  },
+  "pickup place_1_8 key_0": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "at key_0 place_1_8"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_8)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_8 key_1": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "at key_1 place_1_8"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_8)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_2_6 key_0": {
+    "preconditions": [
+      "at-robot place_2_6",
+      "at key_0 place_2_6"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_6)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "unlock place_1_4 place_1_3 key_0 shape_0": {
+    "preconditions": [
+      "locked place_1_3",
+      "carrying key_0",
+      "at-robot place_1_4"
+    ],
+    "delete-effects": [
+      "not (locked place_1_3)"
+    ],
+    "add-effects": [
+      "open place_1_3"
+    ]
+  },
+  "pickup place_2_6 key_1": {
+    "preconditions": [
+      "at-robot place_2_6",
+      "at key_1 place_2_6"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_6)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_2_6 key_2": {
+    "preconditions": [
+      "at key_2 place_2_6",
+      "at-robot place_2_6"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_6)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_5 key_4": {
+    "preconditions": [
+      "at-robot place_2_5",
+      "at key_4 place_2_5"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_5)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_3_5 place_3_4": {
+    "preconditions": [
+      "open place_3_4",
+      "at-robot place_3_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_5)"
+    ],
+    "add-effects": [
+      "at-robot place_3_4"
+    ]
+  },
+  "pickup place_3_4 key_0": {
+    "preconditions": [
+      "at-robot place_3_4",
+      "at key_0 place_3_4"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_4)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_4 key_1": {
+    "preconditions": [
+      "at key_1 place_3_4",
+      "at-robot place_3_4"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_4)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_4 key_2": {
+    "preconditions": [
+      "at-robot place_3_4",
+      "at key_2 place_3_4"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_4)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_4 key_3": {
+    "preconditions": [
+      "at-robot place_3_4",
+      "at key_3 place_3_4"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_4)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "unlock place_1_2 place_1_3 key_0 shape_0": {
+    "preconditions": [
+      "locked place_1_3",
+      "at-robot place_1_2",
+      "carrying key_0"
+    ],
+    "delete-effects": [
+      "not (locked place_1_3)"
+    ],
+    "add-effects": [
+      "open place_1_3"
+    ]
+  },
+  "move place_3_5 place_3_6": {
+    "preconditions": [
+      "at-robot place_3_5",
+      "open place_3_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_5)"
+    ],
+    "add-effects": [
+      "at-robot place_3_6"
+    ]
+  },
+  "pickup place_1_7 key_3": {
+    "preconditions": [
+      "at key_3 place_1_7",
+      "at-robot place_1_7"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_7)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_7 key_4": {
+    "preconditions": [
+      "at-robot place_1_7",
+      "at key_4 place_1_7"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_7)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_2 key_1": {
+    "preconditions": [
+      "at key_1 place_4_2",
+      "at-robot place_4_2"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_2)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_2 key_2": {
+    "preconditions": [
+      "at-robot place_4_2",
+      "at key_2 place_4_2"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_2)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_1_9 place_1_8": {
+    "preconditions": [
+      "open place_1_8",
+      "at-robot place_1_9"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_9)"
+    ],
+    "add-effects": [
+      "at-robot place_1_8"
+    ]
+  },
+  "pickup place_4_2 key_3": {
+    "preconditions": [
+      "at-robot place_4_2",
+      "at key_3 place_4_2"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_2)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_2 key_4": {
+    "preconditions": [
+      "at key_4 place_4_2",
+      "at-robot place_4_2"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_2)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_2_7 place_2_6": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "open place_2_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_7)"
+    ],
+    "add-effects": [
+      "at-robot place_2_6"
+    ]
+  },
+  "pickup place_0_9 key_4": {
+    "preconditions": [
+      "at key_4 place_0_9",
+      "at-robot place_0_9"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_9)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_3_7 place_2_7": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "open place_2_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_7)"
+    ],
+    "add-effects": [
+      "at-robot place_2_7"
+    ]
+  },
+  "move place_2_7 place_2_8": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "open place_2_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_7)"
+    ],
+    "add-effects": [
+      "at-robot place_2_8"
+    ]
+  },
+  "pickup place_0_9 key_2": {
+    "preconditions": [
+      "at key_2 place_0_9",
+      "at-robot place_0_9"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_9)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_2 key_0": {
+    "preconditions": [
+      "at key_0 place_4_2",
+      "at-robot place_4_2"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_2)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_0_9 key_3": {
+    "preconditions": [
+      "at key_3 place_0_9",
+      "at-robot place_0_9"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_9)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_9 key_0": {
+    "preconditions": [
+      "at-robot place_0_9",
+      "at key_0 place_0_9"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_9)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_0_9 key_1": {
+    "preconditions": [
+      "at key_1 place_0_9",
+      "at-robot place_0_9"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_9)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_7 key_1": {
+    "preconditions": [
+      "at-robot place_1_7",
+      "at key_1 place_1_7"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_7)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_7 key_2": {
+    "preconditions": [
+      "at key_2 place_1_7",
+      "at-robot place_1_7"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_7)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_7 key_0": {
+    "preconditions": [
+      "at-robot place_1_7",
+      "at key_0 place_1_7"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_7)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_4_3 place_4_2": {
+    "preconditions": [
+      "at-robot place_4_3",
+      "open place_4_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_3)"
+    ],
+    "add-effects": [
+      "at-robot place_4_2"
+    ]
+  },
+  "move place_4_3 place_4_4": {
+    "preconditions": [
+      "open place_4_4",
+      "at-robot place_4_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_3)"
+    ],
+    "add-effects": [
+      "at-robot place_4_4"
+    ]
+  },
+  "pickup place_2_5 key_2": {
+    "preconditions": [
+      "at key_2 place_2_5",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_5)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_5 key_3": {
+    "preconditions": [
+      "at key_3 place_2_5",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_5)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_4_6 place_4_7": {
+    "preconditions": [
+      "at-robot place_4_6",
+      "open place_4_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_6)"
+    ],
+    "add-effects": [
+      "at-robot place_4_7"
+    ]
+  },
+  "pickup place_2_5 key_0": {
+    "preconditions": [
+      "at-robot place_2_5",
+      "at key_0 place_2_5"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_5)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_5 key_1": {
+    "preconditions": [
+      "at key_1 place_2_5",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_5)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_0_8 place_1_8": {
+    "preconditions": [
+      "at-robot place_0_8",
+      "open place_1_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_8)"
+    ],
+    "add-effects": [
+      "at-robot place_1_8"
+    ]
+  },
+  "pickup place_3_3 key_2": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "at key_2 place_3_3"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_3)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_3 key_1": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "at key_1 place_3_3"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_3)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_3 key_4": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "at key_4 place_3_3"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_3)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_3_3 key_3": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "at key_3 place_3_3"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_3)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_4_6 place_4_5": {
+    "preconditions": [
+      "open place_4_5",
+      "at-robot place_4_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_6)"
+    ],
+    "add-effects": [
+      "at-robot place_4_5"
+    ]
+  },
+  "move place_1_8 place_1_9": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "open place_1_9"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_8)"
+    ],
+    "add-effects": [
+      "at-robot place_1_9"
+    ]
+  },
+  "pickup place_4_6 key_2": {
+    "preconditions": [
+      "at-robot place_4_6",
+      "at key_2 place_4_6"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_6)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_6 key_1": {
+    "preconditions": [
+      "at key_1 place_4_6",
+      "at-robot place_4_6"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_6)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_3 key_0": {
+    "preconditions": [
+      "at key_0 place_3_3",
+      "at-robot place_3_3"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_3)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_4_6 key_4": {
+    "preconditions": [
+      "at key_4 place_4_6",
+      "at-robot place_4_6"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_6)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_8 place_1_7": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "open place_1_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_8)"
+    ],
+    "add-effects": [
+      "at-robot place_1_7"
+    ]
+  },
+  "pickup place_4_6 key_3": {
+    "preconditions": [
+      "at-robot place_4_6",
+      "at key_3 place_4_6"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_6)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_1 key_3": {
+    "preconditions": [
+      "at-robot place_4_1",
+      "at key_3 place_4_1"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_1)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_1 key_2": {
+    "preconditions": [
+      "at-robot place_4_1",
+      "at key_2 place_4_1"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_1)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_8 key_4": {
+    "preconditions": [
+      "at-robot place_3_8",
+      "at key_4 place_3_8"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_8)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_1 key_4": {
+    "preconditions": [
+      "at key_4 place_4_1",
+      "at-robot place_4_1"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_1)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "unlock place_1_3 place_1_4 key_3 shape_3": {
+    "preconditions": [
+      "at-robot place_1_3",
+      "locked place_1_4",
+      "carrying key_3"
+    ],
+    "delete-effects": [
+      "not (locked place_1_4)"
+    ],
+    "add-effects": [
+      "open place_1_4"
+    ]
+  },
+  "pickup place_3_8 key_1": {
+    "preconditions": [
+      "at key_1 place_3_8",
+      "at-robot place_3_8"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_8)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_8 key_0": {
+    "preconditions": [
+      "at-robot place_3_8",
+      "at key_0 place_3_8"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_8)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_8 key_3": {
+    "preconditions": [
+      "at-robot place_3_8",
+      "at key_3 place_3_8"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_8)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_1 key_1": {
+    "preconditions": [
+      "at-robot place_4_1",
+      "at key_1 place_4_1"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_1)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_1 key_0": {
+    "preconditions": [
+      "at key_0 place_4_1",
+      "at-robot place_4_1"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_1)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_8 key_2": {
+    "preconditions": [
+      "at key_2 place_3_8",
+      "at-robot place_3_8"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_8)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_2_4 place_3_4": {
+    "preconditions": [
+      "open place_3_4",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_4)"
+    ],
+    "add-effects": [
+      "at-robot place_3_4"
+    ]
+  },
+  "unlock place_1_4 place_1_5 key_2 shape_2": {
+    "preconditions": [
+      "at-robot place_1_4",
+      "locked place_1_5",
+      "carrying key_2"
+    ],
+    "delete-effects": [
+      "not (locked place_1_5)"
+    ],
+    "add-effects": [
+      "open place_1_5"
+    ]
+  },
+  "move place_3_4 place_3_3": {
+    "preconditions": [
+      "open place_3_3",
+      "at-robot place_3_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_4)"
+    ],
+    "add-effects": [
+      "at-robot place_3_3"
+    ]
+  },
+  "move place_3_4 place_3_5": {
+    "preconditions": [
+      "at-robot place_3_4",
+      "open place_3_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_4)"
+    ],
+    "add-effects": [
+      "at-robot place_3_5"
+    ]
+  },
+  "move place_3_5 place_2_5": {
+    "preconditions": [
+      "open place_2_5",
+      "at-robot place_3_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_5)"
+    ],
+    "add-effects": [
+      "at-robot place_2_5"
+    ]
+  },
+  "move place_3_7 place_3_8": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "open place_3_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_7)"
+    ],
+    "add-effects": [
+      "at-robot place_3_8"
+    ]
+  },
+  "move place_0_9 place_0_8": {
+    "preconditions": [
+      "at-robot place_0_9",
+      "open place_0_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_9)"
+    ],
+    "add-effects": [
+      "at-robot place_0_8"
+    ]
+  },
+  "move place_3_7 place_3_6": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "open place_3_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_7)"
+    ],
+    "add-effects": [
+      "at-robot place_3_6"
+    ]
+  },
+  "move place_2_7 place_3_7": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "open place_3_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_7)"
+    ],
+    "add-effects": [
+      "at-robot place_3_7"
+    ]
+  },
+  "pickup place_1_9 key_3": {
+    "preconditions": [
+      "at key_3 place_1_9",
+      "at-robot place_1_9"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_9)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_9 key_4": {
+    "preconditions": [
+      "at key_4 place_1_9",
+      "at-robot place_1_9"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_9)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_1_9 key_1": {
+    "preconditions": [
+      "at key_1 place_1_9",
+      "at-robot place_1_9"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_9)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_9 key_2": {
+    "preconditions": [
+      "at key_2 place_1_9",
+      "at-robot place_1_9"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_9)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_4_8 place_4_7": {
+    "preconditions": [
+      "at-robot place_4_8",
+      "open place_4_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_8)"
+    ],
+    "add-effects": [
+      "at-robot place_4_7"
+    ]
+  },
+  "pickup place_4_0 key_4": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "at key_4 place_4_0"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_0)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_0 key_3": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "at key_3 place_4_0"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_0)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_0 key_2": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "at key_2 place_4_0"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_0)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_5 key_1": {
+    "preconditions": [
+      "at-robot place_3_5",
+      "at key_1 place_3_5"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_5)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_0 key_1": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "at key_1 place_4_0"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_0)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_5 key_2": {
+    "preconditions": [
+      "at key_2 place_3_5",
+      "at-robot place_3_5"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_5)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_0 key_0": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "at key_0 place_4_0"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_0)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_4_8 place_4_9": {
+    "preconditions": [
+      "open place_4_9",
+      "at-robot place_4_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_8)"
+    ],
+    "add-effects": [
+      "at-robot place_4_9"
+    ]
+  },
+  "pickup place_3_5 key_0": {
+    "preconditions": [
+      "at-robot place_3_5",
+      "at key_0 place_3_5"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_5)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_6 key_4": {
+    "preconditions": [
+      "at-robot place_1_6",
+      "at key_4 place_1_6"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_6)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_6 place_1_5": {
+    "preconditions": [
+      "open place_1_5",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_6)"
+    ],
+    "add-effects": [
+      "at-robot place_1_5"
+    ]
+  },
+  "move place_1_6 place_1_7": {
+    "preconditions": [
+      "open place_1_7",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_6)"
+    ],
+    "add-effects": [
+      "at-robot place_1_7"
+    ]
+  },
+  "move place_2_3 place_3_3": {
+    "preconditions": [
+      "open place_3_3",
+      "at-robot place_2_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_3)"
+    ],
+    "add-effects": [
+      "at-robot place_3_3"
+    ]
+  },
+  "move place_4_1 place_4_2": {
+    "preconditions": [
+      "at-robot place_4_1",
+      "open place_4_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_1)"
+    ],
+    "add-effects": [
+      "at-robot place_4_2"
+    ]
+  },
+  "move place_4_1 place_4_0": {
+    "preconditions": [
+      "open place_4_0",
+      "at-robot place_4_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_1)"
+    ],
+    "add-effects": [
+      "at-robot place_4_0"
+    ]
+  },
+  "move place_1_8 place_0_8": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "open place_0_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_8)"
+    ],
+    "add-effects": [
+      "at-robot place_0_8"
+    ]
+  },
+  "pickup place_0_3 key_0": {
+    "preconditions": [
+      "at-robot place_0_3",
+      "at key_0 place_0_3"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_3)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_3_0 place_4_0": {
+    "preconditions": [
+      "open place_4_0",
+      "at-robot place_3_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_0)"
+    ],
+    "add-effects": [
+      "at-robot place_4_0"
+    ]
+  },
+  "pickup place_0_3 key_1": {
+    "preconditions": [
+      "at-robot place_0_3",
+      "at key_1 place_0_3"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_3)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_3 key_2": {
+    "preconditions": [
+      "at-robot place_0_3",
+      "at key_2 place_0_3"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_3)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_0_3 key_3": {
+    "preconditions": [
+      "at key_3 place_0_3",
+      "at-robot place_0_3"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_3)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_3 key_4": {
+    "preconditions": [
+      "at-robot place_0_3",
+      "at key_4 place_0_3"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_3)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_0_0 place_0_1": {
+    "preconditions": [
+      "open place_0_1",
+      "at-robot place_0_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_0)"
+    ],
+    "add-effects": [
+      "at-robot place_0_1"
+    ]
+  },
+  "pickup place_4_8 key_0": {
+    "preconditions": [
+      "at-robot place_4_8",
+      "at key_0 place_4_8"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_8)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_4 place_2_5": {
+    "preconditions": [
+      "open place_2_5",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_4)"
+    ],
+    "add-effects": [
+      "at-robot place_2_5"
+    ]
+  },
+  "pickup place_4_8 key_2": {
+    "preconditions": [
+      "at-robot place_4_8",
+      "at key_2 place_4_8"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_8)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_8 key_1": {
+    "preconditions": [
+      "at-robot place_4_8",
+      "at key_1 place_4_8"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_8)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_8 key_4": {
+    "preconditions": [
+      "at-robot place_4_8",
+      "at key_4 place_4_8"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_8)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_8 key_3": {
+    "preconditions": [
+      "at-robot place_4_8",
+      "at key_3 place_4_8"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_8)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_6 key_0": {
+    "preconditions": [
+      "at-robot place_0_6",
+      "at key_0 place_0_6"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_6)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_4_7 place_4_8": {
+    "preconditions": [
+      "open place_4_8",
+      "at-robot place_4_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_7)"
+    ],
+    "add-effects": [
+      "at-robot place_4_8"
+    ]
+  },
+  "move place_2_4 place_2_3": {
+    "preconditions": [
+      "open place_2_3",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_4)"
+    ],
+    "add-effects": [
+      "at-robot place_2_3"
+    ]
+  },
+  "pickup place_0_6 key_4": {
+    "preconditions": [
+      "at-robot place_0_6",
+      "at key_4 place_0_6"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_6)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_0_6 key_3": {
+    "preconditions": [
+      "at key_3 place_0_6",
+      "at-robot place_0_6"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_6)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_4_7 place_4_6": {
+    "preconditions": [
+      "at-robot place_4_7",
+      "open place_4_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_7)"
+    ],
+    "add-effects": [
+      "at-robot place_4_6"
+    ]
+  },
+  "pickup place_0_6 key_2": {
+    "preconditions": [
+      "at key_2 place_0_6",
+      "at-robot place_0_6"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_6)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_0_6 key_1": {
+    "preconditions": [
+      "at-robot place_0_6",
+      "at key_1 place_0_6"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_6)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_7 key_3": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "at key_3 place_3_7"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_7)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_3_7 key_4": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "at key_4 place_3_7"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_7)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_3_7 key_1": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "at key_1 place_3_7"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_7)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_7 key_2": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "at key_2 place_3_7"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_7)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_2 key_2": {
+    "preconditions": [
+      "at key_2 place_2_2",
+      "at-robot place_2_2"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_2)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_7 key_0": {
+    "preconditions": [
+      "at-robot place_3_7",
+      "at key_0 place_3_7"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_7)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_2 key_1": {
+    "preconditions": [
+      "at-robot place_2_2",
+      "at key_1 place_2_2"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_2)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_1_1 place_1_2": {
+    "preconditions": [
+      "open place_1_2",
+      "at-robot place_1_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_1)"
+    ],
+    "add-effects": [
+      "at-robot place_1_2"
+    ]
+  },
+  "pickup place_2_2 key_0": {
+    "preconditions": [
+      "at-robot place_2_2",
+      "at key_0 place_2_2"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_2)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_2 key_4": {
+    "preconditions": [
+      "at-robot place_2_2",
+      "at key_4 place_2_2"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_2)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_2_2 key_3": {
+    "preconditions": [
+      "at-robot place_2_2",
+      "at key_3 place_2_2"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_2)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_9 key_4": {
+    "preconditions": [
+      "at key_4 place_4_9",
+      "at-robot place_4_9"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_9)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_9 key_3": {
+    "preconditions": [
+      "at key_3 place_4_9",
+      "at-robot place_4_9"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_9)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_9 key_2": {
+    "preconditions": [
+      "at-robot place_4_9",
+      "at key_2 place_4_9"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_9)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_9 key_1": {
+    "preconditions": [
+      "at-robot place_4_9",
+      "at key_1 place_4_9"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_9)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_4 key_4": {
+    "preconditions": [
+      "at-robot place_3_4",
+      "at key_4 place_3_4"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_4)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_9 key_0": {
+    "preconditions": [
+      "at key_0 place_4_9",
+      "at-robot place_4_9"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_9)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_1_1 place_1_0": {
+    "preconditions": [
+      "at-robot place_1_1",
+      "open place_1_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_1)"
+    ],
+    "add-effects": [
+      "at-robot place_1_0"
+    ]
+  },
+  "move place_2_3 place_2_4": {
+    "preconditions": [
+      "open place_2_4",
+      "at-robot place_2_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_3)"
+    ],
+    "add-effects": [
+      "at-robot place_2_4"
+    ]
+  },
+  "pickup place_0_5 key_3": {
+    "preconditions": [
+      "at-robot place_0_5",
+      "at key_3 place_0_5"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_5)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_5 key_2": {
+    "preconditions": [
+      "at key_2 place_0_5",
+      "at-robot place_0_5"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_5)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_2_3 place_2_2": {
+    "preconditions": [
+      "at-robot place_2_3",
+      "open place_2_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_3)"
+    ],
+    "add-effects": [
+      "at-robot place_2_2"
+    ]
+  },
+  "pickup place_0_5 key_4": {
+    "preconditions": [
+      "at-robot place_0_5",
+      "at key_4 place_0_5"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_5)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_1_8 key_2": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "at key_2 place_1_8"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_8)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_8 key_3": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "at key_3 place_1_8"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_8)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_5 key_1": {
+    "preconditions": [
+      "at key_1 place_0_5",
+      "at-robot place_0_5"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_5)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_8 key_4": {
+    "preconditions": [
+      "at-robot place_1_8",
+      "at key_4 place_1_8"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_8)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_0_5 key_0": {
+    "preconditions": [
+      "at-robot place_0_5",
+      "at key_0 place_0_5"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_5)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_3_0 place_3_1": {
+    "preconditions": [
+      "at-robot place_3_0",
+      "open place_3_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_0)"
+    ],
+    "add-effects": [
+      "at-robot place_3_1"
+    ]
+  },
+  "pickup place_3_6 key_0": {
+    "preconditions": [
+      "at key_0 place_3_6",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_6)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_6 key_1": {
+    "preconditions": [
+      "at key_1 place_3_6",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_6)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_4_2 place_4_3": {
+    "preconditions": [
+      "at-robot place_4_2",
+      "open place_4_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_2)"
+    ],
+    "add-effects": [
+      "at-robot place_4_3"
+    ]
+  },
+  "pickup place_2_1 key_4": {
+    "preconditions": [
+      "at-robot place_2_1",
+      "at key_4 place_2_1"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_1)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_2_9 place_2_8": {
+    "preconditions": [
+      "open place_2_8",
+      "at-robot place_2_9"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_9)"
+    ],
+    "add-effects": [
+      "at-robot place_2_8"
+    ]
+  },
+  "pickup place_2_1 key_1": {
+    "preconditions": [
+      "at key_1 place_2_1",
+      "at-robot place_2_1"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_1)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_2_1 key_0": {
+    "preconditions": [
+      "at-robot place_2_1",
+      "at key_0 place_2_1"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_1)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_1 key_3": {
+    "preconditions": [
+      "at key_3 place_2_1",
+      "at-robot place_2_1"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_1)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_2_1 key_2": {
+    "preconditions": [
+      "at key_2 place_2_1",
+      "at-robot place_2_1"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_1)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_1_7 place_1_8": {
+    "preconditions": [
+      "at-robot place_1_7",
+      "open place_1_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_7)"
+    ],
+    "add-effects": [
+      "at-robot place_1_8"
+    ]
+  },
+  "pickup place_3_5 key_3": {
+    "preconditions": [
+      "at key_3 place_3_5",
+      "at-robot place_3_5"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_5)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_3_5 key_4": {
+    "preconditions": [
+      "at-robot place_3_5",
+      "at key_4 place_3_5"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_5)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_7 place_1_6": {
+    "preconditions": [
+      "open place_1_6",
+      "at-robot place_1_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_7)"
+    ],
+    "add-effects": [
+      "at-robot place_1_6"
+    ]
+  },
+  "move place_4_2 place_4_1": {
+    "preconditions": [
+      "open place_4_1",
+      "at-robot place_4_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_2)"
+    ],
+    "add-effects": [
+      "at-robot place_4_1"
+    ]
+  },
+  "pickup place_1_9 key_0": {
+    "preconditions": [
+      "at key_0 place_1_9",
+      "at-robot place_1_9"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_9)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_1 place_2_0": {
+    "preconditions": [
+      "open place_2_0",
+      "at-robot place_2_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_1)"
+    ],
+    "add-effects": [
+      "at-robot place_2_0"
+    ]
+  },
+  "move place_3_1 place_2_1": {
+    "preconditions": [
+      "open place_2_1",
+      "at-robot place_3_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_1)"
+    ],
+    "add-effects": [
+      "at-robot place_2_1"
+    ]
+  },
+  "move place_2_1 place_2_2": {
+    "preconditions": [
+      "at-robot place_2_1",
+      "open place_2_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_1)"
+    ],
+    "add-effects": [
+      "at-robot place_2_2"
+    ]
+  },
+  "pickup place_0_7 key_1": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "at key_1 place_0_7"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_7)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_7 key_0": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "at key_0 place_0_7"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_7)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_0_7 key_3": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "at key_3 place_0_7"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_7)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_7 key_2": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "at key_2 place_0_7"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_7)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_4 key_3": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "at key_3 place_4_4"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_4)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_4 key_4": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "at key_4 place_4_4"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_4)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_1_5 key_0": {
+    "preconditions": [
+      "at key_0 place_1_5",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_5)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_5 key_2": {
+    "preconditions": [
+      "at key_2 place_1_5",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_5)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_0_5 place_0_4": {
+    "preconditions": [
+      "at-robot place_0_5",
+      "open place_0_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_5)"
+    ],
+    "add-effects": [
+      "at-robot place_0_4"
+    ]
+  },
+  "pickup place_1_5 key_1": {
+    "preconditions": [
+      "at key_1 place_1_5",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_5)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_5 key_4": {
+    "preconditions": [
+      "at key_4 place_1_5",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_5)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_0_5 place_0_6": {
+    "preconditions": [
+      "open place_0_6",
+      "at-robot place_0_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_5)"
+    ],
+    "add-effects": [
+      "at-robot place_0_6"
+    ]
+  },
+  "pickup place_1_5 key_3": {
+    "preconditions": [
+      "at key_3 place_1_5",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_5)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_3_6 key_2": {
+    "preconditions": [
+      "at key_2 place_3_6",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_6)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_1_3 place_1_2": {
+    "preconditions": [
+      "open place_1_2",
+      "at-robot place_1_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_3)"
+    ],
+    "add-effects": [
+      "at-robot place_1_2"
+    ]
+  },
+  "pickup place_3_6 key_3": {
+    "preconditions": [
+      "at key_3 place_3_6",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_6)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_3_6 key_4": {
+    "preconditions": [
+      "at key_4 place_3_6",
+      "at-robot place_3_6"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_6)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_2_3 key_1": {
+    "preconditions": [
+      "at-robot place_2_3",
+      "at key_1 place_2_3"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_3)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_2_3 key_0": {
+    "preconditions": [
+      "at-robot place_2_3",
+      "at key_0 place_2_3"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_3)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_3 key_3": {
+    "preconditions": [
+      "at key_3 place_2_3",
+      "at-robot place_2_3"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_3)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_2_3 key_2": {
+    "preconditions": [
+      "at-robot place_2_3",
+      "at key_2 place_2_3"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_3)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_3 key_4": {
+    "preconditions": [
+      "at-robot place_2_3",
+      "at key_4 place_2_3"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_3)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_3 place_1_4": {
+    "preconditions": [
+      "at-robot place_1_3",
+      "open place_1_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_3)"
+    ],
+    "add-effects": [
+      "at-robot place_1_4"
+    ]
+  },
+  "pickup place_3_1 key_0": {
+    "preconditions": [
+      "at key_0 place_3_1",
+      "at-robot place_3_1"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_1)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_8 key_1": {
+    "preconditions": [
+      "at key_1 place_2_8",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_8)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_2_0 place_2_1": {
+    "preconditions": [
+      "open place_2_1",
+      "at-robot place_2_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_0)"
+    ],
+    "add-effects": [
+      "at-robot place_2_1"
+    ]
+  },
+  "pickup place_2_8 key_2": {
+    "preconditions": [
+      "at key_2 place_2_8",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_8)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_3_1 key_2": {
+    "preconditions": [
+      "at key_2 place_3_1",
+      "at-robot place_3_1"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_1)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_8 key_3": {
+    "preconditions": [
+      "at key_3 place_2_8",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_8)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_3_0 place_2_0": {
+    "preconditions": [
+      "open place_2_0",
+      "at-robot place_3_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_0)"
+    ],
+    "add-effects": [
+      "at-robot place_2_0"
+    ]
+  },
+  "pickup place_2_8 key_4": {
+    "preconditions": [
+      "at key_4 place_2_8",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_8)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_3_1 key_1": {
+    "preconditions": [
+      "at-robot place_3_1",
+      "at key_1 place_3_1"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_1)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_1_0 place_2_0": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "open place_2_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_0)"
+    ],
+    "add-effects": [
+      "at-robot place_2_0"
+    ]
+  },
+  "pickup place_3_1 key_4": {
+    "preconditions": [
+      "at-robot place_3_1",
+      "at key_4 place_3_1"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_1)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_2 place_1_3": {
+    "preconditions": [
+      "at-robot place_1_2",
+      "open place_1_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_2)"
+    ],
+    "add-effects": [
+      "at-robot place_1_3"
+    ]
+  },
+  "pickup place_3_1 key_3": {
+    "preconditions": [
+      "at key_3 place_3_1",
+      "at-robot place_3_1"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_1)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_1_2 place_1_1": {
+    "preconditions": [
+      "open place_1_1",
+      "at-robot place_1_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_2)"
+    ],
+    "add-effects": [
+      "at-robot place_1_1"
+    ]
+  },
+  "move place_0_4 place_0_5": {
+    "preconditions": [
+      "open place_0_5",
+      "at-robot place_0_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_4)"
+    ],
+    "add-effects": [
+      "at-robot place_0_5"
+    ]
+  },
+  "move place_0_4 place_0_3": {
+    "preconditions": [
+      "open place_0_3",
+      "at-robot place_0_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_4)"
+    ],
+    "add-effects": [
+      "at-robot place_0_3"
+    ]
+  },
+  "pickup place_2_9 key_4": {
+    "preconditions": [
+      "at-robot place_2_9",
+      "at key_4 place_2_9"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_9)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_3_1 place_3_2": {
+    "preconditions": [
+      "at-robot place_3_1",
+      "open place_3_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_1)"
+    ],
+    "add-effects": [
+      "at-robot place_3_2"
+    ]
+  },
+  "pickup place_2_9 key_2": {
+    "preconditions": [
+      "at key_2 place_2_9",
+      "at-robot place_2_9"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_9)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_3_1 place_3_0": {
+    "preconditions": [
+      "open place_3_0",
+      "at-robot place_3_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_1)"
+    ],
+    "add-effects": [
+      "at-robot place_3_0"
+    ]
+  },
+  "pickup place_0_2 key_0": {
+    "preconditions": [
+      "at-robot place_0_2",
+      "at key_0 place_0_2"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_2)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_9 key_3": {
+    "preconditions": [
+      "at-robot place_2_9",
+      "at key_3 place_2_9"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_9)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_2_9 key_0": {
+    "preconditions": [
+      "at-robot place_2_9",
+      "at key_0 place_2_9"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_9)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_1 place_3_1": {
+    "preconditions": [
+      "at-robot place_2_1",
+      "open place_3_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_1)"
+    ],
+    "add-effects": [
+      "at-robot place_3_1"
+    ]
+  },
+  "pickup place_2_9 key_1": {
+    "preconditions": [
+      "at key_1 place_2_9",
+      "at-robot place_2_9"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_9)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_2 key_3": {
+    "preconditions": [
+      "at-robot place_0_2",
+      "at key_3 place_0_2"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_2)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_2 key_4": {
+    "preconditions": [
+      "at-robot place_0_2",
+      "at key_4 place_0_2"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_2)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "unlock place_2_7 place_2_6 key_4 shape_4": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "carrying key_4",
+      "locked place_2_6"
+    ],
+    "delete-effects": [
+      "not (locked place_2_6)"
+    ],
+    "add-effects": [
+      "open place_2_6"
+    ]
+  },
+  "pickup place_0_2 key_1": {
+    "preconditions": [
+      "at-robot place_0_2",
+      "at key_1 place_0_2"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_2)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_2 key_2": {
+    "preconditions": [
+      "at key_2 place_0_2",
+      "at-robot place_0_2"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_2)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_1_5 place_1_6": {
+    "preconditions": [
+      "open place_1_6",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_5)"
+    ],
+    "add-effects": [
+      "at-robot place_1_6"
+    ]
+  },
+  "pickup place_1_0 key_4": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "at key_4 place_1_0"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_0)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_6 place_0_6": {
+    "preconditions": [
+      "open place_0_6",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_6)"
+    ],
+    "add-effects": [
+      "at-robot place_0_6"
+    ]
+  },
+  "move place_1_5 place_1_4": {
+    "preconditions": [
+      "open place_1_4",
+      "at-robot place_1_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_5)"
+    ],
+    "add-effects": [
+      "at-robot place_1_4"
+    ]
+  },
+  "pickup place_1_0 key_2": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "at key_2 place_1_0"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_0)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_0 key_3": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "at key_3 place_1_0"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_0)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_0_3 place_0_2": {
+    "preconditions": [
+      "at-robot place_0_3",
+      "open place_0_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_3)"
+    ],
+    "add-effects": [
+      "at-robot place_0_2"
+    ]
+  },
+  "move place_0_3 place_0_4": {
+    "preconditions": [
+      "at-robot place_0_3",
+      "open place_0_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_3)"
+    ],
+    "add-effects": [
+      "at-robot place_0_4"
+    ]
+  },
+  "pickup place_1_0 key_0": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "at key_0 place_1_0"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_0)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_0 key_1": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "at key_1 place_1_0"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_0)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_1_0 place_1_1": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "open place_1_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_0)"
+    ],
+    "add-effects": [
+      "at-robot place_1_1"
+    ]
+  },
+  "move place_4_9 place_4_8": {
+    "preconditions": [
+      "open place_4_8",
+      "at-robot place_4_9"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_9)"
+    ],
+    "add-effects": [
+      "at-robot place_4_8"
+    ]
+  },
+  "move place_0_0 place_1_0": {
+    "preconditions": [
+      "at-robot place_0_0",
+      "open place_1_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_0)"
+    ],
+    "add-effects": [
+      "at-robot place_1_0"
+    ]
+  },
+  "pickup place_0_8 key_2": {
+    "preconditions": [
+      "at key_2 place_0_8",
+      "at-robot place_0_8"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_8)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_0_8 key_1": {
+    "preconditions": [
+      "at key_1 place_0_8",
+      "at-robot place_0_8"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_8)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_8 key_0": {
+    "preconditions": [
+      "at key_0 place_0_8",
+      "at-robot place_0_8"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_8)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_0_6 place_0_7": {
+    "preconditions": [
+      "open place_0_7",
+      "at-robot place_0_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_6)"
+    ],
+    "add-effects": [
+      "at-robot place_0_7"
+    ]
+  },
+  "move place_2_0 place_1_0": {
+    "preconditions": [
+      "at-robot place_2_0",
+      "open place_1_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_0)"
+    ],
+    "add-effects": [
+      "at-robot place_1_0"
+    ]
+  },
+  "move place_0_6 place_0_5": {
+    "preconditions": [
+      "at-robot place_0_6",
+      "open place_0_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_6)"
+    ],
+    "add-effects": [
+      "at-robot place_0_5"
+    ]
+  },
+  "pickup place_1_6 key_3": {
+    "preconditions": [
+      "at key_3 place_1_6",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_6)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_7 key_4": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "at key_4 place_0_7"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_7)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_1_6 key_2": {
+    "preconditions": [
+      "at key_2 place_1_6",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_6)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_6 key_1": {
+    "preconditions": [
+      "at key_1 place_1_6",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_6)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_6 key_0": {
+    "preconditions": [
+      "at-robot place_1_6",
+      "at key_0 place_1_6"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_6)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_0_1 key_2": {
+    "preconditions": [
+      "at key_2 place_0_1",
+      "at-robot place_0_1"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_1)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "unlock place_0_1 place_0_2 key_1 shape_1": {
+    "preconditions": [
+      "carrying key_1",
+      "locked place_0_2",
+      "at-robot place_0_1"
+    ],
+    "delete-effects": [
+      "not (locked place_0_2)"
+    ],
+    "add-effects": [
+      "open place_0_2"
+    ]
+  },
+  "pickup place_0_1 key_3": {
+    "preconditions": [
+      "at-robot place_0_1",
+      "at key_3 place_0_1"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_1)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_1 key_4": {
+    "preconditions": [
+      "at-robot place_0_1",
+      "at key_4 place_0_1"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_1)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_2_4 key_4": {
+    "preconditions": [
+      "at key_4 place_2_4",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_4)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_2_4 key_3": {
+    "preconditions": [
+      "at key_3 place_2_4",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_4)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_0_1 key_0": {
+    "preconditions": [
+      "at-robot place_0_1",
+      "at key_0 place_0_1"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_1)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_4 key_2": {
+    "preconditions": [
+      "at key_2 place_2_4",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_4)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_4 key_1": {
+    "preconditions": [
+      "at key_1 place_2_4",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_4)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_0_1 key_1": {
+    "preconditions": [
+      "at key_1 place_0_1",
+      "at-robot place_0_1"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_1)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_2_2 place_2_1": {
+    "preconditions": [
+      "open place_2_1",
+      "at-robot place_2_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_2)"
+    ],
+    "add-effects": [
+      "at-robot place_2_1"
+    ]
+  },
+  "pickup place_2_4 key_0": {
+    "preconditions": [
+      "at key_0 place_2_4",
+      "at-robot place_2_4"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_4)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_2 place_2_3": {
+    "preconditions": [
+      "at-robot place_2_2",
+      "open place_2_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_2)"
+    ],
+    "add-effects": [
+      "at-robot place_2_3"
+    ]
+  },
+  "move place_0_1 place_0_2": {
+    "preconditions": [
+      "open place_0_2",
+      "at-robot place_0_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_1)"
+    ],
+    "add-effects": [
+      "at-robot place_0_2"
+    ]
+  },
+  "pickup place_3_2 key_4": {
+    "preconditions": [
+      "at key_4 place_3_2",
+      "at-robot place_3_2"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_2)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_0_1 place_0_0": {
+    "preconditions": [
+      "at-robot place_0_1",
+      "open place_0_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_1)"
+    ],
+    "add-effects": [
+      "at-robot place_0_0"
+    ]
+  },
+  "pickup place_3_2 key_3": {
+    "preconditions": [
+      "at key_3 place_3_2",
+      "at-robot place_3_2"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_2)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_3_2 key_2": {
+    "preconditions": [
+      "at-robot place_3_2",
+      "at key_2 place_3_2"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_2)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_2_7 key_0": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "at key_0 place_2_7"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_7)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_2 key_1": {
+    "preconditions": [
+      "at key_1 place_3_2",
+      "at-robot place_3_2"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_2)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_2 key_0": {
+    "preconditions": [
+      "at key_0 place_3_2",
+      "at-robot place_3_2"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_2)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_2_7 key_1": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "at key_1 place_2_7"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_2_7)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_3_3 place_3_4": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "open place_3_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_3)"
+    ],
+    "add-effects": [
+      "at-robot place_3_4"
+    ]
+  },
+  "move place_2_5 place_2_6": {
+    "preconditions": [
+      "open place_2_6",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_5)"
+    ],
+    "add-effects": [
+      "at-robot place_2_6"
+    ]
+  },
+  "move place_2_5 place_2_4": {
+    "preconditions": [
+      "open place_2_4",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_5)"
+    ],
+    "add-effects": [
+      "at-robot place_2_4"
+    ]
+  },
+  "pickup place_0_0 key_0": {
+    "preconditions": [
+      "at key_0 place_0_0",
+      "at-robot place_0_0"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_0_0)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_0_0 key_2": {
+    "preconditions": [
+      "at key_2 place_0_0",
+      "at-robot place_0_0"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_0_0)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_0_8 place_0_9": {
+    "preconditions": [
+      "open place_0_9",
+      "at-robot place_0_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_8)"
+    ],
+    "add-effects": [
+      "at-robot place_0_9"
+    ]
+  },
+  "pickup place_0_0 key_1": {
+    "preconditions": [
+      "at key_1 place_0_0",
+      "at-robot place_0_0"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_0_0)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_3 key_2": {
+    "preconditions": [
+      "at key_2 place_4_3",
+      "at-robot place_4_3"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_3)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_3 key_3": {
+    "preconditions": [
+      "at-robot place_4_3",
+      "at key_3 place_4_3"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_3)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_0_8 place_0_7": {
+    "preconditions": [
+      "open place_0_7",
+      "at-robot place_0_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_8)"
+    ],
+    "add-effects": [
+      "at-robot place_0_7"
+    ]
+  },
+  "pickup place_4_3 key_0": {
+    "preconditions": [
+      "at key_0 place_4_3",
+      "at-robot place_4_3"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_3)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "unlock place_0_3 place_0_2 key_1 shape_1": {
+    "preconditions": [
+      "carrying key_1",
+      "locked place_0_2",
+      "at-robot place_0_3"
+    ],
+    "delete-effects": [
+      "not (locked place_0_2)"
+    ],
+    "add-effects": [
+      "open place_0_2"
+    ]
+  },
+  "pickup place_0_8 key_4": {
+    "preconditions": [
+      "at key_4 place_0_8",
+      "at-robot place_0_8"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_8)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_0_8 key_3": {
+    "preconditions": [
+      "at-robot place_0_8",
+      "at key_3 place_0_8"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_8)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_4_3 key_1": {
+    "preconditions": [
+      "at key_1 place_4_3",
+      "at-robot place_4_3"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_3)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_3_3 place_3_2": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "open place_3_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_3)"
+    ],
+    "add-effects": [
+      "at-robot place_3_2"
+    ]
+  },
+  "pickup place_0_0 key_4": {
+    "preconditions": [
+      "at key_4 place_0_0",
+      "at-robot place_0_0"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_0_0)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_0_0 key_3": {
+    "preconditions": [
+      "at-robot place_0_0",
+      "at key_3 place_0_0"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_0_0)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_1_0 place_0_0": {
+    "preconditions": [
+      "at-robot place_1_0",
+      "open place_0_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_0)"
+    ],
+    "add-effects": [
+      "at-robot place_0_0"
+    ]
+  },
+  "pickup place_4_6 key_0": {
+    "preconditions": [
+      "at key_0 place_4_6",
+      "at-robot place_4_6"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_6)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_4_0 place_4_1": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "open place_4_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_0)"
+    ],
+    "add-effects": [
+      "at-robot place_4_1"
+    ]
+  },
+  "pickup place_1_1 key_0": {
+    "preconditions": [
+      "at key_0 place_1_1",
+      "at-robot place_1_1"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_1)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_1 key_1": {
+    "preconditions": [
+      "at key_1 place_1_1",
+      "at-robot place_1_1"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_1)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_1_1 key_2": {
+    "preconditions": [
+      "at key_2 place_1_1",
+      "at-robot place_1_1"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_1)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_1 key_3": {
+    "preconditions": [
+      "at-robot place_1_1",
+      "at key_3 place_1_1"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_1)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_1 key_4": {
+    "preconditions": [
+      "at key_4 place_1_1",
+      "at-robot place_1_1"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_1)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_3_4 place_2_4": {
+    "preconditions": [
+      "open place_2_4",
+      "at-robot place_3_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_4)"
+    ],
+    "add-effects": [
+      "at-robot place_2_4"
+    ]
+  },
+  "move place_0_6 place_1_6": {
+    "preconditions": [
+      "open place_1_6",
+      "at-robot place_0_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_6)"
+    ],
+    "add-effects": [
+      "at-robot place_1_6"
+    ]
+  },
+  "move place_3_9 place_3_8": {
+    "preconditions": [
+      "open place_3_8",
+      "at-robot place_3_9"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_9)"
+    ],
+    "add-effects": [
+      "at-robot place_3_8"
+    ]
+  },
+  "move place_0_7 place_0_8": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "open place_0_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_7)"
+    ],
+    "add-effects": [
+      "at-robot place_0_8"
+    ]
+  },
+  "move place_0_7 place_0_6": {
+    "preconditions": [
+      "at-robot place_0_7",
+      "open place_0_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_7)"
+    ],
+    "add-effects": [
+      "at-robot place_0_6"
+    ]
+  },
+  "pickup place_4_5 key_4": {
+    "preconditions": [
+      "at key_4 place_4_5",
+      "at-robot place_4_5"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_5)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_5 key_2": {
+    "preconditions": [
+      "at-robot place_4_5",
+      "at key_2 place_4_5"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_5)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_5 key_3": {
+    "preconditions": [
+      "at-robot place_4_5",
+      "at key_3 place_4_5"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_4_5)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_4 key_1": {
+    "preconditions": [
+      "at-robot place_1_4",
+      "at key_1 place_1_4"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_4)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_3_2 place_3_1": {
+    "preconditions": [
+      "open place_3_1",
+      "at-robot place_3_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_2)"
+    ],
+    "add-effects": [
+      "at-robot place_3_1"
+    ]
+  },
+  "pickup place_1_4 key_0": {
+    "preconditions": [
+      "at-robot place_1_4",
+      "at key_0 place_1_4"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_4)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_3_2 place_3_3": {
+    "preconditions": [
+      "open place_3_3",
+      "at-robot place_3_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_2)"
+    ],
+    "add-effects": [
+      "at-robot place_3_3"
+    ]
+  },
+  "pickup place_1_4 key_4": {
+    "preconditions": [
+      "at-robot place_1_4",
+      "at key_4 place_1_4"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_4)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_1_4 key_3": {
+    "preconditions": [
+      "at key_3 place_1_4",
+      "at-robot place_1_4"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_4)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_1_4 key_2": {
+    "preconditions": [
+      "at-robot place_1_4",
+      "at key_2 place_1_4"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_4)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "unlock place_1_6 place_1_5 key_2 shape_2": {
+    "preconditions": [
+      "locked place_1_5",
+      "carrying key_2",
+      "at-robot place_1_6"
+    ],
+    "delete-effects": [
+      "not (locked place_1_5)"
+    ],
+    "add-effects": [
+      "open place_1_5"
+    ]
+  },
+  "pickup place_3_0 key_3": {
+    "preconditions": [
+      "at-robot place_3_0",
+      "at key_3 place_3_0"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_3_0)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_3_8 place_3_7": {
+    "preconditions": [
+      "open place_3_7",
+      "at-robot place_3_8"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_8)"
+    ],
+    "add-effects": [
+      "at-robot place_3_7"
+    ]
+  },
+  "pickup place_4_5 key_0": {
+    "preconditions": [
+      "at key_0 place_4_5",
+      "at-robot place_4_5"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_5)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_3_0 key_2": {
+    "preconditions": [
+      "at-robot place_3_0",
+      "at key_2 place_3_0"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_3_0)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_4_5 key_1": {
+    "preconditions": [
+      "at-robot place_4_5",
+      "at key_1 place_4_5"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_5)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "move place_3_8 place_3_9": {
+    "preconditions": [
+      "at-robot place_3_8",
+      "open place_3_9"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_8)"
+    ],
+    "add-effects": [
+      "at-robot place_3_9"
+    ]
+  },
+  "pickup place_3_0 key_1": {
+    "preconditions": [
+      "at key_1 place_3_0",
+      "at-robot place_3_0"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_3_0)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_3_0 key_0": {
+    "preconditions": [
+      "at-robot place_3_0",
+      "at key_0 place_3_0"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_3_0)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_5 place_3_5": {
+    "preconditions": [
+      "open place_3_5",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_5)"
+    ],
+    "add-effects": [
+      "at-robot place_3_5"
+    ]
+  },
+  "unlock place_1_5 place_1_4 key_3 shape_3": {
+    "preconditions": [
+      "at-robot place_1_5",
+      "locked place_1_4",
+      "carrying key_3"
+    ],
+    "delete-effects": [
+      "not (locked place_1_4)"
+    ],
+    "add-effects": [
+      "open place_1_4"
+    ]
+  },
+  "pickup place_3_0 key_4": {
+    "preconditions": [
+      "at-robot place_3_0",
+      "at key_4 place_3_0"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_3_0)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_2_6 place_2_7": {
+    "preconditions": [
+      "at-robot place_2_6",
+      "open place_2_7"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_6)"
+    ],
+    "add-effects": [
+      "at-robot place_2_7"
+    ]
+  },
+  "pickup place_2_6 key_3": {
+    "preconditions": [
+      "at key_3 place_2_6",
+      "at-robot place_2_6"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_6)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "pickup place_2_6 key_4": {
+    "preconditions": [
+      "at-robot place_2_6",
+      "at key_4 place_2_6"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_6)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_2_6 place_2_5": {
+    "preconditions": [
+      "open place_2_5",
+      "at-robot place_2_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_6)"
+    ],
+    "add-effects": [
+      "at-robot place_2_5"
+    ]
+  },
+  "move place_3_3 place_2_3": {
+    "preconditions": [
+      "at-robot place_3_3",
+      "open place_2_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_3_3)"
+    ],
+    "add-effects": [
+      "at-robot place_2_3"
+    ]
+  },
+  "pickup place_2_8 key_0": {
+    "preconditions": [
+      "at key_0 place_2_8",
+      "at-robot place_2_8"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_2_8)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_2_0 place_3_0": {
+    "preconditions": [
+      "open place_3_0",
+      "at-robot place_2_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_2_0)"
+    ],
+    "add-effects": [
+      "at-robot place_3_0"
+    ]
+  },
+  "pickup place_1_3 key_4": {
+    "preconditions": [
+      "at-robot place_1_3",
+      "at key_4 place_1_3"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_1_3)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_1_3 key_3": {
+    "preconditions": [
+      "at-robot place_1_3",
+      "at key_3 place_1_3"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_1_3)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  },
+  "move place_0_2 place_0_3": {
+    "preconditions": [
+      "open place_0_3",
+      "at-robot place_0_2"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_2)"
+    ],
+    "add-effects": [
+      "at-robot place_0_3"
+    ]
+  },
+  "move place_4_0 place_3_0": {
+    "preconditions": [
+      "at-robot place_4_0",
+      "open place_3_0"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_0)"
+    ],
+    "add-effects": [
+      "at-robot place_3_0"
+    ]
+  },
+  "pickup place_1_3 key_0": {
+    "preconditions": [
+      "at-robot place_1_3",
+      "at key_0 place_1_3"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_1_3)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "pickup place_1_3 key_2": {
+    "preconditions": [
+      "at key_2 place_1_3",
+      "at-robot place_1_3"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_1_3)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "pickup place_1_3 key_1": {
+    "preconditions": [
+      "at-robot place_1_3",
+      "at key_1 place_1_3"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_1_3)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_3 key_4": {
+    "preconditions": [
+      "at key_4 place_4_3",
+      "at-robot place_4_3"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_4_3)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "pickup place_4_4 key_0": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "at key_0 place_4_4"
+    ],
+    "delete-effects": [
+      "not (at key_0 place_4_4)"
+    ],
+    "add-effects": [
+      "carrying key_0"
+    ]
+  },
+  "move place_0_2 place_0_1": {
+    "preconditions": [
+      "at-robot place_0_2",
+      "open place_0_1"
+    ],
+    "delete-effects": [
+      "not (at-robot place_0_2)"
+    ],
+    "add-effects": [
+      "at-robot place_0_1"
+    ]
+  },
+  "pickup place_4_4 key_1": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "at key_1 place_4_4"
+    ],
+    "delete-effects": [
+      "not (at key_1 place_4_4)"
+    ],
+    "add-effects": [
+      "carrying key_1"
+    ]
+  },
+  "pickup place_4_4 key_2": {
+    "preconditions": [
+      "at-robot place_4_4",
+      "at key_2 place_4_4"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_4_4)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_4_5 place_4_4": {
+    "preconditions": [
+      "at-robot place_4_5",
+      "open place_4_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_5)"
+    ],
+    "add-effects": [
+      "at-robot place_4_4"
+    ]
+  },
+  "move place_4_5 place_4_6": {
+    "preconditions": [
+      "at-robot place_4_5",
+      "open place_4_6"
+    ],
+    "delete-effects": [
+      "not (at-robot place_4_5)"
+    ],
+    "add-effects": [
+      "at-robot place_4_6"
+    ]
+  },
+  "unlock place_2_5 place_2_6 key_4 shape_4": {
+    "preconditions": [
+      "carrying key_4",
+      "locked place_2_6",
+      "at-robot place_2_5"
+    ],
+    "delete-effects": [
+      "not (locked place_2_6)"
+    ],
+    "add-effects": [
+      "open place_2_6"
+    ]
+  },
+  "pickup place_2_7 key_4": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "at key_4 place_2_7"
+    ],
+    "delete-effects": [
+      "not (at key_4 place_2_7)"
+    ],
+    "add-effects": [
+      "carrying key_4"
+    ]
+  },
+  "move place_1_4 place_1_5": {
+    "preconditions": [
+      "open place_1_5",
+      "at-robot place_1_4"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_4)"
+    ],
+    "add-effects": [
+      "at-robot place_1_5"
+    ]
+  },
+  "pickup place_2_7 key_2": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "at key_2 place_2_7"
+    ],
+    "delete-effects": [
+      "not (at key_2 place_2_7)"
+    ],
+    "add-effects": [
+      "carrying key_2"
+    ]
+  },
+  "move place_1_4 place_1_3": {
+    "preconditions": [
+      "at-robot place_1_4",
+      "open place_1_3"
+    ],
+    "delete-effects": [
+      "not (at-robot place_1_4)"
+    ],
+    "add-effects": [
+      "at-robot place_1_3"
+    ]
+  },
+  "pickup place_2_7 key_3": {
+    "preconditions": [
+      "at-robot place_2_7",
+      "at key_3 place_2_7"
+    ],
+    "delete-effects": [
+      "not (at key_3 place_2_7)"
+    ],
+    "add-effects": [
+      "carrying key_3"
+    ]
+  }
+}

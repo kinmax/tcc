@@ -1,0 +1,1012 @@
+{
+  "break-into scorpio": {
+    "preconditions": [
+      "recon-performed scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained scorpio"
+    ]
+  },
+  "clean taurus": {
+    "preconditions": [
+      "access-obtained taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs taurus"
+    ]
+  },
+  "break-into taurus": {
+    "preconditions": [
+      "recon-performed taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained taurus"
+    ]
+  },
+  "information-gathering aries": {
+    "preconditions": [
+      "recon-performed aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered aries"
+    ]
+  },
+  "recon leo": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed leo"
+    ]
+  },
+  "break-into libra": {
+    "preconditions": [
+      "recon-performed libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained libra"
+    ]
+  },
+  "steal-data aries": {
+    "preconditions": [
+      "deleted-logs aries",
+      "files-downloaded aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from aries"
+    ]
+  },
+  "gain-root leo": {
+    "preconditions": [
+      "access-obtained leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained leo"
+    ]
+  },
+  "clean andromeda": {
+    "preconditions": [
+      "access-obtained andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs andromeda"
+    ]
+  },
+  "steal-data cassiopea": {
+    "preconditions": [
+      "deleted-logs cassiopea",
+      "files-downloaded cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from cassiopea"
+    ]
+  },
+  "recon perseus": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed perseus"
+    ]
+  },
+  "information-gathering andromeda": {
+    "preconditions": [
+      "recon-performed andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered andromeda"
+    ]
+  },
+  "information-gathering scorpio": {
+    "preconditions": [
+      "recon-performed scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered scorpio"
+    ]
+  },
+  "steal-data leo": {
+    "preconditions": [
+      "deleted-logs leo",
+      "files-downloaded leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from leo"
+    ]
+  },
+  "download-files sagittarius": {
+    "preconditions": [
+      "root-access-obtained sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded sagittarius"
+    ]
+  },
+  "steal-data perseus": {
+    "preconditions": [
+      "deleted-logs perseus",
+      "files-downloaded perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from perseus"
+    ]
+  },
+  "steal-data scorpio": {
+    "preconditions": [
+      "files-downloaded scorpio",
+      "deleted-logs scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from scorpio"
+    ]
+  },
+  "download-files scorpio": {
+    "preconditions": [
+      "root-access-obtained scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded scorpio"
+    ]
+  },
+  "recon libra": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed libra"
+    ]
+  },
+  "vandalize scorpio": {
+    "preconditions": [
+      "deleted-logs scorpio",
+      "modified-files scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized scorpio"
+    ]
+  },
+  "gain-root perseus": {
+    "preconditions": [
+      "access-obtained perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained perseus"
+    ]
+  },
+  "modify-files libra": {
+    "preconditions": [
+      "access-obtained libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files libra"
+    ]
+  },
+  "vandalize perseus": {
+    "preconditions": [
+      "deleted-logs perseus",
+      "modified-files perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized perseus"
+    ]
+  },
+  "recon scorpio": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed scorpio"
+    ]
+  },
+  "break-into cassiopea": {
+    "preconditions": [
+      "recon-performed cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained cassiopea"
+    ]
+  },
+  "vandalize sagittarius": {
+    "preconditions": [
+      "deleted-logs sagittarius",
+      "modified-files sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized sagittarius"
+    ]
+  },
+  "gain-root andromeda": {
+    "preconditions": [
+      "access-obtained andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained andromeda"
+    ]
+  },
+  "modify-files taurus": {
+    "preconditions": [
+      "access-obtained taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files taurus"
+    ]
+  },
+  "information-gathering leo": {
+    "preconditions": [
+      "recon-performed leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered leo"
+    ]
+  },
+  "modify-files cassiopea": {
+    "preconditions": [
+      "access-obtained cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files cassiopea"
+    ]
+  },
+  "recon andromeda": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed andromeda"
+    ]
+  },
+  "download-files virgo": {
+    "preconditions": [
+      "root-access-obtained virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded virgo"
+    ]
+  },
+  "modify-files perseus": {
+    "preconditions": [
+      "access-obtained perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files perseus"
+    ]
+  },
+  "gain-root virgo": {
+    "preconditions": [
+      "access-obtained virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained virgo"
+    ]
+  },
+  "steal-data andromeda": {
+    "preconditions": [
+      "deleted-logs andromeda",
+      "files-downloaded andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from andromeda"
+    ]
+  },
+  "gain-root scorpio": {
+    "preconditions": [
+      "access-obtained scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained scorpio"
+    ]
+  },
+  "information-gathering taurus": {
+    "preconditions": [
+      "recon-performed taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered taurus"
+    ]
+  },
+  "download-files andromeda": {
+    "preconditions": [
+      "root-access-obtained andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded andromeda"
+    ]
+  },
+  "clean libra": {
+    "preconditions": [
+      "access-obtained libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs libra"
+    ]
+  },
+  "modify-files virgo": {
+    "preconditions": [
+      "access-obtained virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files virgo"
+    ]
+  },
+  "clean aries": {
+    "preconditions": [
+      "access-obtained aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs aries"
+    ]
+  },
+  "vandalize taurus": {
+    "preconditions": [
+      "modified-files taurus",
+      "deleted-logs taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized taurus"
+    ]
+  },
+  "break-into virgo": {
+    "preconditions": [
+      "recon-performed virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained virgo"
+    ]
+  },
+  "gain-root aries": {
+    "preconditions": [
+      "access-obtained aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained aries"
+    ]
+  },
+  "modify-files aries": {
+    "preconditions": [
+      "access-obtained aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files aries"
+    ]
+  },
+  "clean virgo": {
+    "preconditions": [
+      "access-obtained virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs virgo"
+    ]
+  },
+  "recon taurus": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed taurus"
+    ]
+  },
+  "clean scorpio": {
+    "preconditions": [
+      "access-obtained scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs scorpio"
+    ]
+  },
+  "download-files leo": {
+    "preconditions": [
+      "root-access-obtained leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded leo"
+    ]
+  },
+  "clean leo": {
+    "preconditions": [
+      "access-obtained leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs leo"
+    ]
+  },
+  "vandalize andromeda": {
+    "preconditions": [
+      "deleted-logs andromeda",
+      "modified-files andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized andromeda"
+    ]
+  },
+  "download-files taurus": {
+    "preconditions": [
+      "root-access-obtained taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded taurus"
+    ]
+  },
+  "download-files aries": {
+    "preconditions": [
+      "root-access-obtained aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded aries"
+    ]
+  },
+  "clean cassiopea": {
+    "preconditions": [
+      "access-obtained cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs cassiopea"
+    ]
+  },
+  "modify-files scorpio": {
+    "preconditions": [
+      "access-obtained scorpio"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files scorpio"
+    ]
+  },
+  "steal-data sagittarius": {
+    "preconditions": [
+      "files-downloaded sagittarius",
+      "deleted-logs sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from sagittarius"
+    ]
+  },
+  "information-gathering virgo": {
+    "preconditions": [
+      "recon-performed virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered virgo"
+    ]
+  },
+  "modify-files andromeda": {
+    "preconditions": [
+      "access-obtained andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files andromeda"
+    ]
+  },
+  "steal-data virgo": {
+    "preconditions": [
+      "files-downloaded virgo",
+      "deleted-logs virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from virgo"
+    ]
+  },
+  "steal-data libra": {
+    "preconditions": [
+      "deleted-logs libra",
+      "files-downloaded libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from libra"
+    ]
+  },
+  "break-into aries": {
+    "preconditions": [
+      "recon-performed aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained aries"
+    ]
+  },
+  "download-files libra": {
+    "preconditions": [
+      "root-access-obtained libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded libra"
+    ]
+  },
+  "break-into sagittarius": {
+    "preconditions": [
+      "recon-performed sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained sagittarius"
+    ]
+  },
+  "gain-root taurus": {
+    "preconditions": [
+      "access-obtained taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained taurus"
+    ]
+  },
+  "information-gathering libra": {
+    "preconditions": [
+      "recon-performed libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered libra"
+    ]
+  },
+  "steal-data taurus": {
+    "preconditions": [
+      "deleted-logs taurus",
+      "files-downloaded taurus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "data-stolen-from taurus"
+    ]
+  },
+  "information-gathering perseus": {
+    "preconditions": [
+      "recon-performed perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered perseus"
+    ]
+  },
+  "vandalize libra": {
+    "preconditions": [
+      "deleted-logs libra",
+      "modified-files libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized libra"
+    ]
+  },
+  "vandalize cassiopea": {
+    "preconditions": [
+      "modified-files cassiopea",
+      "deleted-logs cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized cassiopea"
+    ]
+  },
+  "break-into perseus": {
+    "preconditions": [
+      "recon-performed perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained perseus"
+    ]
+  },
+  "recon sagittarius": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed sagittarius"
+    ]
+  },
+  "recon aries": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed aries"
+    ]
+  },
+  "vandalize virgo": {
+    "preconditions": [
+      "modified-files virgo",
+      "deleted-logs virgo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized virgo"
+    ]
+  },
+  "vandalize leo": {
+    "preconditions": [
+      "modified-files leo",
+      "deleted-logs leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized leo"
+    ]
+  },
+  "break-into andromeda": {
+    "preconditions": [
+      "recon-performed andromeda"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained andromeda"
+    ]
+  },
+  "gain-root libra": {
+    "preconditions": [
+      "access-obtained libra"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained libra"
+    ]
+  },
+  "gain-root cassiopea": {
+    "preconditions": [
+      "access-obtained cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained cassiopea"
+    ]
+  },
+  "vandalize aries": {
+    "preconditions": [
+      "deleted-logs aries",
+      "modified-files aries"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "vandalized aries"
+    ]
+  },
+  "gain-root sagittarius": {
+    "preconditions": [
+      "access-obtained sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "root-access-obtained sagittarius"
+    ]
+  },
+  "information-gathering cassiopea": {
+    "preconditions": [
+      "recon-performed cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered cassiopea"
+    ]
+  },
+  "clean sagittarius": {
+    "preconditions": [
+      "access-obtained sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs sagittarius"
+    ]
+  },
+  "recon virgo": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed virgo"
+    ]
+  },
+  "information-gathering sagittarius": {
+    "preconditions": [
+      "recon-performed sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "information-gathered sagittarius"
+    ]
+  },
+  "break-into leo": {
+    "preconditions": [
+      "recon-performed leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "access-obtained leo"
+    ]
+  },
+  "download-files perseus": {
+    "preconditions": [
+      "root-access-obtained perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded perseus"
+    ]
+  },
+  "download-files cassiopea": {
+    "preconditions": [
+      "root-access-obtained cassiopea"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "files-downloaded cassiopea"
+    ]
+  },
+  "modify-files leo": {
+    "preconditions": [
+      "access-obtained leo"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files leo"
+    ]
+  },
+  "modify-files sagittarius": {
+    "preconditions": [
+      "access-obtained sagittarius"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "modified-files sagittarius"
+    ]
+  },
+  "clean perseus": {
+    "preconditions": [
+      "access-obtained perseus"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "deleted-logs perseus"
+    ]
+  },
+  "recon cassiopea": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "recon-performed cassiopea"
+    ]
+  }
+}

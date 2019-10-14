@@ -1,0 +1,647 @@
+{
+  "take bowl": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken bowl"
+    ]
+  },
+  "use toaster": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "used toaster",
+      "increase (total-cost) 1"
+    ]
+  },
+  "use plants": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "used plants",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take phone": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken phone"
+    ]
+  },
+  "activity-make-tea": {
+    "preconditions": [
+      "taken cup",
+      "taken sugar",
+      "taken tea_bag",
+      "taken milk",
+      "water_boiled"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "made_tea"
+    ]
+  },
+  "activity-boil-water": {
+    "preconditions": [
+      "taken water_jug",
+      "taken cloth",
+      "taken keetle"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "water_boiled",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take sugar": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken sugar",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take pill_box": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken pill_box"
+    ]
+  },
+  "take knife": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken knife"
+    ]
+  },
+  "take cheese": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken cheese",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take popcorn": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken popcorn"
+    ]
+  },
+  "take plate": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken plate",
+      "increase (total-cost) 1"
+    ]
+  },
+  "use microwave": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "used microwave"
+    ]
+  },
+  "take salad_tosser": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken salad_tosser",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take cloth": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken cloth",
+      "increase (total-cost) 1"
+    ]
+  },
+  "use phone": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "used phone"
+    ]
+  },
+  "activity-make-peanut-butter-sandwich": {
+    "preconditions": [
+      "taken peanut_butter",
+      "taken bread",
+      "taken plate",
+      "taken knife"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "made_peanut_butter_sandwich",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take toaster": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken toaster"
+    ]
+  },
+  "take butter": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken butter"
+    ]
+  },
+  "activity-leave-for-work": {
+    "preconditions": [
+      "plants_tended",
+      "made_breakfast",
+      "lunch_packed"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "leaving_for_work",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-go-to-bed": {
+    "preconditions": [
+      "made_dinner",
+      "taken_medicine"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "going_to_bed",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-make-salad": {
+    "preconditions": [
+      "taken salad_tosser",
+      "taken plate",
+      "taken bowl"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "made_salad"
+    ]
+  },
+  "take bread": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken bread",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take lunch_bag": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken lunch_bag",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-make-cheese-sandwich": {
+    "preconditions": [
+      "taken cheese",
+      "taken bread",
+      "taken plate"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "made_cheese_sandwich"
+    ]
+  },
+  "take plants": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken plants"
+    ]
+  },
+  "activity-make-buttered-toast": {
+    "preconditions": [
+      "made_toast",
+      "taken butter",
+      "taken knife"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "made_buttered_toast"
+    ]
+  },
+  "take milk": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken milk",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-pack-lunch": {
+    "preconditions": [
+      "taken lunch_bag",
+      "made_peanut_butter_sandwich"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "lunch_packed"
+    ]
+  },
+  "take microwave": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken microwave"
+    ]
+  },
+  "activity-make-breakfast": {
+    "preconditions": [
+      "taken spoon",
+      "made_cereals",
+      "made_coffee",
+      "made_buttered_toast"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "made_breakfast",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-take-medicine": {
+    "preconditions": [
+      "taken pill_box"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken_medicine"
+    ]
+  },
+  "take juice": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken juice",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take cereal": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken cereal",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-wipe-counter": {
+    "preconditions": [
+      "taken cloth"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "counter_wiped",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take creamer": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken creamer"
+    ]
+  },
+  "activity-tend-plants": {
+    "preconditions": [
+      "taken water_jug",
+      "used plants"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "plants_tended",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take peanut_butter": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken peanut_butter",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take cup": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken cup"
+    ]
+  },
+  "activity-drink-juice": {
+    "preconditions": [
+      "taken cup",
+      "taken juice"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "drank_juice",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take dressing": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken dressing",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-watch-movie": {
+    "preconditions": [
+      "taken popcorn",
+      "used microwave"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "watching_movie",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take coffee": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken coffee",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take tea_bag": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken tea_bag"
+    ]
+  },
+  "activity-make-dinner": {
+    "preconditions": [
+      "made_cheese_sandwich",
+      "made_salad"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "made_dinner",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take spoon": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "taken spoon",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-make-coffee": {
+    "preconditions": [
+      "taken cup",
+      "taken coffee",
+      "taken sugar",
+      "water_boiled",
+      "taken creamer"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "made_coffee",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take water_jug": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken water_jug"
+    ]
+  },
+  "activity-make-toast": {
+    "preconditions": [
+      "used toaster",
+      "taken bread"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "made_toast",
+      "increase (total-cost) 1"
+    ]
+  },
+  "take keetle": {
+    "preconditions": [
+      "()"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "taken keetle"
+    ]
+  },
+  "activity-make-cereals": {
+    "preconditions": [
+      "taken cereal",
+      "taken milk",
+      "taken bowl"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "made_cereals",
+      "increase (total-cost) 1"
+    ]
+  }
+}

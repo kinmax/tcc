@@ -1,0 +1,1486 @@
+{
+  "board-truck driver1 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "at driver1 s0",
+      "empty truck1"
+    ],
+    "delete-effects": [
+      "not (at driver1 s0)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver1 truck1"
+    ]
+  },
+  "board-truck driver1 truck1 s1": {
+    "preconditions": [
+      "at truck1 s1",
+      "empty truck1",
+      "at driver1 s1"
+    ],
+    "delete-effects": [
+      "not (at driver1 s1)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver1 truck1"
+    ]
+  },
+  "board-truck driver1 truck1 s2": {
+    "preconditions": [
+      "empty truck1",
+      "at truck1 s2",
+      "at driver1 s2"
+    ],
+    "delete-effects": [
+      "not (at driver1 s2)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver1 truck1"
+    ]
+  },
+  "board-truck driver1 truck1 p1-2": {
+    "preconditions": [
+      "at driver1 p1-2",
+      "empty truck1",
+      "at truck1 p1-2"
+    ],
+    "delete-effects": [
+      "not (empty truck1)",
+      "not (at driver1 p1-2)"
+    ],
+    "add-effects": [
+      "driving driver1 truck1"
+    ]
+  },
+  "unload-truck package1 truck1 s2": {
+    "preconditions": [
+      "in package1 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (in package1 truck1)"
+    ],
+    "add-effects": [
+      "at package1 s2"
+    ]
+  },
+  "board-truck driver1 truck1 p1-0": {
+    "preconditions": [
+      "empty truck1",
+      "at truck1 p1-0",
+      "at driver1 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver1 p1-0)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver1 truck1"
+    ]
+  },
+  "unload-truck package1 truck1 s1": {
+    "preconditions": [
+      "at truck1 s1",
+      "in package1 truck1"
+    ],
+    "delete-effects": [
+      "not (in package1 truck1)"
+    ],
+    "add-effects": [
+      "at package1 s1"
+    ]
+  },
+  "unload-truck package1 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "in package1 truck1"
+    ],
+    "delete-effects": [
+      "not (in package1 truck1)"
+    ],
+    "add-effects": [
+      "at package1 s0"
+    ]
+  },
+  "disembark-truck driver1 truck2 s2": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver1 s2"
+    ]
+  },
+  "drive-truck truck2 s0 s2 driver1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at truck2 s0)"
+    ],
+    "add-effects": [
+      "at truck2 s2"
+    ]
+  },
+  "disembark-truck driver1 truck2 s1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver1 s1"
+    ]
+  },
+  "drive-truck truck2 s0 s2 driver2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at truck2 s0)"
+    ],
+    "add-effects": [
+      "at truck2 s2"
+    ]
+  },
+  "drive-truck truck2 s1 s0 driver1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (at truck2 s1)"
+    ],
+    "add-effects": [
+      "at truck2 s0"
+    ]
+  },
+  "disembark-truck driver1 truck2 s0": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver1 s0"
+    ]
+  },
+  "board-truck driver2 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "empty truck1",
+      "at driver2 s0"
+    ],
+    "delete-effects": [
+      "not (at driver2 s0)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver2 truck1"
+    ]
+  },
+  "board-truck driver2 truck1 s2": {
+    "preconditions": [
+      "at driver2 s2",
+      "empty truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (at driver2 s2)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver2 truck1"
+    ]
+  },
+  "drive-truck truck1 s2 s1 driver2": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (at truck1 s2)"
+    ],
+    "add-effects": [
+      "at truck1 s1"
+    ]
+  },
+  "board-truck driver2 truck1 s1": {
+    "preconditions": [
+      "at driver2 s1",
+      "at truck1 s1",
+      "empty truck1"
+    ],
+    "delete-effects": [
+      "not (at driver2 s1)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver2 truck1"
+    ]
+  },
+  "drive-truck truck2 s1 s0 driver2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (at truck2 s1)"
+    ],
+    "add-effects": [
+      "at truck2 s0"
+    ]
+  },
+  "drive-truck truck1 s2 s1 driver1": {
+    "preconditions": [
+      "driving driver1 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (at truck1 s2)"
+    ],
+    "add-effects": [
+      "at truck1 s1"
+    ]
+  },
+  "load-truck package1 truck2 s2": {
+    "preconditions": [
+      "at package1 s2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (at package1 s2)"
+    ],
+    "add-effects": [
+      "in package1 truck2"
+    ]
+  },
+  "load-truck package1 truck2 s1": {
+    "preconditions": [
+      "at package1 s1",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (at package1 s1)"
+    ],
+    "add-effects": [
+      "in package1 truck2"
+    ]
+  },
+  "load-truck package1 truck2 s0": {
+    "preconditions": [
+      "at package1 s0",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at package1 s0)"
+    ],
+    "add-effects": [
+      "in package1 truck2"
+    ]
+  },
+  "walk driver1 p1-2 s1": {
+    "preconditions": [
+      "at driver1 p1-2"
+    ],
+    "delete-effects": [
+      "not (at driver1 p1-2)"
+    ],
+    "add-effects": [
+      "at driver1 s1"
+    ]
+  },
+  "walk driver1 p1-2 s2": {
+    "preconditions": [
+      "at driver1 p1-2"
+    ],
+    "delete-effects": [
+      "not (at driver1 p1-2)"
+    ],
+    "add-effects": [
+      "at driver1 s2"
+    ]
+  },
+  "walk driver2 p1-0 s1": {
+    "preconditions": [
+      "at driver2 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-0)"
+    ],
+    "add-effects": [
+      "at driver2 s1"
+    ]
+  },
+  "walk driver2 p1-0 s0": {
+    "preconditions": [
+      "at driver2 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-0)"
+    ],
+    "add-effects": [
+      "at driver2 s0"
+    ]
+  },
+  "board-truck driver2 truck1 p1-0": {
+    "preconditions": [
+      "empty truck1",
+      "at driver2 p1-0",
+      "at truck1 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-0)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver2 truck1"
+    ]
+  },
+  "unload-truck package2 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "in package2 truck1"
+    ],
+    "delete-effects": [
+      "not (in package2 truck1)"
+    ],
+    "add-effects": [
+      "at package2 s0"
+    ]
+  },
+  "board-truck driver2 truck1 p1-2": {
+    "preconditions": [
+      "empty truck1",
+      "at truck1 p1-2",
+      "at driver2 p1-2"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-2)",
+      "not (empty truck1)"
+    ],
+    "add-effects": [
+      "driving driver2 truck1"
+    ]
+  },
+  "unload-truck package2 truck1 s1": {
+    "preconditions": [
+      "at truck1 s1",
+      "in package2 truck1"
+    ],
+    "delete-effects": [
+      "not (in package2 truck1)"
+    ],
+    "add-effects": [
+      "at package2 s1"
+    ]
+  },
+  "unload-truck package2 truck1 s2": {
+    "preconditions": [
+      "in package2 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (in package2 truck1)"
+    ],
+    "add-effects": [
+      "at package2 s2"
+    ]
+  },
+  "drive-truck truck1 s0 s1 driver1": {
+    "preconditions": [
+      "at truck1 s0",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s0)"
+    ],
+    "add-effects": [
+      "at truck1 s1"
+    ]
+  },
+  "drive-truck truck1 s0 s1 driver2": {
+    "preconditions": [
+      "at truck1 s0",
+      "driving driver2 truck1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s0)"
+    ],
+    "add-effects": [
+      "at truck1 s1"
+    ]
+  },
+  "load-truck package2 truck2 s1": {
+    "preconditions": [
+      "at package2 s1",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (at package2 s1)"
+    ],
+    "add-effects": [
+      "in package2 truck2"
+    ]
+  },
+  "load-truck package2 truck2 s0": {
+    "preconditions": [
+      "at package2 s0",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at package2 s0)"
+    ],
+    "add-effects": [
+      "in package2 truck2"
+    ]
+  },
+  "drive-truck truck2 s2 s0 driver1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (at truck2 s2)"
+    ],
+    "add-effects": [
+      "at truck2 s0"
+    ]
+  },
+  "drive-truck truck2 s2 s0 driver2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (at truck2 s2)"
+    ],
+    "add-effects": [
+      "at truck2 s0"
+    ]
+  },
+  "disembark-truck driver1 truck2 p1-0": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 p1-0"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver1 p1-0"
+    ]
+  },
+  "disembark-truck driver2 truck2 p1-2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 p1-2"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver2 p1-2"
+    ]
+  },
+  "disembark-truck driver2 truck2 p1-0": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 p1-0"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver2 p1-0"
+    ]
+  },
+  "disembark-truck driver1 truck2 p1-2": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 p1-2"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck2)"
+    ],
+    "add-effects": [
+      "at driver1 p1-2",
+      "empty truck2"
+    ]
+  },
+  "board-truck driver1 truck2 s0": {
+    "preconditions": [
+      "at driver1 s0",
+      "empty truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at driver1 s0)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver1 truck2"
+    ]
+  },
+  "board-truck driver1 truck2 s1": {
+    "preconditions": [
+      "at truck2 s1",
+      "empty truck2",
+      "at driver1 s1"
+    ],
+    "delete-effects": [
+      "not (at driver1 s1)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver1 truck2"
+    ]
+  },
+  "disembark-truck driver2 truck2 s2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver2 s2"
+    ]
+  },
+  "drive-truck truck1 s2 s0 driver1": {
+    "preconditions": [
+      "driving driver1 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (at truck1 s2)"
+    ],
+    "add-effects": [
+      "at truck1 s0"
+    ]
+  },
+  "board-truck driver1 truck2 s2": {
+    "preconditions": [
+      "at truck2 s2",
+      "empty truck2",
+      "at driver1 s2"
+    ],
+    "delete-effects": [
+      "not (at driver1 s2)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver1 truck2"
+    ]
+  },
+  "walk driver2 s1 p1-0": {
+    "preconditions": [
+      "at driver2 s1"
+    ],
+    "delete-effects": [
+      "not (at driver2 s1)"
+    ],
+    "add-effects": [
+      "at driver2 p1-0"
+    ]
+  },
+  "disembark-truck driver2 truck2 s0": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver2 s0"
+    ]
+  },
+  "drive-truck truck1 s2 s0 driver2": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (at truck1 s2)"
+    ],
+    "add-effects": [
+      "at truck1 s0"
+    ]
+  },
+  "walk driver2 s1 p1-2": {
+    "preconditions": [
+      "at driver2 s1"
+    ],
+    "delete-effects": [
+      "not (at driver2 s1)"
+    ],
+    "add-effects": [
+      "at driver2 p1-2"
+    ]
+  },
+  "disembark-truck driver2 truck2 s1": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck2)"
+    ],
+    "add-effects": [
+      "empty truck2",
+      "at driver2 s1"
+    ]
+  },
+  "unload-truck package1 truck2 s0": {
+    "preconditions": [
+      "in package1 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (in package1 truck2)"
+    ],
+    "add-effects": [
+      "at package1 s0"
+    ]
+  },
+  "unload-truck package1 truck2 s1": {
+    "preconditions": [
+      "at truck2 s1",
+      "in package1 truck2"
+    ],
+    "delete-effects": [
+      "not (in package1 truck2)"
+    ],
+    "add-effects": [
+      "at package1 s1"
+    ]
+  },
+  "unload-truck package1 truck2 s2": {
+    "preconditions": [
+      "at truck2 s2",
+      "in package1 truck2"
+    ],
+    "delete-effects": [
+      "not (in package1 truck2)"
+    ],
+    "add-effects": [
+      "at package1 s2"
+    ]
+  },
+  "load-truck package1 truck1 s2": {
+    "preconditions": [
+      "at package1 s2",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (at package1 s2)"
+    ],
+    "add-effects": [
+      "in package1 truck1"
+    ]
+  },
+  "disembark-truck driver1 truck1 s1": {
+    "preconditions": [
+      "at truck1 s1",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver1 s1"
+    ]
+  },
+  "drive-truck truck1 s1 s0 driver2": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 s1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s1)"
+    ],
+    "add-effects": [
+      "at truck1 s0"
+    ]
+  },
+  "disembark-truck driver1 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver1 s0"
+    ]
+  },
+  "drive-truck truck1 s1 s0 driver1": {
+    "preconditions": [
+      "at truck1 s1",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s1)"
+    ],
+    "add-effects": [
+      "at truck1 s0"
+    ]
+  },
+  "disembark-truck driver1 truck1 s2": {
+    "preconditions": [
+      "driving driver1 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver1 s2"
+    ]
+  },
+  "load-truck package2 truck2 s2": {
+    "preconditions": [
+      "at truck2 s2",
+      "at package2 s2"
+    ],
+    "delete-effects": [
+      "not (at package2 s2)"
+    ],
+    "add-effects": [
+      "in package2 truck2"
+    ]
+  },
+  "disembark-truck driver2 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "driving driver2 truck1"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver2 s0"
+    ]
+  },
+  "load-truck package1 truck1 p1-0": {
+    "preconditions": [
+      "at package1 p1-0",
+      "at truck1 p1-0"
+    ],
+    "delete-effects": [
+      "not (at package1 p1-0)"
+    ],
+    "add-effects": [
+      "in package1 truck1"
+    ]
+  },
+  "load-truck package2 truck1 p1-0": {
+    "preconditions": [
+      "at truck1 p1-0",
+      "at package2 p1-0"
+    ],
+    "delete-effects": [
+      "not (at package2 p1-0)"
+    ],
+    "add-effects": [
+      "in package2 truck1"
+    ]
+  },
+  "disembark-truck driver2 truck1 s2": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 s2"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver2 s2"
+    ]
+  },
+  "drive-truck truck2 s2 s1 driver1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (at truck2 s2)"
+    ],
+    "add-effects": [
+      "at truck2 s1"
+    ]
+  },
+  "disembark-truck driver2 truck1 s1": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 s1"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver2 s1"
+    ]
+  },
+  "load-truck package1 truck1 p1-2": {
+    "preconditions": [
+      "at package1 p1-2",
+      "at truck1 p1-2"
+    ],
+    "delete-effects": [
+      "not (at package1 p1-2)"
+    ],
+    "add-effects": [
+      "in package1 truck1"
+    ]
+  },
+  "load-truck package1 truck1 s0": {
+    "preconditions": [
+      "at package1 s0",
+      "at truck1 s0"
+    ],
+    "delete-effects": [
+      "not (at package1 s0)"
+    ],
+    "add-effects": [
+      "in package1 truck1"
+    ]
+  },
+  "load-truck package1 truck1 s1": {
+    "preconditions": [
+      "at package1 s1",
+      "at truck1 s1"
+    ],
+    "delete-effects": [
+      "not (at package1 s1)"
+    ],
+    "add-effects": [
+      "in package1 truck1"
+    ]
+  },
+  "load-truck package2 truck1 p1-2": {
+    "preconditions": [
+      "at package2 p1-2",
+      "at truck1 p1-2"
+    ],
+    "delete-effects": [
+      "not (at package2 p1-2)"
+    ],
+    "add-effects": [
+      "in package2 truck1"
+    ]
+  },
+  "load-truck package1 truck2 p1-0": {
+    "preconditions": [
+      "at package1 p1-0",
+      "at truck2 p1-0"
+    ],
+    "delete-effects": [
+      "not (at package1 p1-0)"
+    ],
+    "add-effects": [
+      "in package1 truck2"
+    ]
+  },
+  "load-truck package1 truck2 p1-2": {
+    "preconditions": [
+      "at package1 p1-2",
+      "at truck2 p1-2"
+    ],
+    "delete-effects": [
+      "not (at package1 p1-2)"
+    ],
+    "add-effects": [
+      "in package1 truck2"
+    ]
+  },
+  "walk driver1 p1-0 s1": {
+    "preconditions": [
+      "at driver1 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver1 p1-0)"
+    ],
+    "add-effects": [
+      "at driver1 s1"
+    ]
+  },
+  "walk driver1 p1-0 s0": {
+    "preconditions": [
+      "at driver1 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver1 p1-0)"
+    ],
+    "add-effects": [
+      "at driver1 s0"
+    ]
+  },
+  "walk driver1 s2 p1-2": {
+    "preconditions": [
+      "at driver1 s2"
+    ],
+    "delete-effects": [
+      "not (at driver1 s2)"
+    ],
+    "add-effects": [
+      "at driver1 p1-2"
+    ]
+  },
+  "unload-truck package2 truck1 p1-2": {
+    "preconditions": [
+      "at truck1 p1-2",
+      "in package2 truck1"
+    ],
+    "delete-effects": [
+      "not (in package2 truck1)"
+    ],
+    "add-effects": [
+      "at package2 p1-2"
+    ]
+  },
+  "unload-truck package1 truck1 p1-0": {
+    "preconditions": [
+      "in package1 truck1",
+      "at truck1 p1-0"
+    ],
+    "delete-effects": [
+      "not (in package1 truck1)"
+    ],
+    "add-effects": [
+      "at package1 p1-0"
+    ]
+  },
+  "unload-truck package1 truck1 p1-2": {
+    "preconditions": [
+      "at truck1 p1-2",
+      "in package1 truck1"
+    ],
+    "delete-effects": [
+      "not (in package1 truck1)"
+    ],
+    "add-effects": [
+      "at package1 p1-2"
+    ]
+  },
+  "unload-truck package2 truck1 p1-0": {
+    "preconditions": [
+      "at truck1 p1-0",
+      "in package2 truck1"
+    ],
+    "delete-effects": [
+      "not (in package2 truck1)"
+    ],
+    "add-effects": [
+      "at package2 p1-0"
+    ]
+  },
+  "load-truck package2 truck1 s2": {
+    "preconditions": [
+      "at truck1 s2",
+      "at package2 s2"
+    ],
+    "delete-effects": [
+      "not (at package2 s2)"
+    ],
+    "add-effects": [
+      "in package2 truck1"
+    ]
+  },
+  "load-truck package2 truck1 s1": {
+    "preconditions": [
+      "at package2 s1",
+      "at truck1 s1"
+    ],
+    "delete-effects": [
+      "not (at package2 s1)"
+    ],
+    "add-effects": [
+      "in package2 truck1"
+    ]
+  },
+  "load-truck package2 truck2 p1-0": {
+    "preconditions": [
+      "at truck2 p1-0",
+      "at package2 p1-0"
+    ],
+    "delete-effects": [
+      "not (at package2 p1-0)"
+    ],
+    "add-effects": [
+      "in package2 truck2"
+    ]
+  },
+  "load-truck package2 truck2 p1-2": {
+    "preconditions": [
+      "at package2 p1-2",
+      "at truck2 p1-2"
+    ],
+    "delete-effects": [
+      "not (at package2 p1-2)"
+    ],
+    "add-effects": [
+      "in package2 truck2"
+    ]
+  },
+  "walk driver1 s1 p1-0": {
+    "preconditions": [
+      "at driver1 s1"
+    ],
+    "delete-effects": [
+      "not (at driver1 s1)"
+    ],
+    "add-effects": [
+      "at driver1 p1-0"
+    ]
+  },
+  "walk driver1 s1 p1-2": {
+    "preconditions": [
+      "at driver1 s1"
+    ],
+    "delete-effects": [
+      "not (at driver1 s1)"
+    ],
+    "add-effects": [
+      "at driver1 p1-2"
+    ]
+  },
+  "disembark-truck driver2 truck1 p1-0": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 p1-0"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver2 p1-0"
+    ]
+  },
+  "disembark-truck driver2 truck1 p1-2": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 p1-2"
+    ],
+    "delete-effects": [
+      "not (driving driver2 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver2 p1-2"
+    ]
+  },
+  "drive-truck truck2 s1 s2 driver2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (at truck2 s1)"
+    ],
+    "add-effects": [
+      "at truck2 s2"
+    ]
+  },
+  "drive-truck truck2 s1 s2 driver1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (at truck2 s1)"
+    ],
+    "add-effects": [
+      "at truck2 s2"
+    ]
+  },
+  "disembark-truck driver1 truck1 p1-2": {
+    "preconditions": [
+      "at truck1 p1-2",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck1)"
+    ],
+    "add-effects": [
+      "at driver1 p1-2",
+      "empty truck1"
+    ]
+  },
+  "disembark-truck driver1 truck1 p1-0": {
+    "preconditions": [
+      "driving driver1 truck1",
+      "at truck1 p1-0"
+    ],
+    "delete-effects": [
+      "not (driving driver1 truck1)"
+    ],
+    "add-effects": [
+      "empty truck1",
+      "at driver1 p1-0"
+    ]
+  },
+  "walk driver2 s0 p1-0": {
+    "preconditions": [
+      "at driver2 s0"
+    ],
+    "delete-effects": [
+      "not (at driver2 s0)"
+    ],
+    "add-effects": [
+      "at driver2 p1-0"
+    ]
+  },
+  "board-truck driver2 truck2 s1": {
+    "preconditions": [
+      "at driver2 s1",
+      "at truck2 s1",
+      "empty truck2"
+    ],
+    "delete-effects": [
+      "not (at driver2 s1)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver2 truck2"
+    ]
+  },
+  "board-truck driver2 truck2 s0": {
+    "preconditions": [
+      "at driver2 s0",
+      "empty truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at driver2 s0)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver2 truck2"
+    ]
+  },
+  "board-truck driver2 truck2 s2": {
+    "preconditions": [
+      "at driver2 s2",
+      "at truck2 s2",
+      "empty truck2"
+    ],
+    "delete-effects": [
+      "not (at driver2 s2)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver2 truck2"
+    ]
+  },
+  "walk driver2 s2 p1-2": {
+    "preconditions": [
+      "at driver2 s2"
+    ],
+    "delete-effects": [
+      "not (at driver2 s2)"
+    ],
+    "add-effects": [
+      "at driver2 p1-2"
+    ]
+  },
+  "drive-truck truck1 s1 s2 driver1": {
+    "preconditions": [
+      "at truck1 s1",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s1)"
+    ],
+    "add-effects": [
+      "at truck1 s2"
+    ]
+  },
+  "drive-truck truck1 s1 s2 driver2": {
+    "preconditions": [
+      "driving driver2 truck1",
+      "at truck1 s1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s1)"
+    ],
+    "add-effects": [
+      "at truck1 s2"
+    ]
+  },
+  "drive-truck truck2 s0 s1 driver1": {
+    "preconditions": [
+      "driving driver1 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at truck2 s0)"
+    ],
+    "add-effects": [
+      "at truck2 s1"
+    ]
+  },
+  "unload-truck package2 truck2 s0": {
+    "preconditions": [
+      "in package2 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (in package2 truck2)"
+    ],
+    "add-effects": [
+      "at package2 s0"
+    ]
+  },
+  "unload-truck package2 truck2 s2": {
+    "preconditions": [
+      "in package2 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (in package2 truck2)"
+    ],
+    "add-effects": [
+      "at package2 s2"
+    ]
+  },
+  "unload-truck package2 truck2 s1": {
+    "preconditions": [
+      "in package2 truck2",
+      "at truck2 s1"
+    ],
+    "delete-effects": [
+      "not (in package2 truck2)"
+    ],
+    "add-effects": [
+      "at package2 s1"
+    ]
+  },
+  "drive-truck truck2 s0 s1 driver2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s0"
+    ],
+    "delete-effects": [
+      "not (at truck2 s0)"
+    ],
+    "add-effects": [
+      "at truck2 s1"
+    ]
+  },
+  "unload-truck package2 truck2 p1-0": {
+    "preconditions": [
+      "in package2 truck2",
+      "at truck2 p1-0"
+    ],
+    "delete-effects": [
+      "not (in package2 truck2)"
+    ],
+    "add-effects": [
+      "at package2 p1-0"
+    ]
+  },
+  "board-truck driver1 truck2 p1-0": {
+    "preconditions": [
+      "empty truck2",
+      "at truck2 p1-0",
+      "at driver1 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver1 p1-0)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver1 truck2"
+    ]
+  },
+  "unload-truck package2 truck2 p1-2": {
+    "preconditions": [
+      "in package2 truck2",
+      "at truck2 p1-2"
+    ],
+    "delete-effects": [
+      "not (in package2 truck2)"
+    ],
+    "add-effects": [
+      "at package2 p1-2"
+    ]
+  },
+  "unload-truck package1 truck2 p1-0": {
+    "preconditions": [
+      "in package1 truck2",
+      "at truck2 p1-0"
+    ],
+    "delete-effects": [
+      "not (in package1 truck2)"
+    ],
+    "add-effects": [
+      "at package1 p1-0"
+    ]
+  },
+  "board-truck driver2 truck2 p1-2": {
+    "preconditions": [
+      "empty truck2",
+      "at truck2 p1-2",
+      "at driver2 p1-2"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-2)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver2 truck2"
+    ]
+  },
+  "load-truck package2 truck1 s0": {
+    "preconditions": [
+      "at truck1 s0",
+      "at package2 s0"
+    ],
+    "delete-effects": [
+      "not (at package2 s0)"
+    ],
+    "add-effects": [
+      "in package2 truck1"
+    ]
+  },
+  "unload-truck package1 truck2 p1-2": {
+    "preconditions": [
+      "at truck2 p1-2",
+      "in package1 truck2"
+    ],
+    "delete-effects": [
+      "not (in package1 truck2)"
+    ],
+    "add-effects": [
+      "at package1 p1-2"
+    ]
+  },
+  "board-truck driver2 truck2 p1-0": {
+    "preconditions": [
+      "at driver2 p1-0",
+      "empty truck2",
+      "at truck2 p1-0"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-0)",
+      "not (empty truck2)"
+    ],
+    "add-effects": [
+      "driving driver2 truck2"
+    ]
+  },
+  "board-truck driver1 truck2 p1-2": {
+    "preconditions": [
+      "at driver1 p1-2",
+      "empty truck2",
+      "at truck2 p1-2"
+    ],
+    "delete-effects": [
+      "not (empty truck2)",
+      "not (at driver1 p1-2)"
+    ],
+    "add-effects": [
+      "driving driver1 truck2"
+    ]
+  },
+  "walk driver2 p1-2 s2": {
+    "preconditions": [
+      "at driver2 p1-2"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-2)"
+    ],
+    "add-effects": [
+      "at driver2 s2"
+    ]
+  },
+  "walk driver2 p1-2 s1": {
+    "preconditions": [
+      "at driver2 p1-2"
+    ],
+    "delete-effects": [
+      "not (at driver2 p1-2)"
+    ],
+    "add-effects": [
+      "at driver2 s1"
+    ]
+  },
+  "drive-truck truck2 s2 s1 driver2": {
+    "preconditions": [
+      "driving driver2 truck2",
+      "at truck2 s2"
+    ],
+    "delete-effects": [
+      "not (at truck2 s2)"
+    ],
+    "add-effects": [
+      "at truck2 s1"
+    ]
+  },
+  "walk driver1 s0 p1-0": {
+    "preconditions": [
+      "at driver1 s0"
+    ],
+    "delete-effects": [
+      "not (at driver1 s0)"
+    ],
+    "add-effects": [
+      "at driver1 p1-0"
+    ]
+  },
+  "drive-truck truck1 s0 s2 driver2": {
+    "preconditions": [
+      "at truck1 s0",
+      "driving driver2 truck1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s0)"
+    ],
+    "add-effects": [
+      "at truck1 s2"
+    ]
+  },
+  "drive-truck truck1 s0 s2 driver1": {
+    "preconditions": [
+      "at truck1 s0",
+      "driving driver1 truck1"
+    ],
+    "delete-effects": [
+      "not (at truck1 s0)"
+    ],
+    "add-effects": [
+      "at truck1 s2"
+    ]
+  }
+}

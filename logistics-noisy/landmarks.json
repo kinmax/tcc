@@ -1,0 +1,4184 @@
+{
+  "load-airplane obj11 apn1 apt2": {
+    "preconditions": [
+      "at obj11 apt2",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj11 apt2)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "load-airplane obj11 apn1 apt1": {
+    "preconditions": [
+      "at apn1 apt1",
+      "at obj11 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj11 apt1)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "unload-airplane obj23 apn1 pos13": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 pos13"
+    ]
+  },
+  "load-truck obj21 tru2 apt1": {
+    "preconditions": [
+      "at obj21 apt1",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj21 apt1)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-truck obj23 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "at obj23 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos11)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "load-truck obj23 tru1 pos12": {
+    "preconditions": [
+      "at tru1 pos12",
+      "at obj23 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos12)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "drive-truck tru2 apt2 pos22 cit2": {
+    "preconditions": [
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt2)"
+    ],
+    "add-effects": [
+      "at tru2 pos22"
+    ]
+  },
+  "load-truck obj13 tru1 pos13": {
+    "preconditions": [
+      "at obj13 pos13",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos13)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "drive-truck tru1 pos13 pos12 cit1": {
+    "preconditions": [
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos13)"
+    ],
+    "add-effects": [
+      "at tru1 pos12"
+    ]
+  },
+  "load-truck obj13 tru1 pos12": {
+    "preconditions": [
+      "at obj13 pos12",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos12)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "unload-airplane obj23 apn1 pos12": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 pos12"
+    ]
+  },
+  "load-truck obj13 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "at obj13 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos11)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "unload-airplane obj23 apn1 pos11": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 pos11"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 pos11"
+    ]
+  },
+  "load-truck obj22 tru2 apt2": {
+    "preconditions": [
+      "at tru2 apt2",
+      "at obj22 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj22 apt2)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "drive-truck tru2 apt1 pos12 cit1": {
+    "preconditions": [
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt1)"
+    ],
+    "add-effects": [
+      "at tru2 pos12"
+    ]
+  },
+  "unload-airplane obj13 apn1 pos12": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 pos12"
+    ]
+  },
+  "unload-airplane obj13 apn1 pos13": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 pos13"
+    ]
+  },
+  "load-truck obj22 tru2 apt1": {
+    "preconditions": [
+      "at obj22 apt1",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj22 apt1)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "unload-airplane obj13 apn1 pos11": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 pos11"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 pos11"
+    ]
+  },
+  "load-airplane obj12 apn1 apt2": {
+    "preconditions": [
+      "at obj12 apt2",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj12 apt2)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "unload-truck obj21 tru1 apt1": {
+    "preconditions": [
+      "in obj21 tru1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 apt1"
+    ]
+  },
+  "load-airplane obj12 apn1 apt1": {
+    "preconditions": [
+      "at obj12 apt1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj12 apt1)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "unload-truck obj21 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "in obj21 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 apt2"
+    ]
+  },
+  "load-truck obj13 tru2 apt1": {
+    "preconditions": [
+      "at obj13 apt1",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj13 apt1)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "load-truck obj13 tru2 apt2": {
+    "preconditions": [
+      "at tru2 apt2",
+      "at obj13 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj13 apt2)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "drive-truck tru2 pos12 pos12 cit1": {
+    "preconditions": [
+      "at tru2 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos12)"
+    ],
+    "add-effects": [
+      "at tru2 pos12"
+    ]
+  },
+  "load-truck obj23 tru2 apt2": {
+    "preconditions": [
+      "at obj23 apt2",
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj23 apt2)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "load-truck obj23 tru2 apt1": {
+    "preconditions": [
+      "at obj23 apt1",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj23 apt1)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "drive-truck tru2 pos11 pos12 cit1": {
+    "preconditions": [
+      "at tru2 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos11)"
+    ],
+    "add-effects": [
+      "at tru2 pos12"
+    ]
+  },
+  "unload-airplane obj22 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "in obj22 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 pos11"
+    ]
+  },
+  "drive-truck tru2 pos13 apt1 cit1": {
+    "preconditions": [
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos13)"
+    ],
+    "add-effects": [
+      "at tru2 apt1"
+    ]
+  },
+  "unload-airplane obj12 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "in obj12 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 pos11"
+    ]
+  },
+  "drive-truck tru1 pos11 pos11 cit1": {
+    "preconditions": [
+      "at tru1 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos11)"
+    ],
+    "add-effects": [
+      "at tru1 pos11"
+    ]
+  },
+  "unload-truck obj12 tru1 apt1": {
+    "preconditions": [
+      "at tru1 apt1",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 apt1"
+    ]
+  },
+  "unload-airplane obj12 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "in obj12 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 pos12"
+    ]
+  },
+  "unload-truck obj12 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 apt2"
+    ]
+  },
+  "load-airplane obj21 apn1 apt2": {
+    "preconditions": [
+      "at obj21 apt2",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj21 apt2)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "load-airplane obj21 apn1 apt1": {
+    "preconditions": [
+      "at obj21 apt1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj21 apt1)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "load-airplane obj21 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "at obj21 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos11)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "unload-airplane obj12 apn1 pos13": {
+    "preconditions": [
+      "at apn1 pos13",
+      "in obj12 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 pos13"
+    ]
+  },
+  "drive-truck tru1 pos22 apt2 cit2": {
+    "preconditions": [
+      "at tru1 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos22)"
+    ],
+    "add-effects": [
+      "at tru1 apt2"
+    ]
+  },
+  "load-airplane obj11 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "at obj11 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos11)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "unload-airplane obj22 apn1 pos13": {
+    "preconditions": [
+      "at apn1 pos13",
+      "in obj22 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 pos13"
+    ]
+  },
+  "load-airplane obj11 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "at obj11 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos12)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "unload-airplane obj22 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "in obj22 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 pos12"
+    ]
+  },
+  "load-airplane obj11 apn1 pos13": {
+    "preconditions": [
+      "at apn1 pos13",
+      "at obj11 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos13)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "load-airplane obj21 apn1 pos13": {
+    "preconditions": [
+      "at apn1 pos13",
+      "at obj21 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos13)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "load-airplane obj21 apn1 pos12": {
+    "preconditions": [
+      "at obj21 pos12",
+      "at apn1 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos12)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "drive-truck tru2 apt1 apt1 cit1": {
+    "preconditions": [
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt1)"
+    ],
+    "add-effects": [
+      "at tru2 apt1"
+    ]
+  },
+  "load-airplane obj22 apn1 pos21": {
+    "preconditions": [
+      "at obj22 pos21",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos21)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-truck obj11 tru2 apt1": {
+    "preconditions": [
+      "at tru2 apt1",
+      "at obj11 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj11 apt1)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-airplane obj22 apn1 pos22": {
+    "preconditions": [
+      "at obj22 pos22",
+      "at apn1 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos22)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-truck obj11 tru2 apt2": {
+    "preconditions": [
+      "at obj11 apt2",
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj11 apt2)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-airplane obj22 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "at obj22 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos23)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-airplane obj12 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "at obj12 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos22)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "load-airplane obj12 apn1 pos21": {
+    "preconditions": [
+      "at obj12 pos21",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos21)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "drive-truck tru1 pos22 pos23 cit2": {
+    "preconditions": [
+      "at tru1 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos22)"
+    ],
+    "add-effects": [
+      "at tru1 pos23"
+    ]
+  },
+  "load-airplane obj12 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "at obj12 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos23)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "unload-airplane obj22 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "in obj22 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 pos22"
+    ]
+  },
+  "unload-airplane obj22 apn1 pos21": {
+    "preconditions": [
+      "in obj22 apn1",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 pos21"
+    ]
+  },
+  "unload-airplane obj12 apn1 pos21": {
+    "preconditions": [
+      "in obj12 apn1",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 pos21"
+    ]
+  },
+  "load-truck obj23 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "at obj23 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos11)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "unload-airplane obj12 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "in obj12 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 pos22"
+    ]
+  },
+  "unload-airplane obj12 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "in obj12 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 pos23"
+    ]
+  },
+  "load-truck obj13 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "at obj13 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos11)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "load-truck obj13 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "at obj13 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos12)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "drive-truck tru2 pos21 pos21 cit2": {
+    "preconditions": [
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos21)"
+    ],
+    "add-effects": [
+      "at tru2 pos21"
+    ]
+  },
+  "load-truck obj23 tru1 pos13": {
+    "preconditions": [
+      "at obj23 pos13",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos13)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "load-truck obj23 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "at obj23 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos22)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "load-truck obj23 tru1 pos23": {
+    "preconditions": [
+      "at tru1 pos23",
+      "at obj23 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos23)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "load-truck obj23 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "at obj23 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos21)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "unload-airplane obj23 apn1 pos21": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 pos21"
+    ]
+  },
+  "load-airplane obj21 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "at obj21 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos22)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "load-truck obj21 tru2 apt2": {
+    "preconditions": [
+      "at obj21 apt2",
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj21 apt2)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-airplane obj11 apn1 pos21": {
+    "preconditions": [
+      "at obj11 pos21",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos21)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "load-airplane obj21 apn1 pos21": {
+    "preconditions": [
+      "at obj21 pos21",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos21)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "load-truck obj13 tru1 pos23": {
+    "preconditions": [
+      "at obj13 pos23",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos23)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "load-airplane obj11 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "at obj11 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos22)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "unload-airplane obj23 apn1 pos23": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 pos23"
+    ]
+  },
+  "load-truck obj13 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "at obj13 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos22)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "unload-airplane obj23 apn1 pos22": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 pos22"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 pos22"
+    ]
+  },
+  "unload-airplane obj22 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "in obj22 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 pos23"
+    ]
+  },
+  "load-airplane obj11 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "at obj11 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos23)"
+    ],
+    "add-effects": [
+      "in obj11 apn1"
+    ]
+  },
+  "load-truck obj13 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "at obj13 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos21)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "drive-truck tru1 pos21 pos23 cit2": {
+    "preconditions": [
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos21)"
+    ],
+    "add-effects": [
+      "at tru1 pos23"
+    ]
+  },
+  "unload-airplane obj13 apn1 pos23": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 pos23"
+    ]
+  },
+  "unload-truck obj22 tru1 apt1": {
+    "preconditions": [
+      "in obj22 tru1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 apt1"
+    ]
+  },
+  "unload-truck obj22 tru1 apt2": {
+    "preconditions": [
+      "in obj22 tru1",
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 apt2"
+    ]
+  },
+  "unload-airplane obj13 apn1 pos21": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 pos21"
+    ]
+  },
+  "unload-airplane obj13 apn1 pos22": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 pos22"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 pos22"
+    ]
+  },
+  "load-airplane obj21 apn1 pos23": {
+    "preconditions": [
+      "at obj21 pos23",
+      "at apn1 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos23)"
+    ],
+    "add-effects": [
+      "in obj21 apn1"
+    ]
+  },
+  "load-truck obj22 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "at obj22 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos22)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "load-truck obj22 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "at obj22 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos21)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "load-airplane obj12 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "at obj12 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos11)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "unload-truck obj13 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "in obj13 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 pos11"
+    ]
+  },
+  "unload-truck obj11 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "in obj11 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 pos11"
+    ]
+  },
+  "unload-truck obj13 tru1 pos12": {
+    "preconditions": [
+      "in obj13 tru1",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 pos12"
+    ]
+  },
+  "unload-truck obj13 tru1 pos13": {
+    "preconditions": [
+      "at tru1 pos13",
+      "in obj13 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 pos13"
+    ]
+  },
+  "load-airplane obj12 apn1 pos13": {
+    "preconditions": [
+      "at obj12 pos13",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos13)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "load-airplane obj12 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "at obj12 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos12)"
+    ],
+    "add-effects": [
+      "in obj12 apn1"
+    ]
+  },
+  "unload-truck obj11 tru2 pos13": {
+    "preconditions": [
+      "in obj11 tru2",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 pos13"
+    ]
+  },
+  "load-truck obj23 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "at obj23 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos22)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "drive-truck tru1 pos23 apt2 cit2": {
+    "preconditions": [
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos23)"
+    ],
+    "add-effects": [
+      "at tru1 apt2"
+    ]
+  },
+  "load-truck obj23 tru2 pos21": {
+    "preconditions": [
+      "at obj23 pos21",
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos21)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "unload-truck obj11 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "in obj11 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 pos12"
+    ]
+  },
+  "drive-truck tru2 pos13 pos13 cit1": {
+    "preconditions": [
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos13)"
+    ],
+    "add-effects": [
+      "at tru2 pos13"
+    ]
+  },
+  "load-truck obj23 tru2 pos13": {
+    "preconditions": [
+      "at obj23 pos13",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos13)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "load-truck obj23 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "at obj23 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos12)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "drive-truck tru2 pos13 pos12 cit1": {
+    "preconditions": [
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos13)"
+    ],
+    "add-effects": [
+      "at tru2 pos12"
+    ]
+  },
+  "load-truck obj22 tru1 pos13": {
+    "preconditions": [
+      "at tru1 pos13",
+      "at obj22 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos13)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "load-truck obj22 tru1 pos12": {
+    "preconditions": [
+      "at tru1 pos12",
+      "at obj22 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos12)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "unload-airplane obj11 apn1 pos13": {
+    "preconditions": [
+      "in obj11 apn1",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 pos13"
+    ]
+  },
+  "load-truck obj22 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "at obj22 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos11)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "unload-airplane obj11 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "in obj11 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 pos12"
+    ]
+  },
+  "unload-truck obj13 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "in obj13 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 pos21"
+    ]
+  },
+  "unload-truck obj13 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "in obj13 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 pos22"
+    ]
+  },
+  "unload-truck obj11 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "in obj11 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 pos22"
+    ]
+  },
+  "unload-truck obj13 tru1 pos23": {
+    "preconditions": [
+      "in obj13 tru1",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 pos23"
+    ]
+  },
+  "unload-truck obj11 tru2 pos21": {
+    "preconditions": [
+      "at tru2 pos21",
+      "in obj11 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 pos21"
+    ]
+  },
+  "drive-truck tru1 pos23 pos22 cit2": {
+    "preconditions": [
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos23)"
+    ],
+    "add-effects": [
+      "at tru1 pos22"
+    ]
+  },
+  "unload-truck obj11 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "in obj11 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 pos23"
+    ]
+  },
+  "unload-truck obj22 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 pos23"
+    ]
+  },
+  "drive-truck tru2 pos11 apt1 cit1": {
+    "preconditions": [
+      "at tru2 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos11)"
+    ],
+    "add-effects": [
+      "at tru2 apt1"
+    ]
+  },
+  "drive-truck tru1 pos12 pos11 cit1": {
+    "preconditions": [
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos12)"
+    ],
+    "add-effects": [
+      "at tru1 pos11"
+    ]
+  },
+  "load-truck obj23 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "at obj23 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos23)"
+    ],
+    "add-effects": [
+      "in obj23 tru2"
+    ]
+  },
+  "load-truck obj11 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "at obj11 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos11)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "unload-airplane obj11 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "in obj11 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 pos11"
+    ]
+  },
+  "unload-truck obj22 tru2 pos21": {
+    "preconditions": [
+      "at tru2 pos21",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 pos21"
+    ]
+  },
+  "unload-truck obj22 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 pos22"
+    ]
+  },
+  "drive-truck tru2 pos22 pos22 cit2": {
+    "preconditions": [
+      "at tru2 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos22)"
+    ],
+    "add-effects": [
+      "at tru2 pos22"
+    ]
+  },
+  "drive-truck tru1 apt2 pos21 cit2": {
+    "preconditions": [
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt2)"
+    ],
+    "add-effects": [
+      "at tru1 pos21"
+    ]
+  },
+  "load-truck obj21 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "at obj21 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj21 apt2)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "load-airplane obj13 apn1 apt2": {
+    "preconditions": [
+      "at obj13 apt2",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj13 apt2)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "drive-truck tru1 pos21 pos21 cit2": {
+    "preconditions": [
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos21)"
+    ],
+    "add-effects": [
+      "at tru1 pos21"
+    ]
+  },
+  "load-truck obj21 tru1 apt1": {
+    "preconditions": [
+      "at obj21 apt1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj21 apt1)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "load-airplane obj13 apn1 apt1": {
+    "preconditions": [
+      "at obj13 apt1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj13 apt1)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "drive-truck tru1 apt2 apt2 cit2": {
+    "preconditions": [
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt2)"
+    ],
+    "add-effects": [
+      "at tru1 apt2"
+    ]
+  },
+  "drive-truck tru1 pos12 pos12 cit1": {
+    "preconditions": [
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos12)"
+    ],
+    "add-effects": [
+      "at tru1 pos12"
+    ]
+  },
+  "unload-truck obj13 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "in obj13 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 apt2"
+    ]
+  },
+  "drive-truck tru2 pos11 pos13 cit1": {
+    "preconditions": [
+      "at tru2 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos11)"
+    ],
+    "add-effects": [
+      "at tru2 pos13"
+    ]
+  },
+  "unload-truck obj13 tru1 apt1": {
+    "preconditions": [
+      "at tru1 apt1",
+      "in obj13 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru1)"
+    ],
+    "add-effects": [
+      "at obj13 apt1"
+    ]
+  },
+  "drive-truck tru2 pos12 apt1 cit1": {
+    "preconditions": [
+      "at tru2 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos12)"
+    ],
+    "add-effects": [
+      "at tru2 apt1"
+    ]
+  },
+  "drive-truck tru1 apt1 apt1 cit1": {
+    "preconditions": [
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt1)"
+    ],
+    "add-effects": [
+      "at tru1 apt1"
+    ]
+  },
+  "drive-truck tru1 pos23 pos21 cit2": {
+    "preconditions": [
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos23)"
+    ],
+    "add-effects": [
+      "at tru1 pos21"
+    ]
+  },
+  "unload-truck obj13 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "in obj13 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 pos23"
+    ]
+  },
+  "drive-truck tru2 pos12 pos11 cit1": {
+    "preconditions": [
+      "at tru2 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos12)"
+    ],
+    "add-effects": [
+      "at tru2 pos11"
+    ]
+  },
+  "unload-truck obj13 tru2 pos21": {
+    "preconditions": [
+      "in obj13 tru2",
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 pos21"
+    ]
+  },
+  "unload-truck obj13 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "in obj13 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 pos22"
+    ]
+  },
+  "unload-airplane obj22 apn1 apt1": {
+    "preconditions": [
+      "in obj22 apn1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 apt1"
+    ]
+  },
+  "load-truck obj22 tru1 apt1": {
+    "preconditions": [
+      "at obj22 apt1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj22 apt1)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "load-truck obj22 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "at obj22 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj22 apt2)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "drive-truck tru2 apt1 pos11 cit1": {
+    "preconditions": [
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt1)"
+    ],
+    "add-effects": [
+      "at tru2 pos11"
+    ]
+  },
+  "unload-airplane obj22 apn1 apt2": {
+    "preconditions": [
+      "in obj22 apn1",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj22 apn1)"
+    ],
+    "add-effects": [
+      "at obj22 apt2"
+    ]
+  },
+  "unload-truck obj12 tru1 pos23": {
+    "preconditions": [
+      "at tru1 pos23",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 pos23"
+    ]
+  },
+  "drive-truck tru2 pos23 pos21 cit2": {
+    "preconditions": [
+      "at tru2 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos23)"
+    ],
+    "add-effects": [
+      "at tru2 pos21"
+    ]
+  },
+  "unload-truck obj12 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 pos21"
+    ]
+  },
+  "unload-truck obj21 tru2 apt1": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 apt1"
+    ]
+  },
+  "drive-truck tru1 pos21 pos22 cit2": {
+    "preconditions": [
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos21)"
+    ],
+    "add-effects": [
+      "at tru1 pos22"
+    ]
+  },
+  "unload-truck obj21 tru2 apt2": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 apt2"
+    ]
+  },
+  "unload-truck obj12 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 pos22"
+    ]
+  },
+  "unload-truck obj23 tru2 pos21": {
+    "preconditions": [
+      "at tru2 pos21",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 pos21"
+    ]
+  },
+  "drive-truck tru2 pos22 apt2 cit2": {
+    "preconditions": [
+      "at tru2 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos22)"
+    ],
+    "add-effects": [
+      "at tru2 apt2"
+    ]
+  },
+  "unload-truck obj23 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 pos23"
+    ]
+  },
+  "unload-truck obj23 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 pos22"
+    ]
+  },
+  "drive-truck tru2 apt2 apt2 cit2": {
+    "preconditions": [
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt2)"
+    ],
+    "add-effects": [
+      "at tru2 apt2"
+    ]
+  },
+  "drive-truck tru1 pos13 apt1 cit1": {
+    "preconditions": [
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos13)"
+    ],
+    "add-effects": [
+      "at tru1 apt1"
+    ]
+  },
+  "unload-truck obj13 tru2 apt1": {
+    "preconditions": [
+      "in obj13 tru2",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 apt1"
+    ]
+  },
+  "unload-truck obj22 tru1 pos21": {
+    "preconditions": [
+      "in obj22 tru1",
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 pos21"
+    ]
+  },
+  "unload-truck obj13 tru2 apt2": {
+    "preconditions": [
+      "in obj13 tru2",
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 apt2"
+    ]
+  },
+  "unload-truck obj22 tru1 pos23": {
+    "preconditions": [
+      "in obj22 tru1",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 pos23"
+    ]
+  },
+  "unload-truck obj22 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "in obj22 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 pos22"
+    ]
+  },
+  "unload-airplane obj21 apn1 apt1": {
+    "preconditions": [
+      "in obj21 apn1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 apt1"
+    ]
+  },
+  "load-truck obj12 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "at obj12 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos23)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "unload-truck obj13 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "in obj13 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 pos12"
+    ]
+  },
+  "unload-airplane obj21 apn1 apt2": {
+    "preconditions": [
+      "in obj21 apn1",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 apt2"
+    ]
+  },
+  "unload-truck obj13 tru2 pos13": {
+    "preconditions": [
+      "in obj13 tru2",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 pos13"
+    ]
+  },
+  "unload-truck obj23 tru2 pos13": {
+    "preconditions": [
+      "in obj23 tru2",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 pos13"
+    ]
+  },
+  "drive-truck tru1 pos13 pos11 cit1": {
+    "preconditions": [
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos13)"
+    ],
+    "add-effects": [
+      "at tru1 pos11"
+    ]
+  },
+  "load-truck obj22 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "at obj22 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos23)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "unload-truck obj13 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "in obj13 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj13 tru2)"
+    ],
+    "add-effects": [
+      "at obj13 pos11"
+    ]
+  },
+  "load-truck obj22 tru2 pos22": {
+    "preconditions": [
+      "at obj22 pos22",
+      "at tru2 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos22)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "drive-truck tru2 pos23 pos23 cit2": {
+    "preconditions": [
+      "at tru2 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos23)"
+    ],
+    "add-effects": [
+      "at tru2 pos23"
+    ]
+  },
+  "drive-truck tru2 pos21 apt2 cit2": {
+    "preconditions": [
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos21)"
+    ],
+    "add-effects": [
+      "at tru2 apt2"
+    ]
+  },
+  "unload-truck obj22 tru2 apt2": {
+    "preconditions": [
+      "at tru2 apt2",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 apt2"
+    ]
+  },
+  "unload-truck obj23 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 pos12"
+    ]
+  },
+  "drive-truck tru2 apt1 pos13 cit1": {
+    "preconditions": [
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt1)"
+    ],
+    "add-effects": [
+      "at tru2 pos13"
+    ]
+  },
+  "unload-truck obj22 tru2 apt1": {
+    "preconditions": [
+      "at tru2 apt1",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 apt1"
+    ]
+  },
+  "unload-truck obj23 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 pos11"
+    ]
+  },
+  "drive-truck tru2 pos22 pos23 cit2": {
+    "preconditions": [
+      "at tru2 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos22)"
+    ],
+    "add-effects": [
+      "at tru2 pos23"
+    ]
+  },
+  "drive-truck tru1 pos12 apt1 cit1": {
+    "preconditions": [
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos12)"
+    ],
+    "add-effects": [
+      "at tru1 apt1"
+    ]
+  },
+  "unload-truck obj12 tru2 apt2": {
+    "preconditions": [
+      "at tru2 apt2",
+      "in obj12 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 apt2"
+    ]
+  },
+  "unload-truck obj12 tru2 apt1": {
+    "preconditions": [
+      "in obj12 tru2",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 apt1"
+    ]
+  },
+  "drive-truck tru2 apt2 pos21 cit2": {
+    "preconditions": [
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt2)"
+    ],
+    "add-effects": [
+      "at tru2 pos21"
+    ]
+  },
+  "load-truck obj12 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "at obj12 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos12)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "unload-truck obj23 tru2 apt2": {
+    "preconditions": [
+      "at tru2 apt2",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 apt2"
+    ]
+  },
+  "unload-truck obj23 tru2 apt1": {
+    "preconditions": [
+      "at tru2 apt1",
+      "in obj23 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru2)"
+    ],
+    "add-effects": [
+      "at obj23 apt1"
+    ]
+  },
+  "load-truck obj12 tru2 pos13": {
+    "preconditions": [
+      "at obj12 pos13",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos13)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "load-truck obj22 tru2 pos13": {
+    "preconditions": [
+      "at obj22 pos13",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos13)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "load-truck obj22 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "at obj22 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos12)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "unload-airplane obj11 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "in obj11 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 pos23"
+    ]
+  },
+  "load-truck obj22 tru2 pos11": {
+    "preconditions": [
+      "at obj22 pos11",
+      "at tru2 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos11)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "unload-airplane obj21 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "in obj21 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 pos22"
+    ]
+  },
+  "unload-truck obj21 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "in obj21 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 pos21"
+    ]
+  },
+  "unload-airplane obj21 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "in obj21 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 pos23"
+    ]
+  },
+  "unload-truck obj21 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "in obj21 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 pos22"
+    ]
+  },
+  "unload-truck obj21 tru1 pos23": {
+    "preconditions": [
+      "in obj21 tru1",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 pos23"
+    ]
+  },
+  "load-truck obj11 tru1 pos12": {
+    "preconditions": [
+      "at obj11 pos12",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos12)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "load-truck obj21 tru1 pos13": {
+    "preconditions": [
+      "at tru1 pos13",
+      "at obj21 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos13)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "load-truck obj11 tru1 pos13": {
+    "preconditions": [
+      "at tru1 pos13",
+      "at obj11 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos13)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "load-truck obj21 tru1 pos12": {
+    "preconditions": [
+      "at obj21 pos12",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos12)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "load-truck obj21 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "at obj21 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos11)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "drive-truck tru1 pos12 pos13 cit1": {
+    "preconditions": [
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos12)"
+    ],
+    "add-effects": [
+      "at tru1 pos13"
+    ]
+  },
+  "load-truck obj11 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "at obj11 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos22)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-truck obj11 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "at obj11 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos23)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "unload-truck obj22 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 pos12"
+    ]
+  },
+  "drive-truck tru1 pos23 pos23 cit2": {
+    "preconditions": [
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos23)"
+    ],
+    "add-effects": [
+      "at tru1 pos23"
+    ]
+  },
+  "load-airplane obj13 apn1 pos21": {
+    "preconditions": [
+      "at obj13 pos21",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos21)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "load-truck obj21 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "at obj21 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos22)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-airplane obj23 apn1 pos23": {
+    "preconditions": [
+      "at apn1 pos23",
+      "at obj23 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos23)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "load-truck obj21 tru2 pos21": {
+    "preconditions": [
+      "at tru2 pos21",
+      "at obj21 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos21)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "unload-truck obj22 tru2 pos13": {
+    "preconditions": [
+      "at tru2 pos13",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 pos13"
+    ]
+  },
+  "load-airplane obj23 apn1 pos21": {
+    "preconditions": [
+      "at obj23 pos21",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos21)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "unload-truck obj12 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "in obj12 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 pos12"
+    ]
+  },
+  "load-truck obj13 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "at obj13 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj13 apt2)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "load-truck obj21 tru2 pos23": {
+    "preconditions": [
+      "at obj21 pos23",
+      "at tru2 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos23)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-airplane obj23 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "at obj23 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos22)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "unload-truck obj12 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "in obj12 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 pos11"
+    ]
+  },
+  "drive-truck tru2 pos11 pos11 cit1": {
+    "preconditions": [
+      "at tru2 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos11)"
+    ],
+    "add-effects": [
+      "at tru2 pos11"
+    ]
+  },
+  "load-truck obj13 tru1 apt1": {
+    "preconditions": [
+      "at obj13 apt1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj13 apt1)"
+    ],
+    "add-effects": [
+      "in obj13 tru1"
+    ]
+  },
+  "load-truck obj21 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "at obj21 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos21)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "unload-truck obj11 tru1 pos13": {
+    "preconditions": [
+      "in obj11 tru1",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 pos13"
+    ]
+  },
+  "load-airplane obj13 apn1 pos23": {
+    "preconditions": [
+      "at obj13 pos23",
+      "at apn1 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos23)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "load-truck obj11 tru1 pos21": {
+    "preconditions": [
+      "at obj11 pos21",
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos21)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "load-airplane obj13 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "at obj13 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos22)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "load-truck obj11 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "at obj11 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos22)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "drive-truck tru1 pos11 apt1 cit1": {
+    "preconditions": [
+      "at tru1 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos11)"
+    ],
+    "add-effects": [
+      "at tru1 apt1"
+    ]
+  },
+  "unload-airplane obj21 apn1 pos21": {
+    "preconditions": [
+      "in obj21 apn1",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 pos21"
+    ]
+  },
+  "unload-truck obj11 tru1 pos12": {
+    "preconditions": [
+      "in obj11 tru1",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 pos12"
+    ]
+  },
+  "unload-truck obj11 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "in obj11 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 pos11"
+    ]
+  },
+  "unload-airplane obj11 apn1 pos22": {
+    "preconditions": [
+      "at apn1 pos22",
+      "in obj11 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 pos22"
+    ]
+  },
+  "load-truck obj22 tru2 pos21": {
+    "preconditions": [
+      "at obj22 pos21",
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos21)"
+    ],
+    "add-effects": [
+      "in obj22 tru2"
+    ]
+  },
+  "unload-airplane obj11 apn1 pos21": {
+    "preconditions": [
+      "in obj11 apn1",
+      "at apn1 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 pos21"
+    ]
+  },
+  "drive-truck tru2 pos22 pos21 cit2": {
+    "preconditions": [
+      "at tru2 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos22)"
+    ],
+    "add-effects": [
+      "at tru2 pos21"
+    ]
+  },
+  "unload-truck obj12 tru2 pos13": {
+    "preconditions": [
+      "in obj12 tru2",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 pos13"
+    ]
+  },
+  "load-truck obj12 tru2 pos21": {
+    "preconditions": [
+      "at obj12 pos21",
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos21)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "load-truck obj12 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "at obj12 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos22)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "unload-truck obj22 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "in obj22 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru2)"
+    ],
+    "add-effects": [
+      "at obj22 pos11"
+    ]
+  },
+  "drive-truck tru1 apt2 pos22 cit2": {
+    "preconditions": [
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt2)"
+    ],
+    "add-effects": [
+      "at tru1 pos22"
+    ]
+  },
+  "drive-truck tru2 apt2 pos23 cit2": {
+    "preconditions": [
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru2 apt2)"
+    ],
+    "add-effects": [
+      "at tru2 pos23"
+    ]
+  },
+  "unload-truck obj21 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "in obj21 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 pos11"
+    ]
+  },
+  "unload-truck obj12 tru1 pos12": {
+    "preconditions": [
+      "at tru1 pos12",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 pos12"
+    ]
+  },
+  "unload-airplane obj23 apn1 apt1": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 apt1"
+    ]
+  },
+  "load-truck obj11 tru1 pos23": {
+    "preconditions": [
+      "at obj11 pos23",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos23)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "unload-truck obj21 tru1 pos12": {
+    "preconditions": [
+      "in obj21 tru1",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 pos12"
+    ]
+  },
+  "unload-airplane obj23 apn1 apt2": {
+    "preconditions": [
+      "in obj23 apn1",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj23 apn1)"
+    ],
+    "add-effects": [
+      "at obj23 apt2"
+    ]
+  },
+  "unload-truck obj21 tru1 pos13": {
+    "preconditions": [
+      "in obj21 tru1",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru1)"
+    ],
+    "add-effects": [
+      "at obj21 pos13"
+    ]
+  },
+  "unload-truck obj12 tru1 pos13": {
+    "preconditions": [
+      "at tru1 pos13",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 pos13"
+    ]
+  },
+  "load-truck obj23 tru1 apt2": {
+    "preconditions": [
+      "at obj23 apt2",
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj23 apt2)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "load-truck obj21 tru1 pos23": {
+    "preconditions": [
+      "at obj21 pos23",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos23)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "load-truck obj23 tru1 apt1": {
+    "preconditions": [
+      "at obj23 apt1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj23 apt1)"
+    ],
+    "add-effects": [
+      "in obj23 tru1"
+    ]
+  },
+  "unload-truck obj12 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "in obj12 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru1)"
+    ],
+    "add-effects": [
+      "at obj12 pos11"
+    ]
+  },
+  "load-truck obj21 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "at obj21 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos22)"
+    ],
+    "add-effects": [
+      "in obj21 tru1"
+    ]
+  },
+  "load-truck obj11 tru2 pos13": {
+    "preconditions": [
+      "at tru2 pos13",
+      "at obj11 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos13)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-truck obj11 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "at obj11 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos11)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-truck obj11 tru2 pos12": {
+    "preconditions": [
+      "at tru2 pos12",
+      "at obj11 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos12)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-truck obj21 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "at obj21 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos11)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-airplane obj23 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "at obj23 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos12)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "load-airplane obj23 apn1 pos13": {
+    "preconditions": [
+      "at obj23 pos13",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos13)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "drive-truck tru2 pos13 pos11 cit1": {
+    "preconditions": [
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos13)"
+    ],
+    "add-effects": [
+      "at tru2 pos11"
+    ]
+  },
+  "load-truck obj11 tru2 pos21": {
+    "preconditions": [
+      "at obj11 pos21",
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj11 pos21)"
+    ],
+    "add-effects": [
+      "in obj11 tru2"
+    ]
+  },
+  "load-truck obj21 tru2 pos13": {
+    "preconditions": [
+      "at obj21 pos13",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos13)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-truck obj21 tru2 pos12": {
+    "preconditions": [
+      "at obj21 pos12",
+      "at tru2 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj21 pos12)"
+    ],
+    "add-effects": [
+      "in obj21 tru2"
+    ]
+  },
+  "load-airplane obj23 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "at obj23 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj23 pos11)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "load-airplane obj13 apn1 pos13": {
+    "preconditions": [
+      "at obj13 pos13",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos13)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "load-airplane obj13 apn1 pos12": {
+    "preconditions": [
+      "at obj13 pos12",
+      "at apn1 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos12)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "unload-truck obj22 tru1 pos12": {
+    "preconditions": [
+      "in obj22 tru1",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 pos12"
+    ]
+  },
+  "load-airplane obj13 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "at obj13 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos11)"
+    ],
+    "add-effects": [
+      "in obj13 apn1"
+    ]
+  },
+  "unload-truck obj22 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "in obj22 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 pos11"
+    ]
+  },
+  "unload-truck obj11 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "in obj11 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 pos21"
+    ]
+  },
+  "unload-truck obj22 tru1 pos13": {
+    "preconditions": [
+      "in obj22 tru1",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj22 tru1)"
+    ],
+    "add-effects": [
+      "at obj22 pos13"
+    ]
+  },
+  "drive-truck tru1 pos13 pos13 cit1": {
+    "preconditions": [
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos13)"
+    ],
+    "add-effects": [
+      "at tru1 pos13"
+    ]
+  },
+  "unload-truck obj11 tru1 pos23": {
+    "preconditions": [
+      "in obj11 tru1",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 pos23"
+    ]
+  },
+  "unload-truck obj11 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "in obj11 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 pos22"
+    ]
+  },
+  "unload-airplane obj13 apn1 apt1": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 apt1"
+    ]
+  },
+  "drive-truck tru1 apt1 pos13 cit1": {
+    "preconditions": [
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt1)"
+    ],
+    "add-effects": [
+      "at tru1 pos13"
+    ]
+  },
+  "unload-airplane obj13 apn1 apt2": {
+    "preconditions": [
+      "in obj13 apn1",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj13 apn1)"
+    ],
+    "add-effects": [
+      "at obj13 apt2"
+    ]
+  },
+  "load-truck obj22 tru1 pos23": {
+    "preconditions": [
+      "at tru1 pos23",
+      "at obj22 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos23)"
+    ],
+    "add-effects": [
+      "in obj22 tru1"
+    ]
+  },
+  "load-truck obj12 tru2 pos11": {
+    "preconditions": [
+      "at tru2 pos11",
+      "at obj12 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos11)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "load-airplane obj22 apn1 pos11": {
+    "preconditions": [
+      "at obj22 pos11",
+      "at apn1 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos11)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-airplane obj22 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "at obj22 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos12)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-truck obj12 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "at obj12 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos22)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "unload-truck obj23 tru1 pos13": {
+    "preconditions": [
+      "in obj23 tru1",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 pos13"
+    ]
+  },
+  "unload-truck obj23 tru1 pos12": {
+    "preconditions": [
+      "in obj23 tru1",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 pos12"
+    ]
+  },
+  "load-truck obj12 tru1 pos23": {
+    "preconditions": [
+      "at obj12 pos23",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos23)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "unload-truck obj23 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "in obj23 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 pos11"
+    ]
+  },
+  "drive-truck tru2 pos21 pos23 cit2": {
+    "preconditions": [
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos21)"
+    ],
+    "add-effects": [
+      "at tru2 pos23"
+    ]
+  },
+  "load-truck obj12 tru1 pos21": {
+    "preconditions": [
+      "at obj12 pos21",
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos21)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "load-airplane obj22 apn1 apt1": {
+    "preconditions": [
+      "at obj22 apt1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj22 apt1)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-airplane obj22 apn1 apt2": {
+    "preconditions": [
+      "at obj22 apt2",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj22 apt2)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "load-truck obj11 tru1 apt2": {
+    "preconditions": [
+      "at obj11 apt2",
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj11 apt2)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "load-airplane obj22 apn1 pos13": {
+    "preconditions": [
+      "at apn1 pos13",
+      "at obj22 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj22 pos13)"
+    ],
+    "add-effects": [
+      "in obj22 apn1"
+    ]
+  },
+  "unload-truck obj21 tru2 pos13": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 pos13"
+    ]
+  },
+  "unload-airplane obj11 apn1 apt2": {
+    "preconditions": [
+      "in obj11 apn1",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 apt2"
+    ]
+  },
+  "load-truck obj13 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "at obj13 pos22"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos22)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "load-truck obj13 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "at obj13 pos23"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos23)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "unload-truck obj21 tru2 pos11": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 pos11"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 pos11"
+    ]
+  },
+  "unload-truck obj21 tru2 pos12": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 pos12"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 pos12"
+    ]
+  },
+  "load-truck obj11 tru1 apt1": {
+    "preconditions": [
+      "at tru1 apt1",
+      "at obj11 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj11 apt1)"
+    ],
+    "add-effects": [
+      "in obj11 tru1"
+    ]
+  },
+  "load-truck obj13 tru2 pos21": {
+    "preconditions": [
+      "at tru2 pos21",
+      "at obj13 pos21"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos21)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "unload-airplane obj11 apn1 apt1": {
+    "preconditions": [
+      "in obj11 apn1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj11 apn1)"
+    ],
+    "add-effects": [
+      "at obj11 apt1"
+    ]
+  },
+  "load-truck obj13 tru2 pos13": {
+    "preconditions": [
+      "at obj13 pos13",
+      "at tru2 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj13 pos13)"
+    ],
+    "add-effects": [
+      "in obj13 tru2"
+    ]
+  },
+  "drive-truck tru2 pos21 pos22 cit2": {
+    "preconditions": [
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos21)"
+    ],
+    "add-effects": [
+      "at tru2 pos22"
+    ]
+  },
+  "fly-airplane apn1 apt1 apt2": {
+    "preconditions": [
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (at apn1 apt1)"
+    ],
+    "add-effects": [
+      "at apn1 apt2"
+    ]
+  },
+  "load-truck obj12 tru1 pos13": {
+    "preconditions": [
+      "at obj12 pos13",
+      "at tru1 pos13"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos13)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "drive-truck tru1 pos11 pos13 cit1": {
+    "preconditions": [
+      "at tru1 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos11)"
+    ],
+    "add-effects": [
+      "at tru1 pos13"
+    ]
+  },
+  "unload-truck obj21 tru2 pos21": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 pos21"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 pos21"
+    ]
+  },
+  "unload-airplane obj21 apn1 pos13": {
+    "preconditions": [
+      "in obj21 apn1",
+      "at apn1 pos13"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 pos13"
+    ]
+  },
+  "load-truck obj12 tru1 pos11": {
+    "preconditions": [
+      "at tru1 pos11",
+      "at obj12 pos11"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos11)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "load-truck obj12 tru1 pos12": {
+    "preconditions": [
+      "at obj12 pos12",
+      "at tru1 pos12"
+    ],
+    "delete-effects": [
+      "not (at obj12 pos12)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "unload-truck obj23 tru1 pos23": {
+    "preconditions": [
+      "in obj23 tru1",
+      "at tru1 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 pos23"
+    ]
+  },
+  "unload-airplane obj21 apn1 pos11": {
+    "preconditions": [
+      "at apn1 pos11",
+      "in obj21 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 pos11"
+    ]
+  },
+  "unload-truck obj23 tru1 pos22": {
+    "preconditions": [
+      "at tru1 pos22",
+      "in obj23 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 pos22"
+    ]
+  },
+  "unload-airplane obj21 apn1 pos12": {
+    "preconditions": [
+      "at apn1 pos12",
+      "in obj21 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj21 apn1)"
+    ],
+    "add-effects": [
+      "at obj21 pos12"
+    ]
+  },
+  "unload-truck obj23 tru1 pos21": {
+    "preconditions": [
+      "at tru1 pos21",
+      "in obj23 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 pos21"
+    ]
+  },
+  "unload-truck obj21 tru2 pos22": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 pos22"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 pos22"
+    ]
+  },
+  "drive-truck tru1 apt1 pos12 cit1": {
+    "preconditions": [
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt1)"
+    ],
+    "add-effects": [
+      "at tru1 pos12"
+    ]
+  },
+  "unload-truck obj21 tru2 pos23": {
+    "preconditions": [
+      "in obj21 tru2",
+      "at tru2 pos23"
+    ],
+    "delete-effects": [
+      "not (in obj21 tru2)"
+    ],
+    "add-effects": [
+      "at obj21 pos23"
+    ]
+  },
+  "unload-truck obj11 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "in obj11 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 apt2"
+    ]
+  },
+  "load-truck obj12 tru1 apt1": {
+    "preconditions": [
+      "at obj12 apt1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj12 apt1)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "unload-truck obj12 tru2 pos21": {
+    "preconditions": [
+      "at tru2 pos21",
+      "in obj12 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 pos21"
+    ]
+  },
+  "unload-truck obj11 tru1 apt1": {
+    "preconditions": [
+      "in obj11 tru1",
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru1)"
+    ],
+    "add-effects": [
+      "at obj11 apt1"
+    ]
+  },
+  "load-truck obj12 tru1 apt2": {
+    "preconditions": [
+      "at obj12 apt2",
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj12 apt2)"
+    ],
+    "add-effects": [
+      "in obj12 tru1"
+    ]
+  },
+  "unload-truck obj12 tru2 pos23": {
+    "preconditions": [
+      "at tru2 pos23",
+      "in obj12 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 pos23"
+    ]
+  },
+  "unload-truck obj12 tru2 pos22": {
+    "preconditions": [
+      "at tru2 pos22",
+      "in obj12 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj12 tru2)"
+    ],
+    "add-effects": [
+      "at obj12 pos22"
+    ]
+  },
+  "fly-airplane apn1 apt2 apt1": {
+    "preconditions": [
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at apn1 apt2)"
+    ],
+    "add-effects": [
+      "at apn1 apt1"
+    ]
+  },
+  "drive-truck tru1 pos22 pos22 cit2": {
+    "preconditions": [
+      "at tru1 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos22)"
+    ],
+    "add-effects": [
+      "at tru1 pos22"
+    ]
+  },
+  "drive-truck tru1 apt2 pos23 cit2": {
+    "preconditions": [
+      "at tru1 apt2"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt2)"
+    ],
+    "add-effects": [
+      "at tru1 pos23"
+    ]
+  },
+  "load-truck obj12 tru2 apt2": {
+    "preconditions": [
+      "at obj12 apt2",
+      "at tru2 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj12 apt2)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "load-truck obj12 tru2 apt1": {
+    "preconditions": [
+      "at obj12 apt1",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj12 apt1)"
+    ],
+    "add-effects": [
+      "in obj12 tru2"
+    ]
+  },
+  "drive-truck tru1 pos22 pos21 cit2": {
+    "preconditions": [
+      "at tru1 pos22"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos22)"
+    ],
+    "add-effects": [
+      "at tru1 pos21"
+    ]
+  },
+  "unload-airplane obj12 apn1 apt2": {
+    "preconditions": [
+      "in obj12 apn1",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 apt2"
+    ]
+  },
+  "unload-airplane obj12 apn1 apt1": {
+    "preconditions": [
+      "at apn1 apt1",
+      "in obj12 apn1"
+    ],
+    "delete-effects": [
+      "not (in obj12 apn1)"
+    ],
+    "add-effects": [
+      "at obj12 apt1"
+    ]
+  },
+  "unload-truck obj11 tru2 apt1": {
+    "preconditions": [
+      "in obj11 tru2",
+      "at tru2 apt1"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 apt1"
+    ]
+  },
+  "unload-truck obj11 tru2 apt2": {
+    "preconditions": [
+      "at tru2 apt2",
+      "in obj11 tru2"
+    ],
+    "delete-effects": [
+      "not (in obj11 tru2)"
+    ],
+    "add-effects": [
+      "at obj11 apt2"
+    ]
+  },
+  "unload-truck obj23 tru1 apt2": {
+    "preconditions": [
+      "at tru1 apt2",
+      "in obj23 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 apt2"
+    ]
+  },
+  "drive-truck tru2 pos12 pos13 cit1": {
+    "preconditions": [
+      "at tru2 pos12"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos12)"
+    ],
+    "add-effects": [
+      "at tru2 pos13"
+    ]
+  },
+  "drive-truck tru1 apt1 pos11 cit1": {
+    "preconditions": [
+      "at tru1 apt1"
+    ],
+    "delete-effects": [
+      "not (at tru1 apt1)"
+    ],
+    "add-effects": [
+      "at tru1 pos11"
+    ]
+  },
+  "unload-truck obj23 tru1 apt1": {
+    "preconditions": [
+      "at tru1 apt1",
+      "in obj23 tru1"
+    ],
+    "delete-effects": [
+      "not (in obj23 tru1)"
+    ],
+    "add-effects": [
+      "at obj23 apt1"
+    ]
+  },
+  "drive-truck tru2 pos23 apt2 cit2": {
+    "preconditions": [
+      "at tru2 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos23)"
+    ],
+    "add-effects": [
+      "at tru2 apt2"
+    ]
+  },
+  "load-airplane obj23 apn1 apt2": {
+    "preconditions": [
+      "at obj23 apt2",
+      "at apn1 apt2"
+    ],
+    "delete-effects": [
+      "not (at obj23 apt2)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "load-airplane obj23 apn1 apt1": {
+    "preconditions": [
+      "at obj23 apt1",
+      "at apn1 apt1"
+    ],
+    "delete-effects": [
+      "not (at obj23 apt1)"
+    ],
+    "add-effects": [
+      "in obj23 apn1"
+    ]
+  },
+  "drive-truck tru1 pos21 apt2 cit2": {
+    "preconditions": [
+      "at tru1 pos21"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos21)"
+    ],
+    "add-effects": [
+      "at tru1 apt2"
+    ]
+  },
+  "drive-truck tru2 pos23 pos22 cit2": {
+    "preconditions": [
+      "at tru2 pos23"
+    ],
+    "delete-effects": [
+      "not (at tru2 pos23)"
+    ],
+    "add-effects": [
+      "at tru2 pos22"
+    ]
+  },
+  "drive-truck tru1 pos11 pos12 cit1": {
+    "preconditions": [
+      "at tru1 pos11"
+    ],
+    "delete-effects": [
+      "not (at tru1 pos11)"
+    ],
+    "add-effects": [
+      "at tru1 pos12"
+    ]
+  }
+}

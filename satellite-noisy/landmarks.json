@@ -1,0 +1,667 @@
+{
+  "turn_to satellite0 groundstation1 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "turn_to satellite0 groundstation1 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "turn_to satellite0 groundstation2 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  },
+  "take_image satellite0 groundstation1 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 groundstation1",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image groundstation1 thermograph0"
+    ]
+  },
+  "turn_to satellite0 groundstation1 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "turn_to satellite0 groundstation1 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "turn_to satellite0 groundstation2 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "turn_to satellite0 groundstation1 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "take_image satellite0 phenomenon4 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image phenomenon4 thermograph0"
+    ]
+  },
+  "turn_to satellite0 groundstation2 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "turn_to satellite0 groundstation2 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "take_image satellite0 phenomenon6 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image phenomenon6 thermograph0"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "turn_to satellite0 groundstation2 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "take_image satellite0 star0 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 star0",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image star0 thermograph0"
+    ]
+  },
+  "switch_off instrument0 satellite0": {
+    "preconditions": [
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      "not (power_on instrument0)"
+    ],
+    "add-effects": [
+      "power_avail satellite0"
+    ]
+  },
+  "turn_to satellite0 groundstation2 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 star5 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 star5 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "take_image satellite0 star5 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 star5",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image star5 thermograph0"
+    ]
+  },
+  "turn_to satellite0 star0 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 star0 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 groundstation2 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation2"
+    ]
+  },
+  "take_image satellite0 phenomenon3 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image phenomenon3 thermograph0"
+    ]
+  },
+  "turn_to satellite0 star0 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 star0 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 star0 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 groundstation1 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "turn_to satellite0 groundstation1 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 groundstation1"
+    ]
+  },
+  "take_image satellite0 groundstation2 instrument0 thermograph0": {
+    "preconditions": [
+      "pointing satellite0 groundstation2",
+      "calibrated instrument0",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "have_image groundstation2 thermograph0"
+    ]
+  },
+  "turn_to satellite0 star5 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 star5 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 star5 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "turn_to satellite0 star0 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "turn_to satellite0 phenomenon3 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon3"
+    ]
+  },
+  "turn_to satellite0 star0 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star0"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 phenomenon4 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon4"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 phenomenon3": {
+    "preconditions": [
+      "pointing satellite0 phenomenon3"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon3)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  },
+  "switch_on instrument0 satellite0": {
+    "preconditions": [
+      "power_avail satellite0"
+    ],
+    "delete-effects": [
+      "not (calibrated instrument0)",
+      "not (power_avail satellite0)"
+    ],
+    "add-effects": [
+      "power_on instrument0"
+    ]
+  },
+  "calibrate satellite0 instrument0 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2",
+      "power_on instrument0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated instrument0"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 phenomenon6": {
+    "preconditions": [
+      "pointing satellite0 phenomenon6"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon6)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 phenomenon4": {
+    "preconditions": [
+      "pointing satellite0 phenomenon4"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 phenomenon4)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  },
+  "turn_to satellite0 star5 star5": {
+    "preconditions": [
+      "pointing satellite0 star5"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star5)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 star5 star0": {
+    "preconditions": [
+      "pointing satellite0 star0"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 star0)"
+    ],
+    "add-effects": [
+      "pointing satellite0 star5"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 groundstation2": {
+    "preconditions": [
+      "pointing satellite0 groundstation2"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation2)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  },
+  "turn_to satellite0 phenomenon6 groundstation1": {
+    "preconditions": [
+      "pointing satellite0 groundstation1"
+    ],
+    "delete-effects": [
+      "not (pointing satellite0 groundstation1)"
+    ],
+    "add-effects": [
+      "pointing satellite0 phenomenon6"
+    ]
+  }
+}

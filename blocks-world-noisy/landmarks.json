@@ -1,0 +1,1962 @@
+{
+  "unstack w t": {
+    "preconditions": [
+      "clear w",
+      "on w t",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on w t)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear t",
+      "holding w"
+    ]
+  },
+  "put-down a": {
+    "preconditions": [
+      "holding a"
+    ],
+    "delete-effects": [
+      "not (holding a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "handempty",
+      "ontable a"
+    ]
+  },
+  "stack m r": {
+    "preconditions": [
+      "clear r",
+      "holding m"
+    ],
+    "delete-effects": [
+      "not (holding m)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "on m r",
+      "handempty",
+      "clear m"
+    ]
+  },
+  "unstack w r": {
+    "preconditions": [
+      "clear w",
+      "handempty",
+      "on w r"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on w r)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding w"
+    ]
+  },
+  "stack m o": {
+    "preconditions": [
+      "clear o",
+      "holding m"
+    ],
+    "delete-effects": [
+      "not (clear o)",
+      "not (holding m)"
+    ],
+    "add-effects": [
+      "on m o",
+      "handempty",
+      "clear m"
+    ]
+  },
+  "stack e w": {
+    "preconditions": [
+      "clear w",
+      "holding e"
+    ],
+    "delete-effects": [
+      "not (holding e)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "on e w",
+      "clear e",
+      "handempty"
+    ]
+  },
+  "put-down e": {
+    "preconditions": [
+      "holding e"
+    ],
+    "delete-effects": [
+      "not (holding e)"
+    ],
+    "add-effects": [
+      "clear e",
+      "ontable e",
+      "handempty"
+    ]
+  },
+  "stack a w": {
+    "preconditions": [
+      "clear w",
+      "holding a"
+    ],
+    "delete-effects": [
+      "not (holding a)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear a",
+      "on a w",
+      "handempty"
+    ]
+  },
+  "stack e t": {
+    "preconditions": [
+      "clear t",
+      "holding e"
+    ],
+    "delete-effects": [
+      "not (holding e)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "on e t",
+      "clear e",
+      "handempty"
+    ]
+  },
+  "unstack o t": {
+    "preconditions": [
+      "on o t",
+      "clear o",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on o t)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear t",
+      "holding o"
+    ]
+  },
+  "put-down h": {
+    "preconditions": [
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)"
+    ],
+    "add-effects": [
+      "clear h",
+      "ontable h",
+      "handempty"
+    ]
+  },
+  "unstack w m": {
+    "preconditions": [
+      "on w m",
+      "clear w",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear w)",
+      "not (on w m)"
+    ],
+    "add-effects": [
+      "holding w",
+      "clear m"
+    ]
+  },
+  "unstack o r": {
+    "preconditions": [
+      "clear o",
+      "handempty",
+      "on o r"
+    ],
+    "delete-effects": [
+      "not (on o r)",
+      "not (handempty)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding o"
+    ]
+  },
+  "stack m w": {
+    "preconditions": [
+      "clear w",
+      "holding m"
+    ],
+    "delete-effects": [
+      "not (holding m)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "handempty",
+      "on m w",
+      "clear m"
+    ]
+  },
+  "put-down m": {
+    "preconditions": [
+      "holding m"
+    ],
+    "delete-effects": [
+      "not (holding m)"
+    ],
+    "add-effects": [
+      "ontable m",
+      "handempty",
+      "clear m"
+    ]
+  },
+  "put-down o": {
+    "preconditions": [
+      "holding o"
+    ],
+    "delete-effects": [
+      "not (holding o)"
+    ],
+    "add-effects": [
+      "ontable o",
+      "clear o",
+      "handempty"
+    ]
+  },
+  "unstack w o": {
+    "preconditions": [
+      "clear w",
+      "handempty",
+      "on w o"
+    ],
+    "delete-effects": [
+      "not (on w o)",
+      "not (handempty)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear o",
+      "holding w"
+    ]
+  },
+  "unstack o w": {
+    "preconditions": [
+      "clear o",
+      "handempty",
+      "on o w"
+    ],
+    "delete-effects": [
+      "not (on o w)",
+      "not (handempty)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding o"
+    ]
+  },
+  "stack m t": {
+    "preconditions": [
+      "clear t",
+      "holding m"
+    ],
+    "delete-effects": [
+      "not (holding m)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "on m t",
+      "handempty",
+      "clear m"
+    ]
+  },
+  "unstack o m": {
+    "preconditions": [
+      "on o m",
+      "clear o",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear o)",
+      "not (on o m)"
+    ],
+    "add-effects": [
+      "holding o",
+      "clear m"
+    ]
+  },
+  "unstack w e": {
+    "preconditions": [
+      "on w e",
+      "clear w",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on w e)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear e",
+      "holding w"
+    ]
+  },
+  "put-down r": {
+    "preconditions": [
+      "holding r"
+    ],
+    "delete-effects": [
+      "not (holding r)"
+    ],
+    "add-effects": [
+      "clear r",
+      "ontable r",
+      "handempty"
+    ]
+  },
+  "unstack w h": {
+    "preconditions": [
+      "clear w",
+      "on w h",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on w h)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear h",
+      "holding w"
+    ]
+  },
+  "put-down t": {
+    "preconditions": [
+      "holding t"
+    ],
+    "delete-effects": [
+      "not (holding t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "ontable t",
+      "handempty"
+    ]
+  },
+  "put-down w": {
+    "preconditions": [
+      "holding w"
+    ],
+    "delete-effects": [
+      "not (holding w)"
+    ],
+    "add-effects": [
+      "clear w",
+      "ontable w",
+      "handempty"
+    ]
+  },
+  "unstack o e": {
+    "preconditions": [
+      "on o e",
+      "clear o",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear o)",
+      "not (on o e)"
+    ],
+    "add-effects": [
+      "holding o",
+      "clear e"
+    ]
+  },
+  "unstack o h": {
+    "preconditions": [
+      "on o h",
+      "clear o",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear o)",
+      "not (on o h)"
+    ],
+    "add-effects": [
+      "holding o",
+      "clear h"
+    ]
+  },
+  "unstack w a": {
+    "preconditions": [
+      "on w a",
+      "clear w",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on w a)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear a",
+      "holding w"
+    ]
+  },
+  "unstack o a": {
+    "preconditions": [
+      "clear o",
+      "on o a",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on o a)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear a",
+      "holding o"
+    ]
+  },
+  "stack a e": {
+    "preconditions": [
+      "holding a",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (clear e)",
+      "not (holding a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "on a e",
+      "handempty"
+    ]
+  },
+  "stack e a": {
+    "preconditions": [
+      "holding e",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (holding e)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "on e a",
+      "clear e",
+      "handempty"
+    ]
+  },
+  "stack m a": {
+    "preconditions": [
+      "holding m",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (holding m)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "on m a",
+      "handempty",
+      "clear m"
+    ]
+  },
+  "stack a m": {
+    "preconditions": [
+      "holding a",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (holding a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "on a m",
+      "handempty"
+    ]
+  },
+  "stack e h": {
+    "preconditions": [
+      "clear h",
+      "holding e"
+    ],
+    "delete-effects": [
+      "not (holding e)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "on e h",
+      "clear e",
+      "handempty"
+    ]
+  },
+  "stack a h": {
+    "preconditions": [
+      "holding a",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (clear h)",
+      "not (holding a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "on a h",
+      "handempty"
+    ]
+  },
+  "stack e r": {
+    "preconditions": [
+      "clear r",
+      "holding e"
+    ],
+    "delete-effects": [
+      "not (holding e)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "on e r",
+      "clear e",
+      "handempty"
+    ]
+  },
+  "stack e o": {
+    "preconditions": [
+      "clear o",
+      "holding e"
+    ],
+    "delete-effects": [
+      "not (holding e)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear e",
+      "handempty",
+      "on e o"
+    ]
+  },
+  "stack a t": {
+    "preconditions": [
+      "holding a",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (holding a)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "clear a",
+      "on a t",
+      "handempty"
+    ]
+  },
+  "stack m h": {
+    "preconditions": [
+      "holding m",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (holding m)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "handempty",
+      "on m h",
+      "clear m"
+    ]
+  },
+  "stack m e": {
+    "preconditions": [
+      "holding m",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (clear e)",
+      "not (holding m)"
+    ],
+    "add-effects": [
+      "handempty",
+      "clear m",
+      "on m e"
+    ]
+  },
+  "stack e m": {
+    "preconditions": [
+      "holding e",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (holding e)"
+    ],
+    "add-effects": [
+      "clear e",
+      "handempty",
+      "on e m"
+    ]
+  },
+  "stack a r": {
+    "preconditions": [
+      "clear r",
+      "holding a"
+    ],
+    "delete-effects": [
+      "not (holding a)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear a",
+      "on a r",
+      "handempty"
+    ]
+  },
+  "stack a o": {
+    "preconditions": [
+      "clear o",
+      "holding a"
+    ],
+    "delete-effects": [
+      "not (clear o)",
+      "not (holding a)"
+    ],
+    "add-effects": [
+      "on a o",
+      "clear a",
+      "handempty"
+    ]
+  },
+  "unstack t w": {
+    "preconditions": [
+      "handempty",
+      "clear t",
+      "on t w"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on t w)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding t"
+    ]
+  },
+  "stack r m": {
+    "preconditions": [
+      "holding r",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (holding r)"
+    ],
+    "add-effects": [
+      "clear r",
+      "handempty",
+      "on r m"
+    ]
+  },
+  "stack r h": {
+    "preconditions": [
+      "holding r",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (holding r)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "clear r",
+      "on r h",
+      "handempty"
+    ]
+  },
+  "stack r t": {
+    "preconditions": [
+      "holding r",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (holding r)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "clear r",
+      "on r t",
+      "handempty"
+    ]
+  },
+  "unstack t o": {
+    "preconditions": [
+      "handempty",
+      "clear t",
+      "on t o"
+    ],
+    "delete-effects": [
+      "not (on t o)",
+      "not (handempty)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "holding t",
+      "clear o"
+    ]
+  },
+  "unstack t m": {
+    "preconditions": [
+      "on t m",
+      "handempty",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear t)",
+      "not (on t m)"
+    ],
+    "add-effects": [
+      "holding t",
+      "clear m"
+    ]
+  },
+  "unstack t r": {
+    "preconditions": [
+      "on t r",
+      "handempty",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on t r)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding t"
+    ]
+  },
+  "stack r o": {
+    "preconditions": [
+      "clear o",
+      "holding r"
+    ],
+    "delete-effects": [
+      "not (holding r)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear r",
+      "handempty",
+      "on r o"
+    ]
+  },
+  "unstack h t": {
+    "preconditions": [
+      "handempty",
+      "clear h",
+      "on h t"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear h)",
+      "not (on h t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "holding h"
+    ]
+  },
+  "unstack t h": {
+    "preconditions": [
+      "handempty",
+      "clear t",
+      "on t h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on t h)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "holding t",
+      "clear h"
+    ]
+  },
+  "unstack t e": {
+    "preconditions": [
+      "on t e",
+      "handempty",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on t e)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "holding t",
+      "clear e"
+    ]
+  },
+  "unstack h r": {
+    "preconditions": [
+      "on h r",
+      "handempty",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear h)",
+      "not (on h r)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding h"
+    ]
+  },
+  "unstack h w": {
+    "preconditions": [
+      "handempty",
+      "on h w",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear h)",
+      "not (on h w)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding h"
+    ]
+  },
+  "stack r w": {
+    "preconditions": [
+      "clear w",
+      "holding r"
+    ],
+    "delete-effects": [
+      "not (holding r)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear r",
+      "on r w",
+      "handempty"
+    ]
+  },
+  "unstack h o": {
+    "preconditions": [
+      "handempty",
+      "clear h",
+      "on h o"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on h o)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "clear o",
+      "holding h"
+    ]
+  },
+  "unstack t a": {
+    "preconditions": [
+      "on t a",
+      "handempty",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on t a)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "holding t",
+      "clear a"
+    ]
+  },
+  "unstack h m": {
+    "preconditions": [
+      "on h m",
+      "handempty",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on h m)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "holding h",
+      "clear m"
+    ]
+  },
+  "unstack h a": {
+    "preconditions": [
+      "on h a",
+      "handempty",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear h)",
+      "not (on h a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "holding h"
+    ]
+  },
+  "unstack h e": {
+    "preconditions": [
+      "on h e",
+      "handempty",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear h)",
+      "not (on h e)"
+    ],
+    "add-effects": [
+      "clear e",
+      "holding h"
+    ]
+  },
+  "stack r e": {
+    "preconditions": [
+      "holding r",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (holding r)",
+      "not (clear e)"
+    ],
+    "add-effects": [
+      "clear r",
+      "on r e",
+      "handempty"
+    ]
+  },
+  "stack r a": {
+    "preconditions": [
+      "holding r",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (holding r)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "clear r",
+      "on r a",
+      "handempty"
+    ]
+  },
+  "stack w h": {
+    "preconditions": [
+      "holding w",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (holding w)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "clear w",
+      "on w h",
+      "handempty"
+    ]
+  },
+  "stack o m": {
+    "preconditions": [
+      "holding o",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (holding o)"
+    ],
+    "add-effects": [
+      "clear o",
+      "on o m",
+      "handempty"
+    ]
+  },
+  "stack w e": {
+    "preconditions": [
+      "holding w",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (holding w)",
+      "not (clear e)"
+    ],
+    "add-effects": [
+      "clear w",
+      "on w e",
+      "handempty"
+    ]
+  },
+  "stack w a": {
+    "preconditions": [
+      "holding w",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (holding w)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "clear w",
+      "on w a",
+      "handempty"
+    ]
+  },
+  "stack o w": {
+    "preconditions": [
+      "holding o",
+      "clear w"
+    ],
+    "delete-effects": [
+      "not (holding o)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear o",
+      "handempty",
+      "on o w"
+    ]
+  },
+  "stack w o": {
+    "preconditions": [
+      "holding w",
+      "clear o"
+    ],
+    "delete-effects": [
+      "not (holding w)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear w",
+      "handempty",
+      "on w o"
+    ]
+  },
+  "unstack m w": {
+    "preconditions": [
+      "on m w",
+      "handempty",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (handempty)",
+      "not (on m w)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding m"
+    ]
+  },
+  "stack w m": {
+    "preconditions": [
+      "holding w",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (holding w)"
+    ],
+    "add-effects": [
+      "on w m",
+      "clear w",
+      "handempty"
+    ]
+  },
+  "unstack m t": {
+    "preconditions": [
+      "handempty",
+      "on m t",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (handempty)",
+      "not (on m t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "holding m"
+    ]
+  },
+  "stack o t": {
+    "preconditions": [
+      "holding o",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (holding o)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "clear o",
+      "on o t",
+      "handempty"
+    ]
+  },
+  "stack o r": {
+    "preconditions": [
+      "clear r",
+      "holding o"
+    ],
+    "delete-effects": [
+      "not (holding o)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear o",
+      "handempty",
+      "on o r"
+    ]
+  },
+  "unstack m o": {
+    "preconditions": [
+      "on m o",
+      "handempty",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (handempty)",
+      "not (on m o)"
+    ],
+    "add-effects": [
+      "holding m",
+      "clear o"
+    ]
+  },
+  "unstack e w": {
+    "preconditions": [
+      "on e w",
+      "handempty",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear e)",
+      "not (on e w)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding e"
+    ]
+  },
+  "unstack e t": {
+    "preconditions": [
+      "handempty",
+      "on e t",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear e)",
+      "not (on e t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "holding e"
+    ]
+  },
+  "unstack m r": {
+    "preconditions": [
+      "on m r",
+      "handempty",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (handempty)",
+      "not (on m r)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding m"
+    ]
+  },
+  "stack w t": {
+    "preconditions": [
+      "holding w",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (holding w)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "clear w",
+      "on w t",
+      "handempty"
+    ]
+  },
+  "stack w r": {
+    "preconditions": [
+      "clear r",
+      "holding w"
+    ],
+    "delete-effects": [
+      "not (holding w)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear w",
+      "on w r",
+      "handempty"
+    ]
+  },
+  "unstack a r": {
+    "preconditions": [
+      "on a r",
+      "handempty",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on a r)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding a"
+    ]
+  },
+  "unstack e o": {
+    "preconditions": [
+      "on e o",
+      "handempty",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on e o)",
+      "not (clear e)"
+    ],
+    "add-effects": [
+      "clear o",
+      "holding e"
+    ]
+  },
+  "unstack e m": {
+    "preconditions": [
+      "handempty",
+      "clear e",
+      "on e m"
+    ],
+    "delete-effects": [
+      "not (on e m)",
+      "not (handempty)",
+      "not (clear e)"
+    ],
+    "add-effects": [
+      "holding e",
+      "clear m"
+    ]
+  },
+  "unstack m e": {
+    "preconditions": [
+      "handempty",
+      "on m e",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (on m e)",
+      "not (handempty)"
+    ],
+    "add-effects": [
+      "holding m",
+      "clear e"
+    ]
+  },
+  "unstack e r": {
+    "preconditions": [
+      "on e r",
+      "handempty",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear e)",
+      "not (on e r)"
+    ],
+    "add-effects": [
+      "clear r",
+      "holding e"
+    ]
+  },
+  "unstack a w": {
+    "preconditions": [
+      "on a w",
+      "handempty",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on a w)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding a"
+    ]
+  },
+  "unstack a t": {
+    "preconditions": [
+      "handempty",
+      "on a t",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on a t)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "holding a",
+      "clear t"
+    ]
+  },
+  "unstack m h": {
+    "preconditions": [
+      "handempty",
+      "on m h",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (on m h)",
+      "not (handempty)"
+    ],
+    "add-effects": [
+      "holding m",
+      "clear h"
+    ]
+  },
+  "unstack a h": {
+    "preconditions": [
+      "handempty",
+      "on a h",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on a h)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "holding a",
+      "clear h"
+    ]
+  },
+  "unstack a o": {
+    "preconditions": [
+      "on a o",
+      "handempty",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear a)",
+      "not (on a o)"
+    ],
+    "add-effects": [
+      "holding a",
+      "clear o"
+    ]
+  },
+  "unstack e h": {
+    "preconditions": [
+      "handempty",
+      "on e h",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear e)",
+      "not (on e h)"
+    ],
+    "add-effects": [
+      "clear h",
+      "holding e"
+    ]
+  },
+  "unstack a m": {
+    "preconditions": [
+      "handempty",
+      "on a m",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear a)",
+      "not (on a m)"
+    ],
+    "add-effects": [
+      "holding a",
+      "clear m"
+    ]
+  },
+  "unstack m a": {
+    "preconditions": [
+      "handempty",
+      "on m a",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (handempty)",
+      "not (on m a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "holding m"
+    ]
+  },
+  "unstack a e": {
+    "preconditions": [
+      "handempty",
+      "clear a",
+      "on a e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on a e)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "holding a",
+      "clear e"
+    ]
+  },
+  "unstack e a": {
+    "preconditions": [
+      "handempty",
+      "on e a",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear e)",
+      "not (on e a)"
+    ],
+    "add-effects": [
+      "clear a",
+      "holding e"
+    ]
+  },
+  "stack o h": {
+    "preconditions": [
+      "holding o",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (clear h)",
+      "not (holding o)"
+    ],
+    "add-effects": [
+      "on o h",
+      "clear o",
+      "handempty"
+    ]
+  },
+  "stack o e": {
+    "preconditions": [
+      "holding o",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (clear e)",
+      "not (holding o)"
+    ],
+    "add-effects": [
+      "on o e",
+      "clear o",
+      "handempty"
+    ]
+  },
+  "stack o a": {
+    "preconditions": [
+      "holding o",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (holding o)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "clear o",
+      "handempty",
+      "on o a"
+    ]
+  },
+  "stack h w": {
+    "preconditions": [
+      "clear w",
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "on h w",
+      "clear h",
+      "handempty"
+    ]
+  },
+  "stack h t": {
+    "preconditions": [
+      "clear t",
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "on h t",
+      "clear h",
+      "handempty"
+    ]
+  },
+  "stack t h": {
+    "preconditions": [
+      "clear h",
+      "holding t"
+    ],
+    "delete-effects": [
+      "not (clear h)",
+      "not (holding t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "on t h",
+      "handempty"
+    ]
+  },
+  "pick-up w": {
+    "preconditions": [
+      "clear w",
+      "handempty",
+      "ontable w"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (ontable w)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "holding w"
+    ]
+  },
+  "unstack r w": {
+    "preconditions": [
+      "clear r",
+      "on r w",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on r w)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear w",
+      "holding r"
+    ]
+  },
+  "stack h r": {
+    "preconditions": [
+      "clear r",
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "on h r",
+      "clear h",
+      "handempty"
+    ]
+  },
+  "pick-up r": {
+    "preconditions": [
+      "clear r",
+      "handempty",
+      "ontable r"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (ontable r)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "holding r"
+    ]
+  },
+  "pick-up t": {
+    "preconditions": [
+      "ontable t",
+      "handempty",
+      "clear t"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (ontable t)",
+      "not (clear t)"
+    ],
+    "add-effects": [
+      "holding t"
+    ]
+  },
+  "stack t e": {
+    "preconditions": [
+      "holding t",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (clear e)",
+      "not (holding t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "on t e",
+      "handempty"
+    ]
+  },
+  "pick-up m": {
+    "preconditions": [
+      "ontable m",
+      "handempty",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (handempty)",
+      "not (ontable m)"
+    ],
+    "add-effects": [
+      "holding m"
+    ]
+  },
+  "stack t r": {
+    "preconditions": [
+      "clear r",
+      "holding t"
+    ],
+    "delete-effects": [
+      "not (holding t)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear t",
+      "on t r",
+      "handempty"
+    ]
+  },
+  "pick-up o": {
+    "preconditions": [
+      "clear o",
+      "handempty",
+      "ontable o"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (clear o)",
+      "not (ontable o)"
+    ],
+    "add-effects": [
+      "holding o"
+    ]
+  },
+  "unstack r o": {
+    "preconditions": [
+      "clear r",
+      "on r o",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on r o)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear o",
+      "holding r"
+    ]
+  },
+  "stack t o": {
+    "preconditions": [
+      "clear o",
+      "holding t"
+    ],
+    "delete-effects": [
+      "not (clear o)",
+      "not (holding t)"
+    ],
+    "add-effects": [
+      "clear t",
+      "handempty",
+      "on t o"
+    ]
+  },
+  "stack t m": {
+    "preconditions": [
+      "holding t",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (clear m)",
+      "not (holding t)"
+    ],
+    "add-effects": [
+      "on t m",
+      "clear t",
+      "handempty"
+    ]
+  },
+  "unstack r t": {
+    "preconditions": [
+      "clear r",
+      "on r t",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on r t)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear t",
+      "holding r"
+    ]
+  },
+  "pick-up e": {
+    "preconditions": [
+      "ontable e",
+      "handempty",
+      "clear e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (ontable e)",
+      "not (clear e)"
+    ],
+    "add-effects": [
+      "holding e"
+    ]
+  },
+  "unstack r h": {
+    "preconditions": [
+      "clear r",
+      "on r h",
+      "handempty"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on r h)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear h",
+      "holding r"
+    ]
+  },
+  "pick-up h": {
+    "preconditions": [
+      "ontable h",
+      "handempty",
+      "clear h"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (ontable h)",
+      "not (clear h)"
+    ],
+    "add-effects": [
+      "holding h"
+    ]
+  },
+  "pick-up a": {
+    "preconditions": [
+      "ontable a",
+      "handempty",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (ontable a)",
+      "not (handempty)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "holding a"
+    ]
+  },
+  "unstack r m": {
+    "preconditions": [
+      "clear r",
+      "handempty",
+      "on r m"
+    ],
+    "delete-effects": [
+      "not (on r m)",
+      "not (handempty)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "holding r",
+      "clear m"
+    ]
+  },
+  "stack t w": {
+    "preconditions": [
+      "clear w",
+      "holding t"
+    ],
+    "delete-effects": [
+      "not (holding t)",
+      "not (clear w)"
+    ],
+    "add-effects": [
+      "clear t",
+      "on t w",
+      "handempty"
+    ]
+  },
+  "unstack r a": {
+    "preconditions": [
+      "clear r",
+      "handempty",
+      "on r a"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on r a)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear a",
+      "holding r"
+    ]
+  },
+  "unstack r e": {
+    "preconditions": [
+      "clear r",
+      "handempty",
+      "on r e"
+    ],
+    "delete-effects": [
+      "not (handempty)",
+      "not (on r e)",
+      "not (clear r)"
+    ],
+    "add-effects": [
+      "clear e",
+      "holding r"
+    ]
+  },
+  "stack h e": {
+    "preconditions": [
+      "clear e",
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear e)"
+    ],
+    "add-effects": [
+      "on h e",
+      "clear h",
+      "handempty"
+    ]
+  },
+  "stack h a": {
+    "preconditions": [
+      "clear a",
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "on h a",
+      "clear h",
+      "handempty"
+    ]
+  },
+  "stack h o": {
+    "preconditions": [
+      "clear o",
+      "holding h"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear o)"
+    ],
+    "add-effects": [
+      "clear h",
+      "on h o",
+      "handempty"
+    ]
+  },
+  "stack h m": {
+    "preconditions": [
+      "holding h",
+      "clear m"
+    ],
+    "delete-effects": [
+      "not (holding h)",
+      "not (clear m)"
+    ],
+    "add-effects": [
+      "clear h",
+      "on h m",
+      "handempty"
+    ]
+  },
+  "stack t a": {
+    "preconditions": [
+      "holding t",
+      "clear a"
+    ],
+    "delete-effects": [
+      "not (holding t)",
+      "not (clear a)"
+    ],
+    "add-effects": [
+      "clear t",
+      "on t a",
+      "handempty"
+    ]
+  }
+}

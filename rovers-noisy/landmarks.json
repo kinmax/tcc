@@ -1,0 +1,2937 @@
+{
+  "take_image rover0 waypoint1 objective2 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 colour"
+    ]
+  },
+  "take_image rover1 waypoint2 objective1 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 colour"
+    ]
+  },
+  "take_image rover0 waypoint1 objective0 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 low_res"
+    ]
+  },
+  "take_image rover0 waypoint0 objective2 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 high_res"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint1 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint1",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint1",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 high_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 high_res",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective1 high_res"
+    ]
+  },
+  "take_image rover1 waypoint0 objective2 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 low_res"
+    ]
+  },
+  "take_image rover0 waypoint1 objective0 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 high_res"
+    ]
+  },
+  "sample_soil rover1 rover1store waypoint2": {
+    "preconditions": [
+      "empty rover1store",
+      "at_soil_sample waypoint2",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (empty rover1store)",
+      "not (at_soil_sample waypoint2)"
+    ],
+    "add-effects": [
+      "have_soil_analysis rover1 waypoint2",
+      "full rover1store"
+    ]
+  },
+  "sample_soil rover1 rover1store waypoint3": {
+    "preconditions": [
+      "at_soil_sample waypoint3",
+      "empty rover1store",
+      "at rover1 waypoint3"
+    ],
+    "delete-effects": [
+      "not (empty rover1store)",
+      "not (at_soil_sample waypoint3)"
+    ],
+    "add-effects": [
+      "have_soil_analysis rover1 waypoint3",
+      "full rover1store"
+    ]
+  },
+  "sample_soil rover1 rover1store waypoint0": {
+    "preconditions": [
+      "at rover1 waypoint0",
+      "empty rover1store",
+      "at_soil_sample waypoint0"
+    ],
+    "delete-effects": [
+      "not (empty rover1store)",
+      "not (at_soil_sample waypoint0)"
+    ],
+    "add-effects": [
+      "have_soil_analysis rover1 waypoint0",
+      "full rover1store"
+    ]
+  },
+  "sample_soil rover1 rover1store waypoint1": {
+    "preconditions": [
+      "at rover1 waypoint1",
+      "empty rover1store",
+      "at_soil_sample waypoint1"
+    ],
+    "delete-effects": [
+      "not (empty rover1store)",
+      "not (at_soil_sample waypoint1)"
+    ],
+    "add-effects": [
+      "have_soil_analysis rover1 waypoint1",
+      "full rover1store"
+    ]
+  },
+  "take_image rover0 waypoint0 objective2 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 low_res"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint1 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint1",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint1",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint1 objective1 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 high_res"
+    ]
+  },
+  "calibrate rover0 camera2 objective1 waypoint0": {
+    "preconditions": [
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera2 rover0"
+    ]
+  },
+  "take_image rover0 waypoint0 objective0 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 colour"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 low_res waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint2",
+      "have_image rover0 objective0 low_res",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective0 low_res"
+    ]
+  },
+  "calibrate rover0 camera2 objective1 waypoint2": {
+    "preconditions": [
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera2 rover0"
+    ]
+  },
+  "calibrate rover0 camera2 objective1 waypoint1": {
+    "preconditions": [
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera2 rover0"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 high_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 high_res",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective1 high_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective0 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 colour"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 colour waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 colour",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective1 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 high_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective1 high_res",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective1 high_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 low_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective1 low_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective1 low_res"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint1 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint1",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint1",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint2 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint2",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint2",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint2 objective0 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 colour"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint1 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover0 waypoint1",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint1",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint2 objective0 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "take_image rover1 waypoint3 objective0 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint3"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 colour waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "have_image rover1 objective2 colour",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 colour",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint3 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint3",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint3",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint2 objective1 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 low_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 low_res waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "available rover0",
+      "have_image rover0 objective0 low_res",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective0 low_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 colour waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective0 colour",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 colour",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 high_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 high_res",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective1 high_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 colour waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective0 colour",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint2 objective1 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 high_res"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint3 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover0 waypoint3",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_rock_data waypoint3"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 high_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective2 high_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_image_data objective2 high_res",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "have_image rover0 objective0 low_res",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective0 low_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective2 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 low_res"
+    ]
+  },
+  "drop rover0 rover0store": {
+    "preconditions": [
+      "full rover0store"
+    ],
+    "delete-effects": [
+      "not (full rover0store)"
+    ],
+    "add-effects": [
+      "empty rover0store"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 low_res waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0",
+      "have_image rover1 objective0 low_res"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective0 low_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 high_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective1 high_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective1 high_res"
+    ]
+  },
+  "take_image rover1 waypoint0 objective2 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 high_res"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint0 waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general",
+      "have_soil_analysis rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_soil_data waypoint0"
+    ]
+  },
+  "sample_rock rover0 rover0store waypoint3": {
+    "preconditions": [
+      "empty rover0store",
+      "at rover0 waypoint3",
+      "at_rock_sample waypoint3"
+    ],
+    "delete-effects": [
+      "not (empty rover0store)",
+      "not (at_rock_sample waypoint3)"
+    ],
+    "add-effects": [
+      "have_rock_analysis rover0 waypoint3",
+      "full rover0store"
+    ]
+  },
+  "sample_rock rover0 rover0store waypoint2": {
+    "preconditions": [
+      "at rover0 waypoint2",
+      "empty rover0store",
+      "at_rock_sample waypoint2"
+    ],
+    "delete-effects": [
+      "not (empty rover0store)",
+      "not (at_rock_sample waypoint2)"
+    ],
+    "add-effects": [
+      "full rover0store",
+      "have_rock_analysis rover0 waypoint2"
+    ]
+  },
+  "take_image rover0 waypoint1 objective0 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 colour"
+    ]
+  },
+  "take_image rover0 waypoint1 objective1 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 high_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 high_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective0 high_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 high_res",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint2 objective2 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 high_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 colour waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 colour",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective1 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "sample_rock rover0 rover0store waypoint1": {
+    "preconditions": [
+      "empty rover0store",
+      "at_rock_sample waypoint1",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (empty rover0store)",
+      "not (at_rock_sample waypoint1)"
+    ],
+    "add-effects": [
+      "have_rock_analysis rover0 waypoint1",
+      "full rover0store"
+    ]
+  },
+  "take_image rover1 waypoint2 objective0 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "sample_rock rover0 rover0store waypoint0": {
+    "preconditions": [
+      "at rover0 waypoint0",
+      "at_rock_sample waypoint0",
+      "empty rover0store"
+    ],
+    "delete-effects": [
+      "not (empty rover0store)",
+      "not (at_rock_sample waypoint0)"
+    ],
+    "add-effects": [
+      "full rover0store",
+      "have_rock_analysis rover0 waypoint0"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 low_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 low_res",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective1 low_res"
+    ]
+  },
+  "take_image rover0 waypoint1 objective1 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 low_res"
+    ]
+  },
+  "take_image rover1 waypoint2 objective1 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 low_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective1 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 colour"
+    ]
+  },
+  "take_image rover0 waypoint2 objective0 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 low_res"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint2 waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0",
+      "have_rock_analysis rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint2",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint1 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint1",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint1",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint3 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint3",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_rock_data waypoint3"
+    ]
+  },
+  "navigate rover0 waypoint3 waypoint0": {
+    "preconditions": [
+      "at rover0 waypoint3",
+      "available rover0"
+    ],
+    "delete-effects": [
+      "not (at rover0 waypoint3)"
+    ],
+    "add-effects": [
+      "at rover0 waypoint0"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint3 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint3",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_rock_data waypoint3"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 high_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective2 high_res",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 high_res",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint0 objective0 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "take_image rover0 waypoint0 objective1 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 low_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective2 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 high_res"
+    ]
+  },
+  "take_image rover0 waypoint3 objective0 camera2 low_res": {
+    "preconditions": [
+      "at rover0 waypoint3",
+      "calibrated camera2 rover0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 low_res"
+    ]
+  },
+  "take_image rover0 waypoint2 objective0 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 colour"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 high_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective2 high_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_image_data objective2 high_res",
+      "channel_free general"
+    ]
+  },
+  "navigate rover1 waypoint3 waypoint1": {
+    "preconditions": [
+      "at rover1 waypoint3",
+      "available rover1"
+    ],
+    "delete-effects": [
+      "not (at rover1 waypoint3)"
+    ],
+    "add-effects": [
+      "at rover1 waypoint1"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint2 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint2",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint2",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint0 objective1 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 high_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective0 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 high_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective1 high_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective1 high_res"
+    ]
+  },
+  "take_image rover0 waypoint3 objective0 camera2 colour": {
+    "preconditions": [
+      "at rover0 waypoint3",
+      "calibrated camera2 rover0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 colour"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 high_res waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "available rover0",
+      "have_image rover0 objective0 high_res",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 high_res",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint1 objective1 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 high_res"
+    ]
+  },
+  "take_image rover1 waypoint3 objective0 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint3"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint0 waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0",
+      "have_rock_analysis rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint0",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 colour waypoint1 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "have_image rover1 objective1 colour",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_image_data objective1 colour",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint0 objective1 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 high_res"
+    ]
+  },
+  "calibrate rover1 camera1 objective1 waypoint1": {
+    "preconditions": [
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera1 rover1"
+    ]
+  },
+  "calibrate rover1 camera1 objective1 waypoint2": {
+    "preconditions": [
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera1 rover1"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 colour waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective2 colour",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint0 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint0",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_soil_data waypoint0"
+    ]
+  },
+  "take_image rover1 waypoint0 objective1 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 colour"
+    ]
+  },
+  "calibrate rover1 camera1 objective1 waypoint0": {
+    "preconditions": [
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera1 rover1"
+    ]
+  },
+  "take_image rover0 waypoint2 objective1 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 colour"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 high_res waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "have_image rover0 objective0 high_res",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 high_res",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint3 objective0 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint3"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 low_res"
+    ]
+  },
+  "take_image rover0 waypoint0 objective0 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 high_res"
+    ]
+  },
+  "take_image rover1 waypoint0 objective0 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 colour"
+    ]
+  },
+  "take_image rover1 waypoint2 objective2 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 high_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 low_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective2 low_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective2 low_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 colour waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "at rover1 waypoint2",
+      "have_image rover1 objective1 colour",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_image_data objective1 colour",
+      "channel_free general"
+    ]
+  },
+  "calibrate rover1 camera0 objective1 waypoint0": {
+    "preconditions": [
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera0 rover1"
+    ]
+  },
+  "calibrate rover1 camera0 objective1 waypoint1": {
+    "preconditions": [
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera0 rover1"
+    ]
+  },
+  "calibrate rover1 camera0 objective1 waypoint2": {
+    "preconditions": [
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "calibrated camera0 rover1"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 high_res waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective2 high_res",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 high_res",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint2 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint2",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_soil_data waypoint2",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint0 waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0",
+      "have_rock_analysis rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint0",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 high_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective2 high_res",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_image_data objective2 high_res",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint2 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint2",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint2",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "navigate rover1 waypoint2 waypoint1": {
+    "preconditions": [
+      "available rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (at rover1 waypoint2)"
+    ],
+    "add-effects": [
+      "at rover1 waypoint1"
+    ]
+  },
+  "take_image rover0 waypoint2 objective1 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 high_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective1 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 low_res"
+    ]
+  },
+  "take_image rover1 waypoint3 objective0 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint3"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 colour"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint0 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint0",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_soil_data waypoint0"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 low_res waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0",
+      "have_image rover0 objective2 low_res"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective2 low_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective0 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "take_image rover1 waypoint0 objective2 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 high_res"
+    ]
+  },
+  "drop rover1 rover1store": {
+    "preconditions": [
+      "full rover1store"
+    ],
+    "delete-effects": [
+      "not (full rover1store)"
+    ],
+    "add-effects": [
+      "empty rover1store"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint0 waypoint1 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1",
+      "have_rock_analysis rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint0",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 high_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective2 high_res",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 high_res",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint0 objective1 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 low_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint2",
+      "have_image rover0 objective0 high_res",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 high_res",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 colour waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "have_image rover1 objective1 colour",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_image_data objective1 colour",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 colour waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "have_image rover0 objective2 colour",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 low_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective2 low_res",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective2 low_res"
+    ]
+  },
+  "take_image rover1 waypoint2 objective2 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 low_res"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint3 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint3",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint3",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint1 objective2 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 high_res"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint3 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover0 waypoint3",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_rock_data waypoint3"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint0 waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general",
+      "have_rock_analysis rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint0",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint3 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint3",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint3",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint0 waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general",
+      "have_soil_analysis rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_soil_data waypoint0"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 colour waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective0 colour",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 colour",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint3 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint3",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_rock_data waypoint3"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint2 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint2",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint2",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint1 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint1",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint1",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "navigate rover0 waypoint1 waypoint0": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (at rover0 waypoint1)"
+    ],
+    "add-effects": [
+      "at rover0 waypoint0"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 low_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective1 low_res",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective1 low_res"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint1 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover0 waypoint1",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint1",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint2 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint2",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_soil_data waypoint2",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 colour waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective0 colour",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint1 objective2 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 high_res"
+    ]
+  },
+  "take_image rover0 waypoint0 objective2 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 colour"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 colour waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "at rover1 waypoint2",
+      "have_image rover1 objective2 colour",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 colour",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint0 objective0 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 low_res"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint2 waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general",
+      "have_rock_analysis rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint2",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 high_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective0 high_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 high_res",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 low_res waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general",
+      "have_image rover0 objective2 low_res"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective2 low_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 low_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 low_res",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective1 low_res"
+    ]
+  },
+  "navigate rover1 waypoint0 waypoint1": {
+    "preconditions": [
+      "at rover1 waypoint0",
+      "available rover1"
+    ],
+    "delete-effects": [
+      "not (at rover1 waypoint0)"
+    ],
+    "add-effects": [
+      "at rover1 waypoint1"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint1 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint1",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint1",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint3 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint3",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint3",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint1 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint1",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint1",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint0 waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general",
+      "have_rock_analysis rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint0",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 colour waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective2 colour",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint2 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover1 waypoint2",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint2",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint2 objective2 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 colour"
+    ]
+  },
+  "take_image rover1 waypoint0 objective0 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 high_res"
+    ]
+  },
+  "navigate rover1 waypoint1 waypoint2": {
+    "preconditions": [
+      "at rover1 waypoint1",
+      "available rover1"
+    ],
+    "delete-effects": [
+      "not (at rover1 waypoint1)"
+    ],
+    "add-effects": [
+      "at rover1 waypoint2"
+    ]
+  },
+  "take_image rover0 waypoint1 objective1 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 colour"
+    ]
+  },
+  "take_image rover0 waypoint3 objective0 camera2 high_res": {
+    "preconditions": [
+      "at rover0 waypoint3",
+      "calibrated camera2 rover0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 high_res"
+    ]
+  },
+  "navigate rover1 waypoint1 waypoint0": {
+    "preconditions": [
+      "at rover1 waypoint1",
+      "available rover1"
+    ],
+    "delete-effects": [
+      "not (at rover1 waypoint1)"
+    ],
+    "add-effects": [
+      "at rover1 waypoint0"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 low_res waypoint1 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1",
+      "have_image rover1 objective0 low_res"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective0 low_res"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint2 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint2",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint2",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint2 objective2 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 colour"
+    ]
+  },
+  "navigate rover1 waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover1 waypoint1",
+      "available rover1"
+    ],
+    "delete-effects": [
+      "not (at rover1 waypoint1)"
+    ],
+    "add-effects": [
+      "at rover1 waypoint3"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint3 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint3",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint3",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 colour waypoint1 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "have_image rover1 objective2 colour",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective2 colour",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 colour waypoint0 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective0 colour",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 colour",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover1 general waypoint0 waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general",
+      "have_rock_analysis rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint0",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint0 objective0 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 low_res"
+    ]
+  },
+  "take_image rover1 waypoint2 objective2 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 high_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective2 low_res waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general",
+      "have_image rover0 objective2 low_res"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective2 low_res"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint3 waypoint1 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint1",
+      "have_soil_analysis rover0 waypoint3",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint3",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint0 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint0",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_soil_data waypoint0"
+    ]
+  },
+  "take_image rover0 waypoint0 objective1 camera2 colour": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective1 colour"
+    ]
+  },
+  "take_image rover0 waypoint2 objective0 camera2 high_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective0 high_res"
+    ]
+  },
+  "take_image rover1 waypoint1 objective0 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 low_res"
+    ]
+  },
+  "take_image rover0 waypoint2 objective2 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 low_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective2 low_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective2 low_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective2 low_res"
+    ]
+  },
+  "take_image rover1 waypoint0 objective1 camera1 high_res": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 high_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective0 colour waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective0 colour",
+      "at rover0 waypoint1",
+      "available rover0",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover0 waypoint1 objective2 camera2 low_res": {
+    "preconditions": [
+      "calibrated camera2 rover0",
+      "at rover0 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera2 rover0)"
+    ],
+    "add-effects": [
+      "have_image rover0 objective2 low_res"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint0 waypoint0 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0",
+      "have_soil_analysis rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_soil_data waypoint0"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint3 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover0 waypoint3",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_rock_data waypoint3"
+    ]
+  },
+  "take_image rover1 waypoint1 objective2 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 colour"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint1 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint1",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint1",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint2 objective0 camera0 low_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective0 low_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 low_res waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general",
+      "have_image rover1 objective0 low_res"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective0 low_res"
+    ]
+  },
+  "communicate_image_data rover1 general objective1 low_res waypoint1 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective1 low_res",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "channel_free general",
+      "communicated_image_data objective1 low_res"
+    ]
+  },
+  "take_image rover1 waypoint2 objective1 camera0 high_res": {
+    "preconditions": [
+      "calibrated camera0 rover1",
+      "at rover1 waypoint2"
+    ],
+    "delete-effects": [
+      "not (calibrated camera0 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective1 high_res"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 low_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 low_res",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "available rover0",
+      "channel_free general",
+      "communicated_image_data objective1 low_res"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint1 waypoint2 waypoint3": {
+    "preconditions": [
+      "have_rock_analysis rover0 waypoint1",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint1",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "take_image rover1 waypoint0 objective2 camera1 colour": {
+    "preconditions": [
+      "calibrated camera1 rover1",
+      "at rover1 waypoint0"
+    ],
+    "delete-effects": [
+      "not (calibrated camera1 rover1)"
+    ],
+    "add-effects": [
+      "have_image rover1 objective2 colour"
+    ]
+  },
+  "communicate_soil_data rover0 general waypoint1 waypoint0 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover0 waypoint1",
+      "available rover0",
+      "channel_free general",
+      "at rover0 waypoint0"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_soil_data waypoint1",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "communicate_rock_data rover0 general waypoint2 waypoint2 waypoint3": {
+    "preconditions": [
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general",
+      "have_rock_analysis rover0 waypoint2"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_rock_data waypoint2",
+      "available rover0",
+      "channel_free general"
+    ]
+  },
+  "navigate rover0 waypoint0 waypoint1": {
+    "preconditions": [
+      "at rover0 waypoint0",
+      "available rover0"
+    ],
+    "delete-effects": [
+      "not (at rover0 waypoint0)"
+    ],
+    "add-effects": [
+      "at rover0 waypoint1"
+    ]
+  },
+  "navigate rover0 waypoint0 waypoint3": {
+    "preconditions": [
+      "at rover0 waypoint0",
+      "available rover0"
+    ],
+    "delete-effects": [
+      "not (at rover0 waypoint0)"
+    ],
+    "add-effects": [
+      "at rover0 waypoint3"
+    ]
+  },
+  "communicate_soil_data rover1 general waypoint2 waypoint1 waypoint3": {
+    "preconditions": [
+      "have_soil_analysis rover1 waypoint2",
+      "available rover1",
+      "channel_free general",
+      "at rover1 waypoint1"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "available rover1",
+      "communicated_soil_data waypoint2",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover1 general objective0 high_res waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover1 objective0 high_res",
+      "available rover1",
+      "at rover1 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover1)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective0 high_res",
+      "available rover1",
+      "channel_free general"
+    ]
+  },
+  "communicate_image_data rover0 general objective1 colour waypoint2 waypoint3": {
+    "preconditions": [
+      "have_image rover0 objective1 colour",
+      "available rover0",
+      "at rover0 waypoint2",
+      "channel_free general"
+    ],
+    "delete-effects": [
+      "not (channel_free general)",
+      "not (available rover0)"
+    ],
+    "add-effects": [
+      "communicated_image_data objective1 colour",
+      "available rover0",
+      "channel_free general"
+    ]
+  }
+}

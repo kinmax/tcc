@@ -1,0 +1,120 @@
+INFO     Running translator.
+INFO     translator stdin: None
+INFO     translator time limit: None
+INFO     translator memory limit: None
+INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/easy-ipc-grid-noisy/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/easy-ipc-grid-noisy/domain.pddl /home/kin/t2-integradora/easy-ipc-grid-noisy/problem.pddl --sas-file output.sas
+Parsing...
+Parsing: [0.000s CPU, 0.004s wall-clock]
+Normalizing task... [0.000s CPU, 0.000s wall-clock]
+Instantiating...
+Generating Datalog program... [0.010s CPU, 0.002s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.002s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
+Generated 20 rules.
+Computing model... [0.020s CPU, 0.016s wall-clock]
+545 relevant atoms
+464 auxiliary atoms
+1009 final queue length
+1077 total queue pushes
+Completing instantiation... [0.010s CPU, 0.007s wall-clock]
+Instantiating: [0.040s CPU, 0.030s wall-clock]
+Computing fact groups...
+Finding invariants...
+11 initial candidates
+Finding invariants: [0.000s CPU, 0.002s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.000s CPU, 0.002s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+0 uncovered facts
+Choosing groups: [0.000s CPU, 0.001s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.000s CPU, 0.009s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.000s wall-clock]
+Translating task: [0.010s CPU, 0.008s wall-clock]
+0 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+0 axioms removed
+146 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.005s wall-clock]
+Reordering and filtering variables...
+11 of 11 variables necessary.
+0 of 11 mutex groups necessary.
+127 of 127 operators necessary.
+0 of 0 axiom rules necessary.
+Reordering and filtering variables: [0.000s CPU, 0.001s wall-clock]
+Translator variables: 11
+Translator derived variables: 0
+Translator facts: 70
+Translator goal facts: 1
+Translator mutex groups: 0
+Translator total mutex groups size: 0
+Translator operators: 127
+Translator axioms: 0
+Translator task size: 498
+Translator peak memory: 44112 KB
+Writing output... [0.000s CPU, 0.002s wall-clock]
+Done! [0.070s CPU, 0.061s wall-clock]
+translate exit code: 0
+
+INFO     Running search (release).
+INFO     search stdin: output.sas
+INFO     search time limit: None
+INFO     search memory limit: None
+INFO     search command line string: /home/kin/t2-integradora/easy-ipc-grid-noisy/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
+reading input... [t=4.5649e-05s]
+done reading input! [t=0.0010258s]
+Initializing landmarks count heuristic...
+Initializing Exploration...
+Generating landmarks using Zhu/Givan label propagation
+Removing all orderings.
+Removed 0 reasonable or obedient reasonable orders
+Landmarks generation time: 0.00167052s
+Discovered 14 landmarks, of which 0 are disjunctive and 0 are conjunctive 
+0 edges
+############################################################################
+Landmark graph: 
+LM 0 Atom at-robot(place_4_9) (var10(10)->49)(goal) Achievers (1, 1)
+
+LM 1 Atom at-robot(place_4_8) (var10(10)->48) Achievers (2, 1)
+
+LM 3 Atom at-robot(place_4_7) (var10(10)->47) Achievers (2, 1)
+
+LM 2 Atom at-robot(place_4_6) (var10(10)->46) Achievers (2, 1)
+
+LM 9 Atom at-robot(place_4_5) (var10(10)->45) Achievers (2, 1)
+
+LM 10 Atom at-robot(place_4_4) (var10(10)->44) Achievers (2, 1)
+
+LM 4 Atom at-robot(place_4_3) (var10(10)->43) Achievers (2, 1)
+
+LM 6 Atom at-robot(place_4_2) (var10(10)->42) Achievers (2, 1)
+
+LM 12 Atom at-robot(place_4_1) (var10(10)->41) Achievers (2, 1)
+
+LM 13 Atom at-robot(place_4_0) (var10(10)->40) Achievers (2, 1)
+
+LM 11 Atom at-robot(place_3_0) (var10(10)->30) Achievers (3, 2)
+
+LM 8 Atom at-robot(place_2_0) (var10(10)->20) Achievers (3, 1)
+
+LM 5 Atom at-robot(place_1_0) (var10(10)->10) Achievers (3, 1)
+
+LM 7 Atom at-robot(place_0_0) (var10(10)->0) Achievers (2, 2)
+
+Landmark graph end.
+############################################################################
+Peak memory: 52400 KB
+Remove intermediate file output.sas
+search exit code: 0
+

@@ -1,0 +1,3002 @@
+{
+  "push f3-2f f3-1f f3-0f left box0": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "at box0 f3-1f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (clear f3-0f)",
+      "not (at box0 f3-1f)",
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "clear f3-1f",
+      "at box0 f3-0f"
+    ]
+  },
+  "move f2-4f f1-4f up": {
+    "preconditions": [
+      "clear f1-4f",
+      "at-robot f2-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "at-robot f1-4f"
+    ]
+  },
+  "push f3-4f f2-4f f1-4f up box0": {
+    "preconditions": [
+      "clear f1-4f",
+      "at-robot f3-4f",
+      "at box0 f2-4f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-4f)",
+      "not (at-robot f3-4f)",
+      "not (clear f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f",
+      "clear f2-4f",
+      "at box0 f1-4f"
+    ]
+  },
+  "push f3-4f f2-4f f1-4f up box1": {
+    "preconditions": [
+      "clear f1-4f",
+      "at box1 f2-4f",
+      "at-robot f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-4f)",
+      "not (at box1 f2-4f)",
+      "not (clear f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f",
+      "at box1 f1-4f",
+      "clear f2-4f"
+    ]
+  },
+  "push f3-2f f3-1f f3-0f left box1": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "at box1 f3-1f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (clear f3-0f)",
+      "not (at-robot f3-2f)",
+      "not (at box1 f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "clear f3-1f",
+      "at box1 f3-0f"
+    ]
+  },
+  "push f2-4f f1-4f f0-4f up box1": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "at box1 f1-4f",
+      "clear f0-4f"
+    ],
+    "delete-effects": [
+      "not (clear f0-4f)",
+      "not (at box1 f1-4f)",
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "clear f1-4f",
+      "at-robot f1-4f",
+      "at box1 f0-4f"
+    ]
+  },
+  "move f2-3f f3-3f down": {
+    "preconditions": [
+      "clear f3-3f",
+      "at-robot f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f"
+    ]
+  },
+  "push f2-4f f1-4f f0-4f up box0": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "at box0 f1-4f",
+      "clear f0-4f"
+    ],
+    "delete-effects": [
+      "not (at box0 f1-4f)",
+      "not (clear f0-4f)",
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "clear f1-4f",
+      "at-robot f1-4f",
+      "at box0 f0-4f"
+    ]
+  },
+  "push f3-1f f3-2f f3-3f right box0": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "at box0 f3-2f",
+      "clear f3-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-2f)",
+      "not (clear f3-3f)",
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "clear f3-2f",
+      "at box0 f3-3f"
+    ]
+  },
+  "push f2-3f f3-3f f4-3f down box1": {
+    "preconditions": [
+      "at-robot f2-3f",
+      "at box1 f3-3f",
+      "clear f4-3f"
+    ],
+    "delete-effects": [
+      "not (clear f4-3f)",
+      "not (at-robot f2-3f)",
+      "not (at box1 f3-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "at box1 f4-3f",
+      "clear f3-3f"
+    ]
+  },
+  "move f2-1f f1-1f up": {
+    "preconditions": [
+      "clear f1-1f",
+      "at-robot f2-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-1f)"
+    ],
+    "add-effects": [
+      "at-robot f1-1f"
+    ]
+  },
+  "push f2-3f f3-3f f4-3f down box0": {
+    "preconditions": [
+      "at-robot f2-3f",
+      "clear f4-3f",
+      "at box0 f3-3f"
+    ],
+    "delete-effects": [
+      "not (clear f4-3f)",
+      "not (at box0 f3-3f)",
+      "not (at-robot f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "at box0 f4-3f",
+      "clear f3-3f"
+    ]
+  },
+  "push f3-1f f3-2f f3-3f right box1": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "at box1 f3-2f",
+      "clear f3-3f"
+    ],
+    "delete-effects": [
+      "not (clear f3-3f)",
+      "not (at-robot f3-1f)",
+      "not (at box1 f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "clear f3-2f",
+      "at box1 f3-3f"
+    ]
+  },
+  "move f3-1f f3-2f right": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "clear f3-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f"
+    ]
+  },
+  "push f4-4f f4-3f f4-2f left box1": {
+    "preconditions": [
+      "at-robot f4-4f",
+      "clear f4-2f",
+      "at box1 f4-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-4f)",
+      "not (clear f4-2f)",
+      "not (at box1 f4-3f)"
+    ],
+    "add-effects": [
+      "at-robot f4-3f",
+      "at box1 f4-2f",
+      "clear f4-3f"
+    ]
+  },
+  "push f4-4f f4-3f f4-2f left box0": {
+    "preconditions": [
+      "at-robot f4-4f",
+      "clear f4-2f",
+      "at box0 f4-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-4f)",
+      "not (clear f4-2f)",
+      "not (at box0 f4-3f)"
+    ],
+    "add-effects": [
+      "at box0 f4-2f",
+      "at-robot f4-3f",
+      "clear f4-3f"
+    ]
+  },
+  "push f1-1f f2-1f f3-1f down box0": {
+    "preconditions": [
+      "clear f3-1f",
+      "at-robot f1-1f",
+      "at box0 f2-1f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-1f)",
+      "not (at-robot f1-1f)",
+      "not (clear f3-1f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at box0 f3-1f",
+      "at-robot f2-1f"
+    ]
+  },
+  "move f2-2f f2-1f left": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f2-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-1f"
+    ]
+  },
+  "push f4-3f f4-2f f4-1f left box0": {
+    "preconditions": [
+      "at box0 f4-2f",
+      "at-robot f4-3f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-1f)",
+      "not (at-robot f4-3f)",
+      "not (at box0 f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-2f",
+      "clear f4-2f",
+      "at box0 f4-1f"
+    ]
+  },
+  "push f4-3f f4-2f f4-1f left box1": {
+    "preconditions": [
+      "at-robot f4-3f",
+      "at box1 f4-2f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-1f)",
+      "not (at-robot f4-3f)",
+      "not (at box1 f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-2f",
+      "at box1 f4-1f",
+      "clear f4-2f"
+    ]
+  },
+  "push f3-3f f3-2f f3-1f left box1": {
+    "preconditions": [
+      "at box1 f3-2f",
+      "at-robot f3-3f",
+      "clear f3-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-3f)",
+      "not (clear f3-1f)",
+      "not (at box1 f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "at box1 f3-1f",
+      "clear f3-2f"
+    ]
+  },
+  "push f3-3f f3-2f f3-1f left box0": {
+    "preconditions": [
+      "at-robot f3-3f",
+      "clear f3-1f",
+      "at box0 f3-2f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-2f)",
+      "not (at-robot f3-3f)",
+      "not (clear f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "clear f3-2f",
+      "at box0 f3-1f"
+    ]
+  },
+  "move f0-0f f0-1f right": {
+    "preconditions": [
+      "at-robot f0-0f",
+      "clear f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-0f)"
+    ],
+    "add-effects": [
+      "at-robot f0-1f"
+    ]
+  },
+  "move f4-1f f4-0f left": {
+    "preconditions": [
+      "clear f4-0f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-1f)"
+    ],
+    "add-effects": [
+      "at-robot f4-0f"
+    ]
+  },
+  "push f2-1f f3-1f f4-1f down box1": {
+    "preconditions": [
+      "at box1 f3-1f",
+      "at-robot f2-1f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-1f)",
+      "not (at-robot f2-1f)",
+      "not (at box1 f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "clear f3-1f",
+      "at box1 f4-1f"
+    ]
+  },
+  "move f0-4f f1-4f down": {
+    "preconditions": [
+      "clear f1-4f",
+      "at-robot f0-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-4f)"
+    ],
+    "add-effects": [
+      "at-robot f1-4f"
+    ]
+  },
+  "push f2-1f f3-1f f4-1f down box0": {
+    "preconditions": [
+      "at box0 f3-1f",
+      "at-robot f2-1f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-1f)",
+      "not (at-robot f2-1f)",
+      "not (at box0 f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "clear f3-1f",
+      "at box0 f4-1f"
+    ]
+  },
+  "move f3-0f f4-0f down": {
+    "preconditions": [
+      "clear f4-0f",
+      "at-robot f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-0f)"
+    ],
+    "add-effects": [
+      "at-robot f4-0f"
+    ]
+  },
+  "move f4-2f f3-2f up": {
+    "preconditions": [
+      "at-robot f4-2f",
+      "clear f3-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f"
+    ]
+  },
+  "push f2-0f f3-0f f4-0f down box1": {
+    "preconditions": [
+      "clear f4-0f",
+      "at box1 f3-0f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f4-0f)",
+      "not (at-robot f2-0f)",
+      "not (at box1 f3-0f)"
+    ],
+    "add-effects": [
+      "at-robot f3-0f",
+      "at box1 f4-0f",
+      "clear f3-0f"
+    ]
+  },
+  "push f2-4f f3-4f f4-4f down box0": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "clear f4-4f",
+      "at box0 f3-4f"
+    ],
+    "delete-effects": [
+      "not (clear f4-4f)",
+      "not (at box0 f3-4f)",
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "at-robot f3-4f",
+      "clear f3-4f",
+      "at box0 f4-4f"
+    ]
+  },
+  "push f4-0f f4-1f f4-2f right box0": {
+    "preconditions": [
+      "clear f4-2f",
+      "at box0 f4-1f",
+      "at-robot f4-0f"
+    ],
+    "delete-effects": [
+      "not (at box0 f4-1f)",
+      "not (clear f4-2f)",
+      "not (at-robot f4-0f)"
+    ],
+    "add-effects": [
+      "at box0 f4-2f",
+      "at-robot f4-1f",
+      "clear f4-1f"
+    ]
+  },
+  "move f4-2f f4-3f right": {
+    "preconditions": [
+      "at-robot f4-2f",
+      "clear f4-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-3f"
+    ]
+  },
+  "push f0-1f f0-2f f0-3f right box1": {
+    "preconditions": [
+      "at box1 f0-2f",
+      "clear f0-3f",
+      "at-robot f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)",
+      "not (at box1 f0-2f)",
+      "not (clear f0-3f)"
+    ],
+    "add-effects": [
+      "clear f0-2f",
+      "at-robot f0-2f",
+      "at box1 f0-3f"
+    ]
+  },
+  "push f0-1f f0-2f f0-3f right box0": {
+    "preconditions": [
+      "clear f0-3f",
+      "at-robot f0-1f",
+      "at box0 f0-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)",
+      "not (clear f0-3f)",
+      "not (at box0 f0-2f)"
+    ],
+    "add-effects": [
+      "clear f0-2f",
+      "at box0 f0-3f",
+      "at-robot f0-2f"
+    ]
+  },
+  "push f4-0f f4-1f f4-2f right box1": {
+    "preconditions": [
+      "clear f4-2f",
+      "at-robot f4-0f",
+      "at box1 f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-2f)",
+      "not (at-robot f4-0f)",
+      "not (at box1 f4-1f)"
+    ],
+    "add-effects": [
+      "at box1 f4-2f",
+      "at-robot f4-1f",
+      "clear f4-1f"
+    ]
+  },
+  "push f2-4f f3-4f f4-4f down box1": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "clear f4-4f",
+      "at box1 f3-4f"
+    ],
+    "delete-effects": [
+      "not (clear f4-4f)",
+      "not (at box1 f3-4f)",
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "at-robot f3-4f",
+      "clear f3-4f",
+      "at box1 f4-4f"
+    ]
+  },
+  "push f1-0f f2-0f f3-0f down box1": {
+    "preconditions": [
+      "at box1 f2-0f",
+      "at-robot f1-0f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (clear f3-0f)",
+      "not (at-robot f1-0f)",
+      "not (at box1 f2-0f)"
+    ],
+    "add-effects": [
+      "at box1 f3-0f",
+      "at-robot f2-0f",
+      "clear f2-0f"
+    ]
+  },
+  "push f1-0f f2-0f f3-0f down box0": {
+    "preconditions": [
+      "at-robot f1-0f",
+      "at box0 f2-0f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (clear f3-0f)",
+      "not (at box0 f2-0f)",
+      "not (at-robot f1-0f)"
+    ],
+    "add-effects": [
+      "at-robot f2-0f",
+      "at box0 f3-0f",
+      "clear f2-0f"
+    ]
+  },
+  "push f0-0f f1-0f f2-0f down box0": {
+    "preconditions": [
+      "at-robot f0-0f",
+      "at box0 f1-0f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f2-0f)",
+      "not (at-robot f0-0f)",
+      "not (at box0 f1-0f)"
+    ],
+    "add-effects": [
+      "at-robot f1-0f",
+      "clear f1-0f",
+      "at box0 f2-0f"
+    ]
+  },
+  "push f0-0f f1-0f f2-0f down box1": {
+    "preconditions": [
+      "at box1 f1-0f",
+      "at-robot f0-0f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f2-0f)",
+      "not (at-robot f0-0f)",
+      "not (at box1 f1-0f)"
+    ],
+    "add-effects": [
+      "at box1 f2-0f",
+      "at-robot f1-0f",
+      "clear f1-0f"
+    ]
+  },
+  "push f2-2f f2-1f f2-0f left box1": {
+    "preconditions": [
+      "at box1 f2-1f",
+      "at-robot f2-2f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f2-0f)",
+      "not (at-robot f2-2f)",
+      "not (at box1 f2-1f)"
+    ],
+    "add-effects": [
+      "at box1 f2-0f",
+      "clear f2-1f",
+      "at-robot f2-1f"
+    ]
+  },
+  "push f2-2f f2-1f f2-0f left box0": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "at box0 f2-1f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f2-0f)",
+      "not (at box0 f2-1f)",
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at-robot f2-1f",
+      "at box0 f2-0f"
+    ]
+  },
+  "push f3-4f f3-3f f3-2f left box0": {
+    "preconditions": [
+      "clear f3-2f",
+      "at-robot f3-4f",
+      "at box0 f3-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-3f)",
+      "not (at-robot f3-4f)",
+      "not (clear f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "clear f3-3f",
+      "at box0 f3-2f"
+    ]
+  },
+  "move f1-1f f1-2f right": {
+    "preconditions": [
+      "at-robot f1-1f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)"
+    ],
+    "add-effects": [
+      "at-robot f1-2f"
+    ]
+  },
+  "push f3-4f f3-3f f3-2f left box1": {
+    "preconditions": [
+      "clear f3-2f",
+      "at-robot f3-4f",
+      "at box1 f3-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-4f)",
+      "not (at box1 f3-3f)",
+      "not (clear f3-2f)"
+    ],
+    "add-effects": [
+      "at box1 f3-2f",
+      "at-robot f3-3f",
+      "clear f3-3f"
+    ]
+  },
+  "push f1-0f f1-1f f1-2f right box1": {
+    "preconditions": [
+      "at-robot f1-0f",
+      "at box1 f1-1f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (at box1 f1-1f)",
+      "not (clear f1-2f)",
+      "not (at-robot f1-0f)"
+    ],
+    "add-effects": [
+      "clear f1-1f",
+      "at-robot f1-1f",
+      "at box1 f1-2f"
+    ]
+  },
+  "push f1-0f f1-1f f1-2f right box0": {
+    "preconditions": [
+      "at-robot f1-0f",
+      "clear f1-2f",
+      "at box0 f1-1f"
+    ],
+    "delete-effects": [
+      "not (clear f1-2f)",
+      "not (at-robot f1-0f)",
+      "not (at box0 f1-1f)"
+    ],
+    "add-effects": [
+      "clear f1-1f",
+      "at box0 f1-2f",
+      "at-robot f1-1f"
+    ]
+  },
+  "move f2-2f f3-2f down": {
+    "preconditions": [
+      "clear f3-2f",
+      "at-robot f2-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f"
+    ]
+  },
+  "push f1-3f f2-3f f3-3f down box0": {
+    "preconditions": [
+      "at box0 f2-3f",
+      "at-robot f1-3f",
+      "clear f3-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-3f)",
+      "not (clear f3-3f)",
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f",
+      "clear f2-3f",
+      "at box0 f3-3f"
+    ]
+  },
+  "move f3-4f f3-3f left": {
+    "preconditions": [
+      "clear f3-3f",
+      "at-robot f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-4f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f"
+    ]
+  },
+  "push f1-3f f2-3f f3-3f down box1": {
+    "preconditions": [
+      "at box1 f2-3f",
+      "at-robot f1-3f",
+      "clear f3-3f"
+    ],
+    "delete-effects": [
+      "not (clear f3-3f)",
+      "not (at-robot f1-3f)",
+      "not (at box1 f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f",
+      "at box1 f3-3f",
+      "clear f2-3f"
+    ]
+  },
+  "move f4-2f f4-1f left": {
+    "preconditions": [
+      "at-robot f4-2f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-1f"
+    ]
+  },
+  "push f4-2f f4-1f f4-0f left box0": {
+    "preconditions": [
+      "at-robot f4-2f",
+      "clear f4-0f",
+      "at box0 f4-1f"
+    ],
+    "delete-effects": [
+      "not (at box0 f4-1f)",
+      "not (clear f4-0f)",
+      "not (at-robot f4-2f)"
+    ],
+    "add-effects": [
+      "at box0 f4-0f",
+      "at-robot f4-1f",
+      "clear f4-1f"
+    ]
+  },
+  "push f4-2f f4-1f f4-0f left box1": {
+    "preconditions": [
+      "at-robot f4-2f",
+      "clear f4-0f",
+      "at box1 f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-0f)",
+      "not (at box1 f4-1f)",
+      "not (at-robot f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-1f",
+      "at box1 f4-0f",
+      "clear f4-1f"
+    ]
+  },
+  "push f1-1f f2-1f f3-1f down box1": {
+    "preconditions": [
+      "at box1 f2-1f",
+      "clear f3-1f",
+      "at-robot f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)",
+      "not (clear f3-1f)",
+      "not (at box1 f2-1f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at box1 f3-1f",
+      "at-robot f2-1f"
+    ]
+  },
+  "move f2-1f f2-0f left": {
+    "preconditions": [
+      "at-robot f2-1f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-1f)"
+    ],
+    "add-effects": [
+      "at-robot f2-0f"
+    ]
+  },
+  "move f2-2f f2-3f right": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "clear f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f"
+    ]
+  },
+  "move f3-4f f2-4f up": {
+    "preconditions": [
+      "clear f2-4f",
+      "at-robot f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f"
+    ]
+  },
+  "push f0-2f f1-2f f2-2f down box0": {
+    "preconditions": [
+      "clear f2-2f",
+      "at-robot f0-2f",
+      "at box0 f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)",
+      "not (at box0 f1-2f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "at box0 f2-2f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "push f3-2f f2-2f f1-2f up box0": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "clear f1-2f",
+      "at box0 f2-2f"
+    ],
+    "delete-effects": [
+      "not (clear f1-2f)",
+      "not (at box0 f2-2f)",
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at-robot f2-2f",
+      "at box0 f1-2f"
+    ]
+  },
+  "push f3-1f f2-1f f1-1f up box1": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "at box1 f2-1f",
+      "clear f1-1f"
+    ],
+    "delete-effects": [
+      "not (clear f1-1f)",
+      "not (at box1 f2-1f)",
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at-robot f2-1f",
+      "at box1 f1-1f"
+    ]
+  },
+  "push f3-2f f2-2f f1-2f up box1": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "at box1 f2-2f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (clear f1-2f)",
+      "not (at box1 f2-2f)",
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at-robot f2-2f",
+      "at box1 f1-2f"
+    ]
+  },
+  "push f3-1f f2-1f f1-1f up box0": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "clear f1-1f",
+      "at box0 f2-1f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-1f)",
+      "not (clear f1-1f)",
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at-robot f2-1f",
+      "at box0 f1-1f"
+    ]
+  },
+  "push f2-2f f3-2f f4-2f down box0": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "clear f4-2f",
+      "at box0 f3-2f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-2f)",
+      "not (clear f4-2f)",
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at box0 f4-2f",
+      "at-robot f3-2f",
+      "clear f3-2f"
+    ]
+  },
+  "push f2-2f f3-2f f4-2f down box1": {
+    "preconditions": [
+      "at box1 f3-2f",
+      "at-robot f2-2f",
+      "clear f4-2f"
+    ],
+    "delete-effects": [
+      "not (clear f4-2f)",
+      "not (at-robot f2-2f)",
+      "not (at box1 f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "clear f3-2f",
+      "at box1 f4-2f"
+    ]
+  },
+  "push f4-2f f4-3f f4-4f right box0": {
+    "preconditions": [
+      "clear f4-4f",
+      "at box0 f4-3f",
+      "at-robot f4-2f"
+    ],
+    "delete-effects": [
+      "not (clear f4-4f)",
+      "not (at-robot f4-2f)",
+      "not (at box0 f4-3f)"
+    ],
+    "add-effects": [
+      "at-robot f4-3f",
+      "at box0 f4-4f",
+      "clear f4-3f"
+    ]
+  },
+  "move f1-1f f0-1f up": {
+    "preconditions": [
+      "at-robot f1-1f",
+      "clear f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)"
+    ],
+    "add-effects": [
+      "at-robot f0-1f"
+    ]
+  },
+  "push f4-2f f4-3f f4-4f right box1": {
+    "preconditions": [
+      "clear f4-4f",
+      "at-robot f4-2f",
+      "at box1 f4-3f"
+    ],
+    "delete-effects": [
+      "not (clear f4-4f)",
+      "not (at-robot f4-2f)",
+      "not (at box1 f4-3f)"
+    ],
+    "add-effects": [
+      "at-robot f4-3f",
+      "at box1 f4-4f",
+      "clear f4-3f"
+    ]
+  },
+  "move f3-4f f4-4f down": {
+    "preconditions": [
+      "clear f4-4f",
+      "at-robot f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-4f)"
+    ],
+    "add-effects": [
+      "at-robot f4-4f"
+    ]
+  },
+  "push f1-2f f1-3f f1-4f right box1": {
+    "preconditions": [
+      "at box1 f1-3f",
+      "clear f1-4f",
+      "at-robot f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)",
+      "not (at box1 f1-3f)",
+      "not (clear f1-4f)"
+    ],
+    "add-effects": [
+      "at box1 f1-4f",
+      "at-robot f1-3f",
+      "clear f1-3f"
+    ]
+  },
+  "move f1-4f f1-3f left": {
+    "preconditions": [
+      "at-robot f1-4f",
+      "clear f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f"
+    ]
+  },
+  "push f1-2f f1-3f f1-4f right box0": {
+    "preconditions": [
+      "clear f1-4f",
+      "at-robot f1-2f",
+      "at box0 f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)",
+      "not (at box0 f1-3f)",
+      "not (clear f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f",
+      "clear f1-3f",
+      "at box0 f1-4f"
+    ]
+  },
+  "push f0-3f f1-3f f2-3f down box0": {
+    "preconditions": [
+      "at-robot f0-3f",
+      "clear f2-3f",
+      "at box0 f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-3f)",
+      "not (at box0 f1-3f)",
+      "not (clear f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f",
+      "clear f1-3f",
+      "at box0 f2-3f"
+    ]
+  },
+  "push f0-3f f1-3f f2-3f down box1": {
+    "preconditions": [
+      "at box1 f1-3f",
+      "at-robot f0-3f",
+      "clear f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-3f)",
+      "not (clear f2-3f)",
+      "not (at box1 f1-3f)"
+    ],
+    "add-effects": [
+      "at box1 f2-3f",
+      "at-robot f1-3f",
+      "clear f1-3f"
+    ]
+  },
+  "push f2-2f f1-2f f0-2f up box1": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "at box1 f1-2f",
+      "clear f0-2f"
+    ],
+    "delete-effects": [
+      "not (at box1 f1-2f)",
+      "not (clear f0-2f)",
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at box1 f0-2f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "move f1-1f f1-0f left": {
+    "preconditions": [
+      "clear f1-0f",
+      "at-robot f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)"
+    ],
+    "add-effects": [
+      "at-robot f1-0f"
+    ]
+  },
+  "push f2-2f f1-2f f0-2f up box0": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "at box0 f1-2f",
+      "clear f0-2f"
+    ],
+    "delete-effects": [
+      "not (clear f0-2f)",
+      "not (at box0 f1-2f)",
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at box0 f0-2f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "move f1-2f f1-3f right": {
+    "preconditions": [
+      "clear f1-3f",
+      "at-robot f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f"
+    ]
+  },
+  "push f0-2f f1-2f f2-2f down box1": {
+    "preconditions": [
+      "clear f2-2f",
+      "at-robot f0-2f",
+      "at box1 f1-2f"
+    ],
+    "delete-effects": [
+      "not (at box1 f1-2f)",
+      "not (at-robot f0-2f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "at box1 f2-2f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "move f0-2f f1-2f down": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)"
+    ],
+    "add-effects": [
+      "at-robot f1-2f"
+    ]
+  },
+  "move f3-3f f3-4f right": {
+    "preconditions": [
+      "at-robot f3-3f",
+      "clear f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-4f"
+    ]
+  },
+  "move f0-4f f0-3f left": {
+    "preconditions": [
+      "clear f0-3f",
+      "at-robot f0-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-4f)"
+    ],
+    "add-effects": [
+      "at-robot f0-3f"
+    ]
+  },
+  "push f2-1f f2-2f f2-3f right box0": {
+    "preconditions": [
+      "clear f2-3f",
+      "at-robot f2-1f",
+      "at box0 f2-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-1f)",
+      "not (at box0 f2-2f)",
+      "not (clear f2-3f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at-robot f2-2f",
+      "at box0 f2-3f"
+    ]
+  },
+  "push f2-1f f2-2f f2-3f right box1": {
+    "preconditions": [
+      "at box1 f2-2f",
+      "clear f2-3f",
+      "at-robot f2-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-1f)",
+      "not (at box1 f2-2f)",
+      "not (clear f2-3f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at-robot f2-2f",
+      "at box1 f2-3f"
+    ]
+  },
+  "move f2-3f f2-2f left": {
+    "preconditions": [
+      "clear f2-2f",
+      "at-robot f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-2f"
+    ]
+  },
+  "move f4-0f f4-1f right": {
+    "preconditions": [
+      "at-robot f4-0f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-0f)"
+    ],
+    "add-effects": [
+      "at-robot f4-1f"
+    ]
+  },
+  "push f1-2f f1-1f f1-0f left box0": {
+    "preconditions": [
+      "clear f1-0f",
+      "at-robot f1-2f",
+      "at box0 f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)",
+      "not (clear f1-0f)",
+      "not (at box0 f1-1f)"
+    ],
+    "add-effects": [
+      "at box0 f1-0f",
+      "clear f1-1f",
+      "at-robot f1-1f"
+    ]
+  },
+  "push f1-2f f1-1f f1-0f left box1": {
+    "preconditions": [
+      "clear f1-0f",
+      "at-robot f1-2f",
+      "at box1 f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)",
+      "not (at box1 f1-1f)",
+      "not (clear f1-0f)"
+    ],
+    "add-effects": [
+      "clear f1-1f",
+      "at box1 f1-0f",
+      "at-robot f1-1f"
+    ]
+  },
+  "move f4-1f f3-1f up": {
+    "preconditions": [
+      "clear f3-1f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f"
+    ]
+  },
+  "move f1-3f f1-4f right": {
+    "preconditions": [
+      "clear f1-4f",
+      "at-robot f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-4f"
+    ]
+  },
+  "push f2-1f f1-1f f0-1f up box0": {
+    "preconditions": [
+      "clear f0-1f",
+      "at-robot f2-1f",
+      "at box0 f1-1f"
+    ],
+    "delete-effects": [
+      "not (clear f0-1f)",
+      "not (at-robot f2-1f)",
+      "not (at box0 f1-1f)"
+    ],
+    "add-effects": [
+      "at box0 f0-1f",
+      "clear f1-1f",
+      "at-robot f1-1f"
+    ]
+  },
+  "push f2-1f f1-1f f0-1f up box1": {
+    "preconditions": [
+      "at box1 f1-1f",
+      "clear f0-1f",
+      "at-robot f2-1f"
+    ],
+    "delete-effects": [
+      "not (at box1 f1-1f)",
+      "not (clear f0-1f)",
+      "not (at-robot f2-1f)"
+    ],
+    "add-effects": [
+      "clear f1-1f",
+      "at-robot f1-1f",
+      "at box1 f0-1f"
+    ]
+  },
+  "push f0-2f f0-1f f0-0f left box1": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "clear f0-0f",
+      "at box1 f0-1f"
+    ],
+    "delete-effects": [
+      "not (at box1 f0-1f)",
+      "not (at-robot f0-2f)",
+      "not (clear f0-0f)"
+    ],
+    "add-effects": [
+      "at-robot f0-1f",
+      "at box1 f0-0f",
+      "clear f0-1f"
+    ]
+  },
+  "push f0-2f f0-1f f0-0f left box0": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "clear f0-0f",
+      "at box0 f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)",
+      "not (clear f0-0f)",
+      "not (at box0 f0-1f)"
+    ],
+    "add-effects": [
+      "at box0 f0-0f",
+      "at-robot f0-1f",
+      "clear f0-1f"
+    ]
+  },
+  "push f2-2f f2-3f f2-4f right box0": {
+    "preconditions": [
+      "at box0 f2-3f",
+      "at-robot f2-2f",
+      "clear f2-4f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-3f)",
+      "not (clear f2-4f)",
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f",
+      "clear f2-3f",
+      "at box0 f2-4f"
+    ]
+  },
+  "push f2-3f f1-3f f0-3f up box1": {
+    "preconditions": [
+      "at box1 f1-3f",
+      "clear f0-3f",
+      "at-robot f2-3f"
+    ],
+    "delete-effects": [
+      "not (clear f0-3f)",
+      "not (at-robot f2-3f)",
+      "not (at box1 f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f",
+      "clear f1-3f",
+      "at box1 f0-3f"
+    ]
+  },
+  "move f3-2f f2-2f up": {
+    "preconditions": [
+      "clear f2-2f",
+      "at-robot f3-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-2f"
+    ]
+  },
+  "push f2-3f f1-3f f0-3f up box0": {
+    "preconditions": [
+      "clear f0-3f",
+      "at-robot f2-3f",
+      "at box0 f1-3f"
+    ],
+    "delete-effects": [
+      "not (clear f0-3f)",
+      "not (at box0 f1-3f)",
+      "not (at-robot f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f",
+      "clear f1-3f",
+      "at box0 f0-3f"
+    ]
+  },
+  "push f2-2f f2-3f f2-4f right box1": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "at box1 f2-3f",
+      "clear f2-4f"
+    ],
+    "delete-effects": [
+      "not (clear f2-4f)",
+      "not (at-robot f2-2f)",
+      "not (at box1 f2-3f)"
+    ],
+    "add-effects": [
+      "at box1 f2-4f",
+      "at-robot f2-3f",
+      "clear f2-3f"
+    ]
+  },
+  "move f0-2f f0-1f left": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "clear f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)"
+    ],
+    "add-effects": [
+      "at-robot f0-1f"
+    ]
+  },
+  "move f2-3f f1-3f up": {
+    "preconditions": [
+      "clear f1-3f",
+      "at-robot f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f"
+    ]
+  },
+  "move f1-1f f2-1f down": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)"
+    ],
+    "add-effects": [
+      "at-robot f2-1f"
+    ]
+  },
+  "move f1-4f f0-4f up": {
+    "preconditions": [
+      "clear f0-4f",
+      "at-robot f1-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f0-4f"
+    ]
+  },
+  "move f2-0f f2-1f right": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-0f)"
+    ],
+    "add-effects": [
+      "at-robot f2-1f"
+    ]
+  },
+  "push f2-4f f2-3f f2-2f left box1": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "clear f2-2f",
+      "at box1 f2-3f"
+    ],
+    "delete-effects": [
+      "not (at box1 f2-3f)",
+      "not (at-robot f2-4f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f",
+      "at box1 f2-2f",
+      "clear f2-3f"
+    ]
+  },
+  "move f3-2f f4-2f down": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "clear f4-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-2f"
+    ]
+  },
+  "push f2-4f f2-3f f2-2f left box0": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "clear f2-2f",
+      "at box0 f2-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-3f)",
+      "not (at-robot f2-4f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f",
+      "clear f2-3f",
+      "at box0 f2-2f"
+    ]
+  },
+  "move f3-2f f3-1f left": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "clear f3-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f"
+    ]
+  },
+  "push f1-1f f1-2f f1-3f right box1": {
+    "preconditions": [
+      "at-robot f1-1f",
+      "at box1 f1-2f",
+      "clear f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)",
+      "not (at box1 f1-2f)",
+      "not (clear f1-3f)"
+    ],
+    "add-effects": [
+      "at box1 f1-3f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "push f1-1f f1-2f f1-3f right box0": {
+    "preconditions": [
+      "at-robot f1-1f",
+      "clear f1-3f",
+      "at box0 f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-1f)",
+      "not (at box0 f1-2f)",
+      "not (clear f1-3f)"
+    ],
+    "add-effects": [
+      "at box0 f1-3f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "push f1-2f f2-2f f3-2f down box1": {
+    "preconditions": [
+      "clear f3-2f",
+      "at box1 f2-2f",
+      "at-robot f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)",
+      "not (at box1 f2-2f)",
+      "not (clear f3-2f)"
+    ],
+    "add-effects": [
+      "at box1 f3-2f",
+      "clear f2-2f",
+      "at-robot f2-2f"
+    ]
+  },
+  "push f1-2f f2-2f f3-2f down box0": {
+    "preconditions": [
+      "clear f3-2f",
+      "at-robot f1-2f",
+      "at box0 f2-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)",
+      "not (at box0 f2-2f)",
+      "not (clear f3-2f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at-robot f2-2f",
+      "at box0 f3-2f"
+    ]
+  },
+  "move f4-1f f4-2f right": {
+    "preconditions": [
+      "clear f4-2f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-1f)"
+    ],
+    "add-effects": [
+      "at-robot f4-2f"
+    ]
+  },
+  "move f1-0f f1-1f right": {
+    "preconditions": [
+      "clear f1-1f",
+      "at-robot f1-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-0f)"
+    ],
+    "add-effects": [
+      "at-robot f1-1f"
+    ]
+  },
+  "push f2-0f f1-0f f0-0f up box1": {
+    "preconditions": [
+      "at box1 f1-0f",
+      "clear f0-0f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (at box1 f1-0f)",
+      "not (clear f0-0f)",
+      "not (at-robot f2-0f)"
+    ],
+    "add-effects": [
+      "at-robot f1-0f",
+      "clear f1-0f",
+      "at box1 f0-0f"
+    ]
+  },
+  "push f2-0f f1-0f f0-0f up box0": {
+    "preconditions": [
+      "clear f0-0f",
+      "at box0 f1-0f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f0-0f)",
+      "not (at-robot f2-0f)",
+      "not (at box0 f1-0f)"
+    ],
+    "add-effects": [
+      "at box0 f0-0f",
+      "at-robot f1-0f",
+      "clear f1-0f"
+    ]
+  },
+  "push f3-2f f3-3f f3-4f right box1": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "at box1 f3-3f",
+      "clear f3-4f"
+    ],
+    "delete-effects": [
+      "not (at box1 f3-3f)",
+      "not (clear f3-4f)",
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "at box1 f3-4f",
+      "clear f3-3f"
+    ]
+  },
+  "push f3-2f f3-3f f3-4f right box0": {
+    "preconditions": [
+      "at-robot f3-2f",
+      "clear f3-4f",
+      "at box0 f3-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-3f)",
+      "not (clear f3-4f)",
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "clear f3-3f",
+      "at box0 f3-4f"
+    ]
+  },
+  "move f1-2f f0-2f up": {
+    "preconditions": [
+      "clear f0-2f",
+      "at-robot f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)"
+    ],
+    "add-effects": [
+      "at-robot f0-2f"
+    ]
+  },
+  "move f2-0f f3-0f down": {
+    "preconditions": [
+      "at-robot f2-0f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-0f)"
+    ],
+    "add-effects": [
+      "at-robot f3-0f"
+    ]
+  },
+  "push f0-0f f0-1f f0-2f right box0": {
+    "preconditions": [
+      "at box0 f0-1f",
+      "at-robot f0-0f",
+      "clear f0-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-0f)",
+      "not (clear f0-2f)",
+      "not (at box0 f0-1f)"
+    ],
+    "add-effects": [
+      "at box0 f0-2f",
+      "at-robot f0-1f",
+      "clear f0-1f"
+    ]
+  },
+  "move f3-0f f2-0f up": {
+    "preconditions": [
+      "at-robot f3-0f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-0f)"
+    ],
+    "add-effects": [
+      "at-robot f2-0f"
+    ]
+  },
+  "push f0-0f f0-1f f0-2f right box1": {
+    "preconditions": [
+      "at-robot f0-0f",
+      "at box1 f0-1f",
+      "clear f0-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-0f)",
+      "not (at box1 f0-1f)",
+      "not (clear f0-2f)"
+    ],
+    "add-effects": [
+      "at box1 f0-2f",
+      "at-robot f0-1f",
+      "clear f0-1f"
+    ]
+  },
+  "move f3-3f f4-3f down": {
+    "preconditions": [
+      "clear f4-3f",
+      "at-robot f3-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-3f)"
+    ],
+    "add-effects": [
+      "at-robot f4-3f"
+    ]
+  },
+  "move f2-1f f2-2f right": {
+    "preconditions": [
+      "clear f2-2f",
+      "at-robot f2-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-1f)"
+    ],
+    "add-effects": [
+      "at-robot f2-2f"
+    ]
+  },
+  "move f0-1f f1-1f down": {
+    "preconditions": [
+      "clear f1-1f",
+      "at-robot f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)"
+    ],
+    "add-effects": [
+      "at-robot f1-1f"
+    ]
+  },
+  "move f4-4f f4-3f left": {
+    "preconditions": [
+      "clear f4-3f",
+      "at-robot f4-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-4f)"
+    ],
+    "add-effects": [
+      "at-robot f4-3f"
+    ]
+  },
+  "move f1-2f f1-1f left": {
+    "preconditions": [
+      "clear f1-1f",
+      "at-robot f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)"
+    ],
+    "add-effects": [
+      "at-robot f1-1f"
+    ]
+  },
+  "move f3-3f f2-3f up": {
+    "preconditions": [
+      "at-robot f3-3f",
+      "clear f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f"
+    ]
+  },
+  "move f2-0f f1-0f up": {
+    "preconditions": [
+      "clear f1-0f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-0f)"
+    ],
+    "add-effects": [
+      "at-robot f1-0f"
+    ]
+  },
+  "push f0-2f f0-3f f0-4f right box1": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "at box1 f0-3f",
+      "clear f0-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)",
+      "not (at box1 f0-3f)",
+      "not (clear f0-4f)"
+    ],
+    "add-effects": [
+      "at-robot f0-3f",
+      "clear f0-3f",
+      "at box1 f0-4f"
+    ]
+  },
+  "push f0-2f f0-3f f0-4f right box0": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "clear f0-4f",
+      "at box0 f0-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)",
+      "not (at box0 f0-3f)",
+      "not (clear f0-4f)"
+    ],
+    "add-effects": [
+      "at-robot f0-3f",
+      "clear f0-3f",
+      "at box0 f0-4f"
+    ]
+  },
+  "move f1-4f f2-4f down": {
+    "preconditions": [
+      "at-robot f1-4f",
+      "clear f2-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f"
+    ]
+  },
+  "move f0-0f f1-0f down": {
+    "preconditions": [
+      "clear f1-0f",
+      "at-robot f0-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-0f)"
+    ],
+    "add-effects": [
+      "at-robot f1-0f"
+    ]
+  },
+  "push f0-3f f0-2f f0-1f left box0": {
+    "preconditions": [
+      "at-robot f0-3f",
+      "clear f0-1f",
+      "at box0 f0-2f"
+    ],
+    "delete-effects": [
+      "not (clear f0-1f)",
+      "not (at-robot f0-3f)",
+      "not (at box0 f0-2f)"
+    ],
+    "add-effects": [
+      "at box0 f0-1f",
+      "clear f0-2f",
+      "at-robot f0-2f"
+    ]
+  },
+  "push f0-3f f0-2f f0-1f left box1": {
+    "preconditions": [
+      "at-robot f0-3f",
+      "at box1 f0-2f",
+      "clear f0-1f"
+    ],
+    "delete-effects": [
+      "not (clear f0-1f)",
+      "not (at-robot f0-3f)",
+      "not (at box1 f0-2f)"
+    ],
+    "add-effects": [
+      "clear f0-2f",
+      "at-robot f0-2f",
+      "at box1 f0-1f"
+    ]
+  },
+  "move f1-3f f1-2f left": {
+    "preconditions": [
+      "at-robot f1-3f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-2f"
+    ]
+  },
+  "move f3-2f f3-3f right": {
+    "preconditions": [
+      "clear f3-3f",
+      "at-robot f3-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f"
+    ]
+  },
+  "move f4-4f f3-4f up": {
+    "preconditions": [
+      "at-robot f4-4f",
+      "clear f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-4f)"
+    ],
+    "add-effects": [
+      "at-robot f3-4f"
+    ]
+  },
+  "move f0-1f f0-2f right": {
+    "preconditions": [
+      "clear f0-2f",
+      "at-robot f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)"
+    ],
+    "add-effects": [
+      "at-robot f0-2f"
+    ]
+  },
+  "move f4-3f f3-3f up": {
+    "preconditions": [
+      "clear f3-3f",
+      "at-robot f4-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f"
+    ]
+  },
+  "move f1-3f f2-3f down": {
+    "preconditions": [
+      "clear f2-3f",
+      "at-robot f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f"
+    ]
+  },
+  "move f4-3f f4-2f left": {
+    "preconditions": [
+      "at-robot f4-3f",
+      "clear f4-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-3f)"
+    ],
+    "add-effects": [
+      "at-robot f4-2f"
+    ]
+  },
+  "push f3-3f f2-3f f1-3f up box1": {
+    "preconditions": [
+      "at-robot f3-3f",
+      "at box1 f2-3f",
+      "clear f1-3f"
+    ],
+    "delete-effects": [
+      "not (clear f1-3f)",
+      "not (at-robot f3-3f)",
+      "not (at box1 f2-3f)"
+    ],
+    "add-effects": [
+      "at box1 f1-3f",
+      "at-robot f2-3f",
+      "clear f2-3f"
+    ]
+  },
+  "push f1-4f f1-3f f1-2f left box1": {
+    "preconditions": [
+      "at box1 f1-3f",
+      "at-robot f1-4f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (clear f1-2f)",
+      "not (at-robot f1-4f)",
+      "not (at box1 f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f",
+      "clear f1-3f",
+      "at box1 f1-2f"
+    ]
+  },
+  "push f3-3f f2-3f f1-3f up box0": {
+    "preconditions": [
+      "at box0 f2-3f",
+      "at-robot f3-3f",
+      "clear f1-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-3f)",
+      "not (clear f1-3f)",
+      "not (at-robot f3-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f",
+      "clear f2-3f",
+      "at box0 f1-3f"
+    ]
+  },
+  "move f2-1f f3-1f down": {
+    "preconditions": [
+      "clear f3-1f",
+      "at-robot f2-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f"
+    ]
+  },
+  "move f4-3f f4-4f right": {
+    "preconditions": [
+      "clear f4-4f",
+      "at-robot f4-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-3f)"
+    ],
+    "add-effects": [
+      "at-robot f4-4f"
+    ]
+  },
+  "push f3-0f f2-0f f1-0f up box0": {
+    "preconditions": [
+      "clear f1-0f",
+      "at box0 f2-0f",
+      "at-robot f3-0f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-0f)",
+      "not (clear f1-0f)",
+      "not (at-robot f3-0f)"
+    ],
+    "add-effects": [
+      "at box0 f1-0f",
+      "at-robot f2-0f",
+      "clear f2-0f"
+    ]
+  },
+  "push f3-0f f2-0f f1-0f up box1": {
+    "preconditions": [
+      "at box1 f2-0f",
+      "clear f1-0f",
+      "at-robot f3-0f"
+    ],
+    "delete-effects": [
+      "not (clear f1-0f)",
+      "not (at-robot f3-0f)",
+      "not (at box1 f2-0f)"
+    ],
+    "add-effects": [
+      "at-robot f2-0f",
+      "at box1 f1-0f",
+      "clear f2-0f"
+    ]
+  },
+  "push f1-4f f1-3f f1-2f left box0": {
+    "preconditions": [
+      "at-robot f1-4f",
+      "clear f1-2f",
+      "at box0 f1-3f"
+    ],
+    "delete-effects": [
+      "not (clear f1-2f)",
+      "not (at box0 f1-3f)",
+      "not (at-robot f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f",
+      "clear f1-3f",
+      "at box0 f1-2f"
+    ]
+  },
+  "move f3-3f f3-2f left": {
+    "preconditions": [
+      "clear f3-2f",
+      "at-robot f3-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f"
+    ]
+  },
+  "push f2-0f f2-1f f2-2f right box1": {
+    "preconditions": [
+      "clear f2-2f",
+      "at box1 f2-1f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-0f)",
+      "not (at box1 f2-1f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at box1 f2-2f",
+      "at-robot f2-1f"
+    ]
+  },
+  "push f2-0f f2-1f f2-2f right box0": {
+    "preconditions": [
+      "clear f2-2f",
+      "at box0 f2-1f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-1f)",
+      "not (at-robot f2-0f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "clear f2-1f",
+      "at-robot f2-1f",
+      "at box0 f2-2f"
+    ]
+  },
+  "push f4-1f f3-1f f2-1f up box1": {
+    "preconditions": [
+      "clear f2-1f",
+      "at box1 f3-1f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-1f)",
+      "not (at box1 f3-1f)",
+      "not (clear f2-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "at box1 f2-1f",
+      "clear f3-1f"
+    ]
+  },
+  "push f4-1f f3-1f f2-1f up box0": {
+    "preconditions": [
+      "clear f2-1f",
+      "at box0 f3-1f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-1f)",
+      "not (at box0 f3-1f)",
+      "not (clear f2-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "clear f3-1f",
+      "at box0 f2-1f"
+    ]
+  },
+  "move f3-1f f4-1f down": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "clear f4-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f4-1f"
+    ]
+  },
+  "push f1-3f f1-2f f1-1f left box1": {
+    "preconditions": [
+      "at box1 f1-2f",
+      "at-robot f1-3f",
+      "clear f1-1f"
+    ],
+    "delete-effects": [
+      "not (at box1 f1-2f)",
+      "not (clear f1-1f)",
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-2f",
+      "at box1 f1-1f",
+      "clear f1-2f"
+    ]
+  },
+  "push f1-3f f1-2f f1-1f left box0": {
+    "preconditions": [
+      "at-robot f1-3f",
+      "clear f1-1f",
+      "at box0 f1-2f"
+    ],
+    "delete-effects": [
+      "not (at box0 f1-2f)",
+      "not (clear f1-1f)",
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at box0 f1-1f",
+      "at-robot f1-2f",
+      "clear f1-2f"
+    ]
+  },
+  "push f0-4f f1-4f f2-4f down box0": {
+    "preconditions": [
+      "at box0 f1-4f",
+      "clear f2-4f",
+      "at-robot f0-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-4f)",
+      "not (at box0 f1-4f)",
+      "not (clear f2-4f)"
+    ],
+    "add-effects": [
+      "clear f1-4f",
+      "at-robot f1-4f",
+      "at box0 f2-4f"
+    ]
+  },
+  "move f0-2f f0-3f right": {
+    "preconditions": [
+      "at-robot f0-2f",
+      "clear f0-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-2f)"
+    ],
+    "add-effects": [
+      "at-robot f0-3f"
+    ]
+  },
+  "push f0-4f f1-4f f2-4f down box1": {
+    "preconditions": [
+      "at box1 f1-4f",
+      "clear f2-4f",
+      "at-robot f0-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-4f)",
+      "not (clear f2-4f)",
+      "not (at box1 f1-4f)"
+    ],
+    "add-effects": [
+      "clear f1-4f",
+      "at box1 f2-4f",
+      "at-robot f1-4f"
+    ]
+  },
+  "move f2-3f f2-4f right": {
+    "preconditions": [
+      "clear f2-4f",
+      "at-robot f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f"
+    ]
+  },
+  "push f1-4f f2-4f f3-4f down box0": {
+    "preconditions": [
+      "at-robot f1-4f",
+      "clear f3-4f",
+      "at box0 f2-4f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-4f)",
+      "not (clear f3-4f)",
+      "not (at-robot f1-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f",
+      "at box0 f3-4f",
+      "clear f2-4f"
+    ]
+  },
+  "push f1-4f f2-4f f3-4f down box1": {
+    "preconditions": [
+      "at box1 f2-4f",
+      "at-robot f1-4f",
+      "clear f3-4f"
+    ],
+    "delete-effects": [
+      "not (clear f3-4f)",
+      "not (at-robot f1-4f)",
+      "not (at box1 f2-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-4f",
+      "at box1 f3-4f",
+      "clear f2-4f"
+    ]
+  },
+  "push f2-3f f2-2f f2-1f left box1": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f2-3f",
+      "at box1 f2-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-3f)",
+      "not (at box1 f2-2f)",
+      "not (clear f2-1f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at box1 f2-1f",
+      "at-robot f2-2f"
+    ]
+  },
+  "move f3-1f f2-1f up": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f3-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f2-1f"
+    ]
+  },
+  "move f0-1f f0-0f left": {
+    "preconditions": [
+      "clear f0-0f",
+      "at-robot f0-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)"
+    ],
+    "add-effects": [
+      "at-robot f0-0f"
+    ]
+  },
+  "push f2-3f f2-2f f2-1f left box0": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f2-3f",
+      "at box0 f2-2f"
+    ],
+    "delete-effects": [
+      "not (at box0 f2-2f)",
+      "not (at-robot f2-3f)",
+      "not (clear f2-1f)"
+    ],
+    "add-effects": [
+      "clear f2-2f",
+      "at-robot f2-2f",
+      "at box0 f2-1f"
+    ]
+  },
+  "move f1-0f f0-0f up": {
+    "preconditions": [
+      "clear f0-0f",
+      "at-robot f1-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-0f)"
+    ],
+    "add-effects": [
+      "at-robot f0-0f"
+    ]
+  },
+  "move f4-0f f3-0f up": {
+    "preconditions": [
+      "at-robot f4-0f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-0f)"
+    ],
+    "add-effects": [
+      "at-robot f3-0f"
+    ]
+  },
+  "move f1-2f f2-2f down": {
+    "preconditions": [
+      "clear f2-2f",
+      "at-robot f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-2f)"
+    ],
+    "add-effects": [
+      "at-robot f2-2f"
+    ]
+  },
+  "move f0-3f f1-3f down": {
+    "preconditions": [
+      "at-robot f0-3f",
+      "clear f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-3f)"
+    ],
+    "add-effects": [
+      "at-robot f1-3f"
+    ]
+  },
+  "move f3-1f f3-0f left": {
+    "preconditions": [
+      "at-robot f3-1f",
+      "clear f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-1f)"
+    ],
+    "add-effects": [
+      "at-robot f3-0f"
+    ]
+  },
+  "push f2-0f f3-0f f4-0f down box0": {
+    "preconditions": [
+      "at box0 f3-0f",
+      "clear f4-0f",
+      "at-robot f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f4-0f)",
+      "not (at box0 f3-0f)",
+      "not (at-robot f2-0f)"
+    ],
+    "add-effects": [
+      "at box0 f4-0f",
+      "at-robot f3-0f",
+      "clear f3-0f"
+    ]
+  },
+  "push f4-1f f4-2f f4-3f right box1": {
+    "preconditions": [
+      "at box1 f4-2f",
+      "clear f4-3f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-3f)",
+      "not (at-robot f4-1f)",
+      "not (at box1 f4-2f)"
+    ],
+    "add-effects": [
+      "at-robot f4-2f",
+      "at box1 f4-3f",
+      "clear f4-2f"
+    ]
+  },
+  "push f4-1f f4-2f f4-3f right box0": {
+    "preconditions": [
+      "at box0 f4-2f",
+      "clear f4-3f",
+      "at-robot f4-1f"
+    ],
+    "delete-effects": [
+      "not (clear f4-3f)",
+      "not (at-robot f4-1f)",
+      "not (at box0 f4-2f)"
+    ],
+    "add-effects": [
+      "at box0 f4-3f",
+      "at-robot f4-2f",
+      "clear f4-2f"
+    ]
+  },
+  "push f4-0f f3-0f f2-0f up box1": {
+    "preconditions": [
+      "at-robot f4-0f",
+      "at box1 f3-0f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f2-0f)",
+      "not (at-robot f4-0f)",
+      "not (at box1 f3-0f)"
+    ],
+    "add-effects": [
+      "at box1 f2-0f",
+      "at-robot f3-0f",
+      "clear f3-0f"
+    ]
+  },
+  "push f4-0f f3-0f f2-0f up box0": {
+    "preconditions": [
+      "at box0 f3-0f",
+      "at-robot f4-0f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (clear f2-0f)",
+      "not (at box0 f3-0f)",
+      "not (at-robot f4-0f)"
+    ],
+    "add-effects": [
+      "at-robot f3-0f",
+      "at box0 f2-0f",
+      "clear f3-0f"
+    ]
+  },
+  "move f1-3f f0-3f up": {
+    "preconditions": [
+      "clear f0-3f",
+      "at-robot f1-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-3f)"
+    ],
+    "add-effects": [
+      "at-robot f0-3f"
+    ]
+  },
+  "push f4-2f f3-2f f2-2f up box1": {
+    "preconditions": [
+      "at box1 f3-2f",
+      "clear f2-2f",
+      "at-robot f4-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-2f)",
+      "not (at box1 f3-2f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "clear f3-2f",
+      "at box1 f2-2f"
+    ]
+  },
+  "move f3-0f f3-1f right": {
+    "preconditions": [
+      "clear f3-1f",
+      "at-robot f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-0f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f"
+    ]
+  },
+  "push f4-2f f3-2f f2-2f up box0": {
+    "preconditions": [
+      "clear f2-2f",
+      "at box0 f3-2f",
+      "at-robot f4-2f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-2f)",
+      "not (at-robot f4-2f)",
+      "not (clear f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-2f",
+      "clear f3-2f",
+      "at box0 f2-2f"
+    ]
+  },
+  "move f2-2f f1-2f up": {
+    "preconditions": [
+      "at-robot f2-2f",
+      "clear f1-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-2f)"
+    ],
+    "add-effects": [
+      "at-robot f1-2f"
+    ]
+  },
+  "push f4-4f f3-4f f2-4f up box1": {
+    "preconditions": [
+      "at box1 f3-4f",
+      "at-robot f4-4f",
+      "clear f2-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-4f)",
+      "not (clear f2-4f)",
+      "not (at box1 f3-4f)"
+    ],
+    "add-effects": [
+      "at box1 f2-4f",
+      "at-robot f3-4f",
+      "clear f3-4f"
+    ]
+  },
+  "move f0-3f f0-4f right": {
+    "preconditions": [
+      "clear f0-4f",
+      "at-robot f0-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-3f)"
+    ],
+    "add-effects": [
+      "at-robot f0-4f"
+    ]
+  },
+  "move f2-4f f3-4f down": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "clear f3-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "at-robot f3-4f"
+    ]
+  },
+  "push f4-4f f3-4f f2-4f up box0": {
+    "preconditions": [
+      "at-robot f4-4f",
+      "at box0 f3-4f",
+      "clear f2-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-4f)",
+      "not (clear f2-4f)",
+      "not (at box0 f3-4f)"
+    ],
+    "add-effects": [
+      "at-robot f3-4f",
+      "clear f3-4f",
+      "at box0 f2-4f"
+    ]
+  },
+  "push f4-3f f3-3f f2-3f up box0": {
+    "preconditions": [
+      "clear f2-3f",
+      "at-robot f4-3f",
+      "at box0 f3-3f"
+    ],
+    "delete-effects": [
+      "not (at box0 f3-3f)",
+      "not (at-robot f4-3f)",
+      "not (clear f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "clear f3-3f",
+      "at box0 f2-3f"
+    ]
+  },
+  "push f4-3f f3-3f f2-3f up box1": {
+    "preconditions": [
+      "at box1 f3-3f",
+      "clear f2-3f",
+      "at-robot f4-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f4-3f)",
+      "not (at box1 f3-3f)",
+      "not (clear f2-3f)"
+    ],
+    "add-effects": [
+      "at-robot f3-3f",
+      "at box1 f2-3f",
+      "clear f3-3f"
+    ]
+  },
+  "move f2-4f f2-3f left": {
+    "preconditions": [
+      "at-robot f2-4f",
+      "clear f2-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f2-4f)"
+    ],
+    "add-effects": [
+      "at-robot f2-3f"
+    ]
+  },
+  "move f1-0f f2-0f down": {
+    "preconditions": [
+      "at-robot f1-0f",
+      "clear f2-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f1-0f)"
+    ],
+    "add-effects": [
+      "at-robot f2-0f"
+    ]
+  },
+  "push f0-1f f1-1f f2-1f down box1": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f0-1f",
+      "at box1 f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)",
+      "not (at box1 f1-1f)",
+      "not (clear f2-1f)"
+    ],
+    "add-effects": [
+      "at box1 f2-1f",
+      "clear f1-1f",
+      "at-robot f1-1f"
+    ]
+  },
+  "push f0-4f f0-3f f0-2f left box1": {
+    "preconditions": [
+      "at box1 f0-3f",
+      "clear f0-2f",
+      "at-robot f0-4f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-4f)",
+      "not (at box1 f0-3f)",
+      "not (clear f0-2f)"
+    ],
+    "add-effects": [
+      "at-robot f0-3f",
+      "at box1 f0-2f",
+      "clear f0-3f"
+    ]
+  },
+  "push f0-4f f0-3f f0-2f left box0": {
+    "preconditions": [
+      "clear f0-2f",
+      "at-robot f0-4f",
+      "at box0 f0-3f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-4f)",
+      "not (at box0 f0-3f)",
+      "not (clear f0-2f)"
+    ],
+    "add-effects": [
+      "at box0 f0-2f",
+      "at-robot f0-3f",
+      "clear f0-3f"
+    ]
+  },
+  "push f0-1f f1-1f f2-1f down box0": {
+    "preconditions": [
+      "clear f2-1f",
+      "at-robot f0-1f",
+      "at box0 f1-1f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-1f)",
+      "not (at box0 f1-1f)",
+      "not (clear f2-1f)"
+    ],
+    "add-effects": [
+      "clear f1-1f",
+      "at-robot f1-1f",
+      "at box0 f2-1f"
+    ]
+  },
+  "push f3-0f f3-1f f3-2f right box0": {
+    "preconditions": [
+      "clear f3-2f",
+      "at box0 f3-1f",
+      "at-robot f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-0f)",
+      "not (at box0 f3-1f)",
+      "not (clear f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "clear f3-1f",
+      "at box0 f3-2f"
+    ]
+  },
+  "push f3-0f f3-1f f3-2f right box1": {
+    "preconditions": [
+      "at box1 f3-1f",
+      "clear f3-2f",
+      "at-robot f3-0f"
+    ],
+    "delete-effects": [
+      "not (at-robot f3-0f)",
+      "not (at box1 f3-1f)",
+      "not (clear f3-2f)"
+    ],
+    "add-effects": [
+      "at-robot f3-1f",
+      "at box1 f3-2f",
+      "clear f3-1f"
+    ]
+  },
+  "move f0-3f f0-2f left": {
+    "preconditions": [
+      "at-robot f0-3f",
+      "clear f0-2f"
+    ],
+    "delete-effects": [
+      "not (at-robot f0-3f)"
+    ],
+    "add-effects": [
+      "at-robot f0-2f"
+    ]
+  }
+}

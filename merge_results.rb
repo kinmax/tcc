@@ -1,9 +1,12 @@
 require 'json'
 
 heuristic = ARGV[0]
+noise = ARGV[1]
 
 path = "/home/kingusmao/t2-integradora"
-output_path = "/home/kingusmao/t2-integradora/results_#{heuristic}.json"
+output_path = "/home/kingusmao/t2-integradora/results_#{heuristic}"
+output_path += "_noisy" if noise == "noisy"
+output_path += ".json"
 
 domains = %w(blocks-world campus depots driverlog dwr easy-ipc-grid ferry intrusion-detection kitchen logistics miconic rovers satellite sokoban zeno-travel).freeze
 

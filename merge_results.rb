@@ -9,6 +9,7 @@ output_path += "_noisy" if noise == "noisy"
 output_path += ".json"
 
 domains = %w(blocks-world campus depots driverlog dwr easy-ipc-grid ferry intrusion-detection kitchen logistics miconic rovers satellite sokoban zeno-travel).freeze
+domains = %w(blocks-world-noisy campus-noisy depots-noisy driverlog-noisy dwr-noisy easy-ipc-grid-noisy ferry-noisy intrusion-detection-noisy kitchen-noisy logistics-noisy miconic-noisy rovers-noisy satellite-noisy sokoban-noisy zeno-travel-noisy).freeze if noise == "noisy"
 
 res = {}
 

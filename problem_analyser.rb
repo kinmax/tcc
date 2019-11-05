@@ -128,6 +128,7 @@ candidates.each do |candidate|
         negated = lm.include?("Negated")
         lm = lm.split("Atom")[1].split("(var")[0].strip
         lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
+        lm.strip!
         if negated
             lm = "not (#{lm})"
         end

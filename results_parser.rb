@@ -31,7 +31,7 @@ def all_results(domain, type)
     res_path = "/home/kin/t2-integradora/#{domain}/res.txt"
     run_path = "/home/kin/t2-integradora/problem_analyser.rb"
     thresholds = %w(0 10 20 30).freeze
-    percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
+    percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(100).freeze
     run_types = %w(--exhaust --hm --rhw --zg).freeze
     algorithms = %w(exhaust hm rhw zg).freeze
     result = {}
@@ -142,6 +142,9 @@ def all_results(domain, type)
                         cmd = "ruby #{run_path} #{domain} #{tar_path} #{tr} #{run_type} > #{res_path}"
                         system(cmd)
                         single_result_ex = get_method_stats(domain)
+                        unless single_result_ex[:correct]
+                            puts "FAILED - #{cmd}"
+                        end
                         alg_counter[extraction_method] += 1
                         landmarks[extraction_method] += single_result_ex[:landmarks]
                         spread[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:spread]

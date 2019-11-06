@@ -110,50 +110,49 @@ def all_results(domain, type)
         end
     end
     Dir.foreach("#{dataset_path}/#{domain}") do |percent|
-        unless percentages.include?(percent)
-            next
-        end
-        Dir.foreach("#{dataset_path}/#{domain}/#{percent}") do |tar|
-            if tar == "." || tar == ".." || tar == "README.md" || tar == ".gitignore" || tar.include?("FILTERED")
-                next
-            end
-            puts tar
-
-            begin
-                tar_path = "#{dataset_path}/#{domain}/#{percent}/#{tar}"
-
-                problem_counter = problem_counter + 1
-
-                percentual_observed = percent
-
-                #EXTRACT STATS COMMON TO ALL PERCENTAGES AND THRESHOLDS
-                run_type = "--exhaust"
-                cmd = "ruby #{run_path} #{domain} #{tar_path} 10 --exhaust > #{res_path}"
-                system(cmd)
-                single_result_f = get_method_stats(domain)
-                goals += single_result_f[:goals]
-                observations[percentual_observed.to_s] += single_result_f[:observations]
-                counter[percentual_observed.to_s]["all"] += 1
-                
-                thresholds.each do |tr|
-                    counter[percentual_observed.to_s][tr] += 1
-                    run_types.each do |run_type|
-                        extraction_method = run_type.split("--")[1]
-                        cmd = "ruby #{run_path} #{domain} #{tar_path} #{tr} #{run_type} > #{res_path}"
-                        system(cmd)
-                        single_result_ex = get_method_stats(domain)
-                        unless single_result_ex[:correct]
-                            puts "FAILED - #{cmd}"
-                        end
-                        alg_counter[extraction_method] += 1
-                        landmarks[extraction_method] += single_result_ex[:landmarks]
-                        spread[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:spread]
-                        seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
-                        accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
-                    end
+        if percentages.include?(percent)
+            Dir.foreach("#{dataset_path}/#{domain}/#{percent}") do |tar|
+                if tar == "." || tar == ".." || tar == "README.md" || tar == ".gitignore" || tar.include?("FILTERED")
+                    next
                 end
-            rescue StandardError => e
-                puts e.backtrace
+                puts tar
+
+                begin
+                    tar_path = "#{dataset_path}/#{domain}/#{percent}/#{tar}"
+
+                    problem_counter = problem_counter + 1
+
+                    percentual_observed = percent
+
+                    #EXTRACT STATS COMMON TO ALL PERCENTAGES AND THRESHOLDS
+                    run_type = "--exhaust"
+                    cmd = "ruby #{run_path} #{domain} #{tar_path} 10 --exhaust > #{res_path}"
+                    system(cmd)
+                    single_result_f = get_method_stats(domain)
+                    goals += single_result_f[:goals]
+                    observations[percentual_observed.to_s] += single_result_f[:observations]
+                    counter[percentual_observed.to_s]["all"] += 1
+                    
+                    thresholds.each do |tr|
+                        counter[percentual_observed.to_s][tr] += 1
+                        run_types.each do |run_type|
+                            extraction_method = run_type.split("--")[1]
+                            cmd = "ruby #{run_path} #{domain} #{tar_path} #{tr} #{run_type} > #{res_path}"
+                            system(cmd)
+                            single_result_ex = get_method_stats(domain)
+                            unless single_result_ex[:correct]
+                                puts "FAILED - #{cmd}"
+                            end
+                            alg_counter[extraction_method] += 1
+                            landmarks[extraction_method] += single_result_ex[:landmarks]
+                            spread[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:spread]
+                            seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
+                            accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
+                        end
+                    end
+                rescue StandardError => e
+                    puts e.backtrace
+                end
             end
         end
     end

@@ -140,7 +140,7 @@ def all_results(domain, type)
                             cmd = "ruby #{run_path} #{domain} #{tar_path} #{tr} #{run_type} > #{res_path}"
                             system(cmd)
                             single_result_ex = get_method_stats(domain)
-                            unless single_result_ex[:correct]
+                            if single_result_ex[:correct] == 0
                                 puts "FAILED - #{cmd}"
                             end
                             alg_counter[extraction_method] += 1

@@ -173,7 +173,7 @@ end
 
 puts "########################################################################"
 recognized.each do |rg|
-    puts "Recognized goal: #{} - score = #{goals_percents[rg]}"
+    puts "Recognized goal: #{rg} - score = #{goals_percents[rg]}"
     puts "Landmarks:"
     landmarks_per_goal[rg].each do |l|
         puts l

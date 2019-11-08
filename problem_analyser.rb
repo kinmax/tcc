@@ -135,7 +135,7 @@ candidates.each do |candidate|
             lm = "not (#{lm})"
         end
         lms.push(lm)
-        landmarks_per_goal[candidate] = lm        
+        landmarks_per_goal[candidate] = lms      
     end
     
     number_of_achieved_landmarks = 0

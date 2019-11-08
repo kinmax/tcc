@@ -141,7 +141,12 @@ def all_results(domain, type)
                             system(cmd)
                             single_result_ex = get_method_stats(domain)
                             if single_result_ex[:correct] == 0
-                                puts "FAILED - #{cmd}"
+                                puts "FAILED - Domain: #{domain} - Problem: #{tar} - Threshold: #{tr} - Algorithm: #{run_type}"
+                                file_path = "/home/kin/t2-integradora/#{domain}/res.txt"
+                                file = File.open(file_path, 'r')
+                                raw = file.read
+                                file.close
+                                puts raw
                             end
                             alg_counter[extraction_method] += 1
                             landmarks[extraction_method] += single_result_ex[:landmarks]

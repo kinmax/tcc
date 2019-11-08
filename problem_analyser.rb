@@ -101,6 +101,8 @@ goals_percents = {}
 
 landmark_avg = 0
 
+landmarks_per_goal = {}
+
 candidates.each do |candidate|
 
     File.write("/home/kin/t2-integradora/#{domain}/candidate.dat", candidate)
@@ -133,6 +135,7 @@ candidates.each do |candidate|
             lm = "not (#{lm})"
         end
         lms.push(lm)
+        landmarks_per_goal[candidate] = lm        
     end
     
     number_of_achieved_landmarks = 0
@@ -167,6 +170,17 @@ if recognized.include?(real_goal)
 else
     puts "CORRECT-FALSE"
 end
+
+puts "########################################################################"
+recognized.each do |rg|
+    puts "Recognized goal: #{} - score = #{goals_percents[rg]}"
+    puts "Landmarks:"
+    landmarks_per_goal[rg].each do |l|
+        puts l
+    end
+    puts "\n"
+end
+puts "########################################################################"
 
 finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 

@@ -1,0 +1,49 @@
+satellite
+satellite_p01_hyp-4_full.tar.bz2
+FAILED - Domain: satellite - Problem: satellite_p01_hyp-4_full.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-9.666666666666666
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (pointing satellite0 phenomenon6), (have_image star4 infrared0), (have_image star3 spectrograph2), (have_image phenomenon5 spectrograph2), (have_image phenomenon5 spectrograph2) - score = 0.625
+Landmarks:
+not (have_image phenomenon5 spectrograph2)
+have_image phenomenon5 spectrograph2
+not (have_image star3 spectrograph2)
+have_image star3 spectrograph2
+not (have_image star4 infrared0)
+have_image star4 infrared0
+pointing satellite0 star4
+pointing satellite0 phenomenon6
+
+########################################################################
+TIME-3.424031506991014
+satellite_p01_hyp-3_full.tar.bz2
+satellite_p05_hyp-1_full.tar.bz2
+satellite_p05_hyp-2_full.tar.bz2
+satellite_p07_hyp-2_full.tar.bz2
+satellite_p03_hyp-1_full.tar.bz2
+satellite_p06_hyp-3_full.tar.bz2
+satellite_p01_hyp-2_full.tar.bz2
+satellite_p05_hyp-3_full.tar.bz2
+satellite_p02_hyp-4_full.tar.bz2
+satellite_p06_hyp-2_full.tar.bz2
+satellite_p04_hyp-4_full.tar.bz2
+satellite_p02_hyp-1_full.tar.bz2
+satellite_p02_hyp-3_full.tar.bz2
+satellite_p06_hyp-1_full.tar.bz2
+satellite_p04_hyp-2_full.tar.bz2
+satellite_p01_hyp-1_full.tar.bz2
+satellite_p07_hyp-4_full.tar.bz2
+satellite_p04_hyp-1_full.tar.bz2
+satellite_p02_hyp-2_full.tar.bz2
+satellite_p07_hyp-3_full.tar.bz2
+satellite_p03_hyp-3_full.tar.bz2
+satellite_p04_hyp-3_full.tar.bz2
+satellite_p03_hyp-2_full.tar.bz2
+satellite_p03_hyp-4_full.tar.bz2
+satellite_p05_hyp-4_full.tar.bz2
+satellite_p07_hyp-1_full.tar.bz2
+satellite_p06_hyp-4_full.tar.bz2

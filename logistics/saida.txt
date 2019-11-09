@@ -1,0 +1,94 @@
+logistics
+logistics_p01_hyp-0_full.tar.bz2
+logistics-aaai_p02_hyp-1_full.tar.bz2
+logistics_p03_hyp-4_full.tar.bz2
+logistics_p03_hyp-8_full.tar.bz2
+logistics_p01_hyp-5_full.tar.bz2
+logistics-aaai_p01_hyp-3_full.tar.bz2
+logistics_p04_hyp-1_full.tar.bz2
+logistics_p04_hyp-2_full.tar.bz2
+logistics_p03_hyp-9_full.tar.bz2
+logistics_p06_hyp-2_full.tar.bz2
+logistics_p02_hyp-3_full.tar.bz2
+logistics_p04_hyp-4_full.tar.bz2
+logistics_p05_hyp-3_full.tar.bz2
+logistics_p02_hyp-9_full.tar.bz2
+logistics-aaai_p03_hyp-1_full.tar.bz2
+logistics_p05_hyp-4_full.tar.bz2
+logistics_p03_hyp-7_full.tar.bz2
+logistics_p03_hyp-0_full.tar.bz2
+logistics-aaai_p03_hyp-0_full.tar.bz2
+logistics_p06_hyp-1_full.tar.bz2
+logistics-aaai_p02_hyp-0_full.tar.bz2
+logistics_p02_hyp-2_full.tar.bz2
+logistics-aaai_p02_hyp-2_full.tar.bz2
+logistics-aaai_p03_hyp-3_full.tar.bz2
+logistics_p05_hyp-1_full.tar.bz2
+logistics_p02_hyp-7_full.tar.bz2
+logistics_p06_hyp-3_full.tar.bz2
+logistics_p02_hyp-6_full.tar.bz2
+logistics_p02_hyp-1_full.tar.bz2
+logistics_p02_hyp-8_full.tar.bz2
+logistics_p01_hyp-2_full.tar.bz2
+logistics_p02_hyp-0_full.tar.bz2
+logistics_p01_hyp-3_full.tar.bz2
+logistics_p02_hyp-4_full.tar.bz2
+logistics-aaai_p01_hyp-0_full.tar.bz2
+logistics_p02_hyp-5_full.tar.bz2
+logistics_p04_hyp-3_full.tar.bz2
+logistics_p01_hyp-9_full.tar.bz2
+logistics_p01_hyp-1_full.tar.bz2
+logistics_p05_hyp-2_full.tar.bz2
+logistics_p07_hyp-3_full.tar.bz2
+FAILED - Domain: logistics - Problem: logistics_p07_hyp-3_full.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-12
+LANDMARKS_AVG-28.0
+OBS-40
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12), (at obj44 pos21) - score = 0.6
+Landmarks:
+in obj12 tru2
+at obj12 pos22
+at obj12 pos13
+at obj12 apt1
+in obj22 tru2
+at obj22 pos21
+at obj22 pos12
+at obj22 apt1
+in obj44 tru2
+at obj44 pos21
+at obj44 pos12
+at obj44 apt1
+at apn1 apt2
+at apn2 apt1
+at apn3 apt1
+at tru1 pos11
+at tru2 pos22
+at tru2 pos21
+at tru3 pos12
+at tru4 pos13
+
+########################################################################
+TIME-8.879024195019156
+logistics_p01_hyp-7_full.tar.bz2
+logistics_p07_hyp-4_full.tar.bz2
+logistics_p03_hyp-1_full.tar.bz2
+logistics_p01_hyp-4_full.tar.bz2
+logistics-aaai_p03_hyp-4_full.tar.bz2
+logistics_p01_hyp-8_full.tar.bz2
+logistics_p03_hyp-3_full.tar.bz2
+logistics-aaai_p02_hyp-4_full.tar.bz2
+logistics-aaai_p01_hyp-4_full.tar.bz2
+logistics_p01_hyp-6_full.tar.bz2
+logistics_p03_hyp-2_full.tar.bz2
+logistics_p06_hyp-4_full.tar.bz2
+logistics_p07_hyp-2_full.tar.bz2
+logistics-aaai_p01_hyp-1_full.tar.bz2
+logistics_p03_hyp-6_full.tar.bz2
+logistics-aaai_p02_hyp-3_full.tar.bz2
+logistics_p07_hyp-1_full.tar.bz2
+logistics-aaai_p03_hyp-2_full.tar.bz2
+logistics_p03_hyp-5_full.tar.bz2
+logistics-aaai_p01_hyp-2_full.tar.bz2

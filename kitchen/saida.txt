@@ -1,0 +1,1624 @@
+kitchen
+kitchen_generic_hyp-0_full_14.tar.bz2
+kitchen_generic_hyp-0_full_2.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.5267211750615388
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.608212150982581
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.555321256048046
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.4715728790033609
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.6106944059720263
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.6342843709280714
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 30 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.736067263991572
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_2.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.8444157560588792
+kitchen_generic_hyp-0_full_4.tar.bz2
+kitchen_generic_hyp-0_full_13.tar.bz2
+kitchen_generic_hyp-0_full_10.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.8084071959601715
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7039900961099193
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7312827210407704
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.8297182070091367
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.8772620200179517
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.8833508080570027
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 30 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.6949157170020044
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_10.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7742283940315247
+kitchen_generic_hyp-0_full_5.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_5.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.888647051062435
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_5.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.80625774001237
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_5.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7595605239039287
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_5.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7754794359207153
+kitchen_generic_hyp-0_full_6.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7967084739357233
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7572529769968241
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.678269183030352
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.866621977998875
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7636036509647965
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.8285017779562622
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 30 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7376764380605891
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_6.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.804336576955393
+kitchen_generic_hyp-0_full_12.tar.bz2
+kitchen_generic_hyp-0_full_9.tar.bz2
+kitchen_generic_hyp-0_full_8.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.814701035968028
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.8956414280692115
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7409129049628973
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7265161600662395
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7439747069729492
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.798457307042554
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 30 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7170691778883338
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_8.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.08333333333333333
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7650777290109545
+kitchen_generic_hyp-0_full_1.tar.bz2
+kitchen_generic_hyp-0_full_7.tar.bz2
+kitchen_generic_hyp-0_full_11.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.6681067049503326
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.673087606090121
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7004359290003777
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.658584446995519
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.6476319449720904
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.8610617310041562
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 30 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7256232229992747
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_11.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7435613250127062
+kitchen_generic_hyp-0_full_3.tar.bz2
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.6210863329470158
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.6523967869579792
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7890464160591364
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.7676156669622287
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.7703652159543708
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.92180631600786
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 30 - Algorithm: --exhaust
+GOALS-3
+LANDMARKS_AVG-21.333333333333332
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (lunch_packed) - score = 0.15384615384615385
+Landmarks:
+not (lunch_packed)
+lunch_packed
+not (made_cheese_sandwich)
+not (made_peanut_butter_sandwich)
+not (taken bread)
+taken bread
+not (taken cheese)
+not (taken knife)
+not (taken lunch_bag)
+taken lunch_bag
+not (taken peanut_butter)
+not (taken plate)
+taken plate
+
+########################################################################
+TIME-1.9777588450815529
+FAILED - Domain: kitchen - Problem: kitchen_generic_hyp-0_full_3.tar.bz2 - Threshold: 30 - Algorithm: --rhw
+GOALS-3
+LANDMARKS_AVG-10.0
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+########################################################################
+Recognized goal: (made_breakfast) - score = 0.041666666666666664
+Landmarks:
+not (made_breakfast)
+made_breakfast
+not (made_buttered_toast)
+made_buttered_toast
+not (made_cereals)
+made_cereals
+not (made_toast)
+made_toast
+not (taken bowl)
+taken bowl
+not (taken bread)
+taken bread
+not (taken butter)
+taken butter
+not (taken cereal)
+taken cereal
+not (taken knife)
+taken knife
+not (taken milk)
+taken milk
+not (taken spoon)
+taken spoon
+not (used toaster)
+used toaster
+
+########################################################################
+TIME-1.700815215939656
+kitchen_generic_hyp-0_full_0.tar.bz2

@@ -76,28 +76,28 @@ actions = actions_file.read
 actions_file.close
 actions = actions.downcase
 acts = JSON.parse(actions)
-achieved_lmarks = []
+visited_facts = []
 keys = acts.keys
 obs.each do |ob|
     h = acts[ob]
     if h.nil?
         next
     end
-    achieved_lmarks.push(h["preconditions"])
-    achieved_lmarks.push(h["delete-effects"])
-    achieved_lmarks.push(h["add-effects"])
-    achieved_lmarks = achieved_lmarks.flatten
+    visited_facts.push(h["preconditions"])
+    visited_facts.push(h["delete-effects"])
+    visited_facts.push(h["add-effects"])
+    visited_facts = visited_facts.flatten
 end
 # acts.keys.each do |key|
 #     if obs.include?(key)
-#         achieved_lmarks.push(acts[key]["preconditions"])
-#         achieved_lmarks.push(acts[key]["delete-effects"])
-#         achieved_lmarks.push(acts[key]["add-effects"])
-#         achieved_lmarks = achieved_lmarks.flatten
+#         visited_facts.push(acts[key]["preconditions"])
+#         visited_facts.push(acts[key]["delete-effects"])
+#         visited_facts.push(acts[key]["add-effects"])
+#         visited_facts = visited_facts.flatten
 #     end
 # end
 
-goals_percents = {}
+goals_scores = {}
 
 landmark_avg = 0
 
@@ -130,6 +130,7 @@ candidates.each do |candidate|
         negated = lm.include?("Negated")
         lm = lm.split("Atom")[1].split("(var")[0].strip
         lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
+        lm.strip!
         if negated
             lm = "not (#{lm})"
         end
@@ -142,47 +143,59 @@ candidates.each do |candidate|
 end
 
 landmarks_uniqueness = {}
+landmark_set = []
 
 candidates.each do |candidate|
     landmarks_per_goal[candidate].each do |lm|
+        landmark_set.push(lm) unless landmark_set.include?(lm)
         landmarks_uniqueness[lm] = 0
     end
 end
 
-candidates.each do |candidate|
-    candidates.each do |cd2|
-        landmarks_per_goal[candidate].each do |lm|
-            if landmarks_per_goal[cd2].include?(lm)
-                landmarks_uniqueness[lm] += 1
-            end
+landmark_set.each do |lm|
+    candidates.each do |candidate|
+        if landmarks_per_goal[candidate].include?(lm)
+            landmarks_uniqueness[lm] += 1
         end
     end
 end
+
+# candidates.each do |candidate|
+#     candidates.each do |cd2|
+#         landmarks_per_goal[candidate].each do |lm|
+#             if landmarks_per_goal[cd2].include?(lm)
+#                 landmarks_uniqueness[lm] += 1
+#             end
+#         end
+#     end
+# end
 
 landmarks_uniqueness.each do |k,v|
     landmarks_uniqueness[k] = 1.to_f/v.to_f
 end
 
-goals_score = {}
+achieved_landmarks_per_goal = {}
 candidates.each do |candidate|
-    weights_sum = 0.to_f
-    number_of_achieved_landmarks = 0.to_f
+    achieved_landmarks_per_goal[candidate] = []
+    uniqueness_sum = 0.to_f
+    achieved_uniqueness_sum = 0.to_f
     landmarks_per_goal[candidate].each do |lm|
-        if achieved_lmarks.include?(lm)
-            number_of_achieved_landmarks = number_of_achieved_landmarks + landmarks_uniqueness[lm]
+        if visited_facts.include?(lm)
+            achieved_landmarks_per_goal[candidate].push(lm)
+            achieved_uniqueness_sum = achieved_uniqueness_sum + landmarks_uniqueness[lm]
         end
-        weights_sum += landmarks_uniqueness[lm]
+        uniqueness_sum += landmarks_uniqueness[lm]
     end
 
-    goals_percents[candidate] = landmarks_per_goal[candidate].length > 0 && weights_sum > 0 ? number_of_achieved_landmarks.to_f/weights_sum.to_f : 0.to_f
+    goals_scores[candidate] = landmarks_per_goal[candidate].length > 0 && uniqueness_sum > 0 ? achieved_uniqueness_sum.to_f/uniqueness_sum.to_f : 0.to_f
 end
 
 landmark_avg = landmark_avg.to_f/candidates.length.to_f
 
-best = goals_percents.max_by{|k,v| v}
+best = goals_scores.max_by{|k,v| v}
 recognized.push(best[0])
-goals_percents.keys.each do |goal|
-    if goals_percents[goal] >= (best[1] - (best[1]*(threshold/100.0))) && goal != best[0]
+goals_scores.keys.each do |goal|
+    if goals_scores[goal] >= (best[1] - (best[1]*(threshold/100.0))) && goal != best[0]
         recognized.push(goal)
     end
 end
@@ -197,6 +210,22 @@ if recognized.include?(real_goal)
 else
     puts "CORRECT-FALSE"
 end
+
+puts "#"*50
+recognized.each do |rg|
+    puts "Recognized goal: #{rg} - score = #{goals_scores[rg]}\n"
+    puts "Landmarks:"
+    landmarks_per_goal[rg].each do |l|
+        puts l
+    end
+    puts "\n"
+    puts "Achieved Landmarks:"
+    achieved_landmarks_per_goal[rg].each do |achieved_landmark|
+        puts achieved_landmark
+    end
+    puts "$"*50
+end
+puts "#"*50
 
 finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 

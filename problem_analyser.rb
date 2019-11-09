@@ -76,24 +76,24 @@ actions = actions_file.read
 actions_file.close
 actions = actions.downcase
 acts = JSON.parse(actions)
-achieved_lmarks = []
+visited_facts = []
 keys = acts.keys
 obs.each do |ob|
     h = acts[ob]
     if h.nil?
         next
     end
-    achieved_lmarks.push(h["preconditions"])
-    achieved_lmarks.push(h["delete-effects"])
-    achieved_lmarks.push(h["add-effects"])
-    achieved_lmarks = achieved_lmarks.flatten
+    visited_facts.push(h["preconditions"])
+    visited_facts.push(h["delete-effects"])
+    visited_facts.push(h["add-effects"])
+    visited_facts = visited_facts.flatten
 end
 # acts.keys.each do |key|
 #     if obs.include?(key)
-#         achieved_lmarks.push(acts[key]["preconditions"])
-#         achieved_lmarks.push(acts[key]["delete-effects"])
-#         achieved_lmarks.push(acts[key]["add-effects"])
-#         achieved_lmarks = achieved_lmarks.flatten
+#         visited_facts.push(acts[key]["preconditions"])
+#         visited_facts.push(acts[key]["delete-effects"])
+#         visited_facts.push(acts[key]["add-effects"])
+#         visited_facts = visited_facts.flatten
 #     end
 # end
 
@@ -102,6 +102,7 @@ goals_percents = {}
 landmark_avg = 0
 
 landmarks_per_goal = {}
+achieved_landmarks_per_goal = {}
 
 candidates.each do |candidate|
 
@@ -138,14 +139,15 @@ candidates.each do |candidate|
         landmarks_per_goal[candidate] = lms      
     end
     
-    number_of_achieved_landmarks = 0
+    achieved_landmarks = []
     lms.each do |lm|
-        if achieved_lmarks.include?(lm)
-            number_of_achieved_landmarks = number_of_achieved_landmarks + 1
+        if visited_facts.include?(lm)
+            achieved_landmarks.push(lm)
         end
     end
+    achieved_landmarks_per_goal[candidate] = achieved_landmarks
 
-    goals_percents[candidate] = lms.length > 0 ? number_of_achieved_landmarks.to_f/lms.length.to_f : 0.to_f
+    goals_percents[candidate] = lms.length > 0 ? achieved_landmarks.length.to_f/lms.length.to_f : 0.to_f
 
     landmark_avg = landmark_avg + lms.length
 end
@@ -171,16 +173,21 @@ else
     puts "CORRECT-FALSE"
 end
 
-puts "########################################################################"
+puts "#"*50
 recognized.each do |rg|
-    puts "Recognized goal: #{rg} - score = #{goals_percents[rg]}"
+    puts "Recognized goal: #{rg} - score = #{goals_percents[rg]}\n"
     puts "Landmarks:"
     landmarks_per_goal[rg].each do |l|
         puts l
     end
     puts "\n"
+    puts "Achieved Landmarks:"
+    achieved_landmarks_per_goal[rg].each do |achieved_landmark|
+        puts achieved_landmark
+    end
+    puts "$"*50
 end
-puts "########################################################################"
+puts "#"*50
 
 finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 

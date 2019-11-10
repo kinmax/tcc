@@ -187,6 +187,16 @@ recognized.each do |rg|
     end
     puts "$"*50
 end
+puts "Real Goal: #{real_goal} - score = #{goals_percents[real_goal]}\n"
+puts "Landmarks:"
+landmarks_per_goal[real_goal].each do |l|
+    puts l
+end
+puts "\n"
+puts "Achieved Landmarks:"
+achieved_landmarks_per_goal[real_goal].each do |al|
+    puts al
+end
 puts "#"*50
 
 finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)

@@ -211,6 +211,12 @@ else
     puts "CORRECT-FALSE"
 end
 
+finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
+time = finish - start
+
+puts "TIME-#{time}"
+
 puts "#"*50
 recognized.each do |rg|
     puts "Recognized goal: #{rg} - score = #{goals_scores[rg]}\n"
@@ -236,9 +242,3 @@ achieved_landmarks_per_goal[real_goal].each do |al|
     puts al
 end
 puts "#"*50
-
-finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-
-time = finish - start
-
-puts "TIME-#{time}"

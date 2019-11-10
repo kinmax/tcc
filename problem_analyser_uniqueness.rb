@@ -31,6 +31,20 @@ real_goal_file.close
 real_goal = real_goal.downcase
 real_goal.strip!
 
+visited_facts = []
+
+initial_state_file = File.open("/home/kin/t2-integradora/#{domain}/template.pddl", 'r')
+initial_state = initial_state_file.read
+initial_state_file.close
+initial_state = initial_state.downcase
+initial_state = initial_state.split("(:init")[1].split("(:goal")[0].gsub("(", "").gsub(")", "").strip
+split_initials = initial_state.split("\n")
+split_initials.each do |fact|
+    unless fact.strip.empty?
+        visited_facts.push(fact)
+    end
+end
+
 hyps_file = File.open("/home/kin/t2-integradora/#{domain}/hyps.dat", "r")
 hyps = hyps_file.read
 hyps_file.close
@@ -76,7 +90,6 @@ actions = actions_file.read
 actions_file.close
 actions = actions.downcase
 acts = JSON.parse(actions)
-visited_facts = []
 keys = acts.keys
 obs.each do |ob|
     h = acts[ob]

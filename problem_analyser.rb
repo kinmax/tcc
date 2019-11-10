@@ -45,6 +45,20 @@ split_hyps.each do |hyp|
     candidates.push(hyp)
 end
 
+visited_facts = []
+
+initial_state_file = File.open("/home/kin/t2-integradora/#{domain}/template.pddl", 'r')
+initial_state = initial_state_file.read
+initial_state_file.close
+initial_state = initial_state.downcase
+initial_state = initial_state.split("(:init")[1].split("(:goal")[0].gsub("(", "").gsub(")", "").strip
+split_initials = initial_state.split("\n")
+split_initials.each do |fact|
+    unless fact.strip.empty?
+        visited_facts.push(fact)
+    end
+end
+
 system("ruby problem_formatter.rb /home/kin/t2-integradora/#{domain}/template.pddl /home/kin/t2-integradora/#{domain}/real_hyp.dat /home/kin/t2-integradora/#{domain}/problem.pddl")
 
 obs_file = File.open("/home/kin/t2-integradora/#{domain}/obs.dat", "r")
@@ -76,7 +90,6 @@ actions = actions_file.read
 actions_file.close
 actions = actions.downcase
 acts = JSON.parse(actions)
-visited_facts = []
 keys = acts.keys
 obs.each do |ob|
     h = acts[ob]

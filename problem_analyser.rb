@@ -21,6 +21,8 @@ when "--rhw"
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 when "--zg"
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
+when "--hoffmann"
+    cmd = "java -jar planning-landmarks.jar -d /home/kin/t2-integradora/#{domain}/domain.pddl -p /home/kin/t2-integradora/#{domain}/problem.pddl -extractor partial -o /home/kin/t2-integradora/#{domain}/output.txt"
 else
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 end
@@ -133,23 +135,39 @@ candidates.each do |candidate|
 
     lms = []
 
-    landmarks = landmarks.split("############################################################################")[1]
-    landmarks = landmarks.split("Landmark graph: \n")[1].split("\nLandmark graph end.\n")[0]
-    landmarks = landmarks.split("\n")
-    landmarks.each do |lm|
-        lm.strip!
-        if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
-            next
+    if method == "--hoffmann"
+        landmarks = landmarks.split("\n")
+        landmarks.each do |lm|
+            lm.strip!
+            if lm.empty?
+                next
+            end
+            lm = lm.gsub("(", " ").gsub(")", "").gsub(",", " ")
+            lm.strip!
+            if lm.include?("~")
+                lm = "not (#{lm})"
+            end
+            lms.push(lm)
         end
-        negated = lm.include?("Negated")
-        lm = lm.split("Atom")[1].split("(var")[0].strip
-        lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
-        lm.strip!
-        if negated
-            lm = "not (#{lm})"
+    else
+        landmarks = landmarks.split("############################################################################")[1]
+        landmarks = landmarks.split("Landmark graph: \n")[1].split("\nLandmark graph end.\n")[0]
+        landmarks = landmarks.split("\n")
+        landmarks.each do |lm|
+            lm.strip!
+            if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
+                next
+            end
+            negated = lm.include?("Negated")
+            lm = lm.split("Atom")[1].split("(var")[0].strip
+            lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
+            lm.strip!
+            if negated
+                lm = "not (#{lm})"
+            end
+            lms.push(lm)
+            landmarks_per_goal[candidate] = lms      
         end
-        lms.push(lm)
-        landmarks_per_goal[candidate] = lms      
     end
     
     achieved_landmarks = []

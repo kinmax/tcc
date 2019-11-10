@@ -132,22 +132,39 @@ candidates.each do |candidate|
 
     lms = []
 
-    landmarks = landmarks.split("############################################################################")[1]
-    landmarks = landmarks.split("Landmark graph: \n")[1].split("\nLandmark graph end.\n")[0]
-    landmarks = landmarks.split("\n")
-    landmarks.each do |lm|
-        lm.strip!
-        if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
-            next
+    if method == "--hoffmann"
+        landmarks = landmarks.split("\n")
+        landmarks.each do |lm|
+            lm.strip!
+            if lm.empty?
+                next
+            end
+            lm = lm.gsub("(", " ").gsub(")", "").gsub(",", " ")
+            lm.strip!
+            if lm.include?("~")
+                lm = "not (#{lm})"
+            end
+            lms.push(lm)
         end
-        negated = lm.include?("Negated")
-        lm = lm.split("Atom")[1].split("(var")[0].strip
-        lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
-        lm.strip!
-        if negated
-            lm = "not (#{lm})"
+    else
+        landmarks = landmarks.split("############################################################################")[1]
+        landmarks = landmarks.split("Landmark graph: \n")[1].split("\nLandmark graph end.\n")[0]
+        landmarks = landmarks.split("\n")
+        landmarks.each do |lm|
+            lm.strip!
+            if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
+                next
+            end
+            negated = lm.include?("Negated")
+            lm = lm.split("Atom")[1].split("(var")[0].strip
+            lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
+            lm.strip!
+            if negated
+                lm = "not (#{lm})"
+            end
+            lms.push(lm)
+            landmarks_per_goal[candidate] = lms      
         end
-        lms.push(lm)
     end
 
     landmarks_per_goal[candidate] = lms

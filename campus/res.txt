@@ -3,4 +3,35 @@ LANDMARKS_AVG-9.0
 OBS-2
 SPREAD-1
 CORRECT-TRUE
-TIME-1.6386769830132835
+TIME-1.6465778140118346
+##################################################
+Recognized goal: (breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee) - score = 0.25
+Landmarks:
+coffee
+group-meeting-1
+lecture-2-taken
+breakfast
+lecture-1-taken
+at watson_theater
+at hayman_theater
+at cbs
+
+Achieved Landmarks:
+at watson_theater
+at cbs
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee) - score = 0.25
+Landmarks:
+coffee
+group-meeting-1
+lecture-2-taken
+breakfast
+lecture-1-taken
+at watson_theater
+at hayman_theater
+at cbs
+
+Achieved Landmarks:
+at watson_theater
+at cbs
+##################################################

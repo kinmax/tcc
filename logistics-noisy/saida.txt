@@ -1,0 +1,10225 @@
+logistics-noisy
+logistics_noisy_pb2_hyp-3_100_1.tar.bz2
+logistics_noisy_pb3_hyp-3_100_2.tar.bz2
+logistics_noisy_pb1_hyp-2_100_3.tar.bz2
+logistics_noisy_pb3_hyp-1_100_3.tar.bz2
+logistics_noisy_pb2_hyp-1_100_3.tar.bz2
+logistics_noisy_pb3_hyp-4_100_3.tar.bz2
+logistics_noisy_pb3_hyp-1_100_2.tar.bz2
+logistics_noisy_pb3_hyp-3_100_1.tar.bz2
+logistics_noisy_pb1_hyp-1_100_1.tar.bz2
+logistics_noisy_pb1_hyp-1_100_2.tar.bz2
+logistics_noisy_pb2_hyp-2_100_2.tar.bz2
+logistics_noisy_pb1_hyp-4_100_3.tar.bz2
+logistics_noisy_pb2_hyp-2_100_3.tar.bz2
+logistics_noisy_pb1_hyp-3_100_3.tar.bz2
+logistics_noisy_pb3_hyp-4_100_2.tar.bz2
+logistics_noisy_pb2_hyp-4_100_2.tar.bz2
+logistics_noisy_pb3_hyp-2_100_2.tar.bz2
+logistics_noisy_pb2_hyp-1_100_2.tar.bz2
+logistics_noisy_pb1_hyp-4_100_1.tar.bz2
+logistics_noisy_pb1_hyp-4_100_2.tar.bz2
+logistics_noisy_pb3_hyp-4_100_1.tar.bz2
+logistics_noisy_pb2_hyp-4_100_3.tar.bz2
+logistics_noisy_pb3_hyp-2_100_3.tar.bz2
+logistics_noisy_pb2_hyp-3_100_2.tar.bz2
+logistics_noisy_pb3_hyp-1_100_1.tar.bz2
+logistics_noisy_pb1_hyp-1_100_3.tar.bz2
+logistics_noisy_pb2_hyp-2_100_1.tar.bz2
+logistics_noisy_pb1_hyp-2_100_2.tar.bz2
+logistics_noisy_pb1_hyp-2_100_1.tar.bz2
+logistics_noisy_pb2_hyp-4_100_1.tar.bz2
+logistics_noisy_pb3_hyp-2_100_1.tar.bz2
+logistics_noisy_pb2_hyp-1_100_1.tar.bz2
+logistics_noisy_pb1_hyp-3_100_2.tar.bz2
+logistics_noisy_pb3_hyp-3_100_3.tar.bz2
+logistics_noisy_pb1_hyp-3_100_1.tar.bz2
+logistics_noisy_pb2_hyp-3_100_3.tar.bz2
+logistics_noisy_pb1_hyp-2_50_2.tar.bz2
+logistics_noisy_pb3_hyp-3_50_1.tar.bz2
+logistics_noisy_pb3_hyp-1_50_3.tar.bz2
+logistics_noisy_pb3_hyp-2_50_2.tar.bz2
+logistics_noisy_pb2_hyp-4_50_1.tar.bz2
+logistics_noisy_pb3_hyp-1_50_1.tar.bz2
+logistics_noisy_pb1_hyp-1_50_3.tar.bz2
+logistics_noisy_pb1_hyp-2_50_3.tar.bz2
+logistics_noisy_pb1_hyp-1_50_2.tar.bz2
+logistics_noisy_pb2_hyp-4_50_3.tar.bz2
+logistics_noisy_pb2_hyp-1_50_1.tar.bz2
+logistics_noisy_pb2_hyp-4_50_2.tar.bz2
+logistics_noisy_pb1_hyp-4_50_2.tar.bz2
+logistics_noisy_pb2_hyp-3_50_1.tar.bz2
+logistics_noisy_pb3_hyp-2_50_3.tar.bz2
+logistics_noisy_pb2_hyp-1_50_2.tar.bz2
+logistics_noisy_pb2_hyp-2_50_3.tar.bz2
+logistics_noisy_pb3_hyp-4_50_2.tar.bz2
+logistics_noisy_pb3_hyp-3_50_2.tar.bz2
+logistics_noisy_pb3_hyp-4_50_3.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-19.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-17.06036985805258
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.7
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.6666666666666666
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-18.032522697001696
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.6666666666666666
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.631578947368421
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-17.337375440984033
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.6666666666666666
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.631578947368421
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-17.856867589987814
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.6666666666666666
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.631578947368421
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 apt2
+at obj21 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+logistics_noisy_pb1_hyp-1_50_1.tar.bz2
+logistics_noisy_pb1_hyp-3_50_2.tar.bz2
+logistics_noisy_pb2_hyp-2_50_1.tar.bz2
+logistics_noisy_pb1_hyp-4_50_3.tar.bz2
+logistics_noisy_pb2_hyp-1_50_3.tar.bz2
+logistics_noisy_pb2_hyp-3_50_2.tar.bz2
+logistics_noisy_pb3_hyp-1_50_2.tar.bz2
+logistics_noisy_pb2_hyp-3_50_3.tar.bz2
+logistics_noisy_pb3_hyp-4_50_1.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-19.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-16.822417820920236
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.75
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.7142857142857143
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-19.679522551014088
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.7777777777777778
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.7368421052631579
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-16.31508593808394
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.7777777777777778
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.7368421052631579
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-10
+SPREAD-1
+CORRECT-FALSE
+TIME-17.208909651031718
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.7777777777777778
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.7368421052631579
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos11
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+logistics_noisy_pb1_hyp-2_50_1.tar.bz2
+logistics_noisy_pb1_hyp-3_50_3.tar.bz2
+logistics_noisy_pb3_hyp-3_50_3.tar.bz2
+logistics_noisy_pb1_hyp-3_50_1.tar.bz2
+logistics_noisy_pb3_hyp-2_50_1.tar.bz2
+logistics_noisy_pb2_hyp-2_50_2.tar.bz2
+logistics_noisy_pb1_hyp-4_50_1.tar.bz2
+logistics_noisy_pb1_hyp-4_75_3.tar.bz2
+logistics_noisy_pb2_hyp-3_75_2.tar.bz2
+logistics_noisy_pb2_hyp-1_75_1.tar.bz2
+logistics_noisy_pb2_hyp-2_75_2.tar.bz2
+logistics_noisy_pb1_hyp-4_75_1.tar.bz2
+logistics_noisy_pb3_hyp-4_75_3.tar.bz2
+logistics_noisy_pb2_hyp-4_75_1.tar.bz2
+logistics_noisy_pb3_hyp-3_75_1.tar.bz2
+logistics_noisy_pb2_hyp-4_75_2.tar.bz2
+logistics_noisy_pb2_hyp-1_75_2.tar.bz2
+logistics_noisy_pb2_hyp-4_75_3.tar.bz2
+logistics_noisy_pb3_hyp-2_75_2.tar.bz2
+logistics_noisy_pb3_hyp-4_75_2.tar.bz2
+logistics_noisy_pb2_hyp-3_75_3.tar.bz2
+logistics_noisy_pb1_hyp-3_75_2.tar.bz2
+logistics_noisy_pb1_hyp-2_75_2.tar.bz2
+logistics_noisy_pb1_hyp-1_75_1.tar.bz2
+logistics_noisy_pb3_hyp-1_75_2.tar.bz2
+logistics_noisy_pb3_hyp-1_75_3.tar.bz2
+logistics_noisy_pb3_hyp-1_75_1.tar.bz2
+logistics_noisy_pb3_hyp-3_75_2.tar.bz2
+logistics_noisy_pb1_hyp-4_75_2.tar.bz2
+logistics_noisy_pb3_hyp-2_75_3.tar.bz2
+logistics_noisy_pb1_hyp-2_75_3.tar.bz2
+logistics_noisy_pb1_hyp-2_75_1.tar.bz2
+logistics_noisy_pb1_hyp-3_75_3.tar.bz2
+logistics_noisy_pb3_hyp-2_75_1.tar.bz2
+logistics_noisy_pb2_hyp-1_75_3.tar.bz2
+logistics_noisy_pb3_hyp-3_75_3.tar.bz2
+logistics_noisy_pb2_hyp-3_75_1.tar.bz2
+logistics_noisy_pb2_hyp-2_75_3.tar.bz2
+logistics_noisy_pb1_hyp-1_75_2.tar.bz2
+logistics_noisy_pb3_hyp-4_75_1.tar.bz2
+logistics_noisy_pb1_hyp-1_75_3.tar.bz2
+logistics_noisy_pb2_hyp-2_75_1.tar.bz2
+logistics_noisy_pb1_hyp-3_75_1.tar.bz2
+logistics_noisy_pb2_hyp-1_25_3.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.262495992938057
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.486695414991118
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.426182470982894
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.110395666910335
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.239564104005694
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.177197985933162
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-16.982561824959703
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.589669223991223
+##################################################
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj21 tru2
+at obj21 pos21
+at apn1 apt2
+at tru1 pos11
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+in obj13 apn1
+at obj13 pos11
+at obj13 apt2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+##################################################
+logistics_noisy_pb3_hyp-3_25_3.tar.bz2
+logistics_noisy_pb2_hyp-3_25_3.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.838695454993285
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.36363636363636365
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos13) - score = 0.34782608695652173
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.78020162996836
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.36363636363636365
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos13) - score = 0.34782608695652173
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.295523402048275
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.36363636363636365
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos13) - score = 0.34782608695652173
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.708449290017597
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.36363636363636365
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos13) - score = 0.34782608695652173
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos13
+at tru1 apt1
+at tru2 pos21
+at tru2 apt2
+##################################################
+logistics_noisy_pb1_hyp-1_25_2.tar.bz2
+logistics_noisy_pb1_hyp-4_25_3.tar.bz2
+logistics_noisy_pb3_hyp-3_25_2.tar.bz2
+logistics_noisy_pb3_hyp-1_25_2.tar.bz2
+logistics_noisy_pb3_hyp-1_25_3.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-19.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.194281306001358
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4444444444444444
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.4
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.943049311055802
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4375
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.157147489953786
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4375
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-16.310144146089442
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4375
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.787482424988411
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4375
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-16.289271921967156
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4375
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.90167609299533
+##################################################
+Recognized goal: (at obj13 pos11), (at obj23 pos12) - score = 0.4375
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at tru1 pos13
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos11) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj23 tru2
+in obj23 tru1
+at obj23 apt2
+at obj23 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+logistics_noisy_pb1_hyp-3_25_1.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.782987458980642
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.676446247962303
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.960057710064575
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.32906851300504
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.55173578497488
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.93642753502354
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.98328541603405
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.564855449949391
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-15.452762014931068
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 20 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-16.167679042904638
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-15.355569881037809
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-3_25_1.tar.bz2 - Threshold: 20 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-15.059611247037537
+##################################################
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+in obj23 apn1
+at obj23 pos11
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos21), (at obj22 pos11) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 apn1
+at obj13 apt2
+at obj13 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 apt1
+##################################################
+logistics_noisy_pb2_hyp-1_25_1.tar.bz2
+logistics_noisy_pb1_hyp-4_25_2.tar.bz2
+logistics_noisy_pb3_hyp-2_25_1.tar.bz2
+logistics_noisy_pb2_hyp-1_25_2.tar.bz2
+logistics_noisy_pb3_hyp-2_25_3.tar.bz2
+logistics_noisy_pb2_hyp-4_25_3.tar.bz2
+logistics_noisy_pb1_hyp-3_25_3.tar.bz2
+logistics_noisy_pb1_hyp-1_25_3.tar.bz2
+logistics_noisy_pb1_hyp-2_25_3.tar.bz2
+logistics_noisy_pb2_hyp-3_25_1.tar.bz2
+logistics_noisy_pb1_hyp-2_25_1.tar.bz2
+logistics_noisy_pb3_hyp-4_25_3.tar.bz2
+logistics_noisy_pb2_hyp-4_25_2.tar.bz2
+logistics_noisy_pb3_hyp-1_25_1.tar.bz2
+logistics_noisy_pb2_hyp-3_25_2.tar.bz2
+logistics_noisy_pb1_hyp-4_25_1.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.574746472993866
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.492330203996971
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.262620560941286
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.392697894014418
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.651221639011055
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.54755235009361
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.337242848938331
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.636025949032046
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.297416765941307
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 20 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.481821310007945
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.638219055952504
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-4_25_1.tar.bz2 - Threshold: 20 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.56899992597755
+##################################################
+Recognized goal: (at obj13 pos21), (at obj22 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos21
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+in obj22 tru1
+at obj22 pos22
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos22), (at obj23 pos13) - score = 0.3181818181818182
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos13
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+in obj13 tru1
+at obj13 pos13
+at obj13 apt2
+at tru1 pos13
+at tru1 pos11
+at tru2 apt2
+##################################################
+logistics_noisy_pb2_hyp-4_25_1.tar.bz2
+logistics_noisy_pb3_hyp-2_25_2.tar.bz2
+logistics_noisy_pb1_hyp-3_25_2.tar.bz2
+logistics_noisy_pb2_hyp-2_25_1.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.897838535020128
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.590993870981038
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.987677440047264
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.402581130038016
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-16.383964852895588
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.803412441979162
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.27428058697842
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.831772973993793
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.990043113008142
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 20 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.29164576495532
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.408147205016576
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_1.tar.bz2 - Threshold: 20 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-16.774150229990482
+##################################################
+Recognized goal: (at obj11 pos23), (at obj21 pos13) - score = 0.30434782608695654
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos23
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+at obj11 pos23
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos13
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.22727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj21 tru2
+at obj21 apt2
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+##################################################
+logistics_noisy_pb3_hyp-4_25_2.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-19.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-13.668197975028306
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.4
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at apn1 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.38095238095238093
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at apn1 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-17.63807495101355
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.3684210526315789
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.373983639059588
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.3684210526315789
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.282625938067213
+##################################################
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.3888888888888889
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.3684210526315789
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt2
+in obj21 tru1
+at obj21 pos12
+at obj21 apt2
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+logistics_noisy_pb1_hyp-1_25_1.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.655866642016917
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.27125541807618
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.611275483039208
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.549498192034662
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.976354042068124
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos13) - score = 0.4090909090909091
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.476874719024636
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos13) - score = 0.4090909090909091
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-15.13390967308078
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos13) - score = 0.4090909090909091
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb1_hyp-1_25_1.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.561127226101235
+##################################################
+Recognized goal: (at obj11 pos21), (at obj22 pos12) - score = 0.45454545454545453
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+in obj22 tru2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos13) - score = 0.4090909090909091
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos13
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos21), (at obj23 pos13) - score = 0.391304347826087
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+in obj11 apn1
+at obj11 pos21
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos23
+at obj23 pos13
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj11 tru1
+in obj11 apn1
+at obj11 pos11
+at obj11 apt1
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+##################################################
+logistics_noisy_pb1_hyp-2_25_2.tar.bz2
+logistics_noisy_pb3_hyp-3_25_1.tar.bz2
+logistics_noisy_pb2_hyp-2_25_2.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.352613664930686
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.428711140993983
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.512183286016807
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-13.848463411908597
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-15.477627039072104
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-13.758824567077681
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-14.06517397298012
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-13.926787078031339
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 20 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-14.626327213016339
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj22 pos12) - score = 0.30434782608695654
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 20 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-14.821113003999926
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj22 pos12) - score = 0.30434782608695654
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 20 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-13.753580472897738
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj22 pos12) - score = 0.30434782608695654
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_2.tar.bz2 - Threshold: 20 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-13.924318469013087
+##################################################
+Recognized goal: (at obj13 pos22), (at obj22 pos13) - score = 0.36363636363636365
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.3333333333333333
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 pos22
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj22 pos12) - score = 0.30434782608695654
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj22 tru2
+in obj22 tru1
+in obj22 apn1
+at obj22 pos21
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+in obj22 tru2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.2727272727272727
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru2
+at obj13 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+##################################################
+logistics_noisy_pb3_hyp-4_25_1.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-19.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.97611918009352
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.2631578947368421
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.23809523809523808
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at apn2 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.152348723029718
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.23529411764705882
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.21052631578947367
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-15.293484113062732
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.23529411764705882
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.21052631578947367
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-14.567172377952375
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.23529411764705882
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.21052631578947367
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-15.778211495024152
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.23529411764705882
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos11), (at obj22 pos11) - score = 0.21428571428571427
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos23), (at obj22 pos13) - score = 0.2222222222222222
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at obj22 apt1
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.2222222222222222
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.21052631578947367
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-15.341278361040168
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.23529411764705882
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos11), (at obj22 pos11) - score = 0.21428571428571427
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos23), (at obj22 pos13) - score = 0.2222222222222222
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at obj22 apt1
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.2222222222222222
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.21052631578947367
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-17.4
+OBS-5
+SPREAD-4
+CORRECT-FALSE
+TIME-13.433416309999302
+##################################################
+Recognized goal: (at obj12 pos22), (at obj22 pos12) - score = 0.23529411764705882
+Landmarks:
+in obj12 tru2
+in obj12 tru1
+at obj12 pos22
+at obj12 pos12
+at obj12 apt2
+at obj12 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos12
+at obj22 apt2
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos11), (at obj22 pos11) - score = 0.21428571428571427
+Landmarks:
+in obj13 tru1
+at obj13 pos13
+at obj13 pos11
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos11
+at obj22 apt2
+at obj22 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj22 apt1
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos23), (at obj22 pos13) - score = 0.2222222222222222
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj22 tru2
+in obj22 tru1
+at obj22 pos22
+at obj22 pos13
+at obj22 apt2
+at obj22 apt1
+at tru1 pos13
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at obj22 apt1
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj11 pos22), (at obj21 pos12) - score = 0.2222222222222222
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos22
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj11 pos23), (at obj21 pos12) - score = 0.21052631578947367
+Landmarks:
+in obj11 tru2
+in obj11 tru1
+at obj11 pos23
+at obj11 pos11
+at obj11 apt2
+at obj11 apt1
+in obj21 tru2
+in obj21 tru1
+at obj21 pos21
+at obj21 pos12
+at obj21 apt2
+at obj21 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+at obj11 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+##################################################
+logistics_noisy_pb2_hyp-2_25_3.tar.bz2
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-13.42023257096298
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.1956173540093
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-13.4095303399954
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-14.42504555603955
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-14.085936867981218
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-14.024221795029007
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-13.745620723930188
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################
+FAILED - Domain: logistics-noisy - Problem: logistics_noisy_pb2_hyp-2_25_3.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-10
+LANDMARKS_AVG-22.2
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-15.830836356035434
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################

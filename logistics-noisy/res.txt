@@ -3,4 +3,184 @@ LANDMARKS_AVG-22.2
 OBS-5
 SPREAD-4
 CORRECT-TRUE
-TIME-3.6997848111204803
+TIME-14.143154941033572
+##################################################
+Recognized goal: (at obj13 pos22), (at obj23 pos12) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos12
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos12
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos22), (at obj21 pos11) - score = 0.42857142857142855
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos22
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at obj13 pos23), (at obj23 pos11) - score = 0.47619047619047616
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj23 tru2
+in obj23 tru1
+in obj23 apn1
+at obj23 pos22
+at obj23 pos11
+at obj23 apt2
+at obj23 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj23 tru2
+in obj23 apn1
+at obj23 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at obj13 pos23), (at obj21 pos11) - score = 0.4090909090909091
+Landmarks:
+in obj13 tru2
+in obj13 tru1
+in obj13 apn1
+at obj13 pos23
+at obj13 pos11
+at obj13 apt2
+at obj13 apt1
+in obj21 tru2
+in obj21 tru1
+in obj21 apn1
+at obj21 pos21
+at obj21 pos11
+at obj21 apt2
+at obj21 apt1
+at apn1 apt2
+at apn1 apt1
+at tru1 pos11
+at tru1 apt1
+at tru2 pos23
+at tru2 pos22
+at tru2 pos21
+at tru2 apt2
+
+Achieved Landmarks:
+in obj13 tru1
+at obj13 pos11
+at obj13 apt1
+in obj21 apn1
+at obj21 apt2
+at apn1 apt2
+at tru1 pos11
+at tru1 apt1
+at tru2 apt2
+##################################################

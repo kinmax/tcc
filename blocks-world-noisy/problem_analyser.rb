@@ -21,6 +21,8 @@ when "--rhw"
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 when "--zg"
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
+when "--hoffmann"
+    cmd = "java -jar planning-landmarks.jar -d /home/kin/t2-integradora/#{domain}/domain.pddl -p /home/kin/t2-integradora/#{domain}/problem.pddl -extractor partial -o /home/kin/t2-integradora/#{domain}/output.txt > /dev/null"
 else
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 end
@@ -43,6 +45,20 @@ split_hyps.each do |hyp|
     end
     hyp.strip!
     candidates.push(hyp)
+end
+
+visited_facts = []
+
+initial_state_file = File.open("/home/kin/t2-integradora/#{domain}/template.pddl", 'r')
+initial_state = initial_state_file.read
+initial_state_file.close
+initial_state = initial_state.downcase
+initial_state = initial_state.split("(:init")[1].split("(:goal")[0].gsub("(", "").gsub(")", "").strip
+split_initials = initial_state.split("\n")
+split_initials.each do |fact|
+    unless fact.strip.empty?
+        visited_facts.push(fact)
+    end
 end
 
 system("ruby problem_formatter.rb /home/kin/t2-integradora/#{domain}/template.pddl /home/kin/t2-integradora/#{domain}/real_hyp.dat /home/kin/t2-integradora/#{domain}/problem.pddl")
@@ -76,30 +92,32 @@ actions = actions_file.read
 actions_file.close
 actions = actions.downcase
 acts = JSON.parse(actions)
-achieved_lmarks = []
 keys = acts.keys
 obs.each do |ob|
     h = acts[ob]
     if h.nil?
         next
     end
-    achieved_lmarks.push(h["preconditions"])
-    achieved_lmarks.push(h["delete-effects"])
-    achieved_lmarks.push(h["add-effects"])
-    achieved_lmarks = achieved_lmarks.flatten
+    visited_facts.push(h["preconditions"])
+    visited_facts.push(h["delete-effects"])
+    visited_facts.push(h["add-effects"])
+    visited_facts = visited_facts.flatten
 end
 # acts.keys.each do |key|
 #     if obs.include?(key)
-#         achieved_lmarks.push(acts[key]["preconditions"])
-#         achieved_lmarks.push(acts[key]["delete-effects"])
-#         achieved_lmarks.push(acts[key]["add-effects"])
-#         achieved_lmarks = achieved_lmarks.flatten
+#         visited_facts.push(acts[key]["preconditions"])
+#         visited_facts.push(acts[key]["delete-effects"])
+#         visited_facts.push(acts[key]["add-effects"])
+#         visited_facts = visited_facts.flatten
 #     end
 # end
 
 goals_percents = {}
 
 landmark_avg = 0
+
+landmarks_per_goal = {}
+achieved_landmarks_per_goal = {}
 
 candidates.each do |candidate|
 
@@ -117,31 +135,50 @@ candidates.each do |candidate|
 
     lms = []
 
-    landmarks = landmarks.split("############################################################################")[1]
-    landmarks = landmarks.split("Landmark graph: \n")[1].split("\nLandmark graph end.\n")[0]
-    landmarks = landmarks.split("\n")
-    landmarks.each do |lm|
-        lm.strip!
-        if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
-            next
+    if method == "--hoffmann"
+        landmarks = landmarks.split("\n")
+        landmarks.each do |lm|
+            lm.strip!
+            if lm.empty?
+                next
+            end
+            lm = lm.gsub("(", " ").gsub(")", "").gsub(",", " ")
+            lm.strip!
+            if lm.include?("~")
+                lm = "not (#{lm})"
+            end
+            lms.push(lm)
         end
-        negated = lm.include?("Negated")
-        lm = lm.split("Atom")[1].split("(var")[0].strip
-        lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
-        if negated
-            lm = "not (#{lm})"
+    else
+        landmarks = landmarks.split("############################################################################")[1]
+        landmarks = landmarks.split("Landmark graph: \n")[1].split("\nLandmark graph end.\n")[0]
+        landmarks = landmarks.split("\n")
+        landmarks.each do |lm|
+            lm.strip!
+            if lm.include?("conj") || lm.include?("->_nat") || lm.empty? || lm.include?("<none of those>") || lm == "Landmark graph end."
+                next
+            end
+            negated = lm.include?("Negated")
+            lm = lm.split("Atom")[1].split("(var")[0].strip
+            lm = lm.gsub(", ", " ").gsub("(", " ").gsub(")", "")
+            lm.strip!
+            if negated
+                lm = "not (#{lm})"
+            end
+            lms.push(lm)
+            landmarks_per_goal[candidate] = lms      
         end
-        lms.push(lm)
     end
     
-    number_of_achieved_landmarks = 0
+    achieved_landmarks = []
     lms.each do |lm|
-        if achieved_lmarks.include?(lm)
-            number_of_achieved_landmarks = number_of_achieved_landmarks + 1
+        if visited_facts.include?(lm)
+            achieved_landmarks.push(lm)
         end
     end
+    achieved_landmarks_per_goal[candidate] = achieved_landmarks
 
-    goals_percents[candidate] = lms.length > 0 ? number_of_achieved_landmarks.to_f/lms.length.to_f : 0.to_f
+    goals_percents[candidate] = lms.length > 0 ? achieved_landmarks.length.to_f/lms.length.to_f : 0.to_f
 
     landmark_avg = landmark_avg + lms.length
 end
@@ -172,3 +209,29 @@ finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 time = finish - start
 
 puts "TIME-#{time}"
+
+puts "#"*50
+recognized.each do |rg|
+    puts "Recognized goal: #{rg} - score = #{goals_percents[rg]}\n"
+    puts "Landmarks:"
+    landmarks_per_goal[rg].each do |l|
+        puts l
+    end
+    puts "\n"
+    puts "Achieved Landmarks:"
+    achieved_landmarks_per_goal[rg].each do |achieved_landmark|
+        puts achieved_landmark
+    end
+    puts "$"*50
+end
+puts "Real Goal: #{real_goal} - score = #{goals_percents[real_goal]}\n"
+puts "Landmarks:"
+landmarks_per_goal[real_goal].each do |l|
+    puts l
+end
+puts "\n"
+puts "Achieved Landmarks:"
+achieved_landmarks_per_goal[real_goal].each do |al|
+    puts al
+end
+puts "#"*50

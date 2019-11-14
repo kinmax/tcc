@@ -3,4 +3,36 @@ LANDMARKS_AVG-7.666666666666667
 OBS-2
 SPREAD-1
 CORRECT-FALSE
-TIME-1.654005136108026
+TIME-6.832533258013427
+##################################################
+Recognized goal: (made_breakfast) - score = 0.11764705882352941
+Landmarks:
+made_breakfast
+made_buttered_toast
+made_cereals
+made_toast
+taken bowl
+taken bread
+taken butter
+taken cereal
+water_boiled
+taken cloth
+taken cup
+taken keetle
+taken knife
+taken milk
+taken spoon
+taken water_jug
+used toaster
+
+Achieved Landmarks:
+taken bowl
+taken knife
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (made_dinner) - score = 0.0
+Landmarks:
+made_dinner
+taken plate
+
+Achieved Landmarks:
+##################################################

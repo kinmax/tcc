@@ -1,0 +1,572 @@
+GOALS-21
+LANDMARKS_AVG-16.523809523809526
+OBS-3
+SPREAD-16
+CORRECT-TRUE
+TIME-9.30972008407116
+##################################################
+Recognized goal: (clear e),(ontable r),(on e a),(on a r) - score = 0.8666666666666667
+Landmarks:
+clear e
+ontable e
+on e a
+holding e
+ontable r
+on r p
+holding r
+on a r
+on a c
+holding a
+handempty
+clear r
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear e
+ontable e
+on e a
+holding e
+on r p
+on a r
+on a c
+holding a
+handempty
+clear r
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear d),(ontable w),(on d r),(on r a),(on a w) - score = 0.6666666666666666
+Landmarks:
+clear d
+on d r
+on d a
+holding d
+ontable w
+on r p
+on r a
+holding r
+on a w
+on a c
+holding a
+handempty
+clear w
+clear r
+clear a
+
+Achieved Landmarks:
+clear d
+on d a
+ontable w
+on r p
+on a c
+holding a
+handempty
+clear w
+clear r
+clear a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear w),(ontable r),(on w a),(on a r) - score = 0.7333333333333333
+Landmarks:
+clear w
+ontable w
+on w a
+holding w
+ontable r
+on r p
+holding r
+on a r
+on a c
+holding a
+handempty
+clear r
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear w
+ontable w
+on r p
+on a r
+on a c
+holding a
+handempty
+clear r
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear r),(ontable w),(on r a),(on a w) - score = 0.7692307692307693
+Landmarks:
+clear r
+on r p
+on r a
+holding r
+ontable w
+on a w
+on a c
+holding a
+handempty
+clear w
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear r
+on r p
+ontable w
+on a c
+holding a
+handempty
+clear w
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear w),(ontable d),(on w a),(on a d) - score = 0.6153846153846154
+Landmarks:
+clear w
+ontable w
+on w a
+holding w
+ontable d
+on d a
+holding d
+on a d
+on a c
+holding a
+handempty
+clear d
+clear a
+
+Achieved Landmarks:
+clear w
+ontable w
+on d a
+on a c
+holding a
+handempty
+clear d
+clear a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear c),(ontable w),(on c r),(on r o),(on o w) - score = 0.6842105263157895
+Landmarks:
+clear c
+ontable c
+on c r
+holding c
+ontable w
+on r p
+on r o
+holding r
+ontable o
+on o w
+holding o
+handempty
+clear w
+clear r
+clear o
+clear d
+clear a
+on d a
+on a c
+
+Achieved Landmarks:
+clear c
+ontable c
+ontable w
+on r p
+ontable o
+handempty
+clear w
+clear r
+clear o
+clear d
+clear a
+on d a
+on a c
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear r),(ontable w),(on r o),(on o w) - score = 0.6363636363636364
+Landmarks:
+clear r
+on r p
+on r o
+holding r
+ontable w
+ontable o
+on o w
+holding o
+handempty
+clear w
+clear o
+
+Achieved Landmarks:
+clear r
+on r p
+ontable w
+ontable o
+handempty
+clear w
+clear o
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear w),(ontable r),(on w e),(on e a),(on a r) - score = 0.7894736842105263
+Landmarks:
+clear w
+ontable w
+on w e
+holding w
+ontable r
+on r p
+holding r
+ontable e
+on e a
+holding e
+on a r
+on a c
+holding a
+handempty
+clear r
+clear e
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear w
+ontable w
+on r p
+ontable e
+on e a
+holding e
+on a r
+on a c
+holding a
+handempty
+clear r
+clear e
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear p),(ontable r),(on p e),(on e a),(on a r) - score = 0.7368421052631579
+Landmarks:
+clear p
+ontable p
+on p e
+holding p
+ontable r
+on r p
+holding r
+ontable e
+on e a
+holding e
+on a r
+on a c
+holding a
+handempty
+clear r
+clear e
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+ontable p
+on r p
+ontable e
+on e a
+holding e
+on a r
+on a c
+holding a
+handempty
+clear r
+clear e
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear d),(ontable r),(on d e),(on e a),(on a r) - score = 0.7647058823529411
+Landmarks:
+clear d
+on d e
+on d a
+holding d
+ontable r
+on r p
+holding r
+ontable e
+on e a
+holding e
+on a r
+on a c
+holding a
+handempty
+clear r
+clear e
+clear a
+
+Achieved Landmarks:
+clear d
+on d a
+on r p
+ontable e
+on e a
+holding e
+on a r
+on a c
+holding a
+handempty
+clear r
+clear e
+clear a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear r),(ontable p),(on r e),(on e a),(on a p) - score = 0.7647058823529411
+Landmarks:
+clear r
+on r p
+on r e
+holding r
+ontable p
+ontable e
+on e a
+holding e
+on a p
+on a c
+holding a
+handempty
+clear p
+clear e
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear r
+on r p
+ontable p
+ontable e
+on e a
+holding e
+on a c
+holding a
+handempty
+clear e
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear c),(ontable r),(on c o),(on o w),(on w e),(on e r) - score = 0.64
+Landmarks:
+clear c
+ontable c
+on c o
+holding c
+ontable w
+on w e
+holding w
+ontable r
+on r p
+holding r
+ontable o
+on o w
+holding o
+ontable e
+on e r
+holding e
+handempty
+clear w
+clear r
+clear o
+clear e
+clear d
+clear a
+on d a
+on a c
+
+Achieved Landmarks:
+clear c
+ontable c
+ontable w
+on r p
+ontable o
+ontable e
+holding e
+handempty
+clear w
+clear r
+clear o
+clear e
+clear d
+clear a
+on d a
+on a c
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear c),(ontable e),(on c o),(on o r),(on r e) - score = 0.6842105263157895
+Landmarks:
+clear c
+ontable c
+on c o
+holding c
+on r p
+on r e
+holding r
+ontable o
+on o r
+holding o
+ontable e
+handempty
+clear r
+clear o
+clear e
+clear d
+clear a
+on d a
+on a c
+
+Achieved Landmarks:
+clear c
+ontable c
+on r p
+ontable o
+ontable e
+handempty
+clear r
+clear o
+clear e
+clear d
+clear a
+on d a
+on a c
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear w),(ontable e),(on w a),(on a d),(on d e) - score = 0.6666666666666666
+Landmarks:
+clear w
+ontable w
+on w a
+holding w
+ontable e
+on d e
+on d a
+holding d
+on a d
+on a c
+holding a
+handempty
+clear e
+clear d
+clear a
+
+Achieved Landmarks:
+clear w
+ontable w
+ontable e
+on d a
+on a c
+holding a
+handempty
+clear e
+clear d
+clear a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear p),(ontable w),(on p a),(on a w) - score = 0.7333333333333333
+Landmarks:
+clear p
+ontable p
+on p a
+holding p
+ontable w
+on a w
+on a c
+holding a
+handempty
+clear w
+clear a
+clear r
+clear d
+on r p
+on d a
+
+Achieved Landmarks:
+ontable p
+ontable w
+on a c
+holding a
+handempty
+clear w
+clear a
+clear r
+clear d
+on r p
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (clear r),(ontable e),(on r a),(on a p),(on p e) - score = 0.6470588235294118
+Landmarks:
+clear r
+on r p
+on r a
+holding r
+ontable p
+on p e
+holding p
+ontable e
+on a p
+on a c
+holding a
+handempty
+clear p
+clear e
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear r
+on r p
+ontable p
+ontable e
+on a c
+holding a
+handempty
+clear e
+clear a
+clear d
+on d a
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (clear e),(ontable r),(on e a),(on a r) - score = 0.8666666666666667
+Landmarks:
+clear e
+ontable e
+on e a
+holding e
+ontable r
+on r p
+holding r
+on a r
+on a c
+holding a
+handempty
+clear r
+clear a
+clear d
+on d a
+
+Achieved Landmarks:
+clear e
+ontable e
+on e a
+holding e
+on r p
+on a r
+on a c
+holding a
+handempty
+clear r
+clear a
+clear d
+on d a
+##################################################

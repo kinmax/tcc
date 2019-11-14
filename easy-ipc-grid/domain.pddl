@@ -5,7 +5,7 @@
              (key-shape ?k - key ?s - shape)
              (lock-shape ?x - place ?s - shape)
              (at ?r - key ?x - place )
-	     (at-robot ?x - place)
+       (at-robot ?x - place)
              (locked ?x - place)
              (carrying ?k - key)
              (open ?x - place)
@@ -31,8 +31,4 @@
 :precondition (and (at-robot ?curpos) (at ?key ?curpos))
 :effect (and (carrying ?key)
    (not (at ?key ?curpos)))
-)
-
-)
-
-	
+))

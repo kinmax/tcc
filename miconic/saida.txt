@@ -27,3 +27,8085 @@ miconic_p06_hyp-4_full.tar.bz2
 miconic_p01_hyp-1_full.tar.bz2
 miconic_p03_hyp-3_full.tar.bz2
 miconic_p02_hyp-3_full.tar.bz2
+miconic_p02_hyp-2_50_2.tar.bz2
+miconic_p01_hyp-3_50_2.tar.bz2
+miconic_p06_hyp-2_50_3.tar.bz2
+miconic_p02_hyp-3_50_1.tar.bz2
+miconic_p03_hyp-4_50_3.tar.bz2
+miconic_p03_hyp-2_50_1.tar.bz2
+miconic_p07_hyp-4_50_1.tar.bz2
+miconic_p07_hyp-1_50_3.tar.bz2
+miconic_p05_hyp-4_50_3.tar.bz2
+miconic_p05_hyp-1_50_2.tar.bz2
+miconic_p07_hyp-1_50_1.tar.bz2
+miconic_p05_hyp-1_50_1.tar.bz2
+miconic_p06_hyp-4_50_2.tar.bz2
+miconic_p04_hyp-4_50_1.tar.bz2
+miconic_p04_hyp-2_50_3.tar.bz2
+miconic_p01_hyp-4_50_1.tar.bz2
+miconic_p05_hyp-3_50_3.tar.bz2
+miconic_p07_hyp-2_50_3.tar.bz2
+miconic_p06_hyp-1_50_2.tar.bz2
+miconic_p03_hyp-4_50_1.tar.bz2
+miconic_p04_hyp-1_50_1.tar.bz2
+miconic_p02_hyp-1_50_3.tar.bz2
+miconic_p06_hyp-4_50_1.tar.bz2
+miconic_p03_hyp-2_50_3.tar.bz2
+miconic_p03_hyp-1_50_2.tar.bz2
+miconic_p04_hyp-4_50_3.tar.bz2
+miconic_p01_hyp-1_50_1.tar.bz2
+miconic_p04_hyp-3_50_1.tar.bz2
+miconic_p06_hyp-3_50_3.tar.bz2
+miconic_p03_hyp-2_50_2.tar.bz2
+miconic_p01_hyp-3_50_3.tar.bz2
+miconic_p03_hyp-1_50_3.tar.bz2
+miconic_p06_hyp-1_50_3.tar.bz2
+miconic_p07_hyp-2_50_1.tar.bz2
+miconic_p06_hyp-1_50_1.tar.bz2
+miconic_p04_hyp-1_50_3.tar.bz2
+miconic_p02_hyp-3_50_2.tar.bz2
+miconic_p02_hyp-4_50_1.tar.bz2
+miconic_p05_hyp-3_50_2.tar.bz2
+miconic_p02_hyp-4_50_3.tar.bz2
+miconic_p07_hyp-4_50_2.tar.bz2
+miconic_p07_hyp-1_50_2.tar.bz2
+miconic_p06_hyp-4_50_3.tar.bz2
+miconic_p04_hyp-2_50_1.tar.bz2
+miconic_p01_hyp-4_50_3.tar.bz2
+miconic_p07_hyp-4_50_3.tar.bz2
+miconic_p06_hyp-3_50_1.tar.bz2
+miconic_p06_hyp-3_50_2.tar.bz2
+miconic_p07_hyp-2_50_2.tar.bz2
+miconic_p05_hyp-2_50_1.tar.bz2
+miconic_p04_hyp-3_50_2.tar.bz2
+miconic_p02_hyp-2_50_3.tar.bz2
+miconic_p01_hyp-4_50_2.tar.bz2
+miconic_p01_hyp-2_50_1.tar.bz2
+miconic_p05_hyp-1_50_3.tar.bz2
+miconic_p05_hyp-3_50_1.tar.bz2
+miconic_p05_hyp-4_50_1.tar.bz2
+miconic_p03_hyp-3_50_1.tar.bz2
+miconic_p01_hyp-3_50_1.tar.bz2
+miconic_p05_hyp-2_50_2.tar.bz2
+miconic_p04_hyp-2_50_2.tar.bz2
+miconic_p04_hyp-3_50_3.tar.bz2
+miconic_p01_hyp-1_50_2.tar.bz2
+miconic_p01_hyp-2_50_3.tar.bz2
+miconic_p02_hyp-1_50_2.tar.bz2
+miconic_p03_hyp-3_50_2.tar.bz2
+miconic_p02_hyp-1_50_1.tar.bz2
+miconic_p06_hyp-2_50_2.tar.bz2
+miconic_p07_hyp-3_50_3.tar.bz2
+miconic_p01_hyp-2_50_2.tar.bz2
+miconic_p04_hyp-1_50_2.tar.bz2
+miconic_p02_hyp-2_50_1.tar.bz2
+miconic_p07_hyp-3_50_2.tar.bz2
+miconic_p05_hyp-2_50_3.tar.bz2
+miconic_p07_hyp-3_50_1.tar.bz2
+miconic_p03_hyp-1_50_1.tar.bz2
+miconic_p02_hyp-4_50_2.tar.bz2
+miconic_p06_hyp-2_50_1.tar.bz2
+miconic_p03_hyp-3_50_3.tar.bz2
+miconic_p05_hyp-4_50_2.tar.bz2
+miconic_p03_hyp-4_50_2.tar.bz2
+miconic_p04_hyp-4_50_2.tar.bz2
+miconic_p01_hyp-1_50_3.tar.bz2
+miconic_p02_hyp-3_50_3.tar.bz2
+miconic_p02_hyp-1_70_2.tar.bz2
+miconic_p03_hyp-3_70_3.tar.bz2
+miconic_p07_hyp-2_70_3.tar.bz2
+miconic_p03_hyp-2_70_2.tar.bz2
+miconic_p03_hyp-2_70_3.tar.bz2
+miconic_p05_hyp-4_70_3.tar.bz2
+miconic_p02_hyp-4_70_3.tar.bz2
+miconic_p05_hyp-4_70_2.tar.bz2
+miconic_p03_hyp-3_70_1.tar.bz2
+miconic_p07_hyp-3_70_3.tar.bz2
+miconic_p06_hyp-4_70_1.tar.bz2
+miconic_p06_hyp-4_70_3.tar.bz2
+miconic_p02_hyp-3_70_1.tar.bz2
+miconic_p01_hyp-2_70_3.tar.bz2
+miconic_p06_hyp-2_70_3.tar.bz2
+miconic_p03_hyp-4_70_3.tar.bz2
+miconic_p07_hyp-4_70_1.tar.bz2
+miconic_p07_hyp-1_70_3.tar.bz2
+miconic_p04_hyp-3_70_2.tar.bz2
+miconic_p07_hyp-3_70_1.tar.bz2
+miconic_p06_hyp-2_70_1.tar.bz2
+miconic_p06_hyp-1_70_2.tar.bz2
+miconic_p05_hyp-4_70_1.tar.bz2
+miconic_p02_hyp-1_70_3.tar.bz2
+miconic_p04_hyp-3_70_1.tar.bz2
+miconic_p04_hyp-2_70_1.tar.bz2
+miconic_p07_hyp-4_70_3.tar.bz2
+miconic_p06_hyp-3_70_1.tar.bz2
+miconic_p01_hyp-3_70_1.tar.bz2
+miconic_p03_hyp-3_70_2.tar.bz2
+miconic_p04_hyp-1_70_2.tar.bz2
+miconic_p05_hyp-3_70_2.tar.bz2
+miconic_p03_hyp-1_70_2.tar.bz2
+miconic_p03_hyp-4_70_1.tar.bz2
+miconic_p02_hyp-2_70_3.tar.bz2
+miconic_p02_hyp-1_70_1.tar.bz2
+miconic_p02_hyp-2_70_1.tar.bz2
+miconic_p06_hyp-1_70_1.tar.bz2
+miconic_p04_hyp-4_70_1.tar.bz2
+miconic_p03_hyp-4_70_2.tar.bz2
+miconic_p06_hyp-4_70_2.tar.bz2
+miconic_p06_hyp-2_70_2.tar.bz2
+miconic_p04_hyp-4_70_3.tar.bz2
+miconic_p03_hyp-1_70_3.tar.bz2
+miconic_p04_hyp-4_70_2.tar.bz2
+miconic_p03_hyp-1_70_1.tar.bz2
+miconic_p05_hyp-2_70_2.tar.bz2
+miconic_p03_hyp-2_70_1.tar.bz2
+miconic_p05_hyp-3_70_1.tar.bz2
+miconic_p01_hyp-1_70_2.tar.bz2
+miconic_p07_hyp-1_70_2.tar.bz2
+miconic_p07_hyp-3_70_2.tar.bz2
+miconic_p05_hyp-1_70_2.tar.bz2
+miconic_p05_hyp-2_70_3.tar.bz2
+miconic_p07_hyp-2_70_1.tar.bz2
+miconic_p02_hyp-3_70_2.tar.bz2
+miconic_p02_hyp-4_70_2.tar.bz2
+miconic_p01_hyp-2_70_2.tar.bz2
+miconic_p02_hyp-2_70_2.tar.bz2
+miconic_p04_hyp-3_70_3.tar.bz2
+miconic_p06_hyp-1_70_3.tar.bz2
+miconic_p05_hyp-1_70_1.tar.bz2
+miconic_p05_hyp-2_70_1.tar.bz2
+miconic_p05_hyp-3_70_3.tar.bz2
+miconic_p04_hyp-1_70_1.tar.bz2
+miconic_p01_hyp-1_70_1.tar.bz2
+miconic_p01_hyp-3_70_3.tar.bz2
+miconic_p04_hyp-2_70_3.tar.bz2
+miconic_p04_hyp-1_70_3.tar.bz2
+miconic_p01_hyp-4_70_2.tar.bz2
+miconic_p07_hyp-1_70_1.tar.bz2
+miconic_p01_hyp-4_70_3.tar.bz2
+miconic_p01_hyp-3_70_2.tar.bz2
+miconic_p01_hyp-1_70_3.tar.bz2
+miconic_p05_hyp-1_70_3.tar.bz2
+miconic_p02_hyp-4_70_1.tar.bz2
+miconic_p07_hyp-2_70_2.tar.bz2
+miconic_p04_hyp-2_70_2.tar.bz2
+miconic_p07_hyp-4_70_2.tar.bz2
+miconic_p06_hyp-3_70_3.tar.bz2
+miconic_p06_hyp-3_70_2.tar.bz2
+miconic_p02_hyp-3_70_3.tar.bz2
+miconic_p01_hyp-2_70_1.tar.bz2
+miconic_p01_hyp-4_70_1.tar.bz2
+miconic_p05_hyp-4_10_2.tar.bz2
+miconic_p04_hyp-1_10_3.tar.bz2
+miconic_p07_hyp-3_10_3.tar.bz2
+miconic_p04_hyp-2_10_1.tar.bz2
+miconic_p03_hyp-4_10_3.tar.bz2
+miconic_p06_hyp-4_10_2.tar.bz2
+miconic_p04_hyp-4_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-36.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-9.325384743977338
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.2222222222222222
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+not (boarded p6)
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.21621621621621623
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+not (boarded p6)
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-10.18390335899312
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.3181818181818182
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.30434782608695654
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-36.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-10.05392022500746
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.2222222222222222
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+not (boarded p6)
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.21621621621621623
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+not (boarded p6)
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-9.57294456497766
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.3181818181818182
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.30434782608695654
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p6
+boarded p6
+lift-at f3
+lift-at f2
+lift-at f1
+lift-at f0
+##################################################
+miconic_p03_hyp-2_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.357611275976524
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2727272727272727
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p2), (served p4), (served p5) - score = 0.2608695652173913
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.529488365980797
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.35714285714285715
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p2), (served p4), (served p5) - score = 0.3333333333333333
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.390739772003144
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2727272727272727
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p2), (served p4), (served p5) - score = 0.2608695652173913
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.121568621951155
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.35714285714285715
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p2), (served p4), (served p5) - score = 0.3333333333333333
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+boarded p5
+lift-at f2
+lift-at f0
+##################################################
+miconic_p04_hyp-3_10_2.tar.bz2
+miconic_p03_hyp-2_10_1.tar.bz2
+miconic_p07_hyp-1_10_1.tar.bz2
+miconic_p02_hyp-2_10_1.tar.bz2
+miconic_p07_hyp-2_10_3.tar.bz2
+miconic_p02_hyp-2_10_2.tar.bz2
+miconic_p07_hyp-1_10_3.tar.bz2
+miconic_p02_hyp-1_10_3.tar.bz2
+miconic_p02_hyp-4_10_1.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.966139563010074
+##################################################
+Recognized goal: (served p1), (served p2), (served p3), (served p4), (served p5) - score = 0.21428571428571427
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.20689655172413793
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.682356322999112
+##################################################
+Recognized goal: (served p1), (served p2), (served p3), (served p4), (served p5) - score = 0.2777777777777778
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.2631578947368421
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.080177561962046
+##################################################
+Recognized goal: (served p1), (served p2), (served p3), (served p4), (served p5) - score = 0.21428571428571427
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.20689655172413793
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.30332842306234
+##################################################
+Recognized goal: (served p1), (served p2), (served p3), (served p4), (served p5) - score = 0.2777777777777778
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.2631578947368421
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+lift-at f6
+lift-at f4
+lift-at f0
+##################################################
+miconic_p01_hyp-2_10_1.tar.bz2
+miconic_p01_hyp-4_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.231096308096312
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.15384615384615385
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.966574645950459
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.184375738957897
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.15384615384615385
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.192600389011204
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+miconic_p02_hyp-4_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-2
+SPREAD-3
+CORRECT-FALSE
+TIME-7.662497920915484
+##################################################
+Recognized goal: (served p2), (served p3), (served p0), (served p5), (served p6) - score = 0.10714285714285714
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f3
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.10714285714285714
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.10714285714285714
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.10344827586206896
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-2
+SPREAD-3
+CORRECT-FALSE
+TIME-9.343113288050517
+##################################################
+Recognized goal: (served p2), (served p3), (served p0), (served p5), (served p6) - score = 0.16666666666666666
+Landmarks:
+served p0
+boarded p0
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f3
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.16666666666666666
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.16666666666666666
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.15789473684210525
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-2
+SPREAD-3
+CORRECT-FALSE
+TIME-8.012651382014155
+##################################################
+Recognized goal: (served p2), (served p3), (served p0), (served p5), (served p6) - score = 0.10714285714285714
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f3
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.10714285714285714
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.10714285714285714
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.10344827586206896
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-2
+SPREAD-3
+CORRECT-FALSE
+TIME-8.350817530066706
+##################################################
+Recognized goal: (served p2), (served p3), (served p0), (served p5), (served p6) - score = 0.16666666666666666
+Landmarks:
+served p0
+boarded p0
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f3
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.16666666666666666
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.16666666666666666
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.15789473684210525
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+lift-at f15
+lift-at f0
+##################################################
+miconic_p05_hyp-1_10_1.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p05_hyp-1_10_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-51.5
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-11.725399156915955
+##################################################
+Recognized goal: (served p0), (served p1), (served p2), (served p7), (served p8), (served p5), (served p6), (served p9), (served p11) - score = 0.22
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p11)
+served p11
+not (boarded p11)
+boarded p11
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+not (served p9)
+served p9
+not (boarded p9)
+boarded p9
+lift-at f8
+lift-at f6
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f16
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p7), (served p8), (served p4), (served p5), (served p6), (served p10), (served p11) - score = 0.21568627450980393
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p10)
+served p10
+not (boarded p10)
+boarded p10
+not (served p11)
+served p11
+not (boarded p11)
+boarded p11
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f8
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p05_hyp-1_10_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-33.5
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.703456546994857
+##################################################
+Recognized goal: (served p0), (served p1), (served p2), (served p7), (served p8), (served p5), (served p6), (served p9), (served p11) - score = 0.34375
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p11
+boarded p11
+served p2
+boarded p2
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f8
+lift-at f6
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f16
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p7), (served p8), (served p4), (served p5), (served p6), (served p10), (served p11) - score = 0.3333333333333333
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p10
+boarded p10
+served p11
+boarded p11
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f8
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p05_hyp-1_10_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-51.5
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-11.177523726946674
+##################################################
+Recognized goal: (served p0), (served p1), (served p2), (served p7), (served p8), (served p5), (served p6), (served p9), (served p11) - score = 0.22
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p11)
+served p11
+not (boarded p11)
+boarded p11
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+not (served p9)
+served p9
+not (boarded p9)
+boarded p9
+lift-at f8
+lift-at f6
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f16
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p7), (served p8), (served p4), (served p5), (served p6), (served p10), (served p11) - score = 0.21568627450980393
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p10)
+served p10
+not (boarded p10)
+boarded p10
+not (served p11)
+served p11
+not (boarded p11)
+boarded p11
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f8
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p05_hyp-1_10_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-33.5
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-11.280634162016213
+##################################################
+Recognized goal: (served p0), (served p1), (served p2), (served p7), (served p8), (served p5), (served p6), (served p9), (served p11) - score = 0.34375
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p11
+boarded p11
+served p2
+boarded p2
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f8
+lift-at f6
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f16
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p7), (served p8), (served p4), (served p5), (served p6), (served p10), (served p11) - score = 0.3333333333333333
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p10
+boarded p10
+served p11
+boarded p11
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f8
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p0
+boarded p11
+boarded p6
+lift-at f27
+lift-at f23
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f15
+lift-at f1
+lift-at f0
+##################################################
+miconic_p04_hyp-4_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-36.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-9.201284870970994
+##################################################
+Recognized goal: (served p0), (served p7), (served p8), (served p3), (served p4), (served p5), (served p6) - score = 0.19444444444444445
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.1891891891891892
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-8.447363354964182
+##################################################
+Recognized goal: (served p0), (served p7), (served p8), (served p3), (served p4), (served p5), (served p6) - score = 0.3181818181818182
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.30434782608695654
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-36.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-8.904706610017456
+##################################################
+Recognized goal: (served p0), (served p7), (served p8), (served p3), (served p4), (served p5), (served p6) - score = 0.19444444444444445
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.1891891891891892
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-7.434677429962903
+##################################################
+Recognized goal: (served p0), (served p7), (served p8), (served p3), (served p4), (served p5), (served p6) - score = 0.3181818181818182
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.30434782608695654
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p3
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+miconic_p07_hyp-4_10_1.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p07_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-38.833333333333336
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-30.981470718979836
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6), (served p9), (served p13), (served p22) - score = 0.39473684210526316
+Landmarks:
+served p13
+boarded p13
+served p2
+boarded p2
+served p22
+boarded p22
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f51
+lift-at f5
+lift-at f48
+lift-at f43
+lift-at f4
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f3
+lift-at f27
+lift-at f26
+lift-at f24
+lift-at f2
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f48
+lift-at f43
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f27
+lift-at f24
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p7), (served p8), (served p3), (served p4), (served p5), (served p6), (served p9), (served p12), (served p21) - score = 0.3902439024390244
+Landmarks:
+served p0
+boarded p0
+served p12
+boarded p12
+served p21
+boarded p21
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f51
+lift-at f48
+lift-at f43
+lift-at f42
+lift-at f39
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f3
+lift-at f29
+lift-at f27
+lift-at f26
+lift-at f24
+lift-at f22
+lift-at f2
+lift-at f18
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f48
+lift-at f43
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f27
+lift-at f24
+lift-at f18
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p07_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-38.833333333333336
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-26.744891181006096
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6), (served p9), (served p13), (served p22) - score = 0.39473684210526316
+Landmarks:
+served p13
+boarded p13
+served p2
+boarded p2
+served p22
+boarded p22
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f51
+lift-at f5
+lift-at f48
+lift-at f43
+lift-at f4
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f3
+lift-at f27
+lift-at f26
+lift-at f24
+lift-at f2
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f48
+lift-at f43
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f27
+lift-at f24
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p7), (served p8), (served p3), (served p4), (served p5), (served p6), (served p9), (served p12), (served p21) - score = 0.3902439024390244
+Landmarks:
+served p0
+boarded p0
+served p12
+boarded p12
+served p21
+boarded p21
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f51
+lift-at f48
+lift-at f43
+lift-at f42
+lift-at f39
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f3
+lift-at f29
+lift-at f27
+lift-at f26
+lift-at f24
+lift-at f22
+lift-at f2
+lift-at f18
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f48
+lift-at f43
+lift-at f38
+lift-at f36
+lift-at f33
+lift-at f27
+lift-at f24
+lift-at f18
+lift-at f16
+lift-at f14
+lift-at f10
+lift-at f0
+##################################################
+miconic_p06_hyp-4_10_1.tar.bz2
+miconic_p05_hyp-2_10_1.tar.bz2
+miconic_p04_hyp-1_10_1.tar.bz2
+miconic_p02_hyp-3_10_2.tar.bz2
+miconic_p06_hyp-1_10_1.tar.bz2
+miconic_p05_hyp-2_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p05_hyp-2_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-33.5
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-12.96264828008134
+##################################################
+Recognized goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6), (served p10), (served p12) - score = 0.375
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p10
+boarded p10
+served p12
+boarded p12
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f8
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f27
+lift-at f26
+lift-at f23
+lift-at f2
+lift-at f18
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f12
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+served p6
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f23
+lift-at f2
+lift-at f18
+lift-at f15
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6), (served p9), (served p13) - score = 0.37142857142857144
+Landmarks:
+served p13
+boarded p13
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f7
+lift-at f6
+lift-at f3
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f18
+lift-at f16
+lift-at f15
+lift-at f13
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+served p6
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f23
+lift-at f22
+lift-at f2
+lift-at f18
+lift-at f15
+lift-at f13
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p05_hyp-2_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-33.5
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-11.309972602990456
+##################################################
+Recognized goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6), (served p10), (served p12) - score = 0.375
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p10
+boarded p10
+served p12
+boarded p12
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f8
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f27
+lift-at f26
+lift-at f23
+lift-at f2
+lift-at f18
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f12
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+served p6
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f23
+lift-at f2
+lift-at f18
+lift-at f15
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6), (served p9), (served p13) - score = 0.37142857142857144
+Landmarks:
+served p13
+boarded p13
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+served p9
+boarded p9
+lift-at f7
+lift-at f6
+lift-at f3
+lift-at f27
+lift-at f23
+lift-at f22
+lift-at f21
+lift-at f2
+lift-at f19
+lift-at f18
+lift-at f16
+lift-at f15
+lift-at f13
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+served p6
+boarded p6
+lift-at f7
+lift-at f6
+lift-at f23
+lift-at f22
+lift-at f2
+lift-at f18
+lift-at f15
+lift-at f13
+lift-at f0
+##################################################
+miconic_p05_hyp-3_10_1.tar.bz2
+miconic_p04_hyp-4_10_1.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-36.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-9.038400121964514
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.25
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.24324324324324326
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-8.73961926996708
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.36363636363636365
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.34782608695652173
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-36.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-8.75024681398645
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.25
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.24324324324324326
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p04_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.5
+OBS-3
+SPREAD-1
+CORRECT-FALSE
+TIME-9.460865327040665
+##################################################
+Recognized goal: (served p7), (served p8), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.36363636363636365
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f13
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4), (served p5), (served p6) - score = 0.34782608695652173
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p6
+boarded p6
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+miconic_p06_hyp-3_10_1.tar.bz2
+miconic_p03_hyp-1_10_1.tar.bz2
+miconic_p02_hyp-2_10_3.tar.bz2
+miconic_p02_hyp-3_10_3.tar.bz2
+miconic_p01_hyp-4_10_1.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.970045940950513
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.23076923076923078
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p6
+not (boarded p6)
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.2222222222222222
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p6
+not (boarded p6)
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.127208947902545
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p6
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.29411764705882354
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p6
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.700144404894672
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.23076923076923078
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p6
+not (boarded p6)
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.2222222222222222
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p6
+not (boarded p6)
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.529186632018536
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p6
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.29411764705882354
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p6
+boarded p6
+boarded p7
+lift-at f3
+lift-at f0
+##################################################
+miconic_p06_hyp-1_10_3.tar.bz2
+miconic_p01_hyp-3_10_1.tar.bz2
+miconic_p06_hyp-2_10_1.tar.bz2
+miconic_p05_hyp-3_10_3.tar.bz2
+miconic_p07_hyp-4_10_2.tar.bz2
+miconic_p01_hyp-1_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.52387902396731
+##################################################
+Recognized goal: (served p4), (served p1), (served p2), (served p8), (served p5) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f13
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.14285714285714285
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.854398480034433
+##################################################
+Recognized goal: (served p4), (served p1), (served p2), (served p8), (served p5) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f13
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.2222222222222222
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.949848752934486
+##################################################
+Recognized goal: (served p4), (served p1), (served p2), (served p8), (served p5) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f13
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.14285714285714285
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.028319672914222
+##################################################
+Recognized goal: (served p4), (served p1), (served p2), (served p8), (served p5) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f13
+lift-at f12
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.2222222222222222
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f12
+lift-at f10
+lift-at f0
+##################################################
+miconic_p01_hyp-2_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.562437128042802
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.15384615384615385
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p5), (served p6), (served p7), (served p8) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f15
+lift-at f13
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.475256730918773
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p5), (served p6), (served p7), (served p8) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f15
+lift-at f13
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.301835616934113
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.15384615384615385
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p5), (served p6), (served p7), (served p8) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+not (served p8)
+served p8
+not (boarded p8)
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f15
+lift-at f13
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-2_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.202866662992164
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p1), (served p5), (served p6), (served p7), (served p8) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+served p8
+boarded p8
+lift-at f3
+lift-at f2
+lift-at f15
+lift-at f13
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p7
+lift-at f2
+lift-at f15
+lift-at f0
+##################################################
+miconic_p01_hyp-1_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.85777818504721
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.23076923076923078
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+not (boarded p3)
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.21428571428571427
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+not (boarded p3)
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.123902442981489
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-9.05272421007976
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.23076923076923078
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+not (boarded p3)
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.21428571428571427
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+not (boarded p3)
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.978647068957798
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_3.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-8.665204731980339
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.29411764705882354
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-1_10_3.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.888739531976171
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.29411764705882354
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3), (served p4) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+lift-at f9
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p3
+boarded p3
+lift-at f3
+lift-at f15
+lift-at f0
+##################################################
+miconic_p06_hyp-3_10_3.tar.bz2
+miconic_p01_hyp-2_10_3.tar.bz2
+miconic_p04_hyp-2_10_2.tar.bz2
+miconic_p07_hyp-2_10_1.tar.bz2
+miconic_p03_hyp-3_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.7133999729994684
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.18181818181818182
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.16666666666666666
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.1594051590655
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.677366805961356
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.18181818181818182
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.16666666666666666
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.144319247920066
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_2.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.223689032020047
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.26666666666666666
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_2.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.390476361033507
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.26666666666666666
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+##################################################
+miconic_p06_hyp-1_10_2.tar.bz2
+miconic_p01_hyp-3_10_3.tar.bz2
+miconic_p03_hyp-4_10_2.tar.bz2
+miconic_p04_hyp-2_10_3.tar.bz2
+miconic_p06_hyp-2_10_3.tar.bz2
+miconic_p06_hyp-4_10_3.tar.bz2
+miconic_p06_hyp-2_10_2.tar.bz2
+miconic_p03_hyp-2_10_3.tar.bz2
+miconic_p03_hyp-4_10_1.tar.bz2
+miconic_p01_hyp-1_10_1.tar.bz2
+miconic_p03_hyp-3_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-6.590631199069321
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.21739130434782608
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.20833333333333334
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.34762536699418
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.3333333333333333
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.317800011951476
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.21739130434782608
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.20833333333333334
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-6.902115208096802
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.3333333333333333
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.3125
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f0
+##################################################
+miconic_p07_hyp-1_10_2.tar.bz2
+miconic_p05_hyp-4_10_3.tar.bz2
+miconic_p06_hyp-3_10_2.tar.bz2
+miconic_p01_hyp-3_10_2.tar.bz2
+miconic_p04_hyp-3_10_1.tar.bz2
+miconic_p02_hyp-1_10_1.tar.bz2
+miconic_p02_hyp-3_10_1.tar.bz2
+miconic_p05_hyp-4_10_1.tar.bz2
+miconic_p03_hyp-1_10_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-6.91787969507277
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.22727272727272727
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f9
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.21739130434782608
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f9
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-6.721558190998621
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f9
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.26666666666666666
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f9
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-6.873189271078445
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.22727272727272727
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f9
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.21739130434782608
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f9
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.528532285941765
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f9
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.26666666666666666
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f9
+lift-at f0
+##################################################
+miconic_p05_hyp-2_10_2.tar.bz2
+miconic_p02_hyp-1_10_2.tar.bz2
+miconic_p07_hyp-2_10_2.tar.bz2
+miconic_p04_hyp-1_10_2.tar.bz2
+miconic_p05_hyp-1_10_2.tar.bz2
+miconic_p07_hyp-3_10_1.tar.bz2
+miconic_p04_hyp-3_10_3.tar.bz2
+miconic_p03_hyp-3_10_1.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-6.704984955023974
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.30434782608695654
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.30434782608695654
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.2916666666666667
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.665634409990162
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.4
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.4
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.375
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-6.7365252550225705
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.30434782608695654
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.30434782608695654
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.2916666666666667
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+not (boarded p2)
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_10_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.652003883034922
+##################################################
+Recognized goal: (served p1), (served p2), (served p4), (served p5) - score = 0.4
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.4
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.375
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p2
+boarded p2
+boarded p5
+lift-at f2
+lift-at f10
+lift-at f0
+##################################################
+miconic_p07_hyp-4_10_3.tar.bz2
+miconic_p05_hyp-1_10_3.tar.bz2
+miconic_p03_hyp-1_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.115709644043818
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.22727272727272727
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f11
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.21739130434782608
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f11
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.028340084012598
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f11
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.26666666666666666
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f11
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.143601338961162
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.22727272727272727
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f11
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.21739130434782608
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+not (boarded p1)
+boarded p1
+lift-at f11
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-1_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-7.266220008954406
+##################################################
+Recognized goal: (served p3), (served p1), (served p5), (served p4) - score = 0.2857142857142857
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f2
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f11
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p0), (served p1), (served p2), (served p3) - score = 0.26666666666666666
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+lift-at f9
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+served p1
+boarded p1
+lift-at f11
+lift-at f0
+##################################################
+miconic_p01_hyp-4_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.506282603018917
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.15384615384615385
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.312888039974496
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-27.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.353894122992642
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.15384615384615385
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.14814814814814814
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p6)
+served p6
+not (boarded p6)
+boarded p6
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p01_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-17.166666666666668
+OBS-2
+SPREAD-1
+CORRECT-FALSE
+TIME-8.080490057938732
+##################################################
+Recognized goal: (served p2), (served p6), (served p3), (served p4), (served p7) - score = 0.25
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f10
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p3), (served p1), (served p6), (served p5), (served p7) - score = 0.23529411764705882
+Landmarks:
+served p1
+boarded p1
+served p3
+boarded p3
+served p5
+boarded p5
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f3
+lift-at f2
+lift-at f17
+lift-at f15
+lift-at f12
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p6
+lift-at f2
+lift-at f17
+lift-at f0
+##################################################
+miconic_p02_hyp-4_10_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.193426656886004
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.21428571428571427
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+not (boarded p7)
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.21428571428571427
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+served p7
+not (boarded p7)
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.20689655172413793
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+not (boarded p7)
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.982335631037131
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+served p7
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.2631578947368421
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.959863579948433
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.21428571428571427
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+not (boarded p7)
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.21428571428571427
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+served p7
+not (boarded p7)
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.20689655172413793
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+not (boarded p7)
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_10_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-2
+SPREAD-2
+CORRECT-FALSE
+TIME-7.576805706019513
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p5), (served p2), (served p7), (served p0), (served p1) - score = 0.2777777777777778
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+served p7
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.2631578947368421
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p7
+boarded p7
+lift-at f14
+lift-at f13
+lift-at f0
+##################################################
+miconic_p07_hyp-3_10_2.tar.bz2
+miconic_p05_hyp-3_10_2.tar.bz2
+miconic_p06_hyp-3_30_3.tar.bz2
+miconic_p02_hyp-1_30_1.tar.bz2
+miconic_p02_hyp-4_30_3.tar.bz2
+miconic_p07_hyp-1_30_3.tar.bz2
+miconic_p03_hyp-3_30_1.tar.bz2
+miconic_p06_hyp-3_30_2.tar.bz2
+miconic_p05_hyp-4_30_3.tar.bz2
+miconic_p03_hyp-1_30_2.tar.bz2
+miconic_p01_hyp-1_30_2.tar.bz2
+miconic_p04_hyp-2_30_1.tar.bz2
+miconic_p03_hyp-1_30_1.tar.bz2
+miconic_p07_hyp-2_30_2.tar.bz2
+miconic_p02_hyp-1_30_2.tar.bz2
+miconic_p03_hyp-4_30_2.tar.bz2
+miconic_p06_hyp-4_30_3.tar.bz2
+miconic_p01_hyp-2_30_2.tar.bz2
+miconic_p05_hyp-4_30_2.tar.bz2
+miconic_p03_hyp-1_30_3.tar.bz2
+miconic_p01_hyp-4_30_1.tar.bz2
+miconic_p04_hyp-1_30_1.tar.bz2
+miconic_p06_hyp-2_30_2.tar.bz2
+miconic_p04_hyp-2_30_3.tar.bz2
+miconic_p03_hyp-3_30_3.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_30_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-6.4883458679541945
+##################################################
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.5652173913043478
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+not (boarded p3)
+boarded p3
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.5416666666666666
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+not (boarded p3)
+boarded p3
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_30_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-7.301259207073599
+##################################################
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.7333333333333333
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.6875
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_30_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-23.166666666666668
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-6.616576157044619
+##################################################
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.5652173913043478
+Landmarks:
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+not (boarded p3)
+boarded p3
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.5416666666666666
+Landmarks:
+not (served p2)
+served p2
+not (boarded p2)
+boarded p2
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+not (boarded p3)
+boarded p3
+served p5
+not (boarded p5)
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p03_hyp-3_30_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-15.166666666666666
+OBS-5
+SPREAD-1
+CORRECT-FALSE
+TIME-6.201118030003272
+##################################################
+Recognized goal: (served p5), (served p1), (served p2), (served p3) - score = 0.7333333333333333
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p2), (served p4), (served p3), (served p5) - score = 0.6875
+Landmarks:
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f9
+lift-at f8
+lift-at f6
+lift-at f2
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p2
+served p3
+boarded p3
+served p5
+boarded p5
+lift-at f9
+lift-at f6
+lift-at f11
+lift-at f10
+lift-at f1
+lift-at f0
+##################################################
+miconic_p01_hyp-2_30_1.tar.bz2
+miconic_p01_hyp-2_30_3.tar.bz2
+miconic_p03_hyp-3_30_2.tar.bz2
+miconic_p03_hyp-4_30_3.tar.bz2
+miconic_p06_hyp-2_30_1.tar.bz2
+miconic_p05_hyp-2_30_1.tar.bz2
+miconic_p07_hyp-3_30_2.tar.bz2
+miconic_p06_hyp-4_30_2.tar.bz2
+miconic_p07_hyp-1_30_1.tar.bz2
+miconic_p07_hyp-3_30_1.tar.bz2
+miconic_p07_hyp-4_30_3.tar.bz2
+miconic_p02_hyp-2_30_1.tar.bz2
+miconic_p05_hyp-1_30_3.tar.bz2
+miconic_p05_hyp-2_30_3.tar.bz2
+miconic_p01_hyp-4_30_3.tar.bz2
+miconic_p04_hyp-3_30_3.tar.bz2
+miconic_p06_hyp-4_30_1.tar.bz2
+miconic_p02_hyp-3_30_3.tar.bz2
+miconic_p04_hyp-4_30_2.tar.bz2
+miconic_p06_hyp-1_30_3.tar.bz2
+miconic_p06_hyp-2_30_3.tar.bz2
+miconic_p05_hyp-1_30_1.tar.bz2
+miconic_p05_hyp-2_30_2.tar.bz2
+miconic_p03_hyp-2_30_1.tar.bz2
+miconic_p04_hyp-3_30_1.tar.bz2
+miconic_p02_hyp-2_30_3.tar.bz2
+miconic_p06_hyp-1_30_1.tar.bz2
+miconic_p04_hyp-4_30_1.tar.bz2
+miconic_p01_hyp-1_30_1.tar.bz2
+miconic_p01_hyp-1_30_3.tar.bz2
+miconic_p05_hyp-3_30_2.tar.bz2
+miconic_p06_hyp-3_30_1.tar.bz2
+miconic_p05_hyp-4_30_1.tar.bz2
+miconic_p02_hyp-4_30_2.tar.bz2
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_30_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-6.907253504032269
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.39285714285714285
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+served p7
+not (boarded p7)
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.3793103448275862
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+served p7
+not (boarded p7)
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_30_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-7.071204900974408
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.5
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.47368421052631576
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_30_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-28.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-6.823000938049518
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.39285714285714285
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p3)
+served p3
+not (boarded p3)
+boarded p3
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+served p7
+not (boarded p7)
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.3793103448275862
+Landmarks:
+not (served p0)
+served p0
+not (boarded p0)
+boarded p0
+not (served p1)
+served p1
+not (boarded p1)
+boarded p1
+not (served p4)
+served p4
+not (boarded p4)
+boarded p4
+not (served p5)
+served p5
+not (boarded p5)
+boarded p5
+not (served p7)
+served p7
+not (boarded p7)
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+not (boarded p4)
+boarded p4
+served p7
+not (boarded p7)
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+##################################################
+FAILED - Domain: miconic - Problem: miconic_p02_hyp-4_30_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-18.333333333333332
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-6.355062171001919
+##################################################
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.5
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.47368421052631576
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+served p4
+boarded p4
+served p7
+boarded p7
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+##################################################
+miconic_p01_hyp-3_30_2.tar.bz2
+miconic_p02_hyp-4_30_1.tar.bz2
+miconic_p07_hyp-4_30_1.tar.bz2
+miconic_p07_hyp-2_30_3.tar.bz2
+miconic_p07_hyp-4_30_2.tar.bz2
+miconic_p07_hyp-1_30_2.tar.bz2
+miconic_p03_hyp-4_30_1.tar.bz2
+miconic_p06_hyp-1_30_2.tar.bz2
+miconic_p03_hyp-2_30_3.tar.bz2
+miconic_p05_hyp-3_30_1.tar.bz2
+miconic_p07_hyp-3_30_3.tar.bz2
+miconic_p05_hyp-3_30_3.tar.bz2
+miconic_p04_hyp-1_30_2.tar.bz2
+miconic_p04_hyp-2_30_2.tar.bz2
+miconic_p04_hyp-3_30_2.tar.bz2
+miconic_p04_hyp-4_30_3.tar.bz2
+miconic_p02_hyp-3_30_1.tar.bz2
+miconic_p04_hyp-1_30_3.tar.bz2
+miconic_p03_hyp-2_30_2.tar.bz2
+miconic_p01_hyp-4_30_2.tar.bz2
+miconic_p02_hyp-2_30_2.tar.bz2
+miconic_p02_hyp-3_30_2.tar.bz2
+miconic_p02_hyp-1_30_3.tar.bz2
+miconic_p01_hyp-3_30_1.tar.bz2
+miconic_p01_hyp-3_30_3.tar.bz2
+miconic_p05_hyp-1_30_2.tar.bz2
+miconic_p07_hyp-2_30_1.tar.bz2

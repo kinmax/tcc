@@ -1,6 +1,58 @@
 GOALS-20
 LANDMARKS_AVG-16.5
 OBS-4
-SPREAD-2
+SPREAD-1
 CORRECT-FALSE
-TIME-8.064076898153871
+TIME-13.10851307597477
+##################################################
+Recognized goal: (data-stolen-from perseus), (data-stolen-from cassiopea), (vandalized libra) - score = 0.29411764705882354
+Landmarks:
+data-stolen-from cassiopea
+deleted-logs cassiopea
+files-downloaded cassiopea
+root-access-obtained cassiopea
+access-obtained cassiopea
+vandalized libra
+deleted-logs libra
+modified-files libra
+access-obtained libra
+data-stolen-from perseus
+deleted-logs perseus
+files-downloaded perseus
+root-access-obtained perseus
+access-obtained perseus
+recon-performed cassiopea
+recon-performed libra
+recon-performed perseus
+
+Achieved Landmarks:
+deleted-logs cassiopea
+access-obtained cassiopea
+access-obtained perseus
+recon-performed cassiopea
+recon-performed perseus
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (vandalized aries), (data-stolen-from libra), (vandalized cassiopea) - score = 0.1875
+Landmarks:
+vandalized aries
+deleted-logs aries
+modified-files aries
+access-obtained aries
+vandalized cassiopea
+deleted-logs cassiopea
+modified-files cassiopea
+access-obtained cassiopea
+data-stolen-from libra
+deleted-logs libra
+files-downloaded libra
+root-access-obtained libra
+access-obtained libra
+recon-performed aries
+recon-performed cassiopea
+recon-performed libra
+
+Achieved Landmarks:
+deleted-logs cassiopea
+access-obtained cassiopea
+recon-performed cassiopea
+##################################################

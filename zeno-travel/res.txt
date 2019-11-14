@@ -1,6 +1,50 @@
 GOALS-6
 LANDMARKS_AVG-9.833333333333334
 OBS-4
-SPREAD-1
+SPREAD-2
 CORRECT-TRUE
-TIME-4.525721979967784
+TIME-7.605801501078531
+##################################################
+Recognized goal: (at person1 city0), (at person2 city0), (at person3 city1), (at person4 city0), (at person6 city3) - score = 0.125
+Landmarks:
+at person1 city1
+at person1 city0
+at person2 city0
+at person3 city2
+at person3 city1
+at person4 city0
+at person6 city4
+at person6 city3
+
+Achieved Landmarks:
+at person1 city0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at person1 city0), (at person2 city1), (at person3 city2), (at person4 city3), (at person5 city1) - score = 0.1111111111111111
+Landmarks:
+at person1 city1
+at person1 city0
+at person2 city1
+at person2 city0
+at person3 city2
+at person4 city3
+at person4 city0
+at person5 city3
+at person5 city1
+
+Achieved Landmarks:
+at person1 city0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at person1 city0), (at person2 city0), (at person3 city1), (at person4 city0), (at person6 city3) - score = 0.125
+Landmarks:
+at person1 city1
+at person1 city0
+at person2 city0
+at person3 city2
+at person3 city1
+at person4 city0
+at person6 city4
+at person6 city3
+
+Achieved Landmarks:
+at person1 city0
+##################################################

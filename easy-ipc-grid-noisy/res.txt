@@ -1,6 +1,39 @@
 GOALS-5
 LANDMARKS_AVG-6.8
 OBS-3
-SPREAD-5
-CORRECT-TRUE
-TIME-2.01664996589534
+SPREAD-2
+CORRECT-FALSE
+TIME-6.795099828043021
+##################################################
+Recognized goal: (at-robot place_0_9) - score = 0.25
+Landmarks:
+at-robot place_1_0
+at-robot place_0_9
+at-robot place_0_8
+at-robot place_0_0
+
+Achieved Landmarks:
+at-robot place_0_0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_1_9) - score = 0.25
+Landmarks:
+at-robot place_1_9
+at-robot place_1_8
+at-robot place_1_0
+at-robot place_0_0
+
+Achieved Landmarks:
+at-robot place_0_0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at-robot place_3_9) - score = 0.16666666666666666
+Landmarks:
+at-robot place_3_9
+at-robot place_3_8
+at-robot place_3_7
+at-robot place_2_0
+at-robot place_1_0
+at-robot place_0_0
+
+Achieved Landmarks:
+at-robot place_0_0
+##################################################

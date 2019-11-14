@@ -1,6 +1,159 @@
 GOALS-6
 LANDMARKS_AVG-18.333333333333332
 OBS-5
-SPREAD-3
+SPREAD-4
 CORRECT-TRUE
-TIME-2.7119898591190577
+TIME-10.806381542002782
+##################################################
+Recognized goal: (served p1), (served p2), (served p3), (served p4), (served p5) - score = 0.4444444444444444
+Landmarks:
+served p1
+boarded p1
+served p2
+boarded p2
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+boarded p4
+lift-at f6
+lift-at f2
+lift-at f14
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p3), (served p4), (served p5), (served p0), (served p7) - score = 0.3333333333333333
+Landmarks:
+served p0
+boarded p0
+served p3
+boarded p3
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f11
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p4
+lift-at f6
+lift-at f14
+lift-at f11
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.3684210526315789
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+boarded p4
+lift-at f6
+lift-at f2
+lift-at f14
+lift-at f1
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (served p6), (served p7), (served p0), (served p1), (served p2) - score = 0.3157894736842105
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p2
+boarded p2
+served p6
+boarded p6
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f3
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+lift-at f6
+lift-at f3
+lift-at f2
+lift-at f14
+lift-at f0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (served p4), (served p5), (served p1), (served p7), (served p0) - score = 0.3684210526315789
+Landmarks:
+served p0
+boarded p0
+served p1
+boarded p1
+served p4
+boarded p4
+served p5
+boarded p5
+served p7
+boarded p7
+lift-at f7
+lift-at f6
+lift-at f4
+lift-at f2
+lift-at f15
+lift-at f14
+lift-at f13
+lift-at f1
+lift-at f0
+
+Achieved Landmarks:
+boarded p1
+boarded p4
+lift-at f6
+lift-at f2
+lift-at f14
+lift-at f1
+lift-at f0
+##################################################

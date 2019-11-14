@@ -1,0 +1,13163 @@
+ferry-noisy
+ferry_noisy_pb1_hyp-2_100_2.tar.bz2
+ferry_noisy_pb1_hyp-3_100_2.tar.bz2
+ferry_noisy_pb3_hyp-3_100_3.tar.bz2
+ferry_noisy_pb2_hyp-1_100_1.tar.bz2
+ferry_noisy_pb3_hyp-3_100_1.tar.bz2
+ferry_noisy_pb2_hyp-2_100_2.tar.bz2
+ferry_noisy_pb1_hyp-4_100_1.tar.bz2
+ferry_noisy_pb3_hyp-4_100_3.tar.bz2
+ferry_noisy_pb2_hyp-2_100_3.tar.bz2
+ferry_noisy_pb2_hyp-1_100_2.tar.bz2
+ferry_noisy_pb2_hyp-4_100_3.tar.bz2
+ferry_noisy_pb3_hyp-1_100_2.tar.bz2
+ferry_noisy_pb3_hyp-1_100_3.tar.bz2
+ferry_noisy_pb1_hyp-2_100_3.tar.bz2
+ferry_noisy_pb2_hyp-4_100_1.tar.bz2
+ferry_noisy_pb3_hyp-2_100_1.tar.bz2
+ferry_noisy_pb1_hyp-4_100_2.tar.bz2
+ferry_noisy_pb2_hyp-2_100_1.tar.bz2
+ferry_noisy_pb3_hyp-3_100_2.tar.bz2
+ferry_noisy_pb2_hyp-1_100_3.tar.bz2
+ferry_noisy_pb1_hyp-4_100_3.tar.bz2
+ferry_noisy_pb3_hyp-4_100_1.tar.bz2
+ferry_noisy_pb2_hyp-3_100_3.tar.bz2
+ferry_noisy_pb2_hyp-3_100_2.tar.bz2
+ferry_noisy_pb1_hyp-2_100_1.tar.bz2
+ferry_noisy_pb2_hyp-4_100_2.tar.bz2
+ferry_noisy_pb1_hyp-1_100_1.tar.bz2
+ferry_noisy_pb2_hyp-3_100_1.tar.bz2
+ferry_noisy_pb1_hyp-1_100_3.tar.bz2
+ferry_noisy_pb3_hyp-1_100_1.tar.bz2
+ferry_noisy_pb3_hyp-4_100_2.tar.bz2
+ferry_noisy_pb3_hyp-2_100_3.tar.bz2
+ferry_noisy_pb1_hyp-3_100_1.tar.bz2
+ferry_noisy_pb3_hyp-2_100_2.tar.bz2
+ferry_noisy_pb1_hyp-3_100_3.tar.bz2
+ferry_noisy_pb1_hyp-1_100_2.tar.bz2
+ferry_noisy_pb3_hyp-2_50_2.tar.bz2
+ferry_noisy_pb3_hyp-1_50_1.tar.bz2
+ferry_noisy_pb2_hyp-3_50_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-11
+SPREAD-2
+CORRECT-FALSE
+TIME-6.6202502879314125
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-2
+CORRECT-FALSE
+TIME-6.732530897017568
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-2
+CORRECT-FALSE
+TIME-6.5719653910491616
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-2
+CORRECT-FALSE
+TIME-6.389380476088263
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.782608695652174
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-1_50_3.tar.bz2
+ferry_noisy_pb1_hyp-1_50_2.tar.bz2
+ferry_noisy_pb1_hyp-2_50_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-13
+SPREAD-2
+CORRECT-FALSE
+TIME-6.421577009023167
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7586206896551724
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c4
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.7586206896551724
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c6
+on c5
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.75
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-13
+SPREAD-2
+CORRECT-FALSE
+TIME-5.636079297051765
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7586206896551724
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c4
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.7586206896551724
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c6
+on c5
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.75
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-13
+SPREAD-2
+CORRECT-FALSE
+TIME-5.880734568927437
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7586206896551724
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c4
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.7586206896551724
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c6
+on c5
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.75
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-4_50_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-5.77421130402945
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7931034482758621
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-6.181302812998183
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7931034482758621
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-6.253770916024223
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7931034482758621
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-5.715996688930318
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7931034482758621
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb3_hyp-3_50_3.tar.bz2
+ferry_noisy_pb3_hyp-4_50_1.tar.bz2
+ferry_noisy_pb1_hyp-3_50_1.tar.bz2
+ferry_noisy_pb3_hyp-2_50_3.tar.bz2
+ferry_noisy_pb1_hyp-4_50_2.tar.bz2
+ferry_noisy_pb2_hyp-4_50_2.tar.bz2
+ferry_noisy_pb1_hyp-3_50_2.tar.bz2
+ferry_noisy_pb3_hyp-1_50_3.tar.bz2
+ferry_noisy_pb3_hyp-4_50_3.tar.bz2
+ferry_noisy_pb3_hyp-3_50_2.tar.bz2
+ferry_noisy_pb2_hyp-1_50_1.tar.bz2
+ferry_noisy_pb1_hyp-1_50_1.tar.bz2
+ferry_noisy_pb2_hyp-3_50_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-5.992600176017731
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.8
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-6.779114507953636
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.8
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-6.58552276797127
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.8
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_50_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-6.605026919976808
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.8
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-4_50_3.tar.bz2
+ferry_noisy_pb2_hyp-3_50_3.tar.bz2
+ferry_noisy_pb2_hyp-1_50_3.tar.bz2
+ferry_noisy_pb1_hyp-3_50_3.tar.bz2
+ferry_noisy_pb2_hyp-2_50_1.tar.bz2
+ferry_noisy_pb3_hyp-1_50_2.tar.bz2
+ferry_noisy_pb2_hyp-2_50_3.tar.bz2
+ferry_noisy_pb2_hyp-4_50_3.tar.bz2
+ferry_noisy_pb2_hyp-2_50_2.tar.bz2
+ferry_noisy_pb3_hyp-3_50_1.tar.bz2
+ferry_noisy_pb1_hyp-2_50_3.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-13
+SPREAD-1
+CORRECT-FALSE
+TIME-7.676235068007372
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7419354838709677
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c3
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c5
+on c1
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-13
+SPREAD-1
+CORRECT-FALSE
+TIME-8.568935106042773
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7419354838709677
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c3
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.7142857142857143
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-13
+SPREAD-1
+CORRECT-FALSE
+TIME-7.663002239074558
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7419354838709677
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c3
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.7142857142857143
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_50_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-13
+SPREAD-1
+CORRECT-FALSE
+TIME-7.587796095991507
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7419354838709677
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c3
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.7142857142857143
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-1_50_2.tar.bz2
+ferry_noisy_pb2_hyp-4_50_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-9.758832871099003
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.8
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c4
+on c3
+on c1
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-10.713368671946228
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.7916666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c4
+on c3
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-10.009979411959648
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.7916666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c4
+on c3
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_50_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-11
+SPREAD-1
+CORRECT-FALSE
+TIME-10.043576105963439
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.8260869565217391
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.7916666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c4
+on c3
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb3_hyp-4_50_2.tar.bz2
+ferry_noisy_pb1_hyp-2_50_1.tar.bz2
+ferry_noisy_pb3_hyp-2_50_1.tar.bz2
+ferry_noisy_pb1_hyp-4_75_2.tar.bz2
+ferry_noisy_pb3_hyp-3_75_3.tar.bz2
+ferry_noisy_pb2_hyp-3_75_1.tar.bz2
+ferry_noisy_pb3_hyp-2_75_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-3
+CORRECT-FALSE
+TIME-10.547947896062396
+##################################################
+Recognized goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-3
+CORRECT-FALSE
+TIME-11.418886941042729
+##################################################
+Recognized goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-3
+CORRECT-FALSE
+TIME-10.713219003053382
+##################################################
+Recognized goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-3
+CORRECT-FALSE
+TIME-9.879511547042057
+##################################################
+Recognized goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7727272727272727
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-1_75_1.tar.bz2
+ferry_noisy_pb3_hyp-4_75_3.tar.bz2
+ferry_noisy_pb1_hyp-1_75_1.tar.bz2
+ferry_noisy_pb3_hyp-3_75_2.tar.bz2
+ferry_noisy_pb1_hyp-4_75_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_75_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-22
+SPREAD-1
+CORRECT-FALSE
+TIME-12.758365988032892
+##################################################
+Recognized goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.8275862068965517
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.8181818181818182
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_75_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-22
+SPREAD-1
+CORRECT-FALSE
+TIME-12.204835811979137
+##################################################
+Recognized goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.8214285714285714
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.8181818181818182
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_75_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-22
+SPREAD-1
+CORRECT-FALSE
+TIME-12.596498960978352
+##################################################
+Recognized goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.8214285714285714
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.8181818181818182
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_75_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-22
+SPREAD-1
+CORRECT-FALSE
+TIME-11.666330517968163
+##################################################
+Recognized goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.8214285714285714
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.8181818181818182
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-4_75_2.tar.bz2
+ferry_noisy_pb2_hyp-4_75_3.tar.bz2
+ferry_noisy_pb3_hyp-1_75_2.tar.bz2
+ferry_noisy_pb1_hyp-3_75_3.tar.bz2
+ferry_noisy_pb2_hyp-1_75_2.tar.bz2
+ferry_noisy_pb1_hyp-1_75_2.tar.bz2
+ferry_noisy_pb2_hyp-1_75_3.tar.bz2
+ferry_noisy_pb3_hyp-1_75_1.tar.bz2
+ferry_noisy_pb2_hyp-2_75_2.tar.bz2
+ferry_noisy_pb1_hyp-2_75_3.tar.bz2
+ferry_noisy_pb2_hyp-2_75_3.tar.bz2
+ferry_noisy_pb1_hyp-4_75_3.tar.bz2
+ferry_noisy_pb1_hyp-3_75_1.tar.bz2
+ferry_noisy_pb1_hyp-2_75_2.tar.bz2
+ferry_noisy_pb1_hyp-1_75_3.tar.bz2
+ferry_noisy_pb3_hyp-1_75_3.tar.bz2
+ferry_noisy_pb1_hyp-2_75_1.tar.bz2
+ferry_noisy_pb2_hyp-2_75_1.tar.bz2
+ferry_noisy_pb2_hyp-4_75_1.tar.bz2
+ferry_noisy_pb3_hyp-2_75_3.tar.bz2
+ferry_noisy_pb1_hyp-3_75_2.tar.bz2
+ferry_noisy_pb3_hyp-4_75_1.tar.bz2
+ferry_noisy_pb3_hyp-4_75_2.tar.bz2
+ferry_noisy_pb3_hyp-3_75_1.tar.bz2
+ferry_noisy_pb3_hyp-2_75_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-10.123424538993277
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.8636363636363636
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.8181818181818182
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-10.872186310007237
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.8636363636363636
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.8181818181818182
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-9.633745066006668
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.8636363636363636
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.8181818181818182
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-2_75_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-15
+SPREAD-1
+CORRECT-FALSE
+TIME-9.772704828996211
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.8636363636363636
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.8181818181818182
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-3_75_3.tar.bz2
+ferry_noisy_pb2_hyp-3_75_2.tar.bz2
+ferry_noisy_pb3_hyp-4_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-9.869828994967975
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-10.272558186901733
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-10.254909216891974
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-10.393188573070802
+##################################################
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-3_25_1.tar.bz2
+ferry_noisy_pb3_hyp-1_25_3.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-2
+CORRECT-FALSE
+TIME-9.941102167940699
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-2
+CORRECT-FALSE
+TIME-10.257825272041373
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-2
+CORRECT-FALSE
+TIME-9.259829969028942
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-2
+CORRECT-FALSE
+TIME-10.186533791013062
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb3_hyp-1_25_1.tar.bz2
+ferry_noisy_pb3_hyp-2_25_3.tar.bz2
+ferry_noisy_pb3_hyp-1_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-3
+CORRECT-FALSE
+TIME-9.38990657706745
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6363636363636364
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-3
+CORRECT-FALSE
+TIME-10.40872542199213
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6363636363636364
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-3
+CORRECT-FALSE
+TIME-9.890835858066566
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6363636363636364
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-1_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-6
+SPREAD-3
+CORRECT-FALSE
+TIME-9.683767526992597
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c0 l0), (at c1 l1), (at c2 l0), (at c3 l2), (at c4 l2), (at c5 l2) - score = 0.6363636363636364
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c2 l0
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+on c5
+on c4
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-4_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-11.848431251011789
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-11.393654495012015
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-11.919054434983991
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-11.656508337007836
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 10 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-8
+SPREAD-2
+CORRECT-FALSE
+TIME-12.43810651905369
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.6774193548387096
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 10 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-2
+CORRECT-FALSE
+TIME-11.662116304039955
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.6774193548387096
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 10 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-2
+CORRECT-FALSE
+TIME-12.677578955888748
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.6774193548387096
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_2.tar.bz2 - Threshold: 10 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-2
+CORRECT-FALSE
+TIME-11.414581703022122
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.6774193548387096
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.6060606060606061
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c8
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-3_25_3.tar.bz2
+ferry_noisy_pb1_hyp-1_25_3.tar.bz2
+ferry_noisy_pb2_hyp-2_25_2.tar.bz2
+ferry_noisy_pb2_hyp-1_25_1.tar.bz2
+ferry_noisy_pb3_hyp-2_25_1.tar.bz2
+ferry_noisy_pb3_hyp-2_25_2.tar.bz2
+ferry_noisy_pb1_hyp-2_25_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-11.225368777988479
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6896551724137931
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-12.56390764506068
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6785714285714286
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-11.426693327957764
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6785714285714286
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-11.474489193991758
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.7241379310344828
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6785714285714286
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-4_25_3.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.71035317890346
+##################################################
+Recognized goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c6
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.68
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c4
+on c1
+on c0
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.894972539041191
+##################################################
+Recognized goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c6
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.6666666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.483970940927975
+##################################################
+Recognized goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c6
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.6666666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.092528445995413
+##################################################
+Recognized goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c6
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.6666666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-1_25_2.tar.bz2
+ferry_noisy_pb1_hyp-2_25_3.tar.bz2
+ferry_noisy_pb2_hyp-1_25_3.tar.bz2
+ferry_noisy_pb3_hyp-3_25_1.tar.bz2
+ferry_noisy_pb1_hyp-4_25_1.tar.bz2
+ferry_noisy_pb2_hyp-2_25_3.tar.bz2
+ferry_noisy_pb1_hyp-2_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-13.615725461975671
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6896551724137931
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c8
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6785714285714286
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c8
+on c7
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-11.446819569915533
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6896551724137931
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c8
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6785714285714286
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c8
+on c7
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-2_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-7
+SPREAD-1
+CORRECT-FALSE
+TIME-11.528721404029056
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6896551724137931
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c8
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6785714285714286
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c8
+on c7
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-3_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.555855080019683
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c6
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c6
+on c4
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.372873498010449
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c6
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c6
+on c4
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.723979705013335
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c6
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c6
+on c4
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.125793494982645
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c6
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c6
+on c4
+on c2
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-4_25_3.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-10.949090133071877
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7741935483870968
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-11.814744086936116
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7741935483870968
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-10.94108264404349
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7741935483870968
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-4_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-8
+SPREAD-1
+CORRECT-FALSE
+TIME-11.455397248035297
+##################################################
+Recognized goal: (at c10 l1), (at c9 l0), (at c8 l2), (at c7 l1), (at c6 l2), (at c5 l0), (at c4 l1), (at c3 l2), (at c2 l0), (at c1 l2), (at c0 l2) - score = 0.7741935483870968
+Landmarks:
+at c9 l1
+at c9 l0
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l2
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l2), (at c8 l0), (at c9 l2), (at c10 l1), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l1), (at c4 l1), (at c7 l0), (at c6 l2) - score = 0.7272727272727273
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c7 l0
+at c6 l2
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c2 l0
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l2
+at c0 l0
+on c9
+on c8
+on c7
+on c5
+on c4
+on c3
+on c2
+on c10
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l1
+at c8 l1
+at c8 l0
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l0
+at c0 l0
+on c8
+on c4
+on c3
+on c2
+on c10
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-2_25_1.tar.bz2
+ferry_noisy_pb3_hyp-4_25_3.tar.bz2
+ferry_noisy_pb3_hyp-3_25_3.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-10.035290186991915
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6363636363636364
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-10.095341986976564
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6363636363636364
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-10.262204746017233
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6363636363636364
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-3
+CORRECT-FALSE
+TIME-9.912218688055873
+##################################################
+Recognized goal: (at c1 l1), (at c2 l2), (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l1), (at c0 l2), (at c1 l1) - score = 0.6363636363636364
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l2
+at c0 l1
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l0
+at c0 l1
+on c5
+on c3
+on c2
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-1_25_1.tar.bz2
+ferry_noisy_pb3_hyp-4_25_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-9.377664269995876
+##################################################
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-9.894177300971933
+##################################################
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-9.57343327801209
+##################################################
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb3_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-6
+LANDMARKS_AVG-22.0
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-8.991265019983985
+##################################################
+Recognized goal: (at c4 l0), (at c5 l2), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l2) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c5 l2), (at c0 l0), (at c1 l2), (at c2 l2), (at c3 l0), (at c4 l0) - score = 0.7272727272727273
+Landmarks:
+at c5 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l2
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l1
+at c1 l2
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c3 l2), (at c4 l2), (at c5 l1), (at c0 l0), (at c1 l1), (at c2 l2) - score = 0.6818181818181818
+Landmarks:
+at c5 l1
+at c5 l0
+at c4 l2
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l2
+at c2 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c5
+on c4
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c5 l0
+at c4 l1
+at c3 l2
+at c3 l1
+at c2 l1
+at c1 l0
+at c0 l1
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-3_25_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.67339897097554
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.6956521739130435
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.68
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.109130620025098
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.6956521739130435
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.68
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.519220383954234
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.6956521739130435
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.68
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.664611408021301
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.6956521739130435
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.68
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c7
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-1_25_2.tar.bz2
+ferry_noisy_pb2_hyp-3_25_3.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.25725859508384
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.6521739130434783
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.64
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.617964059929363
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.6521739130434783
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.64
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.514352328027599
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.6521739130434783
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.64
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-3_25_3.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-11.495974004967138
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.6521739130434783
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3) - score = 0.64
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l3
+at c0 l1
+on c7
+on c6
+on c4
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c2
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb2_hyp-4_25_1.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.458142717019655
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.72
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c7
+on c4
+on c1
+on c0
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-14.034627389046364
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.7083333333333334
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c7
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.473292600014247
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.7083333333333334
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c7
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_1.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.121212719008327
+##################################################
+Recognized goal: (at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c6 l3
+at c6 l0
+at c5 l3
+at c4 l0
+at c3 l1
+at c3 l0
+at c2 l3
+at c2 l1
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c6
+on c3
+on c2
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+at c0 l0
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.7083333333333334
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l1
+on c7
+on c4
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb1_hyp-3_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-7
+LANDMARKS_AVG-30.714285714285715
+OBS-6
+SPREAD-2
+CORRECT-FALSE
+TIME-12.234443126944825
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6206896551724138
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at c1 l2), (at c2 l1), (at c1 l2), (at c4 l0), (at c5 l2), (at c6 l0), (at c7 l2), (at c8 l2), (at c9 l2), (at c10 l2), (at c0 l1) - score = 0.6206896551724138
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l0
+at c5 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l2
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c7
+on c6
+on c5
+on c1
+on c0
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+empty-ferry
+at c3 l0
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.5862068965517241
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-11.717707918025553
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6206896551724138
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.5862068965517241
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-11.168870575958863
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6206896551724138
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.5862068965517241
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb1_hyp-3_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-7
+LANDMARKS_AVG-30.571428571428573
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.606672893976793
+##################################################
+Recognized goal: (at c0 l1), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l1), (at c5 l0), (at c6 l2), (at c7 l1), (at c8 l2), (at c9 l2), (at c10 l1) - score = 0.6206896551724138
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l2
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l1
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l1
+at c1 l1
+at c1 l0
+at c0 l1
+at c0 l0
+on c9
+on c8
+on c4
+on c2
+on c10
+on c1
+on c0
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+on c8
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c7 l2), (at c8 l1), (at c9 l2), (at c10 l0), (at c0 l0), (at c1 l1), (at c2 l2), (at c3 l0), (at c4 l0), (at c5 l2), (at c6 l1) - score = 0.5862068965517241
+Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l2
+at c7 l1
+at c6 l2
+at c6 l1
+at c5 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l2
+at c2 l1
+at c10 l2
+at c10 l0
+at c1 l1
+at c1 l0
+at c0 l0
+on c9
+on c7
+on c6
+on c5
+on c2
+on c10
+on c1
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c9 l2
+at c9 l1
+at c8 l1
+at c7 l1
+at c6 l2
+at c5 l0
+at c4 l0
+at c3 l0
+at c2 l1
+at c10 l2
+at c1 l0
+at c0 l0
+on c9
+empty-ferry
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+ferry_noisy_pb3_hyp-3_25_2.tar.bz2
+ferry_noisy_pb2_hyp-4_25_2.tar.bz2
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --exhaust
+GOALS-8
+LANDMARKS_AVG-25.25
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-13.145184320979752
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.68
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c3
+on c1
+empty-ferry
+at c6 l3
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --hm
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.687772603007033
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.6666666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c3
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --rhw
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-12.830308981006965
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.6666666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c3
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################
+FAILED - Domain: ferry-noisy - Problem: ferry_noisy_pb2_hyp-4_25_2.tar.bz2 - Threshold: 0 - Algorithm: --zg
+GOALS-8
+LANDMARKS_AVG-25.125
+OBS-6
+SPREAD-1
+CORRECT-FALSE
+TIME-14.159724603989162
+##################################################
+Recognized goal: (at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0) - score = 0.7391304347826086
+Landmarks:
+at c7 l3
+at c7 l0
+at c6 l3
+at c6 l2
+at c5 l3
+at c4 l0
+at c3 l2
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c1 l0
+at c0 l1
+on c7
+on c6
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c6 l3
+at c5 l3
+at c4 l0
+at c3 l1
+at c2 l3
+at c2 l0
+at c1 l3
+at c0 l1
+on c3
+on c2
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1) - score = 0.6666666666666666
+Landmarks:
+at c7 l3
+at c7 l1
+at c5 l3
+at c5 l1
+at c4 l1
+at c4 l0
+at c3 l3
+at c3 l1
+at c2 l3
+at c1 l3
+at c1 l2
+at c0 l2
+at c0 l1
+on c7
+on c5
+on c4
+on c3
+on c1
+on c0
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+
+Achieved Landmarks:
+at c7 l3
+at c5 l3
+at c4 l1
+at c4 l0
+at c3 l1
+at c2 l3
+at c1 l3
+at c0 l1
+on c4
+on c3
+on c1
+empty-ferry
+at-ferry l3
+at-ferry l2
+at-ferry l1
+at-ferry l0
+##################################################

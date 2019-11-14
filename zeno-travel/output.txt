@@ -4,33 +4,33 @@ INFO     translator time limit: None
 INFO     translator memory limit: None
 INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/zeno-travel/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/zeno-travel/domain.pddl /home/kin/t2-integradora/zeno-travel/problem.pddl --sas-file output.sas
 Parsing...
-Parsing: [0.010s CPU, 0.003s wall-clock]
+Parsing: [0.010s CPU, 0.006s wall-clock]
 Normalizing task... [0.000s CPU, 0.000s wall-clock]
 Instantiating...
 Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
 Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.006s wall-clock]
-Preparing model... [0.000s CPU, 0.003s wall-clock]
+Normalizing Datalog program: [0.010s CPU, 0.012s wall-clock]
+Preparing model... [0.010s CPU, 0.005s wall-clock]
 Generated 59 rules.
-Computing model... [0.040s CPU, 0.037s wall-clock]
+Computing model... [0.070s CPU, 0.072s wall-clock]
 1249 relevant atoms
 753 auxiliary atoms
 2002 final queue length
 3850 total queue pushes
-Completing instantiation... [0.100s CPU, 0.106s wall-clock]
-Instantiating: [0.140s CPU, 0.154s wall-clock]
+Completing instantiation... [0.180s CPU, 0.175s wall-clock]
+Instantiating: [0.270s CPU, 0.268s wall-clock]
 Computing fact groups...
 Finding invariants...
 9 initial candidates
-Finding invariants: [0.010s CPU, 0.005s wall-clock]
+Finding invariants: [0.000s CPU, 0.006s wall-clock]
 Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
-Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Instantiating groups... [0.010s CPU, 0.001s wall-clock]
 Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
 Choosing groups...
 0 uncovered facts
 Choosing groups: [0.000s CPU, 0.000s wall-clock]
 Building translation key... [0.000s CPU, 0.000s wall-clock]
-Computing fact groups: [0.010s CPU, 0.008s wall-clock]
+Computing fact groups: [0.010s CPU, 0.009s wall-clock]
 Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
 Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
 Building mutex information...
@@ -38,21 +38,21 @@ Building mutex information: [0.000s CPU, 0.000s wall-clock]
 Translating task...
 Processing axioms...
 Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.000s CPU, 0.003s wall-clock]
-Translating task: [0.070s CPU, 0.078s wall-clock]
+Processing axioms: [0.000s CPU, 0.005s wall-clock]
+Translating task: [0.090s CPU, 0.093s wall-clock]
 0 effect conditions simplified
 0 implied preconditions added
 Detecting unreachable propositions...
 0 operators removed
 0 axioms removed
 12 propositions removed
-Detecting unreachable propositions: [0.040s CPU, 0.040s wall-clock]
+Detecting unreachable propositions: [0.040s CPU, 0.041s wall-clock]
 Reordering and filtering variables...
 12 of 12 variables necessary.
 0 of 12 mutex groups necessary.
 1095 of 1095 operators necessary.
 0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.010s CPU, 0.008s wall-clock]
+Reordering and filtering variables: [0.010s CPU, 0.009s wall-clock]
 Translator variables: 12
 Translator derived variables: 0
 Translator facts: 84
@@ -62,9 +62,9 @@ Translator total mutex groups size: 0
 Translator operators: 1095
 Translator axioms: 0
 Translator task size: 5142
-Translator peak memory: 47788 KB
-Writing output... [0.020s CPU, 0.022s wall-clock]
-Done! [0.310s CPU, 0.317s wall-clock]
+Translator peak memory: 47780 KB
+Writing output... [0.020s CPU, 0.023s wall-clock]
+Done! [0.450s CPU, 0.453s wall-clock]
 translate exit code: 0
 
 INFO     Running search (release).
@@ -72,14 +72,14 @@ INFO     search stdin: output.sas
 INFO     search time limit: None
 INFO     search memory limit: None
 INFO     search command line string: /home/kin/t2-integradora/zeno-travel/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=4.9105e-05s]
-done reading input! [t=0.0065861s]
+reading input... [t=5.6199e-05s]
+done reading input! [t=0.00680448s]
 Initializing landmarks count heuristic...
 Initializing Exploration...
 Generating landmarks using Zhu/Givan label propagation
 Removing all orderings.
 Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00646673s
+Landmarks generation time: 0.00691714s
 Discovered 12 landmarks, of which 0 are disjunctive and 0 are conjunctive 
 0 edges
 ############################################################################
@@ -110,7 +110,7 @@ LM 0 Atom at(person6, city0) (var6(6)->0)(goal) Achievers (3, 3)
 
 Landmark graph end.
 ############################################################################
-Peak memory: 21692 KB
+Peak memory: 59448 KB
 Remove intermediate file output.sas
 search exit code: 0
 

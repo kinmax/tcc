@@ -1,6 +1,383 @@
 GOALS-10
 LANDMARKS_AVG-25.4
 OBS-15
-SPREAD-1
+SPREAD-8
 CORRECT-TRUE
-TIME-5.611471316078678
+TIME-7.584613122977316
+##################################################
+Recognized goal: (at-robot place_0_9) - score = 0.7777777777777778
+Landmarks:
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_0_9
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+
+Achieved Landmarks:
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_1_9) - score = 0.7777777777777778
+Landmarks:
+at-robot place_1_9
+at-robot place_1_8
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+
+Achieved Landmarks:
+at-robot place_1_8
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_0_1
+at-robot place_0_0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_4_9) - score = 0.65
+Landmarks:
+at-robot place_4_9
+at-robot place_4_8
+at-robot place_4_7
+at-robot place_4_6
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+locked place_2_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+carrying key_10
+at key_10 place_0_8
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_5_9) - score = 0.65
+Landmarks:
+at-robot place_5_9
+at-robot place_5_8
+at-robot place_5_7
+at-robot place_5_6
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+locked place_2_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+carrying key_10
+at key_10 place_0_8
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_6_9) - score = 0.6086956521739131
+Landmarks:
+at-robot place_6_9
+at-robot place_6_8
+at-robot place_6_7
+at-robot place_6_2
+at-robot place_6_1
+at-robot place_6_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+locked place_2_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+carrying key_10
+at key_10 place_0_8
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_7_9) - score = 0.6086956521739131
+Landmarks:
+at-robot place_7_9
+at-robot place_7_8
+at-robot place_7_7
+at-robot place_6_2
+at-robot place_6_1
+at-robot place_6_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+locked place_2_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+carrying key_10
+at key_10 place_0_8
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_8_9) - score = 0.6785714285714286
+Landmarks:
+at-robot place_8_9
+at-robot place_8_8
+at-robot place_8_2
+at-robot place_8_1
+at-robot place_8_0
+at-robot place_7_0
+at-robot place_6_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+locked place_2_0
+open place_8_1
+locked place_8_1
+carrying key_2
+at key_2 place_7_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_8_2
+at-robot place_8_1
+at-robot place_7_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_2_0
+carrying key_2
+at key_2 place_7_0
+carrying key_10
+at key_10 place_0_8
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at-robot place_9_9) - score = 0.75
+Landmarks:
+at-robot place_9_9
+at-robot place_9_8
+at-robot place_8_2
+at-robot place_8_1
+at-robot place_8_0
+at-robot place_7_0
+at-robot place_6_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_9_8
+locked place_9_8
+open place_2_0
+locked place_2_0
+open place_8_1
+locked place_8_1
+carrying key_20
+at key_20 place_0_0
+carrying key_2
+at key_2 place_7_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_9_9
+at-robot place_9_8
+at-robot place_8_2
+at-robot place_8_1
+at-robot place_7_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_9_8
+open place_2_0
+carrying key_20
+at key_20 place_0_0
+carrying key_2
+at key_2 place_7_0
+carrying key_10
+at key_10 place_0_8
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at-robot place_9_9) - score = 0.75
+Landmarks:
+at-robot place_9_9
+at-robot place_9_8
+at-robot place_8_2
+at-robot place_8_1
+at-robot place_8_0
+at-robot place_7_0
+at-robot place_6_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_3_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_2
+at-robot place_0_1
+at-robot place_0_0
+open place_9_8
+locked place_9_8
+open place_2_0
+locked place_2_0
+open place_8_1
+locked place_8_1
+carrying key_20
+at key_20 place_0_0
+carrying key_2
+at key_2 place_7_0
+carrying key_10
+at key_10 place_0_8
+
+Achieved Landmarks:
+at-robot place_9_9
+at-robot place_9_8
+at-robot place_8_2
+at-robot place_8_1
+at-robot place_7_0
+at-robot place_5_0
+at-robot place_4_0
+at-robot place_2_0
+at-robot place_1_6
+at-robot place_1_5
+at-robot place_1_4
+at-robot place_1_3
+at-robot place_1_0
+at-robot place_0_8
+at-robot place_0_1
+at-robot place_0_0
+open place_9_8
+open place_2_0
+carrying key_20
+at key_20 place_0_0
+carrying key_2
+at key_2 place_7_0
+carrying key_10
+at key_10 place_0_8
+##################################################

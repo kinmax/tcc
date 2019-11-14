@@ -3,4 +3,45 @@ LANDMARKS_AVG-9.0
 OBS-6
 SPREAD-1
 CORRECT-TRUE
-TIME-3.929356168024242
+TIME-8.260911016026512
+##################################################
+Recognized goal: (pointing satellite1 star1), (pointing satellite2 phenomenon5), (have_image star7 image0), (have_image phenomenon5 image0), (have_image planet8 image0), (have_image planet9 image3), (have_image planet10 image0) - score = 0.6666666666666666
+Landmarks:
+have_image planet9 image3
+have_image phenomenon5 image0
+have_image planet10 image0
+have_image planet8 image0
+have_image star7 image0
+pointing satellite1 star1
+pointing satellite1 groundstation0
+pointing satellite2 star6
+pointing satellite2 phenomenon5
+
+Achieved Landmarks:
+have_image planet9 image3
+have_image phenomenon5 image0
+have_image planet10 image0
+have_image planet8 image0
+pointing satellite1 star1
+pointing satellite1 groundstation0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (pointing satellite1 star1), (pointing satellite2 phenomenon5), (have_image star7 image0), (have_image phenomenon5 image0), (have_image planet8 image0), (have_image planet9 image3), (have_image planet10 image0) - score = 0.6666666666666666
+Landmarks:
+have_image planet9 image3
+have_image phenomenon5 image0
+have_image planet10 image0
+have_image planet8 image0
+have_image star7 image0
+pointing satellite1 star1
+pointing satellite1 groundstation0
+pointing satellite2 star6
+pointing satellite2 phenomenon5
+
+Achieved Landmarks:
+have_image planet9 image3
+have_image phenomenon5 image0
+have_image planet10 image0
+have_image planet8 image0
+pointing satellite1 star1
+pointing satellite1 groundstation0
+##################################################

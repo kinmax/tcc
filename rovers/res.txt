@@ -3,4 +3,87 @@ LANDMARKS_AVG-13.833333333333334
 OBS-4
 SPREAD-2
 CORRECT-TRUE
-TIME-3.3632320089964196
+TIME-7.4172736189793795
+##################################################
+Recognized goal: (communicated_soil_data waypoint2), (communicated_rock_data waypoint1), (communicated_image_data objective1 high_res), (communicated_image_data objective2 high_res) - score = 0.5333333333333333
+Landmarks:
+communicated_rock_data waypoint1
+empty rover0store
+have_rock_analysis rover0 waypoint1
+at_rock_sample waypoint1
+communicated_image_data objective1 high_res
+communicated_image_data objective2 high_res
+at rover0 waypoint1
+at rover0 waypoint0
+communicated_soil_data waypoint2
+empty rover1store
+have_soil_analysis rover1 waypoint2
+at_soil_sample waypoint2
+at rover1 waypoint2
+at rover1 waypoint1
+at rover1 waypoint0
+
+Achieved Landmarks:
+communicated_image_data objective1 high_res
+communicated_image_data objective2 high_res
+at rover0 waypoint1
+empty rover1store
+have_soil_analysis rover1 waypoint2
+at_soil_sample waypoint2
+at rover1 waypoint2
+at rover1 waypoint1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (communicated_soil_data waypoint2), (communicated_rock_data waypoint0), (communicated_image_data objective1 high_res), (communicated_image_data objective2 high_res) - score = 0.5
+Landmarks:
+communicated_rock_data waypoint0
+empty rover0store
+have_rock_analysis rover0 waypoint0
+at_rock_sample waypoint0
+communicated_image_data objective1 high_res
+communicated_image_data objective2 high_res
+at rover0 waypoint0
+communicated_soil_data waypoint2
+empty rover1store
+have_soil_analysis rover1 waypoint2
+at_soil_sample waypoint2
+at rover1 waypoint2
+at rover1 waypoint1
+at rover1 waypoint0
+
+Achieved Landmarks:
+communicated_image_data objective1 high_res
+communicated_image_data objective2 high_res
+empty rover1store
+have_soil_analysis rover1 waypoint2
+at_soil_sample waypoint2
+at rover1 waypoint2
+at rover1 waypoint1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (communicated_soil_data waypoint2), (communicated_rock_data waypoint1), (communicated_image_data objective1 high_res), (communicated_image_data objective2 high_res) - score = 0.5333333333333333
+Landmarks:
+communicated_rock_data waypoint1
+empty rover0store
+have_rock_analysis rover0 waypoint1
+at_rock_sample waypoint1
+communicated_image_data objective1 high_res
+communicated_image_data objective2 high_res
+at rover0 waypoint1
+at rover0 waypoint0
+communicated_soil_data waypoint2
+empty rover1store
+have_soil_analysis rover1 waypoint2
+at_soil_sample waypoint2
+at rover1 waypoint2
+at rover1 waypoint1
+at rover1 waypoint0
+
+Achieved Landmarks:
+communicated_image_data objective1 high_res
+communicated_image_data objective2 high_res
+at rover0 waypoint1
+empty rover1store
+have_soil_analysis rover1 waypoint2
+at_soil_sample waypoint2
+at rover1 waypoint2
+at rover1 waypoint1
+##################################################

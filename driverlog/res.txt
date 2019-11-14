@@ -1,6 +1,109 @@
 GOALS-6
 LANDMARKS_AVG-20.166666666666668
 OBS-9
-SPREAD-1
+SPREAD-2
 CORRECT-TRUE
-TIME-3.151823286956642
+TIME-4.14511569798924
+##################################################
+Recognized goal: (at driver1 s2), (at driver2 s1), (at truck2 s0), (at truck3 s1), (at package1 s2), (at package2 s1), (at package3 s1), (at package4 s0), (at package5 s2), (at package6 s0), (at package7 s2) - score = 0.5
+Landmarks:
+at package1 s2
+at package1 s0
+at package2 s1
+at package3 s1
+at package3 s0
+at package4 s0
+at package5 s2
+at package5 s1
+at package6 s2
+at package6 s0
+at package7 s2
+at driver2 s1
+at driver2 s0
+at driver1 s2
+at truck3 s2
+at truck3 s1
+at truck2 s2
+at truck2 s0
+empty truck3
+empty truck2
+
+Achieved Landmarks:
+at package3 s1
+at package3 s0
+at package5 s2
+at package6 s0
+at driver2 s0
+at driver1 s2
+at truck3 s1
+at truck2 s2
+empty truck3
+empty truck2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Recognized goal: (at driver1 s2), (at driver2 s0), (at truck2 s1), (at truck3 s0), (at package1 s2), (at package2 s0), (at package3 s1), (at package4 s2), (at package5 s1), (at package6 s2), (at package7 s1) - score = 0.35
+Landmarks:
+at package1 s2
+at package1 s0
+at package2 s1
+at package2 s0
+at package3 s1
+at package3 s0
+at package4 s2
+at package4 s0
+at package5 s1
+at package6 s2
+at package7 s2
+at package7 s1
+at driver2 s0
+at driver1 s2
+at truck3 s2
+at truck3 s0
+at truck2 s2
+at truck2 s1
+empty truck3
+empty truck2
+
+Achieved Landmarks:
+at package3 s1
+at package3 s0
+at driver2 s0
+at driver1 s2
+at truck2 s2
+empty truck3
+empty truck2
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+Real Goal: (at driver1 s2), (at driver2 s1), (at truck2 s0), (at truck3 s1), (at package1 s2), (at package2 s1), (at package3 s1), (at package4 s0), (at package5 s2), (at package6 s0), (at package7 s2) - score = 0.5
+Landmarks:
+at package1 s2
+at package1 s0
+at package2 s1
+at package3 s1
+at package3 s0
+at package4 s0
+at package5 s2
+at package5 s1
+at package6 s2
+at package6 s0
+at package7 s2
+at driver2 s1
+at driver2 s0
+at driver1 s2
+at truck3 s2
+at truck3 s1
+at truck2 s2
+at truck2 s0
+empty truck3
+empty truck2
+
+Achieved Landmarks:
+at package3 s1
+at package3 s0
+at package5 s2
+at package6 s0
+at driver2 s0
+at driver1 s2
+at truck3 s1
+at truck2 s2
+empty truck3
+empty truck2
+##################################################

@@ -1,1 +1,1 @@
-(clear r),(ontable w),(on r a),(on a w)
+(clear r),(ontable e),(on r a),(on a p),(on p e)

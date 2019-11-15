@@ -22,7 +22,7 @@ when "--rhw"
 when "--zg"
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 when "--hoffmann"
-    cmd = "java -jar planning-landmarks.jar -d /home/kin/t2-integradora/#{domain}/domain.pddl -p /home/kin/t2-integradora/#{domain}/problem.pddl -extractor partial -o /home/kin/t2-integradora/#{domain}/output.txt > /dev/null"
+    cmd = "java -jar planning-landmarks.jar -d /home/kin/t2-integradora/#{domain}/domain.pddl -p /home/kin/t2-integradora/#{domain}/problem.pddl -extractor partial -o /home/kin/t2-integradora/#{domain}/output.txt > /dev/null 2>&1"
 else
     cmd = "python3 /home/kin/t2-integradora/#{domain}/fd/fast-downward.py /home/kin/t2-integradora/#{domain}/domain.pddl /home/kin/t2-integradora/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/t2-integradora/#{domain}/output.txt"
 end
@@ -249,28 +249,28 @@ time = finish - start
 
 puts "TIME-#{time}"
 
-puts "#"*50
-recognized.each do |rg|
-    puts "Recognized goal: #{rg} - score = #{goals_scores[rg]}\n"
-    puts "Landmarks:"
-    landmarks_per_goal[rg].each do |l|
-        puts l
-    end
-    puts "\n"
-    puts "Achieved Landmarks:"
-    achieved_landmarks_per_goal[rg].each do |achieved_landmark|
-        puts achieved_landmark
-    end
-    puts "$"*50
-end
-puts "Real Goal: #{real_goal} - score = #{goals_scores[real_goal]}\n"
-puts "Landmarks:"
-landmarks_per_goal[real_goal].each do |l|
-    puts l
-end
-puts "\n"
-puts "Achieved Landmarks:"
-achieved_landmarks_per_goal[real_goal].each do |al|
-    puts al
-end
-puts "#"*50
+# puts "#"*50
+# recognized.each do |rg|
+#     puts "Recognized goal: #{rg} - score = #{goals_scores[rg]}\n"
+#     puts "Landmarks:"
+#     landmarks_per_goal[rg].each do |l|
+#         puts l
+#     end
+#     puts "\n"
+#     puts "Achieved Landmarks:"
+#     achieved_landmarks_per_goal[rg].each do |achieved_landmark|
+#         puts achieved_landmark
+#     end
+#     puts "$"*50
+# end
+# puts "Real Goal: #{real_goal} - score = #{goals_scores[real_goal]}\n"
+# puts "Landmarks:"
+# landmarks_per_goal[real_goal].each do |l|
+#     puts l
+# end
+# puts "\n"
+# puts "Achieved Landmarks:"
+# achieved_landmarks_per_goal[real_goal].each do |al|
+#     puts al
+# end
+# puts "#"*50

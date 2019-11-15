@@ -137,25 +137,17 @@ def all_results(domain, type)
             result[symbol_domain][:landmarks_avg][alg] = landmarks[alg].to_f/alg_counter[alg].to_f
         end
         percentages.each do |p|
-	    result[symbol_domain][:spread][p] = {}
-            result[symbol_domain][:spread][p]["exhaust"] = {}
-            result[symbol_domain][:spread][p]["hm"] = {}
-            result[symbol_domain][:spread][p]["rhw"] = {}
-            result[symbol_domain][:spread][p]["zg"] = {}
+            result[symbol_domain][:spread][p] = {}
             result[symbol_domain][:observations][p] = {}
-            result[symbol_domain][:observations][p]["exhaust"] = {}
-            result[symbol_domain][:observations][p]["hm"] = {}
-            result[symbol_domain][:observations][p]["rhw"] = {}
-            result[symbol_domain][:observations][p]["zg"] = {}
+            algorithms.each do |alg|
+                result[symbol_domain][:spread][p][alg] = {}
+                result[symbol_domain][:observations][p][alg] = {}
+            end
             thresholds.each do |t|
-                result[symbol_domain][:observations][p]["exhaust"][:time] = {}
-                result[symbol_domain][:observations][p]["exhaust"][:accuracy] = {}
-                result[symbol_domain][:observations][p]["hm"][:time] = {}
-                result[symbol_domain][:observations][p]["hm"][:accuracy] = {}
-                result[symbol_domain][:observations][p]["rhw"][:time] = {}
-                result[symbol_domain][:observations][p]["rhw"][:accuracy] = {}
-                result[symbol_domain][:observations][p]["zg"][:time] = {}
-                result[symbol_domain][:observations][p]["zg"][:accuracy] = {}
+                algorithms.each do |alg|
+                    result[symbol_domain][:observations][p][alg][:time] = {}
+                    result[symbol_domain][:observations][p][alg][:accuracy] = {}
+                end
             end
         end
 
@@ -165,19 +157,11 @@ def all_results(domain, type)
                 if counter[p][t] == 0
                     counter[p][t] = 1
                 end
-                result[symbol_domain][:spread][p]["exhaust"][t] = (spread[p]["exhaust"][t].to_f)/(counter[p][t].to_f)
-                result[symbol_domain][:spread][p]["hm"][t] = (spread[p]["hm"][t].to_f)/(counter[p][t].to_f)
-                result[symbol_domain][:spread][p]["rhw"][t] = (spread[p]["rhw"][t].to_f)/(counter[p][t].to_f)
-                result[symbol_domain][:spread][p]["zg"][t] = (spread[p]["zg"][t].to_f)/(counter[p][t].to_f)
-
-                result[symbol_domain][:observations][p]["exhaust"][:time][t] = ((((seconds[p]["exhaust"][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p]["exhaust"][:accuracy][t] = ((accuracy[p]["exhaust"][t].to_f/counter[p][t]) * 100.0)
-                result[symbol_domain][:observations][p]["hm"][:time][t] = ((((seconds[p]["hm"][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p]["hm"][:accuracy][t] = ((accuracy[p]["hm"][t].to_f/counter[p][t]) * 100.0)
-                result[symbol_domain][:observations][p]["rhw"][:time][t] = ((((seconds[p]["rhw"][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p]["rhw"][:accuracy][t] = ((accuracy[p]["rhw"][t].to_f/counter[p][t]) * 100.0)
-                result[symbol_domain][:observations][p]["zg"][:time][t] = ((((seconds[p]["zg"][t].to_f/counter[p][t])*1000).floor)/1000.0)
-                result[symbol_domain][:observations][p]["zg"][:accuracy][t] = ((accuracy[p]["zg"][t].to_f/counter[p][t]) * 100.0)
+                algorithms.each do |alg|
+                    result[symbol_domain][:spread][p][alg][t] = (spread[p][alg][t].to_f)/(counter[p][t].to_f)
+                    result[symbol_domain][:observations][p][alg][:time][t] = ((((seconds[p][alg][t].to_f/counter[p][t])*1000).floor)/1000.0)
+                    result[symbol_domain][:observations][p][alg][:accuracy][t] = ((accuracy[p][alg][t].to_f/counter[p][t]) * 100.0)
+                end
             end
         end
     rescue StandardError => e

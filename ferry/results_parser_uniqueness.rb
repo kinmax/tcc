@@ -33,7 +33,7 @@ def all_results(domain, type)
     thresholds = %w(0 10 20 30).freeze
     percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
     run_types = %w(--hoffmann).freeze
-    algorithms = %w(exhaust hm rhw zg).freeze
+    algorithms = %w(hoffmann).freeze
     result = {}
     goals = 0
     landmarks = {}

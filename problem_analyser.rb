@@ -210,28 +210,28 @@ time = finish - start
 
 puts "TIME-#{time}"
 
-puts "#"*50
-recognized.each do |rg|
-    puts "Recognized goal: #{rg} - score = #{goals_percents[rg]}\n"
-    puts "Landmarks:"
-    landmarks_per_goal[rg].each do |l|
-        puts l
-    end
-    puts "\n"
-    puts "Achieved Landmarks:"
-    achieved_landmarks_per_goal[rg].each do |achieved_landmark|
-        puts achieved_landmark
-    end
-    puts "$"*50
-end
-puts "Real Goal: #{real_goal} - score = #{goals_percents[real_goal]}\n"
-puts "Landmarks:"
-landmarks_per_goal[real_goal].each do |l|
-    puts l
-end
-puts "\n"
-puts "Achieved Landmarks:"
-achieved_landmarks_per_goal[real_goal].each do |al|
-    puts al
-end
-puts "#"*50
+# puts "#"*50
+# recognized.each do |rg|
+#     puts "Recognized goal: #{rg} - score = #{goals_percents[rg]}\n"
+#     puts "Landmarks:"
+#     landmarks_per_goal[rg].each do |l|
+#         puts l
+#     end
+#     puts "\n"
+#     puts "Achieved Landmarks:"
+#     achieved_landmarks_per_goal[rg].each do |achieved_landmark|
+#         puts achieved_landmark
+#     end
+#     puts "$"*50
+# end
+# puts "Real Goal: #{real_goal} - score = #{goals_percents[real_goal]}\n"
+# puts "Landmarks:"
+# landmarks_per_goal[real_goal].each do |l|
+#     puts l
+# end
+# puts "\n"
+# puts "Achieved Landmarks:"
+# achieved_landmarks_per_goal[real_goal].each do |al|
+#     puts al
+# end
+# puts "#"*50

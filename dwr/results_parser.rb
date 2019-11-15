@@ -54,34 +54,16 @@ def all_results(domain, type)
         counter[p] = {}
         spread[p] = {}
         counter[p]["all"] = 0
-        seconds[p]["exhaust"] = {}
-        spread[p]["exhaust"] = {}
-        spread[p]["hm"] = {}
-        spread[p]["rhw"] = {}
-        spread[p]["zg"] = {}
-        accuracy[p]["exhaust"] = {}
-        seconds[p]["hm"] = {}
-        accuracy[p]["hm"] = {}
-        seconds[p]["rhw"] = {}
-        accuracy[p]["rhw"] = {}
-        seconds[p]["zg"] = {}
-        accuracy[p]["zg"] = {}
-        thresholds.each do |t|
-            counter[p][t] = 0
-
-            spread[p]["exhaust"][t] = 0
-            spread[p]["hm"][t] = 0
-            spread[p]["rhw"][t] = 0
-            spread[p]["zg"][t] = 0
-
-            seconds[p]["exhaust"][t] = 0
-            accuracy[p]["exhaust"][t] = 0
-            seconds[p]["hm"][t] = 0
-            accuracy[p]["hm"][t] = 0
-            seconds[p]["rhw"][t] = 0
-            accuracy[p]["rhw"][t] = 0
-            seconds[p]["zg"][t] = 0
-            accuracy[p]["zg"][t] = 0
+        algorithms.each do |alg|
+            seconds[p][alg] = {}
+            spread[p][alg] = {}
+            accuracy[p][alg] = {}
+            thresholds.each do |t|
+                counter[p][t] = 0
+                spread[p][alg][t] = 0
+                seconds[p][alg][t] = 0
+                accuracy[p][alg][t] = 0
+            end
         end
     end
     
@@ -90,25 +72,6 @@ def all_results(domain, type)
     result[symbol_domain] = {}
     problem_counter = 0
     goals = 0
-    percentages.each do |p|
-        observations[p] = 0
-        counter[p]["all"] = 0
-        thresholds.each do |t|
-            counter[p][t] = 0
-            spread[p]["exhaust"][t] = 0
-            spread[p]["hm"][t] = 0
-            spread[p]["rhw"][t] = 0
-            spread[p]["zg"][t] = 0
-            seconds[p]["exhaust"][t] = 0
-            accuracy[p]["exhaust"][t] = 0
-            seconds[p]["hm"][t] = 0
-            accuracy[p]["hm"][t] = 0
-            seconds[p]["rhw"][t] = 0
-            accuracy[p]["rhw"][t] = 0
-            seconds[p]["zg"][t] = 0
-            accuracy[p]["zg"][t] = 0
-        end
-    end
     Dir.foreach("#{dataset_path}/#{domain}") do |percent|
         if percentages.include?(percent)
             Dir.foreach("#{dataset_path}/#{domain}/#{percent}") do |tar|

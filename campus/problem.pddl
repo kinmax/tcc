@@ -1,14 +1,14 @@
-(define (problem bui-campus_generic_hyp-0_30_16)
+(define (problem bui-campus_generic_hyp-0_full_64)
 (:domain campus)
 (:objects
 )
 (:init
 (= (total-cost) 0)
-(at cbs)
+(at library)
 )
 (:goal
 (and
-(group-meeting-2)  (banking)  (lecture-3-taken)  (lecture-4-taken)  (group-meeting-3)  (lunch)
+(breakfast)  (lecture-1-taken)  (group-meeting-1)  (lecture-2-taken)  (coffee)
 )
 )
 (:metric minimize (total-cost))

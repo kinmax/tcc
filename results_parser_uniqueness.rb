@@ -30,7 +30,7 @@ def all_results(domain, type)
     dataset_path = "/home/kin/dataset-copy"
     res_path = "/home/kin/t2-integradora/#{domain}/res.txt"
     run_path = "/home/kin/t2-integradora/problem_analyser_uniqueness.rb"
-    thresholds = %w(0 10 20 30).freeze
+    thresholds = %w(0 10).freeze
     percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
     run_types = %w(--exhaust --hm --rhw --zg --hoffmann).freeze
     algorithms = %w(exhaust hm rhw zg hoffmann).freeze

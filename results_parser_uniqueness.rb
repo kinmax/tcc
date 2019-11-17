@@ -32,8 +32,8 @@ def all_results(domain, type)
     run_path = "/home/kin/t2-integradora/problem_analyser_uniqueness.rb"
     thresholds = %w(0 10 20 30).freeze
     percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
-    run_types = %w(--hoffmann).freeze
-    algorithms = %w(hoffmann).freeze
+    run_types = %w(--exhaust --hm --rhw --zg --hoffmann).freeze
+    algorithms = %w(exhaust hm rhw zg hoffmann).freeze
     result = {}
     goals = 0
     landmarks = {}

@@ -1,116 +1,15 @@
-INFO     Running translator.
-INFO     translator stdin: None
-INFO     translator time limit: None
-INFO     translator memory limit: None
-INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/rovers/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/rovers/domain.pddl /home/kin/t2-integradora/rovers/problem.pddl --sas-file output.sas
-Parsing...
-Parsing: [0.010s CPU, 0.016s wall-clock]
-Normalizing task... [0.000s CPU, 0.001s wall-clock]
-Instantiating...
-Generating Datalog program... [0.000s CPU, 0.002s wall-clock]
-Normalizing Datalog program...
-Normalizing Datalog program: [0.030s CPU, 0.030s wall-clock]
-Preparing model... [0.010s CPU, 0.010s wall-clock]
-Generated 126 rules.
-Computing model... [0.040s CPU, 0.061s wall-clock]
-310 relevant atoms
-517 auxiliary atoms
-827 final queue length
-1045 total queue pushes
-Completing instantiation... [0.030s CPU, 0.043s wall-clock]
-Instantiating: [0.110s CPU, 0.148s wall-clock]
-Computing fact groups...
-Finding invariants...
-35 initial candidates
-Finding invariants: [0.010s CPU, 0.017s wall-clock]
-Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
-Instantiating groups... [0.000s CPU, 0.001s wall-clock]
-Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
-Choosing groups...
-38 uncovered facts
-Choosing groups: [0.000s CPU, 0.000s wall-clock]
-Building translation key... [0.000s CPU, 0.001s wall-clock]
-Computing fact groups: [0.010s CPU, 0.022s wall-clock]
-Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
-Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
-Building mutex information...
-Building mutex information: [0.000s CPU, 0.000s wall-clock]
-Translating task...
-Processing axioms...
-Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.010s CPU, 0.001s wall-clock]
-Translating task: [0.030s CPU, 0.034s wall-clock]
-61 effect conditions simplified
-0 implied preconditions added
-Detecting unreachable propositions...
-0 operators removed
-0 axioms removed
-15 propositions removed
-Detecting unreachable propositions: [0.010s CPU, 0.013s wall-clock]
-Reordering and filtering variables...
-17 of 44 variables necessary.
-0 of 9 mutex groups necessary.
-99 of 144 operators necessary.
-0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.000s CPU, 0.004s wall-clock]
-Translator variables: 17
-Translator derived variables: 0
-Translator facts: 37
-Translator goal facts: 4
-Translator mutex groups: 0
-Translator total mutex groups size: 0
-Translator operators: 99
-Translator axioms: 0
-Translator task size: 457
-Translator peak memory: 44248 KB
-Writing output... [0.010s CPU, 0.006s wall-clock]
-Done! [0.180s CPU, 0.245s wall-clock]
-translate exit code: 0
-
-INFO     Running search (release).
-INFO     search stdin: output.sas
-INFO     search time limit: None
-INFO     search memory limit: None
-INFO     search command line string: /home/kin/t2-integradora/rovers/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=6.9519e-05s]
-done reading input! [t=0.00169856s]
-Initializing landmarks count heuristic...
-Initializing Exploration...
-Generating landmarks using Zhu/Givan label propagation
-Removing all orderings.
-Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00087228s
-Discovered 12 landmarks, of which 0 are disjunctive and 0 are conjunctive 
-0 edges
-############################################################################
-Landmark graph: 
-LM 11 Atom communicated_image_data(objective0, high_res) (var16(16)->0)(goal) Achievers (5, 5)
-
-LM 10 Atom communicated_image_data(objective2, low_res) (var14(14)->0)(goal) Achievers (5, 5)
-
-LM 7 Atom communicated_soil_data(waypoint1) (var10(10)->0)(goal) Achievers (3, 3)
-
-LM 0 Atom communicated_soil_data(waypoint3) (var9(9)->0)(goal) Achievers (3, 3)
-
-LM 3 Atom empty(rover1store) (var8(8)->0) Achievers (1, 1)
-
-LM 5 Atom have_soil_analysis(rover1, waypoint3) (var7(7)->1) Achievers (1, 1)
-
-LM 1 Atom at_soil_sample(waypoint3) (var7(7)->0) Achievers (0, 0)
-
-LM 8 Atom have_soil_analysis(rover1, waypoint1) (var5(5)->1) Achievers (1, 1)
-
-LM 9 Atom at_soil_sample(waypoint1) (var5(5)->0) Achievers (0, 0)
-
-LM 2 Atom at(rover1, waypoint3) (var0(0)->3) Achievers (1, 1)
-
-LM 4 Atom at(rover1, waypoint1) (var0(0)->1) Achievers (3, 1)
-
-LM 6 Atom at(rover1, waypoint0) (var0(0)->0) Achievers (1, 1)
-
-Landmark graph end.
-############################################################################
-Peak memory: 58876 KB
-Remove intermediate file output.sas
-search exit code: 0
+communicated_image_data(objective0,high_res)
+at_soil_sample(waypoint1)
+at(rover1,waypoint0)
+at_soil_sample(waypoint3)
+empty(rover1store)
+communicated_image_data(objective2,low_res)
+have_soil_analysis(rover1,waypoint1)
+communicated_soil_data(waypoint3)
+at(rover1,waypoint3)
+available(rover1)
+have_soil_analysis(rover1,waypoint3)
+communicated_soil_data(waypoint1)
+channel_free(general)
+at(rover1,waypoint1)
 

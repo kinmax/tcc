@@ -1,172 +1,38 @@
-INFO     Running translator.
-INFO     translator stdin: None
-INFO     translator time limit: None
-INFO     translator memory limit: None
-INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/dwr/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/dwr/domain.pddl /home/kin/t2-integradora/dwr/problem.pddl --sas-file output.sas
-Parsing...
-Parsing: [0.010s CPU, 0.004s wall-clock]
-Normalizing task... [0.000s CPU, 0.000s wall-clock]
-Instantiating...
-Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
-Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.005s wall-clock]
-Preparing model... [0.010s CPU, 0.003s wall-clock]
-Generated 49 rules.
-Computing model... [0.020s CPU, 0.029s wall-clock]
-628 relevant atoms
-447 auxiliary atoms
-1075 final queue length
-2085 total queue pushes
-Completing instantiation... [0.050s CPU, 0.047s wall-clock]
-Instantiating: [0.080s CPU, 0.086s wall-clock]
-Computing fact groups...
-Finding invariants...
-24 initial candidates
-Finding invariants: [0.020s CPU, 0.017s wall-clock]
-Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
-Instantiating groups... [0.010s CPU, 0.005s wall-clock]
-Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
-Choosing groups...
-21 uncovered facts
-Choosing groups: [0.000s CPU, 0.001s wall-clock]
-Building translation key... [0.000s CPU, 0.001s wall-clock]
-Computing fact groups: [0.030s CPU, 0.027s wall-clock]
-Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
-Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
-Building mutex information...
-Building mutex information: [0.000s CPU, 0.000s wall-clock]
-Translating task...
-Processing axioms...
-Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.000s CPU, 0.002s wall-clock]
-Translating task: [0.040s CPU, 0.043s wall-clock]
-254 effect conditions simplified
-0 implied preconditions added
-Detecting unreachable propositions...
-0 operators removed
-0 axioms removed
-13 propositions removed
-Detecting unreachable propositions: [0.020s CPU, 0.021s wall-clock]
-Reordering and filtering variables...
-34 of 34 variables necessary.
-21 of 28 mutex groups necessary.
-350 of 350 operators necessary.
-0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.010s CPU, 0.009s wall-clock]
-Translator variables: 34
-Translator derived variables: 0
-Translator facts: 162
-Translator goal facts: 6
-Translator mutex groups: 21
-Translator total mutex groups size: 183
-Translator operators: 350
-Translator axioms: 0
-Translator task size: 3157
-Translator peak memory: 45660 KB
-Writing output... [0.010s CPU, 0.012s wall-clock]
-Done! [0.210s CPU, 0.204s wall-clock]
-translate exit code: 0
-
-INFO     Running search (release).
-INFO     search stdin: output.sas
-INFO     search time limit: None
-INFO     search memory limit: None
-INFO     search command line string: /home/kin/t2-integradora/dwr/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=5.5788e-05s]
-done reading input! [t=0.00337718s]
-Initializing landmarks count heuristic...
-Initializing Exploration...
-Generating landmarks using Zhu/Givan label propagation
-Removing all orderings.
-Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.0147876s
-Discovered 40 landmarks, of which 0 are disjunctive and 0 are conjunctive 
-0 edges
-############################################################################
-Landmark graph: 
-LM 39 Atom on(cb, cd) (var33(33)->6)(goal) Achievers (4, 4)
-
-LM 30 Atom holding(k2, cd) (var33(33)->1) Achievers (7, 7)
-
-LM 37 Atom on(ce, cc) (var32(32)->8)(goal) Achievers (4, 4)
-
-LM 13 Atom holding(k1, cc) (var32(32)->0) Achievers (7, 7)
-
-LM 36 Atom in(cd, p2) (var31(31)->1)(goal) Achievers (6, 6)
-
-LM 35 Atom in(cc, p1) (var30(30)->0)(goal) Achievers (6, 6)
-
-LM 26 Atom in(cb, p2) (var29(29)->1)(goal) Achievers (6, 6)
-
-LM 22 Atom in(cb, p1) (var29(29)->0) Achievers (6, 6)
-
-LM 0 Atom in(ca, p3) (var28(28)->2)(goal) Achievers (6, 6)
-
-LM 25 Atom in(ca, p1) (var28(28)->0) Achievers (6, 6)
-
-LM 1 Atom empty(k3) (var26(26)->0) Achievers (42, 12)
-
-LM 11 Atom top(cb, p1) (var25(25)->10) Achievers (11, 1)
-
-LM 17 Atom on(ce, cb) (var25(25)->8) Achievers (4, 4)
-
-LM 32 Atom loaded(r1, cb) (var25(25)->4) Achievers (4, 1)
-
-LM 29 Atom holding(k2, cb) (var25(25)->1) Achievers (7, 1)
-
-LM 31 Atom holding(k1, cb) (var25(25)->0) Achievers (7, 1)
-
-LM 23 Atom top(ca, p1) (var24(24)->10) Achievers (11, 1)
-
-LM 7 Atom on(cb, ca) (var24(24)->5) Achievers (4, 4)
-
-LM 8 Atom loaded(r1, ca) (var24(24)->4) Achievers (4, 1)
-
-LM 19 Atom holding(k3, ca) (var24(24)->2) Achievers (7, 1)
-
-LM 15 Atom holding(k1, ca) (var24(24)->0) Achievers (7, 1)
-
-LM 28 Atom empty(k2) (var23(23)->0) Achievers (42, 2)
-
-LM 21 Atom empty(k1) (var22(22)->0) Achievers (42, 2)
-
-LM 24 Atom top(cf, p1) (var21(21)->10) Achievers (11, 11)
-
-LM 4 Atom top(ce, p1) (var20(20)->10) Achievers (11, 1)
-
-LM 20 Atom on(cf, ce) (var20(20)->9) Achievers (4, 4)
-
-LM 38 Atom holding(k1, ce) (var20(20)->0) Achievers (7, 1)
-
-LM 16 Atom in(cf, p1) (var19(19)->0) Achievers (6, 6)
-
-LM 18 Atom in(ce, p1) (var18(18)->0) Achievers (6, 6)
-
-LM 12 Atom unloaded(r1) (var17(17)->0) Achievers (24, 24)
-
-LM 6 Atom top(pallet, p3) (var15(15)->0) Achievers (6, 6)
-
-LM 27 Atom top(pallet, p2) (var14(14)->0) Achievers (6, 6)
-
-LM 3 Atom on(ca, pallet) (var7(7)->0) Achievers (4, 4)
-
-LM 14 Atom at(r1, l4) (var4(4)->3) Achievers (2, 2)
-
-LM 33 Atom at(r1, l3) (var4(4)->2) Achievers (2, 2)
-
-LM 9 Atom at(r1, l2) (var4(4)->1) Achievers (3, 3)
-
-LM 10 Atom at(r1, l1) (var4(4)->0) Achievers (2, 2)
-
-LM 34 NegatedAtom occupied(l3) (var2(2)->1) Achievers (2, 2)
-
-LM 5 NegatedAtom occupied(l4) (var1(1)->1) Achievers (2, 2)
-
-LM 2 NegatedAtom occupied(l1) (var0(0)->1) Achievers (2, 2)
-
-Landmark graph end.
-############################################################################
-Peak memory: 59396 KB
-Remove intermediate file output.sas
-search exit code: 0
+holding(k1,cb)
+on(ce,cb)
+in(cd,p2)
+on(ce,cc)
+holding(k2,cb)
+holding(k1,cc)
+holding(k1,ce)
+in(ca,p3)
+top(cb,p1)
+in(ca,p1)
+on(cb,ca)
+loaded(r1,cb)
+unloaded(r1)
+empty(k1)
+at(r1,l4)
+empty(k3)
+in(cb,p1)
+at(r1,l3)
+holding(k3,ca)
+in(cb,p2)
+at(r1,l1)
+on(ca,pallet)
+holding(k2,cd)
+top(cf,p1)
+at(r1,l2)
+top(cc,p1)
+top(ce,p1)
+top(pallet,p2)
+holding(k1,ca)
+empty(k2)
+on(cb,cd)
+in(ce,p1)
+in(cf,p1)
+in(cc,p1)
+loaded(r1,ca)
+top(ca,p1)
+on(cf,ce)
 

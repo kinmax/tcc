@@ -1,52 +1,6 @@
 GOALS-10
-LANDMARKS_AVG-9.7
+LANDMARKS_AVG-7.0
 OBS-8
 SPREAD-2
 CORRECT-TRUE
-TIME-6.412918605958112
-##################################################
-Recognized goal: (at box0 f6-3f), (at box1 f4-4f) - score = 0.42857142857142855
-Landmarks:
-at box1 f6-2f
-at box1 f4-4f
-at box0 f6-3f
-at box0 f1-4f
-at-robot f6-0f
-clear f6-3f
-clear f4-4f
-
-Achieved Landmarks:
-at box0 f6-3f
-at box0 f1-4f
-clear f6-3f
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Recognized goal: (at box0 f6-3f), (at box1 f5-7f) - score = 0.42857142857142855
-Landmarks:
-at box1 f6-2f
-at box1 f5-7f
-at box0 f6-3f
-at box0 f1-4f
-at-robot f6-0f
-clear f6-3f
-clear f5-7f
-
-Achieved Landmarks:
-at box0 f6-3f
-at box0 f1-4f
-clear f6-3f
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-Real Goal: (at box0 f6-3f), (at box1 f5-7f) - score = 0.42857142857142855
-Landmarks:
-at box1 f6-2f
-at box1 f5-7f
-at box0 f6-3f
-at box0 f1-4f
-at-robot f6-0f
-clear f6-3f
-clear f5-7f
-
-Achieved Landmarks:
-at box0 f6-3f
-at box0 f1-4f
-clear f6-3f
-##################################################
+TIME-31.446965110953897

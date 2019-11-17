@@ -41,7 +41,7 @@
 		:precondition (and (dummy) )
 		:effect ( and
 				(taken ?obj)
-				(increase (total-cost) 1)
+				
 			)
 	)
 	(:action USE
@@ -49,7 +49,7 @@
 		:precondition (and (dummy) )
 		:effect (and
 				(used ?obj)
-				(increase (total-cost) 1)
+				
 			)
 	)
 	(:action ACTIVITY-Boil-Water
@@ -61,7 +61,7 @@
 				)
 		:effect		(and
 					(water_boiled)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Tea
@@ -74,7 +74,7 @@
 				)
 		:effect		(and
 					(made_tea)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Tea
@@ -88,7 +88,7 @@
 				)
 		:effect		(and
 					(made_tea)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Tea
@@ -100,7 +100,7 @@
 				)
 		:effect		(and
 					(made_tea)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Cereals
@@ -112,7 +112,7 @@
 				)
 		:effect		(and
 					(made_cereals)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Coffee
@@ -126,7 +126,7 @@
 				)
 		:effect		(and
 					(made_coffee)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Coffee
@@ -140,7 +140,7 @@
 				)
 		:effect		(and
 					(made_coffee)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Cheese-Sandwich
@@ -152,7 +152,7 @@
 				)
 		:effect		(and
 					(made_cheese_sandwich)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Toast
@@ -163,7 +163,7 @@
 				)
 		:effect		(and
 					(made_toast)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Buttered-Toast
@@ -175,7 +175,7 @@
 				)
 		:effect		(and
 					(made_buttered_toast)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Peanut-Butter-Sandwich
@@ -188,7 +188,7 @@
 				)
 		:effect		(and
 					(made_peanut_butter_sandwich)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Pack-Lunch
@@ -199,7 +199,7 @@
 				)
 		:effect		(and
 					(lunch_packed)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Pack-Lunch
@@ -210,7 +210,7 @@
 				)
 		:effect		(and
 					(lunch_packed)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Breakfast
@@ -223,7 +223,7 @@
 				)
 		:effect		(and
 					(made_breakfast)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Breakfast
@@ -236,7 +236,7 @@
 				)
 		:effect		(and
 					(made_breakfast)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Salad
@@ -249,7 +249,7 @@
 				)
 		:effect		(and
 					(made_salad)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Salad
@@ -261,7 +261,7 @@
 				)
 		:effect		(and
 					(made_salad)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Dinner
@@ -271,7 +271,7 @@
 				)
 		:effect		(and
 					(made_dinner)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Dinner
@@ -281,7 +281,7 @@
 				)
 		:effect		(and
 					(made_dinner)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Make-Dinner
@@ -292,7 +292,7 @@
 				)
 		:effect		(and
 					(made_dinner)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Take-Medicine
@@ -302,7 +302,7 @@
 				)
 		:effect		(and
 					(taken_medicine)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Watch-Movie
@@ -313,7 +313,7 @@
 				)
 		:effect		(and
 					(watching_movie)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Wipe-Counter
@@ -323,7 +323,7 @@
 				)
 		:effect		(and
 					(counter_wiped)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Tend-Plants
@@ -334,7 +334,7 @@
 				)
 		:effect		(and
 					(plants_tended)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Drink-Juice
@@ -345,7 +345,7 @@
 				)
 		:effect		(and
 					(drank_juice)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Leave-For-Work
@@ -357,7 +357,7 @@
 				)
 		:effect		(and
 					(leaving_for_work)
-					(increase (total-cost) 1)
+					
 				)
 	)
 	(:action ACTIVITY-Go-To-Bed
@@ -368,7 +368,7 @@
 				)
 		:effect		(and
 					(going_to_bed)
-					(increase (total-cost) 1)
+					
 				)
 	)
 )

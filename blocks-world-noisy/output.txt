@@ -1,138 +1,24 @@
-INFO     Running translator.
-INFO     translator stdin: None
-INFO     translator time limit: None
-INFO     translator memory limit: None
-INFO     translator command line string: /usr/bin/python3 /home/kin/t2-integradora/blocks-world-noisy/fd/builds/release/bin/translate/translate.py /home/kin/t2-integradora/blocks-world-noisy/domain.pddl /home/kin/t2-integradora/blocks-world-noisy/problem.pddl --sas-file output.sas
-Parsing...
-Parsing: [0.010s CPU, 0.004s wall-clock]
-Normalizing task... [0.000s CPU, 0.027s wall-clock]
-Instantiating...
-Generating Datalog program... [0.000s CPU, 0.001s wall-clock]
-Normalizing Datalog program...
-Normalizing Datalog program: [0.000s CPU, 0.003s wall-clock]
-Preparing model... [0.000s CPU, 0.002s wall-clock]
-Generated 21 rules.
-Computing model... [0.020s CPU, 0.014s wall-clock]
-258 relevant atoms
-168 auxiliary atoms
-426 final queue length
-703 total queue pushes
-Completing instantiation... [0.020s CPU, 0.042s wall-clock]
-Instantiating: [0.040s CPU, 0.062s wall-clock]
-Computing fact groups...
-Finding invariants...
-10 initial candidates
-Finding invariants: [0.010s CPU, 0.015s wall-clock]
-Checking invariant weight... [0.000s CPU, 0.001s wall-clock]
-Instantiating groups... [0.010s CPU, 0.002s wall-clock]
-Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
-Choosing groups...
-9 uncovered facts
-Choosing groups: [0.000s CPU, 0.003s wall-clock]
-Building translation key... [0.000s CPU, 0.001s wall-clock]
-Computing fact groups: [0.020s CPU, 0.023s wall-clock]
-Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
-Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
-Building mutex information...
-Building mutex information: [0.000s CPU, 0.001s wall-clock]
-Translating task...
-Processing axioms...
-Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
-Processing axioms: [0.000s CPU, 0.001s wall-clock]
-Translating task: [0.030s CPU, 0.032s wall-clock]
-184 effect conditions simplified
-0 implied preconditions added
-Detecting unreachable propositions...
-0 operators removed
-0 axioms removed
-16 propositions removed
-Detecting unreachable propositions: [0.010s CPU, 0.023s wall-clock]
-Reordering and filtering variables...
-17 of 17 variables necessary.
-9 of 17 mutex groups necessary.
-128 of 128 operators necessary.
-0 of 0 axiom rules necessary.
-Reordering and filtering variables: [0.010s CPU, 0.016s wall-clock]
-Translator variables: 17
-Translator derived variables: 0
-Translator facts: 90
-Translator goal facts: 6
-Translator mutex groups: 9
-Translator total mutex groups size: 81
-Translator operators: 128
-Translator axioms: 0
-Translator task size: 1130
-Translator peak memory: 44108 KB
-Writing output... [0.010s CPU, 0.015s wall-clock]
-Done! [0.130s CPU, 0.211s wall-clock]
-translate exit code: 0
-
-INFO     Running search (release).
-INFO     search stdin: output.sas
-INFO     search time limit: None
-INFO     search memory limit: None
-INFO     search command line string: /home/kin/t2-integradora/blocks-world-noisy/fd/builds/release/bin/downward --landmarks 'lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)' --heuristic 'hlm=lmcount(lm)' --search 'astar(lmcut())' --internal-plan-file sas_plan < output.sas
-reading input... [t=6.5519e-05s]
-done reading input! [t=0.00248578s]
-Initializing landmarks count heuristic...
-Initializing Exploration...
-Generating landmarks using Zhu/Givan label propagation
-Removing all orderings.
-Removed 0 reasonable or obedient reasonable orders
-Landmarks generation time: 0.00308928s
-Discovered 23 landmarks, of which 0 are disjunctive and 0 are conjunctive 
-0 edges
-############################################################################
-Landmark graph: 
-LM 7 Atom clear(t) (var16(16)->0)(goal) Achievers (15, 15)
-
-LM 8 Atom on(t, w) (var15(15)->7) Achievers (1, 1)
-
-LM 21 Atom on(t, o) (var15(15)->5)(goal) Achievers (1, 1)
-
-LM 22 Atom holding(t) (var15(15)->0) Achievers (8, 1)
-
-LM 20 Atom ontable(w) (var14(14)->8) Achievers (1, 1)
-
-LM 18 Atom on(w, e) (var14(14)->2)(goal) Achievers (1, 1)
-
-LM 19 Atom holding(w) (var14(14)->0) Achievers (8, 1)
-
-LM 15 Atom ontable(r) (var13(13)->8)(goal) Achievers (1, 1)
-
-LM 17 Atom on(r, a) (var13(13)->1) Achievers (1, 1)
-
-LM 16 Atom holding(r) (var13(13)->0) Achievers (8, 1)
-
-LM 13 Atom ontable(o) (var12(12)->8) Achievers (1, 1)
-
-LM 6 Atom on(o, w) (var12(12)->7)(goal) Achievers (1, 1)
-
-LM 14 Atom holding(o) (var12(12)->0) Achievers (8, 1)
-
-LM 4 Atom ontable(e) (var11(11)->8) Achievers (1, 1)
-
-LM 0 Atom on(e, r) (var11(11)->5)(goal) Achievers (1, 1)
-
-LM 2 Atom holding(e) (var11(11)->0) Achievers (8, 1)
-
-LM 5 Atom handempty() (var10(10)->0) Achievers (64, 64)
-
-LM 9 Atom clear(w) (var9(9)->0) Achievers (15, 1)
-
-LM 1 Atom clear(r) (var8(8)->0) Achievers (15, 15)
-
-LM 11 Atom clear(o) (var7(7)->0) Achievers (15, 1)
-
-LM 3 Atom clear(e) (var6(6)->0) Achievers (15, 15)
-
-LM 12 Atom clear(m) (var5(5)->0) Achievers (15, 15)
-
-LM 10 Atom on(m, o) (var2(2)->4) Achievers (1, 1)
-
-Landmark graph end.
-############################################################################
-Peak memory: 52560 KB
-Remove intermediate file output.sas
-search exit code: 0
+clear(r)
+clear(w)
+clear(t)
+ontable(o)
+on(m,o)
+on(t,w)
+on(w,e)
+clear(o)
+ontable(r)
+ontable(w)
+holding(w)
+handempty()
+holding(r)
+on(t,o)
+clear(m)
+holding(t)
+on(r,a)
+on(e,r)
+holding(o)
+clear(e)
+ontable(e)
+holding(e)
+on(o,w)
 

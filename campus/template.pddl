@@ -1,10 +1,10 @@
-(define (problem bui-campus_generic_hyp-0_full_64)
+(define (problem bui-campus_generic_hyp-0_30_16)
 (:domain campus)
 (:objects
 )
 (:init
 (= (total-cost) 0)
-(at library)
+(at cbs)
 )
 (:goal
 (and

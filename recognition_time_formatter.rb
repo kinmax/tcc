@@ -4,7 +4,7 @@ require 'byebug'
 heuristic = ARGV[0]
 noise = ARGV[1]
 
-filename = "results_#{heuristic}_full"
+filename = "new_results_#{heuristic}"
 filename += noise == "noisy" ? "_noisy.json" : ".json"
 
 file_path = File.join(File.dirname(__FILE__), filename)
@@ -16,7 +16,7 @@ results = JSON.parse(raw)
 output_path = noise == "noisy" ? "/home/kingusmao/t2-integradora/recognition_time_noisy.txt" : "/home/kingusmao/t2-integradora/recognition_time.txt"
 
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)
-thresholds = %w(0 10 20 30)
+thresholds = %w(0 10)
 algs = %w(exhaust hm rhw zg hoffmann)
 
 values = {}

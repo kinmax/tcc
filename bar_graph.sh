@@ -30,11 +30,11 @@ gnuplot -persist <<-EOFMarker
     #             '' using 5 title "Zhu/Givan" linecolor "orange", \
     #             '' using 6 title "Hoffmann" linecolor "dark-grey"
 
-    # plot "bar_graph_noisy.txt" using 2:xtic(1) title "Exhaust" linecolor "red" fs solid 0.5, \
-    #             '' using 3 title "h^m" linecolor "blue" fs solid 0.5, \
-    #             '' using 4 title "RHW" linecolor "green" fs solid 0.5, \
-    #             '' using 5 title "Zhu/Givan" linecolor "orange" fs solid 0.5, \
-    #             '' using 6 title "Hoffmann" linecolor "dark-grey" fs solid 0.5
+    # plot "bar_graph_noisy.txt" using 2:xtic(1) title "Exhaust" linecolor "dark-red" fs solid 0.5, \
+    #             '' using 3 title "h^m" linecolor "dark-blue" fs solid 0.5, \
+    #             '' using 4 title "RHW" linecolor "dark-green" fs solid 0.5, \
+    #             '' using 5 title "Zhu/Givan" linecolor "dark-orange" fs solid 0.5, \
+    #             '' using 6 title "Hoffmann" linecolor "#424242" fs solid 0.5
 
     plot "bar_graph_noisy.txt" using 2:xtic(1) title "Exhaust" linecolor "red" fs pattern 2, \
                 '' using 3 title "h^m" linecolor "blue" fs pattern 2, \

@@ -4,7 +4,7 @@ require 'byebug'
 heuristic = ARGV[0]
 noise = ARGV[1]
 
-filename = "results_#{heuristic}_full"
+filename = "new_results_#{heuristic}"
 filename += noise == "noisy" ? "_noisy.json" : ".json"
 
 file_path = File.join(File.dirname(__FILE__), filename)
@@ -17,7 +17,7 @@ output_path = noise == "noisy" ? "/home/kingusmao/t2-integradora/bar_graph_noisy
 
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)
 threshold = "10"
-thresholds = %w(0 10 20 30)
+thresholds = %w(0 10)
 algs = %w(exhaust hm rhw zg hoffmann)
 
 values = {}
@@ -37,12 +37,12 @@ end
 
 results.each do |key, value|
     algs.each do |alg|
-        values[alg]["landmarks_avg"] += value["landmarks_avg"][alg]/15.to_f
+        values[alg]["landmarks_avg"] += value["landmarks_avg"][alg]/14.to_f
         percentages.each do |p|
             thresholds.each do |th|
-                values[alg][p][th]["accuracy"] += value["observations"][p][alg]["accuracy"][th]/15.to_f
-                values[alg][p][th]["time"] += value["observations"][p][alg]["time"][th]/15.to_f
-                values[alg][p][th]["spread"] += value["spread"][p][alg][th].to_f/15.to_f
+                values[alg][p][th]["accuracy"] += value["observations"][p][alg]["accuracy"][th]/14.to_f
+                values[alg][p][th]["time"] += value["observations"][p][alg]["time"][th]/14.to_f
+                values[alg][p][th]["spread"] += value["spread"][p][alg][th].to_f/14.to_f
             end
         end
     end

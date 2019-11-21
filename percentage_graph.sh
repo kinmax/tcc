@@ -14,7 +14,7 @@ gnuplot -persist <<-EOFMarker
     set key font ",18"
     set key top right
 
-    set out "percentage_graph_noisy.eps"
+    set out "percentage_graph.eps"
 
     set yrange [0:100]
     set style data histogram
@@ -24,7 +24,7 @@ gnuplot -persist <<-EOFMarker
     set xtics format ""
     set grid ytics
 
-    plot "percentage_graph_noisy.txt" using 1 title "Exhaust" linecolor "red", \
+    plot "percentage_graph.txt" using 1 title "Exhaust" linecolor "red", \
                 '' using 2 title "h^m" linecolor "blue", \
                 '' using 3 title "RHW" linecolor "green", \
                 '' using 4 title "Zhu/Givan" linecolor "orange", \

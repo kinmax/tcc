@@ -4,7 +4,7 @@ heuristic = ARGV[0]
 noise = ARGV[1]
 
 path = "/home/kin/t2-integradora"
-output_path = "/home/kin/t2-integradora/results_#{heuristic}_hoffmann"
+output_path = "/home/kin/t2-integradora/new_results_#{heuristic}"
 output_path += "_noisy" if noise == "noisy"
 output_path += ".json"
 

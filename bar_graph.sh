@@ -5,8 +5,8 @@ gnuplot -persist <<-EOFMarker
 
     set terminal postscript color
 
-    set xlabel "Observability" font ", 30"
-    set ylabel "Accuracy/Spread" font ", 30"
+    set xlabel "Observability" font ", 17"
+    set ylabel "Accuracy/Spread" font ", 17"
 
     set ytics font ", 20"
     set xtics font ", 20"
@@ -14,7 +14,7 @@ gnuplot -persist <<-EOFMarker
     set key font ",18"
     set key top left
 
-    set out "bar_graph.eps"
+    set out "bar_graph_uniqueness_noisy.eps"
 
     set yrange [0:100]
     set style data histogram
@@ -24,12 +24,21 @@ gnuplot -persist <<-EOFMarker
     set xtics format ""
     set grid ytics
 
-    plot "bar_graph.txt" using 2:xtic(1) title "Goal Completion with Exhaust" linecolor "red", \
-                '' using 3 title "Goal Completion with h^m" linecolor "blue", \
-                '' using 4 title "Goal Completion with RHW" linecolor "green", \
-                '' using 5 title "Goal Completion with Zhu/Givan" linecolor "black", \
-                '' using 6 title "Uniqueness with Exhaust" linecolor "pink", \
-                '' using 7 title "Uniqueness with h^m" linecolor "dark-gray", \
-                '' using 8 title "Uniqueness with RHW" linecolor "yellow", \
-                '' using 9 title "Uniqueness with Zhu/Givan" linecolor "orange"
+    # plot "bar_graph.txt" using 2:xtic(1) title "Exhaust" linecolor "red", \
+    #             '' using 3 title "h^m" linecolor "blue", \
+    #             '' using 4 title "RHW" linecolor "green", \
+    #             '' using 5 title "Zhu/Givan" linecolor "orange", \
+    #             '' using 6 title "Hoffmann" linecolor "dark-grey"
+
+    # plot "bar_graph_noisy.txt" using 2:xtic(1) title "Exhaust" linecolor "red" fs solid 0.5, \
+    #             '' using 3 title "h^m" linecolor "blue" fs solid 0.5, \
+    #             '' using 4 title "RHW" linecolor "green" fs solid 0.5, \
+    #             '' using 5 title "Zhu/Givan" linecolor "orange" fs solid 0.5, \
+    #             '' using 6 title "Hoffmann" linecolor "dark-grey" fs solid 0.5
+
+    plot "bar_graph_noisy.txt" using 2:xtic(1) title "Exhaust" linecolor "red" fs pattern 2, \
+                '' using 3 title "h^m" linecolor "blue" fs pattern 2, \
+                '' using 4 title "RHW" linecolor "green" fs pattern 2, \
+                '' using 5 title "Zhu/Givan" linecolor "orange" fs pattern 2, \
+                '' using 6 title "Hoffmann" linecolor "dark-grey" fs pattern 2
 EOFMarker

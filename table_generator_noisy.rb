@@ -5,7 +5,7 @@ file_path = File.join(File.dirname(__FILE__), 'results_goalcompletion_noisy.json
 file = File.open(file_path, 'r')
 raw = file.read
 results = JSON.parse(raw)
-output_path = "/home/kingusmao/t2-integradora/table_uniqueness_noisy.txt"
+output_path = "/home/kingusmao/tcc/table_uniqueness_noisy.txt"
 
 table = "\\begin{table}[h]
 \\centering

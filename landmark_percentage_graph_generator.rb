@@ -12,7 +12,7 @@ raw = file.read
 file.close
 results = JSON.parse(raw)
 
-output_path = noise == "noisy" ? "/home/kingusmao/t2-integradora/landmark_pecentage_noisy.txt" : "/home/kingusmao/t2-integradora/landmark_percentage.txt"
+output_path = noise == "noisy" ? "/home/kingusmao/tcc/landmark_pecentage_noisy.txt" : "/home/kingusmao/tcc/landmark_percentage.txt"
 
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)
 threshold = "10"

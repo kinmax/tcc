@@ -10,7 +10,7 @@ file_path = File.join(File.dirname(__FILE__), filename)
 file = File.open(file_path, 'r')
 raw = file.read
 results = JSON.parse(raw)
-output_path = "/home/kingusmao/t2-integradora/summary_table.txt"
+output_path = "/home/kingusmao/tcc/summary_table.txt"
 
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)
 thresholds = %w(0 10)

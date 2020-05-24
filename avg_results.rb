@@ -1,7 +1,7 @@
 require 'json'
 
-path = "/home/kingusmao/t2-integradora/results.json"
-output_path = "/home/kingusmao/t2-integradora/avg_results.json"
+path = "/home/kingusmao/tcc/results.json"
+output_path = "/home/kingusmao/tcc/avg_results.json"
 
 percents = %w(10 30 50 70 100)
 thresholds = %w(0 10 20 30)

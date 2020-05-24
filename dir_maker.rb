@@ -1,4 +1,4 @@
-file = File.open("/home/kin/t2-integradora/domains.txt", "r")
+file = File.open("/home/kin/tcc/domains.txt", "r")
 raw = file.read
 file.close
 domains = raw.split("\n")

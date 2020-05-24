@@ -2,7 +2,7 @@ require 'byebug'
 require 'json'
 
 def get_method_stats(domain)
-    file_path = "/home/kin/t2-integradora/#{domain}/res.txt"
+    file_path = "/home/kin/tcc/#{domain}/res.txt"
     file = File.open(file_path, 'r')
     raw = file.read
     file.close
@@ -28,8 +28,8 @@ end
 
 def all_results(domain, type)
     dataset_path = "/home/kin/dataset-copy"
-    res_path = "/home/kin/t2-integradora/#{domain}/res.txt"
-    run_path = "/home/kin/t2-integradora/problem_analyser.rb"
+    res_path = "/home/kin/tcc/#{domain}/res.txt"
+    run_path = "/home/kin/tcc/problem_analyser.rb"
     thresholds = %w(0 10).freeze
     percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
     run_types = %w(--exhaust --hm --rhw --zg --hoffmann).freeze
@@ -105,7 +105,7 @@ def all_results(domain, type)
                             single_result_ex = get_method_stats(domain)
                             # if single_result_ex[:correct] == 0
                             #     puts "FAILED - Domain: #{domain} - Problem: #{tar} - Threshold: #{tr} - Algorithm: #{run_type}"
-                            #     file_path = "/home/kin/t2-integradora/#{domain}/res.txt"
+                            #     file_path = "/home/kin/tcc/#{domain}/res.txt"
                             #     file = File.open(file_path, 'r')
                             #     raw = file.read
                             #     file.close
@@ -173,7 +173,7 @@ end
 
 def analyse(domain, type)
     results = all_results(domain, type)
-    output_path = "/home/kin/t2-integradora/#{domain}/results.json"
+    output_path = "/home/kin/tcc/#{domain}/results.json"
     File.write(output_path, JSON.pretty_generate(results))
 end
 

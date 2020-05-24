@@ -13,7 +13,7 @@ raw = file.read
 file.close
 results = JSON.parse(raw)
 
-output_path = noise == "noisy" ? "/home/kingusmao/t2-integradora/recognition_time_noisy.txt" : "/home/kingusmao/t2-integradora/recognition_time.txt"
+output_path = noise == "noisy" ? "/home/kingusmao/tcc/recognition_time_noisy.txt" : "/home/kingusmao/tcc/recognition_time.txt"
 
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)
 thresholds = %w(0 10)

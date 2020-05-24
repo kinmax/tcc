@@ -4,9 +4,9 @@ require 'byebug'
 heuristic = ARGV[0]
 noise = ARGV[1]
 
-path = noise == "noisy" ? "/home/kingusmao/t2-integradora/results_#{heuristic}_noisy.json" : "/home/kingusmao/t2-integradora/results_#{heuristic}.json"
-hoffmann_path = noise == "noisy" ? "/home/kingusmao/t2-integradora/results_#{heuristic}_hoffmann_noisy.json" : "/home/kingusmao/t2-integradora/results_#{heuristic}_hoffmann.json"
-output_path = "/home/kingusmao/t2-integradora/results_#{heuristic}_full"
+path = noise == "noisy" ? "/home/kingusmao/tcc/results_#{heuristic}_noisy.json" : "/home/kingusmao/tcc/results_#{heuristic}.json"
+hoffmann_path = noise == "noisy" ? "/home/kingusmao/tcc/results_#{heuristic}_hoffmann_noisy.json" : "/home/kingusmao/tcc/results_#{heuristic}_hoffmann.json"
+output_path = "/home/kingusmao/tcc/results_#{heuristic}_full"
 output_path += "_noisy" if noise == "noisy"
 output_path += ".json"
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)

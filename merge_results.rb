@@ -3,8 +3,8 @@ require 'json'
 heuristic = ARGV[0]
 noise = ARGV[1]
 
-path = "/home/kin/t2-integradora"
-output_path = "/home/kin/t2-integradora/new_results_#{heuristic}"
+path = "/home/kin/tcc"
+output_path = "/home/kin/tcc/new_results_#{heuristic}"
 output_path += "_noisy" if noise == "noisy"
 output_path += ".json"
 

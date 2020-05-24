@@ -118,6 +118,7 @@ landmark_avg = 0
 
 landmarks_per_goal = {}
 achieved_landmarks_per_goal = {}
+pog = {}
 
 candidates.each do |candidate|
 
@@ -181,6 +182,17 @@ candidates.each do |candidate|
     goals_percents[candidate] = lms.length > 0 ? achieved_landmarks.length.to_f/lms.length.to_f : 0.to_f
 
     landmark_avg = landmark_avg + lms.length
+
+    # Probability Calc
+
+    pog[candidate] = lms.length > 0 ? (achieved_landmarks.length.to_f/lms.length.to_f)/lms.length.to_f : 0.to_f
+end
+
+alpha = pog.values.inject{ |a, b| a + b }.to_f > 0 ? 1.to_f/pog.values.inject{ |a, b| a + b }.to_f : 0.to_f
+pg = candidates.length > 0 ? 1.to_f/candidates.length.to_f : 0.to_f
+pgo = {}
+cadidates.each do |candidate|
+    pgo[candidate] = alpha * pog[candidate] * pg
 end
 
 landmark_avg = landmark_avg.to_f/candidates.length.to_f
@@ -209,6 +221,23 @@ finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 time = finish - start
 
 puts "TIME-#{time}"
+pgo.sort_by!{|k,v| v}
+puts "PROBABILITIES:"
+puts "#####"
+pgo.keys.each do |goal|
+    puts "#{goal} ### P(G|O) = #{pgo[goal]}"
+end
+puts "#####"
+prob_correct = false
+min_prob = pgo.first.last - threshold/100.0
+pgo.keys.each do |goal|
+    if pgo[goal] >= min_prob && goal == real_goal
+        prob_correct = true
+        break
+    end
+end
+
+prob_correct_string = prob_correct ? "PROBABILITY_CORRECT-TRUE" : "PROBABILITY_CORRECT-FALSE"
 
 # puts "#"*50
 # recognized.each do |rg|

@@ -185,14 +185,15 @@ candidates.each do |candidate|
 
     # Probability Calc
 
-    # (number_of_achieved_landmarks/number_of_total_landmarks)/number_of_total_landmarks
+    # P(L|G) = (1/number_of_total_landmakrs)
+    # P(O|G) = sum(P(L|G))/number_of_total_landmarks = (number_of_achieved_landmarks/number_of_total_landmarks)/number_of_total_landmarks
     pog[candidate] = lms.length > 0 ? (achieved_landmarks.length.to_f/lms.length.to_f)/lms.length.to_f : 0.to_f
 end
 
-# 1/(sum of all P(O|G) values for all candidate goals)
+# alpha = 1/(sum of all P(O|G) values for all candidate goals)
 alpha = pog.values.inject{ |a, b| a + b }.to_f > 0 ? 1.to_f/pog.values.inject{ |a, b| a + b }.to_f : 0.to_f
 
-# 1/number_of_candidates -> uniform distribution
+# P(G) = 1/number_of_candidates -> uniform distribution
 pg = candidates.length > 0 ? 1.to_f/candidates.length.to_f : 0.to_f
 pgo = {}
 candidates.each do |candidate|

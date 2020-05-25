@@ -185,13 +185,18 @@ candidates.each do |candidate|
 
     # Probability Calc
 
+    # (number_of_achieved_landmarks/number_of_total_landmarks)/number_of_total_landmarks
     pog[candidate] = lms.length > 0 ? (achieved_landmarks.length.to_f/lms.length.to_f)/lms.length.to_f : 0.to_f
 end
 
+# 1/(sum of all P(O|G) values for all candidate goals)
 alpha = pog.values.inject{ |a, b| a + b }.to_f > 0 ? 1.to_f/pog.values.inject{ |a, b| a + b }.to_f : 0.to_f
+
+# 1/number_of_candidates -> uniform distribution
 pg = candidates.length > 0 ? 1.to_f/candidates.length.to_f : 0.to_f
 pgo = {}
 candidates.each do |candidate|
+    # For each candidate goal, P(G|O) = alpha * P(O|G) * P(G)
     pgo[candidate] = alpha * pog[candidate] * pg
 end
 
@@ -228,10 +233,10 @@ pgo_by_prob.each do |prob|
     puts "#{prob[0]} ### P(G|O) = #{prob[1]}"
 end
 puts "#####"
-prob_correct = false
-min_prob = pgo_by_prob.first.last - threshold/100.0
+prob_correct = false # is probability correct?
+min_prob = pgo_by_prob.first.last - threshold/100.0 # highest probability - threshold
 pgo_by_prob.each do |prob|
-    if prob[1] >= min_prob && prob[0] == real_goal
+    if prob[1] >= min_prob && prob[0] == real_goal # If real goal's probability is within threshold from highest goal
         prob_correct = true
         break
     end

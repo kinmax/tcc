@@ -193,8 +193,8 @@ end
 # alpha = 1/(sum of all P(O|G) values for all candidate goals)
 alpha = pog.values.inject{ |a, b| a + b }.to_f > 0 ? 1.to_f/pog.values.inject{ |a, b| a + b }.to_f : 0.to_f
 
-# P(G) = 1/number_of_candidates -> uniform distribution
-pg = candidates.length > 0 ? 1.to_f/candidates.length.to_f : 0.to_f
+# P(G) = 1 -> uniform distribution
+pg = 1.to_f
 pgo = {}
 candidates.each do |candidate|
     # For each candidate goal, P(G|O) = alpha * P(O|G) * P(G)

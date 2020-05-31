@@ -231,7 +231,7 @@ puts "PROBABILITIES:"
 puts "#####"
 pgo_by_prob = pgo.sort_by{|k, v| v}.reverse
 pgo_by_prob.each do |prob|
-    puts "#{prob[0]} ### P(G|O) = #{prob[1]}"
+    puts "#{prob[0]}####{prob[1]}"
 end
 puts "#####"
 prob_correct = false # is probability correct?

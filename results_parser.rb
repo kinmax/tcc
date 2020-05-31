@@ -5,6 +5,7 @@ def get_method_stats(domain)
     file_path = "/home/kin/tcc/#{domain}/res.txt"
     file = File.open(file_path, 'r')
     raw = file.read
+    raw_unsplit = raw.clone
     file.close
 
     raw = raw.split("\n")
@@ -15,7 +16,14 @@ def get_method_stats(domain)
     correct = raw[4].split("-")[1] == "TRUE" ? 1 : 0
     time = raw[5].split("-")[1].to_f
 
-    results = {}
+    raw_unsplit = raw_unsplit.split("####")
+    probs = raw_unsplit[1].split("\n")
+    results[:probabilities] = {}
+    probs.each do |p|
+        tuple = p.split("###")
+        results[:probabilities][tuple[0]] = tuple[1].to_f
+    end
+    results[:prob_correct] = raw_unsplit[2].split("PROBABILITY_CORRECT-")[1].split("\n")[0] == "TRUE" ? 1 : 0
     results[:observations] = obs
     results[:goals] = goals
     results[:landmarks] = landmarks
@@ -30,7 +38,7 @@ def all_results(domain, type)
     dataset_path = "/home/kin/dataset-copy"
     res_path = "/home/kin/tcc/#{domain}/res.txt"
     run_path = "/home/kin/tcc/problem_analyser.rb"
-    thresholds = %w(0 10).freeze
+    thresholds = %w(0 10 20 30).freeze
     percentages = type == "noisy" ? %w(25 50 75 100).freeze : %w(10 30 50 70 100).freeze
     run_types = %w(--exhaust --hm --rhw --zg --hoffmann).freeze
     algorithms = %w(exhaust hm rhw zg hoffmann).freeze
@@ -46,11 +54,14 @@ def all_results(domain, type)
     spread = {}
     seconds = {}   
     accuracy = {}
+    prob_accuracy = {}
     counter = {}
+    probs = {}
     percentages.each do |p|
         observations[p] = 0
         seconds[p] = {}
         accuracy[p] = {}
+        prob_accuracy[p] = {}
         counter[p] = {}
         spread[p] = {}
         counter[p]["all"] = 0
@@ -58,11 +69,14 @@ def all_results(domain, type)
             seconds[p][alg] = {}
             spread[p][alg] = {}
             accuracy[p][alg] = {}
+            prob_accuracy[p][alg] = {}
+            probs[alg] = {}
             thresholds.each do |t|
                 counter[p][t] = 0
                 spread[p][alg][t] = 0
                 seconds[p][alg][t] = 0
                 accuracy[p][alg][t] = 0
+                prob_accuracy[p][alg][t] = 0
             end
         end
     end
@@ -116,6 +130,9 @@ def all_results(domain, type)
                             spread[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:spread]
                             seconds[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:time]
                             accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:correct]
+                            prob_accuracy[percentual_observed.to_s][extraction_method][tr] += single_result_ex[:prob_correct]
+
+                            probs[tar][extraction_method] = single_result_ex[:probabilities]
                         end
                     end
                 rescue StandardError => e
@@ -147,6 +164,7 @@ def all_results(domain, type)
                 algorithms.each do |alg|
                     result[symbol_domain][:observations][p][alg][:time] = {}
                     result[symbol_domain][:observations][p][alg][:accuracy] = {}
+                    result[symbol_domain][:observations][p][alg][:prob_accuracy] = {}
                 end
             end
         end
@@ -161,6 +179,7 @@ def all_results(domain, type)
                     result[symbol_domain][:spread][p][alg][t] = (spread[p][alg][t].to_f)/(counter[p][t].to_f)
                     result[symbol_domain][:observations][p][alg][:time][t] = ((((seconds[p][alg][t].to_f/counter[p][t])*1000).floor)/1000.0)
                     result[symbol_domain][:observations][p][alg][:accuracy][t] = ((accuracy[p][alg][t].to_f/counter[p][t]) * 100.0)
+                    result[symbol_domain][:observations][p][alg][:prob_accuracy][t] = ((prob_accuracy[p][alg][t].to_f/counter[p][t]) * 100.0)
                 end
             end
         end
@@ -168,13 +187,15 @@ def all_results(domain, type)
         puts e.backtrace
     end
 
-    result
+    [result, probs]
 end
 
 def analyse(domain, type)
     results = all_results(domain, type)
     output_path = "/home/kin/tcc/#{domain}/results.json"
-    File.write(output_path, JSON.pretty_generate(results))
+    File.write(output_path, JSON.pretty_generate(results[0]))
+    probs_path = "/home/kin/tcc/#{domain}/probabilities.json"
+    File.write(probs_path, JSON.pretty_generate(results[1]))
 end
 
 domain = ARGV[0]

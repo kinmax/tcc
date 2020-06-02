@@ -14,26 +14,26 @@ recognized = []
 method = ARGV[3]
 case(method)
 when "--exhaust"
-    cmd = "python3 /home/kingusmao/tcc/#{domain}/fd/fast-downward.py /home/kingusmao/tcc/#{domain}/domain.pddl /home/kingusmao/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kingusmao/tcc/#{domain}/output.txt"
+    cmd = "python3 /home/kin/tcc/#{domain}/fd/fast-downward.py /home/kin/tcc/#{domain}/domain.pddl /home/kin/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/tcc/#{domain}/output.txt"
 when "--hm"
-    cmd = "python3 /home/kingusmao/tcc/#{domain}/fd/fast-downward.py /home/kingusmao/tcc/#{domain}/domain.pddl /home/kingusmao/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kingusmao/tcc/#{domain}/output.txt"
+    cmd = "python3 /home/kin/tcc/#{domain}/fd/fast-downward.py /home/kin/tcc/#{domain}/domain.pddl /home/kin/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_hm(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/tcc/#{domain}/output.txt"
 when "--rhw"
-    cmd = "python3 /home/kingusmao/tcc/#{domain}/fd/fast-downward.py /home/kingusmao/tcc/#{domain}/domain.pddl /home/kingusmao/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kingusmao/tcc/#{domain}/output.txt"
+    cmd = "python3 /home/kin/tcc/#{domain}/fd/fast-downward.py /home/kin/tcc/#{domain}/domain.pddl /home/kin/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_rhw(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/tcc/#{domain}/output.txt"
 when "--zg"
-    cmd = "python3 /home/kingusmao/tcc/#{domain}/fd/fast-downward.py /home/kingusmao/tcc/#{domain}/domain.pddl /home/kingusmao/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kingusmao/tcc/#{domain}/output.txt"
+    cmd = "python3 /home/kin/tcc/#{domain}/fd/fast-downward.py /home/kin/tcc/#{domain}/domain.pddl /home/kin/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_zg(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=true)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/tcc/#{domain}/output.txt"
 when "--hoffmann"
-    cmd = "java -jar planning-landmarks.jar -d /home/kingusmao/tcc/#{domain}/domain.pddl -p /home/kingusmao/tcc/#{domain}/problem.pddl -extractor partial -o /home/kingusmao/tcc/#{domain}/output.txt > /dev/null 2>&1"
+    cmd = "java -jar planning-landmarks.jar -d /home/kin/tcc/#{domain}/domain.pddl -p /home/kin/tcc/#{domain}/problem.pddl -extractor partial -o /home/kin/tcc/#{domain}/output.txt > /dev/null 2>&1"
 else
-    cmd = "python3 /home/kingusmao/tcc/#{domain}/fd/fast-downward.py /home/kingusmao/tcc/#{domain}/domain.pddl /home/kingusmao/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kingusmao/tcc/#{domain}/output.txt"
+    cmd = "python3 /home/kin/tcc/#{domain}/fd/fast-downward.py /home/kin/tcc/#{domain}/domain.pddl /home/kin/tcc/#{domain}/problem.pddl --landmarks \"lm=lm_exhaust(reasonable_orders=false, only_causal_landmarks=false, disjunctive_landmarks=false, conjunctive_landmarks=true, no_orders=false)\" --heuristic \"hlm=lmcount(lm)\" --search \"astar(lmcut())\" > /home/kin/tcc/#{domain}/output.txt"
 end
 
-real_goal_file = File.open("/home/kingusmao/tcc/#{domain}/real_hyp.dat", 'r')
+real_goal_file = File.open("/home/kin/tcc/#{domain}/real_hyp.dat", 'r')
 real_goal = real_goal_file.read
 real_goal_file.close
 real_goal = real_goal.downcase
 real_goal.strip!
 
-hyps_file = File.open("/home/kingusmao/tcc/#{domain}/hyps.dat", "r")
+hyps_file = File.open("/home/kin/tcc/#{domain}/hyps.dat", "r")
 hyps = hyps_file.read
 hyps_file.close
 hyps = hyps.downcase
@@ -49,7 +49,7 @@ end
 
 visited_facts = []
 
-initial_state_file = File.open("/home/kingusmao/tcc/#{domain}/template.pddl", 'r')
+initial_state_file = File.open("/home/kin/tcc/#{domain}/template.pddl", 'r')
 initial_state = initial_state_file.read
 initial_state_file.close
 initial_state = initial_state.downcase
@@ -61,9 +61,9 @@ split_initials.each do |fact|
     end
 end
 
-system("ruby problem_formatter.rb /home/kingusmao/tcc/#{domain}/template.pddl /home/kingusmao/tcc/#{domain}/real_hyp.dat /home/kingusmao/tcc/#{domain}/problem.pddl")
+system("ruby problem_formatter.rb /home/kin/tcc/#{domain}/template.pddl /home/kin/tcc/#{domain}/real_hyp.dat /home/kin/tcc/#{domain}/problem.pddl")
 
-obs_file = File.open("/home/kingusmao/tcc/#{domain}/obs.dat", "r")
+obs_file = File.open("/home/kin/tcc/#{domain}/obs.dat", "r")
 observs = obs_file.read
 obs_file.close
 observs = observs.downcase
@@ -75,19 +75,19 @@ obs.each do |ob|
     ob.strip!
 end
 
-problem_file = File.open("/home/kingusmao/tcc/#{domain}/problem.pddl", "r")
+problem_file = File.open("/home/kin/tcc/#{domain}/problem.pddl", "r")
 problem = problem_file.read
 problem_file.close
 problem = problem.downcase
 
-domain_file = File.open("/home/kingusmao/tcc/#{domain}/domain.pddl", "r")
+domain_file = File.open("/home/kin/tcc/#{domain}/domain.pddl", "r")
 dom = domain_file.read
 domain_file.close
 dom = dom.downcase
 
-system("java -jar planning-utils-json_actions1.0.jar /home/kingusmao/tcc/#{domain}/domain.pddl /home/kingusmao/tcc/#{domain}/problem.pddl /home/kingusmao/tcc/#{domain}/landmarks.json > /dev/null")
-system("ruby /home/kingusmao/tcc/json_formatter.rb /home/kingusmao/tcc/#{domain}/landmarks.json")
-actions_file = File.open("/home/kingusmao/tcc/#{domain}/landmarks.json", "r")
+system("java -jar planning-utils-json_actions1.0.jar /home/kin/tcc/#{domain}/domain.pddl /home/kin/tcc/#{domain}/problem.pddl /home/kin/tcc/#{domain}/landmarks.json > /dev/null")
+system("ruby /home/kin/tcc/json_formatter.rb /home/kin/tcc/#{domain}/landmarks.json")
+actions_file = File.open("/home/kin/tcc/#{domain}/landmarks.json", "r")
 actions = actions_file.read
 actions_file.close
 actions = actions.downcase
@@ -122,15 +122,15 @@ pog = {}
 
 candidates.each do |candidate|
 
-    File.write("/home/kingusmao/tcc/#{domain}/candidate.dat", candidate)
+    File.write("/home/kin/tcc/#{domain}/candidate.dat", candidate)
     
-    system("ruby problem_formatter.rb /home/kingusmao/tcc/#{domain}/template.pddl /home/kingusmao/tcc/#{domain}/candidate.dat /home/kingusmao/tcc/#{domain}/problem.pddl")
+    system("ruby problem_formatter.rb /home/kin/tcc/#{domain}/template.pddl /home/kin/tcc/#{domain}/candidate.dat /home/kin/tcc/#{domain}/problem.pddl")
 
     pgrm = system(cmd)
     if !pgrm
         puts "[ERROR] Error running: #{cmd}"
     end
-    lm_output_file = File.open("/home/kingusmao/tcc/#{domain}/output.txt")
+    lm_output_file = File.open("/home/kin/tcc/#{domain}/output.txt")
     landmarks = lm_output_file.read
     lm_output_file.close
 

@@ -18,6 +18,7 @@ def get_method_stats(domain)
 
     raw_unsplit = raw_unsplit.split("####")
     probs = raw_unsplit[1].split("\n")
+    results = {}
     results[:probabilities] = {}
     probs.each do |p|
         tuple = p.split("###")

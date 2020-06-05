@@ -16,7 +16,7 @@ def get_method_stats(domain)
     correct = raw[4].split("-")[1] == "TRUE" ? 1 : 0
     time = raw[5].split("-")[1].to_f
 
-    raw_unsplit = raw_unsplit.split("####")
+    raw_unsplit = raw_unsplit.split("#####\n")
     probs = raw_unsplit[1].split("\n")
     results = {}
     results[:probabilities] = {}
@@ -101,6 +101,7 @@ def all_results(domain, type)
                     problem_counter = problem_counter + 1
 
                     percentual_observed = percent
+                    probs[tar] = {}
 
                     #EXTRACT STATS COMMON TO ALL PERCENTAGES AND THRESHOLDS
                     run_type = "--exhaust"

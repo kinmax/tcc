@@ -71,7 +71,6 @@ def all_results(domain, type)
             spread[p][alg] = {}
             accuracy[p][alg] = {}
             prob_accuracy[p][alg] = {}
-            probs[alg] = {}
             thresholds.each do |t|
                 counter[p][t] = 0
                 spread[p][alg][t] = 0

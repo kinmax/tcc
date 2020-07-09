@@ -27,7 +27,7 @@ end
 results.each do |key, value|
     algs.each do |alg|
         percentages.each do |p|
-            values[alg] = values[alg].merge(value["observations"][p]["observations_avg"] => (value["observations"][p][alg]["time"].values.inject(0) {|a,b|a+b})/4)
+            values[alg] = values[alg].merge(value["observations"][p]["observations_avg"] => (value["observations"][p][alg]["time"].values.inject(0) {|a,b|a+b})/thresholds.length.to_f)
         rescue Exception => e
             byebug
         end

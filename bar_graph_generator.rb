@@ -16,7 +16,7 @@ results = JSON.parse(raw)
 output_path = noise == "noisy" ? "/home/kingusmao/tcc/bar_graph_noisy.txt" : "/home/kingusmao/tcc/bar_graph.txt"
 
 percentages = noise == "noisy" ? %w(25 50 75 100) : %w(10 30 50 70 100)
-threshold = "10"
+threshold = "0"
 thresholds = %w(0 10)
 algs = %w(exhaust hm rhw zg hoffmann)
 

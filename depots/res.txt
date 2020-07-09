@@ -1,6 +1,20 @@
-GOALS-10
-LANDMARKS_AVG-44.6
-OBS-11
-SPREAD-5
+GOALS-8
+LANDMARKS_AVG-41.625
+OBS-28
+SPREAD-8
 CORRECT-TRUE
-TIME-17.341046719811857
+TIME-51.66852602548897
+PROBABILITIES:
+#####
+(on crate0 crate5), (on crate1 crate3), (on crate2 crate4), (on crate4 crate0), (on crate6 pallet0), (on crate7 pallet1)###0.12938689956331878
+(on crate0 crate1), (on crate1 crate5), (on crate2 crate3), (on crate4 crate0), (on crate6 pallet0), (on crate7 pallet1)###0.12893449781659388
+(on crate0 crate6), (on crate1 crate7), (on crate2 crate3), (on crate4 crate0), (on crate6 pallet0), (on crate7 pallet1)###0.12893449781659388
+(on crate0 crate7), (on crate1 crate0), (on crate2 crate6), (on crate3 crate2), (on crate4 crate1), (on crate5 crate3)###0.1279650655021834
+(on crate0 crate6), (on crate1 crate2), (on crate2 crate3), (on crate3 crate4), (on crate4 pallet0), (on crate5 pallet1)###0.12214847161572054
+(on crate0 crate1), (on crate1 crate2), (on crate7 crate3), (on crate6 crate4), (on crate4 pallet0), (on crate5 pallet1)###0.12214847161572054
+(on crate0 crate7), (on crate1 crate4), (on crate2 crate6), (on crate3 crate5), (on crate6 crate3), (on crate5 crate1)###0.12104803493449783
+(on crate0 crate1), (on crate1 crate2), (on crate2 crate7), (on crate3 crate5), (on crate6 crate0), (on crate7 crate3)###0.1194340611353712
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (on crate0 crate7), (on crate1 crate0), (on crate2 crate6), (on crate3 crate2), (on crate4 crate1), (on crate5 crate3)
+1.0

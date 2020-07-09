@@ -10,1515 +10,6 @@
       "lift-at f0"
     ]
   },
-  "down f13 f11": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "down f13 f12": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f4 f14": {
-    "preconditions": [
-      "lift-at f4"
-    ],
-    "delete-effects": [
-      "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "up f4 f15": {
-    "preconditions": [
-      "lift-at f4"
-    ],
-    "delete-effects": [
-      "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f2 f9": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "up f2 f8": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "up f2 f7": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "up f4 f10": {
-    "preconditions": [
-      "lift-at f4"
-    ],
-    "delete-effects": [
-      "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "up f4 f11": {
-    "preconditions": [
-      "lift-at f4"
-    ],
-    "delete-effects": [
-      "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "up f4 f12": {
-    "preconditions": [
-      "lift-at f4"
-    ],
-    "delete-effects": [
-      "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f4 f13": {
-    "preconditions": [
-      "lift-at f4"
-    ],
-    "delete-effects": [
-      "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "down f13 f10": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "depart f7 p0": {
-    "preconditions": [
-      "lift-at f7",
-      "boarded p0"
-    ],
-    "delete-effects": [
-      "not (boarded p0)"
-    ],
-    "add-effects": [
-      "served p0"
-    ]
-  },
-  "board f15 p0": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p0"
-    ]
-  },
-  "up f2 f6": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "up f2 f5": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "up f2 f4": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "up f2 f3": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "down f7 f4": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "down f7 f3": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "up f12 f13": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "down f7 f2": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "up f12 f14": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "down f7 f1": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "up f12 f15": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "down f7 f0": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "board f6 p5": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p5"
-    ]
-  },
-  "board f6 p6": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p6"
-    ]
-  },
-  "up f7 f9": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "up f7 f8": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "up f8 f11": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "down f6 f3": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "up f8 f10": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "down f6 f2": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "up f8 f13": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "down f6 f1": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "up f8 f12": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "down f6 f0": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "up f8 f15": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f8 f14": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "down f6 f5": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "down f6 f4": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "board f1 p4": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p4"
-    ]
-  },
-  "up f1 f8": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "up f1 f9": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "up f1 f6": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "up f1 f7": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "down f11 f7": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "up f1 f11": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "down f11 f6": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "up f1 f12": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "down f11 f9": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "down f11 f8": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "up f1 f10": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "down f11 f3": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "up f1 f15": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "down f11 f2": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "down f11 f5": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "up f1 f13": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "down f11 f4": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "up f1 f14": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "down f11 f1": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "down f11 f0": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "up f5 f12": {
-    "preconditions": [
-      "lift-at f5"
-    ],
-    "delete-effects": [
-      "not (lift-at f5)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f5 f11": {
-    "preconditions": [
-      "lift-at f5"
-    ],
-    "delete-effects": [
-      "not (lift-at f5)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "up f5 f10": {
-    "preconditions": [
-      "lift-at f5"
-    ],
-    "delete-effects": [
-      "not (lift-at f5)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "up f5 f15": {
-    "preconditions": [
-      "lift-at f5"
-    ],
-    "delete-effects": [
-      "not (lift-at f5)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f5 f14": {
-    "preconditions": [
-      "lift-at f5"
-    ],
-    "delete-effects": [
-      "not (lift-at f5)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "down f12 f10": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "up f5 f13": {
-    "preconditions": [
-      "lift-at f5"
-    ],
-    "delete-effects": [
-      "not (lift-at f5)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "down f12 f11": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "up f1 f4": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "up f1 f5": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "up f1 f2": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "up f1 f3": {
-    "preconditions": [
-      "lift-at f1"
-    ],
-    "delete-effects": [
-      "not (lift-at f1)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "down f8 f0": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "down f8 f1": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "down f8 f2": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "down f8 f3": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "down f8 f4": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "down f8 f5": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "board f11 p3": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p3"
-    ]
-  },
-  "down f8 f6": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "up f6 f7": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "down f8 f7": {
-    "preconditions": [
-      "lift-at f8"
-    ],
-    "delete-effects": [
-      "not (lift-at f8)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "up f6 f8": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "up f6 f9": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "up f13 f14": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "up f13 f15": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "down f13 f8": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "down f13 f9": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "down f13 f6": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "down f13 f7": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "down f13 f4": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "down f3 f0": {
-    "preconditions": [
-      "lift-at f3"
-    ],
-    "delete-effects": [
-      "not (lift-at f3)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "down f13 f5": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "down f13 f2": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "down f13 f3": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "down f13 f0": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "depart f6 p2": {
-    "preconditions": [
-      "lift-at f6",
-      "boarded p2"
-    ],
-    "delete-effects": [
-      "not (boarded p2)"
-    ],
-    "add-effects": [
-      "served p2"
-    ]
-  },
-  "down f13 f1": {
-    "preconditions": [
-      "lift-at f13"
-    ],
-    "delete-effects": [
-      "not (lift-at f13)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "up f0 f10": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "up f0 f11": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "up f0 f12": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f0 f13": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "down f7 f6": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "down f7 f5": {
-    "preconditions": [
-      "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "up f9 f12": {
-    "preconditions": [
-      "lift-at f9"
-    ],
-    "delete-effects": [
-      "not (lift-at f9)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f0 f14": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "up f9 f11": {
-    "preconditions": [
-      "lift-at f9"
-    ],
-    "delete-effects": [
-      "not (lift-at f9)"
-    ],
-    "add-effects": [
-      "lift-at f11"
-    ]
-  },
-  "up f0 f15": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f9 f10": {
-    "preconditions": [
-      "lift-at f9"
-    ],
-    "delete-effects": [
-      "not (lift-at f9)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "up f0 f7": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "up f0 f8": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "up f0 f5": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "up f0 f6": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "down f12 f9": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "down f12 f7": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "up f0 f9": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f9"
-    ]
-  },
-  "down f12 f8": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
-  "down f12 f5": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "down f12 f6": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "down f12 f3": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "down f12 f4": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "down f12 f1": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "down f12 f2": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "down f12 f0": {
-    "preconditions": [
-      "lift-at f12"
-    ],
-    "delete-effects": [
-      "not (lift-at f12)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "down f2 f1": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "down f2 f0": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f0"
-    ]
-  },
-  "up f0 f3": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "up f0 f4": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "up f0 f1": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "up f0 f2": {
-    "preconditions": [
-      "lift-at f0"
-    ],
-    "delete-effects": [
-      "not (lift-at f0)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "up f9 f15": {
-    "preconditions": [
-      "lift-at f9"
-    ],
-    "delete-effects": [
-      "not (lift-at f9)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f9 f14": {
-    "preconditions": [
-      "lift-at f9"
-    ],
-    "delete-effects": [
-      "not (lift-at f9)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "up f9 f13": {
-    "preconditions": [
-      "lift-at f9"
-    ],
-    "delete-effects": [
-      "not (lift-at f9)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "up f14 f15": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
   "up f5 f6": {
     "preconditions": [
       "lift-at f5"
@@ -1585,26 +76,59 @@
       "lift-at f9"
     ]
   },
-  "down f14 f9": {
+  "up f2 f9": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f2"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f2)"
     ],
     "add-effects": [
       "lift-at f9"
     ]
   },
-  "down f14 f8": {
+  "up f2 f8": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f2"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f2)"
     ],
     "add-effects": [
       "lift-at f8"
+    ]
+  },
+  "up f2 f7": {
+    "preconditions": [
+      "lift-at f2"
+    ],
+    "delete-effects": [
+      "not (lift-at f2)"
+    ],
+    "add-effects": [
+      "lift-at f7"
+    ]
+  },
+  "up f4 f10": {
+    "preconditions": [
+      "lift-at f4"
+    ],
+    "delete-effects": [
+      "not (lift-at f4)"
+    ],
+    "add-effects": [
+      "lift-at f10"
+    ]
+  },
+  "up f4 f11": {
+    "preconditions": [
+      "lift-at f4"
+    ],
+    "delete-effects": [
+      "not (lift-at f4)"
+    ],
+    "add-effects": [
+      "lift-at f11"
     ]
   },
   "down f4 f0": {
@@ -1618,89 +142,12 @@
       "lift-at f0"
     ]
   },
-  "down f14 f7": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
   "down f4 f1": {
     "preconditions": [
       "lift-at f4"
     ],
     "delete-effects": [
       "not (lift-at f4)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "down f14 f6": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
-  "down f14 f5": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "down f14 f4": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "down f14 f3": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "down f14 f2": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
-    ],
-    "add-effects": [
-      "lift-at f2"
-    ]
-  },
-  "down f14 f1": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      "not (lift-at f14)"
     ],
     "add-effects": [
       "lift-at f1"
@@ -1728,6 +175,62 @@
       "lift-at f3"
     ]
   },
+  "up f2 f6": {
+    "preconditions": [
+      "lift-at f2"
+    ],
+    "delete-effects": [
+      "not (lift-at f2)"
+    ],
+    "add-effects": [
+      "lift-at f6"
+    ]
+  },
+  "up f2 f5": {
+    "preconditions": [
+      "lift-at f2"
+    ],
+    "delete-effects": [
+      "not (lift-at f2)"
+    ],
+    "add-effects": [
+      "lift-at f5"
+    ]
+  },
+  "depart f10 p2": {
+    "preconditions": [
+      "boarded p2",
+      "lift-at f10"
+    ],
+    "delete-effects": [
+      "not (boarded p2)"
+    ],
+    "add-effects": [
+      "served p2"
+    ]
+  },
+  "up f2 f4": {
+    "preconditions": [
+      "lift-at f2"
+    ],
+    "delete-effects": [
+      "not (lift-at f2)"
+    ],
+    "add-effects": [
+      "lift-at f4"
+    ]
+  },
+  "up f2 f3": {
+    "preconditions": [
+      "lift-at f2"
+    ],
+    "delete-effects": [
+      "not (lift-at f2)"
+    ],
+    "add-effects": [
+      "lift-at f3"
+    ]
+  },
   "up f6 f11": {
     "preconditions": [
       "lift-at f6"
@@ -1750,50 +253,6 @@
       "lift-at f10"
     ]
   },
-  "up f6 f13": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "up f6 f12": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f6 f15": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f6 f14": {
-    "preconditions": [
-      "lift-at f6"
-    ],
-    "delete-effects": [
-      "not (lift-at f6)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
   "down f11 f10": {
     "preconditions": [
       "lift-at f11"
@@ -1803,6 +262,72 @@
     ],
     "add-effects": [
       "lift-at f10"
+    ]
+  },
+  "down f7 f4": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f4"
+    ]
+  },
+  "down f7 f3": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f3"
+    ]
+  },
+  "down f7 f2": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f2"
+    ]
+  },
+  "down f7 f1": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f1"
+    ]
+  },
+  "down f7 f0": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f0"
+    ]
+  },
+  "board f6 p2": {
+    "preconditions": [
+      "lift-at f6"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "boarded p2"
     ]
   },
   "down f3 f2": {
@@ -1827,6 +352,28 @@
       "lift-at f1"
     ]
   },
+  "up f7 f9": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f9"
+    ]
+  },
+  "up f7 f8": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f8"
+    ]
+  },
   "up f10 f11": {
     "preconditions": [
       "lift-at f10"
@@ -1836,17 +383,6 @@
     ],
     "add-effects": [
       "lift-at f11"
-    ]
-  },
-  "up f10 f12": {
-    "preconditions": [
-      "lift-at f10"
-    ],
-    "delete-effects": [
-      "not (lift-at f10)"
-    ],
-    "add-effects": [
-      "lift-at f12"
     ]
   },
   "up f4 f9": {
@@ -1860,81 +396,81 @@
       "lift-at f9"
     ]
   },
-  "up f10 f13": {
+  "up f8 f11": {
     "preconditions": [
-      "lift-at f10"
+      "lift-at f8"
     ],
     "delete-effects": [
-      "not (lift-at f10)"
+      "not (lift-at f8)"
     ],
     "add-effects": [
-      "lift-at f13"
+      "lift-at f11"
     ]
   },
-  "up f10 f14": {
+  "down f6 f3": {
     "preconditions": [
-      "lift-at f10"
+      "lift-at f6"
     ],
     "delete-effects": [
-      "not (lift-at f10)"
+      "not (lift-at f6)"
     ],
     "add-effects": [
-      "lift-at f14"
+      "lift-at f3"
     ]
   },
-  "up f10 f15": {
+  "down f6 f2": {
     "preconditions": [
-      "lift-at f10"
+      "lift-at f6"
     ],
     "delete-effects": [
-      "not (lift-at f10)"
+      "not (lift-at f6)"
     ],
     "add-effects": [
-      "lift-at f15"
+      "lift-at f2"
     ]
   },
-  "down f14 f0": {
+  "up f8 f10": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f8"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f10"
+    ]
+  },
+  "down f6 f1": {
+    "preconditions": [
+      "lift-at f6"
+    ],
+    "delete-effects": [
+      "not (lift-at f6)"
+    ],
+    "add-effects": [
+      "lift-at f1"
+    ]
+  },
+  "down f6 f0": {
+    "preconditions": [
+      "lift-at f6"
+    ],
+    "delete-effects": [
+      "not (lift-at f6)"
     ],
     "add-effects": [
       "lift-at f0"
     ]
   },
-  "up f3 f15": {
+  "down f6 f5": {
     "preconditions": [
-      "lift-at f3"
+      "lift-at f6"
     ],
     "delete-effects": [
-      "not (lift-at f3)"
+      "not (lift-at f6)"
     ],
     "add-effects": [
-      "lift-at f15"
-    ]
-  },
-  "up f3 f13": {
-    "preconditions": [
-      "lift-at f3"
-    ],
-    "delete-effects": [
-      "not (lift-at f3)"
-    ],
-    "add-effects": [
-      "lift-at f13"
-    ]
-  },
-  "up f3 f14": {
-    "preconditions": [
-      "lift-at f3"
-    ],
-    "delete-effects": [
-      "not (lift-at f3)"
-    ],
-    "add-effects": [
-      "lift-at f14"
+      "lift-at f5"
     ]
   },
   "up f3 f11": {
@@ -1948,15 +484,15 @@
       "lift-at f11"
     ]
   },
-  "up f3 f12": {
+  "down f6 f4": {
     "preconditions": [
-      "lift-at f3"
+      "lift-at f6"
     ],
     "delete-effects": [
-      "not (lift-at f3)"
+      "not (lift-at f6)"
     ],
     "add-effects": [
-      "lift-at f12"
+      "lift-at f4"
     ]
   },
   "up f4 f5": {
@@ -2014,6 +550,39 @@
       "lift-at f8"
     ]
   },
+  "board f9 p4": {
+    "preconditions": [
+      "lift-at f9"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "boarded p4"
+    ]
+  },
+  "up f1 f8": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f8"
+    ]
+  },
+  "up f1 f9": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f9"
+    ]
+  },
   "down f9 f0": {
     "preconditions": [
       "lift-at f9"
@@ -2036,6 +605,17 @@
       "lift-at f1"
     ]
   },
+  "up f1 f6": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f6"
+    ]
+  },
   "down f9 f2": {
     "preconditions": [
       "lift-at f9"
@@ -2047,15 +627,26 @@
       "lift-at f2"
     ]
   },
-  "down f14 f10": {
+  "up f1 f7": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f1"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f1)"
     ],
     "add-effects": [
-      "lift-at f10"
+      "lift-at f7"
+    ]
+  },
+  "up f1 f11": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f11"
     ]
   },
   "down f9 f3": {
@@ -2069,6 +660,17 @@
       "lift-at f3"
     ]
   },
+  "down f11 f7": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f7"
+    ]
+  },
   "down f9 f4": {
     "preconditions": [
       "lift-at f9"
@@ -2080,26 +682,26 @@
       "lift-at f4"
     ]
   },
-  "down f14 f11": {
+  "down f11 f6": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f11"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f11)"
     ],
     "add-effects": [
-      "lift-at f11"
+      "lift-at f6"
     ]
   },
-  "down f14 f12": {
+  "down f11 f9": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f11"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f11)"
     ],
     "add-effects": [
-      "lift-at f12"
+      "lift-at f9"
     ]
   },
   "down f9 f5": {
@@ -2113,15 +715,15 @@
       "lift-at f5"
     ]
   },
-  "down f14 f13": {
+  "up f1 f10": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f1"
     ],
     "delete-effects": [
-      "not (lift-at f14)"
+      "not (lift-at f1)"
     ],
     "add-effects": [
-      "lift-at f13"
+      "lift-at f10"
     ]
   },
   "down f9 f6": {
@@ -2135,16 +737,127 @@
       "lift-at f6"
     ]
   },
-  "depart f0 p4": {
+  "down f11 f8": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f8"
+    ]
+  },
+  "down f11 f3": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f3"
+    ]
+  },
+  "down f11 f2": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f2"
+    ]
+  },
+  "down f11 f5": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f5"
+    ]
+  },
+  "down f11 f4": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f4"
+    ]
+  },
+  "depart f0 p1": {
+    "preconditions": [
+      "lift-at f0",
+      "boarded p1"
+    ],
+    "delete-effects": [
+      "not (boarded p1)"
+    ],
+    "add-effects": [
+      "served p1"
+    ]
+  },
+  "down f11 f1": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f1"
+    ]
+  },
+  "depart f8 p4": {
     "preconditions": [
       "boarded p4",
-      "lift-at f0"
+      "lift-at f8"
     ],
     "delete-effects": [
       "not (boarded p4)"
     ],
     "add-effects": [
       "served p4"
+    ]
+  },
+  "down f11 f0": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      "not (lift-at f11)"
+    ],
+    "add-effects": [
+      "lift-at f0"
+    ]
+  },
+  "up f5 f11": {
+    "preconditions": [
+      "lift-at f5"
+    ],
+    "delete-effects": [
+      "not (lift-at f5)"
+    ],
+    "add-effects": [
+      "lift-at f11"
+    ]
+  },
+  "up f5 f10": {
+    "preconditions": [
+      "lift-at f5"
+    ],
+    "delete-effects": [
+      "not (lift-at f5)"
+    ],
+    "add-effects": [
+      "lift-at f10"
     ]
   },
   "down f5 f3": {
@@ -2169,6 +882,50 @@
       "lift-at f4"
     ]
   },
+  "up f1 f4": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f4"
+    ]
+  },
+  "up f1 f5": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f5"
+    ]
+  },
+  "up f1 f2": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f2"
+    ]
+  },
+  "up f1 f3": {
+    "preconditions": [
+      "lift-at f1"
+    ],
+    "delete-effects": [
+      "not (lift-at f1)"
+    ],
+    "add-effects": [
+      "lift-at f3"
+    ]
+  },
   "down f10 f9": {
     "preconditions": [
       "lift-at f10"
@@ -2178,6 +935,28 @@
     ],
     "add-effects": [
       "lift-at f9"
+    ]
+  },
+  "down f8 f0": {
+    "preconditions": [
+      "lift-at f8"
+    ],
+    "delete-effects": [
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f0"
+    ]
+  },
+  "down f8 f1": {
+    "preconditions": [
+      "lift-at f8"
+    ],
+    "delete-effects": [
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f1"
     ]
   },
   "down f10 f6": {
@@ -2191,6 +970,17 @@
       "lift-at f6"
     ]
   },
+  "down f8 f2": {
+    "preconditions": [
+      "lift-at f8"
+    ],
+    "delete-effects": [
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f2"
+    ]
+  },
   "down f10 f5": {
     "preconditions": [
       "lift-at f10"
@@ -2200,6 +990,28 @@
     ],
     "add-effects": [
       "lift-at f5"
+    ]
+  },
+  "down f8 f3": {
+    "preconditions": [
+      "lift-at f8"
+    ],
+    "delete-effects": [
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f3"
+    ]
+  },
+  "down f8 f4": {
+    "preconditions": [
+      "lift-at f8"
+    ],
+    "delete-effects": [
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f4"
     ]
   },
   "down f10 f8": {
@@ -2213,15 +1025,15 @@
       "lift-at f8"
     ]
   },
-  "up f7 f15": {
+  "down f8 f5": {
     "preconditions": [
-      "lift-at f7"
+      "lift-at f8"
     ],
     "delete-effects": [
-      "not (lift-at f7)"
+      "not (lift-at f8)"
     ],
     "add-effects": [
-      "lift-at f15"
+      "lift-at f5"
     ]
   },
   "down f10 f7": {
@@ -2257,18 +1069,6 @@
       "lift-at f1"
     ]
   },
-  "depart f3 p6": {
-    "preconditions": [
-      "lift-at f3",
-      "boarded p6"
-    ],
-    "delete-effects": [
-      "not (boarded p6)"
-    ],
-    "add-effects": [
-      "served p6"
-    ]
-  },
   "down f10 f4": {
     "preconditions": [
       "lift-at f10"
@@ -2278,6 +1078,17 @@
     ],
     "add-effects": [
       "lift-at f4"
+    ]
+  },
+  "board f11 p3": {
+    "preconditions": [
+      "lift-at f11"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "boarded p3"
     ]
   },
   "down f10 f3": {
@@ -2302,81 +1113,59 @@
       "lift-at f0"
     ]
   },
-  "up f7 f14": {
+  "down f8 f6": {
     "preconditions": [
+      "lift-at f8"
+    ],
+    "delete-effects": [
+      "not (lift-at f8)"
+    ],
+    "add-effects": [
+      "lift-at f6"
+    ]
+  },
+  "up f6 f7": {
+    "preconditions": [
+      "lift-at f6"
+    ],
+    "delete-effects": [
+      "not (lift-at f6)"
+    ],
+    "add-effects": [
       "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f14"
     ]
   },
-  "up f11 f14": {
+  "down f8 f7": {
     "preconditions": [
-      "lift-at f11"
+      "lift-at f8"
     ],
     "delete-effects": [
-      "not (lift-at f11)"
+      "not (lift-at f8)"
     ],
     "add-effects": [
-      "lift-at f14"
-    ]
-  },
-  "up f7 f13": {
-    "preconditions": [
       "lift-at f7"
-    ],
-    "delete-effects": [
-      "not (lift-at f7)"
-    ],
-    "add-effects": [
-      "lift-at f13"
     ]
   },
-  "up f11 f15": {
+  "up f6 f8": {
     "preconditions": [
-      "lift-at f11"
+      "lift-at f6"
     ],
     "delete-effects": [
-      "not (lift-at f11)"
+      "not (lift-at f6)"
     ],
     "add-effects": [
-      "lift-at f15"
+      "lift-at f8"
     ]
   },
-  "up f7 f12": {
+  "up f6 f9": {
     "preconditions": [
-      "lift-at f7"
+      "lift-at f6"
     ],
     "delete-effects": [
-      "not (lift-at f7)"
+      "not (lift-at f6)"
     ],
     "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f11 f12": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "up f11 f13": {
-    "preconditions": [
-      "lift-at f11"
-    ],
-    "delete-effects": [
-      "not (lift-at f11)"
-    ],
-    "add-effects": [
-      "lift-at f13"
+      "lift-at f9"
     ]
   },
   "up f7 f11": {
@@ -2401,6 +1190,17 @@
       "lift-at f10"
     ]
   },
+  "board f3 p0": {
+    "preconditions": [
+      "lift-at f3"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "boarded p0"
+    ]
+  },
   "up f3 f9": {
     "preconditions": [
       "lift-at f3"
@@ -2423,72 +1223,82 @@
       "lift-at f8"
     ]
   },
-  "board f14 p7": {
+  "down f3 f0": {
     "preconditions": [
-      "lift-at f14"
+      "lift-at f3"
     ],
     "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p7"
-    ]
-  },
-  "board f14 p2": {
-    "preconditions": [
-      "lift-at f14"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "boarded p2"
-    ]
-  },
-  "down f15 f1": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f1"
-    ]
-  },
-  "depart f13 p5": {
-    "preconditions": [
-      "lift-at f13",
-      "boarded p5"
-    ],
-    "delete-effects": [
-      "not (boarded p5)"
-    ],
-    "add-effects": [
-      "served p5"
-    ]
-  },
-  "down f15 f0": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
+      "not (lift-at f3)"
     ],
     "add-effects": [
       "lift-at f0"
     ]
   },
-  "depart f13 p7": {
+  "depart f6 p0": {
     "preconditions": [
-      "lift-at f13",
-      "boarded p7"
+      "lift-at f6",
+      "boarded p0"
     ],
     "delete-effects": [
-      "not (boarded p7)"
+      "not (boarded p0)"
     ],
     "add-effects": [
-      "served p7"
+      "served p0"
+    ]
+  },
+  "up f0 f10": {
+    "preconditions": [
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f10"
+    ]
+  },
+  "up f0 f11": {
+    "preconditions": [
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f11"
+    ]
+  },
+  "down f7 f6": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f6"
+    ]
+  },
+  "down f7 f5": {
+    "preconditions": [
+      "lift-at f7"
+    ],
+    "delete-effects": [
+      "not (lift-at f7)"
+    ],
+    "add-effects": [
+      "lift-at f5"
+    ]
+  },
+  "board f2 p5": {
+    "preconditions": [
+      "lift-at f2"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "boarded p5"
     ]
   },
   "up f3 f7": {
@@ -2513,6 +1323,17 @@
       "boarded p1"
     ]
   },
+  "up f9 f11": {
+    "preconditions": [
+      "lift-at f9"
+    ],
+    "delete-effects": [
+      "not (lift-at f9)"
+    ],
+    "add-effects": [
+      "lift-at f11"
+    ]
+  },
   "up f3 f6": {
     "preconditions": [
       "lift-at f3"
@@ -2522,6 +1343,17 @@
     ],
     "add-effects": [
       "lift-at f6"
+    ]
+  },
+  "up f9 f10": {
+    "preconditions": [
+      "lift-at f9"
+    ],
+    "delete-effects": [
+      "not (lift-at f9)"
+    ],
+    "add-effects": [
+      "lift-at f10"
     ]
   },
   "up f3 f5": {
@@ -2546,9 +1378,76 @@
       "lift-at f4"
     ]
   },
-  "depart f13 p3": {
+  "up f0 f7": {
     "preconditions": [
-      "lift-at f13",
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f7"
+    ]
+  },
+  "up f0 f8": {
+    "preconditions": [
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f8"
+    ]
+  },
+  "up f0 f5": {
+    "preconditions": [
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f5"
+    ]
+  },
+  "up f0 f6": {
+    "preconditions": [
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f6"
+    ]
+  },
+  "up f0 f9": {
+    "preconditions": [
+      "lift-at f0"
+    ],
+    "delete-effects": [
+      "not (lift-at f0)"
+    ],
+    "add-effects": [
+      "lift-at f9"
+    ]
+  },
+  "depart f1 p5": {
+    "preconditions": [
+      "lift-at f1",
+      "boarded p5"
+    ],
+    "delete-effects": [
+      "not (boarded p5)"
+    ],
+    "add-effects": [
+      "served p5"
+    ]
+  },
+  "depart f9 p3": {
+    "preconditions": [
+      "lift-at f9",
       "boarded p3"
     ],
     "delete-effects": [
@@ -2558,48 +1457,26 @@
       "served p3"
     ]
   },
-  "down f15 f11": {
+  "down f2 f1": {
     "preconditions": [
-      "lift-at f15"
+      "lift-at f2"
     ],
     "delete-effects": [
-      "not (lift-at f15)"
+      "not (lift-at f2)"
     ],
     "add-effects": [
-      "lift-at f11"
+      "lift-at f1"
     ]
   },
-  "down f15 f12": {
+  "down f2 f0": {
     "preconditions": [
-      "lift-at f15"
+      "lift-at f2"
     ],
     "delete-effects": [
-      "not (lift-at f15)"
+      "not (lift-at f2)"
     ],
     "add-effects": [
-      "lift-at f12"
-    ]
-  },
-  "down f15 f10": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f10"
-    ]
-  },
-  "down f15 f13": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f13"
+      "lift-at f0"
     ]
   },
   "up f2 f10": {
@@ -2613,17 +1490,6 @@
       "lift-at f10"
     ]
   },
-  "down f15 f14": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f14"
-    ]
-  },
   "up f2 f11": {
     "preconditions": [
       "lift-at f2"
@@ -2633,17 +1499,6 @@
     ],
     "add-effects": [
       "lift-at f11"
-    ]
-  },
-  "up f2 f12": {
-    "preconditions": [
-      "lift-at f2"
-    ],
-    "delete-effects": [
-      "not (lift-at f2)"
-    ],
-    "add-effects": [
-      "lift-at f12"
     ]
   },
   "up f8 f9": {
@@ -2657,48 +1512,48 @@
       "lift-at f9"
     ]
   },
-  "up f2 f13": {
+  "up f0 f3": {
     "preconditions": [
-      "lift-at f2"
+      "lift-at f0"
     ],
     "delete-effects": [
-      "not (lift-at f2)"
+      "not (lift-at f0)"
     ],
     "add-effects": [
-      "lift-at f13"
+      "lift-at f3"
     ]
   },
-  "up f2 f14": {
+  "up f0 f4": {
     "preconditions": [
-      "lift-at f2"
+      "lift-at f0"
     ],
     "delete-effects": [
-      "not (lift-at f2)"
+      "not (lift-at f0)"
     ],
     "add-effects": [
-      "lift-at f14"
+      "lift-at f4"
     ]
   },
-  "up f2 f15": {
+  "up f0 f1": {
     "preconditions": [
-      "lift-at f2"
+      "lift-at f0"
     ],
     "delete-effects": [
-      "not (lift-at f2)"
+      "not (lift-at f0)"
     ],
     "add-effects": [
-      "lift-at f15"
+      "lift-at f1"
     ]
   },
-  "down f15 f9": {
+  "up f0 f2": {
     "preconditions": [
-      "lift-at f15"
+      "lift-at f0"
     ],
     "delete-effects": [
-      "not (lift-at f15)"
+      "not (lift-at f0)"
     ],
     "add-effects": [
-      "lift-at f9"
+      "lift-at f2"
     ]
   },
   "down f5 f1": {
@@ -2712,17 +1567,6 @@
       "lift-at f1"
     ]
   },
-  "down f15 f8": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f8"
-    ]
-  },
   "down f5 f2": {
     "preconditions": [
       "lift-at f5"
@@ -2734,28 +1578,6 @@
       "lift-at f2"
     ]
   },
-  "down f15 f7": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f7"
-    ]
-  },
-  "down f15 f6": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f6"
-    ]
-  },
   "down f5 f0": {
     "preconditions": [
       "lift-at f5"
@@ -2765,62 +1587,6 @@
     ],
     "add-effects": [
       "lift-at f0"
-    ]
-  },
-  "down f15 f5": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f5"
-    ]
-  },
-  "down f15 f4": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f4"
-    ]
-  },
-  "down f15 f3": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f3"
-    ]
-  },
-  "depart f4 p1": {
-    "preconditions": [
-      "lift-at f4",
-      "boarded p1"
-    ],
-    "delete-effects": [
-      "not (boarded p1)"
-    ],
-    "add-effects": [
-      "served p1"
-    ]
-  },
-  "down f15 f2": {
-    "preconditions": [
-      "lift-at f15"
-    ],
-    "delete-effects": [
-      "not (lift-at f15)"
-    ],
-    "add-effects": [
-      "lift-at f2"
     ]
   }
 }

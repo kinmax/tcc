@@ -1,4 +1,4 @@
-(define (problem kitchen_generic_hyp-0_30_6)
+(define (problem kitchen_generic_hyp-2_50_9)
 (:domain kitchen)
 (:objects
 )

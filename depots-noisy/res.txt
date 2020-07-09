@@ -1,6 +1,20 @@
-GOALS-10
-LANDMARKS_AVG-39.9
-OBS-7
-SPREAD-5
-CORRECT-TRUE
-TIME-15.860486011952162
+GOALS-8
+LANDMARKS_AVG-11.5
+OBS-5
+SPREAD-2
+CORRECT-FALSE
+TIME-48.840638250112534
+PROBABILITIES:
+#####
+(on crate0 crate1), (on crate1 pallet0)###0.273224043715847
+(on crate0 crate1), (on crate1 pallet2)###0.2550091074681239
+(on crate1 crate0), (on crate0 pallet0)###0.17850637522768673
+(on crate0 crate1), (on crate1 pallet3)###0.12750455373406194
+(on crate0 crate1), (on crate1 pallet1)###0.10200364298724955
+(on crate1 crate0), (on crate0 pallet2)###0.06375227686703097
+(on crate1 crate0), (on crate0 pallet1)###0.0
+(on crate1 crate0), (on crate0 pallet3)###0.0
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (on crate0 crate1), (on crate1 pallet1)
+1.0

@@ -1,6 +1,20 @@
 GOALS-8
 LANDMARKS_AVG-25.125
-OBS-6
-SPREAD-4
+OBS-11
+SPREAD-1
 CORRECT-TRUE
-TIME-8.257268378976732
+TIME-50.81692238338292
+PROBABILITIES:
+#####
+(at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1)###0.15342049396178703
+(at c3 l3), (at c0 l3), (at c5 l2), (at c6 l2), (at c7 l1), (at c4 l3), (at c1 l2), (at c2 l3)###0.1304444779578479
+(at c2 l2), (at c3 l3), (at c4 l2), (at c5 l0), (at c6 l0), (at c7 l3), (at c0 l3), (at c1 l2)###0.1304444779578479
+(at c7 l0), (at c0 l2), (at c1 l3), (at c2 l2), (at c3 l3), (at c4 l3), (at c5 l2), (at c6 l3)###0.12166912216795632
+(at c2 l1), (at c1 l2), (at c3 l1), (at c4 l1), (at c5 l3), (at c6 l2), (at c7 l0), (at c0 l3)###0.12166912216795632
+(at c4 l0), (at c1 l2), (at c6 l0), (at c7 l3), (at c0 l0), (at c5 l3), (at c2 l1), (at c3 l0)###0.1183280936416051
+(at c6 l2), (at c7 l0), (at c0 l2), (at c1 l0), (at c2 l0), (at c3 l3), (at c4 l0), (at c5 l2)###0.11265659459995955
+(at c0 l1), (at c1 l0), (at c2 l0), (at c3 l2), (at c4 l0), (at c5 l3), (at c6 l2), (at c7 l0)###0.1113676175450401
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (at c5 l1), (at c3 l3), (at c7 l1), (at c0 l2), (at c1 l2), (at c2 l3), (at c3 l3), (at c4 l1)
+1.0000000000000002

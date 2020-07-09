@@ -1,0 +1,2027 @@
+{
+  "kitchen_generic_hyp-0_70_11.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_2.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.7452229299363057,
+      "(lunch_packed)": 0.25477707006369427,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.6792452830188679,
+      "(lunch_packed)": 0.32075471698113206,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.6792452830188679,
+      "(lunch_packed)": 0.32075471698113206,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_8.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.7452229299363057,
+      "(lunch_packed)": 0.25477707006369427,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.6792452830188679,
+      "(lunch_packed)": 0.32075471698113206,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.6792452830188679,
+      "(lunch_packed)": 0.32075471698113206,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_9.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_5.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_7.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_1.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_14.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.8602150537634409,
+      "(made_breakfast)": 0.13978494623655913,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8947368421052632,
+      "(made_breakfast)": 0.10526315789473684,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8947368421052632,
+      "(made_breakfast)": 0.10526315789473684,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_13.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6208842897460018,
+      "(made_dinner)": 0.24459078080903102,
+      "(made_breakfast)": 0.13452492944496705
+    },
+    "hm": {
+      "(lunch_packed)": 0.5483870967741935,
+      "(made_dinner)": 0.3655913978494624,
+      "(made_breakfast)": 0.08602150537634409
+    },
+    "rhw": {
+      "(lunch_packed)": 0.75,
+      "(made_breakfast)": 0.25,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5483870967741935,
+      "(made_dinner)": 0.3655913978494624,
+      "(made_breakfast)": 0.08602150537634409
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.75,
+      "(made_breakfast)": 0.25,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_4.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5703175631885937,
+      "(made_dinner)": 0.3370058327932599,
+      "(made_breakfast)": 0.09267660401814648
+    },
+    "hm": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_10.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_12.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6285714285714286,
+      "(made_dinner)": 0.3714285714285714,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.5,
+      "(lunch_packed)": 0.5,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.5,
+      "(lunch_packed)": 0.5,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_3.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.7547169811320755,
+      "(made_breakfast)": 0.24528301886792453,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 0.75,
+      "(made_breakfast)": 0.25,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.75,
+      "(made_breakfast)": 0.25,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_6.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_70_0.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5703175631885937,
+      "(made_dinner)": 0.3370058327932599,
+      "(made_breakfast)": 0.09267660401814648
+    },
+    "hm": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_8.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.7547169811320755,
+      "(made_breakfast)": 0.24528301886792453,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_13.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_11.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_14.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_2.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_5.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_6.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_4.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_9.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_1.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_12.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6060606060606061,
+      "(made_breakfast)": 0.393939393939394,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.6799999999999999,
+      "(made_breakfast)": 0.31999999999999995,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.6799999999999999,
+      "(made_breakfast)": 0.31999999999999995,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_3.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_10.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.7547169811320755,
+      "(made_breakfast)": 0.24528301886792453,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_0.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6060606060606061,
+      "(made_breakfast)": 0.393939393939394,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.6799999999999999,
+      "(made_breakfast)": 0.31999999999999995,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.6799999999999999,
+      "(made_breakfast)": 0.31999999999999995,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_10_7.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.7547169811320755,
+      "(made_breakfast)": 0.24528301886792453,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_10.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_13.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6656580937972768,
+      "(made_dinner)": 0.2622289460413515,
+      "(made_breakfast)": 0.07211296016137166
+    },
+    "hm": {
+      "(lunch_packed)": 0.5730337078651685,
+      "(made_dinner)": 0.38202247191011235,
+      "(made_breakfast)": 0.0449438202247191
+    },
+    "rhw": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5730337078651685,
+      "(made_dinner)": 0.38202247191011235,
+      "(made_breakfast)": 0.0449438202247191
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_0.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6656580937972768,
+      "(made_dinner)": 0.2622289460413515,
+      "(made_breakfast)": 0.07211296016137166
+    },
+    "hm": {
+      "(lunch_packed)": 0.5730337078651685,
+      "(made_dinner)": 0.38202247191011235,
+      "(made_breakfast)": 0.0449438202247191
+    },
+    "rhw": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5730337078651685,
+      "(made_dinner)": 0.38202247191011235,
+      "(made_breakfast)": 0.0449438202247191
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_11.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5703175631885937,
+      "(made_dinner)": 0.3370058327932599,
+      "(made_breakfast)": 0.09267660401814648
+    },
+    "hm": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_3.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5703175631885937,
+      "(made_dinner)": 0.3370058327932599,
+      "(made_breakfast)": 0.09267660401814648
+    },
+    "hm": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_1.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6656580937972768,
+      "(made_dinner)": 0.2622289460413515,
+      "(made_breakfast)": 0.07211296016137166
+    },
+    "hm": {
+      "(lunch_packed)": 0.5730337078651685,
+      "(made_dinner)": 0.38202247191011235,
+      "(made_breakfast)": 0.0449438202247191
+    },
+    "rhw": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5730337078651685,
+      "(made_dinner)": 0.38202247191011235,
+      "(made_breakfast)": 0.0449438202247191
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_6.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_12.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.7959183673469387,
+      "(lunch_packed)": 0.20408163265306123,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_14.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.7959183673469387,
+      "(lunch_packed)": 0.20408163265306123,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_5.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_9.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.6208842897460018,
+      "(made_dinner)": 0.24459078080903102,
+      "(made_breakfast)": 0.13452492944496705
+    },
+    "hm": {
+      "(lunch_packed)": 0.5483870967741935,
+      "(made_dinner)": 0.3655913978494624,
+      "(made_breakfast)": 0.08602150537634409
+    },
+    "rhw": {
+      "(lunch_packed)": 0.75,
+      "(made_breakfast)": 0.25,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5483870967741935,
+      "(made_dinner)": 0.3655913978494624,
+      "(made_breakfast)": 0.08602150537634409
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.75,
+      "(made_breakfast)": 0.25,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_2.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_4.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.7959183673469387,
+      "(lunch_packed)": 0.20408163265306123,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_7.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.7959183673469387,
+      "(lunch_packed)": 0.20408163265306123,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.7384615384615385,
+      "(lunch_packed)": 0.26153846153846155,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_full_8.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_5.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_7.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.7547169811320755,
+      "(made_breakfast)": 0.24528301886792453,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_0.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_6.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_13.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_4.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_12.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_9.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_8.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_2.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5703175631885937,
+      "(made_dinner)": 0.3370058327932599,
+      "(made_breakfast)": 0.09267660401814648
+    },
+    "hm": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_14.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_1.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_3.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.5652173913043478,
+      "(lunch_packed)": 0.43478260869565216,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.5151515151515151,
+      "(made_breakfast)": 0.4848484848484848,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5151515151515151,
+      "(made_breakfast)": 0.4848484848484848,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_11.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.5652173913043478,
+      "(lunch_packed)": 0.43478260869565216,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.5151515151515151,
+      "(made_breakfast)": 0.4848484848484848,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.5151515151515151,
+      "(made_breakfast)": 0.4848484848484848,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_30_10.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_3.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_13.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_7.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_0.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_6.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 1.0,
+      "(made_dinner)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_1.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.8602150537634409,
+      "(made_breakfast)": 0.13978494623655913,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8947368421052632,
+      "(made_breakfast)": 0.10526315789473684,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8947368421052632,
+      "(made_breakfast)": 0.10526315789473684,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(lunch_packed)": 0.8571428571428571,
+      "(made_breakfast)": 0.14285714285714285,
+      "(made_dinner)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_12.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5219454329774615,
+      "(made_dinner)": 0.3084223013048636,
+      "(made_breakfast)": 0.16963226571767498
+    },
+    "hm": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4473684210526316,
+      "(lunch_packed)": 0.4473684210526316,
+      "(made_breakfast)": 0.10526315789473684
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_8.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_10.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.471441523118767,
+      "(lunch_packed)": 0.3989120580235721,
+      "(made_breakfast)": 0.12964641885766093
+    },
+    "hm": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6181818181818182,
+      "(lunch_packed)": 0.3090909090909091,
+      "(made_breakfast)": 0.07272727272727272
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_11.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 0.6946564885496183,
+      "(lunch_packed)": 0.3053435114503817,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 0.6222222222222221,
+      "(lunch_packed)": 0.37777777777777777,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 0.6222222222222221,
+      "(lunch_packed)": 0.37777777777777777,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_5.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_2.tar.bz2": {
+    "exhaust": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hm": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_4.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.7547169811320755,
+      "(made_breakfast)": 0.24528301886792453,
+      "(made_dinner)": 0.0
+    },
+    "hm": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(lunch_packed)": 0.8095238095238095,
+      "(made_breakfast)": 0.19047619047619047,
+      "(made_dinner)": 0.0
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_14.tar.bz2": {
+    "exhaust": {
+      "(made_dinner)": 0.5416666666666666,
+      "(lunch_packed)": 0.4583333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hm": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "rhw": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.6666666666666666,
+      "(lunch_packed)": 0.3333333333333333,
+      "(made_breakfast)": 0.0
+    },
+    "hoffmann": {
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0,
+      "(made_breakfast)": 0.0
+    }
+  },
+  "kitchen_generic_hyp-0_50_9.tar.bz2": {
+    "exhaust": {
+      "(lunch_packed)": 0.5703175631885937,
+      "(made_dinner)": 0.3370058327932599,
+      "(made_breakfast)": 0.09267660401814648
+    },
+    "hm": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "rhw": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    },
+    "zg": {
+      "(made_dinner)": 0.4722222222222222,
+      "(lunch_packed)": 0.4722222222222222,
+      "(made_breakfast)": 0.05555555555555555
+    },
+    "hoffmann": {
+      "(made_breakfast)": 1.0,
+      "(made_dinner)": 0.0,
+      "(lunch_packed)": 0.0
+    }
+  }
+}

@@ -1,4 +1,5 @@
-(define (problem depotprob0) (:domain depots)
+(define (problem depotsProblem) 
+(:domain depots)
 (:objects
   depot0 - Depot
   distributor0 - Distributor
@@ -36,6 +37,6 @@
 )
 
 (:goal (and
-  (on crate0 crate4)  (on crate1 crate2)  (on crate2 crate1)  (on crate3 crate5)  (on crate7 crate3)  (on crate6 crate7)  (on crate5 pallet0)  (on crate4 pallet1)
-))
+  (on crate0 crate5)  (on crate1 crate3)  (on crate2 crate4)  (on crate4 crate0)  (on crate6 pallet0)  (on crate7 pallet1)
 )
+))

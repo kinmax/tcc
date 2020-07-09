@@ -1,6 +1,18 @@
 GOALS-6
-LANDMARKS_AVG-6.166666666666667
-OBS-4
-SPREAD-2
+LANDMARKS_AVG-12.166666666666666
+OBS-20
+SPREAD-1
 CORRECT-TRUE
-TIME-9.396099366014823
+TIME-44.81124034896493
+PROBABILITIES:
+#####
+(at plane1 city1), (at person1 city4), (at person2 city2), (at person3 city0), (at person4 city3), (at person5 city3), (at person6 city5), (at person7 city2), (at person8 city0)###0.36524626452684006
+(at plane3 city5), (at person1 city0), (at person2 city2), (at person3 city1), (at person4 city4), (at person5 city2), (at person6 city1), (at person7 city5), (at person8 city3)###0.158273381294964
+(at plane2 city2), (at person1 city1), (at person2 city0), (at person3 city4), (at person4 city2), (at person5 city5), (at person6 city0), (at person7 city3), (at person8 city4)###0.158273381294964
+(at plane2 city2), (at person1 city1), (at person2 city3), (at person3 city0), (at person4 city3), (at person5 city4), (at person6 city2), (at person7 city0), (at person8 city1)###0.1294964028776978
+(at plane2 city0), (at person1 city5), (at person2 city4), (at person3 city1), (at person4 city3), (at person5 city0), (at person6 city1), (at person7 city3), (at person8 city2)###0.10957387935805202
+(at plane1 city0), (at person1 city5), (at person2 city5), (at person3 city2), (at person4 city0), (at person5 city1), (at person6 city4), (at person7 city4), (at person8 city1)###0.079136690647482
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (at plane1 city1), (at person1 city4), (at person2 city2), (at person3 city0), (at person4 city3), (at person5 city3), (at person6 city5), (at person7 city2), (at person8 city0)
+0.9999999999999998

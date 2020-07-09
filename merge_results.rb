@@ -4,7 +4,7 @@ heuristic = ARGV[0]
 noise = ARGV[1]
 
 path = "/home/kin/tcc"
-output_path = "/home/kin/tcc/new_results_#{heuristic}"
+output_path = "/home/kin/tcc/results_#{heuristic}"
 output_path += "_noisy" if noise == "noisy"
 output_path += ".json"
 

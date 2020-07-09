@@ -2,53 +2,55 @@
   (:domain dwr)
   (:objects
    r1 - robot
-   l1 l2 - location
-   k1 k2 - crane
-   p1 q1 p2 q2 - pile
+   l1 l2 l3 l4 - location
+   k1 k2 k3 - crane
+   p1 p2 p3 - pile
    ca cb cc cd ce cf pallet - container)
-  (:init
-   (adjacent l1 l2)
-   (adjacent l2 l1)
-
+   
+   (:init
+     (adjacent l1 l2)
+     (adjacent l2 l1)
+   (adjacent l2 l3)
+   (adjacent l3 l2)
+   (adjacent l3 l4)
+   (adjacent l4 l3)
+   
    (attached p1 l1)
-   (attached q1 l1)
-   (attached p2 l2)
-   (attached q2 l2)
-
+   (attached p2 l3)
+   (attached p3 l4)
+   
    (belong k1 l1)
-   (belong k2 l2)
-
+   (belong k2 l3)
+   (belong k3 l4)
+   
+   (at r1 l2)
+   (unloaded r1)
+   (occupied l2)
+   
    (in ca p1)
    (in cb p1)
    (in cc p1)
-
-   (in cd q1)
-   (in ce q1)
-   (in cf q1)
-
-   (on ca pallet)
-   (on cb ca)
-   (on cc cb)
-
-   (on cd pallet)
+   (in cd p1)
+   (in ce p1)
+   
    (on ce cd)
-   (on cf ce)
-
-   (top cc p1)
-   (top cf q1)
-   (top pallet p2)
-   (top pallet q2)
-
-   (at r1 l1)
-   (unloaded r1)
-   (occupied l1)
-
+   (on cd cc)
+   (on cc cb)
+   (on cb ca)
+   (on ca pallet)
+   (top ce p1)
    (empty k1)
-   (empty k2))
-
-  (:goal
-    (and  
-      (in ca p2)  (in cb q2)  (in cc p2)  (in cd q2)  (in ce q2)  (in cf q2)
-  	)
+   
+   (empty k3)
+   (holding k2 cf)
+   
+   (top pallet p2)
+   (top pallet p3)
+   )
+   
+   (:goal
+     (and   
+        (in cb p2)  (in cc p2)  (in cf p3)  (in ca p2)  (in cd p2)  (in ce p3)  (on cf pallet)  (on cd pallet)
+     )
   )
 )

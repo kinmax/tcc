@@ -232,9 +232,9 @@
   "communicate_image_data rover0 general objective0 low_res waypoint2 waypoint3": {
     "preconditions": [
       "available rover0",
+      "channel_free general",
       "at rover0 waypoint2",
-      "have_image rover0 objective0 low_res",
-      "channel_free general"
+      "have_image rover0 objective0 low_res"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -272,8 +272,8 @@
     "preconditions": [
       "have_image rover0 objective1 high_res",
       "available rover0",
-      "at rover0 waypoint2",
-      "channel_free general"
+      "channel_free general",
+      "at rover0 waypoint2"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -438,8 +438,8 @@
   "communicate_image_data rover1 general objective2 colour waypoint0 waypoint3": {
     "preconditions": [
       "available rover1",
-      "have_image rover1 objective2 colour",
       "channel_free general",
+      "have_image rover1 objective2 colour",
       "at rover1 waypoint0"
     ],
     "delete-effects": [
@@ -485,8 +485,8 @@
     "preconditions": [
       "at rover0 waypoint1",
       "available rover0",
-      "have_image rover0 objective0 low_res",
-      "channel_free general"
+      "channel_free general",
+      "have_image rover0 objective0 low_res"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -598,8 +598,8 @@
   "communicate_image_data rover0 general objective0 low_res waypoint0 waypoint3": {
     "preconditions": [
       "available rover0",
-      "have_image rover0 objective0 low_res",
       "channel_free general",
+      "have_image rover0 objective0 low_res",
       "at rover0 waypoint0"
     ],
     "delete-effects": [
@@ -989,8 +989,8 @@
     "preconditions": [
       "have_image rover0 objective2 high_res",
       "available rover0",
-      "at rover0 waypoint2",
-      "channel_free general"
+      "channel_free general",
+      "at rover0 waypoint2"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -1165,8 +1165,8 @@
     "preconditions": [
       "at rover0 waypoint1",
       "available rover0",
-      "have_image rover0 objective0 high_res",
-      "channel_free general"
+      "channel_free general",
+      "have_image rover0 objective0 high_res"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -1342,8 +1342,8 @@
   "communicate_image_data rover0 general objective0 high_res waypoint0 waypoint3": {
     "preconditions": [
       "available rover0",
-      "have_image rover0 objective0 high_res",
       "channel_free general",
+      "have_image rover0 objective0 high_res",
       "at rover0 waypoint0"
     ],
     "delete-effects": [
@@ -1722,9 +1722,9 @@
   "communicate_image_data rover0 general objective0 high_res waypoint2 waypoint3": {
     "preconditions": [
       "available rover0",
+      "channel_free general",
       "at rover0 waypoint2",
-      "have_image rover0 objective0 high_res",
-      "channel_free general"
+      "have_image rover0 objective0 high_res"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -2031,8 +2031,8 @@
     "preconditions": [
       "have_image rover0 objective0 colour",
       "available rover0",
-      "at rover0 waypoint2",
-      "channel_free general"
+      "channel_free general",
+      "at rover0 waypoint2"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -2072,8 +2072,8 @@
     "preconditions": [
       "available rover1",
       "at rover1 waypoint2",
-      "have_image rover1 objective2 colour",
-      "channel_free general"
+      "channel_free general",
+      "have_image rover1 objective2 colour"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -2134,8 +2134,8 @@
   "communicate_image_data rover0 general objective2 low_res waypoint2 waypoint3": {
     "preconditions": [
       "available rover0",
-      "at rover0 waypoint2",
       "channel_free general",
+      "at rover0 waypoint2",
       "have_image rover0 objective2 low_res"
     ],
     "delete-effects": [
@@ -2249,8 +2249,8 @@
     "preconditions": [
       "have_image rover0 objective2 colour",
       "available rover0",
-      "at rover0 waypoint2",
-      "channel_free general"
+      "channel_free general",
+      "at rover0 waypoint2"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -2429,8 +2429,8 @@
   "communicate_image_data rover1 general objective2 colour waypoint1 waypoint3": {
     "preconditions": [
       "available rover1",
-      "have_image rover1 objective2 colour",
       "channel_free general",
+      "have_image rover1 objective2 colour",
       "at rover1 waypoint1"
     ],
     "delete-effects": [
@@ -2783,8 +2783,8 @@
     "preconditions": [
       "have_image rover0 objective1 low_res",
       "available rover0",
-      "at rover0 waypoint2",
-      "channel_free general"
+      "channel_free general",
+      "at rover0 waypoint2"
     ],
     "delete-effects": [
       "not (channel_free general)",
@@ -2921,8 +2921,8 @@
     "preconditions": [
       "have_image rover0 objective1 colour",
       "available rover0",
-      "at rover0 waypoint2",
-      "channel_free general"
+      "channel_free general",
+      "at rover0 waypoint2"
     ],
     "delete-effects": [
       "not (channel_free general)",

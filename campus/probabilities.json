@@ -1,0 +1,1652 @@
+{
+  "bui-campus_generic_hyp-0_70_54.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_70_57.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_70_60.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_70_46.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_70_51.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_70_58.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_70_47.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_70_55.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_70_49.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7758620689655173,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.22413793103448276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7714285714285716,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2285714285714286
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7758620689655173,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.22413793103448276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7714285714285716,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2285714285714286
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7714285714285716,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2285714285714286
+    }
+  },
+  "bui-campus_generic_hyp-0_70_52.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_70_59.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_70_56.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_70_48.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    }
+  },
+  "bui-campus_generic_hyp-0_70_50.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.75,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.25
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7368421052631579,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.26315789473684204
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.75,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.25
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7368421052631579,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.26315789473684204
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7368421052631579,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.26315789473684204
+    }
+  },
+  "bui-campus_generic_hyp-0_70_53.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    }
+  },
+  "bui-campus_generic_hyp-0_10_11.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5714285714285714,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4285714285714286
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5882352941176471,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.41176470588235303
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5714285714285714,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4285714285714286
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5882352941176471,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.41176470588235303
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5882352941176471,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.41176470588235303
+    }
+  },
+  "bui-campus_generic_hyp-0_10_14.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_10_10.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    }
+  },
+  "bui-campus_generic_hyp-0_10_5.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6000000000000001,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.4
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.5833333333333334,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.41666666666666663
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6000000000000001,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.4
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.5833333333333334,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.41666666666666663
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.5833333333333334,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.41666666666666663
+    }
+  },
+  "bui-campus_generic_hyp-0_10_9.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    }
+  },
+  "bui-campus_generic_hyp-0_10_3.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    }
+  },
+  "bui-campus_generic_hyp-0_10_15.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    }
+  },
+  "bui-campus_generic_hyp-0_10_13.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    }
+  },
+  "bui-campus_generic_hyp-0_10_12.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_10_2.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5517241379310345,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4482758620689655
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5555555555555556,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4444444444444445
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5517241379310345,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4482758620689655
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5555555555555556,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4444444444444445
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5555555555555556,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4444444444444445
+    }
+  },
+  "bui-campus_generic_hyp-0_10_7.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_10_8.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    }
+  },
+  "bui-campus_generic_hyp-0_10_6.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_10_4.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_10_1.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5517241379310345,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4482758620689655
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5555555555555556,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4444444444444445
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5517241379310345,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4482758620689655
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5555555555555556,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4444444444444445
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.5555555555555556,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.4444444444444445
+    }
+  },
+  "bui-campus_generic_hyp-0_full_66.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    }
+  },
+  "bui-campus_generic_hyp-0_full_72.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_full_75.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_full_68.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_full_64.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_full_74.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_full_61.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_full_69.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_full_67.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7272727272727273,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.27272727272727276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7407407407407408,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2592592592592593
+    }
+  },
+  "bui-campus_generic_hyp-0_full_73.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_full_62.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_full_70.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7758620689655173,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.22413793103448276
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7714285714285716,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2285714285714286
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7758620689655173,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.22413793103448276
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7714285714285716,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2285714285714286
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7714285714285716,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.2285714285714286
+    }
+  },
+  "bui-campus_generic_hyp-0_full_71.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_full_63.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_full_65.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_30_25.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_30_27.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    }
+  },
+  "bui-campus_generic_hyp-0_30_26.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6923076923076923,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3076923076923077
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6774193548387097,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3225806451612903
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6923076923076923,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3076923076923077
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6774193548387097,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3225806451612903
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6774193548387097,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3225806451612903
+    }
+  },
+  "bui-campus_generic_hyp-0_30_28.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    }
+  },
+  "bui-campus_generic_hyp-0_30_17.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    }
+  },
+  "bui-campus_generic_hyp-0_30_29.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_30_24.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    }
+  },
+  "bui-campus_generic_hyp-0_30_21.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_30_18.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6190476190476191,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.380952380952381
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6153846153846154,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.3846153846153846
+    }
+  },
+  "bui-campus_generic_hyp-0_30_30.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_30_20.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_30_16.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_30_23.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_30_22.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    }
+  },
+  "bui-campus_generic_hyp-0_30_19.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7111111111111111,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28888888888888886
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7142857142857143,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.28571428571428575
+    }
+  },
+  "bui-campus_generic_hyp-0_50_41.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_50_43.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    }
+  },
+  "bui-campus_generic_hyp-0_50_38.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    }
+  },
+  "bui-campus_generic_hyp-0_50_35.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_50_39.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    }
+  },
+  "bui-campus_generic_hyp-0_50_37.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    }
+  },
+  "bui-campus_generic_hyp-0_50_36.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6976744186046512,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.3023255813953488
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.6923076923076923,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.30769230769230765
+    }
+  },
+  "bui-campus_generic_hyp-0_50_45.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7647058823529411,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23529411764705882
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7619047619047619,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.23809523809523808
+    }
+  },
+  "bui-campus_generic_hyp-0_50_31.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    }
+  },
+  "bui-campus_generic_hyp-0_50_32.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  },
+  "bui-campus_generic_hyp-0_50_33.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6341463414634146,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36585365853658536
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.6399999999999999,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.36
+    }
+  },
+  "bui-campus_generic_hyp-0_50_44.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7222222222222222,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2777777777777778
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7272727272727273,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.27272727272727276
+    }
+  },
+  "bui-campus_generic_hyp-0_50_42.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    }
+  },
+  "bui-campus_generic_hyp-0_50_40.tar.bz2": {
+    "exhaust": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "hm": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "rhw": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7090909090909091,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.2909090909090909
+    },
+    "zg": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    },
+    "hoffmann": {
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.7058823529411765,
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.29411764705882354
+    }
+  },
+  "bui-campus_generic_hyp-0_50_34.tar.bz2": {
+    "exhaust": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "hm": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "rhw": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7868852459016393,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21311475409836064
+    },
+    "zg": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    },
+    "hoffmann": {
+      "(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)": 0.7894736842105263,
+      "(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)": 0.21052631578947367
+    }
+  }
+}

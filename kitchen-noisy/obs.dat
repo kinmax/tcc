@@ -1,2 +1,4 @@
-(take bowl)
-(take knife)
+(activity-make-salad)
+(take plate)
+(use toaster)
+(take salad_tosser)

@@ -1,6 +1,22 @@
-GOALS-6
-LANDMARKS_AVG-13.333333333333334
-OBS-9
-SPREAD-1
+GOALS-10
+LANDMARKS_AVG-19.4
+OBS-14
+SPREAD-2
 CORRECT-TRUE
-TIME-7.194415163015947
+TIME-71.16413499228656
+PROBABILITIES:
+#####
+(at driver1 s11), (at truck2 s8), (at truck3 s7), (at package1 s5), (at package2 s0), (at package3 s4), (at package4 s0), (at package6 s3)###0.1538578951385179
+(at driver1 s11), (at truck2 s8), (at truck3 s4), (at package1 s5), (at package2 s0), (at package3 s4), (at package4 s0), (at package6 s7)###0.1538578951385179
+(at driver1 s4), (at truck2 s7), (at truck3 s3), (at package1 s5), (at package2 s0), (at package3 s2), (at package4 s4), (at package6 s3)###0.10962375028619399
+(at driver1 s2), (at truck2 s3), (at truck3 s7), (at package1 s5), (at package2 s1), (at package3 s2), (at package4 s4), (at package6 s3)###0.09616118446157368
+(at driver1 s4), (at truck2 s7), (at truck3 s7), (at package1 s5), (at package2 s1), (at package3 s6), (at package4 s2), (at package6 s1)###0.091353125238495
+(at driver1 s2), (at truck2 s3), (at truck3 s8), (at package1 s7), (at package2 s0), (at package3 s2), (at package4 s5), (at package6 s3)###0.08700297641761427
+(at driver1 s10), (at truck2 s9), (at truck3 s4), (at package1 s7), (at package2 s0), (at package3 s2), (at package4 s0), (at package6 s3)###0.08120277798977332
+(at driver1 s1), (at truck2 s10), (at truck3 s6), (at package1 s5), (at package2 s1), (at package3 s0), (at package4 s4), (at package6 s4)###0.07692894756925894
+(at driver1 s1), (at truck2 s10), (at truck3 s7), (at package1 s5), (at package2 s1), (at package3 s2), (at package4 s4), (at package6 s3)###0.07692894756925894
+(at driver1 s10), (at truck2 s9), (at truck3 s8), (at package1 s7), (at package2 s0), (at package3 s2), (at package4 s5), (at package6 s3)###0.073082500190796
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (at driver1 s11), (at truck2 s8), (at truck3 s4), (at package1 s5), (at package2 s0), (at package3 s4), (at package4 s0), (at package6 s7)
+0.9999999999999998

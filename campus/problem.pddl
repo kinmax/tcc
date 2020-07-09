@@ -1,4 +1,4 @@
-(define (problem bui-campus_generic_hyp-0_30_16)
+(define (problem bui-campus_generic_hyp-0_50_34)
 (:domain campus)
 (:objects
 )

@@ -1,6 +1,18 @@
 GOALS-6
 LANDMARKS_AVG-10.833333333333334
-OBS-3
+OBS-5
 SPREAD-3
 CORRECT-TRUE
-TIME-6.32064127898775
+TIME-38.624078463763
+PROBABILITIES:
+#####
+(pointing satellite0 phenomenon6), (have_image star0 thermograph0), (have_image phenomenon3 thermograph0), (have_image phenomenon6 thermograph0)###0.1964285714285714
+(pointing satellite0 phenomenon4), (have_image star0 thermograph0), (have_image phenomenon3 thermograph0), (have_image phenomenon6 thermograph0)###0.17857142857142855
+(pointing satellite0 phenomenon3), (have_image star0 thermograph0), (have_image phenomenon3 thermograph0), (have_image phenomenon4 thermograph0)###0.17857142857142855
+(pointing satellite0 phenomenon6), (have_image star5 thermograph0), (have_image phenomenon4 thermograph0), (have_image phenomenon3 thermograph0)###0.15624999999999997
+(pointing satellite0 phenomenon4), (have_image star5 thermograph0), (have_image phenomenon4 thermograph0), (have_image phenomenon3 thermograph0)###0.15624999999999997
+(pointing satellite0 phenomenon3), (have_image star5 thermograph0), (have_image phenomenon4 thermograph0), (have_image phenomenon6 thermograph0)###0.1339285714285714
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (pointing satellite0 phenomenon3), (have_image star0 thermograph0), (have_image phenomenon3 thermograph0), (have_image phenomenon4 thermograph0)
+0.9999999999999999

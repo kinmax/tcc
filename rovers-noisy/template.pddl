@@ -1,4 +1,4 @@
-(define (problem pb5) 
+(define (problem roversProblem) 
 (:domain Rover)
 (:objects
 	general colour high_res low_res rover0 rover1 rover0store rover1store waypoint0 waypoint1 waypoint2 waypoint3 camera0 camera1 camera2 objective0 objective1 objective2 )

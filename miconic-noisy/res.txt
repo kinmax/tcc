@@ -1,6 +1,18 @@
 GOALS-6
-LANDMARKS_AVG-18.333333333333332
-OBS-5
-SPREAD-1
-CORRECT-FALSE
-TIME-8.26040964294225
+LANDMARKS_AVG-15.166666666666666
+OBS-8
+SPREAD-3
+CORRECT-TRUE
+TIME-39.4667244553566
+PROBABILITIES:
+#####
+(served p1), (served p2), (served p4), (served p5)###0.19834710743801653
+(served p4), (served p5), (served p3), (served p0)###0.1859504132231405
+(served p2), (served p4), (served p3), (served p5)###0.1859504132231405
+(served p3), (served p1), (served p5), (served p4)###0.1652892561983471
+(served p5), (served p1), (served p2), (served p3)###0.1322314049586777
+(served p0), (served p1), (served p2), (served p3)###0.1322314049586777
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (served p1), (served p2), (served p4), (served p5)
+1.0

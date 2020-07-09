@@ -1,93 +1,21 @@
 {
-  "take k2 pallet q2 ce l2": {
+  "put k2 ce p2 ca l3": {
     "preconditions": [
+      "top ca p2",
+      "holding k2 ce"
+    ],
+    "delete-effects": [
+      "not (top ca p2)",
+      "not (holding k2 ce)"
+    ],
+    "add-effects": [
+      "on ce ca",
       "empty k2",
-      "in pallet q2",
-      "on pallet ce",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (top pallet q2)",
-      "not (in pallet q2)",
-      "not (on pallet ce)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 pallet",
-      "top ce q2"
+      "top ce p2",
+      "in ce p2"
     ]
   },
-  "take k1 cc q1 ca l1": {
-    "preconditions": [
-      "top cc q1",
-      "on cc ca",
-      "empty k1",
-      "in cc q1"
-    ],
-    "delete-effects": [
-      "not (in cc q1)",
-      "not (empty k1)",
-      "not (top cc q1)",
-      "not (on cc ca)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top ca q1"
-    ]
-  },
-  "take k2 ce q2 ca l2": {
-    "preconditions": [
-      "in ce q2",
-      "top ce q2",
-      "empty k2",
-      "on ce ca"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (in ce q2)",
-      "not (on ce ca)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ce",
-      "top ca q2"
-    ]
-  },
-  "put k2 ca q2 cb l2": {
-    "preconditions": [
-      "top cb q2",
-      "holding k2 ca"
-    ],
-    "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "on ca cb",
-      "empty k2",
-      "in ca q2",
-      "top ca q2"
-    ]
-  },
-  "take k1 pallet q1 pallet l1": {
-    "preconditions": [
-      "on pallet pallet",
-      "top pallet q1",
-      "in pallet q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in pallet q1)",
-      "not (top pallet q1)",
-      "not (empty k1)",
-      "not (on pallet pallet)"
-    ],
-    "add-effects": [
-      "top pallet q1",
-      "holding k1 pallet"
-    ]
-  },
-  "put k2 pallet p2 cf l2": {
+  "put k2 pallet p2 cf l3": {
     "preconditions": [
       "holding k2 pallet",
       "top cf p2"
@@ -103,10 +31,46 @@
       "empty k2"
     ]
   },
-  "load k2 ce r1 l2": {
+  "take k3 cd p3 ce l4": {
+    "preconditions": [
+      "top cd p3",
+      "in cd p3",
+      "empty k3",
+      "on cd ce"
+    ],
+    "delete-effects": [
+      "not (on cd ce)",
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (top cd p3)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "top ce p3"
+    ]
+  },
+  "take k2 cb p2 ce l3": {
+    "preconditions": [
+      "top cb p2",
+      "in cb p2",
+      "on cb ce",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (empty k2)",
+      "not (in cb p2)",
+      "not (on cb ce)",
+      "not (top cb p2)"
+    ],
+    "add-effects": [
+      "holding k2 cb",
+      "top ce p2"
+    ]
+  },
+  "load k2 ce r1 l3": {
     "preconditions": [
       "unloaded r1",
-      "at r1 l2",
+      "at r1 l3",
       "holding k2 ce"
     ],
     "delete-effects": [
@@ -118,143 +82,210 @@
       "loaded r1 ce"
     ]
   },
-  "put k1 cc q1 cd l1": {
+  "take k3 ca p3 ca l4": {
     "preconditions": [
-      "top cd q1",
-      "holding k1 cc"
+      "top ca p3",
+      "on ca ca",
+      "empty k3",
+      "in ca p3"
     ],
     "delete-effects": [
-      "not (top cd q1)",
-      "not (holding k1 cc)"
+      "not (in ca p3)",
+      "not (empty k3)",
+      "not (on ca ca)",
+      "not (top ca p3)"
     ],
     "add-effects": [
-      "top cc q1",
-      "on cc cd",
+      "holding k3 ca",
+      "top ca p3"
+    ]
+  },
+  "take k3 cb p3 cd l4": {
+    "preconditions": [
+      "on cb cd",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (in cb p3)",
+      "not (empty k3)",
+      "not (on cb cd)"
+    ],
+    "add-effects": [
+      "top cd p3",
+      "holding k3 cb"
+    ]
+  },
+  "take k3 ca p3 pallet l4": {
+    "preconditions": [
+      "top ca p3",
+      "empty k3",
+      "in ca p3",
+      "on ca pallet"
+    ],
+    "delete-effects": [
+      "not (in ca p3)",
+      "not (empty k3)",
+      "not (top ca p3)",
+      "not (on ca pallet)"
+    ],
+    "add-effects": [
+      "holding k3 ca",
+      "top pallet p3"
+    ]
+  },
+  "put k3 cd p3 pallet l4": {
+    "preconditions": [
+      "holding k3 cd",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (top pallet p3)",
+      "not (holding k3 cd)"
+    ],
+    "add-effects": [
+      "on cd pallet",
+      "top cd p3",
+      "in cd p3",
+      "empty k3"
+    ]
+  },
+  "put k3 cf p3 cc l4": {
+    "preconditions": [
+      "holding k3 cf",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (holding k3 cf)"
+    ],
+    "add-effects": [
+      "in cf p3",
+      "on cf cc",
+      "top cf p3",
+      "empty k3"
+    ]
+  },
+  "unload k3 pallet r1 l4": {
+    "preconditions": [
+      "loaded r1 pallet",
+      "at r1 l4",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (loaded r1 pallet)"
+    ],
+    "add-effects": [
+      "unloaded r1",
+      "holding k3 pallet"
+    ]
+  },
+  "take k3 pallet p3 cc l4": {
+    "preconditions": [
+      "empty k3",
+      "in pallet p3",
+      "on pallet cc",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (top pallet p3)",
+      "not (in pallet p3)",
+      "not (on pallet cc)"
+    ],
+    "add-effects": [
+      "holding k3 pallet",
+      "top cc p3"
+    ]
+  },
+  "put k1 ca p1 cf l1": {
+    "preconditions": [
+      "top cf p1",
+      "holding k1 ca"
+    ],
+    "delete-effects": [
+      "not (top cf p1)",
+      "not (holding k1 ca)"
+    ],
+    "add-effects": [
       "empty k1",
-      "in cc q1"
+      "on ca cf",
+      "in ca p1",
+      "top ca p1"
     ]
   },
-  "take k2 cc q2 pallet l2": {
+  "put k2 cd p2 cc l3": {
     "preconditions": [
-      "top cc q2",
-      "in cc q2",
+      "top cc p2",
+      "holding k2 cd"
+    ],
+    "delete-effects": [
+      "not (top cc p2)",
+      "not (holding k2 cd)"
+    ],
+    "add-effects": [
+      "in cd p2",
+      "top cd p2",
       "empty k2",
-      "on cc pallet"
-    ],
-    "delete-effects": [
-      "not (in cc q2)",
-      "not (top cc q2)",
-      "not (on cc pallet)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top pallet q2",
-      "holding k2 cc"
-    ]
-  },
-  "put k2 ce q2 cd l2": {
-    "preconditions": [
-      "holding k2 ce",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 ce)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ce cd",
-      "in ce q2",
-      "top ce q2"
-    ]
-  },
-  "take k1 pallet q1 cd l1": {
-    "preconditions": [
-      "top pallet q1",
-      "in pallet q1",
-      "on pallet cd",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in pallet q1)",
-      "not (on pallet cd)",
-      "not (top pallet q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "top cd q1",
-      "holding k1 pallet"
-    ]
-  },
-  "take k1 cb q1 cc l1": {
-    "preconditions": [
-      "empty k1",
-      "in cb q1",
-      "on cb cc",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (in cb q1)",
-      "not (on cb cc)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top cc q1"
-    ]
-  },
-  "take k2 cd q2 cc l2": {
-    "preconditions": [
-      "in cd q2",
-      "empty k2",
-      "top cd q2",
       "on cd cc"
+    ]
+  },
+  "put k3 cc p3 ce l4": {
+    "preconditions": [
+      "holding k3 cc",
+      "top ce p3"
     ],
     "delete-effects": [
-      "not (on cd cc)",
-      "not (top cd q2)",
-      "not (in cd q2)",
+      "not (top ce p3)",
+      "not (holding k3 cc)"
+    ],
+    "add-effects": [
+      "on cc ce",
+      "in cc p3",
+      "top cc p3",
+      "empty k3"
+    ]
+  },
+  "take k3 ca p3 cf l4": {
+    "preconditions": [
+      "top ca p3",
+      "on ca cf",
+      "empty k3",
+      "in ca p3"
+    ],
+    "delete-effects": [
+      "not (in ca p3)",
+      "not (empty k3)",
+      "not (top ca p3)",
+      "not (on ca cf)"
+    ],
+    "add-effects": [
+      "holding k3 ca",
+      "top cf p3"
+    ]
+  },
+  "take k2 cf p2 ca l3": {
+    "preconditions": [
+      "on cf ca",
+      "top cf p2",
+      "empty k2",
+      "in cf p2"
+    ],
+    "delete-effects": [
+      "not (in cf p2)",
+      "not (top cf p2)",
+      "not (on cf ca)",
       "not (empty k2)"
     ],
     "add-effects": [
-      "holding k2 cd",
-      "top cc q2"
-    ]
-  },
-  "put k2 cf q2 pallet l2": {
-    "preconditions": [
       "holding k2 cf",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (holding k2 cf)",
-      "not (top pallet q2)"
-    ],
-    "add-effects": [
-      "on cf pallet",
-      "empty k2",
-      "top cf q2",
-      "in cf q2"
+      "top ca p2"
     ]
   },
-  "put k2 ce q2 pallet l2": {
-    "preconditions": [
-      "holding k2 ce",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (holding k2 ce)",
-      "not (top pallet q2)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ce pallet",
-      "in ce q2",
-      "top ce q2"
-    ]
-  },
-  "put k2 ca p2 ce l2": {
+  "put k2 ca p2 ce l3": {
     "preconditions": [
       "top ce p2",
       "holding k2 ca"
@@ -268,6 +299,74 @@
       "top ca p2",
       "in ca p2",
       "on ca ce"
+    ]
+  },
+  "put k3 cc p3 pallet l4": {
+    "preconditions": [
+      "holding k3 cc",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (top pallet p3)",
+      "not (holding k3 cc)"
+    ],
+    "add-effects": [
+      "on cc pallet",
+      "in cc p3",
+      "top cc p3",
+      "empty k3"
+    ]
+  },
+  "take k3 ce p3 cc l4": {
+    "preconditions": [
+      "empty k3",
+      "on ce cc",
+      "top ce p3",
+      "in ce p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in ce p3)",
+      "not (top ce p3)",
+      "not (on ce cc)"
+    ],
+    "add-effects": [
+      "holding k3 ce",
+      "top cc p3"
+    ]
+  },
+  "put k2 cc p2 cf l3": {
+    "preconditions": [
+      "holding k2 cc",
+      "top cf p2"
+    ],
+    "delete-effects": [
+      "not (top cf p2)",
+      "not (holding k2 cc)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "on cc cf",
+      "in cc p2",
+      "top cc p2"
+    ]
+  },
+  "take k2 pallet p2 cb l3": {
+    "preconditions": [
+      "top pallet p2",
+      "in pallet p2",
+      "on pallet cb",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (on pallet cb)",
+      "not (empty k2)",
+      "not (in pallet p2)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "holding k2 pallet"
     ]
   },
   "take k1 cd p1 ca l1": {
@@ -288,69 +387,20 @@
       "top ca p1"
     ]
   },
-  "put k2 cf q2 cb l2": {
+  "put k3 ce p3 cf l4": {
     "preconditions": [
-      "top cb q2",
-      "holding k2 cf"
+      "top cf p3",
+      "holding k3 ce"
     ],
     "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 cf)"
+      "not (top cf p3)",
+      "not (holding k3 ce)"
     ],
     "add-effects": [
-      "on cf cb",
-      "empty k2",
-      "top cf q2",
-      "in cf q2"
-    ]
-  },
-  "unload k2 cc r1 l2": {
-    "preconditions": [
-      "at r1 l2",
-      "empty k2",
-      "loaded r1 cc"
-    ],
-    "delete-effects": [
-      "not (loaded r1 cc)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "unloaded r1",
-      "holding k2 cc"
-    ]
-  },
-  "put k1 cd q1 cb l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "on cd cb",
-      "empty k1",
-      "top cd q1",
-      "in cd q1"
-    ]
-  },
-  "take k2 cf p2 ca l2": {
-    "preconditions": [
-      "on cf ca",
-      "top cf p2",
-      "empty k2",
-      "in cf p2"
-    ],
-    "delete-effects": [
-      "not (in cf p2)",
-      "not (top cf p2)",
-      "not (on cf ca)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cf",
-      "top ca p2"
+      "top ce p3",
+      "on ce cf",
+      "in ce p3",
+      "empty k3"
     ]
   },
   "put k1 cd p1 cd l1": {
@@ -369,7 +419,7 @@
       "top cd p1"
     ]
   },
-  "put k2 cf p2 cd l2": {
+  "put k2 cf p2 cd l3": {
     "preconditions": [
       "holding k2 cf",
       "top cd p2"
@@ -385,3429 +435,53 @@
       "in cf p2"
     ]
   },
-  "take k1 ca q1 ce l1": {
+  "take k3 cf p3 cf l4": {
     "preconditions": [
-      "in ca q1",
-      "top ca q1",
-      "empty k1",
-      "on ca ce"
+      "in cf p3",
+      "top cf p3",
+      "on cf cf",
+      "empty k3"
     ],
     "delete-effects": [
-      "not (on ca ce)",
-      "not (top ca q1)",
-      "not (in ca q1)",
-      "not (empty k1)"
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (on cf cf)",
+      "not (in cf p3)"
     ],
     "add-effects": [
-      "holding k1 ca",
-      "top ce q1"
+      "holding k3 cf",
+      "top cf p3"
     ]
   },
-  "take k2 cc q2 ce l2": {
+  "put k3 cb p3 ca l4": {
     "preconditions": [
-      "on cc ce",
-      "top cc q2",
-      "in cc q2",
-      "empty k2"
+      "top ca p3",
+      "holding k3 cb"
     ],
     "delete-effects": [
-      "not (in cc q2)",
-      "not (top cc q2)",
-      "not (on cc ce)",
-      "not (empty k2)"
+      "not (holding k3 cb)",
+      "not (top ca p3)"
     ],
     "add-effects": [
-      "holding k2 cc",
-      "top ce q2"
-    ]
-  },
-  "put k1 pallet q1 cc l1": {
-    "preconditions": [
-      "top cc q1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "on pallet cc",
-      "empty k1",
-      "top pallet q1",
-      "in pallet q1"
-    ]
-  },
-  "unload k1 ce r1 l1": {
-    "preconditions": [
-      "at r1 l1",
-      "loaded r1 ce",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (loaded r1 ce)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "unloaded r1",
-      "holding k1 ce"
-    ]
-  },
-  "take k1 cf q1 ce l1": {
-    "preconditions": [
-      "in cf q1",
-      "top cf q1",
-      "empty k1",
-      "on cf ce"
-    ],
-    "delete-effects": [
-      "not (on cf ce)",
-      "not (top cf q1)",
-      "not (in cf q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top ce q1"
-    ]
-  },
-  "take k1 cf q1 pallet l1": {
-    "preconditions": [
-      "in cf q1",
-      "top cf q1",
-      "empty k1",
-      "on cf pallet"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (in cf q1)",
-      "not (on cf pallet)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top pallet q1"
-    ]
-  },
-  "take k1 cb p1 cf l1": {
-    "preconditions": [
-      "top cb p1",
-      "empty k1",
-      "in cb p1",
-      "on cb cf"
-    ],
-    "delete-effects": [
-      "not (in cb p1)",
-      "not (on cb cf)",
-      "not (top cb p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top cf p1"
-    ]
-  },
-  "put k1 pallet p1 ce l1": {
-    "preconditions": [
-      "holding k1 pallet",
-      "top ce p1"
-    ],
-    "delete-effects": [
-      "not (top ce p1)",
-      "not (holding k1 pallet)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in pallet p1",
-      "on pallet ce",
-      "top pallet p1"
-    ]
-  },
-  "take k2 cd p2 cf l2": {
-    "preconditions": [
-      "on cd cf",
-      "in cd p2",
-      "top cd p2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (on cd cf)",
-      "not (empty k2)",
-      "not (top cd p2)",
-      "not (in cd p2)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top cf p2"
-    ]
-  },
-  "put k1 cd q1 ca l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top ca q1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top cd q1",
-      "on cd ca",
-      "in cd q1"
-    ]
-  },
-  "put k2 cf q2 ca l2": {
-    "preconditions": [
-      "holding k2 cf",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 cf)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cf q2",
-      "in cf q2",
-      "on cf ca"
-    ]
-  },
-  "take k2 ca p2 ca l2": {
-    "preconditions": [
-      "on ca ca",
-      "top ca p2",
-      "empty k2",
-      "in ca p2"
-    ],
-    "delete-effects": [
-      "not (in ca p2)",
-      "not (top ca p2)",
-      "not (on ca ca)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ca",
-      "top ca p2"
-    ]
-  },
-  "put k1 pallet q1 cb l1": {
-    "preconditions": [
-      "holding k1 pallet",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 pallet)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on pallet cb",
-      "top pallet q1",
-      "in pallet q1"
-    ]
-  },
-  "take k1 cb p1 ce l1": {
-    "preconditions": [
-      "on cb ce",
-      "top cb p1",
-      "empty k1",
-      "in cb p1"
-    ],
-    "delete-effects": [
-      "not (in cb p1)",
-      "not (top cb p1)",
-      "not (empty k1)",
-      "not (on cb ce)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top ce p1"
-    ]
-  },
-  "put k2 cd q2 pallet l2": {
-    "preconditions": [
-      "holding k2 cd",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (top pallet q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "on cd pallet",
-      "empty k2",
-      "in cd q2",
-      "top cd q2"
-    ]
-  },
-  "take k2 cd p2 ce l2": {
-    "preconditions": [
-      "in cd p2",
-      "top cd p2",
-      "on cd ce",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (on cd ce)",
-      "not (empty k2)",
-      "not (top cd p2)",
-      "not (in cd p2)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top ce p2"
-    ]
-  },
-  "take k2 pallet q2 cf l2": {
-    "preconditions": [
-      "on pallet cf",
-      "empty k2",
-      "in pallet q2",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (top pallet q2)",
-      "not (in pallet q2)",
-      "not (empty k2)",
-      "not (on pallet cf)"
-    ],
-    "add-effects": [
-      "holding k2 pallet",
-      "top cf q2"
-    ]
-  },
-  "take k2 ce q2 cb l2": {
-    "preconditions": [
-      "on ce cb",
-      "in ce q2",
-      "top ce q2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (in ce q2)",
-      "not (empty k2)",
-      "not (on ce cb)"
-    ],
-    "add-effects": [
-      "holding k2 ce",
-      "top cb q2"
-    ]
-  },
-  "take k1 cc q1 cb l1": {
-    "preconditions": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc cb"
-    ],
-    "delete-effects": [
-      "not (on cc cb)",
-      "not (in cc q1)",
-      "not (empty k1)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top cb q1"
-    ]
-  },
-  "take k1 cc p1 cd l1": {
-    "preconditions": [
-      "top cc p1",
-      "in cc p1",
-      "empty k1",
-      "on cc cd"
-    ],
-    "delete-effects": [
-      "not (in cc p1)",
-      "not (top cc p1)",
-      "not (on cc cd)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top cd p1"
-    ]
-  },
-  "take k1 cf q1 cd l1": {
-    "preconditions": [
-      "in cf q1",
-      "top cf q1",
-      "on cf cd",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (in cf q1)",
-      "not (empty k1)",
-      "not (on cf cd)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top cd q1"
-    ]
-  },
-  "take k2 ce p2 cd l2": {
-    "preconditions": [
-      "top ce p2",
-      "in ce p2",
-      "empty k2",
-      "on ce cd"
-    ],
-    "delete-effects": [
-      "not (in ce p2)",
-      "not (top ce p2)",
-      "not (on ce cd)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top cd p2",
-      "holding k2 ce"
-    ]
-  },
-  "put k2 ca q2 ca l2": {
-    "preconditions": [
-      "holding k2 ca",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca ca",
-      "in ca q2",
-      "top ca q2"
-    ]
-  },
-  "put k2 pallet q2 cc l2": {
-    "preconditions": [
-      "holding k2 pallet",
-      "top cc q2"
-    ],
-    "delete-effects": [
-      "not (top cc q2)",
-      "not (holding k2 pallet)"
-    ],
-    "add-effects": [
-      "on pallet cc",
-      "in pallet q2",
-      "empty k2",
-      "top pallet q2"
-    ]
-  },
-  "put k2 pallet p2 ce l2": {
-    "preconditions": [
-      "holding k2 pallet",
-      "top ce p2"
-    ],
-    "delete-effects": [
-      "not (top ce p2)",
-      "not (holding k2 pallet)"
-    ],
-    "add-effects": [
-      "top pallet p2",
-      "in pallet p2",
-      "on pallet ce",
-      "empty k2"
-    ]
-  },
-  "put k2 cb p2 cb l2": {
-    "preconditions": [
-      "top cb p2",
-      "holding k2 cb"
-    ],
-    "delete-effects": [
-      "not (holding k2 cb)",
-      "not (top cb p2)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "in cb p2",
-      "empty k2",
-      "on cb cb"
-    ]
-  },
-  "take k1 pallet q1 cc l1": {
-    "preconditions": [
-      "top pallet q1",
-      "in pallet q1",
-      "on pallet cc",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in pallet q1)",
-      "not (top pallet q1)",
-      "not (empty k1)",
-      "not (on pallet cc)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "holding k1 pallet"
-    ]
-  },
-  "put k2 cc p2 ca l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top ca p2"
-    ],
-    "delete-effects": [
-      "not (top ca p2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "on cc ca",
-      "empty k2",
-      "in cc p2",
-      "top cc p2"
-    ]
-  },
-  "put k1 cf p1 ca l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top ca p1"
-    ],
-    "delete-effects": [
-      "not (top ca p1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top cf p1",
-      "in cf p1",
-      "on cf ca"
-    ]
-  },
-  "put k1 cc q1 ce l1": {
-    "preconditions": [
-      "top ce q1",
-      "holding k1 cc"
-    ],
-    "delete-effects": [
-      "not (holding k1 cc)",
-      "not (top ce q1)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc ce"
-    ]
-  },
-  "put k1 ca p1 pallet l1": {
-    "preconditions": [
-      "holding k1 ca",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (top pallet p1)",
-      "not (holding k1 ca)"
-    ],
-    "add-effects": [
-      "on ca pallet",
-      "empty k1",
-      "in ca p1",
-      "top ca p1"
-    ]
-  },
-  "put k2 ce q2 ce l2": {
-    "preconditions": [
-      "holding k2 ce",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 ce)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "in ce q2",
-      "on ce ce",
-      "top ce q2"
-    ]
-  },
-  "put k2 cd q2 cf l2": {
-    "preconditions": [
-      "top cf q2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top cf q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cd cf",
-      "in cd q2",
-      "top cd q2"
-    ]
-  },
-  "put k2 ca p2 cf l2": {
-    "preconditions": [
-      "top cf p2",
-      "holding k2 ca"
-    ],
-    "delete-effects": [
-      "not (top cf p2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca cf",
-      "top ca p2",
-      "in ca p2"
-    ]
-  },
-  "put k1 ca p1 ca l1": {
-    "preconditions": [
-      "holding k1 ca",
-      "top ca p1"
-    ],
-    "delete-effects": [
-      "not (top ca p1)",
-      "not (holding k1 ca)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on ca ca",
-      "in ca p1",
-      "top ca p1"
-    ]
-  },
-  "put k1 cb q1 cf l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top cf q1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in cb q1",
-      "on cb cf",
-      "top cb q1"
-    ]
-  },
-  "put k1 ce p1 cb l1": {
-    "preconditions": [
-      "top cb p1",
-      "holding k1 ce"
-    ],
-    "delete-effects": [
-      "not (top cb p1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "on ce cb",
-      "empty k1",
-      "in ce p1",
-      "top ce p1"
-    ]
-  },
-  "put k1 cc p1 pallet l1": {
-    "preconditions": [
-      "holding k1 cc",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (top pallet p1)",
-      "not (holding k1 cc)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cc pallet",
-      "top cc p1",
-      "in cc p1"
-    ]
-  },
-  "put k1 pallet q1 pallet l1": {
-    "preconditions": [
-      "top pallet q1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top pallet q1)"
-    ],
-    "add-effects": [
-      "on pallet pallet",
-      "empty k1",
-      "top pallet q1",
-      "in pallet q1"
-    ]
-  },
-  "put k1 cd q1 cc l1": {
-    "preconditions": [
-      "top cc q1",
-      "holding k1 cd"
-    ],
-    "delete-effects": [
-      "not (top cc q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top cd q1",
-      "in cd q1",
-      "on cd cc"
-    ]
-  },
-  "put k2 cf q2 cc l2": {
-    "preconditions": [
-      "holding k2 cf",
-      "top cc q2"
-    ],
-    "delete-effects": [
-      "not (top cc q2)",
-      "not (holding k2 cf)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cf q2",
-      "on cf cc",
-      "in cf q2"
-    ]
-  },
-  "put k2 cb q2 ca l2": {
-    "preconditions": [
-      "holding k2 cb",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 cb)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cb q2",
-      "in cb q2",
+      "empty k3",
+      "in cb p3",
+      "top cb p3",
       "on cb ca"
     ]
   },
-  "take k1 ca q1 cd l1": {
+  "unload k3 cf r1 l4": {
     "preconditions": [
-      "in ca q1",
-      "top ca q1",
-      "on ca cd",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (on ca cd)",
-      "not (top ca q1)",
-      "not (in ca q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 ca",
-      "top cd q1"
-    ]
-  },
-  "take k2 cc q2 cd l2": {
-    "preconditions": [
-      "top cc q2",
-      "in cc q2",
-      "on cc cd",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in cc q2)",
-      "not (top cc q2)",
-      "not (empty k2)",
-      "not (on cc cd)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top cd q2"
-    ]
-  },
-  "put k2 ca p2 pallet l2": {
-    "preconditions": [
-      "top pallet p2",
-      "holding k2 ca"
-    ],
-    "delete-effects": [
-      "not (holding k2 ca)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
-      "on ca pallet",
-      "empty k2",
-      "top ca p2",
-      "in ca p2"
-    ]
-  },
-  "take k2 ca p2 cc l2": {
-    "preconditions": [
-      "on ca cc",
-      "top ca p2",
-      "empty k2",
-      "in ca p2"
-    ],
-    "delete-effects": [
-      "not (in ca p2)",
-      "not (top ca p2)",
-      "not (on ca cc)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ca",
-      "top cc p2"
-    ]
-  },
-  "put k1 pallet p1 cd l1": {
-    "preconditions": [
-      "top cd p1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (top cd p1)",
-      "not (holding k1 pallet)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in pallet p1",
-      "top pallet p1",
-      "on pallet cd"
-    ]
-  },
-  "put k2 cc q2 pallet l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (holding k2 cc)",
-      "not (top pallet q2)"
-    ],
-    "add-effects": [
-      "on cc pallet",
-      "empty k2",
-      "top cc q2",
-      "in cc q2"
-    ]
-  },
-  "put k1 cb q1 ce l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (top ce q1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "on cb ce",
-      "empty k1",
-      "in cb q1",
-      "top cb q1"
-    ]
-  },
-  "put k2 cd q2 ce l2": {
-    "preconditions": [
-      "holding k2 cd",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "in cd q2",
-      "on cd ce",
-      "top cd q2"
-    ]
-  },
-  "take k1 cc p1 cb l1": {
-    "preconditions": [
-      "top cc p1",
-      "in cc p1",
-      "empty k1",
-      "on cc cb"
-    ],
-    "delete-effects": [
-      "not (in cc p1)",
-      "not (top cc p1)",
-      "not (on cc cb)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top cb p1"
-    ]
-  },
-  "take k2 pallet p2 cf l2": {
-    "preconditions": [
-      "top pallet p2",
-      "in pallet p2",
-      "on pallet cf",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (empty k2)",
-      "not (on pallet cf)",
-      "not (in pallet p2)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
-      "holding k2 pallet",
-      "top cf p2"
-    ]
-  },
-  "take k2 pallet q2 cd l2": {
-    "preconditions": [
-      "on pallet cd",
-      "empty k2",
-      "in pallet q2",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (on pallet cd)",
-      "not (top pallet q2)",
-      "not (in pallet q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 pallet",
-      "top cd q2"
-    ]
-  },
-  "take k2 ce p2 cb l2": {
-    "preconditions": [
-      "top ce p2",
-      "on ce cb",
-      "in ce p2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in ce p2)",
-      "not (top ce p2)",
-      "not (empty k2)",
-      "not (on ce cb)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "holding k2 ce"
-    ]
-  },
-  "put k2 pallet q2 ce l2": {
-    "preconditions": [
-      "holding k2 pallet",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 pallet)"
-    ],
-    "add-effects": [
-      "in pallet q2",
-      "on pallet ce",
-      "empty k2",
-      "top pallet q2"
-    ]
-  },
-  "take k2 cb q2 cf l2": {
-    "preconditions": [
-      "top cb q2",
-      "empty k2",
-      "in cb q2",
-      "on cb cf"
-    ],
-    "delete-effects": [
-      "not (in cb q2)",
-      "not (on cb cf)",
-      "not (top cb q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top cf q2"
-    ]
-  },
-  "put k2 cb p2 cd l2": {
-    "preconditions": [
-      "holding k2 cb",
-      "top cd p2"
-    ],
-    "delete-effects": [
-      "not (holding k2 cb)",
-      "not (top cd p2)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "in cb p2",
-      "empty k2",
-      "on cb cd"
-    ]
-  },
-  "take k1 cb q1 cd l1": {
-    "preconditions": [
-      "on cb cd",
-      "empty k1",
-      "in cb q1",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (in cb q1)",
-      "not (on cb cd)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top cd q1"
-    ]
-  },
-  "take k1 ce q1 pallet l1": {
-    "preconditions": [
-      "on ce pallet",
-      "in ce q1",
-      "empty k1",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (on ce pallet)",
-      "not (top ce q1)",
-      "not (empty k1)",
-      "not (in ce q1)"
-    ],
-    "add-effects": [
-      "holding k1 ce",
-      "top pallet q1"
-    ]
-  },
-  "take k2 cd q2 cd l2": {
-    "preconditions": [
-      "on cd cd",
-      "in cd q2",
-      "empty k2",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (in cd q2)",
-      "not (on cd cd)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top cd q2"
-    ]
-  },
-  "put k1 cd p1 ce l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top ce p1"
-    ],
-    "delete-effects": [
-      "not (top ce p1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in cd p1",
-      "on cd ce",
-      "top cd p1"
-    ]
-  },
-  "take k1 cc p1 cc l1": {
-    "preconditions": [
-      "top cc p1",
-      "on cc cc",
-      "in cc p1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cc p1)",
-      "not (on cc cc)",
-      "not (top cc p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top cc p1"
-    ]
-  },
-  "take k2 ce p2 cc l2": {
-    "preconditions": [
-      "top ce p2",
-      "in ce p2",
-      "on ce cc",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in ce p2)",
-      "not (top ce p2)",
-      "not (empty k2)",
-      "not (on ce cc)"
-    ],
-    "add-effects": [
-      "holding k2 ce",
-      "top cc p2"
-    ]
-  },
-  "put k2 pallet q2 cd l2": {
-    "preconditions": [
-      "holding k2 pallet",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 pallet)"
-    ],
-    "add-effects": [
-      "in pallet q2",
-      "empty k2",
-      "top pallet q2",
-      "on pallet cd"
-    ]
-  },
-  "put k1 cc q1 cf l1": {
-    "preconditions": [
-      "holding k1 cc",
-      "top cf q1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 cc)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc cf"
-    ]
-  },
-  "put k2 cb p2 cc l2": {
-    "preconditions": [
-      "holding k2 cb",
-      "top cc p2"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (holding k2 cb)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "in cb p2",
-      "empty k2",
-      "on cb cc"
-    ]
-  },
-  "put k2 cf p2 ce l2": {
-    "preconditions": [
-      "top ce p2",
-      "holding k2 cf"
-    ],
-    "delete-effects": [
-      "not (holding k2 cf)",
-      "not (top ce p2)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cf p2",
-      "in cf p2",
-      "on cf ce"
-    ]
-  },
-  "take k2 cf q2 pallet l2": {
-    "preconditions": [
-      "top cf q2",
-      "in cf q2",
-      "on cf pallet",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in cf q2)",
-      "not (top cf q2)",
-      "not (empty k2)",
-      "not (on cf pallet)"
-    ],
-    "add-effects": [
-      "top pallet q2",
-      "holding k2 cf"
-    ]
-  },
-  "put k1 cf p1 cb l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top cb p1"
-    ],
-    "delete-effects": [
-      "not (top cb p1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cf cb",
-      "top cf p1",
-      "in cf p1"
-    ]
-  },
-  "take k1 pallet q1 cb l1": {
-    "preconditions": [
-      "on pallet cb",
-      "top pallet q1",
-      "in pallet q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in pallet q1)",
-      "not (top pallet q1)",
-      "not (on pallet cb)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 pallet",
-      "top cb q1"
-    ]
-  },
-  "put k2 ce q2 cf l2": {
-    "preconditions": [
-      "top cf q2",
-      "holding k2 ce"
-    ],
-    "delete-effects": [
-      "not (holding k2 ce)",
-      "not (top cf q2)"
-    ],
-    "add-effects": [
-      "on ce cf",
-      "empty k2",
-      "in ce q2",
-      "top ce q2"
-    ]
-  },
-  "take k1 cf q1 cf l1": {
-    "preconditions": [
-      "in cf q1",
-      "on cf cf",
-      "top cf q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (on cf cf)",
-      "not (in cf q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top cf q1"
-    ]
-  },
-  "put k1 cf q1 cf l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top cf q1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in cf q1",
-      "on cf cf",
-      "top cf q1"
-    ]
-  },
-  "take k1 ce p1 ca l1": {
-    "preconditions": [
-      "in ce p1",
-      "top ce p1",
-      "empty k1",
-      "on ce ca"
-    ],
-    "delete-effects": [
-      "not (top ce p1)",
-      "not (in ce p1)",
-      "not (on ce ca)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 ce",
-      "top ca p1"
-    ]
-  },
-  "take k2 cb q2 pallet l2": {
-    "preconditions": [
-      "on cb pallet",
-      "top cb q2",
-      "empty k2",
-      "in cb q2"
-    ],
-    "delete-effects": [
-      "not (in cb q2)",
-      "not (top cb q2)",
-      "not (empty k2)",
-      "not (on cb pallet)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top pallet q2"
-    ]
-  },
-  "take k1 cb q1 ce l1": {
-    "preconditions": [
-      "on cb ce",
-      "empty k1",
-      "in cb q1",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (in cb q1)",
-      "not (empty k1)",
-      "not (on cb ce)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top ce q1"
-    ]
-  },
-  "take k2 cd q2 ce l2": {
-    "preconditions": [
-      "in cd q2",
-      "on cd ce",
-      "empty k2",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (on cd ce)",
-      "not (in cd q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top ce q2"
-    ]
-  },
-  "put k1 ce p1 ca l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top ca p1"
-    ],
-    "delete-effects": [
-      "not (top ca p1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on ce ca",
-      "in ce p1",
-      "top ce p1"
-    ]
-  },
-  "load k1 pallet r1 l1": {
-    "preconditions": [
-      "at r1 l1",
-      "unloaded r1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (unloaded r1)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "loaded r1 pallet"
-    ]
-  },
-  "take k1 ca q1 cc l1": {
-    "preconditions": [
-      "in ca q1",
-      "on ca cc",
-      "top ca q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (in ca q1)",
-      "not (on ca cc)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "holding k1 ca"
-    ]
-  },
-  "put k1 cf q1 pallet l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top pallet q1"
-    ],
-    "delete-effects": [
-      "not (top pallet q1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "on cf pallet",
-      "empty k1",
-      "in cf q1",
-      "top cf q1"
-    ]
-  },
-  "take k2 ca p2 cb l2": {
-    "preconditions": [
-      "top ca p2",
-      "on ca cb",
-      "empty k2",
-      "in ca p2"
-    ],
-    "delete-effects": [
-      "not (in ca p2)",
-      "not (top ca p2)",
-      "not (empty k2)",
-      "not (on ca cb)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "holding k2 ca"
-    ]
-  },
-  "take k2 cc q2 cc l2": {
-    "preconditions": [
-      "top cc q2",
-      "on cc cc",
-      "in cc q2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in cc q2)",
-      "not (on cc cc)",
-      "not (top cc q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top cc q2"
-    ]
-  },
-  "put k1 pallet p1 cc l1": {
-    "preconditions": [
-      "top cc p1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top cc p1)"
-    ],
-    "add-effects": [
-      "on pallet cc",
-      "empty k1",
-      "in pallet p1",
-      "top pallet p1"
-    ]
-  },
-  "put k1 pallet q1 ca l1": {
-    "preconditions": [
-      "top ca q1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top ca q1)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top pallet q1",
-      "on pallet ca",
-      "in pallet q1"
-    ]
-  },
-  "put k1 cd p1 pallet l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (top pallet p1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "on cd pallet",
-      "empty k1",
-      "in cd p1",
-      "top cd p1"
-    ]
-  },
-  "load k1 cb r1 l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "at r1 l1",
-      "unloaded r1"
-    ],
-    "delete-effects": [
-      "not (unloaded r1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "loaded r1 cb",
-      "empty k1"
-    ]
-  },
-  "put k2 ca p2 cb l2": {
-    "preconditions": [
-      "top cb p2",
-      "holding k2 ca"
-    ],
-    "delete-effects": [
-      "not (holding k2 ca)",
-      "not (top cb p2)"
-    ],
-    "add-effects": [
-      "on ca cb",
-      "empty k2",
-      "top ca p2",
-      "in ca p2"
-    ]
-  },
-  "take k1 cb q1 cf l1": {
-    "preconditions": [
-      "empty k1",
-      "in cb q1",
-      "on cb cf",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (on cb cf)",
-      "not (in cb q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top cf q1"
-    ]
-  },
-  "take k1 cf p1 ce l1": {
-    "preconditions": [
-      "top cf p1",
-      "in cf p1",
-      "empty k1",
-      "on cf ce"
-    ],
-    "delete-effects": [
-      "not (on cf ce)",
-      "not (in cf p1)",
-      "not (top cf p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top ce p1"
-    ]
-  },
-  "put k1 cf p1 pallet l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (top pallet p1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "on cf pallet",
-      "empty k1",
-      "top cf p1",
-      "in cf p1"
-    ]
-  },
-  "take k2 cf p2 cd l2": {
-    "preconditions": [
-      "on cf cd",
-      "top cf p2",
-      "empty k2",
-      "in cf p2"
-    ],
-    "delete-effects": [
-      "not (in cf p2)",
-      "not (top cf p2)",
-      "not (empty k2)",
-      "not (on cf cd)"
-    ],
-    "add-effects": [
-      "top cd p2",
-      "holding k2 cf"
-    ]
-  },
-  "put k2 pallet q2 cf l2": {
-    "preconditions": [
-      "holding k2 pallet",
-      "top cf q2"
-    ],
-    "delete-effects": [
-      "not (top cf q2)",
-      "not (holding k2 pallet)"
-    ],
-    "add-effects": [
-      "on pallet cf",
-      "in pallet q2",
-      "empty k2",
-      "top pallet q2"
-    ]
-  },
-  "take k2 cb q2 ce l2": {
-    "preconditions": [
-      "on cb ce",
-      "top cb q2",
-      "empty k2",
-      "in cb q2"
-    ],
-    "delete-effects": [
-      "not (in cb q2)",
-      "not (top cb q2)",
-      "not (empty k2)",
-      "not (on cb ce)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top ce q2"
-    ]
-  },
-  "put k2 cc p2 pallet l2": {
-    "preconditions": [
-      "top pallet p2",
-      "holding k2 cc"
-    ],
-    "delete-effects": [
-      "not (holding k2 cc)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
-      "on cc pallet",
-      "empty k2",
-      "in cc p2",
-      "top cc p2"
-    ]
-  },
-  "take k1 cd p1 cd l1": {
-    "preconditions": [
-      "on cd cd",
-      "in cd p1",
-      "empty k1",
-      "top cd p1"
-    ],
-    "delete-effects": [
-      "not (top cd p1)",
-      "not (in cd p1)",
-      "not (on cd cd)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top cd p1"
-    ]
-  },
-  "take k1 pallet p1 cd l1": {
-    "preconditions": [
-      "on pallet cd",
-      "empty k1",
-      "in pallet p1",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (on pallet cd)",
-      "not (top pallet p1)",
-      "not (in pallet p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 pallet",
-      "top cd p1"
-    ]
-  },
-  "put k1 ce p1 ce l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top ce p1"
-    ],
-    "delete-effects": [
-      "not (top ce p1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in ce p1",
-      "on ce ce",
-      "top ce p1"
-    ]
-  },
-  "put k2 ca q2 ce l2": {
-    "preconditions": [
-      "holding k2 ca",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "in ca q2",
-      "on ca ce",
-      "top ca q2"
-    ]
-  },
-  "unload k2 ce r1 l2": {
-    "preconditions": [
-      "loaded r1 ce",
-      "at r1 l2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (loaded r1 ce)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "unloaded r1",
-      "holding k2 ce"
-    ]
-  },
-  "take k2 ce q2 cd l2": {
-    "preconditions": [
-      "in ce q2",
-      "top ce q2",
-      "empty k2",
-      "on ce cd"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (in ce q2)",
-      "not (on ce cd)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ce",
-      "top cd q2"
-    ]
-  },
-  "take k1 cf q1 cb l1": {
-    "preconditions": [
-      "in cf q1",
-      "top cf q1",
-      "empty k1",
-      "on cf cb"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (in cf q1)",
-      "not (on cf cb)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top cb q1"
-    ]
-  },
-  "take k2 ce p2 cf l2": {
-    "preconditions": [
-      "top ce p2",
-      "in ce p2",
-      "on ce cf",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in ce p2)",
-      "not (top ce p2)",
-      "not (empty k2)",
-      "not (on ce cf)"
-    ],
-    "add-effects": [
-      "holding k2 ce",
-      "top cf p2"
-    ]
-  },
-  "take k1 cc p1 cf l1": {
-    "preconditions": [
-      "top cc p1",
-      "in cc p1",
-      "on cc cf",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cc p1)",
-      "not (on cc cf)",
-      "not (top cc p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top cf p1"
-    ]
-  },
-  "take k1 cc q1 cd l1": {
-    "preconditions": [
-      "top cc q1",
-      "empty k1",
-      "on cc cd",
-      "in cc q1"
-    ],
-    "delete-effects": [
-      "not (in cc q1)",
-      "not (on cc cd)",
-      "not (empty k1)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top cd q1"
-    ]
-  },
-  "take k1 cd p1 pallet l1": {
-    "preconditions": [
-      "on cd pallet",
-      "in cd p1",
-      "empty k1",
-      "top cd p1"
-    ],
-    "delete-effects": [
-      "not (top cd p1)",
-      "not (in cd p1)",
-      "not (empty k1)",
-      "not (on cd pallet)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top pallet p1"
-    ]
-  },
-  "put k1 cb q1 cd l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top cd q1"
-    ],
-    "delete-effects": [
-      "not (top cd q1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cb cd",
-      "in cb q1",
-      "top cb q1"
-    ]
-  },
-  "put k1 ce q1 cb l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "on ce cb",
-      "in ce q1",
-      "empty k1",
-      "top ce q1"
-    ]
-  },
-  "put k2 cd p2 cf l2": {
-    "preconditions": [
-      "top cf p2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top cf p2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "in cd p2",
-      "top cd p2",
-      "empty k2",
-      "on cd cf"
-    ]
-  },
-  "put k1 cb p1 cf l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top cf p1"
-    ],
-    "delete-effects": [
-      "not (top cf p1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top cb p1",
-      "in cb p1",
-      "on cb cf"
-    ]
-  },
-  "put k2 cd q2 cd l2": {
-    "preconditions": [
-      "top cd q2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cd cd",
-      "in cd q2",
-      "top cd q2"
-    ]
-  },
-  "put k1 ca q1 ce l1": {
-    "preconditions": [
-      "holding k1 ca",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (top ce q1)",
-      "not (holding k1 ca)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in ca q1",
-      "top ca q1",
-      "on ca ce"
-    ]
-  },
-  "put k1 ce p1 pallet l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (holding k1 ce)",
-      "not (top pallet p1)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on ce pallet",
-      "in ce p1",
-      "top ce p1"
-    ]
-  },
-  "put k2 cc q2 ce l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cc ce",
-      "top cc q2",
-      "in cc q2"
-    ]
-  },
-  "put k2 ca q2 cd l2": {
-    "preconditions": [
-      "holding k2 ca",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca cd",
-      "in ca q2",
-      "top ca q2"
-    ]
-  },
-  "take k2 pallet q2 pallet l2": {
-    "preconditions": [
-      "on pallet pallet",
-      "empty k2",
-      "in pallet q2",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (top pallet q2)",
-      "not (in pallet q2)",
-      "not (empty k2)",
-      "not (on pallet pallet)"
-    ],
-    "add-effects": [
-      "holding k2 pallet",
-      "top pallet q2"
-    ]
-  },
-  "unload k2 cf r1 l2": {
-    "preconditions": [
-      "at r1 l2",
       "loaded r1 cf",
-      "empty k2"
+      "at r1 l4",
+      "empty k3"
     ],
     "delete-effects": [
       "not (loaded r1 cf)",
-      "not (empty k2)"
+      "not (empty k3)"
     ],
     "add-effects": [
-      "unloaded r1",
-      "holding k2 cf"
-    ]
-  },
-  "take k1 ca q1 pallet l1": {
-    "preconditions": [
-      "in ca q1",
-      "top ca q1",
-      "on ca pallet",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (in ca q1)",
-      "not (empty k1)",
-      "not (on ca pallet)"
-    ],
-    "add-effects": [
-      "holding k1 ca",
-      "top pallet q1"
-    ]
-  },
-  "take k2 ca p2 pallet l2": {
-    "preconditions": [
-      "on ca pallet",
-      "top ca p2",
-      "empty k2",
-      "in ca p2"
-    ],
-    "delete-effects": [
-      "not (in ca p2)",
-      "not (top ca p2)",
-      "not (empty k2)",
-      "not (on ca pallet)"
-    ],
-    "add-effects": [
-      "top pallet p2",
-      "holding k2 ca"
-    ]
-  },
-  "take k1 ca q1 cb l1": {
-    "preconditions": [
-      "in ca q1",
-      "top ca q1",
-      "empty k1",
-      "on ca cb"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (in ca q1)",
-      "not (on ca cb)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 ca",
-      "top cb q1"
-    ]
-  },
-  "take k1 pallet q1 cf l1": {
-    "preconditions": [
-      "top pallet q1",
-      "in pallet q1",
-      "empty k1",
-      "on pallet cf"
-    ],
-    "delete-effects": [
-      "not (in pallet q1)",
-      "not (top pallet q1)",
-      "not (on pallet cf)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 pallet",
-      "top cf q1"
-    ]
-  },
-  "put k2 cb p2 pallet l2": {
-    "preconditions": [
-      "top pallet p2",
-      "holding k2 cb"
-    ],
-    "delete-effects": [
-      "not (holding k2 cb)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "on cb pallet",
-      "in cb p2",
-      "empty k2"
-    ]
-  },
-  "put k1 cb q1 cc l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top cc q1"
-    ],
-    "delete-effects": [
-      "not (top cc q1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in cb q1",
-      "on cb cc",
-      "top cb q1"
-    ]
-  },
-  "take k2 cc q2 cb l2": {
-    "preconditions": [
-      "top cc q2",
-      "in cc q2",
-      "empty k2",
-      "on cc cb"
-    ],
-    "delete-effects": [
-      "not (in cc q2)",
-      "not (top cc q2)",
-      "not (on cc cb)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top cb q2"
-    ]
-  },
-  "put k1 ce q1 cc l1": {
-    "preconditions": [
-      "top cc q1",
-      "holding k1 ce"
-    ],
-    "delete-effects": [
-      "not (holding k1 ce)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "in ce q1",
-      "on ce cc",
-      "empty k1",
-      "top ce q1"
-    ]
-  },
-  "take k1 cf p1 cf l1": {
-    "preconditions": [
-      "top cf p1",
-      "in cf p1",
-      "on cf cf",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cf p1)",
-      "not (on cf cf)",
-      "not (top cf p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top cf p1"
-    ]
-  },
-  "take k1 ce q1 ce l1": {
-    "preconditions": [
-      "on ce ce",
-      "in ce q1",
-      "empty k1",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (on ce ce)",
-      "not (top ce q1)",
-      "not (empty k1)",
-      "not (in ce q1)"
-    ],
-    "add-effects": [
-      "top ce q1",
-      "holding k1 ce"
-    ]
-  },
-  "put k2 cd q2 cc l2": {
-    "preconditions": [
-      "top cc q2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top cc q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "in cd q2",
-      "top cd q2",
-      "on cd cc"
-    ]
-  },
-  "put k1 cd p1 cf l1": {
-    "preconditions": [
-      "top cf p1",
-      "holding k1 cd"
-    ],
-    "delete-effects": [
-      "not (top cf p1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cd cf",
-      "in cd p1",
-      "top cd p1"
-    ]
-  },
-  "put k1 cd q1 cd l1": {
-    "preconditions": [
-      "top cd q1",
-      "holding k1 cd"
-    ],
-    "delete-effects": [
-      "not (top cd q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top cd q1",
-      "on cd cd",
-      "in cd q1"
-    ]
-  },
-  "take k2 cc p2 ca l2": {
-    "preconditions": [
-      "on cc ca",
-      "in cc p2",
-      "empty k2",
-      "top cc p2"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (in cc p2)",
-      "not (empty k2)",
-      "not (on cc ca)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top ca p2"
-    ]
-  },
-  "put k2 ca p2 cc l2": {
-    "preconditions": [
-      "holding k2 ca",
-      "top cc p2"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca cc",
-      "top ca p2",
-      "in ca p2"
-    ]
-  },
-  "take k2 cf p2 cc l2": {
-    "preconditions": [
-      "on cf cc",
-      "top cf p2",
-      "empty k2",
-      "in cf p2"
-    ],
-    "delete-effects": [
-      "not (in cf p2)",
-      "not (top cf p2)",
-      "not (on cf cc)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cf",
-      "top cc p2"
-    ]
-  },
-  "take k2 cf q2 ca l2": {
-    "preconditions": [
-      "top cf q2",
-      "in cf q2",
-      "on cf ca",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (on cf ca)",
-      "not (in cf q2)",
-      "not (top cf q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cf",
-      "top ca q2"
-    ]
-  },
-  "put k2 cf p2 cf l2": {
-    "preconditions": [
-      "holding k2 cf",
-      "top cf p2"
-    ],
-    "delete-effects": [
-      "not (top cf p2)",
-      "not (holding k2 cf)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cf cf",
-      "top cf p2",
-      "in cf p2"
-    ]
-  },
-  "put k2 cf q2 cd l2": {
-    "preconditions": [
-      "holding k2 cf",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 cf)"
-    ],
-    "add-effects": [
-      "on cf cd",
-      "empty k2",
-      "top cf q2",
-      "in cf q2"
-    ]
-  },
-  "take k1 pallet p1 ce l1": {
-    "preconditions": [
-      "empty k1",
-      "in pallet p1",
-      "on pallet ce",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (top pallet p1)",
-      "not (in pallet p1)",
-      "not (on pallet ce)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 pallet",
-      "top ce p1"
-    ]
-  },
-  "take k1 cd p1 cc l1": {
-    "preconditions": [
-      "in cd p1",
-      "empty k1",
-      "top cd p1",
-      "on cd cc"
-    ],
-    "delete-effects": [
-      "not (on cd cc)",
-      "not (top cd p1)",
-      "not (in cd p1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top cc p1"
-    ]
-  },
-  "take k1 cd q1 ca l1": {
-    "preconditions": [
-      "top cd q1",
-      "on cd ca",
-      "in cd q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cd q1)",
-      "not (top cd q1)",
-      "not (on cd ca)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top ca q1"
-    ]
-  },
-  "take k1 ca p1 ca l1": {
-    "preconditions": [
-      "on ca ca",
-      "empty k1",
-      "in ca p1",
-      "top ca p1"
-    ],
-    "delete-effects": [
-      "not (top ca p1)",
-      "not (in ca p1)",
-      "not (on ca ca)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 ca",
-      "top ca p1"
-    ]
-  },
-  "put k1 pallet q1 ce l1": {
-    "preconditions": [
-      "top ce q1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top ce q1)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on pallet ce",
-      "top pallet q1",
-      "in pallet q1"
-    ]
-  },
-  "take k2 cd q2 cf l2": {
-    "preconditions": [
-      "on cd cf",
-      "in cd q2",
-      "empty k2",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (in cd q2)",
-      "not (on cd cf)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top cf q2"
-    ]
-  },
-  "take k2 ce p2 ce l2": {
-    "preconditions": [
-      "top ce p2",
-      "in ce p2",
-      "on ce ce",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in ce p2)",
-      "not (on ce ce)",
-      "not (top ce p2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top ce p2",
-      "holding k2 ce"
-    ]
-  },
-  "take k1 ce q1 cf l1": {
-    "preconditions": [
-      "in ce q1",
-      "empty k1",
-      "on ce cf",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (top ce q1)",
-      "not (on ce cf)",
-      "not (empty k1)",
-      "not (in ce q1)"
-    ],
-    "add-effects": [
-      "holding k1 ce",
-      "top cf q1"
-    ]
-  },
-  "take k2 cb p2 pallet l2": {
-    "preconditions": [
-      "top cb p2",
-      "on cb pallet",
-      "in cb p2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (empty k2)",
-      "not (in cb p2)",
-      "not (top cb p2)",
-      "not (on cb pallet)"
-    ],
-    "add-effects": [
-      "top pallet p2",
-      "holding k2 cb"
-    ]
-  },
-  "take k2 ce q2 pallet l2": {
-    "preconditions": [
-      "on ce pallet",
-      "in ce q2",
-      "top ce q2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (in ce q2)",
-      "not (on ce pallet)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top pallet q2",
-      "holding k2 ce"
-    ]
-  },
-  "take k1 cc p1 ce l1": {
-    "preconditions": [
-      "on cc ce",
-      "top cc p1",
-      "in cc p1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cc p1)",
-      "not (top cc p1)",
-      "not (on cc ce)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top ce p1"
-    ]
-  },
-  "put k2 cb p2 ca l2": {
-    "preconditions": [
-      "top ca p2",
-      "holding k2 cb"
-    ],
-    "delete-effects": [
-      "not (top ca p2)",
-      "not (holding k2 cb)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "in cb p2",
-      "empty k2",
-      "on cb ca"
-    ]
-  },
-  "put k1 cb p1 ce l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top ce p1"
-    ],
-    "delete-effects": [
-      "not (top ce p1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "on cb ce",
-      "empty k1",
-      "top cb p1",
-      "in cb p1"
-    ]
-  },
-  "put k2 cd p2 ce l2": {
-    "preconditions": [
-      "top ce p2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top ce p2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "in cd p2",
-      "top cd p2",
-      "empty k2",
-      "on cd ce"
-    ]
-  },
-  "put k1 ce q1 ca l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top ca q1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "in ce q1",
-      "empty k1",
-      "top ce q1",
-      "on ce ca"
-    ]
-  },
-  "put k1 pallet q1 cd l1": {
-    "preconditions": [
-      "top cd q1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top cd q1)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top pallet q1",
-      "in pallet q1",
-      "on pallet cd"
-    ]
-  },
-  "put k1 cd q1 cf l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top cf q1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cd cf",
-      "top cd q1",
-      "in cd q1"
-    ]
-  },
-  "take k1 cf p1 cd l1": {
-    "preconditions": [
-      "top cf p1",
-      "in cf p1",
-      "on cf cd",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cf p1)",
-      "not (top cf p1)",
-      "not (empty k1)",
-      "not (on cf cd)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top cd p1"
-    ]
-  },
-  "put k2 ca q2 cc l2": {
-    "preconditions": [
-      "top cc q2",
-      "holding k2 ca"
-    ],
-    "delete-effects": [
-      "not (top cc q2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca cc",
-      "in ca q2",
-      "top ca q2"
-    ]
-  },
-  "put k2 pallet p2 pallet l2": {
-    "preconditions": [
-      "top pallet p2",
-      "holding k2 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k2 pallet)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
-      "top pallet p2",
-      "on pallet pallet",
-      "in pallet p2",
-      "empty k2"
-    ]
-  },
-  "take k1 cf p1 pallet l1": {
-    "preconditions": [
-      "top cf p1",
-      "in cf p1",
-      "empty k1",
-      "on cf pallet"
-    ],
-    "delete-effects": [
-      "not (in cf p1)",
-      "not (top cf p1)",
-      "not (on cf pallet)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top pallet p1"
-    ]
-  },
-  "put k2 cf q2 cf l2": {
-    "preconditions": [
-      "top cf q2",
-      "holding k2 cf"
-    ],
-    "delete-effects": [
-      "not (holding k2 cf)",
-      "not (top cf q2)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cf q2",
-      "in cf q2",
-      "on cf cf"
-    ]
-  },
-  "take k1 ce p1 pallet l1": {
-    "preconditions": [
-      "on ce pallet",
-      "in ce p1",
-      "top ce p1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top ce p1)",
-      "not (in ce p1)",
-      "not (on ce pallet)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "top pallet p1",
-      "holding k1 ce"
-    ]
-  },
-  "move r1 l1 l2": {
-    "preconditions": [
-      "at r1 l1",
-      "not (occupied l2)"
-    ],
-    "delete-effects": [
-      "not (occupied l1)",
-      "not (at r1 l1)"
-    ],
-    "add-effects": [
-      "occupied l2",
-      "at r1 l2"
-    ]
-  },
-  "take k1 pallet q1 ce l1": {
-    "preconditions": [
-      "top pallet q1",
-      "in pallet q1",
-      "empty k1",
-      "on pallet ce"
-    ],
-    "delete-effects": [
-      "not (in pallet q1)",
-      "not (top pallet q1)",
-      "not (on pallet ce)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "top ce q1",
-      "holding k1 pallet"
-    ]
-  },
-  "take k2 cc q2 ca l2": {
-    "preconditions": [
-      "top cc q2",
-      "in cc q2",
-      "on cc ca",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in cc q2)",
-      "not (top cc q2)",
-      "not (empty k2)",
-      "not (on cc ca)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top ca q2"
-    ]
-  },
-  "put k1 ce p1 cd l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top cd p1"
-    ],
-    "delete-effects": [
-      "not (top cd p1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on ce cd",
-      "in ce p1",
-      "top ce p1"
-    ]
-  },
-  "take k1 ca q1 ca l1": {
-    "preconditions": [
-      "in ca q1",
-      "top ca q1",
-      "on ca ca",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (on ca ca)",
-      "not (in ca q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 ca",
-      "top ca q1"
-    ]
-  },
-  "put k1 cd q1 ce l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (top ce q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "top cd q1",
-      "in cd q1",
-      "on cd ce"
-    ]
-  },
-  "take k2 ce q2 cc l2": {
-    "preconditions": [
-      "in ce q2",
-      "top ce q2",
-      "on ce cc",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (in ce q2)",
-      "not (empty k2)",
-      "not (on ce cc)"
-    ],
-    "add-effects": [
-      "top cc q2",
-      "holding k2 ce"
-    ]
-  },
-  "take k1 cf q1 cc l1": {
-    "preconditions": [
-      "in cf q1",
-      "on cf cc",
-      "top cf q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (in cf q1)",
-      "not (on cf cc)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cf",
-      "top cc q1"
-    ]
-  },
-  "put k2 ca p2 cd l2": {
-    "preconditions": [
-      "holding k2 ca",
-      "top cd p2"
-    ],
-    "delete-effects": [
-      "not (holding k2 ca)",
-      "not (top cd p2)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca cd",
-      "top ca p2",
-      "in ca p2"
-    ]
-  },
-  "take k2 cc p2 cb l2": {
-    "preconditions": [
-      "in cc p2",
-      "empty k2",
-      "top cc p2",
-      "on cc cb"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (in cc p2)",
-      "not (on cc cb)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "holding k2 cc"
-    ]
-  },
-  "take k2 cf p2 cb l2": {
-    "preconditions": [
-      "top cf p2",
-      "empty k2",
-      "on cf cb",
-      "in cf p2"
-    ],
-    "delete-effects": [
-      "not (in cf p2)",
-      "not (top cf p2)",
-      "not (on cf cb)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "holding k2 cf"
-    ]
-  },
-  "take k1 cc q1 cc l1": {
-    "preconditions": [
-      "on cc cc",
-      "top cc q1",
-      "empty k1",
-      "in cc q1"
-    ],
-    "delete-effects": [
-      "not (on cc cc)",
-      "not (in cc q1)",
-      "not (empty k1)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "holding k1 cc"
-    ]
-  },
-  "put k2 cf q2 ce l2": {
-    "preconditions": [
-      "holding k2 cf",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 cf)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cf q2",
-      "in cf q2",
-      "on cf ce"
-    ]
-  },
-  "move r1 l2 l1": {
-    "preconditions": [
-      "not (occupied l1)",
-      "at r1 l2"
-    ],
-    "delete-effects": [
-      "not (at r1 l2)",
-      "not (occupied l2)"
-    ],
-    "add-effects": [
-      "at r1 l1",
-      "occupied l1"
-    ]
-  },
-  "take k1 cd p1 cb l1": {
-    "preconditions": [
-      "on cd cb",
-      "in cd p1",
-      "empty k1",
-      "top cd p1"
-    ],
-    "delete-effects": [
-      "not (top cd p1)",
-      "not (in cd p1)",
-      "not (empty k1)",
-      "not (on cd cb)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top cb p1"
-    ]
-  },
-  "take k1 pallet p1 cf l1": {
-    "preconditions": [
-      "empty k1",
-      "on pallet cf",
-      "in pallet p1",
-      "top pallet p1"
-    ],
-    "delete-effects": [
-      "not (top pallet p1)",
-      "not (in pallet p1)",
-      "not (on pallet cf)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "top cf p1",
-      "holding k1 pallet"
-    ]
-  },
-  "take k2 cd q2 pallet l2": {
-    "preconditions": [
-      "on cd pallet",
-      "in cd q2",
-      "empty k2",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (in cd q2)",
-      "not (empty k2)",
-      "not (on cd pallet)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top pallet q2"
-    ]
-  },
-  "put k1 ce p1 cc l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top cc p1"
-    ],
-    "delete-effects": [
-      "not (top cc p1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "on ce cc",
-      "empty k1",
-      "in ce p1",
-      "top ce p1"
-    ]
-  },
-  "take k1 ca p1 cb l1": {
-    "preconditions": [
-      "empty k1",
-      "on ca cb",
-      "in ca p1",
-      "top ca p1"
-    ],
-    "delete-effects": [
-      "not (top ca p1)",
-      "not (in ca p1)",
-      "not (on ca cb)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 ca",
-      "top cb p1"
-    ]
-  },
-  "put k1 pallet p1 cf l1": {
-    "preconditions": [
-      "top cf p1",
-      "holding k1 pallet"
-    ],
-    "delete-effects": [
-      "not (holding k1 pallet)",
-      "not (top cf p1)"
-    ],
-    "add-effects": [
-      "on pallet cf",
-      "empty k1",
-      "in pallet p1",
-      "top pallet p1"
-    ]
-  },
-  "unload k1 pallet r1 l1": {
-    "preconditions": [
-      "at r1 l1",
-      "empty k1",
-      "loaded r1 pallet"
-    ],
-    "delete-effects": [
-      "not (loaded r1 pallet)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "unloaded r1",
-      "holding k1 pallet"
-    ]
-  },
-  "put k2 cc q2 cf l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top cf q2"
-    ],
-    "delete-effects": [
-      "not (top cf q2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cc q2",
-      "in cc q2",
-      "on cc cf"
-    ]
-  },
-  "put k1 ca q1 cf l1": {
-    "preconditions": [
-      "holding k1 ca",
-      "top cf q1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 ca)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in ca q1",
-      "on ca cf",
-      "top ca q1"
-    ]
-  },
-  "take k2 cb p2 cf l2": {
-    "preconditions": [
-      "top cb p2",
-      "in cb p2",
-      "empty k2",
-      "on cb cf"
-    ],
-    "delete-effects": [
-      "not (on cb cf)",
-      "not (empty k2)",
-      "not (in cb p2)",
-      "not (top cb p2)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top cf p2"
-    ]
-  },
-  "take k2 cb q2 cd l2": {
-    "preconditions": [
-      "on cb cd",
-      "top cb q2",
-      "empty k2",
-      "in cb q2"
-    ],
-    "delete-effects": [
-      "not (in cb q2)",
-      "not (top cb q2)",
-      "not (on cb cd)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top cd q2"
-    ]
-  },
-  "put k1 cb p1 cd l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top cd p1"
-    ],
-    "delete-effects": [
-      "not (top cd p1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cb cd",
-      "top cb p1",
-      "in cb p1"
-    ]
-  },
-  "put k1 cb q1 cb l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cb cb",
-      "in cb q1",
-      "top cb q1"
-    ]
-  },
-  "put k2 cd q2 cb l2": {
-    "preconditions": [
-      "top cb q2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "on cd cb",
-      "empty k2",
-      "in cd q2",
-      "top cd q2"
-    ]
-  },
-  "put k2 cd p2 cd l2": {
-    "preconditions": [
-      "top cd p2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (holding k2 cd)",
-      "not (top cd p2)"
-    ],
-    "add-effects": [
-      "in cd p2",
-      "top cd p2",
-      "empty k2",
-      "on cd cd"
-    ]
-  },
-  "take k2 cb p2 ce l2": {
-    "preconditions": [
-      "top cb p2",
-      "in cb p2",
-      "on cb ce",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (empty k2)",
-      "not (in cb p2)",
-      "not (on cb ce)",
-      "not (top cb p2)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top ce p2"
-    ]
-  },
-  "put k1 ca q1 cc l1": {
-    "preconditions": [
-      "top cc q1",
-      "holding k1 ca"
-    ],
-    "delete-effects": [
-      "not (holding k1 ca)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in ca q1",
-      "on ca cc",
-      "top ca q1"
-    ]
-  },
-  "put k2 cc q2 cc l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top cc q2"
-    ],
-    "delete-effects": [
-      "not (top cc q2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "top cc q2",
-      "on cc cc",
-      "in cc q2"
-    ]
-  },
-  "put k2 ce p2 ca l2": {
-    "preconditions": [
-      "top ca p2",
-      "holding k2 ce"
-    ],
-    "delete-effects": [
-      "not (top ca p2)",
-      "not (holding k2 ce)"
-    ],
-    "add-effects": [
-      "on ce ca",
-      "empty k2",
-      "top ce p2",
-      "in ce p2"
-    ]
-  },
-  "take k2 cf q2 cd l2": {
-    "preconditions": [
-      "top cf q2",
-      "in cf q2",
-      "on cf cd",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in cf q2)",
-      "not (top cf q2)",
-      "not (empty k2)",
-      "not (on cf cd)"
-    ],
-    "add-effects": [
-      "holding k2 cf",
-      "top cd q2"
-    ]
-  },
-  "take k1 cd q1 cd l1": {
-    "preconditions": [
-      "top cd q1",
-      "on cd cd",
-      "in cd q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cd q1)",
-      "not (on cd cd)",
-      "not (top cd q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top cd q1"
-    ]
-  },
-  "put k1 ce q1 ce l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (holding k1 ce)",
-      "not (top ce q1)"
-    ],
-    "add-effects": [
-      "in ce q1",
-      "empty k1",
-      "top ce q1",
-      "on ce ce"
-    ]
-  },
-  "put k1 cb q1 ca l1": {
-    "preconditions": [
-      "holding k1 cb",
-      "top ca q1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (holding k1 cb)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in cb q1",
-      "top cb q1",
-      "on cb ca"
-    ]
-  },
-  "unload k2 pallet r1 l2": {
-    "preconditions": [
-      "at r1 l2",
-      "empty k2",
-      "loaded r1 pallet"
-    ],
-    "delete-effects": [
-      "not (loaded r1 pallet)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "unloaded r1",
-      "holding k2 pallet"
-    ]
-  },
-  "put k1 ca p1 cf l1": {
-    "preconditions": [
-      "top cf p1",
-      "holding k1 ca"
-    ],
-    "delete-effects": [
-      "not (top cf p1)",
-      "not (holding k1 ca)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on ca cf",
-      "in ca p1",
-      "top ca p1"
-    ]
-  },
-  "put k2 cd q2 ca l2": {
-    "preconditions": [
-      "holding k2 cd",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cd ca",
-      "in cd q2",
-      "top cd q2"
-    ]
-  },
-  "put k2 cc p2 cf l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top cf p2"
-    ],
-    "delete-effects": [
-      "not (top cf p2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cc cf",
-      "in cc p2",
-      "top cc p2"
-    ]
-  },
-  "take k2 pallet p2 cb l2": {
-    "preconditions": [
-      "top pallet p2",
-      "in pallet p2",
-      "on pallet cb",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (on pallet cb)",
-      "not (empty k2)",
-      "not (in pallet p2)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
-      "top cb p2",
-      "holding k2 pallet"
-    ]
-  },
-  "take k2 cb q2 cb l2": {
-    "preconditions": [
-      "on cb cb",
-      "top cb q2",
-      "empty k2",
-      "in cb q2"
-    ],
-    "delete-effects": [
-      "not (in cb q2)",
-      "not (top cb q2)",
-      "not (on cb cb)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cb",
-      "top cb q2"
-    ]
-  },
-  "put k2 cb q2 ce l2": {
-    "preconditions": [
-      "holding k2 cb",
-      "top ce q2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (holding k2 cb)"
-    ],
-    "add-effects": [
-      "on cb ce",
-      "empty k2",
-      "top cb q2",
-      "in cb q2"
+      "holding k3 cf",
+      "unloaded r1"
     ]
   },
   "put k1 cc p1 ca l1": {
@@ -3844,7 +518,7 @@
       "top cc p1"
     ]
   },
-  "put k2 cf p2 pallet l2": {
+  "put k2 cf p2 pallet l3": {
     "preconditions": [
       "top pallet p2",
       "holding k2 cf"
@@ -3858,24 +532,6 @@
       "empty k2",
       "top cf p2",
       "in cf p2"
-    ]
-  },
-  "take k2 cc p2 cc l2": {
-    "preconditions": [
-      "on cc cc",
-      "in cc p2",
-      "empty k2",
-      "top cc p2"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (in cc p2)",
-      "not (on cc cc)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top cc p2"
     ]
   },
   "take k1 ce p1 cd l1": {
@@ -3896,40 +552,105 @@
       "top cd p1"
     ]
   },
-  "take k1 ce q1 cb l1": {
+  "take k2 cc p2 cc l3": {
     "preconditions": [
-      "on ce cb",
-      "in ce q1",
-      "empty k1",
-      "top ce q1"
-    ],
-    "delete-effects": [
-      "not (top ce q1)",
-      "not (empty k1)",
-      "not (in ce q1)",
-      "not (on ce cb)"
-    ],
-    "add-effects": [
-      "holding k1 ce",
-      "top cb q1"
-    ]
-  },
-  "take k2 cb q2 cc l2": {
-    "preconditions": [
-      "top cb q2",
-      "on cb cc",
+      "on cc cc",
+      "in cc p2",
       "empty k2",
-      "in cb q2"
+      "top cc p2"
     ],
     "delete-effects": [
-      "not (in cb q2)",
-      "not (on cb cc)",
-      "not (top cb q2)",
+      "not (top cc p2)",
+      "not (in cc p2)",
+      "not (on cc cc)",
       "not (empty k2)"
     ],
     "add-effects": [
-      "holding k2 cb",
-      "top cc q2"
+      "holding k2 cc",
+      "top cc p2"
+    ]
+  },
+  "unload k1 ce r1 l1": {
+    "preconditions": [
+      "at r1 l1",
+      "loaded r1 ce",
+      "empty k1"
+    ],
+    "delete-effects": [
+      "not (loaded r1 ce)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "unloaded r1",
+      "holding k1 ce"
+    ]
+  },
+  "take k1 cb p1 cf l1": {
+    "preconditions": [
+      "top cb p1",
+      "empty k1",
+      "in cb p1",
+      "on cb cf"
+    ],
+    "delete-effects": [
+      "not (in cb p1)",
+      "not (on cb cf)",
+      "not (top cb p1)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cb",
+      "top cf p1"
+    ]
+  },
+  "take k2 cd p2 cf l3": {
+    "preconditions": [
+      "on cd cf",
+      "in cd p2",
+      "top cd p2",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (on cd cf)",
+      "not (empty k2)",
+      "not (top cd p2)",
+      "not (in cd p2)"
+    ],
+    "add-effects": [
+      "holding k2 cd",
+      "top cf p2"
+    ]
+  },
+  "put k1 pallet p1 ce l1": {
+    "preconditions": [
+      "holding k1 pallet",
+      "top ce p1"
+    ],
+    "delete-effects": [
+      "not (top ce p1)",
+      "not (holding k1 pallet)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "in pallet p1",
+      "on pallet ce",
+      "top pallet p1"
+    ]
+  },
+  "put k3 pallet p3 cb l4": {
+    "preconditions": [
+      "holding k3 pallet",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (holding k3 pallet)"
+    ],
+    "add-effects": [
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet cb",
+      "empty k3"
     ]
   },
   "take k1 cf p1 cc l1": {
@@ -3950,23 +671,22 @@
       "top cc p1"
     ]
   },
-  "put k2 pallet q2 pallet l2": {
+  "unload k3 ce r1 l4": {
     "preconditions": [
-      "holding k2 pallet",
-      "top pallet q2"
+      "loaded r1 ce",
+      "at r1 l4",
+      "empty k3"
     ],
     "delete-effects": [
-      "not (top pallet q2)",
-      "not (holding k2 pallet)"
+      "not (empty k3)",
+      "not (loaded r1 ce)"
     ],
     "add-effects": [
-      "on pallet pallet",
-      "in pallet q2",
-      "empty k2",
-      "top pallet q2"
+      "unloaded r1",
+      "holding k3 ce"
     ]
   },
-  "take k2 cc p2 pallet l2": {
+  "take k2 cc p2 pallet l3": {
     "preconditions": [
       "in cc p2",
       "empty k2",
@@ -3984,7 +704,7 @@
       "holding k2 cc"
     ]
   },
-  "take k2 pallet p2 cc l2": {
+  "take k2 pallet p2 cc l3": {
     "preconditions": [
       "top pallet p2",
       "in pallet p2",
@@ -4002,7 +722,23 @@
       "top cc p2"
     ]
   },
-  "take k2 cf p2 cf l2": {
+  "put k3 ca p3 cc l4": {
+    "preconditions": [
+      "holding k3 ca",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (holding k3 ca)"
+    ],
+    "add-effects": [
+      "on ca cc",
+      "top ca p3",
+      "in ca p3",
+      "empty k3"
+    ]
+  },
+  "take k2 cf p2 cf l3": {
     "preconditions": [
       "on cf cf",
       "top cf p2",
@@ -4020,20 +756,20 @@
       "top cf p2"
     ]
   },
-  "put k2 cb q2 cf l2": {
+  "put k3 cb p3 cb l4": {
     "preconditions": [
-      "top cf q2",
-      "holding k2 cb"
+      "holding k3 cb",
+      "top cb p3"
     ],
     "delete-effects": [
-      "not (top cf q2)",
-      "not (holding k2 cb)"
+      "not (top cb p3)",
+      "not (holding k3 cb)"
     ],
     "add-effects": [
-      "empty k2",
-      "top cb q2",
-      "in cb q2",
-      "on cb cf"
+      "on cb cb",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
     ]
   },
   "take k1 cd p1 cf l1": {
@@ -4054,26 +790,10 @@
       "top cf p1"
     ]
   },
-  "put k1 cf q1 cb l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "on cf cb",
-      "in cf q1",
-      "top cf q1"
-    ]
-  },
-  "unload k2 cb r1 l2": {
+  "unload k2 cb r1 l3": {
     "preconditions": [
       "loaded r1 cb",
-      "at r1 l2",
+      "at r1 l3",
       "empty k2"
     ],
     "delete-effects": [
@@ -4083,6 +803,42 @@
     "add-effects": [
       "unloaded r1",
       "holding k2 cb"
+    ]
+  },
+  "take k3 cf p3 ce l4": {
+    "preconditions": [
+      "in cf p3",
+      "top cf p3",
+      "empty k3",
+      "on cf ce"
+    ],
+    "delete-effects": [
+      "not (on cf ce)",
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (in cf p3)"
+    ],
+    "add-effects": [
+      "holding k3 cf",
+      "top ce p3"
+    ]
+  },
+  "take k2 ca p2 ca l3": {
+    "preconditions": [
+      "on ca ca",
+      "top ca p2",
+      "empty k2",
+      "in ca p2"
+    ],
+    "delete-effects": [
+      "not (in ca p2)",
+      "not (top ca p2)",
+      "not (on ca ca)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "holding k2 ca",
+      "top ca p2"
     ]
   },
   "unload k1 cd r1 l1": {
@@ -4134,36 +890,40 @@
       "top cb p1"
     ]
   },
-  "put k2 ce p2 cb l2": {
+  "take k3 cc p3 ca l4": {
     "preconditions": [
-      "top cb p2",
-      "holding k2 ce"
+      "in cc p3",
+      "empty k3",
+      "top cc p3",
+      "on cc ca"
     ],
     "delete-effects": [
-      "not (holding k2 ce)",
-      "not (top cb p2)"
+      "not (top cc p3)",
+      "not (empty k3)",
+      "not (in cc p3)",
+      "not (on cc ca)"
     ],
     "add-effects": [
-      "on ce cb",
-      "empty k2",
-      "top ce p2",
-      "in ce p2"
+      "holding k3 cc",
+      "top ca p3"
     ]
   },
-  "put k2 cc q2 cb l2": {
+  "take k1 cb p1 ce l1": {
     "preconditions": [
-      "holding k2 cc",
-      "top cb q2"
+      "on cb ce",
+      "top cb p1",
+      "empty k1",
+      "in cb p1"
     ],
     "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 cc)"
+      "not (in cb p1)",
+      "not (top cb p1)",
+      "not (empty k1)",
+      "not (on cb ce)"
     ],
     "add-effects": [
-      "empty k2",
-      "on cc cb",
-      "top cc q2",
-      "in cc q2"
+      "holding k1 cb",
+      "top ce p1"
     ]
   },
   "put k1 cb p1 cc l1": {
@@ -4200,6 +960,42 @@
       "top ce p1"
     ]
   },
+  "take k2 cd p2 ce l3": {
+    "preconditions": [
+      "in cd p2",
+      "top cd p2",
+      "on cd ce",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (on cd ce)",
+      "not (empty k2)",
+      "not (top cd p2)",
+      "not (in cd p2)"
+    ],
+    "add-effects": [
+      "holding k2 cd",
+      "top ce p2"
+    ]
+  },
+  "take k3 cb p3 pallet l4": {
+    "preconditions": [
+      "on cb pallet",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (in cb p3)",
+      "not (empty k3)",
+      "not (on cb pallet)"
+    ],
+    "add-effects": [
+      "top pallet p3",
+      "holding k3 cb"
+    ]
+  },
   "put k1 cf p1 cf l1": {
     "preconditions": [
       "holding k1 cf",
@@ -4216,52 +1012,121 @@
       "on cf cf"
     ]
   },
-  "put k2 cd p2 cc l2": {
+  "unload k2 pallet r1 l3": {
     "preconditions": [
-      "top cc p2",
-      "holding k2 cd"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (holding k2 cd)"
-    ],
-    "add-effects": [
-      "in cd p2",
-      "top cd p2",
+      "at r1 l3",
       "empty k2",
-      "on cd cc"
-    ]
-  },
-  "put k1 ca q1 pallet l1": {
-    "preconditions": [
-      "holding k1 ca",
-      "top pallet q1"
+      "loaded r1 pallet"
     ],
     "delete-effects": [
-      "not (top pallet q1)",
-      "not (holding k1 ca)"
+      "not (loaded r1 pallet)",
+      "not (empty k2)"
     ],
     "add-effects": [
-      "on ca pallet",
-      "empty k1",
-      "in ca q1",
-      "top ca q1"
+      "unloaded r1",
+      "holding k2 pallet"
     ]
   },
-  "put k1 ca q1 cb l1": {
+  "take k1 cc p1 cd l1": {
     "preconditions": [
-      "holding k1 ca",
-      "top cb q1"
+      "top cc p1",
+      "in cc p1",
+      "empty k1",
+      "on cc cd"
     ],
     "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 ca)"
+      "not (in cc p1)",
+      "not (top cc p1)",
+      "not (on cc cd)",
+      "not (empty k1)"
     ],
     "add-effects": [
-      "on ca cb",
-      "empty k1",
-      "in ca q1",
-      "top ca q1"
+      "holding k1 cc",
+      "top cd p1"
+    ]
+  },
+  "take k2 ce p2 cd l3": {
+    "preconditions": [
+      "top ce p2",
+      "in ce p2",
+      "empty k2",
+      "on ce cd"
+    ],
+    "delete-effects": [
+      "not (in ce p2)",
+      "not (top ce p2)",
+      "not (on ce cd)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "top cd p2",
+      "holding k2 ce"
+    ]
+  },
+  "put k2 pallet p2 ce l3": {
+    "preconditions": [
+      "holding k2 pallet",
+      "top ce p2"
+    ],
+    "delete-effects": [
+      "not (top ce p2)",
+      "not (holding k2 pallet)"
+    ],
+    "add-effects": [
+      "top pallet p2",
+      "in pallet p2",
+      "on pallet ce",
+      "empty k2"
+    ]
+  },
+  "put k3 cd p3 cb l4": {
+    "preconditions": [
+      "holding k3 cd",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (holding k3 cd)"
+    ],
+    "add-effects": [
+      "on cd cb",
+      "top cd p3",
+      "in cd p3",
+      "empty k3"
+    ]
+  },
+  "put k2 cb p2 cb l3": {
+    "preconditions": [
+      "top cb p2",
+      "holding k2 cb"
+    ],
+    "delete-effects": [
+      "not (holding k2 cb)",
+      "not (top cb p2)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "in cb p2",
+      "empty k2",
+      "on cb cb"
+    ]
+  },
+  "take k3 cc p3 cf l4": {
+    "preconditions": [
+      "in cc p3",
+      "empty k3",
+      "top cc p3",
+      "on cc cf"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (on cc cf)",
+      "not (empty k3)",
+      "not (in cc p3)"
+    ],
+    "add-effects": [
+      "holding k3 cc",
+      "top cf p3"
     ]
   },
   "take k1 pallet p1 pallet l1": {
@@ -4282,25 +1147,55 @@
       "holding k1 pallet"
     ]
   },
-  "take k2 ca q2 cd l2": {
+  "put k2 cc p2 ca l3": {
     "preconditions": [
-      "on ca cd",
-      "in ca q2",
-      "empty k2",
-      "top ca q2"
+      "holding k2 cc",
+      "top ca p2"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (in ca q2)",
-      "not (on ca cd)",
-      "not (empty k2)"
+      "not (top ca p2)",
+      "not (holding k2 cc)"
     ],
     "add-effects": [
-      "holding k2 ca",
-      "top cd q2"
+      "on cc ca",
+      "empty k2",
+      "in cc p2",
+      "top cc p2"
     ]
   },
-  "take k2 ca p2 cf l2": {
+  "put k1 cf p1 ca l1": {
+    "preconditions": [
+      "holding k1 cf",
+      "top ca p1"
+    ],
+    "delete-effects": [
+      "not (top ca p1)",
+      "not (holding k1 cf)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "top cf p1",
+      "in cf p1",
+      "on cf ca"
+    ]
+  },
+  "put k3 ce p3 ca l4": {
+    "preconditions": [
+      "top ca p3",
+      "holding k3 ce"
+    ],
+    "delete-effects": [
+      "not (top ca p3)",
+      "not (holding k3 ce)"
+    ],
+    "add-effects": [
+      "top ce p3",
+      "on ce ca",
+      "in ce p3",
+      "empty k3"
+    ]
+  },
+  "take k2 ca p2 cf l3": {
     "preconditions": [
       "on ca cf",
       "top ca p2",
@@ -4318,7 +1213,39 @@
       "top cf p2"
     ]
   },
-  "take k2 ce p2 pallet l2": {
+  "put k1 ca p1 pallet l1": {
+    "preconditions": [
+      "holding k1 ca",
+      "top pallet p1"
+    ],
+    "delete-effects": [
+      "not (top pallet p1)",
+      "not (holding k1 ca)"
+    ],
+    "add-effects": [
+      "on ca pallet",
+      "empty k1",
+      "in ca p1",
+      "top ca p1"
+    ]
+  },
+  "put k1 ca p1 ca l1": {
+    "preconditions": [
+      "holding k1 ca",
+      "top ca p1"
+    ],
+    "delete-effects": [
+      "not (top ca p1)",
+      "not (holding k1 ca)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on ca ca",
+      "in ca p1",
+      "top ca p1"
+    ]
+  },
+  "take k2 ce p2 pallet l3": {
     "preconditions": [
       "top ce p2",
       "on ce pallet",
@@ -4336,25 +1263,55 @@
       "holding k2 ce"
     ]
   },
-  "take k1 cf q1 ca l1": {
+  "put k1 ce p1 cb l1": {
     "preconditions": [
-      "in cf q1",
-      "top cf q1",
-      "on cf ca",
-      "empty k1"
+      "top cb p1",
+      "holding k1 ce"
     ],
     "delete-effects": [
-      "not (top cf q1)",
-      "not (on cf ca)",
-      "not (in cf q1)",
-      "not (empty k1)"
+      "not (top cb p1)",
+      "not (holding k1 ce)"
     ],
     "add-effects": [
-      "holding k1 cf",
-      "top ca q1"
+      "on ce cb",
+      "empty k1",
+      "in ce p1",
+      "top ce p1"
     ]
   },
-  "put k2 cd p2 cb l2": {
+  "put k1 cc p1 pallet l1": {
+    "preconditions": [
+      "holding k1 cc",
+      "top pallet p1"
+    ],
+    "delete-effects": [
+      "not (top pallet p1)",
+      "not (holding k1 cc)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on cc pallet",
+      "top cc p1",
+      "in cc p1"
+    ]
+  },
+  "put k3 cc p3 cf l4": {
+    "preconditions": [
+      "holding k3 cc",
+      "top cf p3"
+    ],
+    "delete-effects": [
+      "not (top cf p3)",
+      "not (holding k3 cc)"
+    ],
+    "add-effects": [
+      "in cc p3",
+      "top cc p3",
+      "on cc cf",
+      "empty k3"
+    ]
+  },
+  "put k2 cd p2 cb l3": {
     "preconditions": [
       "top cb p2",
       "holding k2 cd"
@@ -4368,6 +1325,40 @@
       "top cd p2",
       "on cd cb",
       "empty k2"
+    ]
+  },
+  "take k3 ce p3 cd l4": {
+    "preconditions": [
+      "empty k3",
+      "top ce p3",
+      "in ce p3",
+      "on ce cd"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in ce p3)",
+      "not (on ce cd)",
+      "not (top ce p3)"
+    ],
+    "add-effects": [
+      "holding k3 ce",
+      "top cd p3"
+    ]
+  },
+  "put k2 ca p2 cf l3": {
+    "preconditions": [
+      "top cf p2",
+      "holding k2 ca"
+    ],
+    "delete-effects": [
+      "not (top cf p2)",
+      "not (holding k2 ca)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "on ca cf",
+      "top ca p2",
+      "in ca p2"
     ]
   },
   "take k1 cf p1 ca l1": {
@@ -4388,43 +1379,7 @@
       "top ca p1"
     ]
   },
-  "take k2 ca q2 cf l2": {
-    "preconditions": [
-      "on ca cf",
-      "in ca q2",
-      "empty k2",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (in ca q2)",
-      "not (on ca cf)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ca",
-      "top cf q2"
-    ]
-  },
-  "take k2 ce q2 ce l2": {
-    "preconditions": [
-      "in ce q2",
-      "on ce ce",
-      "top ce q2",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (top ce q2)",
-      "not (on ce ce)",
-      "not (in ce q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ce",
-      "top ce q2"
-    ]
-  },
-  "take k2 pallet p2 ca l2": {
+  "take k2 pallet p2 ca l3": {
     "preconditions": [
       "top pallet p2",
       "in pallet p2",
@@ -4442,40 +1397,38 @@
       "top ca p2"
     ]
   },
-  "take k1 cc q1 ce l1": {
+  "put k3 ca p3 ce l4": {
     "preconditions": [
-      "on cc ce",
-      "top cc q1",
-      "empty k1",
-      "in cc q1"
+      "top ce p3",
+      "holding k3 ca"
     ],
     "delete-effects": [
-      "not (on cc ce)",
-      "not (in cc q1)",
-      "not (empty k1)",
-      "not (top cc q1)"
+      "not (top ce p3)",
+      "not (holding k3 ca)"
     ],
     "add-effects": [
-      "top ce q1",
-      "holding k1 cc"
+      "top ca p3",
+      "in ca p3",
+      "empty k3",
+      "on ca ce"
     ]
   },
-  "take k2 cb q2 ca l2": {
+  "take k3 ca p3 ce l4": {
     "preconditions": [
-      "top cb q2",
-      "empty k2",
-      "in cb q2",
-      "on cb ca"
+      "top ca p3",
+      "empty k3",
+      "in ca p3",
+      "on ca ce"
     ],
     "delete-effects": [
-      "not (on cb ca)",
-      "not (in cb q2)",
-      "not (top cb q2)",
-      "not (empty k2)"
+      "not (on ca ce)",
+      "not (in ca p3)",
+      "not (empty k3)",
+      "not (top ca p3)"
     ],
     "add-effects": [
-      "holding k2 cb",
-      "top ca q2"
+      "holding k3 ca",
+      "top ce p3"
     ]
   },
   "take k1 ca p1 cd l1": {
@@ -4496,7 +1449,105 @@
       "top cd p1"
     ]
   },
-  "take k2 cc p2 cd l2": {
+  "put k3 ce p3 cd l4": {
+    "preconditions": [
+      "top cd p3",
+      "holding k3 ce"
+    ],
+    "delete-effects": [
+      "not (top cd p3)",
+      "not (holding k3 ce)"
+    ],
+    "add-effects": [
+      "top ce p3",
+      "in ce p3",
+      "on ce cd",
+      "empty k3"
+    ]
+  },
+  "move r1 l4 l3": {
+    "preconditions": [
+      "not (occupied l3)",
+      "at r1 l4"
+    ],
+    "delete-effects": [
+      "not (at r1 l4)",
+      "not (occupied l4)"
+    ],
+    "add-effects": [
+      "at r1 l3",
+      "occupied l3"
+    ]
+  },
+  "put k2 ca p2 pallet l3": {
+    "preconditions": [
+      "top pallet p2",
+      "holding k2 ca"
+    ],
+    "delete-effects": [
+      "not (holding k2 ca)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "on ca pallet",
+      "empty k2",
+      "top ca p2",
+      "in ca p2"
+    ]
+  },
+  "take k3 cc p3 cc l4": {
+    "preconditions": [
+      "in cc p3",
+      "on cc cc",
+      "empty k3",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (empty k3)",
+      "not (on cc cc)",
+      "not (in cc p3)"
+    ],
+    "add-effects": [
+      "holding k3 cc",
+      "top cc p3"
+    ]
+  },
+  "take k2 ca p2 cc l3": {
+    "preconditions": [
+      "on ca cc",
+      "top ca p2",
+      "empty k2",
+      "in ca p2"
+    ],
+    "delete-effects": [
+      "not (in ca p2)",
+      "not (top ca p2)",
+      "not (on ca cc)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "holding k2 ca",
+      "top cc p2"
+    ]
+  },
+  "put k2 cc p2 cd l3": {
+    "preconditions": [
+      "holding k2 cc",
+      "top cd p2"
+    ],
+    "delete-effects": [
+      "not (holding k2 cc)",
+      "not (top cd p2)"
+    ],
+    "add-effects": [
+      "on cc cd",
+      "empty k2",
+      "in cc p2",
+      "top cc p2"
+    ]
+  },
+  "take k2 cc p2 cd l3": {
     "preconditions": [
       "in cc p2",
       "on cc cd",
@@ -4514,38 +1565,104 @@
       "holding k2 cc"
     ]
   },
-  "take k1 ce q1 cc l1": {
+  "put k1 pallet p1 cd l1": {
     "preconditions": [
-      "in ce q1",
-      "on ce cc",
-      "empty k1",
-      "top ce q1"
+      "top cd p1",
+      "holding k1 pallet"
     ],
     "delete-effects": [
-      "not (top ce q1)",
-      "not (empty k1)",
-      "not (in ce q1)",
-      "not (on ce cc)"
+      "not (top cd p1)",
+      "not (holding k1 pallet)"
     ],
     "add-effects": [
-      "top cc q1",
-      "holding k1 ce"
+      "empty k1",
+      "in pallet p1",
+      "top pallet p1",
+      "on pallet cd"
     ]
   },
-  "put k1 ca q1 cd l1": {
+  "put k3 cf p3 pallet l4": {
     "preconditions": [
-      "holding k1 ca",
-      "top cd q1"
+      "top pallet p3",
+      "holding k3 cf"
     ],
     "delete-effects": [
-      "not (top cd q1)",
-      "not (holding k1 ca)"
+      "not (top pallet p3)",
+      "not (holding k3 cf)"
     ],
     "add-effects": [
+      "on cf pallet",
+      "in cf p3",
+      "top cf p3",
+      "empty k3"
+    ]
+  },
+  "put k3 pallet p3 cc l4": {
+    "preconditions": [
+      "holding k3 pallet",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (holding k3 pallet)"
+    ],
+    "add-effects": [
+      "in pallet p3",
+      "on pallet cc",
+      "top pallet p3",
+      "empty k3"
+    ]
+  },
+  "take k1 cc p1 cb l1": {
+    "preconditions": [
+      "top cc p1",
+      "in cc p1",
       "empty k1",
-      "in ca q1",
-      "top ca q1",
-      "on ca cd"
+      "on cc cb"
+    ],
+    "delete-effects": [
+      "not (in cc p1)",
+      "not (top cc p1)",
+      "not (on cc cb)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cc",
+      "top cb p1"
+    ]
+  },
+  "take k2 pallet p2 cf l3": {
+    "preconditions": [
+      "top pallet p2",
+      "in pallet p2",
+      "on pallet cf",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (empty k2)",
+      "not (on pallet cf)",
+      "not (in pallet p2)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "holding k2 pallet",
+      "top cf p2"
+    ]
+  },
+  "put k3 ca p3 pallet l4": {
+    "preconditions": [
+      "top pallet p3",
+      "holding k3 ca"
+    ],
+    "delete-effects": [
+      "not (top pallet p3)",
+      "not (holding k3 ca)"
+    ],
+    "add-effects": [
+      "on ca pallet",
+      "top ca p3",
+      "in ca p3",
+      "empty k3"
     ]
   },
   "load k1 cc r1 l1": {
@@ -4563,23 +1680,23 @@
       "loaded r1 cc"
     ]
   },
-  "put k2 cc q2 cd l2": {
+  "put k3 cb p3 pallet l4": {
     "preconditions": [
-      "holding k2 cc",
-      "top cd q2"
+      "top pallet p3",
+      "holding k3 cb"
     ],
     "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 cc)"
+      "not (holding k3 cb)",
+      "not (top pallet p3)"
     ],
     "add-effects": [
-      "on cc cd",
-      "empty k2",
-      "top cc q2",
-      "in cc q2"
+      "on cb pallet",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
     ]
   },
-  "put k2 ca p2 ca l2": {
+  "put k2 ca p2 ca l3": {
     "preconditions": [
       "top ca p2",
       "holding k2 ca"
@@ -4595,25 +1712,23 @@
       "in ca p2"
     ]
   },
-  "take k2 cf q2 cc l2": {
+  "put k3 cd p3 cd l4": {
     "preconditions": [
-      "top cf q2",
-      "on cf cc",
-      "in cf q2",
-      "empty k2"
+      "holding k3 cd",
+      "top cd p3"
     ],
     "delete-effects": [
-      "not (in cf q2)",
-      "not (on cf cc)",
-      "not (top cf q2)",
-      "not (empty k2)"
+      "not (top cd p3)",
+      "not (holding k3 cd)"
     ],
     "add-effects": [
-      "holding k2 cf",
-      "top cc q2"
+      "top cd p3",
+      "in cd p3",
+      "on cd cd",
+      "empty k3"
     ]
   },
-  "take k2 cf p2 ce l2": {
+  "take k2 cf p2 ce l3": {
     "preconditions": [
       "top cf p2",
       "empty k2",
@@ -4631,7 +1746,59 @@
       "holding k2 cf"
     ]
   },
-  "take k2 cb p2 cd l2": {
+  "take k3 cd p3 cd l4": {
+    "preconditions": [
+      "top cd p3",
+      "in cd p3",
+      "on cd cd",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (on cd cd)",
+      "not (top cd p3)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "top cd p3"
+    ]
+  },
+  "put k2 ce p2 cb l3": {
+    "preconditions": [
+      "top cb p2",
+      "holding k2 ce"
+    ],
+    "delete-effects": [
+      "not (holding k2 ce)",
+      "not (top cb p2)"
+    ],
+    "add-effects": [
+      "on ce cb",
+      "empty k2",
+      "top ce p2",
+      "in ce p2"
+    ]
+  },
+  "take k2 ce p2 cb l3": {
+    "preconditions": [
+      "top ce p2",
+      "on ce cb",
+      "in ce p2",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (in ce p2)",
+      "not (top ce p2)",
+      "not (empty k2)",
+      "not (on ce cb)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "holding k2 ce"
+    ]
+  },
+  "take k2 cb p2 cd l3": {
     "preconditions": [
       "on cb cd",
       "top cb p2",
@@ -4649,55 +1816,23 @@
       "holding k2 cb"
     ]
   },
-  "put k2 cd p2 pallet l2": {
+  "put k2 cb p2 cd l3": {
     "preconditions": [
-      "top pallet p2",
-      "holding k2 cd"
+      "holding k2 cb",
+      "top cd p2"
     ],
     "delete-effects": [
-      "not (holding k2 cd)",
-      "not (top pallet p2)"
+      "not (holding k2 cb)",
+      "not (top cd p2)"
     ],
     "add-effects": [
-      "in cd p2",
-      "top cd p2",
-      "on cd pallet",
-      "empty k2"
-    ]
-  },
-  "put k2 ce p2 pallet l2": {
-    "preconditions": [
-      "top pallet p2",
-      "holding k2 ce"
-    ],
-    "delete-effects": [
-      "not (holding k2 ce)",
-      "not (top pallet p2)"
-    ],
-    "add-effects": [
+      "top cb p2",
+      "in cb p2",
       "empty k2",
-      "top ce p2",
-      "on ce pallet",
-      "in ce p2"
+      "on cb cd"
     ]
   },
-  "put k1 cf q1 ca l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top ca q1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in cf q1",
-      "top cf q1",
-      "on cf ca"
-    ]
-  },
-  "take k2 cd p2 cb l2": {
+  "take k2 cd p2 cb l3": {
     "preconditions": [
       "in cd p2",
       "top cd p2",
@@ -4715,22 +1850,20 @@
       "holding k2 cd"
     ]
   },
-  "take k1 cd q1 cc l1": {
+  "put k2 ce p2 pallet l3": {
     "preconditions": [
-      "top cd q1",
-      "in cd q1",
-      "empty k1",
-      "on cd cc"
+      "top pallet p2",
+      "holding k2 ce"
     ],
     "delete-effects": [
-      "not (on cd cc)",
-      "not (in cd q1)",
-      "not (top cd q1)",
-      "not (empty k1)"
+      "not (holding k2 ce)",
+      "not (top pallet p2)"
     ],
     "add-effects": [
-      "holding k1 cd",
-      "top cc q1"
+      "empty k2",
+      "top ce p2",
+      "on ce pallet",
+      "in ce p2"
     ]
   },
   "take k1 cd p1 ce l1": {
@@ -4751,6 +1884,22 @@
       "top ce p1"
     ]
   },
+  "put k3 cb p3 ce l4": {
+    "preconditions": [
+      "top ce p3",
+      "holding k3 cb"
+    ],
+    "delete-effects": [
+      "not (holding k3 cb)",
+      "not (top ce p3)"
+    ],
+    "add-effects": [
+      "on cb ce",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
+    ]
+  },
   "take k1 pallet p1 cc l1": {
     "preconditions": [
       "on pallet cc",
@@ -4769,10 +1918,28 @@
       "holding k1 pallet"
     ]
   },
-  "load k2 cd r1 l2": {
+  "take k3 pallet p3 cd l4": {
+    "preconditions": [
+      "empty k3",
+      "on pallet cd",
+      "in pallet p3",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (on pallet cd)",
+      "not (empty k3)",
+      "not (top pallet p3)",
+      "not (in pallet p3)"
+    ],
+    "add-effects": [
+      "top cd p3",
+      "holding k3 pallet"
+    ]
+  },
+  "load k2 cd r1 l3": {
     "preconditions": [
       "unloaded r1",
-      "at r1 l2",
+      "at r1 l3",
       "holding k2 cd"
     ],
     "delete-effects": [
@@ -4782,22 +1949,6 @@
     "add-effects": [
       "loaded r1 cd",
       "empty k2"
-    ]
-  },
-  "put k2 ca q2 cf l2": {
-    "preconditions": [
-      "top cf q2",
-      "holding k2 ca"
-    ],
-    "delete-effects": [
-      "not (top cf q2)",
-      "not (holding k2 ca)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on ca cf",
-      "in ca q2",
-      "top ca q2"
     ]
   },
   "take k1 cb p1 cb l1": {
@@ -4818,6 +1969,24 @@
       "top cb p1"
     ]
   },
+  "take k3 cb p3 ce l4": {
+    "preconditions": [
+      "on cb ce",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (in cb p3)",
+      "not (empty k3)",
+      "not (on cb ce)"
+    ],
+    "add-effects": [
+      "top ce p3",
+      "holding k3 cb"
+    ]
+  },
   "put k1 cb p1 cb l1": {
     "preconditions": [
       "holding k1 cb",
@@ -4832,6 +2001,92 @@
       "on cb cb",
       "top cb p1",
       "in cb p1"
+    ]
+  },
+  "put k3 cf p3 cb l4": {
+    "preconditions": [
+      "holding k3 cf",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (holding k3 cf)"
+    ],
+    "add-effects": [
+      "on cf cb",
+      "in cf p3",
+      "top cf p3",
+      "empty k3"
+    ]
+  },
+  "take k3 cf p3 cb l4": {
+    "preconditions": [
+      "in cf p3",
+      "top cf p3",
+      "empty k3",
+      "on cf cb"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (in cf p3)",
+      "not (on cf cb)"
+    ],
+    "add-effects": [
+      "holding k3 cf",
+      "top cb p3"
+    ]
+  },
+  "put k1 cd p1 ce l1": {
+    "preconditions": [
+      "holding k1 cd",
+      "top ce p1"
+    ],
+    "delete-effects": [
+      "not (top ce p1)",
+      "not (holding k1 cd)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "in cd p1",
+      "on cd ce",
+      "top cd p1"
+    ]
+  },
+  "take k1 cc p1 cc l1": {
+    "preconditions": [
+      "top cc p1",
+      "on cc cc",
+      "in cc p1",
+      "empty k1"
+    ],
+    "delete-effects": [
+      "not (in cc p1)",
+      "not (on cc cc)",
+      "not (top cc p1)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cc",
+      "top cc p1"
+    ]
+  },
+  "take k2 ce p2 cc l3": {
+    "preconditions": [
+      "top ce p2",
+      "in ce p2",
+      "on ce cc",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (in ce p2)",
+      "not (top ce p2)",
+      "not (empty k2)",
+      "not (on ce cc)"
+    ],
+    "add-effects": [
+      "holding k2 ce",
+      "top cc p2"
     ]
   },
   "put k1 ca p1 ce l1": {
@@ -4850,25 +2105,7 @@
       "top ca p1"
     ]
   },
-  "take k2 cf q2 cb l2": {
-    "preconditions": [
-      "top cf q2",
-      "in cf q2",
-      "empty k2",
-      "on cf cb"
-    ],
-    "delete-effects": [
-      "not (in cf q2)",
-      "not (top cf q2)",
-      "not (on cf cb)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cf",
-      "top cb q2"
-    ]
-  },
-  "put k2 cc p2 ce l2": {
+  "put k2 cc p2 ce l3": {
     "preconditions": [
       "holding k2 cc",
       "top ce p2"
@@ -4884,7 +2121,57 @@
       "top cc p2"
     ]
   },
-  "take k2 cb p2 cc l2": {
+  "put k2 cf p2 ce l3": {
+    "preconditions": [
+      "top ce p2",
+      "holding k2 cf"
+    ],
+    "delete-effects": [
+      "not (holding k2 cf)",
+      "not (top ce p2)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "top cf p2",
+      "in cf p2",
+      "on cf ce"
+    ]
+  },
+  "take k3 cd p3 cc l4": {
+    "preconditions": [
+      "top cd p3",
+      "in cd p3",
+      "empty k3",
+      "on cd cc"
+    ],
+    "delete-effects": [
+      "not (on cd cc)",
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (top cd p3)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "top cc p3"
+    ]
+  },
+  "put k3 cd p3 cc l4": {
+    "preconditions": [
+      "holding k3 cd",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (holding k3 cd)"
+    ],
+    "add-effects": [
+      "top cd p3",
+      "in cd p3",
+      "empty k3",
+      "on cd cc"
+    ]
+  },
+  "take k2 cb p2 cc l3": {
     "preconditions": [
       "top cb p2",
       "in cb p2",
@@ -4902,25 +2189,23 @@
       "top cc p2"
     ]
   },
-  "take k2 cd p2 ca l2": {
+  "put k2 cb p2 cc l3": {
     "preconditions": [
-      "in cd p2",
-      "on cd ca",
-      "top cd p2",
-      "empty k2"
+      "holding k2 cb",
+      "top cc p2"
     ],
     "delete-effects": [
-      "not (on cd ca)",
-      "not (empty k2)",
-      "not (top cd p2)",
-      "not (in cd p2)"
+      "not (top cc p2)",
+      "not (holding k2 cb)"
     ],
     "add-effects": [
-      "holding k2 cd",
-      "top ca p2"
+      "top cb p2",
+      "in cb p2",
+      "empty k2",
+      "on cb cc"
     ]
   },
-  "put k2 pallet p2 ca l2": {
+  "put k2 pallet p2 ca l3": {
     "preconditions": [
       "holding k2 pallet",
       "top ca p2"
@@ -4951,6 +2236,40 @@
       "loaded r1 ca"
     ]
   },
+  "take k2 cd p2 ca l3": {
+    "preconditions": [
+      "in cd p2",
+      "on cd ca",
+      "top cd p2",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (on cd ca)",
+      "not (empty k2)",
+      "not (top cd p2)",
+      "not (in cd p2)"
+    ],
+    "add-effects": [
+      "holding k2 cd",
+      "top ca p2"
+    ]
+  },
+  "put k1 cf p1 cb l1": {
+    "preconditions": [
+      "holding k1 cf",
+      "top cb p1"
+    ],
+    "delete-effects": [
+      "not (top cb p1)",
+      "not (holding k1 cf)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on cf cb",
+      "top cf p1",
+      "in cf p1"
+    ]
+  },
   "take k1 cb p1 ca l1": {
     "preconditions": [
       "top cb p1",
@@ -4969,59 +2288,90 @@
       "top ca p1"
     ]
   },
-  "take k1 cd q1 cb l1": {
+  "unload k2 cc r1 l3": {
     "preconditions": [
-      "top cd q1",
-      "in cd q1",
-      "on cd cb",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cd q1)",
-      "not (top cd q1)",
-      "not (empty k1)",
-      "not (on cd cb)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top cb q1"
-    ]
-  },
-  "take k2 ca q2 ce l2": {
-    "preconditions": [
-      "in ca q2",
+      "at r1 l3",
       "empty k2",
-      "on ca ce",
-      "top ca q2"
+      "loaded r1 cc"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (on ca ce)",
-      "not (in ca q2)",
+      "not (loaded r1 cc)",
       "not (empty k2)"
     ],
     "add-effects": [
-      "holding k2 ca",
-      "top ce q2"
+      "unloaded r1",
+      "holding k2 cc"
     ]
   },
-  "put k1 pallet q1 cf l1": {
+  "put k3 cf p3 ca l4": {
     "preconditions": [
-      "holding k1 pallet",
-      "top cf q1"
+      "top ca p3",
+      "holding k3 cf"
     ],
     "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 pallet)"
+      "not (top ca p3)",
+      "not (holding k3 cf)"
     ],
     "add-effects": [
-      "on pallet cf",
-      "empty k1",
-      "top pallet q1",
-      "in pallet q1"
+      "in cf p3",
+      "top cf p3",
+      "on cf ca",
+      "empty k3"
     ]
   },
-  "put k2 cd p2 ca l2": {
+  "put k3 cb p3 cf l4": {
+    "preconditions": [
+      "top cf p3",
+      "holding k3 cb"
+    ],
+    "delete-effects": [
+      "not (holding k3 cb)",
+      "not (top cf p3)"
+    ],
+    "add-effects": [
+      "empty k3",
+      "in cb p3",
+      "top cb p3",
+      "on cb cf"
+    ]
+  },
+  "take k3 cb p3 cf l4": {
+    "preconditions": [
+      "empty k3",
+      "in cb p3",
+      "top cb p3",
+      "on cb cf"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (on cb cf)",
+      "not (in cb p3)",
+      "not (empty k3)"
+    ],
+    "add-effects": [
+      "top cf p3",
+      "holding k3 cb"
+    ]
+  },
+  "take k1 ce p1 ca l1": {
+    "preconditions": [
+      "in ce p1",
+      "top ce p1",
+      "empty k1",
+      "on ce ca"
+    ],
+    "delete-effects": [
+      "not (top ce p1)",
+      "not (in ce p1)",
+      "not (on ce ca)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 ce",
+      "top ca p1"
+    ]
+  },
+  "put k2 cd p2 ca l3": {
     "preconditions": [
       "top ca p2",
       "holding k2 cd"
@@ -5035,6 +2385,58 @@
       "top cd p2",
       "empty k2",
       "on cd ca"
+    ]
+  },
+  "take k3 pallet p3 ce l4": {
+    "preconditions": [
+      "empty k3",
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet ce"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (on pallet ce)",
+      "not (top pallet p3)",
+      "not (in pallet p3)"
+    ],
+    "add-effects": [
+      "top ce p3",
+      "holding k3 pallet"
+    ]
+  },
+  "take k3 cf p3 ca l4": {
+    "preconditions": [
+      "in cf p3",
+      "top cf p3",
+      "empty k3",
+      "on cf ca"
+    ],
+    "delete-effects": [
+      "not (on cf ca)",
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (in cf p3)"
+    ],
+    "add-effects": [
+      "holding k3 cf",
+      "top ca p3"
+    ]
+  },
+  "put k3 ce p3 pallet l4": {
+    "preconditions": [
+      "top pallet p3",
+      "holding k3 ce"
+    ],
+    "delete-effects": [
+      "not (holding k3 ce)",
+      "not (top pallet p3)"
+    ],
+    "add-effects": [
+      "top ce p3",
+      "in ce p3",
+      "on ce pallet",
+      "empty k3"
     ]
   },
   "take k1 cf p1 cb l1": {
@@ -5070,6 +2472,22 @@
       "holding k1 ca"
     ]
   },
+  "put k1 ce p1 ca l1": {
+    "preconditions": [
+      "holding k1 ce",
+      "top ca p1"
+    ],
+    "delete-effects": [
+      "not (top ca p1)",
+      "not (holding k1 ce)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on ce ca",
+      "in ce p1",
+      "top ce p1"
+    ]
+  },
   "put k1 cb p1 ca l1": {
     "preconditions": [
       "holding k1 cb",
@@ -5086,72 +2504,71 @@
       "on cb ca"
     ]
   },
-  "take k2 ce q2 cf l2": {
+  "take k3 ce p3 ce l4": {
     "preconditions": [
-      "in ce q2",
-      "top ce q2",
-      "on ce cf",
-      "empty k2"
+      "on ce ce",
+      "empty k3",
+      "top ce p3",
+      "in ce p3"
     ],
     "delete-effects": [
-      "not (top ce q2)",
-      "not (in ce q2)",
-      "not (empty k2)",
-      "not (on ce cf)"
+      "not (empty k3)",
+      "not (on ce ce)",
+      "not (in ce p3)",
+      "not (top ce p3)"
     ],
     "add-effects": [
-      "top cf q2",
-      "holding k2 ce"
+      "top ce p3",
+      "holding k3 ce"
     ]
   },
-  "take k1 cc q1 cf l1": {
+  "put k3 ca p3 cd l4": {
     "preconditions": [
-      "on cc cf",
-      "top cc q1",
-      "empty k1",
-      "in cc q1"
+      "top cd p3",
+      "holding k3 ca"
     ],
     "delete-effects": [
-      "not (on cc cf)",
-      "not (in cc q1)",
-      "not (empty k1)",
-      "not (top cc q1)"
+      "not (top cd p3)",
+      "not (holding k3 ca)"
     ],
     "add-effects": [
-      "holding k1 cc",
-      "top cf q1"
+      "top ca p3",
+      "in ca p3",
+      "on ca cd",
+      "empty k3"
     ]
   },
-  "put k1 cb q1 pallet l1": {
+  "take k3 ca p3 cd l4": {
     "preconditions": [
-      "holding k1 cb",
-      "top pallet q1"
+      "top ca p3",
+      "empty k3",
+      "in ca p3",
+      "on ca cd"
     ],
     "delete-effects": [
-      "not (top pallet q1)",
-      "not (holding k1 cb)"
+      "not (in ca p3)",
+      "not (on ca cd)",
+      "not (empty k3)",
+      "not (top ca p3)"
     ],
     "add-effects": [
-      "on cb pallet",
-      "empty k1",
-      "in cb q1",
-      "top cb q1"
+      "holding k3 ca",
+      "top cd p3"
     ]
   },
-  "put k1 cc q1 ca l1": {
+  "load k1 pallet r1 l1": {
     "preconditions": [
-      "top ca q1",
-      "holding k1 cc"
+      "at r1 l1",
+      "unloaded r1",
+      "holding k1 pallet"
     ],
     "delete-effects": [
-      "not (top ca q1)",
-      "not (holding k1 cc)"
+      "not (holding k1 pallet)",
+      "not (unloaded r1)"
     ],
     "add-effects": [
-      "top cc q1",
-      "on cc ca",
       "empty k1",
-      "in cc q1"
+      "loaded r1 pallet"
     ]
   },
   "take k1 ca p1 ce l1": {
@@ -5188,27 +2605,63 @@
       "in cc p1"
     ]
   },
-  "put k2 ce q2 ca l2": {
+  "take k2 ca p2 cb l3": {
     "preconditions": [
-      "holding k2 ce",
-      "top ca q2"
+      "top ca p2",
+      "on ca cb",
+      "empty k2",
+      "in ca p2"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 ce)"
+      "not (in ca p2)",
+      "not (top ca p2)",
+      "not (empty k2)",
+      "not (on ca cb)"
     ],
     "add-effects": [
-      "on ce ca",
-      "empty k2",
-      "in ce q2",
-      "top ce q2"
+      "top cb p2",
+      "holding k2 ca"
     ]
   },
-  "load k2 cf r1 l2": {
+  "take k3 cc p3 cb l4": {
+    "preconditions": [
+      "in cc p3",
+      "empty k3",
+      "top cc p3",
+      "on cc cb"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (empty k3)",
+      "not (in cc p3)",
+      "not (on cc cb)"
+    ],
+    "add-effects": [
+      "holding k3 cc",
+      "top cb p3"
+    ]
+  },
+  "put k3 ce p3 ce l4": {
+    "preconditions": [
+      "top ce p3",
+      "holding k3 ce"
+    ],
+    "delete-effects": [
+      "not (holding k3 ce)",
+      "not (top ce p3)"
+    ],
+    "add-effects": [
+      "top ce p3",
+      "in ce p3",
+      "on ce ce",
+      "empty k3"
+    ]
+  },
+  "load k2 cf r1 l3": {
     "preconditions": [
       "unloaded r1",
-      "at r1 l2",
-      "holding k2 cf"
+      "holding k2 cf",
+      "at r1 l3"
     ],
     "delete-effects": [
       "not (holding k2 cf)",
@@ -5219,7 +2672,25 @@
       "loaded r1 cf"
     ]
   },
-  "take k2 cc p2 ce l2": {
+  "take k2 cd p2 pallet l3": {
+    "preconditions": [
+      "in cd p2",
+      "top cd p2",
+      "on cd pallet",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (empty k2)",
+      "not (top cd p2)",
+      "not (on cd pallet)",
+      "not (in cd p2)"
+    ],
+    "add-effects": [
+      "top pallet p2",
+      "holding k2 cd"
+    ]
+  },
+  "take k2 cc p2 ce l3": {
     "preconditions": [
       "on cc ce",
       "in cc p2",
@@ -5237,7 +2708,7 @@
       "top ce p2"
     ]
   },
-  "put k2 ce p2 cc l2": {
+  "put k2 ce p2 cc l3": {
     "preconditions": [
       "holding k2 ce",
       "top cc p2"
@@ -5253,22 +2724,20 @@
       "in ce p2"
     ]
   },
-  "take k2 cd p2 pallet l2": {
+  "put k1 pallet p1 cc l1": {
     "preconditions": [
-      "in cd p2",
-      "top cd p2",
-      "on cd pallet",
-      "empty k2"
+      "top cc p1",
+      "holding k1 pallet"
     ],
     "delete-effects": [
-      "not (empty k2)",
-      "not (top cd p2)",
-      "not (on cd pallet)",
-      "not (in cd p2)"
+      "not (holding k1 pallet)",
+      "not (top cc p1)"
     ],
     "add-effects": [
-      "top pallet p2",
-      "holding k2 cd"
+      "on pallet cc",
+      "empty k1",
+      "in pallet p1",
+      "top pallet p1"
     ]
   },
   "put k1 ce p1 cf l1": {
@@ -5287,27 +2756,9 @@
       "top ce p1"
     ]
   },
-  "take k1 ce q1 cd l1": {
+  "unload k2 cd r1 l3": {
     "preconditions": [
-      "in ce q1",
-      "empty k1",
-      "top ce q1",
-      "on ce cd"
-    ],
-    "delete-effects": [
-      "not (on ce cd)",
-      "not (top ce q1)",
-      "not (empty k1)",
-      "not (in ce q1)"
-    ],
-    "add-effects": [
-      "holding k1 ce",
-      "top cd q1"
-    ]
-  },
-  "unload k2 cd r1 l2": {
-    "preconditions": [
-      "at r1 l2",
+      "at r1 l3",
       "empty k2",
       "loaded r1 cd"
     ],
@@ -5320,20 +2771,20 @@
       "holding k2 cd"
     ]
   },
-  "put k1 ce q1 cd l1": {
+  "put k3 cc p3 cb l4": {
     "preconditions": [
-      "holding k1 ce",
-      "top cd q1"
+      "holding k3 cc",
+      "top cb p3"
     ],
     "delete-effects": [
-      "not (top cd q1)",
-      "not (holding k1 ce)"
+      "not (top cb p3)",
+      "not (holding k3 cc)"
     ],
     "add-effects": [
-      "in ce q1",
-      "empty k1",
-      "top ce q1",
-      "on ce cd"
+      "on cc cb",
+      "in cc p3",
+      "top cc p3",
+      "empty k3"
     ]
   },
   "take k1 ce p1 cf l1": {
@@ -5354,6 +2805,53 @@
       "holding k1 ce"
     ]
   },
+  "put k1 cd p1 pallet l1": {
+    "preconditions": [
+      "holding k1 cd",
+      "top pallet p1"
+    ],
+    "delete-effects": [
+      "not (top pallet p1)",
+      "not (holding k1 cd)"
+    ],
+    "add-effects": [
+      "on cd pallet",
+      "empty k1",
+      "in cd p1",
+      "top cd p1"
+    ]
+  },
+  "load k1 cb r1 l1": {
+    "preconditions": [
+      "holding k1 cb",
+      "at r1 l1",
+      "unloaded r1"
+    ],
+    "delete-effects": [
+      "not (unloaded r1)",
+      "not (holding k1 cb)"
+    ],
+    "add-effects": [
+      "loaded r1 cb",
+      "empty k1"
+    ]
+  },
+  "put k3 cf p3 cf l4": {
+    "preconditions": [
+      "holding k3 cf",
+      "top cf p3"
+    ],
+    "delete-effects": [
+      "not (top cf p3)",
+      "not (holding k3 cf)"
+    ],
+    "add-effects": [
+      "in cf p3",
+      "top cf p3",
+      "on cf cf",
+      "empty k3"
+    ]
+  },
   "take k1 cc p1 ca l1": {
     "preconditions": [
       "top cc p1",
@@ -5372,7 +2870,25 @@
       "top ca p1"
     ]
   },
-  "take k2 pallet p2 ce l2": {
+  "take k3 ce p3 pallet l4": {
+    "preconditions": [
+      "on ce pallet",
+      "empty k3",
+      "top ce p3",
+      "in ce p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (on ce pallet)",
+      "not (in ce p3)",
+      "not (top ce p3)"
+    ],
+    "add-effects": [
+      "top pallet p3",
+      "holding k3 ce"
+    ]
+  },
+  "take k2 pallet p2 ce l3": {
     "preconditions": [
       "top pallet p2",
       "in pallet p2",
@@ -5390,22 +2906,38 @@
       "top ce p2"
     ]
   },
-  "take k1 cb q1 pallet l1": {
+  "take k1 cf p1 ce l1": {
     "preconditions": [
-      "on cb pallet",
+      "top cf p1",
+      "in cf p1",
       "empty k1",
-      "in cb q1",
-      "top cb q1"
+      "on cf ce"
     ],
     "delete-effects": [
-      "not (top cb q1)",
-      "not (in cb q1)",
-      "not (empty k1)",
-      "not (on cb pallet)"
+      "not (on cf ce)",
+      "not (in cf p1)",
+      "not (top cf p1)",
+      "not (empty k1)"
     ],
     "add-effects": [
-      "holding k1 cb",
-      "top pallet q1"
+      "holding k1 cf",
+      "top ce p1"
+    ]
+  },
+  "put k3 ca p3 ca l4": {
+    "preconditions": [
+      "top ca p3",
+      "holding k3 ca"
+    ],
+    "delete-effects": [
+      "not (top ca p3)",
+      "not (holding k3 ca)"
+    ],
+    "add-effects": [
+      "top ca p3",
+      "on ca ca",
+      "in ca p3",
+      "empty k3"
     ]
   },
   "put k1 ca p1 cc l1": {
@@ -5424,7 +2956,73 @@
       "top ca p1"
     ]
   },
-  "take k2 ce p2 ca l2": {
+  "put k3 pallet p3 cd l4": {
+    "preconditions": [
+      "top cd p3",
+      "holding k3 pallet"
+    ],
+    "delete-effects": [
+      "not (holding k3 pallet)",
+      "not (top cd p3)"
+    ],
+    "add-effects": [
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet cd",
+      "empty k3"
+    ]
+  },
+  "put k1 cf p1 pallet l1": {
+    "preconditions": [
+      "holding k1 cf",
+      "top pallet p1"
+    ],
+    "delete-effects": [
+      "not (top pallet p1)",
+      "not (holding k1 cf)"
+    ],
+    "add-effects": [
+      "on cf pallet",
+      "empty k1",
+      "top cf p1",
+      "in cf p1"
+    ]
+  },
+  "put k2 ca p2 cb l3": {
+    "preconditions": [
+      "top cb p2",
+      "holding k2 ca"
+    ],
+    "delete-effects": [
+      "not (holding k2 ca)",
+      "not (top cb p2)"
+    ],
+    "add-effects": [
+      "on ca cb",
+      "empty k2",
+      "top ca p2",
+      "in ca p2"
+    ]
+  },
+  "take k2 cf p2 cd l3": {
+    "preconditions": [
+      "on cf cd",
+      "top cf p2",
+      "empty k2",
+      "in cf p2"
+    ],
+    "delete-effects": [
+      "not (in cf p2)",
+      "not (top cf p2)",
+      "not (empty k2)",
+      "not (on cf cd)"
+    ],
+    "add-effects": [
+      "top cd p2",
+      "holding k2 cf"
+    ]
+  },
+  "take k2 ce p2 ca l3": {
     "preconditions": [
       "top ce p2",
       "in ce p2",
@@ -5440,6 +3038,56 @@
     "add-effects": [
       "holding k2 ce",
       "top ca p2"
+    ]
+  },
+  "put k3 cd p3 ce l4": {
+    "preconditions": [
+      "holding k3 cd",
+      "top ce p3"
+    ],
+    "delete-effects": [
+      "not (top ce p3)",
+      "not (holding k3 cd)"
+    ],
+    "add-effects": [
+      "top cd p3",
+      "in cd p3",
+      "empty k3",
+      "on cd ce"
+    ]
+  },
+  "put k2 cb p2 ce l3": {
+    "preconditions": [
+      "top ce p2",
+      "holding k2 cb"
+    ],
+    "delete-effects": [
+      "not (top ce p2)",
+      "not (holding k2 cb)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "in cb p2",
+      "on cb ce",
+      "empty k2"
+    ]
+  },
+  "take k2 cd p2 cc l3": {
+    "preconditions": [
+      "in cd p2",
+      "top cd p2",
+      "empty k2",
+      "on cd cc"
+    ],
+    "delete-effects": [
+      "not (on cd cc)",
+      "not (empty k2)",
+      "not (top cd p2)",
+      "not (in cd p2)"
+    ],
+    "add-effects": [
+      "holding k2 cd",
+      "top cc p2"
     ]
   },
   "put k1 cc p1 cd l1": {
@@ -5458,7 +3106,73 @@
       "in cc p1"
     ]
   },
-  "put k2 pallet p2 cc l2": {
+  "take k1 cd p1 cd l1": {
+    "preconditions": [
+      "on cd cd",
+      "in cd p1",
+      "empty k1",
+      "top cd p1"
+    ],
+    "delete-effects": [
+      "not (top cd p1)",
+      "not (in cd p1)",
+      "not (on cd cd)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cd",
+      "top cd p1"
+    ]
+  },
+  "put k3 cb p3 cd l4": {
+    "preconditions": [
+      "top cd p3",
+      "holding k3 cb"
+    ],
+    "delete-effects": [
+      "not (holding k3 cb)",
+      "not (top cd p3)"
+    ],
+    "add-effects": [
+      "on cb cd",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
+    ]
+  },
+  "put k2 cc p2 pallet l3": {
+    "preconditions": [
+      "top pallet p2",
+      "holding k2 cc"
+    ],
+    "delete-effects": [
+      "not (holding k2 cc)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "on cc pallet",
+      "empty k2",
+      "in cc p2",
+      "top cc p2"
+    ]
+  },
+  "put k2 ce p2 cd l3": {
+    "preconditions": [
+      "holding k2 ce",
+      "top cd p2"
+    ],
+    "delete-effects": [
+      "not (holding k2 ce)",
+      "not (top cd p2)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "on ce cd",
+      "top ce p2",
+      "in ce p2"
+    ]
+  },
+  "put k2 pallet p2 cc l3": {
     "preconditions": [
       "holding k2 pallet",
       "top cc p2"
@@ -5474,20 +3188,38 @@
       "empty k2"
     ]
   },
-  "put k2 ce p2 cd l2": {
+  "take k1 pallet p1 cd l1": {
     "preconditions": [
-      "holding k2 ce",
-      "top cd p2"
+      "on pallet cd",
+      "empty k1",
+      "in pallet p1",
+      "top pallet p1"
     ],
     "delete-effects": [
-      "not (holding k2 ce)",
-      "not (top cd p2)"
+      "not (on pallet cd)",
+      "not (top pallet p1)",
+      "not (in pallet p1)",
+      "not (empty k1)"
     ],
     "add-effects": [
-      "empty k2",
-      "on ce cd",
-      "top ce p2",
-      "in ce p2"
+      "holding k1 pallet",
+      "top cd p1"
+    ]
+  },
+  "put k1 ce p1 ce l1": {
+    "preconditions": [
+      "holding k1 ce",
+      "top ce p1"
+    ],
+    "delete-effects": [
+      "not (top ce p1)",
+      "not (holding k1 ce)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "in ce p1",
+      "on ce ce",
+      "top ce p1"
     ]
   },
   "take k1 cb p1 cc l1": {
@@ -5508,25 +3240,76 @@
       "top cc p1"
     ]
   },
-  "take k2 cd p2 cc l2": {
+  "take k3 cf p3 cc l4": {
     "preconditions": [
-      "in cd p2",
-      "top cd p2",
-      "empty k2",
-      "on cd cc"
+      "in cf p3",
+      "on cf cc",
+      "top cf p3",
+      "empty k3"
     ],
     "delete-effects": [
-      "not (on cd cc)",
-      "not (empty k2)",
-      "not (top cd p2)",
-      "not (in cd p2)"
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (on cf cc)",
+      "not (in cf p3)"
     ],
     "add-effects": [
-      "holding k2 cd",
-      "top cc p2"
+      "holding k3 cf",
+      "top cc p3"
     ]
   },
-  "take k2 pallet p2 pallet l2": {
+  "take k2 ce p2 cf l3": {
+    "preconditions": [
+      "top ce p2",
+      "in ce p2",
+      "on ce cf",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (in ce p2)",
+      "not (top ce p2)",
+      "not (empty k2)",
+      "not (on ce cf)"
+    ],
+    "add-effects": [
+      "holding k2 ce",
+      "top cf p2"
+    ]
+  },
+  "take k3 cb p3 ca l4": {
+    "preconditions": [
+      "empty k3",
+      "in cb p3",
+      "top cb p3",
+      "on cb ca"
+    ],
+    "delete-effects": [
+      "not (on cb ca)",
+      "not (top cb p3)",
+      "not (in cb p3)",
+      "not (empty k3)"
+    ],
+    "add-effects": [
+      "top ca p3",
+      "holding k3 cb"
+    ]
+  },
+  "unload k2 ce r1 l3": {
+    "preconditions": [
+      "loaded r1 ce",
+      "at r1 l3",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (loaded r1 ce)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "unloaded r1",
+      "holding k2 ce"
+    ]
+  },
+  "take k2 pallet p2 pallet l3": {
     "preconditions": [
       "top pallet p2",
       "on pallet pallet",
@@ -5544,20 +3327,38 @@
       "holding k2 pallet"
     ]
   },
-  "put k2 cb q2 cb l2": {
+  "take k1 cc p1 cf l1": {
     "preconditions": [
-      "top cb q2",
-      "holding k2 cb"
+      "top cc p1",
+      "in cc p1",
+      "on cc cf",
+      "empty k1"
     ],
     "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 cb)"
+      "not (in cc p1)",
+      "not (on cc cf)",
+      "not (top cc p1)",
+      "not (empty k1)"
     ],
     "add-effects": [
-      "empty k2",
-      "on cb cb",
-      "top cb q2",
-      "in cb q2"
+      "holding k1 cc",
+      "top cf p1"
+    ]
+  },
+  "put k3 ca p3 cf l4": {
+    "preconditions": [
+      "top cf p3",
+      "holding k3 ca"
+    ],
+    "delete-effects": [
+      "not (top cf p3)",
+      "not (holding k3 ca)"
+    ],
+    "add-effects": [
+      "top ca p3",
+      "on ca cf",
+      "in ca p3",
+      "empty k3"
     ]
   },
   "put k1 cf p1 cc l1": {
@@ -5576,40 +3377,106 @@
       "in cf p1"
     ]
   },
-  "take k2 ca q2 cb l2": {
+  "put k3 ce p3 cc l4": {
     "preconditions": [
-      "on ca cb",
-      "in ca q2",
-      "empty k2",
-      "top ca q2"
+      "holding k3 ce",
+      "top cc p3"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (in ca q2)",
-      "not (empty k2)",
-      "not (on ca cb)"
+      "not (top cc p3)",
+      "not (holding k3 ce)"
     ],
     "add-effects": [
-      "holding k2 ca",
-      "top cb q2"
+      "on ce cc",
+      "top ce p3",
+      "in ce p3",
+      "empty k3"
     ]
   },
-  "take k1 pallet q1 ca l1": {
+  "take k3 cc p3 cd l4": {
     "preconditions": [
-      "top pallet q1",
-      "on pallet ca",
-      "in pallet q1",
-      "empty k1"
+      "in cc p3",
+      "empty k3",
+      "top cc p3",
+      "on cc cd"
     ],
     "delete-effects": [
-      "not (in pallet q1)",
-      "not (top pallet q1)",
-      "not (on pallet ca)",
-      "not (empty k1)"
+      "not (top cc p3)",
+      "not (empty k3)",
+      "not (in cc p3)",
+      "not (on cc cd)"
     ],
     "add-effects": [
-      "top ca q1",
-      "holding k1 pallet"
+      "holding k3 cc",
+      "top cd p3"
+    ]
+  },
+  "put k2 cf p2 ca l3": {
+    "preconditions": [
+      "top ca p2",
+      "holding k2 cf"
+    ],
+    "delete-effects": [
+      "not (top ca p2)",
+      "not (holding k2 cf)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "on cf ca",
+      "top cf p2",
+      "in cf p2"
+    ]
+  },
+  "take k1 cd p1 pallet l1": {
+    "preconditions": [
+      "on cd pallet",
+      "in cd p1",
+      "empty k1",
+      "top cd p1"
+    ],
+    "delete-effects": [
+      "not (top cd p1)",
+      "not (in cd p1)",
+      "not (empty k1)",
+      "not (on cd pallet)"
+    ],
+    "add-effects": [
+      "holding k1 cd",
+      "top pallet p1"
+    ]
+  },
+  "take k2 ca p2 cd l3": {
+    "preconditions": [
+      "on ca cd",
+      "top ca p2",
+      "empty k2",
+      "in ca p2"
+    ],
+    "delete-effects": [
+      "not (in ca p2)",
+      "not (top ca p2)",
+      "not (on ca cd)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "top cd p2",
+      "holding k2 ca"
+    ]
+  },
+  "put k2 cc p2 cc l3": {
+    "preconditions": [
+      "holding k2 cc",
+      "top cc p2"
+    ],
+    "delete-effects": [
+      "not (top cc p2)",
+      "not (holding k2 cc)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "on cc cc",
+      "in cc p2",
+      "top cc p2"
     ]
   },
   "take k1 cc p1 pallet l1": {
@@ -5630,40 +3497,6 @@
       "top pallet p1"
     ]
   },
-  "put k2 cc p2 cc l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top cc p2"
-    ],
-    "delete-effects": [
-      "not (top cc p2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cc cc",
-      "in cc p2",
-      "top cc p2"
-    ]
-  },
-  "take k2 ca p2 cd l2": {
-    "preconditions": [
-      "on ca cd",
-      "top ca p2",
-      "empty k2",
-      "in ca p2"
-    ],
-    "delete-effects": [
-      "not (in ca p2)",
-      "not (top ca p2)",
-      "not (on ca cd)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "top cd p2",
-      "holding k2 ca"
-    ]
-  },
   "unload k1 cb r1 l1": {
     "preconditions": [
       "at r1 l1",
@@ -5679,56 +3512,136 @@
       "unloaded r1"
     ]
   },
-  "put k1 cf q1 ce l1": {
+  "put k2 cd p2 cf l3": {
     "preconditions": [
-      "holding k1 cf",
-      "top ce q1"
+      "top cf p2",
+      "holding k2 cd"
     ],
     "delete-effects": [
-      "not (top ce q1)",
-      "not (holding k1 cf)"
+      "not (top cf p2)",
+      "not (holding k2 cd)"
     ],
     "add-effects": [
-      "empty k1",
-      "in cf q1",
-      "top cf q1",
-      "on cf ce"
-    ]
-  },
-  "take k1 cc q1 pallet l1": {
-    "preconditions": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc pallet"
-    ],
-    "delete-effects": [
-      "not (in cc q1)",
-      "not (on cc pallet)",
-      "not (empty k1)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "holding k1 cc",
-      "top pallet q1"
-    ]
-  },
-  "take k2 pallet q2 cc l2": {
-    "preconditions": [
-      "on pallet cc",
+      "in cd p2",
+      "top cd p2",
       "empty k2",
-      "in pallet q2",
-      "top pallet q2"
+      "on cd cf"
+    ]
+  },
+  "unload k3 cc r1 l4": {
+    "preconditions": [
+      "loaded r1 cc",
+      "at r1 l4",
+      "empty k3"
     ],
     "delete-effects": [
-      "not (top pallet q2)",
-      "not (in pallet q2)",
-      "not (empty k2)",
-      "not (on pallet cc)"
+      "not (loaded r1 cc)",
+      "not (empty k3)"
     ],
     "add-effects": [
-      "holding k2 pallet",
-      "top cc q2"
+      "unloaded r1",
+      "holding k3 cc"
+    ]
+  },
+  "put k1 cb p1 cf l1": {
+    "preconditions": [
+      "holding k1 cb",
+      "top cf p1"
+    ],
+    "delete-effects": [
+      "not (top cf p1)",
+      "not (holding k1 cb)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "top cb p1",
+      "in cb p1",
+      "on cb cf"
+    ]
+  },
+  "take k3 cb p3 cb l4": {
+    "preconditions": [
+      "on cb cb",
+      "empty k3",
+      "in cb p3",
+      "top cb p3"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (in cb p3)",
+      "not (empty k3)",
+      "not (on cb cb)"
+    ],
+    "add-effects": [
+      "holding k3 cb",
+      "top cb p3"
+    ]
+  },
+  "take k3 cf p3 pallet l4": {
+    "preconditions": [
+      "in cf p3",
+      "top cf p3",
+      "empty k3",
+      "on cf pallet"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (in cf p3)",
+      "not (on cf pallet)"
+    ],
+    "add-effects": [
+      "holding k3 cf",
+      "top pallet p3"
+    ]
+  },
+  "put k1 ce p1 pallet l1": {
+    "preconditions": [
+      "holding k1 ce",
+      "top pallet p1"
+    ],
+    "delete-effects": [
+      "not (holding k1 ce)",
+      "not (top pallet p1)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on ce pallet",
+      "in ce p1",
+      "top ce p1"
+    ]
+  },
+  "take k3 cd p3 pallet l4": {
+    "preconditions": [
+      "top cd p3",
+      "in cd p3",
+      "on cd pallet",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (top cd p3)",
+      "not (on cd pallet)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "top pallet p3"
+    ]
+  },
+  "load k3 ce r1 l4": {
+    "preconditions": [
+      "unloaded r1",
+      "at r1 l4",
+      "holding k3 ce"
+    ],
+    "delete-effects": [
+      "not (holding k3 ce)",
+      "not (unloaded r1)"
+    ],
+    "add-effects": [
+      "loaded r1 ce",
+      "empty k3"
     ]
   },
   "put k1 cd p1 ca l1": {
@@ -5747,27 +3660,62 @@
       "top cd p1"
     ]
   },
-  "put k2 cf p2 ca l2": {
+  "take k3 ca p3 cc l4": {
     "preconditions": [
-      "top ca p2",
-      "holding k2 cf"
+      "on ca cc",
+      "top ca p3",
+      "empty k3",
+      "in ca p3"
     ],
     "delete-effects": [
-      "not (top ca p2)",
-      "not (holding k2 cf)"
+      "not (in ca p3)",
+      "not (empty k3)",
+      "not (top ca p3)",
+      "not (on ca cc)"
     ],
     "add-effects": [
-      "empty k2",
-      "on cf ca",
-      "top cf p2",
-      "in cf p2"
+      "holding k3 ca",
+      "top cc p3"
     ]
   },
-  "load k2 cc r1 l2": {
+  "take k3 ce p3 cf l4": {
+    "preconditions": [
+      "empty k3",
+      "top ce p3",
+      "on ce cf",
+      "in ce p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in ce p3)",
+      "not (top ce p3)",
+      "not (on ce cf)"
+    ],
+    "add-effects": [
+      "holding k3 ce",
+      "top cf p3"
+    ]
+  },
+  "unload k2 cf r1 l3": {
+    "preconditions": [
+      "loaded r1 cf",
+      "at r1 l3",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (loaded r1 cf)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "unloaded r1",
+      "holding k2 cf"
+    ]
+  },
+  "load k2 cc r1 l3": {
     "preconditions": [
       "unloaded r1",
       "holding k2 cc",
-      "at r1 l2"
+      "at r1 l3"
     ],
     "delete-effects": [
       "not (holding k2 cc)",
@@ -5778,38 +3726,22 @@
       "loaded r1 cc"
     ]
   },
-  "put k2 cb q2 cc l2": {
+  "take k2 ca p2 pallet l3": {
     "preconditions": [
-      "holding k2 cb",
-      "top cc q2"
-    ],
-    "delete-effects": [
-      "not (top cc q2)",
-      "not (holding k2 cb)"
-    ],
-    "add-effects": [
+      "on ca pallet",
+      "top ca p2",
       "empty k2",
-      "top cb q2",
-      "on cb cc",
-      "in cb q2"
-    ]
-  },
-  "take k2 cf q2 cf l2": {
-    "preconditions": [
-      "top cf q2",
-      "in cf q2",
-      "on cf cf",
-      "empty k2"
+      "in ca p2"
     ],
     "delete-effects": [
-      "not (in cf q2)",
-      "not (on cf cf)",
-      "not (top cf q2)",
-      "not (empty k2)"
+      "not (in ca p2)",
+      "not (top ca p2)",
+      "not (empty k2)",
+      "not (on ca pallet)"
     ],
     "add-effects": [
-      "top cf q2",
-      "holding k2 cf"
+      "top pallet p2",
+      "holding k2 ca"
     ]
   },
   "load k1 cd r1 l1": {
@@ -5825,6 +3757,22 @@
     "add-effects": [
       "loaded r1 cd",
       "empty k1"
+    ]
+  },
+  "put k2 cd p2 pallet l3": {
+    "preconditions": [
+      "top pallet p2",
+      "holding k2 cd"
+    ],
+    "delete-effects": [
+      "not (holding k2 cd)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "in cd p2",
+      "top cd p2",
+      "on cd pallet",
+      "empty k2"
     ]
   },
   "take k1 ca p1 cf l1": {
@@ -5845,74 +3793,6 @@
       "top cf p1"
     ]
   },
-  "take k2 cd q2 ca l2": {
-    "preconditions": [
-      "on cd ca",
-      "in cd q2",
-      "empty k2",
-      "top cd q2"
-    ],
-    "delete-effects": [
-      "not (top cd q2)",
-      "not (in cd q2)",
-      "not (on cd ca)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cd",
-      "top ca q2"
-    ]
-  },
-  "take k1 cd q1 cf l1": {
-    "preconditions": [
-      "on cd cf",
-      "top cd q1",
-      "in cd q1",
-      "empty k1"
-    ],
-    "delete-effects": [
-      "not (in cd q1)",
-      "not (top cd q1)",
-      "not (on cd cf)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top cf q1"
-    ]
-  },
-  "put k1 cc q1 cb l1": {
-    "preconditions": [
-      "holding k1 cc",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (holding k1 cc)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc cb"
-    ]
-  },
-  "put k2 ce q2 cb l2": {
-    "preconditions": [
-      "top cb q2",
-      "holding k2 ce"
-    ],
-    "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 ce)"
-    ],
-    "add-effects": [
-      "on ce cb",
-      "empty k2",
-      "in ce q2",
-      "top ce q2"
-    ]
-  },
   "unload k1 cc r1 l1": {
     "preconditions": [
       "at r1 l1",
@@ -5928,7 +3808,23 @@
       "holding k1 cc"
     ]
   },
-  "take k2 cc p2 cf l2": {
+  "put k2 cb p2 pallet l3": {
+    "preconditions": [
+      "top pallet p2",
+      "holding k2 cb"
+    ],
+    "delete-effects": [
+      "not (holding k2 cb)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "on cb pallet",
+      "in cb p2",
+      "empty k2"
+    ]
+  },
+  "take k2 cc p2 cf l3": {
     "preconditions": [
       "on cc cf",
       "in cc p2",
@@ -5946,40 +3842,20 @@
       "top cf p2"
     ]
   },
-  "take k2 ca q2 ca l2": {
+  "put k3 cc p3 ca l4": {
     "preconditions": [
-      "on ca ca",
-      "in ca q2",
-      "empty k2",
-      "top ca q2"
+      "holding k3 cc",
+      "top ca p3"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (in ca q2)",
-      "not (on ca ca)",
-      "not (empty k2)"
+      "not (top ca p3)",
+      "not (holding k3 cc)"
     ],
     "add-effects": [
-      "holding k2 ca",
-      "top ca q2"
-    ]
-  },
-  "take k1 cb q1 ca l1": {
-    "preconditions": [
-      "empty k1",
-      "in cb q1",
-      "top cb q1",
-      "on cb ca"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (on cb ca)",
-      "not (in cb q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top ca q1"
+      "on cc ca",
+      "in cc p3",
+      "top cc p3",
+      "empty k3"
     ]
   },
   "put k1 pallet p1 cb l1": {
@@ -5998,11 +3874,79 @@
       "on pallet cb"
     ]
   },
-  "load k2 cb r1 l2": {
+  "take k1 cf p1 cf l1": {
+    "preconditions": [
+      "top cf p1",
+      "in cf p1",
+      "on cf cf",
+      "empty k1"
+    ],
+    "delete-effects": [
+      "not (in cf p1)",
+      "not (on cf cf)",
+      "not (top cf p1)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cf",
+      "top cf p1"
+    ]
+  },
+  "take k3 pallet p3 ca l4": {
+    "preconditions": [
+      "on pallet ca",
+      "empty k3",
+      "in pallet p3",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (on pallet ca)",
+      "not (top pallet p3)",
+      "not (in pallet p3)"
+    ],
+    "add-effects": [
+      "holding k3 pallet",
+      "top ca p3"
+    ]
+  },
+  "put k1 cd p1 cf l1": {
+    "preconditions": [
+      "top cf p1",
+      "holding k1 cd"
+    ],
+    "delete-effects": [
+      "not (top cf p1)",
+      "not (holding k1 cd)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on cd cf",
+      "in cd p1",
+      "top cd p1"
+    ]
+  },
+  "put k3 pallet p3 pallet l4": {
+    "preconditions": [
+      "top pallet p3",
+      "holding k3 pallet"
+    ],
+    "delete-effects": [
+      "not (holding k3 pallet)",
+      "not (top pallet p3)"
+    ],
+    "add-effects": [
+      "on pallet pallet",
+      "in pallet p3",
+      "top pallet p3",
+      "empty k3"
+    ]
+  },
+  "load k2 cb r1 l3": {
     "preconditions": [
       "unloaded r1",
       "holding k2 cb",
-      "at r1 l2"
+      "at r1 l3"
     ],
     "delete-effects": [
       "not (holding k2 cb)",
@@ -6011,6 +3955,55 @@
     "add-effects": [
       "loaded r1 cb",
       "empty k2"
+    ]
+  },
+  "take k2 cc p2 ca l3": {
+    "preconditions": [
+      "on cc ca",
+      "in cc p2",
+      "empty k2",
+      "top cc p2"
+    ],
+    "delete-effects": [
+      "not (top cc p2)",
+      "not (in cc p2)",
+      "not (empty k2)",
+      "not (on cc ca)"
+    ],
+    "add-effects": [
+      "holding k2 cc",
+      "top ca p2"
+    ]
+  },
+  "put k3 cc p3 cc l4": {
+    "preconditions": [
+      "holding k3 cc",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (holding k3 cc)"
+    ],
+    "add-effects": [
+      "in cc p3",
+      "on cc cc",
+      "top cc p3",
+      "empty k3"
+    ]
+  },
+  "unload k3 cd r1 l4": {
+    "preconditions": [
+      "loaded r1 cd",
+      "at r1 l4",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (loaded r1 cd)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "unloaded r1"
     ]
   },
   "put k1 ca p1 cd l1": {
@@ -6029,22 +4022,6 @@
       "top ca p1"
     ]
   },
-  "put k2 cb q2 pallet l2": {
-    "preconditions": [
-      "holding k2 cb",
-      "top pallet q2"
-    ],
-    "delete-effects": [
-      "not (top pallet q2)",
-      "not (holding k2 cb)"
-    ],
-    "add-effects": [
-      "on cb pallet",
-      "empty k2",
-      "top cb q2",
-      "in cb q2"
-    ]
-  },
   "load k1 ce r1 l1": {
     "preconditions": [
       "at r1 l1",
@@ -6060,55 +4037,90 @@
       "loaded r1 ce"
     ]
   },
-  "put k2 cc p2 cd l2": {
+  "take k3 ce p3 ca l4": {
     "preconditions": [
-      "holding k2 cc",
-      "top cd p2"
+      "empty k3",
+      "top ce p3",
+      "on ce ca",
+      "in ce p3"
     ],
     "delete-effects": [
-      "not (holding k2 cc)",
-      "not (top cd p2)"
+      "not (empty k3)",
+      "not (in ce p3)",
+      "not (on ce ca)",
+      "not (top ce p3)"
     ],
     "add-effects": [
-      "on cc cd",
+      "holding k3 ce",
+      "top ca p3"
+    ]
+  },
+  "put k3 pallet p3 ce l4": {
+    "preconditions": [
+      "top ce p3",
+      "holding k3 pallet"
+    ],
+    "delete-effects": [
+      "not (holding k3 pallet)",
+      "not (top ce p3)"
+    ],
+    "add-effects": [
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet ce",
+      "empty k3"
+    ]
+  },
+  "put k2 ca p2 cc l3": {
+    "preconditions": [
+      "holding k2 ca",
+      "top cc p2"
+    ],
+    "delete-effects": [
+      "not (top cc p2)",
+      "not (holding k2 ca)"
+    ],
+    "add-effects": [
       "empty k2",
-      "in cc p2",
+      "on ca cc",
+      "top ca p2",
+      "in ca p2"
+    ]
+  },
+  "take k2 cf p2 cc l3": {
+    "preconditions": [
+      "on cf cc",
+      "top cf p2",
+      "empty k2",
+      "in cf p2"
+    ],
+    "delete-effects": [
+      "not (in cf p2)",
+      "not (top cf p2)",
+      "not (on cf cc)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "holding k2 cf",
       "top cc p2"
     ]
   },
-  "put k1 cc q1 pallet l1": {
+  "load k3 cf r1 l4": {
     "preconditions": [
-      "top pallet q1",
-      "holding k1 cc"
+      "unloaded r1",
+      "holding k3 cf",
+      "at r1 l4"
     ],
     "delete-effects": [
-      "not (top pallet q1)",
-      "not (holding k1 cc)"
+      "not (unloaded r1)",
+      "not (holding k3 cf)"
     ],
     "add-effects": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc pallet"
+      "empty k3",
+      "loaded r1 cf"
     ]
   },
-  "put k1 ce q1 pallet l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top pallet q1"
-    ],
-    "delete-effects": [
-      "not (top pallet q1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "in ce q1",
-      "empty k1",
-      "top ce q1",
-      "on ce pallet"
-    ]
-  },
-  "take k2 cb p2 cb l2": {
+  "take k2 cb p2 cb l3": {
     "preconditions": [
       "top cb p2",
       "on cb cb",
@@ -6126,11 +4138,29 @@
       "holding k2 cb"
     ]
   },
-  "load k2 pallet r1 l2": {
+  "take k3 cd p3 cb l4": {
+    "preconditions": [
+      "top cd p3",
+      "in cd p3",
+      "empty k3",
+      "on cd cb"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (top cd p3)",
+      "not (on cd cb)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "top cb p3"
+    ]
+  },
+  "load k2 pallet r1 l3": {
     "preconditions": [
       "holding k2 pallet",
       "unloaded r1",
-      "at r1 l2"
+      "at r1 l3"
     ],
     "delete-effects": [
       "not (unloaded r1)",
@@ -6141,38 +4171,87 @@
       "loaded r1 pallet"
     ]
   },
-  "put k2 cb p2 ce l2": {
+  "put k2 cf p2 cf l3": {
     "preconditions": [
-      "top ce p2",
-      "holding k2 cb"
+      "holding k2 cf",
+      "top cf p2"
     ],
     "delete-effects": [
-      "not (top ce p2)",
-      "not (holding k2 cb)"
+      "not (top cf p2)",
+      "not (holding k2 cf)"
     ],
     "add-effects": [
-      "top cb p2",
-      "in cb p2",
-      "on cb ce",
-      "empty k2"
+      "empty k2",
+      "on cf cf",
+      "top cf p2",
+      "in cf p2"
     ]
   },
-  "unload k2 ca r1 l2": {
+  "take k1 pallet p1 ce l1": {
     "preconditions": [
-      "loaded r1 ca",
-      "at r1 l2",
-      "empty k2"
+      "empty k1",
+      "in pallet p1",
+      "on pallet ce",
+      "top pallet p1"
     ],
     "delete-effects": [
-      "not (loaded r1 ca)",
-      "not (empty k2)"
+      "not (top pallet p1)",
+      "not (in pallet p1)",
+      "not (on pallet ce)",
+      "not (empty k1)"
     ],
     "add-effects": [
-      "unloaded r1",
-      "holding k2 ca"
+      "holding k1 pallet",
+      "top ce p1"
     ]
   },
-  "put k2 pallet p2 cb l2": {
+  "move r1 l3 l4": {
+    "preconditions": [
+      "at r1 l3",
+      "not (occupied l4)"
+    ],
+    "delete-effects": [
+      "not (occupied l3)",
+      "not (at r1 l3)"
+    ],
+    "add-effects": [
+      "occupied l4",
+      "at r1 l4"
+    ]
+  },
+  "move r1 l3 l2": {
+    "preconditions": [
+      "not (occupied l2)",
+      "at r1 l3"
+    ],
+    "delete-effects": [
+      "not (occupied l3)",
+      "not (at r1 l3)"
+    ],
+    "add-effects": [
+      "occupied l2",
+      "at r1 l2"
+    ]
+  },
+  "take k1 cd p1 cc l1": {
+    "preconditions": [
+      "in cd p1",
+      "empty k1",
+      "top cd p1",
+      "on cd cc"
+    ],
+    "delete-effects": [
+      "not (on cd cc)",
+      "not (top cd p1)",
+      "not (in cd p1)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cd",
+      "top cc p1"
+    ]
+  },
+  "put k2 pallet p2 cb l3": {
     "preconditions": [
       "holding k2 pallet",
       "top cb p2"
@@ -6186,6 +4265,39 @@
       "in pallet p2",
       "empty k2",
       "on pallet cb"
+    ]
+  },
+  "unload k2 ca r1 l3": {
+    "preconditions": [
+      "loaded r1 ca",
+      "at r1 l3",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (loaded r1 ca)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "unloaded r1",
+      "holding k2 ca"
+    ]
+  },
+  "take k1 ca p1 ca l1": {
+    "preconditions": [
+      "on ca ca",
+      "empty k1",
+      "in ca p1",
+      "top ca p1"
+    ],
+    "delete-effects": [
+      "not (top ca p1)",
+      "not (in ca p1)",
+      "not (on ca ca)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 ca",
+      "top ca p1"
     ]
   },
   "take k1 ce p1 cb l1": {
@@ -6206,40 +4318,128 @@
       "top cb p1"
     ]
   },
-  "take k1 cd q1 pallet l1": {
+  "take k3 pallet p3 cf l4": {
     "preconditions": [
-      "top cd q1",
-      "on cd pallet",
-      "in cd q1",
-      "empty k1"
+      "empty k3",
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet cf"
     ],
     "delete-effects": [
-      "not (in cd q1)",
-      "not (top cd q1)",
-      "not (empty k1)",
-      "not (on cd pallet)"
+      "not (empty k3)",
+      "not (top pallet p3)",
+      "not (on pallet cf)",
+      "not (in pallet p3)"
     ],
     "add-effects": [
-      "holding k1 cd",
-      "top pallet q1"
+      "holding k3 pallet",
+      "top cf p3"
     ]
   },
-  "take k2 pallet q2 ca l2": {
+  "take k2 ce p2 ce l3": {
     "preconditions": [
-      "on pallet ca",
-      "empty k2",
-      "in pallet q2",
-      "top pallet q2"
+      "top ce p2",
+      "in ce p2",
+      "on ce ce",
+      "empty k2"
     ],
     "delete-effects": [
-      "not (on pallet ca)",
-      "not (top pallet q2)",
-      "not (in pallet q2)",
+      "not (in ce p2)",
+      "not (on ce ce)",
+      "not (top ce p2)",
       "not (empty k2)"
     ],
     "add-effects": [
-      "holding k2 pallet",
-      "top ca q2"
+      "top ce p2",
+      "holding k2 ce"
+    ]
+  },
+  "take k3 cc p3 pallet l4": {
+    "preconditions": [
+      "in cc p3",
+      "empty k3",
+      "top cc p3",
+      "on cc pallet"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (empty k3)",
+      "not (in cc p3)",
+      "not (on cc pallet)"
+    ],
+    "add-effects": [
+      "holding k3 cc",
+      "top pallet p3"
+    ]
+  },
+  "put k2 cb p2 ca l3": {
+    "preconditions": [
+      "top ca p2",
+      "holding k2 cb"
+    ],
+    "delete-effects": [
+      "not (top ca p2)",
+      "not (holding k2 cb)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "in cb p2",
+      "empty k2",
+      "on cb ca"
+    ]
+  },
+  "take k2 cb p2 pallet l3": {
+    "preconditions": [
+      "top cb p2",
+      "on cb pallet",
+      "in cb p2",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (empty k2)",
+      "not (in cb p2)",
+      "not (top cb p2)",
+      "not (on cb pallet)"
+    ],
+    "add-effects": [
+      "top pallet p2",
+      "holding k2 cb"
+    ]
+  },
+  "take k2 cb p2 ca l3": {
+    "preconditions": [
+      "top cb p2",
+      "in cb p2",
+      "empty k2",
+      "on cb ca"
+    ],
+    "delete-effects": [
+      "not (on cb ca)",
+      "not (empty k2)",
+      "not (in cb p2)",
+      "not (top cb p2)"
+    ],
+    "add-effects": [
+      "holding k2 cb",
+      "top ca p2"
+    ]
+  },
+  "take k1 cc p1 ce l1": {
+    "preconditions": [
+      "on cc ce",
+      "top cc p1",
+      "in cc p1",
+      "empty k1"
+    ],
+    "delete-effects": [
+      "not (in cc p1)",
+      "not (top cc p1)",
+      "not (on cc ce)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cc",
+      "top ce p1"
     ]
   },
   "put k1 cd p1 cc l1": {
@@ -6258,25 +4458,23 @@
       "on cd cc"
     ]
   },
-  "take k2 cb p2 ca l2": {
+  "put k3 cd p3 ca l4": {
     "preconditions": [
-      "top cb p2",
-      "in cb p2",
-      "empty k2",
-      "on cb ca"
+      "holding k3 cd",
+      "top ca p3"
     ],
     "delete-effects": [
-      "not (on cb ca)",
-      "not (empty k2)",
-      "not (in cb p2)",
-      "not (top cb p2)"
+      "not (top ca p3)",
+      "not (holding k3 cd)"
     ],
     "add-effects": [
-      "holding k2 cb",
-      "top ca p2"
+      "top cd p3",
+      "on cd ca",
+      "in cd p3",
+      "empty k3"
     ]
   },
-  "put k2 cf p2 cc l2": {
+  "put k2 cf p2 cc l3": {
     "preconditions": [
       "holding k2 cf",
       "top cc p2"
@@ -6292,20 +4490,37 @@
       "in cf p2"
     ]
   },
-  "put k2 cb q2 cd l2": {
+  "take k3 cd p3 ca l4": {
     "preconditions": [
-      "holding k2 cb",
-      "top cd q2"
+      "top cd p3",
+      "on cd ca",
+      "in cd p3",
+      "empty k3"
     ],
     "delete-effects": [
-      "not (top cd q2)",
-      "not (holding k2 cb)"
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (on cd ca)",
+      "not (top cd p3)"
     ],
     "add-effects": [
-      "empty k2",
-      "on cb cd",
-      "top cb q2",
-      "in cb q2"
+      "holding k3 cd",
+      "top ca p3"
+    ]
+  },
+  "load k3 cd r1 l4": {
+    "preconditions": [
+      "holding k3 cd",
+      "unloaded r1",
+      "at r1 l4"
+    ],
+    "delete-effects": [
+      "not (unloaded r1)",
+      "not (holding k3 cd)"
+    ],
+    "add-effects": [
+      "loaded r1 cd",
+      "empty k3"
     ]
   },
   "put k1 cf p1 cd l1": {
@@ -6324,40 +4539,6 @@
       "in cf p1"
     ]
   },
-  "put k1 cf q1 cd l1": {
-    "preconditions": [
-      "holding k1 cf",
-      "top cd q1"
-    ],
-    "delete-effects": [
-      "not (top cd q1)",
-      "not (holding k1 cf)"
-    ],
-    "add-effects": [
-      "on cf cd",
-      "empty k1",
-      "in cf q1",
-      "top cf q1"
-    ]
-  },
-  "take k2 ca q2 cc l2": {
-    "preconditions": [
-      "on ca cc",
-      "in ca q2",
-      "empty k2",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (in ca q2)",
-      "not (on ca cc)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 ca",
-      "top cc q2"
-    ]
-  },
   "take k1 ce p1 cc l1": {
     "preconditions": [
       "in ce p1",
@@ -6374,6 +4555,22 @@
     "add-effects": [
       "holding k1 ce",
       "top cc p1"
+    ]
+  },
+  "put k1 cb p1 ce l1": {
+    "preconditions": [
+      "holding k1 cb",
+      "top ce p1"
+    ],
+    "delete-effects": [
+      "not (top ce p1)",
+      "not (holding k1 cb)"
+    ],
+    "add-effects": [
+      "on cb ce",
+      "empty k1",
+      "top cb p1",
+      "in cb p1"
     ]
   },
   "unload k1 cf r1 l1": {
@@ -6406,22 +4603,155 @@
       "loaded r1 cf"
     ]
   },
-  "take k2 ca q2 pallet l2": {
+  "put k2 cd p2 ce l3": {
     "preconditions": [
-      "on ca pallet",
-      "in ca q2",
-      "empty k2",
-      "top ca q2"
+      "top ce p2",
+      "holding k2 cd"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (in ca q2)",
-      "not (empty k2)",
-      "not (on ca pallet)"
+      "not (top ce p2)",
+      "not (holding k2 cd)"
     ],
     "add-effects": [
-      "holding k2 ca",
-      "top pallet q2"
+      "in cd p2",
+      "top cd p2",
+      "empty k2",
+      "on cd ce"
+    ]
+  },
+  "put k3 cf p3 ce l4": {
+    "preconditions": [
+      "top ce p3",
+      "holding k3 cf"
+    ],
+    "delete-effects": [
+      "not (top ce p3)",
+      "not (holding k3 cf)"
+    ],
+    "add-effects": [
+      "in cf p3",
+      "top cf p3",
+      "empty k3",
+      "on cf ce"
+    ]
+  },
+  "take k1 cf p1 cd l1": {
+    "preconditions": [
+      "top cf p1",
+      "in cf p1",
+      "on cf cd",
+      "empty k1"
+    ],
+    "delete-effects": [
+      "not (in cf p1)",
+      "not (top cf p1)",
+      "not (empty k1)",
+      "not (on cf cd)"
+    ],
+    "add-effects": [
+      "holding k1 cf",
+      "top cd p1"
+    ]
+  },
+  "put k2 pallet p2 pallet l3": {
+    "preconditions": [
+      "top pallet p2",
+      "holding k2 pallet"
+    ],
+    "delete-effects": [
+      "not (holding k2 pallet)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "top pallet p2",
+      "on pallet pallet",
+      "in pallet p2",
+      "empty k2"
+    ]
+  },
+  "take k1 cf p1 pallet l1": {
+    "preconditions": [
+      "top cf p1",
+      "in cf p1",
+      "empty k1",
+      "on cf pallet"
+    ],
+    "delete-effects": [
+      "not (in cf p1)",
+      "not (top cf p1)",
+      "not (on cf pallet)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "holding k1 cf",
+      "top pallet p1"
+    ]
+  },
+  "take k3 ca p3 cb l4": {
+    "preconditions": [
+      "top ca p3",
+      "empty k3",
+      "in ca p3",
+      "on ca cb"
+    ],
+    "delete-effects": [
+      "not (in ca p3)",
+      "not (empty k3)",
+      "not (top ca p3)",
+      "not (on ca cb)"
+    ],
+    "add-effects": [
+      "holding k3 ca",
+      "top cb p3"
+    ]
+  },
+  "put k3 ca p3 cb l4": {
+    "preconditions": [
+      "top cb p3",
+      "holding k3 ca"
+    ],
+    "delete-effects": [
+      "not (top cb p3)",
+      "not (holding k3 ca)"
+    ],
+    "add-effects": [
+      "on ca cb",
+      "top ca p3",
+      "in ca p3",
+      "empty k3"
+    ]
+  },
+  "load k3 ca r1 l4": {
+    "preconditions": [
+      "unloaded r1",
+      "holding k3 ca",
+      "at r1 l4"
+    ],
+    "delete-effects": [
+      "not (unloaded r1)",
+      "not (holding k3 ca)"
+    ],
+    "add-effects": [
+      "empty k3",
+      "loaded r1 ca"
+    ]
+  },
+  "take k1 ce p1 pallet l1": {
+    "preconditions": [
+      "on ce pallet",
+      "in ce p1",
+      "top ce p1",
+      "empty k1"
+    ],
+    "delete-effects": [
+      "not (top ce p1)",
+      "not (in ce p1)",
+      "not (on ce pallet)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "top pallet p1",
+      "holding k1 ce"
     ]
   },
   "take k1 ca p1 pallet l1": {
@@ -6442,6 +4772,20 @@
       "top pallet p1"
     ]
   },
+  "move r1 l1 l2": {
+    "preconditions": [
+      "at r1 l1",
+      "not (occupied l2)"
+    ],
+    "delete-effects": [
+      "not (occupied l1)",
+      "not (at r1 l1)"
+    ],
+    "add-effects": [
+      "occupied l2",
+      "at r1 l2"
+    ]
+  },
   "take k1 cb p1 pallet l1": {
     "preconditions": [
       "on cb pallet",
@@ -6460,54 +4804,6 @@
       "top pallet p1"
     ]
   },
-  "put k1 cc q1 cc l1": {
-    "preconditions": [
-      "top cc q1",
-      "holding k1 cc"
-    ],
-    "delete-effects": [
-      "not (holding k1 cc)",
-      "not (top cc q1)"
-    ],
-    "add-effects": [
-      "top cc q1",
-      "empty k1",
-      "in cc q1",
-      "on cc cc"
-    ]
-  },
-  "put k1 ce q1 cf l1": {
-    "preconditions": [
-      "holding k1 ce",
-      "top cf q1"
-    ],
-    "delete-effects": [
-      "not (top cf q1)",
-      "not (holding k1 ce)"
-    ],
-    "add-effects": [
-      "in ce q1",
-      "on ce cf",
-      "empty k1",
-      "top ce q1"
-    ]
-  },
-  "put k2 pallet q2 cb l2": {
-    "preconditions": [
-      "holding k2 pallet",
-      "top cb q2"
-    ],
-    "delete-effects": [
-      "not (top cb q2)",
-      "not (holding k2 pallet)"
-    ],
-    "add-effects": [
-      "in pallet q2",
-      "empty k2",
-      "top pallet q2",
-      "on pallet cb"
-    ]
-  },
   "put k1 cc p1 ce l1": {
     "preconditions": [
       "holding k1 cc",
@@ -6524,7 +4820,23 @@
       "in cc p1"
     ]
   },
-  "put k2 ce p2 ce l2": {
+  "put k2 pallet p2 cd l3": {
+    "preconditions": [
+      "holding k2 pallet",
+      "top cd p2"
+    ],
+    "delete-effects": [
+      "not (holding k2 pallet)",
+      "not (top cd p2)"
+    ],
+    "add-effects": [
+      "top pallet p2",
+      "in pallet p2",
+      "empty k2",
+      "on pallet cd"
+    ]
+  },
+  "put k2 ce p2 ce l3": {
     "preconditions": [
       "top ce p2",
       "holding k2 ce"
@@ -6540,58 +4852,10 @@
       "on ce ce"
     ]
   },
-  "put k2 ce q2 cc l2": {
-    "preconditions": [
-      "top cc q2",
-      "holding k2 ce"
-    ],
-    "delete-effects": [
-      "not (holding k2 ce)",
-      "not (top cc q2)"
-    ],
-    "add-effects": [
-      "on ce cc",
-      "empty k2",
-      "in ce q2",
-      "top ce q2"
-    ]
-  },
-  "put k2 cc q2 ca l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top ca q2"
-    ],
-    "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 cc)"
-    ],
-    "add-effects": [
-      "on cc ca",
-      "empty k2",
-      "top cc q2",
-      "in cc q2"
-    ]
-  },
-  "put k1 ca q1 ca l1": {
-    "preconditions": [
-      "holding k1 ca",
-      "top ca q1"
-    ],
-    "delete-effects": [
-      "not (top ca q1)",
-      "not (holding k1 ca)"
-    ],
-    "add-effects": [
-      "empty k1",
-      "in ca q1",
-      "top ca q1",
-      "on ca ca"
-    ]
-  },
-  "load k2 ca r1 l2": {
+  "load k2 ca r1 l3": {
     "preconditions": [
       "unloaded r1",
-      "at r1 l2",
+      "at r1 l3",
       "holding k2 ca"
     ],
     "delete-effects": [
@@ -6601,6 +4865,22 @@
     "add-effects": [
       "empty k2",
       "loaded r1 ca"
+    ]
+  },
+  "put k1 ce p1 cd l1": {
+    "preconditions": [
+      "holding k1 ce",
+      "top cd p1"
+    ],
+    "delete-effects": [
+      "not (top cd p1)",
+      "not (holding k1 ce)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on ce cd",
+      "in ce p1",
+      "top ce p1"
     ]
   },
   "put k1 pallet p1 ca l1": {
@@ -6619,23 +4899,171 @@
       "on pallet ca"
     ]
   },
-  "put k2 pallet p2 cd l2": {
+  "put k3 cc p3 cd l4": {
     "preconditions": [
-      "holding k2 pallet",
+      "top cd p3",
+      "holding k3 cc"
+    ],
+    "delete-effects": [
+      "not (top cd p3)",
+      "not (holding k3 cc)"
+    ],
+    "add-effects": [
+      "on cc cd",
+      "in cc p3",
+      "top cc p3",
+      "empty k3"
+    ]
+  },
+  "take k2 cc p2 cb l3": {
+    "preconditions": [
+      "in cc p2",
+      "empty k2",
+      "top cc p2",
+      "on cc cb"
+    ],
+    "delete-effects": [
+      "not (top cc p2)",
+      "not (in cc p2)",
+      "not (on cc cb)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "holding k2 cc"
+    ]
+  },
+  "put k2 ca p2 cd l3": {
+    "preconditions": [
+      "holding k2 ca",
       "top cd p2"
     ],
     "delete-effects": [
-      "not (holding k2 pallet)",
+      "not (holding k2 ca)",
       "not (top cd p2)"
     ],
     "add-effects": [
-      "top pallet p2",
-      "in pallet p2",
       "empty k2",
-      "on pallet cd"
+      "on ca cd",
+      "top ca p2",
+      "in ca p2"
     ]
   },
-  "put k2 cb p2 cf l2": {
+  "take k3 ce p3 cb l4": {
+    "preconditions": [
+      "on ce cb",
+      "empty k3",
+      "top ce p3",
+      "in ce p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in ce p3)",
+      "not (top ce p3)",
+      "not (on ce cb)"
+    ],
+    "add-effects": [
+      "holding k3 ce",
+      "top cb p3"
+    ]
+  },
+  "put k3 pallet p3 cf l4": {
+    "preconditions": [
+      "holding k3 pallet",
+      "top cf p3"
+    ],
+    "delete-effects": [
+      "not (top cf p3)",
+      "not (holding k3 pallet)"
+    ],
+    "add-effects": [
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet cf",
+      "empty k3"
+    ]
+  },
+  "load k3 cb r1 l4": {
+    "preconditions": [
+      "unloaded r1",
+      "holding k3 cb",
+      "at r1 l4"
+    ],
+    "delete-effects": [
+      "not (holding k3 cb)",
+      "not (unloaded r1)"
+    ],
+    "add-effects": [
+      "loaded r1 cb",
+      "empty k3"
+    ]
+  },
+  "take k2 cf p2 cb l3": {
+    "preconditions": [
+      "top cf p2",
+      "empty k2",
+      "on cf cb",
+      "in cf p2"
+    ],
+    "delete-effects": [
+      "not (in cf p2)",
+      "not (top cf p2)",
+      "not (on cf cb)",
+      "not (empty k2)"
+    ],
+    "add-effects": [
+      "top cb p2",
+      "holding k2 cf"
+    ]
+  },
+  "unload k3 ca r1 l4": {
+    "preconditions": [
+      "loaded r1 ca",
+      "at r1 l4",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (loaded r1 ca)",
+      "not (empty k3)"
+    ],
+    "add-effects": [
+      "holding k3 ca",
+      "unloaded r1"
+    ]
+  },
+  "move r1 l2 l1": {
+    "preconditions": [
+      "not (occupied l1)",
+      "at r1 l2"
+    ],
+    "delete-effects": [
+      "not (at r1 l2)",
+      "not (occupied l2)"
+    ],
+    "add-effects": [
+      "at r1 l1",
+      "occupied l1"
+    ]
+  },
+  "take k3 cc p3 ce l4": {
+    "preconditions": [
+      "on cc ce",
+      "in cc p3",
+      "empty k3",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (top cc p3)",
+      "not (empty k3)",
+      "not (in cc p3)",
+      "not (on cc ce)"
+    ],
+    "add-effects": [
+      "holding k3 cc",
+      "top ce p3"
+    ]
+  },
+  "put k2 cb p2 cf l3": {
     "preconditions": [
       "holding k2 cb",
       "top cf p2"
@@ -6649,22 +5077,6 @@
       "in cb p2",
       "empty k2",
       "on cb cf"
-    ]
-  },
-  "put k2 ce p2 cf l2": {
-    "preconditions": [
-      "top cf p2",
-      "holding k2 ce"
-    ],
-    "delete-effects": [
-      "not (top cf p2)",
-      "not (holding k2 ce)"
-    ],
-    "add-effects": [
-      "on ce cf",
-      "empty k2",
-      "top ce p2",
-      "in ce p2"
     ]
   },
   "put k1 pallet p1 pallet l1": {
@@ -6683,38 +5095,50 @@
       "top pallet p1"
     ]
   },
-  "put k2 pallet q2 ca l2": {
+  "put k3 ce p3 cb l4": {
     "preconditions": [
-      "holding k2 pallet",
-      "top ca q2"
+      "top cb p3",
+      "holding k3 ce"
     ],
     "delete-effects": [
-      "not (top ca q2)",
-      "not (holding k2 pallet)"
+      "not (top cb p3)",
+      "not (holding k3 ce)"
     ],
     "add-effects": [
-      "in pallet q2",
-      "empty k2",
-      "top pallet q2",
-      "on pallet ca"
+      "on ce cb",
+      "top ce p3",
+      "in ce p3",
+      "empty k3"
     ]
   },
-  "take k1 ca q1 cf l1": {
+  "move r1 l2 l3": {
     "preconditions": [
-      "in ca q1",
-      "on ca cf",
-      "top ca q1",
-      "empty k1"
+      "at r1 l2",
+      "not (occupied l3)"
     ],
     "delete-effects": [
-      "not (top ca q1)",
-      "not (on ca cf)",
-      "not (in ca q1)",
-      "not (empty k1)"
+      "not (at r1 l2)",
+      "not (occupied l2)"
     ],
     "add-effects": [
-      "holding k1 ca",
-      "top cf q1"
+      "at r1 l3",
+      "occupied l3"
+    ]
+  },
+  "put k2 cc p2 cb l3": {
+    "preconditions": [
+      "holding k2 cc",
+      "top cb p2"
+    ],
+    "delete-effects": [
+      "not (holding k2 cc)",
+      "not (top cb p2)"
+    ],
+    "add-effects": [
+      "empty k2",
+      "on cc cb",
+      "in cc p2",
+      "top cc p2"
     ]
   },
   "put k1 cc p1 cf l1": {
@@ -6733,7 +5157,59 @@
       "on cc cf"
     ]
   },
-  "take k2 ca p2 ce l2": {
+  "take k1 cd p1 cb l1": {
+    "preconditions": [
+      "on cd cb",
+      "in cd p1",
+      "empty k1",
+      "top cd p1"
+    ],
+    "delete-effects": [
+      "not (top cd p1)",
+      "not (in cd p1)",
+      "not (empty k1)",
+      "not (on cd cb)"
+    ],
+    "add-effects": [
+      "holding k1 cd",
+      "top cb p1"
+    ]
+  },
+  "take k1 pallet p1 cf l1": {
+    "preconditions": [
+      "empty k1",
+      "on pallet cf",
+      "in pallet p1",
+      "top pallet p1"
+    ],
+    "delete-effects": [
+      "not (top pallet p1)",
+      "not (in pallet p1)",
+      "not (on pallet cf)",
+      "not (empty k1)"
+    ],
+    "add-effects": [
+      "top cf p1",
+      "holding k1 pallet"
+    ]
+  },
+  "put k2 ce p2 cf l3": {
+    "preconditions": [
+      "top cf p2",
+      "holding k2 ce"
+    ],
+    "delete-effects": [
+      "not (top cf p2)",
+      "not (holding k2 ce)"
+    ],
+    "add-effects": [
+      "on ce cf",
+      "empty k2",
+      "top ce p2",
+      "in ce p2"
+    ]
+  },
+  "take k2 ca p2 ce l3": {
     "preconditions": [
       "top ca p2",
       "empty k2",
@@ -6749,40 +5225,6 @@
     "add-effects": [
       "holding k2 ca",
       "top ce p2"
-    ]
-  },
-  "take k2 cc q2 cf l2": {
-    "preconditions": [
-      "top cc q2",
-      "in cc q2",
-      "on cc cf",
-      "empty k2"
-    ],
-    "delete-effects": [
-      "not (in cc q2)",
-      "not (on cc cf)",
-      "not (top cc q2)",
-      "not (empty k2)"
-    ],
-    "add-effects": [
-      "holding k2 cc",
-      "top cf q2"
-    ]
-  },
-  "put k2 cc p2 cb l2": {
-    "preconditions": [
-      "holding k2 cc",
-      "top cb p2"
-    ],
-    "delete-effects": [
-      "not (holding k2 cc)",
-      "not (top cb p2)"
-    ],
-    "add-effects": [
-      "empty k2",
-      "on cc cb",
-      "in cc p2",
-      "top cc p2"
     ]
   },
   "put k1 ca p1 cb l1": {
@@ -6801,90 +5243,149 @@
       "top ca p1"
     ]
   },
-  "take k1 ce q1 ca l1": {
+  "take k1 ca p1 cb l1": {
     "preconditions": [
-      "in ce q1",
       "empty k1",
-      "top ce q1",
-      "on ce ca"
+      "on ca cb",
+      "in ca p1",
+      "top ca p1"
     ],
     "delete-effects": [
-      "not (top ce q1)",
-      "not (on ce ca)",
-      "not (empty k1)",
-      "not (in ce q1)"
+      "not (top ca p1)",
+      "not (in ca p1)",
+      "not (on ca cb)",
+      "not (empty k1)"
     ],
     "add-effects": [
+      "holding k1 ca",
+      "top cb p1"
+    ]
+  },
+  "put k1 ce p1 cc l1": {
+    "preconditions": [
       "holding k1 ce",
-      "top ca q1"
-    ]
-  },
-  "take k2 pallet p2 cd l2": {
-    "preconditions": [
-      "top pallet p2",
-      "in pallet p2",
-      "on pallet cd",
-      "empty k2"
+      "top cc p1"
     ],
     "delete-effects": [
-      "not (on pallet cd)",
-      "not (empty k2)",
-      "not (in pallet p2)",
-      "not (top pallet p2)"
+      "not (top cc p1)",
+      "not (holding k1 ce)"
     ],
     "add-effects": [
-      "top cd p2",
-      "holding k2 pallet"
-    ]
-  },
-  "put k1 cd q1 pallet l1": {
-    "preconditions": [
-      "holding k1 cd",
-      "top pallet q1"
-    ],
-    "delete-effects": [
-      "not (top pallet q1)",
-      "not (holding k1 cd)"
-    ],
-    "add-effects": [
-      "on cd pallet",
+      "on ce cc",
       "empty k1",
-      "top cd q1",
-      "in cd q1"
+      "in ce p1",
+      "top ce p1"
     ]
   },
-  "put k2 ca q2 pallet l2": {
+  "put k1 pallet p1 cf l1": {
     "preconditions": [
-      "holding k2 ca",
-      "top pallet q2"
+      "top cf p1",
+      "holding k1 pallet"
     ],
     "delete-effects": [
-      "not (top pallet q2)",
-      "not (holding k2 ca)"
+      "not (holding k1 pallet)",
+      "not (top cf p1)"
     ],
     "add-effects": [
-      "on ca pallet",
-      "empty k2",
-      "in ca q2",
-      "top ca q2"
+      "on pallet cf",
+      "empty k1",
+      "in pallet p1",
+      "top pallet p1"
     ]
   },
-  "take k2 pallet q2 cb l2": {
+  "unload k1 pallet r1 l1": {
     "preconditions": [
-      "on pallet cb",
-      "empty k2",
-      "in pallet q2",
-      "top pallet q2"
+      "at r1 l1",
+      "empty k1",
+      "loaded r1 pallet"
     ],
     "delete-effects": [
-      "not (on pallet cb)",
-      "not (top pallet q2)",
-      "not (in pallet q2)",
-      "not (empty k2)"
+      "not (loaded r1 pallet)",
+      "not (empty k1)"
     ],
     "add-effects": [
-      "holding k2 pallet",
-      "top cb q2"
+      "unloaded r1",
+      "holding k1 pallet"
+    ]
+  },
+  "take k3 pallet p3 pallet l4": {
+    "preconditions": [
+      "on pallet pallet",
+      "empty k3",
+      "in pallet p3",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (top pallet p3)",
+      "not (in pallet p3)",
+      "not (on pallet pallet)"
+    ],
+    "add-effects": [
+      "top pallet p3",
+      "holding k3 pallet"
+    ]
+  },
+  "load k3 pallet r1 l4": {
+    "preconditions": [
+      "unloaded r1",
+      "holding k3 pallet",
+      "at r1 l4"
+    ],
+    "delete-effects": [
+      "not (holding k3 pallet)",
+      "not (unloaded r1)"
+    ],
+    "add-effects": [
+      "loaded r1 pallet",
+      "empty k3"
+    ]
+  },
+  "put k3 pallet p3 ca l4": {
+    "preconditions": [
+      "holding k3 pallet",
+      "top ca p3"
+    ],
+    "delete-effects": [
+      "not (top ca p3)",
+      "not (holding k3 pallet)"
+    ],
+    "add-effects": [
+      "in pallet p3",
+      "top pallet p3",
+      "on pallet ca",
+      "empty k3"
+    ]
+  },
+  "unload k3 cb r1 l4": {
+    "preconditions": [
+      "loaded r1 cb",
+      "at r1 l4",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (loaded r1 cb)"
+    ],
+    "add-effects": [
+      "unloaded r1",
+      "holding k3 cb"
+    ]
+  },
+  "put k3 cd p3 cf l4": {
+    "preconditions": [
+      "holding k3 cd",
+      "top cf p3"
+    ],
+    "delete-effects": [
+      "not (top cf p3)",
+      "not (holding k3 cd)"
+    ],
+    "add-effects": [
+      "top cd p3",
+      "on cd cf",
+      "in cd p3",
+      "empty k3"
     ]
   },
   "put k1 cd p1 cb l1": {
@@ -6903,7 +5404,43 @@
       "top cd p1"
     ]
   },
-  "put k2 cf p2 cb l2": {
+  "take k2 pallet p2 cd l3": {
+    "preconditions": [
+      "top pallet p2",
+      "in pallet p2",
+      "on pallet cd",
+      "empty k2"
+    ],
+    "delete-effects": [
+      "not (on pallet cd)",
+      "not (empty k2)",
+      "not (in pallet p2)",
+      "not (top pallet p2)"
+    ],
+    "add-effects": [
+      "top cd p2",
+      "holding k2 pallet"
+    ]
+  },
+  "take k3 cd p3 cf l4": {
+    "preconditions": [
+      "top cd p3",
+      "on cd cf",
+      "in cd p3",
+      "empty k3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (in cd p3)",
+      "not (top cd p3)",
+      "not (on cd cf)"
+    ],
+    "add-effects": [
+      "holding k3 cd",
+      "top cf p3"
+    ]
+  },
+  "put k2 cf p2 cb l3": {
     "preconditions": [
       "top cb p2",
       "holding k2 cf"
@@ -6919,56 +5456,37 @@
       "in cf p2"
     ]
   },
-  "take k2 cf q2 ce l2": {
+  "take k2 cb p2 cf l3": {
     "preconditions": [
-      "top cf q2",
-      "in cf q2",
+      "top cb p2",
+      "in cb p2",
       "empty k2",
-      "on cf ce"
+      "on cb cf"
     ],
     "delete-effects": [
-      "not (on cf ce)",
-      "not (in cf q2)",
-      "not (top cf q2)",
-      "not (empty k2)"
+      "not (on cb cf)",
+      "not (empty k2)",
+      "not (in cb p2)",
+      "not (top cb p2)"
     ],
     "add-effects": [
-      "holding k2 cf",
-      "top ce q2"
+      "holding k2 cb",
+      "top cf p2"
     ]
   },
-  "put k1 cf q1 cc l1": {
+  "load k3 cc r1 l4": {
     "preconditions": [
-      "holding k1 cf",
-      "top cc q1"
+      "unloaded r1",
+      "holding k3 cc",
+      "at r1 l4"
     ],
     "delete-effects": [
-      "not (top cc q1)",
-      "not (holding k1 cf)"
+      "not (holding k3 cc)",
+      "not (unloaded r1)"
     ],
     "add-effects": [
-      "empty k1",
-      "in cf q1",
-      "on cf cc",
-      "top cf q1"
-    ]
-  },
-  "take k1 cd q1 ce l1": {
-    "preconditions": [
-      "top cd q1",
-      "in cd q1",
-      "empty k1",
-      "on cd ce"
-    ],
-    "delete-effects": [
-      "not (on cd ce)",
-      "not (in cd q1)",
-      "not (top cd q1)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cd",
-      "top ce q1"
+      "empty k3",
+      "loaded r1 cc"
     ]
   },
   "put k1 cf p1 ce l1": {
@@ -6985,6 +5503,22 @@
       "top cf p1",
       "in cf p1",
       "on cf ce"
+    ]
+  },
+  "put k3 cb p3 cc l4": {
+    "preconditions": [
+      "holding k3 cb",
+      "top cc p3"
+    ],
+    "delete-effects": [
+      "not (holding k3 cb)",
+      "not (top cc p3)"
+    ],
+    "add-effects": [
+      "empty k3",
+      "in cb p3",
+      "on cb cc",
+      "top cb p3"
     ]
   },
   "take k1 pallet p1 ca l1": {
@@ -7005,24 +5539,6 @@
       "top ca p1"
     ]
   },
-  "take k1 cb q1 cb l1": {
-    "preconditions": [
-      "on cb cb",
-      "empty k1",
-      "in cb q1",
-      "top cb q1"
-    ],
-    "delete-effects": [
-      "not (top cb q1)",
-      "not (in cb q1)",
-      "not (on cb cb)",
-      "not (empty k1)"
-    ],
-    "add-effects": [
-      "holding k1 cb",
-      "top cb q1"
-    ]
-  },
   "put k1 cb p1 pallet l1": {
     "preconditions": [
       "holding k1 cb",
@@ -7035,6 +5551,22 @@
     "add-effects": [
       "on cb pallet",
       "empty k1",
+      "top cb p1",
+      "in cb p1"
+    ]
+  },
+  "put k1 cb p1 cd l1": {
+    "preconditions": [
+      "holding k1 cb",
+      "top cd p1"
+    ],
+    "delete-effects": [
+      "not (top cd p1)",
+      "not (holding k1 cb)"
+    ],
+    "add-effects": [
+      "empty k1",
+      "on cb cd",
       "top cb p1",
       "in cb p1"
     ]
@@ -7057,7 +5589,25 @@
       "top cd p1"
     ]
   },
-  "take k2 cd p2 cd l2": {
+  "take k2 cf p2 pallet l3": {
+    "preconditions": [
+      "on cf pallet",
+      "top cf p2",
+      "empty k2",
+      "in cf p2"
+    ],
+    "delete-effects": [
+      "not (in cf p2)",
+      "not (top cf p2)",
+      "not (empty k2)",
+      "not (on cf pallet)"
+    ],
+    "add-effects": [
+      "top pallet p2",
+      "holding k2 cf"
+    ]
+  },
+  "take k2 cd p2 cd l3": {
     "preconditions": [
       "in cd p2",
       "on cd cd",
@@ -7075,40 +5625,90 @@
       "holding k2 cd"
     ]
   },
-  "take k2 cd q2 cb l2": {
+  "take k3 cb p3 cc l4": {
     "preconditions": [
-      "on cd cb",
-      "in cd q2",
-      "empty k2",
-      "top cd q2"
+      "empty k3",
+      "in cb p3",
+      "on cb cc",
+      "top cb p3"
     ],
     "delete-effects": [
-      "not (top cd q2)",
-      "not (in cd q2)",
-      "not (empty k2)",
-      "not (on cd cb)"
+      "not (top cb p3)",
+      "not (on cb cc)",
+      "not (in cb p3)",
+      "not (empty k3)"
     ],
     "add-effects": [
-      "holding k2 cd",
-      "top cb q2"
+      "top cc p3",
+      "holding k3 cb"
     ]
   },
-  "take k2 cf p2 pallet l2": {
+  "put k3 cf p3 cd l4": {
     "preconditions": [
-      "on cf pallet",
-      "top cf p2",
-      "empty k2",
-      "in cf p2"
+      "top cd p3",
+      "holding k3 cf"
     ],
     "delete-effects": [
-      "not (in cf p2)",
-      "not (top cf p2)",
-      "not (empty k2)",
-      "not (on cf pallet)"
+      "not (top cd p3)",
+      "not (holding k3 cf)"
     ],
     "add-effects": [
-      "top pallet p2",
-      "holding k2 cf"
+      "on cf cd",
+      "in cf p3",
+      "top cf p3",
+      "empty k3"
+    ]
+  },
+  "take k3 cf p3 cd l4": {
+    "preconditions": [
+      "in cf p3",
+      "top cf p3",
+      "empty k3",
+      "on cf cd"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (top cf p3)",
+      "not (in cf p3)",
+      "not (on cf cd)"
+    ],
+    "add-effects": [
+      "holding k3 cf",
+      "top cd p3"
+    ]
+  },
+  "take k3 pallet p3 cb l4": {
+    "preconditions": [
+      "on pallet cb",
+      "empty k3",
+      "in pallet p3",
+      "top pallet p3"
+    ],
+    "delete-effects": [
+      "not (empty k3)",
+      "not (on pallet cb)",
+      "not (top pallet p3)",
+      "not (in pallet p3)"
+    ],
+    "add-effects": [
+      "holding k3 pallet",
+      "top cb p3"
+    ]
+  },
+  "put k2 cd p2 cd l3": {
+    "preconditions": [
+      "top cd p2",
+      "holding k2 cd"
+    ],
+    "delete-effects": [
+      "not (holding k2 cd)",
+      "not (top cd p2)"
+    ],
+    "add-effects": [
+      "in cd p2",
+      "top cd p2",
+      "empty k2",
+      "on cd cd"
     ]
   }
 }

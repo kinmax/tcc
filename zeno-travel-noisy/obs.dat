@@ -1,3 +1,5 @@
-(zoom plane3 city0 city0 fl6 fl5 fl4)
-(debark person3 plane1 city0)
-(board person2 plane2 city2)
+(fly plane1 city2 city0 fl5 fl4)
+(fly plane1 city1 city2 fl4 fl3)
+(debark person1 plane1 city1)
+(fly plane1 city0 city1 fl3 fl2)
+(fly plane1 city2 city1 fl2 fl1)

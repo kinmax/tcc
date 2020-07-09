@@ -187,7 +187,7 @@ candidates.each do |candidate|
 
     # P(L|G) = (1/number_of_total_landmakrs)
     # P(O|G) = sum(P(L|G))/number_of_total_landmarks = (number_of_achieved_landmarks/number_of_total_landmarks)/number_of_total_landmarks
-    pog[candidate] = lms.length > 0 ? (achieved_landmarks.length.to_f/lms.length.to_f)/lms.length.to_f : 0.to_f
+    pog[candidate] = lms.length > 0 ? (achieved_landmarks.length.to_f/lms.length.to_f) : 0.to_f
 end
 
 # alpha = 1/(sum of all P(O|G) values for all candidate goals)
@@ -235,13 +235,12 @@ pgo_by_prob.each do |prob|
 end
 puts "#####"
 prob_correct = false # is probability correct?
-min_prob = pgo_by_prob.first.last - threshold/100.0 # highest probability - threshold
-pgo_by_prob.each do |prob|
-    if prob[1] >= min_prob && prob[0] == real_goal # If real goal's probability is within threshold from highest goal
-        prob_correct = true
-        break
-    end
+correct_positions = 0
+goals_percents_by_score = goals_percents.sort_by{ |k,v| v }.reverse
+pgo_by_prob.each_with_index do |prob, index|
+    correct_positions += 1 if prob[0] == goals_percents_by_score[index][0]
 end
+prob_correct = correct_positions == goals_percents_by_score.length && correct_positions == pgo_by_prob.length
 
 prob_correct_string = prob_correct ? "PROBABILITY_CORRECT-TRUE" : "PROBABILITY_CORRECT-FALSE"
 puts prob_correct_string

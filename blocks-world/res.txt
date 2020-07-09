@@ -1,6 +1,33 @@
 GOALS-21
 LANDMARKS_AVG-16.523809523809526
-OBS-3
-SPREAD-2
+OBS-4
+SPREAD-6
 CORRECT-TRUE
-TIME-12.556157025974244
+TIME-124.50077522546053
+PROBABILITIES:
+#####
+(clear e),(ontable r),(on e a),(on a r)###0.05702563863391774
+(clear w),(ontable r),(on w a),(on a r)###0.05702563863391774
+(clear r),(ontable w),(on r a),(on a w)###0.055675919376310216
+(clear d),(ontable r),(on d e),(on e a),(on a r)###0.05418725843041957
+(clear d),(ontable w),(on d r),(on r a),(on a w)###0.0526390510466933
+(clear w),(ontable r),(on w e),(on e a),(on a r)###0.05194643195397365
+(clear w),(ontable d),(on w a),(on a d)###0.05061447216028202
+(clear p),(ontable r),(on p e),(on e a),(on a r)###0.0484833364903754
+(clear p),(ontable w),(on p a),(on a w)###0.048252463459468854
+(clear w),(ontable e),(on w a),(on a d),(on d e)###0.048252463459468854
+(clear r),(ontable w),(on r o),(on o w)###0.04785368276972118
+(clear r),(ontable e),(on r a),(on a p),(on p e)###0.046446221511788205
+(clear r),(ontable p),(on r e),(on e a),(on a p)###0.046446221511788205
+(clear c),(ontable e),(on c o),(on o r),(on r e)###0.045020241026777166
+(clear c),(ontable w),(on c r),(on r o),(on o w)###0.045020241026777166
+(clear w),(ontable e),(on w o),(on o r),(on r e)###0.043865875872244414
+(clear d),(ontable e),(on d o),(on o p),(on p e)###0.04257570305247252
+(clear c),(ontable r),(on c o),(on o w),(on w e),(on e r)###0.04211124083735464
+(clear p),(ontable e),(on p o),(on o r),(on r e)###0.039479288285019974
+(clear r),(ontable e),(on r o),(on o p),(on p e)###0.039479288285019974
+(clear p),(ontable r),(on p o),(on o w),(on w e),(on e r)###0.037599322176209496
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (clear e),(ontable r),(on e a),(on a r)
+1.0000000000000002

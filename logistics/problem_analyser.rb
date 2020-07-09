@@ -118,6 +118,7 @@ landmark_avg = 0
 
 landmarks_per_goal = {}
 achieved_landmarks_per_goal = {}
+pog = {}
 
 candidates.each do |candidate|
 
@@ -181,6 +182,23 @@ candidates.each do |candidate|
     goals_percents[candidate] = lms.length > 0 ? achieved_landmarks.length.to_f/lms.length.to_f : 0.to_f
 
     landmark_avg = landmark_avg + lms.length
+
+    # Probability Calc
+
+    # P(L|G) = (1/number_of_total_landmakrs)
+    # P(O|G) = sum(P(L|G))/number_of_total_landmarks = (number_of_achieved_landmarks/number_of_total_landmarks)/number_of_total_landmarks
+    pog[candidate] = lms.length > 0 ? (achieved_landmarks.length.to_f/lms.length.to_f) : 0.to_f
+end
+
+# alpha = 1/(sum of all P(O|G) values for all candidate goals)
+alpha = pog.values.inject{ |a, b| a + b }.to_f > 0 ? 1.to_f/pog.values.inject{ |a, b| a + b }.to_f : 0.to_f
+
+# P(G) = 1 -> uniform distribution
+pg = 1.to_f
+pgo = {}
+candidates.each do |candidate|
+    # For each candidate goal, P(G|O) = alpha * P(O|G) * P(G)
+    pgo[candidate] = alpha * pog[candidate] * pg
 end
 
 landmark_avg = landmark_avg.to_f/candidates.length.to_f
@@ -209,6 +227,32 @@ finish = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 time = finish - start
 
 puts "TIME-#{time}"
+puts "PROBABILITIES:"
+puts "#####"
+pgo_by_prob = pgo.sort_by{|k, v| v}.reverse
+pgo_by_prob.each do |prob|
+    puts "#{prob[0]}####{prob[1]}"
+end
+puts "#####"
+prob_correct = false # is probability correct?
+min_prob = pgo_by_prob.first.last - (pgo_by_prob.first.last*(threshold/100.0)) # highest probability - threshold
+pgo_by_prob.each do |prob|
+    if prob[1] >= min_prob && prob[0] == real_goal # If real goal's probability is within threshold from highest goal
+        prob_correct = true
+        break
+    end
+end
+
+prob_correct_string = prob_correct ? "PROBABILITY_CORRECT-TRUE" : "PROBABILITY_CORRECT-FALSE"
+puts prob_correct_string
+
+sum = 0
+pgo_by_prob.each do |prob|
+    sum += prob[1]
+end
+puts "REAL GOAL: #{real_goal}"
+puts sum
+
 
 # puts "#"*50
 # recognized.each do |rg|

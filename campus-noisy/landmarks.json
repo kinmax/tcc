@@ -19,8 +19,8 @@
       "not (at library)"
     ],
     "add-effects": [
-      "at watson_theater",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at watson_theater"
     ]
   },
   "move hayman_theater tav": {
@@ -43,8 +43,8 @@
       "not (at library)"
     ],
     "add-effects": [
-      "at bookmark_cafe",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at bookmark_cafe"
     ]
   },
   "move cbs cbs": {
@@ -71,18 +71,6 @@
       "increase (total-cost) 1"
     ]
   },
-  "move bookmark_cafe bookmark_cafe": {
-    "preconditions": [
-      "at bookmark_cafe"
-    ],
-    "delete-effects": [
-      "not (at bookmark_cafe)"
-    ],
-    "add-effects": [
-      "at bookmark_cafe",
-      "increase (total-cost) 1"
-    ]
-  },
   "move davis_theater hayman_theater": {
     "preconditions": [
       "at davis_theater"
@@ -93,6 +81,18 @@
     "add-effects": [
       "at hayman_theater",
       "increase (total-cost) 1"
+    ]
+  },
+  "move bookmark_cafe bookmark_cafe": {
+    "preconditions": [
+      "at bookmark_cafe"
+    ],
+    "delete-effects": [
+      "not (at bookmark_cafe)"
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "at bookmark_cafe"
     ]
   },
   "move davis_theater davis_theater": {
@@ -131,18 +131,6 @@
       "at bank"
     ]
   },
-  "move tav library": {
-    "preconditions": [
-      "at tav"
-    ],
-    "delete-effects": [
-      "not (at tav)"
-    ],
-    "add-effects": [
-      "increase (total-cost) 1",
-      "at library"
-    ]
-  },
   "move davis_theater angazi_cafe": {
     "preconditions": [
       "at davis_theater"
@@ -155,6 +143,18 @@
       "increase (total-cost) 1"
     ]
   },
+  "move tav library": {
+    "preconditions": [
+      "at tav"
+    ],
+    "delete-effects": [
+      "not (at tav)"
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "at library"
+    ]
+  },
   "move hayman_theater jones_theater": {
     "preconditions": [
       "at hayman_theater"
@@ -163,8 +163,8 @@
       "not (at hayman_theater)"
     ],
     "add-effects": [
-      "at jones_theater",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at jones_theater"
     ]
   },
   "move psychology_bldg cbs": {
@@ -175,8 +175,8 @@
       "not (at psychology_bldg)"
     ],
     "add-effects": [
-      "at cbs",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at cbs"
     ]
   },
   "move watson_theater jones_theater": {
@@ -187,20 +187,8 @@
       "not (at watson_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at jones_theater"
-    ]
-  },
-  "move angazi_cafe bookmark_cafe": {
-    "preconditions": [
-      "at angazi_cafe"
-    ],
-    "delete-effects": [
-      "not (at angazi_cafe)"
-    ],
-    "add-effects": [
-      "increase (total-cost) 1",
-      "at bookmark_cafe"
+      "at jones_theater",
+      "increase (total-cost) 1"
     ]
   },
   "move angazi_cafe hayman_theater": {
@@ -215,6 +203,18 @@
       "increase (total-cost) 1"
     ]
   },
+  "move angazi_cafe bookmark_cafe": {
+    "preconditions": [
+      "at angazi_cafe"
+    ],
+    "delete-effects": [
+      "not (at angazi_cafe)"
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "at bookmark_cafe"
+    ]
+  },
   "move davis_theater psychology_bldg": {
     "preconditions": [
       "at davis_theater"
@@ -223,8 +223,8 @@
       "not (at davis_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at psychology_bldg"
+      "at psychology_bldg",
+      "increase (total-cost) 1"
     ]
   },
   "move jones_theater angazi_cafe": {
@@ -283,8 +283,8 @@
       "not (at jones_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at bookmark_cafe"
+      "at bookmark_cafe",
+      "increase (total-cost) 1"
     ]
   },
   "move cbs jones_theater": {
@@ -403,8 +403,8 @@
       ""
     ],
     "add-effects": [
-      "breakfast",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "breakfast"
     ]
   },
   "activity-breakfast-1": {
@@ -443,18 +443,6 @@
       "at library"
     ]
   },
-  "move watson_theater psychology_bldg": {
-    "preconditions": [
-      "at watson_theater"
-    ],
-    "delete-effects": [
-      "not (at watson_theater)"
-    ],
-    "add-effects": [
-      "at psychology_bldg",
-      "increase (total-cost) 1"
-    ]
-  },
   "move psychology_bldg bank": {
     "preconditions": [
       "at psychology_bldg"
@@ -465,6 +453,18 @@
     "add-effects": [
       "increase (total-cost) 1",
       "at bank"
+    ]
+  },
+  "move watson_theater psychology_bldg": {
+    "preconditions": [
+      "at watson_theater"
+    ],
+    "delete-effects": [
+      "not (at watson_theater)"
+    ],
+    "add-effects": [
+      "at psychology_bldg",
+      "increase (total-cost) 1"
     ]
   },
   "move davis_theater tav": {
@@ -487,7 +487,19 @@
       "not (at psychology_bldg)"
     ],
     "add-effects": [
-      "at library",
+      "increase (total-cost) 1",
+      "at library"
+    ]
+  },
+  "move tav tav": {
+    "preconditions": [
+      "at tav"
+    ],
+    "delete-effects": [
+      "not (at tav)"
+    ],
+    "add-effects": [
+      "at tav",
       "increase (total-cost) 1"
     ]
   },
@@ -503,18 +515,6 @@
       "at bank"
     ]
   },
-  "move tav tav": {
-    "preconditions": [
-      "at tav"
-    ],
-    "delete-effects": [
-      "not (at tav)"
-    ],
-    "add-effects": [
-      "at tav",
-      "increase (total-cost) 1"
-    ]
-  },
   "move bank watson_theater": {
     "preconditions": [
       "at bank"
@@ -523,8 +523,8 @@
       "not (at bank)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at watson_theater"
+      "at watson_theater",
+      "increase (total-cost) 1"
     ]
   },
   "move cbs tav": {
@@ -559,8 +559,8 @@
       "not (at cbs)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at bookmark_cafe"
+      "at bookmark_cafe",
+      "increase (total-cost) 1"
     ]
   },
   "move cbs davis_theater": {
@@ -620,8 +620,8 @@
       "not (at angazi_cafe)"
     ],
     "add-effects": [
-      "at angazi_cafe",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at angazi_cafe"
     ]
   },
   "activity-group-meeting-3-2": {
@@ -697,18 +697,6 @@
       "increase (total-cost) 1"
     ]
   },
-  "move psychology_bldg bookmark_cafe": {
-    "preconditions": [
-      "at psychology_bldg"
-    ],
-    "delete-effects": [
-      "not (at psychology_bldg)"
-    ],
-    "add-effects": [
-      "increase (total-cost) 1",
-      "at bookmark_cafe"
-    ]
-  },
   "move cbs hayman_theater": {
     "preconditions": [
       "at cbs"
@@ -721,6 +709,18 @@
       "increase (total-cost) 1"
     ]
   },
+  "move psychology_bldg bookmark_cafe": {
+    "preconditions": [
+      "at psychology_bldg"
+    ],
+    "delete-effects": [
+      "not (at psychology_bldg)"
+    ],
+    "add-effects": [
+      "at bookmark_cafe",
+      "increase (total-cost) 1"
+    ]
+  },
   "move cbs library": {
     "preconditions": [
       "at cbs"
@@ -729,8 +729,8 @@
       "not (at cbs)"
     ],
     "add-effects": [
-      "at library",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at library"
     ]
   },
   "move watson_theater cbs": {
@@ -741,8 +741,8 @@
       "not (at watson_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at cbs"
+      "at cbs",
+      "increase (total-cost) 1"
     ]
   },
   "move hayman_theater bank": {
@@ -777,8 +777,8 @@
       "not (at bank)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at psychology_bldg"
+      "at psychology_bldg",
+      "increase (total-cost) 1"
     ]
   },
   "move watson_theater bank": {
@@ -865,18 +865,6 @@
       "at cbs"
     ]
   },
-  "move library davis_theater": {
-    "preconditions": [
-      "at library"
-    ],
-    "delete-effects": [
-      "not (at library)"
-    ],
-    "add-effects": [
-      "at davis_theater",
-      "increase (total-cost) 1"
-    ]
-  },
   "move tav bank": {
     "preconditions": [
       "at tav"
@@ -887,6 +875,18 @@
     "add-effects": [
       "increase (total-cost) 1",
       "at bank"
+    ]
+  },
+  "move library davis_theater": {
+    "preconditions": [
+      "at library"
+    ],
+    "delete-effects": [
+      "not (at library)"
+    ],
+    "add-effects": [
+      "at davis_theater",
+      "increase (total-cost) 1"
     ]
   },
   "move bank bank": {
@@ -925,18 +925,6 @@
       "increase (total-cost) 1"
     ]
   },
-  "move bank cbs": {
-    "preconditions": [
-      "at bank"
-    ],
-    "delete-effects": [
-      "not (at bank)"
-    ],
-    "add-effects": [
-      "increase (total-cost) 1",
-      "at cbs"
-    ]
-  },
   "move psychology_bldg tav": {
     "preconditions": [
       "at psychology_bldg"
@@ -947,6 +935,18 @@
     "add-effects": [
       "at tav",
       "increase (total-cost) 1"
+    ]
+  },
+  "move bank cbs": {
+    "preconditions": [
+      "at bank"
+    ],
+    "delete-effects": [
+      "not (at bank)"
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "at cbs"
     ]
   },
   "move hayman_theater watson_theater": {
@@ -973,18 +973,6 @@
       "group-meeting-2"
     ]
   },
-  "activity-group-meeting-2-1": {
-    "preconditions": [
-      "at cbs"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "increase (total-cost) 1",
-      "group-meeting-2"
-    ]
-  },
   "move angazi_cafe jones_theater": {
     "preconditions": [
       "at angazi_cafe"
@@ -993,7 +981,19 @@
       "not (at angazi_cafe)"
     ],
     "add-effects": [
-      "at jones_theater",
+      "increase (total-cost) 1",
+      "at jones_theater"
+    ]
+  },
+  "activity-group-meeting-2-1": {
+    "preconditions": [
+      "at cbs"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "group-meeting-2",
       "increase (total-cost) 1"
     ]
   },
@@ -1031,8 +1031,20 @@
       ""
     ],
     "add-effects": [
-      "lecture-3-taken",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "lecture-3-taken"
+    ]
+  },
+  "move bank library": {
+    "preconditions": [
+      "at bank"
+    ],
+    "delete-effects": [
+      "not (at bank)"
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "at library"
     ]
   },
   "move hayman_theater davis_theater": {
@@ -1044,31 +1056,6 @@
     ],
     "add-effects": [
       "at davis_theater",
-      "increase (total-cost) 1"
-    ]
-  },
-  "move bank library": {
-    "preconditions": [
-      "at bank"
-    ],
-    "delete-effects": [
-      "not (at bank)"
-    ],
-    "add-effects": [
-      "at library",
-      "increase (total-cost) 1"
-    ]
-  },
-  "activity-take-lecture-4": {
-    "preconditions": [
-      "lecture-3-taken",
-      "at jones_theater"
-    ],
-    "delete-effects": [
-      ""
-    ],
-    "add-effects": [
-      "lecture-4-taken",
       "increase (total-cost) 1"
     ]
   },
@@ -1093,6 +1080,19 @@
     ],
     "add-effects": [
       "at psychology_bldg",
+      "increase (total-cost) 1"
+    ]
+  },
+  "activity-take-lecture-4": {
+    "preconditions": [
+      "lecture-3-taken",
+      "at jones_theater"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "lecture-4-taken",
       "increase (total-cost) 1"
     ]
   },
@@ -1140,8 +1140,8 @@
       ""
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "lecture-1-taken"
+      "lecture-1-taken",
+      "increase (total-cost) 1"
     ]
   },
   "activity-take-lecture-2": {
@@ -1178,8 +1178,8 @@
       "not (at watson_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at watson_theater"
+      "at watson_theater",
+      "increase (total-cost) 1"
     ]
   },
   "move angazi_cafe psychology_bldg": {
@@ -1226,8 +1226,8 @@
       "not (at davis_theater)"
     ],
     "add-effects": [
-      "at bookmark_cafe",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at bookmark_cafe"
     ]
   },
   "move hayman_theater cbs": {
@@ -1290,18 +1290,6 @@
       "increase (total-cost) 1"
     ]
   },
-  "move bookmark_cafe library": {
-    "preconditions": [
-      "at bookmark_cafe"
-    ],
-    "delete-effects": [
-      "not (at bookmark_cafe)"
-    ],
-    "add-effects": [
-      "at library",
-      "increase (total-cost) 1"
-    ]
-  },
   "move hayman_theater angazi_cafe": {
     "preconditions": [
       "at hayman_theater"
@@ -1310,8 +1298,8 @@
       "not (at hayman_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at angazi_cafe"
+      "at angazi_cafe",
+      "increase (total-cost) 1"
     ]
   },
   "move tav davis_theater": {
@@ -1324,6 +1312,18 @@
     "add-effects": [
       "at davis_theater",
       "increase (total-cost) 1"
+    ]
+  },
+  "move bookmark_cafe library": {
+    "preconditions": [
+      "at bookmark_cafe"
+    ],
+    "delete-effects": [
+      "not (at bookmark_cafe)"
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "at library"
     ]
   },
   "move bookmark_cafe bank": {
@@ -1382,8 +1382,8 @@
       "not (at library)"
     ],
     "add-effects": [
-      "at library",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at library"
     ]
   },
   "move tav psychology_bldg": {
@@ -1398,16 +1398,28 @@
       "increase (total-cost) 1"
     ]
   },
-  "move psychology_bldg psychology_bldg": {
+  "move bookmark_cafe hayman_theater": {
     "preconditions": [
-      "at psychology_bldg"
+      "at bookmark_cafe"
     ],
     "delete-effects": [
-      "not (at psychology_bldg)"
+      "not (at bookmark_cafe)"
     ],
     "add-effects": [
-      "at psychology_bldg",
+      "at hayman_theater",
       "increase (total-cost) 1"
+    ]
+  },
+  "activity-lunch-1": {
+    "preconditions": [
+      "at tav"
+    ],
+    "delete-effects": [
+      ""
+    ],
+    "add-effects": [
+      "increase (total-cost) 1",
+      "lunch"
     ]
   },
   "move angazi_cafe watson_theater": {
@@ -1422,28 +1434,16 @@
       "increase (total-cost) 1"
     ]
   },
-  "activity-lunch-1": {
+  "move psychology_bldg psychology_bldg": {
     "preconditions": [
-      "at tav"
+      "at psychology_bldg"
     ],
     "delete-effects": [
-      ""
+      "not (at psychology_bldg)"
     ],
     "add-effects": [
-      "lunch",
-      "increase (total-cost) 1"
-    ]
-  },
-  "move bookmark_cafe hayman_theater": {
-    "preconditions": [
-      "at bookmark_cafe"
-    ],
-    "delete-effects": [
-      "not (at bookmark_cafe)"
-    ],
-    "add-effects": [
-      "at hayman_theater",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at psychology_bldg"
     ]
   },
   "activity-lunch-2": {
@@ -1478,8 +1478,8 @@
       "not (at watson_theater)"
     ],
     "add-effects": [
-      "at library",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "at library"
     ]
   },
   "move tav hayman_theater": {
@@ -1506,6 +1506,18 @@
       "at jones_theater"
     ]
   },
+  "move cbs watson_theater": {
+    "preconditions": [
+      "at cbs"
+    ],
+    "delete-effects": [
+      "not (at cbs)"
+    ],
+    "add-effects": [
+      "at watson_theater",
+      "increase (total-cost) 1"
+    ]
+  },
   "activity-coffee-2": {
     "preconditions": [
       "lecture-2-taken",
@@ -1516,8 +1528,8 @@
       ""
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "coffee"
+      "coffee",
+      "increase (total-cost) 1"
     ]
   },
   "activity-group-meeting-1-1": {
@@ -1534,15 +1546,15 @@
       "increase (total-cost) 1"
     ]
   },
-  "move cbs watson_theater": {
+  "move angazi_cafe davis_theater": {
     "preconditions": [
-      "at cbs"
+      "at angazi_cafe"
     ],
     "delete-effects": [
-      "not (at cbs)"
+      "not (at angazi_cafe)"
     ],
     "add-effects": [
-      "at watson_theater",
+      "at davis_theater",
       "increase (total-cost) 1"
     ]
   },
@@ -1558,18 +1570,6 @@
     "add-effects": [
       "increase (total-cost) 1",
       "coffee"
-    ]
-  },
-  "move angazi_cafe davis_theater": {
-    "preconditions": [
-      "at angazi_cafe"
-    ],
-    "delete-effects": [
-      "not (at angazi_cafe)"
-    ],
-    "add-effects": [
-      "at davis_theater",
-      "increase (total-cost) 1"
     ]
   },
   "move bookmark_cafe angazi_cafe": {
@@ -1592,8 +1592,8 @@
       "not (at davis_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at library"
+      "at library",
+      "increase (total-cost) 1"
     ]
   },
   "move watson_theater davis_theater": {
@@ -1630,8 +1630,8 @@
       ""
     ],
     "add-effects": [
-      "group-meeting-1",
-      "increase (total-cost) 1"
+      "increase (total-cost) 1",
+      "group-meeting-1"
     ]
   },
   "move watson_theater bookmark_cafe": {
@@ -1642,8 +1642,8 @@
       "not (at watson_theater)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at bookmark_cafe"
+      "at bookmark_cafe",
+      "increase (total-cost) 1"
     ]
   },
   "activity-group-meeting-1-2": {
@@ -1704,8 +1704,8 @@
       "not (at library)"
     ],
     "add-effects": [
-      "increase (total-cost) 1",
-      "at jones_theater"
+      "at jones_theater",
+      "increase (total-cost) 1"
     ]
   },
   "activity-coffee-3": {

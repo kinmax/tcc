@@ -38,62 +38,6 @@
       "at c1 l3"
     ]
   },
-  "board c9 l0": {
-    "preconditions": [
-      "empty-ferry",
-      "at-ferry l0",
-      "at c9 l0"
-    ],
-    "delete-effects": [
-      "not (at c9 l0)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c9"
-    ]
-  },
-  "board c9 l1": {
-    "preconditions": [
-      "at c9 l1",
-      "empty-ferry",
-      "at-ferry l1"
-    ],
-    "delete-effects": [
-      "not (empty-ferry)",
-      "not (at c9 l1)"
-    ],
-    "add-effects": [
-      "on c9"
-    ]
-  },
-  "board c9 l2": {
-    "preconditions": [
-      "at-ferry l2",
-      "empty-ferry",
-      "at c9 l2"
-    ],
-    "delete-effects": [
-      "not (at c9 l2)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c9"
-    ]
-  },
-  "board c9 l3": {
-    "preconditions": [
-      "empty-ferry",
-      "at-ferry l3",
-      "at c9 l3"
-    ],
-    "delete-effects": [
-      "not (at c9 l3)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c9"
-    ]
-  },
   "board c1 l0": {
     "preconditions": [
       "empty-ferry",
@@ -148,19 +92,6 @@
     ],
     "add-effects": [
       "on c1"
-    ]
-  },
-  "debark c9 l0": {
-    "preconditions": [
-      "on c9",
-      "at-ferry l0"
-    ],
-    "delete-effects": [
-      "not (on c9)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c9 l0"
     ]
   },
   "board c5 l2": {
@@ -219,19 +150,6 @@
       "on c5"
     ]
   },
-  "debark c9 l3": {
-    "preconditions": [
-      "on c9",
-      "at-ferry l3"
-    ],
-    "delete-effects": [
-      "not (on c9)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c9 l3"
-    ]
-  },
   "debark c5 l0": {
     "preconditions": [
       "on c5",
@@ -243,32 +161,6 @@
     "add-effects": [
       "empty-ferry",
       "at c5 l0"
-    ]
-  },
-  "debark c9 l2": {
-    "preconditions": [
-      "on c9",
-      "at-ferry l2"
-    ],
-    "delete-effects": [
-      "not (on c9)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c9 l2"
-    ]
-  },
-  "debark c9 l1": {
-    "preconditions": [
-      "on c9",
-      "at-ferry l1"
-    ],
-    "delete-effects": [
-      "not (on c9)"
-    ],
-    "add-effects": [
-      "at c9 l1",
-      "empty-ferry"
     ]
   },
   "sail l1 l0": {
@@ -465,19 +357,6 @@
       "at-ferry l2"
     ]
   },
-  "debark c8 l3": {
-    "preconditions": [
-      "at-ferry l3",
-      "on c8"
-    ],
-    "delete-effects": [
-      "not (on c8)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c8 l3"
-    ]
-  },
   "sail l0 l1": {
     "preconditions": [
       "at-ferry l0"
@@ -487,19 +366,6 @@
     ],
     "add-effects": [
       "at-ferry l1"
-    ]
-  },
-  "debark c8 l2": {
-    "preconditions": [
-      "on c8",
-      "at-ferry l2"
-    ],
-    "delete-effects": [
-      "not (on c8)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c8 l2"
     ]
   },
   "board c6 l0": {
@@ -514,32 +380,6 @@
     ],
     "add-effects": [
       "on c6"
-    ]
-  },
-  "debark c8 l1": {
-    "preconditions": [
-      "on c8",
-      "at-ferry l1"
-    ],
-    "delete-effects": [
-      "not (on c8)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c8 l1"
-    ]
-  },
-  "debark c8 l0": {
-    "preconditions": [
-      "on c8",
-      "at-ferry l0"
-    ],
-    "delete-effects": [
-      "not (on c8)"
-    ],
-    "add-effects": [
-      "empty-ferry",
-      "at c8 l0"
     ]
   },
   "debark c0 l3": {
@@ -1041,20 +881,6 @@
       "on c4"
     ]
   },
-  "board c8 l3": {
-    "preconditions": [
-      "at c8 l3",
-      "empty-ferry",
-      "at-ferry l3"
-    ],
-    "delete-effects": [
-      "not (at c8 l3)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c8"
-    ]
-  },
   "board c4 l1": {
     "preconditions": [
       "at c4 l1",
@@ -1082,20 +908,6 @@
       "at c6 l0"
     ]
   },
-  "board c8 l2": {
-    "preconditions": [
-      "at-ferry l2",
-      "empty-ferry",
-      "at c8 l2"
-    ],
-    "delete-effects": [
-      "not (at c8 l2)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c8"
-    ]
-  },
   "debark c6 l1": {
     "preconditions": [
       "at-ferry l1",
@@ -1107,34 +919,6 @@
     "add-effects": [
       "empty-ferry",
       "at c6 l1"
-    ]
-  },
-  "board c8 l1": {
-    "preconditions": [
-      "empty-ferry",
-      "at c8 l1",
-      "at-ferry l1"
-    ],
-    "delete-effects": [
-      "not (at c8 l1)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c8"
-    ]
-  },
-  "board c8 l0": {
-    "preconditions": [
-      "empty-ferry",
-      "at c8 l0",
-      "at-ferry l0"
-    ],
-    "delete-effects": [
-      "not (at c8 l0)",
-      "not (empty-ferry)"
-    ],
-    "add-effects": [
-      "on c8"
     ]
   },
   "sail l2 l1": {

@@ -1,6 +1,14 @@
 GOALS-2
 LANDMARKS_AVG-8.5
-OBS-3
+OBS-6
 SPREAD-1
-CORRECT-TRUE
-TIME-3.1838200150523335
+CORRECT-FALSE
+TIME-12.588189138099551
+PROBABILITIES:
+#####
+(breakfast), (lecture-1-taken), (group-meeting-1), (lecture-2-taken), (coffee)###0.5294117647058824
+(group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)###0.47058823529411764
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (group-meeting-2), (banking), (lecture-3-taken), (lecture-4-taken), (group-meeting-3), (lunch)
+1.0

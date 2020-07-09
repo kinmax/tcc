@@ -1,6 +1,18 @@
 GOALS-6
 LANDMARKS_AVG-40.166666666666664
-OBS-24
-SPREAD-4
+OBS-34
+SPREAD-2
 CORRECT-TRUE
-TIME-10.133599025895819
+TIME-37.997791862115264
+PROBABILITIES:
+#####
+(in ca p2), (in cb p1), (in cc p2), (in cd p4), (on cb cf), (on ce cd)###0.18331845076666956
+(in ca p3), (in cb p4), (in cc p2), (in cd p4), (on cb cf), (on ce cd)###0.17604589936826542
+(in ca p3), (in cb p2), (in cc p1), (in cd p2), (on cb cd), (on ce cc)###0.16481173912329353
+(in ca p4), (in cb p2), (in cc p1), (in cd p1), (on cb cf), (on ce cc)###0.1617515742058849
+(in ca p2), (in cb p4), (in cc p3), (in cd p4), (on cb cf), (on cf ce)###0.16021108302297168
+(in ca p3), (in cb p3), (in cc p3), (in cd p3), (on ca cc), (on ce cd)###0.15386125351291488
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (in ca p2), (in cb p1), (in cc p2), (in cd p4), (on cb cf), (on ce cd)
+1.0

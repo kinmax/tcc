@@ -1,4 +1,5 @@
-(define (problem depotprob0) (:domain depots)
+(define (problem depotsProblem) 
+(:domain depots)
 (:objects
   depot0 - Depot
   distributor0 - Distributor
@@ -37,5 +38,5 @@
 
 (:goal (and
   <HYPOTHESIS>
-))
 )
+))

@@ -1,6 +1,18 @@
 GOALS-6
-LANDMARKS_AVG-9.0
-OBS-6
-SPREAD-1
+LANDMARKS_AVG-14.0
+OBS-7
+SPREAD-4
 CORRECT-TRUE
-TIME-9.766572660999373
+TIME-38.316868253052235
+PROBABILITIES:
+#####
+(have_image planet3 infrared1), (have_image planet4 infrared0), (have_image phenomenon5 image2), (have_image phenomenon6 infrared1), (have_image star7 infrared1)###0.18333333333333332
+(have_image planet3 infrared1), (have_image planet4 infrared1), (have_image phenomenon5 image2), (have_image phenomenon6 infrared1), (have_image star7 infrared1)###0.18333333333333332
+(have_image planet3 infrared0), (have_image planet4 infrared1), (have_image phenomenon5 image2), (have_image phenomenon6 infrared1), (have_image star7 infrared0)###0.16666666666666669
+(have_image planet3 infrared1), (have_image planet4 infrared0), (have_image phenomenon6 image2), (have_image phenomenon5 infrared0), (have_image star7 infrared1)###0.16666666666666669
+(have_image planet3 infrared0), (have_image planet4 infrared1), (have_image phenomenon5 image2), (have_image phenomenon6 infrared0), (have_image star7 infrared0)###0.15000000000000002
+(have_image planet3 infrared0), (have_image planet4 infrared0), (have_image phenomenon5 image2), (have_image phenomenon6 infrared0), (have_image star7 infrared0)###0.15000000000000002
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (have_image planet3 infrared1), (have_image planet4 infrared1), (have_image phenomenon5 image2), (have_image phenomenon6 infrared1), (have_image star7 infrared1)
+1.0

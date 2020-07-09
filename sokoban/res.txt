@@ -1,6 +1,20 @@
-GOALS-10
-LANDMARKS_AVG-7.0
+GOALS-8
+LANDMARKS_AVG-14.25
 OBS-8
 SPREAD-2
 CORRECT-TRUE
-TIME-17.178642350947484
+TIME-48.024774480611086
+PROBABILITIES:
+#####
+(at box0 f1-2f), (at box1 f2-3f)###0.167303961574997
+(at box0 f2-4f), (at box1 f1-4f)###0.15364649532397684
+(at box0 f2-4f), (at box1 f4-3f)###0.14834834031280522
+(at box0 f2-4f), (at box1 f3-1f)###0.1434033956357117
+(at box0 f1-1f), (at box1 f4-2f)###0.12547797118124776
+(at box0 f1-2f), (at box1 f4-4f)###0.10755254672678378
+(at box0 f3-4f), (at box1 f1-1f)###0.09560226375714113
+(at box0 f3-4f), (at box1 f4-4f)###0.058665025487336604
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (at box0 f2-4f), (at box1 f1-4f)
+1.0

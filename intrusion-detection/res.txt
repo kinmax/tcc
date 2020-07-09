@@ -1,6 +1,32 @@
 GOALS-20
 LANDMARKS_AVG-16.5
-OBS-5
+OBS-6
 SPREAD-1
 CORRECT-TRUE
-TIME-15.68521770881489
+TIME-116.90831733308733
+PROBABILITIES:
+#####
+(vandalized scorpio), (data-stolen-from scorpio), (data-stolen-from virgo)###0.19230769230769235
+(vandalized sagittarius), (vandalized scorpio), (data-stolen-from virgo)###0.1682692307692308
+(vandalized perseus), (vandalized virgo), (vandalized scorpio)###0.13461538461538466
+(vandalized libra), (vandalized virgo), (vandalized scorpio)###0.13461538461538466
+(data-stolen-from sagittarius), (vandalized libra), (data-stolen-from virgo)###0.09898190045248871
+(vandalized cassiopea), (data-stolen-from leo), (data-stolen-from scorpio)###0.05938914027149323
+(data-stolen-from scorpio), (vandalized cassiopea), (data-stolen-from aries)###0.05938914027149323
+(data-stolen-from andromeda), (vandalized virgo), (data-stolen-from aries)###0.05938914027149323
+(vandalized virgo), (data-stolen-from aries), (data-stolen-from sagittarius)###0.05938914027149323
+(information-gathered perseus), (information-gathered cassiopea), (information-gathered andromeda), (information-gathered sagittarius), (information-gathered scorpio), (information-gathered virgo), (information-gathered aries), (information-gathered leo), (information-gathered libra), (information-gathered taurus)###0.033653846153846166
+(vandalized taurus), (data-stolen-from cassiopea), (vandalized aries)###0.0
+(vandalized aries), (data-stolen-from libra), (data-stolen-from taurus)###0.0
+(vandalized aries), (data-stolen-from libra), (vandalized cassiopea)###0.0
+(data-stolen-from andromeda), (vandalized leo), (data-stolen-from libra)###0.0
+(data-stolen-from aries), (data-stolen-from taurus), (data-stolen-from andromeda)###0.0
+(data-stolen-from perseus), (data-stolen-from cassiopea), (vandalized libra)###0.0
+(data-stolen-from cassiopea), (data-stolen-from libra), (vandalized taurus)###0.0
+(data-stolen-from leo), (data-stolen-from taurus), (vandalized taurus)###0.0
+(vandalized perseus), (vandalized taurus), (vandalized leo)###0.0
+(data-stolen-from perseus), (data-stolen-from taurus), (data-stolen-from aries)###0.0
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (vandalized scorpio), (data-stolen-from scorpio), (data-stolen-from virgo)
+1.0000000000000002

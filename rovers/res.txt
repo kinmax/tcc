@@ -1,6 +1,18 @@
 GOALS-6
 LANDMARKS_AVG-16.666666666666668
-OBS-4
-SPREAD-2
+OBS-7
+SPREAD-1
 CORRECT-TRUE
-TIME-7.201053553959355
+TIME-39.953079383820295
+PROBABILITIES:
+#####
+(communicated_soil_data waypoint2), (communicated_rock_data waypoint1), (communicated_image_data objective1 high_res), (communicated_image_data objective2 high_res)###0.27468933943754087
+(communicated_soil_data waypoint2), (communicated_rock_data waypoint0), (communicated_image_data objective1 high_res), (communicated_image_data objective2 high_res)###0.21328819297503174
+(communicated_soil_data waypoint3), (communicated_rock_data waypoint1), (communicated_image_data objective0 low_res), (communicated_image_data objective1 high_res)###0.2014388489208633
+(communicated_soil_data waypoint1), (communicated_rock_data waypoint0), (communicated_image_data objective0 high_res), (communicated_image_data objective2 high_res)###0.12361020274689338
+(communicated_soil_data waypoint3), (communicated_rock_data waypoint0), (communicated_image_data objective0 high_res), (communicated_image_data objective2 high_res)###0.11633901435001731
+(communicated_soil_data waypoint1), (communicated_soil_data waypoint3), (communicated_image_data objective2 low_res), (communicated_image_data objective0 high_res)###0.07063440156965335
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (communicated_soil_data waypoint2), (communicated_rock_data waypoint1), (communicated_image_data objective1 high_res), (communicated_image_data objective2 high_res)
+1.0

@@ -1,1 +1,1 @@
-(pointing satellite1 star6), (pointing satellite2 phenomenon5), (have_image star7 image2), (have_image phenomenon5 image2), (have_image planet8 image2), (have_image planet9 image3), (have_image planet11 image2)
+(have_image planet3 infrared1), (have_image planet4 infrared0), (have_image phenomenon5 image2), (have_image phenomenon6 infrared1), (have_image star7 infrared1)

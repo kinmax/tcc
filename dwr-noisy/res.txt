@@ -1,6 +1,19 @@
-GOALS-6
-LANDMARKS_AVG-45.5
-OBS-8
-SPREAD-2
-CORRECT-FALSE
-TIME-7.3423258499242365
+GOALS-7
+LANDMARKS_AVG-51.0
+OBS-29
+SPREAD-4
+CORRECT-TRUE
+TIME-43.93789570778608
+PROBABILITIES:
+#####
+(in cb p1), (in cc p3), (in cf p3), (in ca p2), (in cd p2), (in ce p2), (on cd ca), (on ca ce)###0.15720467822098758
+(in cb p2), (in cc p2), (in cf p2), (in ca p2), (in cd p3), (in ce p2), (on cb cf), (on ca ce)###0.1568490115281799
+(in cb p2), (in cc p3), (in cf p2), (in ca p3), (in cd p2), (in ce p2), (on cb cf), (on cf pallet)###0.15258101121448792
+(in cb p3), (in cc p2), (in cf p3), (in ca p2), (in cd p2), (in ce p2), (on cf pallet), (on ce pallet)###0.14961488521031835
+(in cb p2), (in cc p2), (in cf p3), (in ca p2), (in cd p2), (in ce p3), (on cf pallet), (on cd pallet)###0.13942134358060437
+(in cb p2), (in cc p2), (in cf p2), (in ca p3), (in cd p3), (in ce p3), (on cd ca), (on cc cb)###0.13327040195204828
+(in cb p3), (in cc p3), (in cf p3), (in ca p3), (in cd p3), (in ce p3), (on cc cb), (on cb ce)###0.11105866829337356
+#####
+PROBABILITY_CORRECT-TRUE
+REAL GOAL: (in cb p2), (in cc p2), (in cf p2), (in ca p2), (in cd p3), (in ce p2), (on cb cf), (on ca ce)
+0.9999999999999999
